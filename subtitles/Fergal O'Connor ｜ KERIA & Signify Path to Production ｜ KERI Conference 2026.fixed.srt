@@ -338,15 +338,15 @@ which essentially handle all of the
 76
 00:01:38,880 --> 00:01:42,550
 which essentially handle all of the
-verification of KERI HDCER up in the
+verification of KERI ACDC up in the
 
 77
 00:01:42,550 --> 00:01:42,560
-verification of KERI HDCER up in the
+verification of KERI ACDC up in the
 
 78
 00:01:42,560 --> 00:01:45,109
-verification of KERI HDCER up in the
+verification of KERI ACDC up in the
 cloud and allow you to use an edge
 
 79
