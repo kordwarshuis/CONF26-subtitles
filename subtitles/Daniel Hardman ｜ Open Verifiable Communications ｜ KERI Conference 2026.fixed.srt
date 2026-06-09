@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:05,670 --> 00:00:07,358
 Daniel, you will introduce yourself.
 Sure. Good.
@@ -60,7 +60,7 @@ state that I've never lived in telling
 
 13
 00:00:40,640 --> 00:00:42,718
-state that I've never lived in telling  
+state that I've never lived in telling
 me how important it was that I donate $3
 
 14

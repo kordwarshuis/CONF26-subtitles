@@ -1,5111 +1,2819 @@
-1
-00:00:05,590 --> 00:00:05,600
+﻿1
+00:00:05,590 --> 00:00:08,480
 and thank you all for being here. So,
+I've been accused many times in the
 
 2
-00:00:05,600 --> 00:00:08,470
-and thank you all for being here. So,
+00:00:08,480 --> 00:00:11,120
 I've been accused many times in the
+past of oversimplifying. I can say
 
 3
-00:00:08,470 --> 00:00:08,480
-I've been accused many times in the
+00:00:11,120 --> 00:00:15,200
+past of oversimplifying. I can say
+here and now that I never oversimplify.
 
 4
-00:00:08,480 --> 00:00:11,110
-I've been accused many times in the
-past of oversimplifying. I can say
+00:00:15,200 --> 00:00:19,760
+here and now that I never oversimplify.
+However I do like to simplify
 
 5
-00:00:11,110 --> 00:00:11,120
-past of oversimplifying. I can say
+00:00:19,760 --> 00:00:26,320
+However I do like to simplify
+things and the world out there needs to
 
 6
-00:00:11,120 --> 00:00:15,190
-past of oversimplifying. I can say
-here and now that I never oversimplify.
+00:00:26,320 --> 00:00:30,640
+things and the world out there needs to
+understand what KERI and ACDC's can
 
 7
-00:00:15,190 --> 00:00:15,200
-here and now that I never oversimplify.
+00:00:30,640 --> 00:00:33,920
+understand what KERI and ACDC's can
+deliver to the world and we need to
 
 8
-00:00:15,200 --> 00:00:19,750
-here and now that I never oversimplify.
-However I do like to simplify
+00:00:33,920 --> 00:00:37,520
+deliver to the world and we need to
+find ways of simplifying our messages to
 
 9
-00:00:19,750 --> 00:00:19,760
-However I do like to simplify
+00:00:37,520 --> 00:00:42,640
+find ways of simplifying our messages to
+them to make sure that they get it.
 
 10
-00:00:19,760 --> 00:00:26,310
-However I do like to simplify
-things and the world out there needs to
+00:00:42,640 --> 00:00:46,399
+them to make sure that they get it.
+I thank Thomas for his great
 
 11
-00:00:26,310 --> 00:00:26,320
-things and the world out there needs to
+00:00:46,399 --> 00:00:49,120
+I thank Thomas for his great
+presentation explaining in high level
 
 12
-00:00:26,320 --> 00:00:30,630
-things and the world out there needs to
-understand what KERI and ACDC's can
+00:00:49,120 --> 00:00:51,840
+presentation explaining in high level
+terms what KERI is all about and then
 
 13
-00:00:30,630 --> 00:00:30,640
-understand what KERI and ACDC's can
+00:00:51,840 --> 00:00:54,640
+terms what KERI is all about and then
+diving into the lower level detail and
 
 14
-00:00:30,640 --> 00:00:33,910
-understand what KERI and ACDC's can
-deliver to the world and we need to
+00:00:54,640 --> 00:00:58,079
+diving into the lower level detail and
+I'm going to a certain extent
 
 15
-00:00:33,910 --> 00:00:33,920
-deliver to the world and we need to
+00:00:58,079 --> 00:01:00,160
+I'm going to a certain extent
+follow that tack.
 
 16
-00:00:33,920 --> 00:00:37,510
-deliver to the world and we need to
-find ways of simplifying our messages to
+00:01:00,160 --> 00:01:03,440
+follow that tack.
+So let's let's get going.
 
 17
-00:00:37,510 --> 00:00:37,520
-find ways of simplifying our messages to
+00:01:03,440 --> 00:01:06,640
+So let's let's get going.
+So I want to start by talking about how
 
 18
-00:00:37,520 --> 00:00:42,630
-find ways of simplifying our messages to
-them to make sure that they get it.
+00:01:06,640 --> 00:01:09,520
+So I want to start by talking about how
+trust used to work.
 
 19
-00:00:42,630 --> 00:00:42,640
-them to make sure that they get it.
+00:01:09,520 --> 00:01:12,000
+trust used to work.
+It used to be
 
 20
-00:00:42,640 --> 00:00:46,389
-them to make sure that they get it.
-I thank Thomas for his great
+00:01:12,000 --> 00:01:14,960
+It used to be
+all about personal reputation. This in
 
 21
-00:00:46,389 --> 00:00:46,399
-I thank Thomas for his great
+00:01:14,960 --> 00:01:17,680
+all about personal reputation. This in
+in the days when you wanted to KERI out
 
 22
-00:00:46,399 --> 00:00:49,110
-I thank Thomas for his great
-presentation explaining in high level
+00:01:17,680 --> 00:01:19,600
+in the days when you wanted to KERI out
+some kind of transaction, buy something,
 
 23
-00:00:49,110 --> 00:00:49,120
-presentation explaining in high level
+00:01:19,600 --> 00:01:21,600
+some kind of transaction, buy something,
+you would go along to the person who was
 
 24
-00:00:49,120 --> 00:00:51,830
-presentation explaining in high level
-terms what KERI is all about and then
+00:01:21,600 --> 00:01:24,080
+you would go along to the person who was
+selling it or providing it. You would
 
 25
-00:00:51,830 --> 00:00:51,840
-terms what KERI is all about and then
+00:01:24,080 --> 00:01:25,759
+selling it or providing it. You would
+talk to them, you would make a deal, you
 
 26
-00:00:51,840 --> 00:00:54,630
-terms what KERI is all about and then
-diving into the lower level detail and
+00:01:25,759 --> 00:01:30,080
+talk to them, you would make a deal, you
+shake hands and you would decide
 
 27
-00:00:54,630 --> 00:00:54,640
-diving into the lower level detail and
+00:01:30,080 --> 00:01:31,920
+shake hands and you would decide
+whether you're trusting them or not. If
 
 28
-00:00:54,640 --> 00:00:58,069
-diving into the lower level detail and
-I'm going to a certain extent
+00:01:31,920 --> 00:01:33,439
+whether you're trusting them or not. If
+you trusted them, you would give them
 
 29
-00:00:58,069 --> 00:00:58,079
-I'm going to a certain extent
+00:01:33,439 --> 00:01:34,720
+you trusted them, you would give them
+their money. They would give you the
 
 30
-00:00:58,079 --> 00:01:00,150
-I'm going to a certain extent
-follow that tack.
+00:01:34,720 --> 00:01:39,040
+their money. They would give you the
+goods and off you went. And so trust
 
 31
-00:01:00,150 --> 00:01:00,160
-follow that tack.
+00:01:39,040 --> 00:01:44,230
+goods and off you went. And so trust
+depended on physical presence.
 
 32
-00:01:00,160 --> 00:01:03,430
-follow that tack.
-So let's let's get going.
-
-33
-00:01:03,430 --> 00:01:03,440
-So let's let's get going.
-
-34
-00:01:03,440 --> 00:01:06,630
-So let's let's get going.
-So I want to start by talking about how
-
-35
-00:01:06,630 --> 00:01:06,640
-So I want to start by talking about how
-
-36
-00:01:06,640 --> 00:01:09,510
-So I want to start by talking about how
-trust used to work.
-
-37
-00:01:09,510 --> 00:01:09,520
-trust used to work.
-
-38
-00:01:09,520 --> 00:01:11,990
-trust used to work.
-It used to be
-
-39
-00:01:11,990 --> 00:01:12,000
-It used to be
-
-40
-00:01:12,000 --> 00:01:14,950
-It used to be
-all about personal reputation. This in
-
-41
-00:01:14,950 --> 00:01:14,960
-all about personal reputation. This in
-
-42
-00:01:14,960 --> 00:01:17,670
-all about personal reputation. This in
-in the days when you wanted to KERI out
-
-43
-00:01:17,670 --> 00:01:17,680
-in the days when you wanted to KERI out
-
-44
-00:01:17,680 --> 00:01:19,590
-in the days when you wanted to KERI out
-some kind of transaction, buy something,
-
-45
-00:01:19,590 --> 00:01:19,600
-some kind of transaction, buy something,
-
-46
-00:01:19,600 --> 00:01:21,590
-some kind of transaction, buy something,
-you would go along to the person who was
-
-47
-00:01:21,590 --> 00:01:21,600
-you would go along to the person who was
-
-48
-00:01:21,600 --> 00:01:24,070
-you would go along to the person who was
-selling it or providing it. You would
-
-49
-00:01:24,070 --> 00:01:24,080
-selling it or providing it. You would
-
-50
-00:01:24,080 --> 00:01:25,749
-selling it or providing it. You would
-talk to them, you would make a deal, you
-
-51
-00:01:25,749 --> 00:01:25,759
-talk to them, you would make a deal, you
-
-52
-00:01:25,759 --> 00:01:30,070
-talk to them, you would make a deal, you
-shake hands and you would decide
-
-53
-00:01:30,070 --> 00:01:30,080
-shake hands and you would decide
-
-54
-00:01:30,080 --> 00:01:31,910
-shake hands and you would decide
-whether you're trusting them or not. If
-
-55
-00:01:31,910 --> 00:01:31,920
-whether you're trusting them or not. If
-
-56
-00:01:31,920 --> 00:01:33,429
-whether you're trusting them or not. If
-you trusted them, you would give them
-
-57
-00:01:33,429 --> 00:01:33,439
-you trusted them, you would give them
-
-58
-00:01:33,439 --> 00:01:34,710
-you trusted them, you would give them
-their money. They would give you the
-
-59
-00:01:34,710 --> 00:01:34,720
-their money. They would give you the
-
-60
-00:01:34,720 --> 00:01:39,030
-their money. They would give you the
-goods and off you went. And so trust
-
-61
-00:01:39,030 --> 00:01:39,040
-goods and off you went. And so trust
-
-62
-00:01:39,040 --> 00:01:42,390
-goods and off you went. And so trust
-depended on physical presence.
-
-63
-00:01:42,390 --> 00:01:42,400
-depended on physical presence.
-
-64
-00:01:42,400 --> 00:01:44,230
-depended on physical presence.
-
-65
 00:01:44,230 --> 00:01:44,240
 
 
-66
-00:01:44,240 --> 00:01:46,069
-All of the verification that took place
-
-67
-00:01:46,069 --> 00:01:46,079
-all of the verification that took place
-
-68
-00:01:46,079 --> 00:01:50,230
+33
+00:01:44,240 --> 00:01:50,240
 all of the verification that took place
 was pretty well immediate and you
 
-69
-00:01:50,230 --> 00:01:50,240
-was pretty well immediate and you
-
-70
-00:01:50,240 --> 00:01:52,710
+34
+00:01:50,240 --> 00:01:52,720
 was pretty well immediate and you
 would decide do I do I really trust this
 
-71
-00:01:52,710 --> 00:01:52,720
-would decide do I do I really trust this
-
-72
-00:01:52,720 --> 00:01:56,149
+35
+00:01:52,720 --> 00:01:56,159
 would decide do I do I really trust this
 person? If so here's here's your
 
-73
-00:01:56,149 --> 00:01:56,159
-person? If so here's here's your
-
-74
-00:01:56,159 --> 00:01:59,030
+36
+00:01:56,159 --> 00:01:59,040
 person? If so here's here's your
 money. I'll take the goods now or
 
-75
-00:01:59,030 --> 00:01:59,040
-money. I'll take the goods now or
-
-76
-00:01:59,040 --> 00:02:03,190
+37
+00:01:59,040 --> 00:02:03,200
 money. I'll take the goods now or
 maybe later.
 
-77
-00:02:03,190 --> 00:02:03,200
-maybe later.
-
-78
-00:02:03,200 --> 00:02:05,270
+38
+00:02:03,200 --> 00:02:05,280
 maybe later.
 Fraud did exist. Of course there would
 
-79
-00:02:05,270 --> 00:02:05,280
-fraud did exist. Of course there would
-
-80
-00:02:05,280 --> 00:02:06,789
+39
+00:02:05,280 --> 00:02:06,799
 fraud did exist. Of course there would
 be people who would promise to do
 
-81
-00:02:06,789 --> 00:02:06,799
-be people who would promise to do
-
-82
-00:02:06,799 --> 00:02:10,150
+40
+00:02:06,799 --> 00:02:10,160
 be people who would promise to do
 something and then not deliver it but
 
-83
-00:02:10,150 --> 00:02:10,160
-something and then not deliver it but
-
-84
-00:02:10,160 --> 00:02:12,630
+41
+00:02:10,160 --> 00:02:12,640
 something and then not deliver it but
 the scale was limited to I guess the
 
-85
-00:02:12,630 --> 00:02:12,640
-the scale was limited to I guess the
-
-86
-00:02:12,640 --> 00:02:13,990
+42
+00:02:12,640 --> 00:02:14,000
 the scale was limited to I guess the
 person that they were they were doing
 
-87
-00:02:13,990 --> 00:02:14,000
-person that they were they were doing
-
-88
+43
 00:02:14,000 --> 00:02:18,070
 person that they were they were doing
 the deal with.
 
-89
-00:02:20,470 --> 00:02:20,480
-So that was in the distant past. Now
-
-90
-00:02:20,480 --> 00:02:22,710
+44
+00:02:20,470 --> 00:02:22,720
 So that was in the distant past. Now
 things have changed and in fact they
 
-91
-00:02:22,710 --> 00:02:22,720
-things have changed and in fact they
-
-92
-00:02:22,720 --> 00:02:26,309
+45
+00:02:22,720 --> 00:02:26,319
 things have changed and in fact they
 changed at least a couple of hundred
 
-93
-00:02:26,309 --> 00:02:26,319
-changed at least a couple of hundred
-
-94
-00:02:26,319 --> 00:02:29,750
+46
+00:02:26,319 --> 00:02:29,760
 changed at least a couple of hundred
 years ago when the ability to
 
-95
-00:02:29,750 --> 00:02:29,760
-years ago when the ability to
-
-96
-00:02:29,760 --> 00:02:31,270
+47
+00:02:29,760 --> 00:02:31,280
 years ago when the ability to
 communicate in different ways came
 
-97
-00:02:31,270 --> 00:02:31,280
-communicate in different ways came
-
-98
-00:02:31,280 --> 00:02:34,309
+48
+00:02:31,280 --> 00:02:34,319
 communicate in different ways came
 along.
 
-99
-00:02:34,309 --> 00:02:34,319
-along.
-
-100
-00:02:34,319 --> 00:02:37,430
+49
+00:02:34,319 --> 00:02:37,440
 along.
 But it they changed in a very big way
 
-101
-00:02:37,430 --> 00:02:37,440
-but it they changed in a very big way
-
-102
-00:02:37,440 --> 00:02:41,589
+50
+00:02:37,440 --> 00:02:41,599
 but it they changed in a very big way
 when global communications arrived
 
-103
-00:02:41,589 --> 00:02:41,599
-when global communications arrived
-
-104
-00:02:41,599 --> 00:02:44,630
+51
+00:02:41,599 --> 00:02:44,640
 when global communications arrived
 firstly with the telephone and then
 
-105
-00:02:44,630 --> 00:02:44,640
-firstly with the telephone and then
-
-106
-00:02:44,640 --> 00:02:49,110
+52
+00:02:44,640 --> 00:02:49,120
 firstly with the telephone and then
 Fax machines and of course now
 
-107
-00:02:49,110 --> 00:02:49,120
-Fax machines and of course now
-
-108
+53
 00:02:49,120 --> 00:02:52,470
 Fax machines and of course now
 the internet.
 
-109
-00:02:55,190 --> 00:02:55,200
-What the internet enabled us to be able
-
-110
-00:02:55,200 --> 00:02:59,350
+54
+00:02:55,190 --> 00:02:59,360
 What the internet enabled us to be able
 to do is execute transactions remotely
 
-111
-00:02:59,350 --> 00:02:59,360
-to do is execute transactions remotely
-
-112
-00:02:59,360 --> 00:03:03,270
+55
+00:02:59,360 --> 00:03:03,280
 to do is execute transactions remotely
 which is a great thing in many ways.
 
-113
-00:03:03,270 --> 00:03:03,280
-which is a great thing in many ways.
-
-114
-00:03:03,280 --> 00:03:06,630
+56
+00:03:03,280 --> 00:03:06,640
 which is a great thing in many ways.
 It enabled international commerce to
 
-115
-00:03:06,630 --> 00:03:06,640
-It enabled international commerce to
-
-116
-00:03:06,640 --> 00:03:08,390
+57
+00:03:06,640 --> 00:03:08,400
 It enabled international commerce to
 be able to scale up in so many
 
-117
-00:03:08,390 --> 00:03:08,400
-be able to scale up in so many
-
-118
-00:03:08,400 --> 00:03:11,030
+58
+00:03:08,400 --> 00:03:11,040
 be able to scale up in so many
 different ways and also allow regular
 
-119
-00:03:11,030 --> 00:03:11,040
-different ways and also allow regular
-
-120
-00:03:11,040 --> 00:03:14,470
+59
+00:03:11,040 --> 00:03:14,480
 different ways and also allow regular
 humans to participate in that
 
-121
-00:03:14,470 --> 00:03:14,480
-humans to participate in that
-
-122
-00:03:14,480 --> 00:03:16,229
+60
+00:03:14,480 --> 00:03:16,239
 humans to participate in that
 kind of commerce. You know, we can go
 
-123
-00:03:16,229 --> 00:03:16,239
-kind of commerce. You know, we can go
-
-124
-00:03:16,239 --> 00:03:17,910
+61
+00:03:16,239 --> 00:03:17,920
 kind of commerce. You know, we can go
 online to Amazon, we can buy what we
 
-125
-00:03:17,910 --> 00:03:17,920
-online to Amazon, we can buy what we
-
-126
-00:03:17,920 --> 00:03:19,830
+62
+00:03:17,920 --> 00:03:19,840
 online to Amazon, we can buy what we
 want when we want and it turns up the
 
-127
-00:03:19,830 --> 00:03:19,840
-want when we want and it turns up the
-
-128
-00:03:19,840 --> 00:03:23,430
+63
+00:03:19,840 --> 00:03:23,440
 want when we want and it turns up the
 next day. it's very convenient.
 
-129
-00:03:23,430 --> 00:03:23,440
-next day. it's very convenient.
-
-130
-00:03:23,440 --> 00:03:26,869
+64
+00:03:23,440 --> 00:03:26,879
 next day. it's very convenient.
 In order to support that, when the
 
-131
-00:03:26,869 --> 00:03:26,879
-In order to support that, when the
-
-132
-00:03:26,879 --> 00:03:29,030
+65
+00:03:26,879 --> 00:03:29,040
 In order to support that, when the
 internet came along, it was a almost a
 
-133
-00:03:29,030 --> 00:03:29,040
-internet came along, it was a almost a
-
-134
-00:03:29,040 --> 00:03:31,509
+66
+00:03:29,040 --> 00:03:31,519
 internet came along, it was a almost a
 natural knee-jerk reaction to say, well,
 
-135
-00:03:31,509 --> 00:03:31,519
-natural knee-jerk reaction to say, well,
-
-136
-00:03:31,519 --> 00:03:33,750
+67
+00:03:31,519 --> 00:03:33,760
 natural knee-jerk reaction to say, well,
 if people are going to use online
 
-137
-00:03:33,750 --> 00:03:33,760
-if people are going to use online
-
-138
-00:03:33,760 --> 00:03:37,350
+68
+00:03:33,760 --> 00:03:37,360
 if people are going to use online
 systems, they need to authenticate to
 
-139
-00:03:37,350 --> 00:03:37,360
-systems, they need to authenticate to
-
-140
-00:03:37,360 --> 00:03:39,190
+69
+00:03:37,360 --> 00:03:39,200
 systems, they need to authenticate to
 be able to access it. And usernames and
 
-141
-00:03:39,190 --> 00:03:39,200
-be able to access it. And usernames and
-
-142
-00:03:39,200 --> 00:03:42,309
+70
+00:03:39,200 --> 00:03:42,319
 be able to access it. And usernames and
 passwords was the way that we did that.
 
-143
-00:03:42,309 --> 00:03:42,319
-passwords was the way that we did that.
-
-144
-00:03:42,319 --> 00:03:45,030
+71
+00:03:42,319 --> 00:03:45,040
 passwords was the way that we did that.
 So you log in, you get a session
 
-145
-00:03:45,030 --> 00:03:45,040
-So you log in, you get a session
-
-146
-00:03:45,040 --> 00:03:47,990
+72
+00:03:45,040 --> 00:03:48,000
 So you log in, you get a session
 token and the system that
 
-147
-00:03:47,990 --> 00:03:48,000
-token and the system that
-
-148
-00:03:48,000 --> 00:03:49,830
+73
+00:03:48,000 --> 00:03:49,840
 token and the system that
 you're talking to uses that token to
 
-149
-00:03:49,830 --> 00:03:49,840
-you're talking to uses that token to
-
-150
-00:03:49,840 --> 00:03:54,789
+74
+00:03:49,840 --> 00:03:54,799
 you're talking to uses that token to
 decide what you're allowed to do.
 
-151
-00:03:54,789 --> 00:03:54,799
-decide what you're allowed to do.
-
-152
-00:03:54,799 --> 00:03:58,309
+75
+00:03:54,799 --> 00:03:58,319
 decide what you're allowed to do.
 The end result so far has been rampant
 
-153
-00:03:58,309 --> 00:03:58,319
-The end result so far has been rampant
-
-154
-00:03:58,319 --> 00:04:02,949
+76
+00:03:58,319 --> 00:04:02,959
 The end result so far has been rampant
 online fraud and we've done what we can
 
-155
-00:04:02,949 --> 00:04:02,959
-online fraud and we've done what we can
-
-156
-00:04:02,959 --> 00:04:08,390
+77
+00:04:02,959 --> 00:04:08,400
 online fraud and we've done what we can
 to limit that. Mostly by trying to
 
-157
-00:04:08,390 --> 00:04:08,400
-to limit that. Mostly by trying to
-
-158
-00:04:08,400 --> 00:04:13,270
+78
+00:04:08,400 --> 00:04:13,280
 to limit that. Mostly by trying to
 detect fraud which is in my view a
 
-159
-00:04:13,270 --> 00:04:13,280
-detect fraud which is in my view a
-
-160
-00:04:13,280 --> 00:04:18,229
+79
+00:04:13,280 --> 00:04:18,239
 detect fraud which is in my view a
 losing battle. The fraudsters have so
 
-161
-00:04:18,229 --> 00:04:18,239
-losing battle. The fraudsters have so
-
-162
-00:04:18,239 --> 00:04:20,390
+80
+00:04:18,239 --> 00:04:20,400
 losing battle. The fraudsters have so
 many tools available to them to be able
 
-163
-00:04:20,390 --> 00:04:20,400
-many tools available to them to be able
-
-164
-00:04:20,400 --> 00:04:23,590
+81
+00:04:20,400 --> 00:04:23,600
 many tools available to them to be able
 to fool the general public into
 
-165
-00:04:23,590 --> 00:04:23,600
-to fool the general public into
-
-166
-00:04:23,600 --> 00:04:26,469
+82
+00:04:23,600 --> 00:04:26,479
 to fool the general public into
 thinking that they are someone
 
-167
-00:04:26,469 --> 00:04:26,479
-thinking that they are someone
-
-168
-00:04:26,479 --> 00:04:27,990
+83
+00:04:26,479 --> 00:04:28,000
 thinking that they are someone
 legitimate.
 
-169
-00:04:27,990 --> 00:04:28,000
-legitimate.
-
-170
-00:04:28,000 --> 00:04:31,749
+84
+00:04:28,000 --> 00:04:31,759
 legitimate.
 and detection is we're always going to
 
-171
-00:04:31,749 --> 00:04:31,759
-and detection is we're always going to
-
-172
-00:04:31,759 --> 00:04:33,830
+85
+00:04:31,759 --> 00:04:33,840
 and detection is we're always going to
 be losing that battle to try and detect
 
-173
-00:04:33,830 --> 00:04:33,840
-be losing that battle to try and detect
-
-174
+86
 00:04:33,840 --> 00:04:39,430
 be losing that battle to try and detect
 fraudulent activity.
 
-175
-00:04:42,469 --> 00:04:42,479
-So now let's let's this is my own
-
-176
-00:04:42,479 --> 00:04:45,909
+87
+00:04:42,469 --> 00:04:45,919
 So now let's let's this is my own
 personal view of the distant future in
 
-177
-00:04:45,909 --> 00:04:45,919
-personal view of the distant future in
-
-178
-00:04:45,919 --> 00:04:50,310
+88
+00:04:45,919 --> 00:04:50,320
 personal view of the distant future in
 which everything that we do will be
 
-179
-00:04:50,310 --> 00:04:50,320
-which everything that we do will be
-
-180
-00:04:50,320 --> 00:04:53,510
+89
+00:04:50,320 --> 00:04:53,520
 which everything that we do will be
 signed. So, it's a signed intent
 
-181
-00:04:53,510 --> 00:04:53,520
-signed. So, it's a signed intent
-
-182
-00:04:53,520 --> 00:04:55,350
+90
+00:04:53,520 --> 00:04:55,360
 signed. So, it's a signed intent
 world
 
-183
-00:04:55,350 --> 00:04:55,360
-world
-
-184
-00:04:55,360 --> 00:04:57,189
+91
+00:04:55,360 --> 00:04:57,199
 world
 and I think the way we'll end up if you
 
-185
-00:04:57,189 --> 00:04:57,199
-and I think the way we'll end up if you
-
-186
-00:04:57,199 --> 00:04:59,189
+92
+00:04:57,199 --> 00:04:59,199
 and I think the way we'll end up if you
 think maybe four or five years in the
 
-187
-00:04:59,189 --> 00:04:59,199
-think maybe four or five years in the
-
-188
-00:04:59,199 --> 00:05:00,870
+93
+00:04:59,199 --> 00:05:00,880
 think maybe four or five years in the
 future
 
-189
-00:05:00,870 --> 00:05:00,880
-future
-
-190
-00:05:00,880 --> 00:05:04,629
+94
+00:05:00,880 --> 00:05:04,639
 future
 We will all have an agent on our
 
-191
-00:05:04,629 --> 00:05:04,639
-We will all have an agent on our
-
-192
-00:05:04,639 --> 00:05:08,150
+95
+00:05:04,639 --> 00:05:08,160
 We will all have an agent on our
 devices that does things for us.
 
-193
-00:05:08,150 --> 00:05:08,160
-devices that does things for us.
-
-194
-00:05:08,160 --> 00:05:10,629
+96
+00:05:08,160 --> 00:05:10,639
 devices that does things for us.
 You'll ask your agent AI agent to do
 
-195
-00:05:10,629 --> 00:05:10,639
-you'll ask your agent AI agent to do
-
-196
-00:05:10,639 --> 00:05:13,670
+97
+00:05:10,639 --> 00:05:13,680
 you'll ask your agent AI agent to do
 something. It'll be maybe move some
 
-197
-00:05:13,670 --> 00:05:13,680
-something. It'll be maybe move some
-
-198
-00:05:13,680 --> 00:05:15,670
+98
+00:05:13,680 --> 00:05:15,680
 something. It'll be maybe move some
 money from your checking account to your
 
-199
-00:05:15,670 --> 00:05:15,680
-money from your checking account to your
-
-200
+99
 00:05:15,680 --> 00:05:19,110
 money from your checking account to your
 savings account.
 
-201
-00:05:22,310 --> 00:05:22,320
-the AI agent on your device because it
-
-202
-00:05:22,320 --> 00:05:24,790
+100
+00:05:22,310 --> 00:05:24,800
 the AI agent on your device because it
 knows you've authenticated with that
 
-203
-00:05:24,790 --> 00:05:24,800
-knows you've authenticated with that
-
-204
-00:05:24,800 --> 00:05:28,390
+101
+00:05:24,800 --> 00:05:28,400
 knows you've authenticated with that
 device biometrically. It'll wrap
 
-205
-00:05:28,390 --> 00:05:28,400
-device biometrically. It'll wrap
-
-206
-00:05:28,400 --> 00:05:31,670
+102
+00:05:28,400 --> 00:05:31,680
 device biometrically. It'll wrap
 that request in an ACDC,
 
-207
-00:05:31,670 --> 00:05:31,680
-that request in an ACDC,
-
-208
-00:05:31,680 --> 00:05:37,270
+103
+00:05:31,680 --> 00:05:37,280
 that request in an ACDC,
 sign it with your private key.
 
-209
-00:05:37,270 --> 00:05:37,280
-sign it with your private key.
-
-210
-00:05:37,280 --> 00:05:39,670
+104
+00:05:37,280 --> 00:05:39,680
 sign it with your private key.
 It'll just use your face ID or whatever
 
-211
-00:05:39,670 --> 00:05:39,680
-it'll just use your face ID or whatever
-
-212
-00:05:39,680 --> 00:05:41,430
+105
+00:05:39,680 --> 00:05:41,440
 it'll just use your face ID or whatever
 other biometric it's using to make sure
 
-213
-00:05:41,430 --> 00:05:41,440
-other biometric it's using to make sure
-
-214
-00:05:41,440 --> 00:05:43,749
+106
+00:05:41,440 --> 00:05:43,759
 other biometric it's using to make sure
 it really is you.
 
-215
-00:05:43,749 --> 00:05:43,759
-it really is you.
-
-216
-00:05:43,759 --> 00:05:47,430
+107
+00:05:43,759 --> 00:05:47,440
 it really is you.
 It may add additional signatures if
 
-217
-00:05:47,430 --> 00:05:47,440
-It may add additional signatures if
-
-218
-00:05:47,440 --> 00:05:50,870
+108
+00:05:47,440 --> 00:05:50,880
 It may add additional signatures if
 necessary. So if you're a child
 
-219
-00:05:50,870 --> 00:05:50,880
-necessary. So if you're a child
-
-220
-00:05:50,880 --> 00:05:52,469
+109
+00:05:50,880 --> 00:05:52,479
 necessary. So if you're a child
 using your device, it may be that
 
-221
-00:05:52,469 --> 00:05:52,479
-using your device, it may be that
-
-222
-00:05:52,479 --> 00:05:55,029
+110
+00:05:52,479 --> 00:05:55,039
 using your device, it may be that
 whatever you're asking your agent
 
-223
-00:05:55,029 --> 00:05:55,039
-whatever you're asking your agent
-
-224
-00:05:55,039 --> 00:05:57,430
+111
+00:05:55,039 --> 00:05:57,440
 whatever you're asking your agent
 to do requires your parents permission.
 
-225
-00:05:57,430 --> 00:05:57,440
-to do requires your parents permission.
-
-226
-00:05:57,440 --> 00:05:59,749
+112
+00:05:57,440 --> 00:05:59,759
 to do requires your parents permission.
 So, you may get an additional signature
 
-227
-00:05:59,749 --> 00:05:59,759
-So, you may get an additional signature
-
-228
-00:05:59,759 --> 00:06:03,189
+113
+00:05:59,759 --> 00:06:03,199
 So, you may get an additional signature
 added to that request.
 
-229
-00:06:03,189 --> 00:06:03,199
-added to that request.
-
-230
-00:06:03,199 --> 00:06:06,390
+114
+00:06:03,199 --> 00:06:06,400
 added to that request.
 That request may include relevant
 
-231
-00:06:06,390 --> 00:06:06,400
-That request may include relevant
-
-232
-00:06:06,400 --> 00:06:08,469
+115
+00:06:06,400 --> 00:06:08,479
 That request may include relevant
 credentials, your SEDI credential for
 
-233
-00:06:08,469 --> 00:06:08,479
-credentials, your SEDI credential for
-
-234
-00:06:08,479 --> 00:06:10,710
+116
+00:06:08,479 --> 00:06:10,720
 credentials, your SEDI credential for
 example, or who knows what other
 
-235
-00:06:10,710 --> 00:06:10,720
-example, or who knows what other
-
-236
-00:06:10,720 --> 00:06:12,710
+117
+00:06:10,720 --> 00:06:12,720
 example, or who knows what other
 entitlement credentials that
 
-237
-00:06:12,710 --> 00:06:12,720
-entitlement credentials that
-
-238
-00:06:12,720 --> 00:06:15,110
+118
+00:06:12,720 --> 00:06:15,120
 entitlement credentials that
 you may have.
 
-239
-00:06:15,110 --> 00:06:15,120
-you may have.
-
-240
-00:06:15,120 --> 00:06:17,189
+119
+00:06:15,120 --> 00:06:17,199
 you may have.
 That request will then get sent to some
 
-241
-00:06:17,189 --> 00:06:17,199
-That request will then get sent to some
-
-242
-00:06:17,199 --> 00:06:19,749
+120
+00:06:17,199 --> 00:06:19,759
 That request will then get sent to some
 kind of execution service. If it's your
 
-243
-00:06:19,749 --> 00:06:19,759
-kind of execution service. If it's your
-
-244
-00:06:19,759 --> 00:06:20,950
+121
+00:06:19,759 --> 00:06:20,960
 kind of execution service. If it's your
 bank, because you're moving money from
 
-245
-00:06:20,950 --> 00:06:20,960
-bank, because you're moving money from
-
-246
-00:06:20,960 --> 00:06:22,710
+122
+00:06:20,960 --> 00:06:22,720
 bank, because you're moving money from
 one account to another, then it'll be
 
-247
-00:06:22,710 --> 00:06:22,720
-one account to another, then it'll be
-
-248
-00:06:22,720 --> 00:06:25,830
+123
+00:06:22,720 --> 00:06:25,840
 one account to another, then it'll be
 your bank's your bank's online system.
 
-249
-00:06:25,830 --> 00:06:25,840
-your bank's your bank's online system.
-
-250
-00:06:25,840 --> 00:06:28,710
+124
+00:06:25,840 --> 00:06:28,720
 your bank's your bank's online system.
 It'll verify the trustability of that
 
-251
-00:06:28,710 --> 00:06:28,720
-It'll verify the trustability of that
-
-252
-00:06:28,720 --> 00:06:31,510
+125
+00:06:28,720 --> 00:06:31,520
 It'll verify the trustability of that
 request. It'll see where it came
 
-253
-00:06:31,510 --> 00:06:31,520
-request. It'll see where it came
-
-254
-00:06:31,520 --> 00:06:35,189
+126
+00:06:31,520 --> 00:06:35,199
 request. It'll see where it came
 from. It will see your signature. It
 
-255
-00:06:35,189 --> 00:06:35,199
-from. It will see your signature. It
-
-256
-00:06:35,199 --> 00:06:36,790
+127
+00:06:35,199 --> 00:06:36,800
 from. It will see your signature. It
 will see your maybe your parents
 
-257
-00:06:36,790 --> 00:06:36,800
-will see your maybe your parents
-
-258
-00:06:36,800 --> 00:06:40,150
+128
+00:06:36,800 --> 00:06:40,160
 will see your maybe your parents
 signature if you're a child. It will
 
-259
-00:06:40,150 --> 00:06:40,160
-signature if you're a child. It will
-
-260
-00:06:40,160 --> 00:06:43,670
+129
+00:06:40,160 --> 00:06:43,680
 signature if you're a child. It will
 do the usual KERI ACDC stuff.
 
-261
-00:06:43,670 --> 00:06:43,680
-do the usual KERI ACDC stuff.
-
-262
-00:06:43,680 --> 00:06:45,590
+130
+00:06:43,680 --> 00:06:45,600
 do the usual KERI ACDC stuff.
 Verify it hasn't been tampered with.
 
-263
-00:06:45,590 --> 00:06:45,600
-verify it hasn't been tampered with.
-
-264
-00:06:45,600 --> 00:06:48,390
+131
+00:06:45,600 --> 00:06:48,400
 verify it hasn't been tampered with.
 They it they know it's you and the bank
 
-265
-00:06:48,390 --> 00:06:48,400
-They it they know it's you and the bank
-
-266
-00:06:48,400 --> 00:06:50,870
+132
+00:06:48,400 --> 00:06:50,880
 They it they know it's you and the bank
 will then execute that request and make
 
-267
-00:06:50,870 --> 00:06:50,880
-will then execute that request and make
-
-268
-00:06:50,880 --> 00:06:54,070
+133
+00:06:50,880 --> 00:06:54,080
 will then execute that request and make
 a record of it. And
 
-269
-00:06:54,070 --> 00:06:54,080
-a record of it. And
-
-270
-00:06:54,080 --> 00:06:56,469
+134
+00:06:54,080 --> 00:06:56,479
 a record of it. And
 I don't think there will be a need to
 
-271
-00:06:56,469 --> 00:06:56,479
-I don't think there will be a need to
-
-272
-00:06:56,479 --> 00:06:58,390
+135
+00:06:56,479 --> 00:06:58,400
 I don't think there will be a need to
 have a username and password. You won't
 
-273
-00:06:58,390 --> 00:06:58,400
-have a username and password. You won't
-
-274
-00:06:58,400 --> 00:07:00,629
+136
+00:06:58,400 --> 00:07:00,639
 have a username and password. You won't
 need to login for this because basically
 
-275
-00:07:00,629 --> 00:07:00,639
-need to login for this because basically
-
-276
-00:07:00,639 --> 00:07:03,589
+137
+00:07:00,639 --> 00:07:03,599
 need to login for this because basically
 you've you've sent a signed sealed
 
-277
-00:07:03,589 --> 00:07:03,599
-you've you've sent a signed sealed
-
-278
-00:07:03,599 --> 00:07:05,189
+138
+00:07:03,599 --> 00:07:05,199
 you've you've sent a signed sealed
 request to your bank that they know it
 
-279
-00:07:05,189 --> 00:07:05,199
-request to your bank that they know it
-
-280
-00:07:05,199 --> 00:07:07,189
+139
+00:07:05,199 --> 00:07:07,199
 request to your bank that they know it
 came from you. They'll execute it.
 
-281
-00:07:07,189 --> 00:07:07,199
-came from you. They'll execute it.
-
-282
-00:07:07,199 --> 00:07:09,189
+140
+00:07:07,199 --> 00:07:09,199
 came from you. They'll execute it.
 They'll record it and that's the end of
 
-283
-00:07:09,189 --> 00:07:09,199
-They'll record it and that's the end of
-
-284
-00:07:09,199 --> 00:07:12,150
+141
+00:07:09,199 --> 00:07:12,160
 They'll record it and that's the end of
 it.
 
-285
-00:07:12,150 --> 00:07:12,160
-it.
-
-286
-00:07:12,160 --> 00:07:13,990
+142
+00:07:12,160 --> 00:07:14,000
 it.
 I'm exaggerating here. I'm sure there
 
-287
-00:07:13,990 --> 00:07:14,000
-I'm exaggerating here. I'm sure there
-
-288
-00:07:14,000 --> 00:07:16,629
+143
+00:07:14,000 --> 00:07:16,639
 I'm exaggerating here. I'm sure there
 will be passwords, sessions tokens, and
 
-289
-00:07:16,629 --> 00:07:16,639
-will be passwords, sessions tokens, and
-
-290
-00:07:16,639 --> 00:07:20,550
+144
+00:07:16,639 --> 00:07:20,560
 will be passwords, sessions tokens, and
 2FA for all sorts of stuff, but in
 
-291
-00:07:20,550 --> 00:07:20,560
-2FA for all sorts of stuff, but in
-
-292
-00:07:20,560 --> 00:07:23,749
+145
+00:07:20,560 --> 00:07:23,759
 2FA for all sorts of stuff, but in
 the long term, they will be at least
 
-293
-00:07:23,749 --> 00:07:23,759
-the long term, they will be at least
-
-294
-00:07:23,759 --> 00:07:25,670
+146
+00:07:23,759 --> 00:07:25,680
 the long term, they will be at least
 less necessary. And in the example I
 
-295
-00:07:25,670 --> 00:07:25,680
-less necessary. And in the example I
-
-296
-00:07:25,680 --> 00:07:28,230
+147
+00:07:25,680 --> 00:07:28,240
 less necessary. And in the example I
 gave you, you can imagine a world where
 
-297
-00:07:28,230 --> 00:07:28,240
-gave you, you can imagine a world where
-
-298
+148
 00:07:28,240 --> 00:07:36,230
 gave you, you can imagine a world where
 everything you do is signed intent.
 
-299
-00:07:40,070 --> 00:07:40,080
-I think that this is going to be how we
-
-300
-00:07:40,080 --> 00:07:44,790
+149
+00:07:40,070 --> 00:07:44,800
 I think that this is going to be how we
 reduce the rampant online fraud to
 
-301
-00:07:44,790 --> 00:07:44,800
-reduce the rampant online fraud to
-
-302
-00:07:44,800 --> 00:07:46,710
+150
+00:07:44,800 --> 00:07:46,720
 reduce the rampant online fraud to
 there's always going to be fraud.
 
-303
-00:07:46,710 --> 00:07:46,720
-there's always going to be fraud.
-
-304
-00:07:46,720 --> 00:07:48,390
+151
+00:07:46,720 --> 00:07:48,400
 there's always going to be fraud.
 Unfortunately, there always going
 
-305
-00:07:48,390 --> 00:07:48,400
-Unfortunately, there always going
-
-306
-00:07:48,400 --> 00:07:50,550
+152
+00:07:48,400 --> 00:07:50,560
 Unfortunately, there always going
 to be someone who will find a way of
 
-307
-00:07:50,550 --> 00:07:50,560
-to be someone who will find a way of
-
-308
-00:07:50,560 --> 00:07:52,230
+153
+00:07:50,560 --> 00:07:52,240
 to be someone who will find a way of
 fooling someone else into doing
 
-309
-00:07:52,230 --> 00:07:52,240
-fooling someone else into doing
-
-310
-00:07:52,240 --> 00:07:55,029
+154
+00:07:52,240 --> 00:07:55,039
 fooling someone else into doing
 something they shouldn't be doing.
 
-311
-00:07:55,029 --> 00:07:55,039
-something they shouldn't be doing.
-
-312
-00:07:55,039 --> 00:07:57,510
+155
+00:07:55,039 --> 00:07:57,520
 something they shouldn't be doing.
 But this is the long-term vision and
 
-313
-00:07:57,510 --> 00:07:57,520
-But this is the long-term vision and
-
-314
-00:07:57,520 --> 00:08:01,110
+156
+00:07:57,520 --> 00:08:01,120
 But this is the long-term vision and
 this is all going to be delivered
 
-315
-00:08:01,110 --> 00:08:01,120
-this is all going to be delivered
-
-316
-00:08:01,120 --> 00:08:04,150
+157
+00:08:01,120 --> 00:08:04,160
 this is all going to be delivered
 In my view with implementations of
 
-317
-00:08:04,150 --> 00:08:04,160
-In my view with implementations of
-
-318
-00:08:04,160 --> 00:08:06,230
+158
+00:08:04,160 --> 00:08:06,240
 In my view with implementations of
 KERI and ACDC's
 
-319
-00:08:06,230 --> 00:08:06,240
-KERI and ACDC's
-
-320
-00:08:06,240 --> 00:08:07,749
+159
+00:08:06,240 --> 00:08:07,759
 KERI and ACDC's
 and everything that we've been talking
 
-321
-00:08:07,749 --> 00:08:07,759
-and everything that we've been talking
-
-322
-00:08:07,759 --> 00:08:10,950
+160
+00:08:07,759 --> 00:08:10,960
 and everything that we've been talking
 about today
 
-323
-00:08:10,950 --> 00:08:10,960
-about today
-
-324
+161
 00:08:10,960 --> 00:08:14,469
 about today
 However,
 
-325
-00:08:16,150 --> 00:08:16,160
-there's going to be a lot of disruption
-
-326
-00:08:16,160 --> 00:08:18,070
+162
+00:08:16,150 --> 00:08:18,080
 there's going to be a lot of disruption
 to be able to enable all of that. I mean
 
-327
-00:08:18,070 --> 00:08:18,080
-to be able to enable all of that. I mean
-
-328
-00:08:18,080 --> 00:08:21,110
+163
+00:08:18,080 --> 00:08:21,120
 to be able to enable all of that. I mean
 the example I gave you about the bank
 
-329
-00:08:21,110 --> 00:08:21,120
-the example I gave you about the bank
-
-330
-00:08:21,120 --> 00:08:23,350
+164
+00:08:21,120 --> 00:08:23,360
 the example I gave you about the bank
 they need to rearchitect their systems
 
-331
-00:08:23,350 --> 00:08:23,360
-they need to rearchitect their systems
-
-332
-00:08:23,360 --> 00:08:25,909
+165
+00:08:23,360 --> 00:08:25,919
 they need to rearchitect their systems
 so that they are accepting
 
-333
-00:08:25,909 --> 00:08:25,919
-so that they are accepting
-
-334
-00:08:25,919 --> 00:08:30,469
+166
+00:08:25,919 --> 00:08:30,479
 so that they are accepting
 signed requests from their customers
 
-335
-00:08:30,469 --> 00:08:30,479
-signed requests from their customers
-
-336
-00:08:30,479 --> 00:08:35,190
+167
+00:08:30,479 --> 00:08:35,200
 signed requests from their customers
 that they identify through their
 
-337
-00:08:35,190 --> 00:08:35,200
-that they identify through their
-
-338
-00:08:35,200 --> 00:08:37,750
+168
+00:08:35,200 --> 00:08:37,760
 that they identify through their
 their identity their online identity
 
-339
-00:08:37,750 --> 00:08:37,760
-their identity their online identity
-
-340
-00:08:37,760 --> 00:08:39,990
+169
+00:08:37,760 --> 00:08:40,000
 their identity their online identity
 that the customers own and that's
 
-341
-00:08:39,990 --> 00:08:40,000
-that the customers own and that's
-
-342
-00:08:40,000 --> 00:08:42,709
+170
+00:08:40,000 --> 00:08:42,719
 that the customers own and that's
 going to be a great world of course
 
-343
-00:08:42,709 --> 00:08:42,719
-going to be a great world of course
-
-344
-00:08:42,719 --> 00:08:44,870
+171
+00:08:42,719 --> 00:08:44,880
 going to be a great world of course
 everybody will be their own identity
 
-345
-00:08:44,870 --> 00:08:44,880
-everybody will be their own identity
-
-346
-00:08:44,880 --> 00:08:47,190
+172
+00:08:44,880 --> 00:08:47,200
 everybody will be their own identity
 provider which is how it should be if
 
-347
-00:08:47,190 --> 00:08:47,200
-provider which is how it should be if
-
-348
-00:08:47,200 --> 00:08:49,990
+173
+00:08:47,200 --> 00:08:50,000
 provider which is how it should be if
 you think about it. I'm the only
 
-349
-00:08:49,990 --> 00:08:50,000
-you think about it. I'm the only
-
-350
-00:08:50,000 --> 00:08:54,470
+174
+00:08:50,000 --> 00:08:54,480
 you think about it. I'm the only
 person who knows that I am me. And if I
 
-351
-00:08:54,470 --> 00:08:54,480
-person who knows that I am me. And if I
-
-352
-00:08:54,480 --> 00:08:58,470
+175
+00:08:54,480 --> 00:08:58,480
 person who knows that I am me. And if I
 control a digital identity that
 
-353
-00:08:58,470 --> 00:08:58,480
-control a digital identity that
-
-354
-00:08:58,480 --> 00:09:01,910
+176
+00:08:58,480 --> 00:09:01,920
 control a digital identity that
 asserts that, then I'm by far the best
 
-355
-00:09:01,910 --> 00:09:01,920
-asserts that, then I'm by far the best
-
-356
-00:09:01,920 --> 00:09:04,790
+177
+00:09:01,920 --> 00:09:04,800
 asserts that, then I'm by far the best
 Person to be able to prove who I am.
 
-357
-00:09:04,790 --> 00:09:04,800
-Person to be able to prove who I am.
-
-358
-00:09:04,800 --> 00:09:07,670
+178
+00:09:04,800 --> 00:09:07,680
 Person to be able to prove who I am.
 And I don't like the idea of delegating
 
-359
-00:09:07,670 --> 00:09:07,680
-And I don't like the idea of delegating
-
-360
-00:09:07,680 --> 00:09:11,110
+179
+00:09:07,680 --> 00:09:11,120
 And I don't like the idea of delegating
 that to some
 
-361
-00:09:11,110 --> 00:09:11,120
-that to some
-
-362
-00:09:11,120 --> 00:09:14,310
+180
+00:09:11,120 --> 00:09:14,320
 that to some
 other federated identity provider.
 
-363
-00:09:14,310 --> 00:09:14,320
-other federated identity provider.
-
-364
-00:09:14,320 --> 00:09:16,630
+181
+00:09:14,320 --> 00:09:16,640
 other federated identity provider.
 However, they're not going to like it at
 
-365
-00:09:16,630 --> 00:09:16,640
-However, they're not going to like it at
-
-366
-00:09:16,640 --> 00:09:20,870
+182
+00:09:16,640 --> 00:09:20,880
 However, they're not going to like it at
 all. The federated identity
 
-367
-00:09:20,870 --> 00:09:20,880
-all. The federated identity
-
-368
-00:09:20,880 --> 00:09:22,949
+183
+00:09:20,880 --> 00:09:22,959
 all. The federated identity
 providers are having lots of information
 
-369
-00:09:22,949 --> 00:09:22,959
-providers are having lots of information
-
-370
-00:09:22,959 --> 00:09:25,190
+184
+00:09:22,959 --> 00:09:25,200
 providers are having lots of information
 from people every time they log in. So,
 
-371
-00:09:25,190 --> 00:09:25,200
-from people every time they log in. So,
-
-372
-00:09:25,200 --> 00:09:28,310
+185
+00:09:25,200 --> 00:09:28,320
 from people every time they log in. So,
 there's going to be a lot of resistance.
 
-373
-00:09:28,310 --> 00:09:28,320
-there's going to be a lot of resistance.
-
-374
-00:09:28,320 --> 00:09:32,710
+186
+00:09:28,320 --> 00:09:32,720
 there's going to be a lot of resistance.
 Information harvesters are going to
 
-375
-00:09:32,710 --> 00:09:32,720
-Information harvesters are going to
-
-376
-00:09:32,720 --> 00:09:36,070
+187
+00:09:32,720 --> 00:09:36,080
 Information harvesters are going to
 hate all of this because everything that
 
-377
-00:09:36,070 --> 00:09:36,080
-hate all of this because everything that
-
-378
-00:09:36,080 --> 00:09:38,949
+188
+00:09:36,080 --> 00:09:38,959
 hate all of this because everything that
 Sam tells us that we should be in
 
-379
-00:09:38,949 --> 00:09:38,959
-Sam tells us that we should be in
-
-380
-00:09:38,959 --> 00:09:41,670
+189
+00:09:38,959 --> 00:09:41,680
 Sam tells us that we should be in
 control of is not what they want us to
 
-381
-00:09:41,670 --> 00:09:41,680
-control of is not what they want us to
-
-382
+190
 00:09:41,680 --> 00:09:45,910
 control of is not what they want us to
 be in control of. Sadly,
 
-383
-00:09:48,310 --> 00:09:48,320
-and as I mentioned, all sorts of online
-
-384
-00:09:48,320 --> 00:09:49,990
+191
+00:09:48,310 --> 00:09:50,000
 and as I mentioned, all sorts of online
 services will need to do a lot of
 
-385
-00:09:49,990 --> 00:09:50,000
-services will need to do a lot of
-
-386
-00:09:50,000 --> 00:09:52,870
+192
+00:09:50,000 --> 00:09:52,880
 services will need to do a lot of
 rearchitecting to implement that final
 
-387
-00:09:52,870 --> 00:09:52,880
-rearchitecting to implement that final
-
-388
-00:09:52,880 --> 00:09:55,269
+193
+00:09:52,880 --> 00:09:55,279
 rearchitecting to implement that final
 vision.
 
-389
-00:09:55,269 --> 00:09:55,279
-vision.
-
-390
-00:09:55,279 --> 00:09:57,750
+194
+00:09:55,279 --> 00:09:57,760
 vision.
 And this isn't going to happen in the
 
-391
-00:09:57,750 --> 00:09:57,760
-And this isn't going to happen in the
-
-392
-00:09:57,760 --> 00:09:59,750
+195
+00:09:57,760 --> 00:09:59,760
 And this isn't going to happen in the
 next 12 months.
 
-393
-00:09:59,750 --> 00:09:59,760
-next 12 months.
-
-394
-00:09:59,760 --> 00:10:02,949
+196
+00:09:59,760 --> 00:10:02,959
 next 12 months.
 There will be movement towards it but
 
-395
-00:10:02,949 --> 00:10:02,959
-There will be movement towards it but
-
-396
-00:10:02,959 --> 00:10:06,070
+197
+00:10:02,959 --> 00:10:06,080
 There will be movement towards it but
 We need to do in my view we need to
 
-397
-00:10:06,070 --> 00:10:06,080
-We need to do in my view we need to
-
-398
-00:10:06,080 --> 00:10:10,230
+198
+00:10:06,080 --> 00:10:10,240
 We need to do in my view we need to
 do something sooner to start
 
-399
-00:10:10,230 --> 00:10:10,240
-do something sooner to start
-
-400
-00:10:10,240 --> 00:10:13,750
+199
+00:10:10,240 --> 00:10:13,760
 do something sooner to start
 getting KERI and ACDC adoption in a
 
-401
-00:10:13,750 --> 00:10:13,760
-getting KERI and ACDC adoption in a
-
-402
-00:10:13,760 --> 00:10:17,750
+200
+00:10:13,760 --> 00:10:17,760
 getting KERI and ACDC adoption in a
 small way and then move on. So this is
 
-403
-00:10:17,750 --> 00:10:17,760
-small way and then move on. So this is
-
-404
-00:10:17,760 --> 00:10:21,190
+201
+00:10:17,760 --> 00:10:21,200
 small way and then move on. So this is
 where we are now. We have rampant online
 
-405
-00:10:21,190 --> 00:10:21,200
-where we are now. We have rampant online
-
-406
-00:10:21,200 --> 00:10:23,590
+202
+00:10:21,200 --> 00:10:23,600
 where we are now. We have rampant online
 fraud.
 
-407
-00:10:23,590 --> 00:10:23,600
-fraud.
-
-408
-00:10:23,600 --> 00:10:26,310
+203
+00:10:23,600 --> 00:10:26,320
 fraud.
 Autonomous AI agents are doing more
 
-409
-00:10:26,310 --> 00:10:26,320
-Autonomous AI agents are doing more
-
-410
-00:10:26,320 --> 00:10:29,030
+204
+00:10:26,320 --> 00:10:29,040
 Autonomous AI agents are doing more
 and more stuff and working out how to do
 
-411
-00:10:29,030 --> 00:10:29,040
-and more stuff and working out how to do
-
-412
-00:10:29,040 --> 00:10:32,949
+205
+00:10:29,040 --> 00:10:32,959
 and more stuff and working out how to do
 things on their own.
 
-413
-00:10:32,949 --> 00:10:32,959
-things on their own.
-
-414
-00:10:32,959 --> 00:10:35,110
+206
+00:10:32,959 --> 00:10:35,120
 things on their own.
 Mostly because they think that they are
 
-415
-00:10:35,110 --> 00:10:35,120
-mostly because they think that they are
-
-416
-00:10:35,120 --> 00:10:38,069
+207
+00:10:35,120 --> 00:10:38,079
 mostly because they think that they are
 doing what we want them to do but not
 
-417
-00:10:38,069 --> 00:10:38,079
-doing what we want them to do but not
-
-418
+208
 00:10:38,079 --> 00:10:41,750
 doing what we want them to do but not
 necessarily.
 
-419
-00:10:45,430 --> 00:10:45,440
-The current way of recording what
-
-420
-00:10:45,440 --> 00:10:48,790
+209
+00:10:45,430 --> 00:10:48,800
 The current way of recording what
 happens is really online logging. So the
 
-421
-00:10:48,790 --> 00:10:48,800
-happens is really online logging. So the
-
-422
-00:10:48,800 --> 00:10:51,829
+210
+00:10:48,800 --> 00:10:51,839
 happens is really online logging. So the
 the bank will keep a record of what you
 
-423
-00:10:51,829 --> 00:10:51,839
-the bank will keep a record of what you
-
-424
-00:10:51,839 --> 00:10:53,750
+211
+00:10:51,839 --> 00:10:53,760
 the bank will keep a record of what you
 asked it to do moving money from one
 
-425
-00:10:53,750 --> 00:10:53,760
-asked it to do moving money from one
-
-426
-00:10:53,760 --> 00:10:57,910
+212
+00:10:53,760 --> 00:10:57,920
 asked it to do moving money from one
 account to another. But if someone
 
-427
-00:10:57,910 --> 00:10:57,920
-account to another. But if someone
-
-428
-00:10:57,920 --> 00:11:00,310
+213
+00:10:57,920 --> 00:11:00,320
 account to another. But if someone
 gets my password and asks my bank to do
 
-429
-00:11:00,310 --> 00:11:00,320
-gets my password and asks my bank to do
-
-430
-00:11:00,320 --> 00:11:02,630
+214
+00:11:00,320 --> 00:11:02,640
 gets my password and asks my bank to do
 something on behalf of me then as far as
 
-431
-00:11:02,630 --> 00:11:02,640
-something on behalf of me then as far as
-
-432
-00:11:02,640 --> 00:11:04,470
+215
+00:11:02,640 --> 00:11:04,480
 something on behalf of me then as far as
 the bank logging is concerned it was me
 
-433
-00:11:04,470 --> 00:11:04,480
-the bank logging is concerned it was me
-
-434
-00:11:04,480 --> 00:11:07,990
+216
+00:11:04,480 --> 00:11:08,000
 the bank logging is concerned it was me
 doing it which just is not real. So it
 
-435
-00:11:07,990 --> 00:11:08,000
-doing it which just is not real. So it
-
-436
-00:11:08,000 --> 00:11:11,190
+217
+00:11:08,000 --> 00:11:11,200
 doing it which just is not real. So it
 is it's just weak.
 
-437
-00:11:11,190 --> 00:11:11,200
-is it's just weak.
-
-438
-00:11:11,200 --> 00:11:14,310
+218
+00:11:11,200 --> 00:11:14,320
 is it's just weak.
 So what we really need is what I call
 
-439
-00:11:14,310 --> 00:11:14,320
-So what we really need is what I call
-
-440
-00:11:14,320 --> 00:11:16,790
+219
+00:11:14,320 --> 00:11:16,800
 So what we really need is what I call
 trustability.
 
-441
-00:11:16,790 --> 00:11:16,800
-trustability.
-
-442
-00:11:16,800 --> 00:11:21,590
+220
+00:11:16,800 --> 00:11:21,600
 trustability.
 And trustability is the ability to
 
-443
-00:11:21,590 --> 00:11:21,600
-And trustability is the ability to
-
-444
-00:11:21,600 --> 00:11:26,150
+221
+00:11:21,600 --> 00:11:26,160
 And trustability is the ability to
 be able to make a good trust decision
 
-445
-00:11:26,150 --> 00:11:26,160
-be able to make a good trust decision
-
-446
-00:11:26,160 --> 00:11:30,790
+222
+00:11:26,160 --> 00:11:30,800
 be able to make a good trust decision
 on any kind of action that you might be
 
-447
-00:11:30,790 --> 00:11:30,800
-on any kind of action that you might be
-
-448
-00:11:30,800 --> 00:11:32,870
+223
+00:11:30,800 --> 00:11:32,880
 on any kind of action that you might be
 Intending to make based on some
 
-449
-00:11:32,870 --> 00:11:32,880
-Intending to make based on some
-
-450
-00:11:32,880 --> 00:11:35,430
+224
+00:11:32,880 --> 00:11:35,440
 Intending to make based on some
 information that comes at you over the
 
-451
-00:11:35,430 --> 00:11:35,440
-information that comes at you over the
-
-452
-00:11:35,440 --> 00:11:37,990
+225
+00:11:35,440 --> 00:11:38,000
 information that comes at you over the
 internet. And it can be something as
 
-453
-00:11:37,990 --> 00:11:38,000
-internet. And it can be something as
-
-454
-00:11:38,000 --> 00:11:43,190
+226
+00:11:38,000 --> 00:11:43,200
 internet. And it can be something as
 simple as a news article.
 
-455
-00:11:43,190 --> 00:11:43,200
-simple as a news article.
-
-456
-00:11:43,200 --> 00:11:46,310
+227
+00:11:43,200 --> 00:11:46,320
 simple as a news article.
 Did this journalist really write this?
 
-457
-00:11:46,310 --> 00:11:46,320
-did this journalist really write this?
-
-458
-00:11:46,320 --> 00:11:48,949
+228
+00:11:46,320 --> 00:11:48,959
 did this journalist really write this?
 Do I trust this journalist? The trust
 
-459
-00:11:48,949 --> 00:11:48,959
-Do I trust this journalist? The trust
-
-460
-00:11:48,959 --> 00:11:50,630
+229
+00:11:48,959 --> 00:11:50,640
 Do I trust this journalist? The trust
 decision might be very weak. I'm just
 
-461
-00:11:50,630 --> 00:11:50,640
-decision might be very weak. I'm just
-
-462
-00:11:50,640 --> 00:11:53,590
+230
+00:11:50,640 --> 00:11:53,600
 decision might be very weak. I'm just
 going to develop my own opinion
 
-463
-00:11:53,590 --> 00:11:53,600
-going to develop my own opinion
-
-464
-00:11:53,600 --> 00:11:55,509
+231
+00:11:53,600 --> 00:11:55,519
 going to develop my own opinion
 about whatever is being written about
 
-465
-00:11:55,509 --> 00:11:55,519
-about whatever is being written about
-
-466
-00:11:55,519 --> 00:11:59,110
+232
+00:11:55,519 --> 00:11:59,120
 about whatever is being written about
 based on based on that journalist's
 
-467
-00:11:59,110 --> 00:11:59,120
-based on based on that journalist's
-
-468
-00:11:59,120 --> 00:12:02,069
+233
+00:11:59,120 --> 00:12:02,079
 based on based on that journalist's
 reputation. But
 
-469
-00:12:02,069 --> 00:12:02,079
-reputation. But
-
-470
-00:12:02,079 --> 00:12:05,829
+234
+00:12:02,079 --> 00:12:05,839
 reputation. But
 other things are much more important.
 
-471
-00:12:05,829 --> 00:12:05,839
-other things are much more important.
-
-472
-00:12:05,839 --> 00:12:11,509
+235
+00:12:05,839 --> 00:12:11,519
 other things are much more important.
 If I see a request from one of
 
-473
-00:12:11,509 --> 00:12:11,519
-If I see a request from one of
-
-474
-00:12:11,519 --> 00:12:14,230
+236
+00:12:11,519 --> 00:12:14,240
 If I see a request from one of
 my kids to send some money to a bank
 
-475
-00:12:14,230 --> 00:12:14,240
-my kids to send some money to a bank
-
-476
-00:12:14,240 --> 00:12:17,509
+237
+00:12:14,240 --> 00:12:17,519
 my kids to send some money to a bank
 account because he's in trouble, then I
 
-477
-00:12:17,509 --> 00:12:17,519
-account because he's in trouble, then I
-
-478
-00:12:17,519 --> 00:12:19,670
+238
+00:12:17,519 --> 00:12:19,680
 account because he's in trouble, then I
 need to be able to trust that is
 
-479
-00:12:19,670 --> 00:12:19,680
-need to be able to trust that is
-
-480
-00:12:19,680 --> 00:12:22,389
+239
+00:12:19,680 --> 00:12:22,399
 need to be able to trust that is
 really from my son. And I need to
 
-481
-00:12:22,389 --> 00:12:22,399
-really from my son. And I need to
-
-482
-00:12:22,399 --> 00:12:23,829
+240
+00:12:22,399 --> 00:12:23,839
 really from my son. And I need to
 make a trust decision. I might need to
 
-483
-00:12:23,829 --> 00:12:23,839
-make a trust decision. I might need to
-
-484
-00:12:23,839 --> 00:12:27,030
+241
+00:12:23,839 --> 00:12:27,040
 make a trust decision. I might need to
 make it quickly. So how do we how do we
 
-485
-00:12:27,030 --> 00:12:27,040
-make it quickly. So how do we how do we
-
-486
-00:12:27,040 --> 00:12:31,190
+242
+00:12:27,040 --> 00:12:31,200
 make it quickly. So how do we how do we
 get trustability into the world of
 
-487
-00:12:31,190 --> 00:12:31,200
-get trustability into the world of
-
-488
-00:12:31,200 --> 00:12:33,670
+243
+00:12:31,200 --> 00:12:33,680
 get trustability into the world of
 online transactions?
 
-489
-00:12:33,670 --> 00:12:33,680
-online transactions?
-
-490
-00:12:33,680 --> 00:12:36,629
+244
+00:12:33,680 --> 00:12:36,639
 online transactions?
 And what we need of course is KERI and
 
-491
-00:12:36,629 --> 00:12:36,639
-And what we need of course is KERI and
-
-492
-00:12:36,639 --> 00:12:40,230
+245
+00:12:36,639 --> 00:12:40,240
 And what we need of course is KERI and
 ACDC's and we need I hate to say a
 
-493
-00:12:40,230 --> 00:12:40,240
-ACDC's and we need I hate to say a
-
-494
-00:12:40,240 --> 00:12:42,150
+246
+00:12:40,240 --> 00:12:42,160
 ACDC's and we need I hate to say a
 little bit of KERI and ACDC because we
 
-495
-00:12:42,150 --> 00:12:42,160
-little bit of KERI and ACDC because we
-
-496
-00:12:42,160 --> 00:12:45,110
+247
+00:12:42,160 --> 00:12:45,120
 little bit of KERI and ACDC because we
 need we need the whole thing but we
 
-497
-00:12:45,110 --> 00:12:45,120
-need we need the whole thing but we
-
-498
-00:12:45,120 --> 00:12:49,190
+248
+00:12:45,120 --> 00:12:49,200
 need we need the whole thing but we
 can't very quickly implement the
 
-499
-00:12:49,190 --> 00:12:49,200
-can't very quickly implement the
-
-500
-00:12:49,200 --> 00:12:51,990
+249
+00:12:49,200 --> 00:12:52,000
 can't very quickly implement the
 entire or reimplement the entire online
 
-501
-00:12:51,990 --> 00:12:52,000
-entire or reimplement the entire online
-
-502
-00:12:52,000 --> 00:12:55,030
+250
+00:12:52,000 --> 00:12:55,040
 entire or reimplement the entire online
 access infrastructure to support the
 
-503
-00:12:55,030 --> 00:12:55,040
-access infrastructure to support the
-
-504
-00:12:55,040 --> 00:12:59,590
+251
+00:12:55,040 --> 00:12:59,600
 access infrastructure to support the
 the long-term vision of how the whole
 
-505
-00:12:59,590 --> 00:12:59,600
-the long-term vision of how the whole
-
-506
-00:12:59,600 --> 00:13:01,990
+252
+00:12:59,600 --> 00:13:02,000
 the long-term vision of how the whole
 world of signed intent is going to
 
-507
-00:13:01,990 --> 00:13:02,000
-world of signed intent is going to
-
-508
+253
 00:13:02,000 --> 00:13:05,910
 world of signed intent is going to
 work.
 
-509
-00:13:07,829 --> 00:13:07,839
-And
-
-510
-00:13:07,839 --> 00:13:10,470
+254
+00:13:07,829 --> 00:13:10,480
 And
 where digital trust foundry is
 
-511
-00:13:10,470 --> 00:13:10,480
-where digital trust foundry is
-
-512
-00:13:10,480 --> 00:13:13,590
+255
+00:13:10,480 --> 00:13:13,600
 where digital trust foundry is
 starting is saying that what we
 
-513
-00:13:13,590 --> 00:13:13,600
-starting is saying that what we
-
-514
-00:13:13,600 --> 00:13:16,310
+256
+00:13:13,600 --> 00:13:16,320
 starting is saying that what we
 need is something that we call execution
 
-515
-00:13:16,310 --> 00:13:16,320
-need is something that we call execution
-
-516
-00:13:16,320 --> 00:13:18,389
+257
+00:13:16,320 --> 00:13:18,399
 need is something that we call execution
 trust.
 
-517
-00:13:18,389 --> 00:13:18,399
-trust.
-
-518
-00:13:18,399 --> 00:13:21,030
+258
+00:13:18,399 --> 00:13:21,040
 trust.
 Immediately before making some kind of
 
-519
-00:13:21,030 --> 00:13:21,040
-Immediately before making some kind of
-
-520
-00:13:21,040 --> 00:13:24,389
+259
+00:13:21,040 --> 00:13:24,399
 Immediately before making some kind of
 Decision to execute some kind of
 
-521
-00:13:24,389 --> 00:13:24,399
-Decision to execute some kind of
-
-522
-00:13:24,399 --> 00:13:26,550
+260
+00:13:24,399 --> 00:13:26,560
 Decision to execute some kind of
 action based on information that's
 
-523
-00:13:26,550 --> 00:13:26,560
-action based on information that's
-
-524
-00:13:26,560 --> 00:13:30,470
+261
+00:13:26,560 --> 00:13:30,480
 action based on information that's
 coming to us remotely. And that might
 
-525
-00:13:30,470 --> 00:13:30,480
-coming to us remotely. And that might
-
-526
-00:13:30,480 --> 00:13:33,509
+262
+00:13:30,480 --> 00:13:33,519
 coming to us remotely. And that might
 be we're a supplier receiving a
 
-527
-00:13:33,509 --> 00:13:33,519
-be we're a supplier receiving a
-
-528
-00:13:33,519 --> 00:13:37,269
+263
+00:13:33,519 --> 00:13:38,870
 be we're a supplier receiving a
 purchase order. We might be an employer
 
-529
-00:13:37,269 --> 00:13:37,279
-purchase order. We might be an employer
-
-530
-00:13:37,279 --> 00:13:38,870
-purchase order. We might be an employer
-
-531
+264
 00:13:38,870 --> 00:13:38,880
 
 
-532
-00:13:38,880 --> 00:13:40,949
-Being presented with someone's
-
-533
-00:13:40,949 --> 00:13:40,959
-being presented with someone's
-
-534
-00:13:40,959 --> 00:13:42,870
+265
+00:13:38,880 --> 00:13:42,880
 being presented with someone's
 academic credentials before we hire them
 
-535
-00:13:42,870 --> 00:13:42,880
-academic credentials before we hire them
-
-536
-00:13:42,880 --> 00:13:46,150
+266
+00:13:42,880 --> 00:13:46,160
 academic credentials before we hire them
 for a for a job. Before we make that
 
-537
-00:13:46,150 --> 00:13:46,160
-for a for a job. Before we make that
-
-538
-00:13:46,160 --> 00:13:49,030
+267
+00:13:46,160 --> 00:13:49,040
 for a for a job. Before we make that
 decision, then
 
-539
-00:13:49,030 --> 00:13:49,040
-decision, then
-
-540
-00:13:49,040 --> 00:13:53,590
+268
+00:13:49,040 --> 00:13:53,600
 decision, then
 we need a way to be able to make
 
-541
-00:13:53,590 --> 00:13:53,600
-we need a way to be able to make
-
-542
-00:13:53,600 --> 00:13:55,750
+269
+00:13:53,600 --> 00:13:55,760
 we need a way to be able to make
 a trust assessment of what's being
 
-543
-00:13:55,750 --> 00:13:55,760
-a trust assessment of what's being
-
-544
-00:13:55,760 --> 00:13:59,110
+270
+00:13:55,760 --> 00:13:59,120
 a trust assessment of what's being
 presented to us.
 
-545
-00:13:59,110 --> 00:13:59,120
-presented to us.
-
-546
-00:13:59,120 --> 00:14:00,790
+271
+00:13:59,120 --> 00:14:00,800
 presented to us.
 And
 
-547
-00:14:00,790 --> 00:14:00,800
-And
-
-548
-00:14:00,800 --> 00:14:02,870
+272
+00:14:00,800 --> 00:14:02,880
 And
 this is where I think that what the
 
-549
-00:14:02,870 --> 00:14:02,880
-this is where I think that what the
-
-550
-00:14:02,880 --> 00:14:05,350
+273
+00:14:02,880 --> 00:14:05,360
 this is where I think that what the
 world needs is to be able to start
 
-551
-00:14:05,350 --> 00:14:05,360
-world needs is to be able to start
-
-552
-00:14:05,360 --> 00:14:09,110
+274
+00:14:05,360 --> 00:14:09,120
 world needs is to be able to start
 slowly and to be able to implement
 
-553
-00:14:09,110 --> 00:14:09,120
-slowly and to be able to implement
-
-554
-00:14:09,120 --> 00:14:11,750
+275
+00:14:09,120 --> 00:14:11,760
 slowly and to be able to implement
 what we call execution trust into
 
-555
-00:14:11,750 --> 00:14:11,760
-what we call execution trust into
-
-556
-00:14:11,760 --> 00:14:14,470
+276
+00:14:11,760 --> 00:14:14,480
 what we call execution trust into
 existing systems and of course start
 
-557
-00:14:14,470 --> 00:14:14,480
-existing systems and of course start
-
-558
-00:14:14,480 --> 00:14:17,750
+277
+00:14:14,480 --> 00:14:17,760
 existing systems and of course start
 with high value high-risk transactions.
 
-559
-00:14:17,750 --> 00:14:17,760
-with high value high-risk transactions.
-
-560
-00:14:17,760 --> 00:14:22,710
+278
+00:14:17,760 --> 00:14:22,720
 with high value high-risk transactions.
 For example wire transfer fraud. It
 
-561
-00:14:22,710 --> 00:14:22,720
-For example wire transfer fraud. It
-
-562
-00:14:22,720 --> 00:14:26,310
+279
+00:14:22,720 --> 00:14:26,320
 For example wire transfer fraud. It
 is way too easy for bad actors to be
 
-563
-00:14:26,310 --> 00:14:26,320
-is way too easy for bad actors to be
-
-564
-00:14:26,320 --> 00:14:29,350
+280
+00:14:26,320 --> 00:14:29,360
 is way too easy for bad actors to be
 able to make changes to wire transfer
 
-565
-00:14:29,350 --> 00:14:29,360
-able to make changes to wire transfer
-
-566
-00:14:29,360 --> 00:14:31,670
+281
+00:14:29,360 --> 00:14:31,680
 able to make changes to wire transfer
 requests as they move from place to face
 
-567
-00:14:31,670 --> 00:14:31,680
-requests as they move from place to face
-
-568
-00:14:31,680 --> 00:14:34,389
+282
+00:14:31,680 --> 00:14:34,399
 requests as they move from place to face
 before they get to the bank
 
-569
-00:14:34,389 --> 00:14:34,399
-before they get to the bank
-
-570
-00:14:34,399 --> 00:14:35,829
+283
+00:14:34,399 --> 00:14:35,839
 before they get to the bank
 that's going to execute that wire
 
-571
-00:14:35,829 --> 00:14:35,839
-that's going to execute that wire
-
-572
-00:14:35,839 --> 00:14:38,870
+284
+00:14:35,839 --> 00:14:38,880
 that's going to execute that wire
 transfer.
 
-573
-00:14:38,870 --> 00:14:38,880
-transfer.
-
-574
+285
 00:14:38,880 --> 00:14:41,990
 transfer.
 So
 
-575
-00:14:44,389 --> 00:14:44,399
-taking a wire transfer request, wrapping
-
-576
-00:14:44,399 --> 00:14:47,990
+286
+00:14:44,389 --> 00:14:48,000
 taking a wire transfer request, wrapping
 it in an ACDC, getting it signed by
 
-577
-00:14:47,990 --> 00:14:48,000
-it in an ACDC, getting it signed by
-
-578
-00:14:48,000 --> 00:14:52,069
+287
+00:14:48,000 --> 00:14:52,079
 it in an ACDC, getting it signed by
 the owner of the originating
 
-579
-00:14:52,069 --> 00:14:52,079
-the owner of the originating
-
-580
-00:14:52,079 --> 00:14:53,590
+288
+00:14:52,079 --> 00:14:53,600
 the owner of the originating
 account
 
-581
-00:14:53,590 --> 00:14:53,600
-account
-
-582
-00:14:53,600 --> 00:14:55,350
+289
+00:14:53,600 --> 00:14:55,360
 account
 means that when the bank gets it, they
 
-583
-00:14:55,350 --> 00:14:55,360
-means that when the bank gets it, they
-
-584
-00:14:55,360 --> 00:14:58,069
+290
+00:14:55,360 --> 00:14:58,079
 means that when the bank gets it, they
 can verify it, make a trust decision and
 
-585
-00:14:58,069 --> 00:14:58,079
-can verify it, make a trust decision and
-
-586
-00:14:58,079 --> 00:15:01,590
+291
+00:14:58,079 --> 00:15:01,600
 can verify it, make a trust decision and
 execute it and then keep a
 
-587
-00:15:01,590 --> 00:15:01,600
-execute it and then keep a
-
-588
-00:15:01,600 --> 00:15:05,110
+292
+00:15:01,600 --> 00:15:05,120
 execute it and then keep a
 cryptographically verifiable record of
 
-589
-00:15:05,110 --> 00:15:05,120
-cryptographically verifiable record of
-
-590
-00:15:05,120 --> 00:15:07,670
+293
+00:15:05,120 --> 00:15:07,680
 cryptographically verifiable record of
 what they were asked to execute for
 
-591
-00:15:07,670 --> 00:15:07,680
-what they were asked to execute for
-
-592
-00:15:07,680 --> 00:15:11,269
+294
+00:15:07,680 --> 00:15:11,279
 what they were asked to execute for
 any time in the future.
 
-593
-00:15:11,269 --> 00:15:11,279
-any time in the future.
-
-594
-00:15:11,279 --> 00:15:13,910
+295
+00:15:11,279 --> 00:15:13,920
 any time in the future.
 So what we're talking about is inserting
 
-595
-00:15:13,910 --> 00:15:13,920
-So what we're talking about is inserting
-
-596
-00:15:13,920 --> 00:15:15,990
+296
+00:15:13,920 --> 00:15:16,000
 So what we're talking about is inserting
 a level of trustability into existing
 
-597
-00:15:15,990 --> 00:15:16,000
-a level of trustability into existing
-
-598
-00:15:16,000 --> 00:15:19,269
+297
+00:15:16,000 --> 00:15:19,279
 a level of trustability into existing
 applications at execution time, hence
 
-599
-00:15:19,269 --> 00:15:19,279
-applications at execution time, hence
-
-600
-00:15:19,279 --> 00:15:22,470
+298
+00:15:19,279 --> 00:15:22,480
 applications at execution time, hence
 the term execution trust.
 
-601
-00:15:22,470 --> 00:15:22,480
-the term execution trust.
-
-602
-00:15:22,480 --> 00:15:24,550
+299
+00:15:22,480 --> 00:15:24,560
 the term execution trust.
 And this can apply to any digital
 
-603
-00:15:24,550 --> 00:15:24,560
-And this can apply to any digital
-
-604
-00:15:24,560 --> 00:15:27,829
+300
+00:15:24,560 --> 00:15:27,839
 And this can apply to any digital
 artifact. Verifiable
 
-605
-00:15:27,829 --> 00:15:27,839
-artifact. Verifiable
-
-606
-00:15:27,839 --> 00:15:30,550
+301
+00:15:27,839 --> 00:15:30,560
 artifact. Verifiable
 credentials was really all about
 
-607
-00:15:30,550 --> 00:15:30,560
-credentials was really all about
-
-608
-00:15:30,560 --> 00:15:33,030
+302
+00:15:30,560 --> 00:15:33,040
 credentials was really all about
 academic and professional credentials
 
-609
-00:15:33,030 --> 00:15:33,040
-academic and professional credentials
-
-610
+303
 00:15:33,040 --> 00:15:37,030
 academic and professional credentials
 but ACDC's are really rearchucapable of
 
-611
-00:15:37,030 --> 00:15:37,040
-but ACDC's are really capable of
-
-612
-00:15:37,040 --> 00:15:39,590
+304
+00:15:37,030 --> 00:15:39,600
 but ACDC's are really capable of
 handling any kind of data content that
 
-613
-00:15:39,590 --> 00:15:39,600
-handling any kind of data content that
-
-614
-00:15:39,600 --> 00:15:42,230
+305
+00:15:39,600 --> 00:15:42,240
 handling any kind of data content that
 might be delivered from one trust domain
 
-615
-00:15:42,230 --> 00:15:42,240
-might be delivered from one trust domain
-
-616
-00:15:42,240 --> 00:15:43,990
+306
+00:15:42,240 --> 00:15:44,000
 might be delivered from one trust domain
 to another.
 
-617
-00:15:43,990 --> 00:15:44,000
-to another.
-
-618
-00:15:44,000 --> 00:15:47,350
+307
+00:15:44,000 --> 00:15:47,360
 to another.
 And
 
-619
-00:15:47,350 --> 00:15:47,360
-And
-
-620
-00:15:47,360 --> 00:15:50,550
+308
+00:15:47,360 --> 00:15:50,560
 And
 even better in the short term, it makes
 
-621
-00:15:50,550 --> 00:15:50,560
-even better in the short term, it makes
-
-622
-00:15:50,560 --> 00:15:54,470
+309
+00:15:50,560 --> 00:15:54,480
 even better in the short term, it makes
 sense even with a single trust domain to
 
-623
-00:15:54,470 --> 00:15:54,480
-sense even with a single trust domain to
-
-624
-00:15:54,480 --> 00:15:58,949
+310
+00:15:54,480 --> 00:15:58,959
 sense even with a single trust domain to
 be able to take some kind of
 
-625
-00:15:58,949 --> 00:15:58,959
-be able to take some kind of
-
-626
-00:15:58,959 --> 00:16:03,829
+311
+00:15:58,959 --> 00:16:03,839
 be able to take some kind of
 action. Let's say it's updating a
 
-627
-00:16:03,829 --> 00:16:03,839
-action. Let's say it's updating a
-
-628
-00:16:03,839 --> 00:16:07,590
+312
+00:16:03,839 --> 00:16:07,600
 action. Let's say it's updating a
 production system. So we have an
 
-629
-00:16:07,590 --> 00:16:07,600
-production system. So we have an
-
-630
-00:16:07,600 --> 00:16:08,790
+313
+00:16:07,600 --> 00:16:08,800
 production system. So we have an
 update that we want to make to a
 
-631
-00:16:08,790 --> 00:16:08,800
-update that we want to make to a
-
-632
-00:16:08,800 --> 00:16:11,110
+314
+00:16:08,800 --> 00:16:11,120
 update that we want to make to a
 production system and we want to make
 
-633
-00:16:11,110 --> 00:16:11,120
-production system and we want to make
-
-634
-00:16:11,120 --> 00:16:14,710
+315
+00:16:11,120 --> 00:16:14,720
 production system and we want to make
 sure that it's fully authorized before
 
-635
-00:16:14,710 --> 00:16:14,720
-sure that it's fully authorized before
-
-636
-00:16:14,720 --> 00:16:16,870
+316
+00:16:14,720 --> 00:16:16,880
 sure that it's fully authorized before
 we execute it. And of course it may have
 
-637
-00:16:16,870 --> 00:16:16,880
-we execute it. And of course it may have
-
-638
-00:16:16,880 --> 00:16:18,710
+317
+00:16:16,880 --> 00:16:18,720
 we execute it. And of course it may have
 been that update may have been
 
-639
-00:16:18,710 --> 00:16:18,720
-been that update may have been
-
-640
-00:16:18,720 --> 00:16:20,629
+318
+00:16:18,720 --> 00:16:20,639
 been that update may have been
 generated by AI. So it's kind of
 
-641
-00:16:20,629 --> 00:16:20,639
-generated by AI. So it's kind of
-
-642
-00:16:20,639 --> 00:16:23,189
+319
+00:16:20,639 --> 00:16:23,199
 generated by AI. So it's kind of
 important that a human gets involved in
 
-643
-00:16:23,189 --> 00:16:23,199
-important that a human gets involved in
-
-644
-00:16:23,199 --> 00:16:27,189
+320
+00:16:23,199 --> 00:16:27,199
 important that a human gets involved in
 that process. So, a workflow
 
-645
-00:16:27,189 --> 00:16:27,199
-that process. So, a workflow
-
-646
-00:16:27,199 --> 00:16:29,189
+321
+00:16:27,199 --> 00:16:29,199
 that process. So, a workflow
 application that's going to apply that
 
-647
-00:16:29,189 --> 00:16:29,199
-application that's going to apply that
-
-648
-00:16:29,199 --> 00:16:31,509
+322
+00:16:29,199 --> 00:16:31,519
 application that's going to apply that
 update to the production system could
 
-649
-00:16:31,509 --> 00:16:31,519
-update to the production system could
-
-650
-00:16:31,519 --> 00:16:35,189
+323
+00:16:31,519 --> 00:16:35,199
 update to the production system could
 take that description of that update
 
-651
-00:16:35,189 --> 00:16:35,199
-take that description of that update
-
-652
-00:16:35,199 --> 00:16:38,949
+324
+00:16:35,199 --> 00:16:38,959
 take that description of that update
 request, wrap it in an ACDC, send it to
 
-653
-00:16:38,949 --> 00:16:38,959
-request, wrap it in an ACDC, send it to
-
-654
-00:16:38,959 --> 00:16:41,670
+325
+00:16:38,959 --> 00:16:41,680
 request, wrap it in an ACDC, send it to
 the CIO to say, "We're about to
 
-655
-00:16:41,670 --> 00:16:41,680
-the CIO to say, "We're about to
-
-656
-00:16:41,680 --> 00:16:43,350
+326
+00:16:41,680 --> 00:16:43,360
 the CIO to say, "We're about to
 update your production systems with
 
-657
-00:16:43,350 --> 00:16:43,360
-update your production systems with
-
-658
-00:16:43,360 --> 00:16:46,310
+327
+00:16:43,360 --> 00:16:46,320
 update your production systems with
 this. Do you approve it?" He would sign
 
-659
-00:16:46,310 --> 00:16:46,320
-this. Do you approve it?" He would sign
-
-660
-00:16:46,320 --> 00:16:50,470
+328
+00:16:46,320 --> 00:16:50,480
 this. Do you approve it?" He would sign
 it, return it back. Then that
 
-661
-00:16:50,470 --> 00:16:50,480
-it, return it back. Then that
-
-662
-00:16:50,480 --> 00:16:52,310
+329
+00:16:50,480 --> 00:16:52,320
 it, return it back. Then that
 update application would say okay I have
 
-663
-00:16:52,310 --> 00:16:52,320
-update application would say okay I have
-
-664
-00:16:52,320 --> 00:16:54,710
+330
+00:16:52,320 --> 00:16:54,720
 update application would say okay I have
 a I have approval to go ahead with
 
-665
-00:16:54,710 --> 00:16:54,720
-a I have approval to go ahead with
-
-666
-00:16:54,720 --> 00:16:57,350
+331
+00:16:54,720 --> 00:16:57,360
 a I have approval to go ahead with
 with this update apply the update keep a
 
-667
-00:16:57,350 --> 00:16:57,360
-with this update apply the update keep a
-
-668
-00:16:57,360 --> 00:16:59,189
+332
+00:16:57,360 --> 00:16:59,199
 with this update apply the update keep a
 record and that all happens within a
 
-669
-00:16:59,189 --> 00:16:59,199
-record and that all happens within a
-
-670
-00:16:59,199 --> 00:17:01,590
+333
+00:16:59,199 --> 00:17:01,600
 record and that all happens within a
 single trust domain. So, but what you've
 
-671
-00:17:01,590 --> 00:17:01,600
-single trust domain. So, but what you've
-
-672
-00:17:01,600 --> 00:17:04,069
+334
+00:17:01,600 --> 00:17:04,079
 single trust domain. So, but what you've
 done there is applied a little bit of
 
-673
-00:17:04,069 --> 00:17:04,079
-done there is applied a little bit of
-
-674
-00:17:04,079 --> 00:17:07,429
+335
+00:17:04,079 --> 00:17:07,439
 done there is applied a little bit of
 KERI and ACDC's to a particular high
 
-675
-00:17:07,429 --> 00:17:07,439
-KERI and ACDC's to a particular high
-
-676
-00:17:07,439 --> 00:17:12,470
+336
+00:17:07,439 --> 00:17:12,480
 KERI and ACDC's to a particular high
 value use case to make sure that
 
-677
-00:17:12,470 --> 00:17:12,480
-value use case to make sure that
-
-678
-00:17:12,480 --> 00:17:15,590
+337
+00:17:12,480 --> 00:17:15,600
 value use case to make sure that
 in that particular example the update
 
-679
-00:17:15,590 --> 00:17:15,600
-in that particular example the update
-
-680
-00:17:15,600 --> 00:17:18,630
+338
+00:17:15,600 --> 00:17:18,640
 in that particular example the update
 was being made was fully authorized
 
-681
-00:17:18,630 --> 00:17:18,640
-was being made was fully authorized
-
-682
-00:17:18,640 --> 00:17:23,429
+339
+00:17:18,640 --> 00:17:23,439
 was being made was fully authorized
 by someone who is the appropriate
 
-683
-00:17:23,429 --> 00:17:23,439
-by someone who is the appropriate
-
-684
-00:17:23,439 --> 00:17:26,549
+340
+00:17:23,439 --> 00:17:26,559
 by someone who is the appropriate
 authorizer of that update.
 
-685
-00:17:26,549 --> 00:17:26,559
-authorizer of that update.
-
-686
-00:17:26,559 --> 00:17:29,830
+341
+00:17:26,559 --> 00:17:29,840
 authorizer of that update.
 The same thing applies
 
-687
-00:17:29,830 --> 00:17:29,840
-The same thing applies
-
-688
-00:17:29,840 --> 00:17:32,310
+342
+00:17:29,840 --> 00:17:32,320
 The same thing applies
 across trust domains where maybe a
 
-689
-00:17:32,310 --> 00:17:32,320
-across trust domains where maybe a
-
-690
-00:17:32,320 --> 00:17:35,029
+343
+00:17:32,320 --> 00:17:35,039
 across trust domains where maybe a
 business generates a legal document that
 
-691
-00:17:35,029 --> 00:17:35,039
-business generates a legal document that
-
-692
-00:17:35,039 --> 00:17:36,950
+344
+00:17:35,039 --> 00:17:36,960
 business generates a legal document that
 needs to be signed by the CEO before it
 
-693
-00:17:36,950 --> 00:17:36,960
-needs to be signed by the CEO before it
-
-694
-00:17:36,960 --> 00:17:40,150
+345
+00:17:36,960 --> 00:17:40,160
 needs to be signed by the CEO before it
 gets delivered to a partner for them to
 
-695
-00:17:40,150 --> 00:17:40,160
-gets delivered to a partner for them to
-
-696
-00:17:40,160 --> 00:17:43,830
+346
+00:17:40,160 --> 00:17:43,840
 gets delivered to a partner for them to
 execute. You can build that kind of
 
-697
-00:17:43,830 --> 00:17:43,840
-execute. You can build that kind of
-
-698
-00:17:43,840 --> 00:17:45,990
+347
+00:17:43,840 --> 00:17:46,000
 execute. You can build that kind of
 functionality into an existing
 
-699
-00:17:45,990 --> 00:17:46,000
-functionality into an existing
-
-700
-00:17:46,000 --> 00:17:47,750
+348
+00:17:46,000 --> 00:17:47,760
 functionality into an existing
 application that's already generating
 
-701
-00:17:47,750 --> 00:17:47,760
-application that's already generating
-
-702
-00:17:47,760 --> 00:17:49,830
+349
+00:17:47,760 --> 00:17:49,840
 application that's already generating
 these documents. You just say, "Well, we
 
-703
-00:17:49,830 --> 00:17:49,840
-these documents. You just say, "Well, we
-
-704
-00:17:49,840 --> 00:17:51,750
+350
+00:17:49,840 --> 00:17:51,760
 these documents. You just say, "Well, we
 already have the document. It's a PDF.
 
-705
-00:17:51,750 --> 00:17:51,760
-already have the document. It's a PDF.
-
-706
-00:17:51,760 --> 00:17:53,909
+351
+00:17:51,760 --> 00:17:53,919
 already have the document. It's a PDF.
 We're just going to wrap it in ACDC,
 
-707
-00:17:53,909 --> 00:17:53,919
-We're just going to wrap it in ACDC,
-
-708
-00:17:53,919 --> 00:17:55,830
+352
+00:17:53,919 --> 00:17:55,840
 We're just going to wrap it in ACDC,
 get it signed, and send it off. And then
 
-709
-00:17:55,830 --> 00:17:55,840
-get it signed, and send it off. And then
-
-710
-00:17:55,840 --> 00:17:57,590
+353
+00:17:55,840 --> 00:17:57,600
 get it signed, and send it off. And then
 whoever gets it, because they know how
 
-711
-00:17:57,590 --> 00:17:57,600
-whoever gets it, because they know how
-
-712
-00:17:57,600 --> 00:18:00,390
+354
+00:17:57,600 --> 00:18:00,400
 whoever gets it, because they know how
 to verify an ACDC, we'll run a
 
-713
-00:18:00,390 --> 00:18:00,400
-to verify an ACDC, we'll run a
-
-714
-00:18:00,400 --> 00:18:01,909
+355
+00:18:00,400 --> 00:18:01,919
 to verify an ACDC, we'll run a
 verification. They know that it was
 
-715
-00:18:01,909 --> 00:18:01,919
-verification. They know that it was
-
-716
+356
 00:18:01,919 --> 00:18:07,270
 verification. They know that it was
 signed by the CEO, they can act on it.
 
-717
-00:18:09,110 --> 00:18:09,120
-I think that's basically what I'm
-
-718
-00:18:09,120 --> 00:18:11,990
+357
+00:18:09,110 --> 00:18:12,000
 I think that's basically what I'm
 talking about here. And of course,
 
-719
-00:18:11,990 --> 00:18:12,000
-talking about here. And of course,
-
-720
-00:18:12,000 --> 00:18:14,470
+358
+00:18:12,000 --> 00:18:14,480
 talking about here. And of course,
 multisig comes in very useful in
 
-721
-00:18:14,470 --> 00:18:14,480
-multisig comes in very useful in
-
-722
+359
 00:18:14,480 --> 00:18:18,310
 multisig comes in very useful in
 situations like this.
 
-723
-00:18:21,909 --> 00:18:21,919
-The application at execution time can
-
-724
-00:18:21,919 --> 00:18:25,270
+360
+00:18:21,909 --> 00:18:25,280
 The application at execution time can
 verify and either decide to reject it if
 
-725
-00:18:25,270 --> 00:18:25,280
-verify and either decide to reject it if
-
-726
-00:18:25,280 --> 00:18:27,909
+361
+00:18:25,280 --> 00:18:27,919
 verify and either decide to reject it if
 it's not happy with what it sees or
 
-727
-00:18:27,909 --> 00:18:27,919
-it's not happy with what it sees or
-
-728
-00:18:27,919 --> 00:18:31,590
+362
+00:18:27,919 --> 00:18:33,350
 it's not happy with what it sees or
 executed and keep a permanent record of
 
-729
-00:18:31,590 --> 00:18:31,600
-executed and keep a permanent record of
-
-730
-00:18:31,600 --> 00:18:33,350
-executed and keep a permanent record of
-
-731
+363
 00:18:33,350 --> 00:18:33,360
 
 
-732
-00:18:33,360 --> 00:18:35,990
-Its trust decision and what it made that
-
-733
-00:18:35,990 --> 00:18:36,000
-its trust decision and what it made that
-
-734
-00:18:36,000 --> 00:18:40,630
+364
+00:18:33,360 --> 00:18:40,630
 its trust decision and what it made that
 trust decision based on.
 
-735
-00:18:44,310 --> 00:18:44,320
-So the benefits of this approach
-
-736
-00:18:44,320 --> 00:18:46,150
+365
+00:18:44,310 --> 00:18:46,160
 So the benefits of this approach
 which is a little bit of KERI and
 
-737
-00:18:46,150 --> 00:18:46,160
-which is a little bit of KERI and
-
-738
-00:18:46,160 --> 00:18:49,270
+366
+00:18:46,160 --> 00:18:49,280
 which is a little bit of KERI and
 ACDC's injected into existing business
 
-739
-00:18:49,270 --> 00:18:49,280
-ACDC's injected into existing business
-
-740
-00:18:49,280 --> 00:18:50,789
+367
+00:18:49,280 --> 00:18:50,799
 ACDC's injected into existing business
 applications for high value
 
-741
-00:18:50,789 --> 00:18:50,799
-applications for high value
-
-742
-00:18:50,799 --> 00:18:52,950
+368
+00:18:50,799 --> 00:18:52,960
 applications for high value
 transactions.
 
-743
-00:18:52,950 --> 00:18:52,960
-transactions.
-
-744
-00:18:52,960 --> 00:18:55,430
+369
+00:18:52,960 --> 00:18:55,440
 transactions.
 There are so many business use cases
 
-745
-00:18:55,430 --> 00:18:55,440
-There are so many business use cases
-
-746
-00:18:55,440 --> 00:18:57,510
+370
+00:18:55,440 --> 00:18:57,520
 There are so many business use cases
 that this can apply to across all
 
-747
-00:18:57,510 --> 00:18:57,520
-that this can apply to across all
-
-748
+371
 00:18:57,520 --> 00:19:01,350
 that this can apply to across all
 industries.
 
-749
-00:19:03,430 --> 00:19:03,440
-I know from personal experience that if
-
-750
-00:19:03,440 --> 00:19:06,789
+372
+00:19:03,430 --> 00:19:06,799
 I know from personal experience that if
 I use my bank's online system to do a
 
-751
-00:19:06,789 --> 00:19:06,799
-I use my bank's online system to do a
-
-752
-00:19:06,799 --> 00:19:09,430
+373
+00:19:06,799 --> 00:19:09,440
 I use my bank's online system to do a
 wire transfer even though I'm logged
 
-753
-00:19:09,430 --> 00:19:09,440
-wire transfer even though I'm logged
-
-754
-00:19:09,440 --> 00:19:11,270
+374
+00:19:09,440 --> 00:19:11,280
 wire transfer even though I'm logged
 in, it'll get to a certain point where
 
-755
-00:19:11,270 --> 00:19:11,280
-in, it'll get to a certain point where
-
-756
-00:19:11,280 --> 00:19:14,789
+375
+00:19:11,280 --> 00:19:14,799
 in, it'll get to a certain point where
 it says we're going to send you a
 
-757
-00:19:14,789 --> 00:19:14,799
-it says we're going to send you a
-
-758
-00:19:14,799 --> 00:19:16,630
+376
+00:19:14,799 --> 00:19:16,640
 it says we're going to send you a
 code to your mobile phone and want
 
-759
-00:19:16,630 --> 00:19:16,640
-code to your mobile phone and want
-
-760
-00:19:16,640 --> 00:19:18,950
+377
+00:19:16,640 --> 00:19:18,960
 code to your mobile phone and want
 you to type it in. So, two-factor
 
-761
-00:19:18,950 --> 00:19:18,960
-you to type it in. So, two-factor
-
-762
-00:19:18,960 --> 00:19:21,909
+378
+00:19:18,960 --> 00:19:21,919
 you to type it in. So, two-factor
 authentication to make sure that even
 
-763
-00:19:21,909 --> 00:19:21,919
-authentication to make sure that even
-
-764
-00:19:21,919 --> 00:19:23,590
+379
+00:19:21,919 --> 00:19:23,600
 authentication to make sure that even
 though I'm already logged in that it
 
-765
-00:19:23,590 --> 00:19:23,600
-though I'm already logged in that it
-
-766
-00:19:23,600 --> 00:19:27,270
+380
+00:19:23,600 --> 00:19:27,280
 though I'm already logged in that it
 really is me again, sort of really me.
 
-767
-00:19:27,270 --> 00:19:27,280
-really is me again, sort of really me.
-
-768
-00:19:27,280 --> 00:19:30,310
+381
+00:19:27,280 --> 00:19:30,320
 really is me again, sort of really me.
 This would replace those kinds
 
-769
-00:19:30,310 --> 00:19:30,320
-This would replace those kinds
-
-770
-00:19:30,320 --> 00:19:33,110
+382
+00:19:30,320 --> 00:19:33,120
 This would replace those kinds
 of weak two-factor authentication with
 
-771
-00:19:33,110 --> 00:19:33,120
-of weak two-factor authentication with
-
-772
+383
 00:19:33,120 --> 00:19:38,630
 of weak two-factor authentication with
 what we call a hard gate.
 
-773
-00:19:40,549 --> 00:19:40,559
-There will be no need to rearchitect
-
-774
-00:19:40,559 --> 00:19:43,350
+384
+00:19:40,549 --> 00:19:43,360
 There will be no need to rearchitect
 existing systems. If you take for
 
-775
-00:19:43,350 --> 00:19:43,360
-existing systems. If you take for
-
-776
-00:19:43,360 --> 00:19:46,950
+385
+00:19:43,360 --> 00:19:46,960
 existing systems. If you take for
 example the bank's wire transfer
 
-777
-00:19:46,950 --> 00:19:46,960
-example the bank's wire transfer
-
-778
-00:19:46,960 --> 00:19:50,630
+386
+00:19:46,960 --> 00:19:50,640
 example the bank's wire transfer
 request system, they already have that
 
-779
-00:19:50,630 --> 00:19:50,640
-request system, they already have that
-
-780
-00:19:50,640 --> 00:19:53,110
+387
+00:19:50,640 --> 00:19:53,120
 request system, they already have that
 ability in their system. It's part is
 
-781
-00:19:53,110 --> 00:19:53,120
-ability in their system. It's part is
-
-782
-00:19:53,120 --> 00:19:55,270
+388
+00:19:53,120 --> 00:19:55,280
 ability in their system. It's part is
 the functionality of their banking
 
-783
-00:19:55,270 --> 00:19:55,280
-the functionality of their banking
-
-784
-00:19:55,280 --> 00:19:58,070
+389
+00:19:55,280 --> 00:19:58,080
 the functionality of their banking
 system anyway. The additional step
 
-785
-00:19:58,070 --> 00:19:58,080
-system anyway. The additional step
-
-786
-00:19:58,080 --> 00:20:03,029
+390
+00:19:58,080 --> 00:20:03,039
 system anyway. The additional step
 would be just to make an API call to
 
-787
-00:20:03,029 --> 00:20:03,039
-would be just to make an API call to
-
-788
-00:20:03,039 --> 00:20:06,710
+391
+00:20:03,039 --> 00:20:06,720
 would be just to make an API call to
 a platform that knows how to wrap that
 
-789
-00:20:06,710 --> 00:20:06,720
-a platform that knows how to wrap that
-
-790
-00:20:06,720 --> 00:20:10,549
+392
+00:20:06,720 --> 00:20:10,559
 a platform that knows how to wrap that
 content into an ACDC, send it to an
 
-791
-00:20:10,549 --> 00:20:10,559
-content into an ACDC, send it to an
-
-792
-00:20:10,559 --> 00:20:13,270
+393
+00:20:10,559 --> 00:20:13,280
 content into an ACDC, send it to an
 authorized signer, and return the signed
 
-793
-00:20:13,270 --> 00:20:13,280
-authorized signer, and return the signed
-
-794
-00:20:13,280 --> 00:20:16,870
+394
+00:20:13,280 --> 00:20:16,880
 authorized signer, and return the signed
 ACDC back. Then that application just
 
-795
-00:20:16,870 --> 00:20:16,880
-ACDC back. Then that application just
-
-796
-00:20:16,880 --> 00:20:19,750
+395
+00:20:16,880 --> 00:20:19,760
 ACDC back. Then that application just
 makes another API call to verify it,
 
-797
-00:20:19,750 --> 00:20:19,760
-makes another API call to verify it,
-
-798
-00:20:19,760 --> 00:20:21,590
+396
+00:20:19,760 --> 00:20:21,600
 makes another API call to verify it,
 looks at the results, makes a trust
 
-799
-00:20:21,590 --> 00:20:21,600
-looks at the results, makes a trust
-
-800
-00:20:21,600 --> 00:20:23,510
+397
+00:20:21,600 --> 00:20:23,520
 looks at the results, makes a trust
 decision, either rejects or
 
-801
-00:20:23,510 --> 00:20:23,520
-decision, either rejects or
-
-802
-00:20:23,520 --> 00:20:25,909
+398
+00:20:23,520 --> 00:20:25,919
 decision, either rejects or
 continues. No need to completely
 
-803
-00:20:25,909 --> 00:20:25,919
-continues. No need to completely
-
-804
+399
 00:20:25,919 --> 00:20:30,470
 continues. No need to completely
 rearchitect existing systems.
 
-805
-00:20:33,669 --> 00:20:33,679
-This will drastically reduce online
-
-806
-00:20:33,679 --> 00:20:35,590
+400
+00:20:33,669 --> 00:20:35,600
 This will drastically reduce online
 fraud for high value business
 
-807
-00:20:35,590 --> 00:20:35,600
-fraud for high value business
-
-808
-00:20:35,600 --> 00:20:38,950
+401
+00:20:35,600 --> 00:20:38,960
 fraud for high value business
 transactions and it can be done really
 
-809
-00:20:38,950 --> 00:20:38,960
-transactions and it can be done really
-
-810
-00:20:38,960 --> 00:20:41,830
+402
+00:20:38,960 --> 00:20:41,840
 transactions and it can be done really
 very soon.
 
-811
-00:20:41,830 --> 00:20:41,840
-very soon.
-
-812
-00:20:41,840 --> 00:20:44,470
+403
+00:20:41,840 --> 00:20:44,480
 very soon.
 So I like to talk about this as
 
-813
-00:20:44,470 --> 00:20:44,480
-So I like to talk about this as
-
-814
-00:20:44,480 --> 00:20:47,750
+404
+00:20:44,480 --> 00:20:47,760
 So I like to talk about this as
 getting used to KERI and ACDC's one
 
-815
-00:20:47,750 --> 00:20:47,760
-getting used to KERI and ACDC's one
-
-816
-00:20:47,760 --> 00:20:50,710
+405
+00:20:47,760 --> 00:20:50,720
 getting used to KERI and ACDC's one
 bite at a time. So you introduce
 
-817
-00:20:50,710 --> 00:20:50,720
-bite at a time. So you introduce
-
-818
-00:20:50,720 --> 00:20:53,669
+406
+00:20:50,720 --> 00:20:53,679
 bite at a time. So you introduce
 something like this to a high value
 
-819
-00:20:53,669 --> 00:20:53,679
-something like this to a high value
-
-820
-00:20:53,679 --> 00:20:55,590
+407
+00:20:53,679 --> 00:20:55,600
 something like this to a high value
 transaction that's already being
 
-821
-00:20:55,590 --> 00:20:55,600
-transaction that's already being
-
-822
-00:20:55,600 --> 00:20:58,870
+408
+00:20:55,600 --> 00:20:58,880
 transaction that's already being
 executed by business applications
 
-823
-00:20:58,870 --> 00:20:58,880
-executed by business applications
-
-824
-00:20:58,880 --> 00:21:01,750
+409
+00:20:58,880 --> 00:21:01,760
 executed by business applications
 Today and they see the immediate
 
-825
-00:21:01,750 --> 00:21:01,760
-Today and they see the immediate
-
-826
-00:21:01,760 --> 00:21:05,909
+410
+00:21:01,760 --> 00:21:05,919
 Today and they see the immediate
 benefits and then once businesses start
 
-827
-00:21:05,909 --> 00:21:05,919
-benefits and then once businesses start
-
-828
-00:21:05,919 --> 00:21:09,190
+411
+00:21:05,919 --> 00:21:09,200
 benefits and then once businesses start
 using this technology in this limited
 
-829
-00:21:09,190 --> 00:21:09,200
-using this technology in this limited
-
-830
-00:21:09,200 --> 00:21:11,590
+412
+00:21:09,200 --> 00:21:11,600
 using this technology in this limited
 constrained way then they will be able
 
-831
-00:21:11,590 --> 00:21:11,600
-constrained way then they will be able
-
-832
-00:21:11,600 --> 00:21:14,470
+413
+00:21:11,600 --> 00:21:14,480
 constrained way then they will be able
 to see how that the basic technology can
 
-833
-00:21:14,470 --> 00:21:14,480
-to see how that the basic technology can
-
-834
-00:21:14,480 --> 00:21:16,230
+414
+00:21:14,480 --> 00:21:16,240
 to see how that the basic technology can
 be applied in all sorts of other
 
-835
-00:21:16,230 --> 00:21:16,240
-be applied in all sorts of other
-
-836
-00:21:16,240 --> 00:21:18,789
+415
+00:21:16,240 --> 00:21:18,799
 be applied in all sorts of other
 situations. And this is how we get the
 
-837
-00:21:18,789 --> 00:21:18,799
-situations. And this is how we get the
-
-838
-00:21:18,799 --> 00:21:21,909
+416
+00:21:18,799 --> 00:21:21,919
 situations. And this is how we get the
 world starting to use KERI and ACDC's
 
-839
-00:21:21,909 --> 00:21:21,919
-world starting to use KERI and ACDC's
-
-840
-00:21:21,919 --> 00:21:27,430
+417
+00:21:21,919 --> 00:21:27,440
 world starting to use KERI and ACDC's
 without having to make huge changes.
 
-841
-00:21:27,430 --> 00:21:27,440
-without having to make huge changes.
-
-842
-00:21:27,440 --> 00:21:30,630
+418
+00:21:27,440 --> 00:21:30,640
 without having to make huge changes.
 And also this is another good reason
 
-843
-00:21:30,630 --> 00:21:30,640
-And also this is another good reason
-
-844
-00:21:30,640 --> 00:21:35,750
+419
+00:21:30,640 --> 00:21:35,760
 And also this is another good reason
 for businesses to get a vLEI of course.
 
-845
-00:21:35,750 --> 00:21:35,760
-for businesses to get a vLEI of course.
-
-846
+420
 00:21:35,760 --> 00:21:39,029
 for businesses to get a vLEI of course.
 So
 
-847
-00:21:41,350 --> 00:21:41,360
-Digital Trust Foundry is a platform that
-
-848
-00:21:41,360 --> 00:21:43,590
+421
+00:21:41,350 --> 00:21:43,600
 Digital Trust Foundry is a platform that
 enables businesses to do exactly what
 
-849
-00:21:43,590 --> 00:21:43,600
-enables businesses to do exactly what
-
-850
-00:21:43,600 --> 00:21:46,710
+422
+00:21:43,600 --> 00:21:46,720
 enables businesses to do exactly what
 I've described. It's multi-instance
 
-851
-00:21:46,710 --> 00:21:46,720
-I've described. It's multi-instance
-
-852
-00:21:46,720 --> 00:21:49,750
+423
+00:21:46,720 --> 00:21:49,760
 I've described. It's multi-instance
 multi-tenant platform that fully
 
-853
-00:21:49,750 --> 00:21:49,760
-multi-tenant platform that fully
-
-854
-00:21:49,760 --> 00:21:53,750
+424
+00:21:49,760 --> 00:21:53,760
 multi-tenant platform that fully
 implements KERI and ACDC's with our
 
-855
-00:21:53,750 --> 00:21:53,760
-implements KERI and ACDC's with our
-
-856
-00:21:53,760 --> 00:21:58,470
+425
+00:21:53,760 --> 00:21:58,480
 implements KERI and ACDC's with our
 witnesses and watchers network. And
 
-857
-00:21:58,470 --> 00:21:58,480
-witnesses and watchers network. And
-
-858
-00:21:58,480 --> 00:22:00,789
+426
+00:21:58,480 --> 00:22:00,799
 witnesses and watchers network. And
 let me see if I'm getting ahead of
 
-859
-00:22:00,789 --> 00:22:00,799
-let me see if I'm getting ahead of
-
-860
-00:22:00,799 --> 00:22:02,710
+427
+00:22:00,799 --> 00:22:02,720
 let me see if I'm getting ahead of
 myself here.
 
-861
-00:22:02,710 --> 00:22:02,720
-myself here.
-
-862
-00:22:02,720 --> 00:22:04,470
+428
+00:22:02,720 --> 00:22:04,480
 myself here.
 And we've implemented what we call a
 
-863
-00:22:04,470 --> 00:22:04,480
-And we've implemented what we call a
-
-864
-00:22:04,480 --> 00:22:08,710
+429
+00:22:04,480 --> 00:22:08,720
 And we've implemented what we call a
 trustables API. So the business
 
-865
-00:22:08,710 --> 00:22:08,720
-trustables API. So the business
-
-866
-00:22:08,720 --> 00:22:11,190
+430
+00:22:08,720 --> 00:22:11,200
 trustables API. So the business
 application can say I have some digital
 
-867
-00:22:11,190 --> 00:22:11,200
-application can say I have some digital
-
-868
-00:22:11,200 --> 00:22:14,310
+431
+00:22:11,200 --> 00:22:14,320
 application can say I have some digital
 content that I want to make trustable.
 
-869
-00:22:14,310 --> 00:22:14,320
-content that I want to make trustable.
-
-870
-00:22:14,320 --> 00:22:17,270
+432
+00:22:14,320 --> 00:22:17,280
 content that I want to make trustable.
 It makes a call to the API
 
-871
-00:22:17,270 --> 00:22:17,280
-It makes a call to the API
-
-872
-00:22:17,280 --> 00:22:21,350
+433
+00:22:17,280 --> 00:22:21,360
 It makes a call to the API
 specifying the AIDs of the signers or
 
-873
-00:22:21,350 --> 00:22:21,360
-specifying the AIDs of the signers or
-
-874
-00:22:21,360 --> 00:22:25,590
+434
+00:22:21,360 --> 00:22:25,600
 specifying the AIDs of the signers or
 the roles that need to approve whatever
 
-875
-00:22:25,590 --> 00:22:25,600
-the roles that need to approve whatever
-
-876
-00:22:25,600 --> 00:22:28,470
+435
+00:22:25,600 --> 00:22:28,480
 the roles that need to approve whatever
 The digital artifact is that's being
 
-877
-00:22:28,470 --> 00:22:28,480
-The digital artifact is that's being
-
-878
-00:22:28,480 --> 00:22:31,350
+436
+00:22:28,480 --> 00:22:31,360
 The digital artifact is that's being
 Processed
 
-879
-00:22:31,350 --> 00:22:31,360
-Processed
-
-880
-00:22:31,360 --> 00:22:33,750
+437
+00:22:31,360 --> 00:22:33,760
 Processed
 and the end result is it gets back an
 
-881
-00:22:33,750 --> 00:22:33,760
-and the end result is it gets back an
-
-882
-00:22:33,760 --> 00:22:37,669
+438
+00:22:33,760 --> 00:22:37,679
 and the end result is it gets back an
 ACDC that it can verify
 
-883
-00:22:37,669 --> 00:22:37,679
-ACDC that it can verify
-
-884
-00:22:37,679 --> 00:22:39,350
+439
+00:22:37,679 --> 00:22:39,360
 ACDC that it can verify
 and that's that's where we're
 
-885
-00:22:39,350 --> 00:22:39,360
-and that's that's where we're
-
-886
-00:22:39,360 --> 00:22:42,630
+440
+00:22:39,360 --> 00:22:42,640
 and that's that's where we're
 starting. We're we're saying that we
 
-887
-00:22:42,630 --> 00:22:42,640
-starting. We're we're saying that we
-
-888
-00:22:42,640 --> 00:22:45,990
+441
+00:22:42,640 --> 00:22:46,000
 starting. We're we're saying that we
 need to provide what we call
 
-889
-00:22:45,990 --> 00:22:46,000
-need to provide what we call
-
-890
-00:22:46,000 --> 00:22:49,350
+442
+00:22:46,000 --> 00:22:49,360
 need to provide what we call
 execution trust to existing applications
 
-891
-00:22:49,350 --> 00:22:49,360
-execution trust to existing applications
-
-892
-00:22:49,360 --> 00:22:52,710
+443
+00:22:49,360 --> 00:22:52,720
 execution trust to existing applications
 so that they can start using the
 
-893
-00:22:52,710 --> 00:22:52,720
-so that they can start using the
-
-894
-00:22:52,720 --> 00:22:55,510
+444
+00:22:52,720 --> 00:22:55,520
 so that they can start using the
 power of KERI and ACDC's now in a
 
-895
-00:22:55,510 --> 00:22:55,520
-power of KERI and ACDC's now in a
-
-896
-00:22:55,520 --> 00:22:59,669
+445
+00:22:55,520 --> 00:22:59,679
 power of KERI and ACDC's now in a
 small way but then to see understand
 
-897
-00:22:59,669 --> 00:22:59,679
-small way but then to see understand
-
-898
+446
 00:22:59,679 --> 00:23:04,950
 small way but then to see understand
 the value of it by practical experience.
 
-899
+447
 00:23:07,029 --> 00:23:07,039
 
 
-900
-00:23:07,039 --> 00:23:10,070
-We're looking for partners. Our
-
-901
-00:23:10,070 --> 00:23:10,080
-we're looking for partners. Our
-
-902
-00:23:10,080 --> 00:23:13,830
+448
+00:23:07,039 --> 00:23:13,840
 we're looking for partners. Our
 business model is yes we will deliver
 
-903
-00:23:13,830 --> 00:23:13,840
-business model is yes we will deliver
-
-904
-00:23:13,840 --> 00:23:17,350
+449
+00:23:13,840 --> 00:23:17,360
 business model is yes we will deliver
 our a platform for you for use by
 
-905
-00:23:17,350 --> 00:23:17,360
-our a platform for you for use by
-
-906
-00:23:17,360 --> 00:23:19,909
+450
+00:23:17,360 --> 00:23:19,919
 our a platform for you for use by
 businesses generally but also by
 
-907
-00:23:19,909 --> 00:23:19,919
-businesses generally but also by
-
-908
-00:23:19,919 --> 00:23:23,029
+451
+00:23:19,919 --> 00:23:23,039
 businesses generally but also by
 partners who have existing applications.
 
-909
-00:23:23,029 --> 00:23:23,039
-partners who have existing applications.
-
-910
-00:23:23,039 --> 00:23:24,950
+452
+00:23:23,039 --> 00:23:24,960
 partners who have existing applications.
 It might be workflow applications
 
-911
-00:23:24,950 --> 00:23:24,960
-It might be workflow applications
-
-912
-00:23:24,960 --> 00:23:28,310
+453
+00:23:24,960 --> 00:23:28,320
 It might be workflow applications
 that need stronger approval processes
 
-913
-00:23:28,310 --> 00:23:28,320
-that need stronger approval processes
-
-914
-00:23:28,320 --> 00:23:33,270
+454
+00:23:28,320 --> 00:23:33,280
 that need stronger approval processes
 for example. And they can work
 
-915
-00:23:33,270 --> 00:23:33,280
-for example. And they can work
-
-916
-00:23:33,280 --> 00:23:36,630
+455
+00:23:33,280 --> 00:23:36,640
 for example. And they can work
 with us to build execution trust
 
-917
-00:23:36,630 --> 00:23:36,640
-with us to build execution trust
-
-918
-00:23:36,640 --> 00:23:38,789
+456
+00:23:36,640 --> 00:23:38,799
 with us to build execution trust
 functionality into their applications
 
-919
-00:23:38,789 --> 00:23:38,799
-functionality into their applications
-
-920
-00:23:38,799 --> 00:23:41,430
+457
+00:23:38,799 --> 00:23:41,440
 functionality into their applications
 and deliver it to their customers. So in
 
-921
-00:23:41,430 --> 00:23:41,440
-and deliver it to their customers. So in
-
-922
-00:23:41,440 --> 00:23:45,350
+458
+00:23:41,440 --> 00:23:45,360
 and deliver it to their customers. So in
 this way we build a network of
 
-923
-00:23:45,350 --> 00:23:45,360
-this way we build a network of
-
-924
-00:23:45,360 --> 00:23:49,029
+459
+00:23:45,360 --> 00:23:49,039
 this way we build a network of
 businesses who are implementing the
 
-925
-00:23:49,029 --> 00:23:49,039
-businesses who are implementing the
-
-926
-00:23:49,039 --> 00:23:52,710
+460
+00:23:49,039 --> 00:23:52,720
 businesses who are implementing the
 power of ACDC's and KERI without
 
-927
-00:23:52,710 --> 00:23:52,720
-power of ACDC's and KERI without
-
-928
-00:23:52,720 --> 00:23:53,909
+461
+00:23:52,720 --> 00:23:53,919
 power of ACDC's and KERI without
 having to build the whole thing
 
-929
-00:23:53,909 --> 00:23:53,919
-having to build the whole thing
-
-930
-00:23:53,919 --> 00:23:56,630
+462
+00:23:53,919 --> 00:23:56,640
 having to build the whole thing
 themselves. They just make use of our
 
-931
-00:23:56,630 --> 00:23:56,640
-themselves. They just make use of our
-
-932
-00:23:56,640 --> 00:23:58,950
+463
+00:23:56,640 --> 00:23:58,960
 themselves. They just make use of our
 platform. So in some ways it's similar
 
-933
-00:23:58,950 --> 00:23:58,960
-platform. So in some ways it's similar
-
-934
-00:23:58,960 --> 00:24:03,350
+464
+00:23:58,960 --> 00:24:03,360
 platform. So in some ways it's similar
 to if you're a business wanting to
 
-935
-00:24:03,350 --> 00:24:03,360
-to if you're a business wanting to
-
-936
-00:24:03,360 --> 00:24:07,029
+465
+00:24:03,360 --> 00:24:07,039
 to if you're a business wanting to
 Manage your sales process, you can
 
-937
-00:24:07,029 --> 00:24:07,039
-Manage your sales process, you can
-
-938
-00:24:07,039 --> 00:24:11,029
+466
+00:24:07,039 --> 00:24:11,039
 Manage your sales process, you can
 either use spreadsheets and build
 
-939
-00:24:11,029 --> 00:24:11,039
-either use spreadsheets and build
-
-940
-00:24:11,039 --> 00:24:14,549
+467
+00:24:11,039 --> 00:24:14,559
 either use spreadsheets and build
 your own application to manage all of
 
-941
-00:24:14,549 --> 00:24:14,559
-your own application to manage all of
-
-942
-00:24:14,559 --> 00:24:16,630
+468
+00:24:14,559 --> 00:24:16,640
 your own application to manage all of
 your sales processes or you can go to
 
-943
-00:24:16,630 --> 00:24:16,640
-your sales processes or you can go to
-
-944
-00:24:16,640 --> 00:24:20,549
+469
+00:24:16,640 --> 00:24:20,559
 your sales processes or you can go to
 Salesforce and sign up for a CRM with
 
-945
-00:24:20,549 --> 00:24:20,559
-Salesforce and sign up for a CRM with
-
-946
-00:24:20,559 --> 00:24:23,190
+470
+00:24:20,559 --> 00:24:23,200
 Salesforce and sign up for a CRM with
 them. they provide the functionality all
 
-947
-00:24:23,190 --> 00:24:23,200
-them. they provide the functionality all
-
-948
-00:24:23,200 --> 00:24:25,830
+471
+00:24:23,200 --> 00:24:25,840
 them. they provide the functionality all
 of the low-level detail and you just
 
-949
-00:24:25,830 --> 00:24:25,840
-of the low-level detail and you just
-
-950
-00:24:25,840 --> 00:24:29,029
+472
+00:24:25,840 --> 00:24:30,789
 of the low-level detail and you just
 get the benefits.
 
-951
-00:24:29,029 --> 00:24:29,039
-get the benefits.
-
-952
-00:24:29,039 --> 00:24:30,789
-get the benefits.
-
-953
+473
 00:24:30,789 --> 00:24:30,799
 
 
-954
-00:24:30,799 --> 00:24:35,190
-We have a list of interactive
-
-955
-00:24:35,190 --> 00:24:35,200
-we have a list of interactive
-
-956
-00:24:35,200 --> 00:24:38,710
+474
+00:24:30,799 --> 00:24:38,720
 we have a list of interactive
 examples of our functionality that
 
-957
-00:24:38,710 --> 00:24:38,720
-examples of our functionality that
-
-958
-00:24:38,720 --> 00:24:43,430
+475
+00:24:38,720 --> 00:24:43,440
 examples of our functionality that
 you can go and play with and just
 
-959
-00:24:43,430 --> 00:24:43,440
-you can go and play with and just
-
-960
-00:24:43,440 --> 00:24:45,110
+476
+00:24:43,440 --> 00:24:45,120
 you can go and play with and just
 to give you some ideas of the sorts of
 
-961
-00:24:45,110 --> 00:24:45,120
-to give you some ideas of the sorts of
-
-962
-00:24:45,120 --> 00:24:46,230
+477
+00:24:45,120 --> 00:24:46,240
 to give you some ideas of the sorts of
 things that can be done with that.
 
-963
-00:24:46,230 --> 00:24:46,240
-things that can be done with that.
-
-964
-00:24:46,240 --> 00:24:49,350
+478
+00:24:46,240 --> 00:24:49,360
 things that can be done with that.
 There's about 30 different use cases in
 
-965
-00:24:49,350 --> 00:24:49,360
-There's about 30 different use cases in
-
-966
-00:24:49,360 --> 00:24:51,750
+479
+00:24:49,360 --> 00:24:51,760
 There's about 30 different use cases in
 different businesses. One of my
 
-967
-00:24:51,750 --> 00:24:51,760
-different businesses. One of my
-
-968
-00:24:51,760 --> 00:24:55,990
+480
+00:24:51,760 --> 00:24:56,000
 different businesses. One of my
 favorites is verifiable résumés in
 
-969
-00:24:55,990 --> 00:24:56,000
-favorites is verifiable résumés in
-
-970
-00:24:56,000 --> 00:24:59,029
+481
+00:24:56,000 --> 00:24:59,039
 favorites is verifiable résumés in
 which an individual who's collected
 
-971
-00:24:59,029 --> 00:24:59,039
-which an individual who's collected
-
-972
-00:24:59,039 --> 00:25:01,590
+482
+00:24:59,039 --> 00:25:01,600
 which an individual who's collected
 digital credentials or professional
 
-973
-00:25:01,590 --> 00:25:01,600
-digital credentials or professional
-
-974
-00:25:01,600 --> 00:25:04,549
+483
+00:25:01,600 --> 00:25:04,559
 digital credentials or professional
 credentials can actually take them
 
-975
-00:25:04,549 --> 00:25:04,559
-credentials can actually take them
-
-976
-00:25:04,559 --> 00:25:08,070
+484
+00:25:04,559 --> 00:25:08,080
 credentials can actually take them
 all and generate a verifiable resume
 
-977
-00:25:08,070 --> 00:25:08,080
-all and generate a verifiable resume
-
-978
-00:25:08,080 --> 00:25:10,310
+485
+00:25:08,080 --> 00:25:10,320
 all and generate a verifiable resume
 that has references to all of each of
 
-979
-00:25:10,310 --> 00:25:10,320
-that has references to all of each of
-
-980
-00:25:10,320 --> 00:25:13,269
+486
+00:25:10,320 --> 00:25:13,279
 that has references to all of each of
 those credentials. and they can provide
 
-981
-00:25:13,269 --> 00:25:13,279
-those credentials. and they can provide
-
-982
-00:25:13,279 --> 00:25:16,630
+487
+00:25:13,279 --> 00:25:16,640
 those credentials. and they can provide
 their digital verifiable resume to a
 
-983
-00:25:16,630 --> 00:25:16,640
-their digital verifiable resume to a
-
-984
-00:25:16,640 --> 00:25:19,269
+488
+00:25:16,640 --> 00:25:19,279
 their digital verifiable resume to a
 potential employer who can actually
 
-985
-00:25:19,269 --> 00:25:19,279
-potential employer who can actually
-
-986
-00:25:19,279 --> 00:25:21,990
+489
+00:25:19,279 --> 00:25:22,000
 potential employer who can actually
 click verify on that resume. It will go
 
-987
-00:25:21,990 --> 00:25:22,000
-click verify on that resume. It will go
-
-988
-00:25:22,000 --> 00:25:25,350
+490
+00:25:22,000 --> 00:25:25,360
 click verify on that resume. It will go
 to the issuers of each of those
 
-989
-00:25:25,350 --> 00:25:25,360
-to the issuers of each of those
-
-990
-00:25:25,360 --> 00:25:27,909
+491
+00:25:25,360 --> 00:25:27,919
 to the issuers of each of those
 credentials, verify them and then return
 
-991
-00:25:27,909 --> 00:25:27,919
-credentials, verify them and then return
-
-992
+492
 00:25:27,919 --> 00:25:32,789
 credentials, verify them and then return
 a trust report to the employer.
 
-993
-00:25:34,870 --> 00:25:34,880
-That's all I have to say for now.
-
-994
-00:25:34,880 --> 00:25:36,630
+493
+00:25:34,870 --> 00:25:36,640
 That's all I have to say for now.
 Thank you very much for your time and if
 
-995
-00:25:36,630 --> 00:25:36,640
-thank you very much for your time and if
-
-996
-00:25:36,640 --> 00:25:38,950
+494
+00:25:36,640 --> 00:25:38,960
 thank you very much for your time and if
 you have any questions now is the
 
-997
-00:25:38,950 --> 00:25:38,960
-you have any questions now is the
-
-998
+495
 00:25:38,960 --> 00:25:47,350
 you have any questions now is the
 time.
 
-999
-00:25:49,909 --> 00:25:49,919
-I got one question u because of the term
-
-1000
-00:25:49,919 --> 00:25:52,630
+496
+00:25:49,909 --> 00:25:52,640
 I got one question u because of the term
 that you coined trustability.
 
-1001
-00:25:52,630 --> 00:25:52,640
-that you coined trustability.
-
-1002
-00:25:52,640 --> 00:25:56,070
+497
+00:25:52,640 --> 00:25:56,080
 that you coined trustability.
 I use that in a promotion on
 
-1003
-00:25:56,070 --> 00:25:56,080
-I use that in a promotion on
-
-1004
-00:25:56,080 --> 00:26:00,549
+498
+00:25:56,080 --> 00:26:00,559
 I use that in a promotion on
 LinkedIn and it got it got a red
 
-1005
-00:26:00,549 --> 00:26:00,559
-LinkedIn and it got it got a red
-
-1006
-00:26:00,559 --> 00:26:02,549
+499
+00:26:00,559 --> 00:26:02,559
 LinkedIn and it got it got a red
 dotted line under it. It doesn't exist
 
-1007
-00:26:02,549 --> 00:26:02,559
-dotted line under it. It doesn't exist
-
-1008
-00:26:02,559 --> 00:26:04,950
+500
+00:26:02,559 --> 00:26:04,960
 dotted line under it. It doesn't exist
 in my translation. So it got
 
-1009
-00:26:04,950 --> 00:26:04,960
-in my translation. So it got
-
-1010
-00:26:04,960 --> 00:26:06,950
+501
+00:26:04,960 --> 00:26:06,960
 in my translation. So it got
 trustworthiness.
 
-1011
-00:26:06,950 --> 00:26:06,960
-trustworthiness.
-
-1012
-00:26:06,960 --> 00:26:09,990
+502
+00:26:06,960 --> 00:26:10,000
 trustworthiness.
 That's could you I heard your
 
-1013
-00:26:09,990 --> 00:26:10,000
-That's could you I heard your
-
-1014
-00:26:10,000 --> 00:26:13,830
+503
+00:26:10,000 --> 00:26:13,840
 That's could you I heard your
 explanation of trustability but how
 
-1015
-00:26:13,830 --> 00:26:13,840
-explanation of trustability but how
-
-1016
-00:26:13,840 --> 00:26:15,909
+504
+00:26:13,840 --> 00:26:15,919
 explanation of trustability but how
 could we use that word trustworthiness
 
-1017
-00:26:15,909 --> 00:26:15,919
-could we use that word trustworthiness
-
-1018
-00:26:15,919 --> 00:26:16,950
+505
+00:26:15,919 --> 00:26:16,960
 could we use that word trustworthiness
 as well in your
 
-1019
-00:26:16,950 --> 00:26:16,960
-as well in your
-
-1020
-00:26:16,960 --> 00:26:19,830
+506
+00:26:16,960 --> 00:26:19,840
 as well in your
 course. Yes.
 
-1021
-00:26:19,830 --> 00:26:19,840
-course. Yes.
-
-1022
-00:26:19,840 --> 00:26:22,630
+507
+00:26:19,840 --> 00:26:22,640
 course. Yes.
 The ability to be able to make a trust
 
-1023
-00:26:22,630 --> 00:26:22,640
-the ability to be able to make a trust
-
-1024
-00:26:22,640 --> 00:26:26,230
+508
+00:26:22,640 --> 00:26:26,240
 the ability to be able to make a trust
 decision on something is my definition
 
-1025
-00:26:26,230 --> 00:26:26,240
-decision on something is my definition
-
-1026
-00:26:26,240 --> 00:26:28,470
+509
+00:26:26,240 --> 00:26:28,480
 decision on something is my definition
 of trustability which may not be a real
 
-1027
-00:26:28,470 --> 00:26:28,480
-of trustability which may not be a real
-
-1028
-00:26:28,480 --> 00:26:32,870
+510
+00:26:28,480 --> 00:26:32,880
 of trustability which may not be a real
 word. But I think it should be.
 
-1029
-00:26:32,870 --> 00:26:32,880
-word. But I think it should be.
-
-1030
-00:26:32,880 --> 00:26:34,630
+511
+00:26:32,880 --> 00:26:34,640
 word. But I think it should be.
 We're we're making trust decisions all
 
-1031
-00:26:34,630 --> 00:26:34,640
-we're we're making trust decisions all
-
-1032
-00:26:34,640 --> 00:26:39,510
+512
+00:26:34,640 --> 00:26:39,520
 we're we're making trust decisions all
 of the while. But when I receive some
 
-1033
-00:26:39,510 --> 00:26:39,520
-of the while. But when I receive some
-
-1034
-00:26:39,520 --> 00:26:41,510
+513
+00:26:39,520 --> 00:26:41,520
 of the while. But when I receive some
 kind of digital information over the
 
-1035
-00:26:41,510 --> 00:26:41,520
-kind of digital information over the
-
-1036
-00:26:41,520 --> 00:26:44,710
+514
+00:26:41,520 --> 00:26:44,720
 kind of digital information over the
 internet that I want to make a trust
 
-1037
-00:26:44,710 --> 00:26:44,720
-internet that I want to make a trust
-
-1038
-00:26:44,720 --> 00:26:49,430
+515
+00:26:44,720 --> 00:26:49,440
 internet that I want to make a trust
 decision on then I have at the moment
 
-1039
-00:26:49,430 --> 00:26:49,440
-decision on then I have at the moment
-
-1040
-00:26:49,440 --> 00:26:51,830
+516
+00:26:49,440 --> 00:26:51,840
 decision on then I have at the moment
 only two choices. One's called blind and
 
-1041
-00:26:51,830 --> 00:26:51,840
-only two choices. One's called blind and
-
-1042
-00:26:51,840 --> 00:26:54,950
+517
+00:26:51,840 --> 00:26:54,960
 only two choices. One's called blind and
 faith. Well, there's three actually.
 
-1043
-00:26:54,950 --> 00:26:54,960
-faith. Well, there's three actually.
-
-1044
-00:26:54,960 --> 00:26:57,590
+518
+00:26:54,960 --> 00:26:57,600
 faith. Well, there's three actually.
 Blind faith. The one is ignore it
 
-1045
-00:26:57,590 --> 00:26:57,600
-Blind faith. The one is ignore it
-
-1046
-00:26:57,600 --> 00:27:00,549
+519
+00:26:57,600 --> 00:27:00,559
 Blind faith. The one is ignore it
 completely. And the third is spend quite
 
-1047
-00:27:00,549 --> 00:27:00,559
-completely. And the third is spend quite
-
-1048
-00:27:00,559 --> 00:27:02,470
+520
+00:27:00,559 --> 00:27:02,480
 completely. And the third is spend quite
 a lot of time doing some kind of
 
-1049
-00:27:02,470 --> 00:27:02,480
-a lot of time doing some kind of
-
-1050
-00:27:02,480 --> 00:27:05,269
+521
+00:27:02,480 --> 00:27:05,279
 a lot of time doing some kind of
 verification manually to decide whether
 
-1051
-00:27:05,269 --> 00:27:05,279
-verification manually to decide whether
-
-1052
-00:27:05,279 --> 00:27:08,630
+522
+00:27:05,279 --> 00:27:08,640
 verification manually to decide whether
 this is genuine or not. If it's an
 
-1053
-00:27:08,630 --> 00:27:08,640
-this is genuine or not. If it's an
-
-1054
-00:27:08,640 --> 00:27:10,149
+523
+00:27:08,640 --> 00:27:10,159
 this is genuine or not. If it's an
 email coming over from me, I look to see
 
-1055
-00:27:10,149 --> 00:27:10,159
-email coming over from me, I look to see
-
-1056
-00:27:10,159 --> 00:27:11,430
+524
+00:27:10,159 --> 00:27:11,440
 email coming over from me, I look to see
 where it actually came from, for
 
-1057
-00:27:11,430 --> 00:27:11,440
-where it actually came from, for
-
-1058
-00:27:11,440 --> 00:27:15,990
+525
+00:27:11,440 --> 00:27:16,000
 where it actually came from, for
 example. If you can trust that.
 
-1059
-00:27:15,990 --> 00:27:16,000
-example. If you can trust that.
-
-1060
-00:27:16,000 --> 00:27:19,590
+526
+00:27:16,000 --> 00:27:19,600
 example. If you can trust that.
 about a week ago, my wife had a phone
 
-1061
-00:27:19,590 --> 00:27:19,600
-About a week ago, my wife had a phone
-
-1062
-00:27:19,600 --> 00:27:22,950
+527
+00:27:19,600 --> 00:27:22,960
 About a week ago, my wife had a phone
 call from the Bank of America saying
 
-1063
-00:27:22,950 --> 00:27:22,960
-call from the Bank of America saying
-
-1064
-00:27:22,960 --> 00:27:25,110
+528
+00:27:22,960 --> 00:27:25,120
 call from the Bank of America saying
 that they noticed that someone is trying
 
-1065
-00:27:25,110 --> 00:27:25,120
-that they noticed that someone is trying
-
-1066
-00:27:25,120 --> 00:27:28,789
+529
+00:27:25,120 --> 00:27:28,799
 that they noticed that someone is trying
 to
 
-1067
-00:27:28,789 --> 00:27:28,799
-to
-
-1068
-00:27:28,799 --> 00:27:31,269
+530
+00:27:28,799 --> 00:27:31,279
 to
 Initiate a wire transfer from our
 
-1069
-00:27:31,269 --> 00:27:31,279
-Initiate a wire transfer from our
-
-1070
-00:27:31,279 --> 00:27:36,230
+531
+00:27:31,279 --> 00:27:36,240
 Initiate a wire transfer from our
 checking account. They said we
 
-1071
-00:27:36,230 --> 00:27:36,240
-checking account. They said we
-
-1072
-00:27:36,240 --> 00:27:39,669
+532
+00:27:36,240 --> 00:27:39,679
 checking account. They said we
 need we can help you fix this.
 
-1073
-00:27:39,669 --> 00:27:39,679
-need we can help you fix this.
-
-1074
-00:27:39,679 --> 00:27:42,470
+533
+00:27:39,679 --> 00:27:42,480
 need we can help you fix this.
 They were they sounded very genuine and
 
-1075
-00:27:42,470 --> 00:27:42,480
-they were they sounded very genuine and
-
-1076
-00:27:42,480 --> 00:27:45,510
+534
+00:27:42,480 --> 00:27:45,520
 they were they sounded very genuine and
 They said this is my name and if
 
-1077
-00:27:45,510 --> 00:27:45,520
-They said this is my name and if
-
-1078
-00:27:45,520 --> 00:27:48,310
+535
+00:27:45,520 --> 00:27:48,320
 They said this is my name and if
 you go to the Bank of America's website
 
-1079
-00:27:48,310 --> 00:27:48,320
-you go to the Bank of America's website
-
-1080
-00:27:48,320 --> 00:27:50,470
+536
+00:27:48,320 --> 00:27:50,480
 you go to the Bank of America's website
 go to a particular branch and you scroll
 
-1081
-00:27:50,470 --> 00:27:50,480
-go to a particular branch and you scroll
-
-1082
-00:27:50,480 --> 00:27:53,510
+537
+00:27:50,480 --> 00:27:53,520
 go to a particular branch and you scroll
 down you'll see a picture of me and
 
-1083
-00:27:53,510 --> 00:27:53,520
-down you'll see a picture of me and
-
-1084
-00:27:53,520 --> 00:27:55,350
+538
+00:27:53,520 --> 00:27:55,360
 down you'll see a picture of me and
 you'll see my phone number and if you
 
-1085
-00:27:55,350 --> 00:27:55,360
-you'll see my phone number and if you
-
-1086
-00:27:55,360 --> 00:27:57,590
+539
+00:27:55,360 --> 00:27:57,600
 you'll see my phone number and if you
 look that the phone that I'm calling
 
-1087
-00:27:57,590 --> 00:27:57,600
-look that the phone that I'm calling
-
-1088
-00:27:57,600 --> 00:27:59,590
+540
+00:27:57,600 --> 00:27:59,600
 look that the phone that I'm calling
 from is in fact that phone number. So
 
-1089
-00:27:59,590 --> 00:27:59,600
-from is in fact that phone number. So
-
-1090
-00:27:59,600 --> 00:28:03,750
+541
+00:27:59,600 --> 00:28:03,760
 from is in fact that phone number. So
 this is me. my wife said, "H,
 
-1091
-00:28:03,750 --> 00:28:03,760
-this is me. my wife said, "H,
-
-1092
-00:28:03,760 --> 00:28:04,870
+542
+00:28:03,760 --> 00:28:04,880
 this is me. my wife said, "H,
 well, I'm going to call you back
 
-1093
-00:28:04,870 --> 00:28:04,880
-well, I'm going to call you back
-
-1094
-00:28:04,880 --> 00:28:07,269
+543
+00:28:04,880 --> 00:28:07,279
 well, I'm going to call you back
 anyway." And that was that was the
 
-1095
-00:28:07,269 --> 00:28:07,279
-anyway." And that was that was the
-
-1096
-00:28:07,279 --> 00:28:08,710
+544
+00:28:07,279 --> 00:28:08,720
 anyway." And that was that was the
 last we heard of them, except we called
 
-1097
-00:28:08,710 --> 00:28:08,720
-last we heard of them, except we called
-
-1098
-00:28:08,720 --> 00:28:10,230
+545
+00:28:08,720 --> 00:28:10,240
 last we heard of them, except we called
 back and spoke to somebody completely
 
-1099
-00:28:10,230 --> 00:28:10,240
-back and spoke to somebody completely
-
-1100
-00:28:10,240 --> 00:28:13,510
+546
+00:28:10,240 --> 00:28:13,520
 back and spoke to somebody completely
 different. So
 
-1101
-00:28:13,510 --> 00:28:13,520
-different. So
-
-1102
-00:28:13,520 --> 00:28:16,870
+547
+00:28:13,520 --> 00:28:16,880
 different. So
 that was we could, we could have
 
-1103
-00:28:16,870 --> 00:28:16,880
-that was we could, we could have
-
-1104
-00:28:16,880 --> 00:28:20,870
+548
+00:28:16,880 --> 00:28:20,880
 that was we could, we could have
 got caught out very easily. Because
 
-1105
-00:28:20,870 --> 00:28:20,880
-got caught out very easily. Because
-
-1106
-00:28:20,880 --> 00:28:23,110
+549
+00:28:20,880 --> 00:28:23,120
 got caught out very easily. Because
 lots of people assume that if it says
 
-1107
-00:28:23,110 --> 00:28:23,120
-lots of people assume that if it says
-
-1108
-00:28:23,120 --> 00:28:25,350
+550
+00:28:23,120 --> 00:28:25,360
 lots of people assume that if it says
 that phone number and they prove that
 
-1109
-00:28:25,350 --> 00:28:25,360
-that phone number and they prove that
-
-1110
-00:28:25,360 --> 00:28:28,149
+551
+00:28:25,360 --> 00:28:28,159
 that phone number and they prove that
 they control that the real person
 
-1111
-00:28:28,149 --> 00:28:28,159
-they control that the real person
-
-1112
-00:28:28,159 --> 00:28:29,590
+552
+00:28:28,159 --> 00:28:29,600
 they control that the real person
 controls that phone number that's where
 
-1113
-00:28:29,590 --> 00:28:29,600
-controls that phone number that's where
-
-1114
-00:28:29,600 --> 00:28:32,630
+553
+00:28:29,600 --> 00:28:32,640
 controls that phone number that's where
 it came from. Thankfully we have
 
-1115
-00:28:32,630 --> 00:28:32,640
-it came from. Thankfully we have
-
-1116
-00:28:32,640 --> 00:28:34,549
+554
+00:28:32,640 --> 00:28:34,559
 it came from. Thankfully we have
 Provenant who is solving that problem for
 
-1117
-00:28:34,549 --> 00:28:34,559
-Provenant who is solving that problem for
-
-1118
-00:28:34,559 --> 00:28:37,510
+555
+00:28:34,559 --> 00:28:37,520
 Provenant who is solving that problem for
 us using KERI and ACDC's but for now
 
-1119
-00:28:37,510 --> 00:28:37,520
-us using KERI and ACDC's but for now
-
-1120
-00:28:37,520 --> 00:28:40,149
+556
+00:28:37,520 --> 00:28:40,159
 us using KERI and ACDC's but for now
 we're in the world where we have to make
 
-1121
-00:28:40,149 --> 00:28:40,159
-we're in the world where we have to make
-
-1122
-00:28:40,159 --> 00:28:43,750
+557
+00:28:40,159 --> 00:28:43,760
 we're in the world where we have to make
 either blind faith, ignore it or
 
-1123
-00:28:43,750 --> 00:28:43,760
-either blind faith, ignore it or
-
-1124
-00:28:43,760 --> 00:28:46,310
+558
+00:28:43,760 --> 00:28:46,320
 either blind faith, ignore it or
 spend some time doing verification and
 
-1125
-00:28:46,310 --> 00:28:46,320
-spend some time doing verification and
-
-1126
-00:28:46,320 --> 00:28:49,909
+559
+00:28:46,320 --> 00:28:49,919
 spend some time doing verification and
 and that's how we get caught. So
 
-1127
-00:28:49,909 --> 00:28:49,919
-and that's how we get caught. So
-
-1128
-00:28:49,919 --> 00:28:52,630
+560
+00:28:49,919 --> 00:28:52,640
 and that's how we get caught. So
 implementing
 
-1129
-00:28:52,630 --> 00:28:52,640
-implementing
-
-1130
-00:28:52,640 --> 00:28:57,269
+561
+00:28:52,640 --> 00:28:57,279
 implementing
 Execution time trustability is
 
-1131
-00:28:57,269 --> 00:28:57,279
-Execution time trustability is
-
-1132
-00:28:57,279 --> 00:29:01,269
+562
+00:28:57,279 --> 00:29:01,279
 Execution time trustability is
 where we think things should start.
 
-1133
-00:29:01,269 --> 00:29:01,279
-where we think things should start.
-
-1134
-00:29:01,279 --> 00:29:05,750
+563
+00:29:01,279 --> 00:29:05,760
 where we think things should start.
 Thank you. Any other question?
 
-1135
-00:29:05,750 --> 00:29:05,760
-Thank you. Any other question?
-
-1136
-00:29:05,760 --> 00:29:08,149
+564
+00:29:05,760 --> 00:29:08,159
 Thank you. Any other question?
 If not then thank you very much Alan for
 
-1137
-00:29:08,149 --> 00:29:08,159
-If not then thank you very much Alan for
-
-1138
+565
 00:29:08,159 --> 00:29:11,480
 If not then thank you very much Alan for
 your presentation.

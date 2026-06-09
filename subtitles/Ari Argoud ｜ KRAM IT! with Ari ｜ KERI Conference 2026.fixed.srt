@@ -1,6118 +1,3398 @@
-1
-00:00:06,230 --> 00:00:06,240
+﻿1
+00:00:06,230 --> 00:00:08,160
 Hi everybody. This is KRAM It! with Ari.
+Important exclamation mark
 
 2
-00:00:06,240 --> 00:00:08,150
-Hi everybody. This is KRAM It! with Ari.
+00:00:08,160 --> 00:00:11,200
 Important exclamation mark
+placement there.
 
 3
-00:00:08,150 --> 00:00:08,160
-Important exclamation mark
-
-4
-00:00:08,160 --> 00:00:11,190
-Important exclamation mark
-placement there.
-
-5
-00:00:11,190 --> 00:00:11,200
-placement there.
-
-6
-00:00:11,200 --> 00:00:12,709
+00:00:11,200 --> 00:00:12,719
 placement there.
 So
 
-7
-00:00:12,709 --> 00:00:12,719
+4
+00:00:12,719 --> 00:00:15,679
 so
+KRAM is KERI request
+
+5
+00:00:15,679 --> 00:00:17,920
+KRAM is KERI request
+authentication mechanism
+
+6
+00:00:17,920 --> 00:00:22,720
+authentication mechanism
+and this is for all non KEL
+
+7
+00:00:22,720 --> 00:00:25,760
+and this is for all non KEL
+events or non-key event messages
 
 8
-00:00:12,719 --> 00:00:15,669
-so
-KRAM is KERI request
+00:00:25,760 --> 00:00:27,840
+events or non-key event messages
+that occur in the KERI protocol and
 
 9
-00:00:15,669 --> 00:00:15,679
-KRAM is KERI request
+00:00:27,840 --> 00:00:30,160
+that occur in the KERI protocol and
+some examples include encrypt sender
 
 10
-00:00:15,679 --> 00:00:17,910
-KRAM is KERI request
-authentication mechanism
+00:00:30,160 --> 00:00:31,840
+some examples include encrypt sender
+sign receiver which if you were at
 
 11
-00:00:17,910 --> 00:00:17,920
-authentication mechanism
-
-12
-00:00:17,920 --> 00:00:22,710
-authentication mechanism
-and this is for all non KEL
-
-13
-00:00:22,710 --> 00:00:22,720
-and this is for all non KEL
-
-14
-00:00:22,720 --> 00:00:25,750
-and this is for all non KEL
-events or non-key event messages
-
-15
-00:00:25,750 --> 00:00:25,760
-events or non-key event messages
-
-16
-00:00:25,760 --> 00:00:27,830
-events or non-key event messages
-that occur in the KERI protocol and
-
-17
-00:00:27,830 --> 00:00:27,840
-that occur in the KERI protocol and
-
-18
-00:00:27,840 --> 00:00:30,150
-that occur in the KERI protocol and
-some examples include encrypt sender
-
-19
-00:00:30,150 --> 00:00:30,160
-some examples include encrypt sender
-
-20
-00:00:30,160 --> 00:00:31,830
-some examples include encrypt sender
-sign receiver which if you were at
-
-21
-00:00:31,830 --> 00:00:31,840
-sign receiver which if you were at
-
-22
 00:00:31,840 --> 00:00:34,549
 sign receiver which if you were at
 Phil's [talk] you'd know is a good way of doing
 
-23
+12
 00:00:34,549 --> 00:00:34,559
 Phil's you'd know is a good way of doing
 
-24
-00:00:34,559 --> 00:00:37,990
+13
+00:00:34,559 --> 00:00:38,000
 Phil's [talk] you'd know is a good way of doing
 Secure APIs to a given identifier
 
-25
-00:00:37,990 --> 00:00:38,000
+14
+00:00:38,000 --> 00:00:39,120
 Secure APIs to a given identifier
+essentially a replacement for
+
+15
+00:00:39,120 --> 00:00:40,960
+essentially a replacement for
+shared secretbased account management.
+
+16
+00:00:40,960 --> 00:00:42,559
+shared secretbased account management.
+You can do exchange
+
+17
+00:00:42,559 --> 00:00:44,879
+You can do exchange
+transactions for negotiating
+
+18
+00:00:44,879 --> 00:00:47,360
+transactions for negotiating
+contracts or other negotiations. You can
+
+19
+00:00:47,360 --> 00:00:50,719
+contracts or other negotiations. You can
+do credential presentations. And
+
+20
+00:00:50,719 --> 00:00:53,039
+do credential presentations. And
+so the fundamental problem that KRAM
+
+21
+00:00:53,039 --> 00:00:56,640
+so the fundamental problem that KRAM
+solves is ensuring that a message is
+
+22
+00:00:56,640 --> 00:00:59,199
+solves is ensuring that a message is
+timely and authentic.
+
+23
+00:00:59,199 --> 00:01:02,000
+timely and authentic.
+So without KRAM, an attacker can
+
+24
+00:01:02,000 --> 00:01:04,559
+So without KRAM, an attacker can
+intercept a valid signed message and
+
+25
+00:01:04,559 --> 00:01:07,040
+intercept a valid signed message and
+then replay that message at a later time
 
 26
-00:00:38,000 --> 00:00:39,110
-Secure APIs to a given identifier
-essentially a replacement for
+00:01:07,040 --> 00:01:10,159
+then replay that message at a later time
+and you could have a or the
 
 27
-00:00:39,110 --> 00:00:39,120
-essentially a replacement for
+00:01:10,159 --> 00:01:11,439
+and you could have a or the
+receiver of that message would have no
 
 28
-00:00:39,120 --> 00:00:40,950
-essentially a replacement for
-shared secretbased account management.
+00:01:11,439 --> 00:01:13,439
+receiver of that message would have no
+way of distinguishing it from a fresh
 
 29
-00:00:40,950 --> 00:00:40,960
-shared secretbased account management.
+00:01:13,439 --> 00:01:15,360
+way of distinguishing it from a fresh
+one which could cause all kinds of
 
 30
-00:00:40,960 --> 00:00:42,549
-shared secretbased account management.
-You can do exchange
+00:01:15,360 --> 00:01:17,200
+one which could cause all kinds of
+problems with you know like if you
 
 31
-00:00:42,549 --> 00:00:42,559
-You can do exchange
+00:01:17,200 --> 00:01:18,400
+problems with you know like if you
+were signing on to an account or
 
 32
-00:00:42,559 --> 00:00:44,869
-You can do exchange
-transactions for negotiating
+00:01:18,400 --> 00:01:19,600
+were signing on to an account or
+something you could have someone who is
 
 33
-00:00:44,869 --> 00:00:44,879
-transactions for negotiating
+00:01:19,600 --> 00:01:23,280
+something you could have someone who is
+able to sign on for you. So the so
 
 34
-00:00:44,879 --> 00:00:47,350
-transactions for negotiating
-contracts or other negotiations. You can
+00:01:23,280 --> 00:01:25,439
+able to sign on for you. So the so
+KRAM works by enforcing a timeliness
 
 35
-00:00:47,350 --> 00:00:47,360
-contracts or other negotiations. You can
+00:01:25,439 --> 00:01:27,439
+KRAM works by enforcing a timeliness
+cache window.
 
 36
-00:00:47,360 --> 00:00:50,709
-contracts or other negotiations. You can
-do credential presentations. And
+00:01:27,439 --> 00:01:29,439
+cache window.
+Each message includes a datetime stamp
 
 37
-00:00:50,709 --> 00:00:50,719
-do credential presentations. And
+00:01:29,439 --> 00:01:30,799
+Each message includes a datetime stamp
+and the receiver is going to check
 
 38
-00:00:50,719 --> 00:00:53,029
-do credential presentations. And
-so the fundamental problem that KRAM
+00:01:30,799 --> 00:01:32,960
+and the receiver is going to check
+whether that time stamp falls within an
 
 39
-00:00:53,029 --> 00:00:53,039
-so the fundamental problem that KRAM
+00:01:32,960 --> 00:01:35,600
+whether that time stamp falls within an
+acceptable window relative to its own
 
 40
-00:00:53,039 --> 00:00:56,630
-so the fundamental problem that KRAM
-solves is ensuring that a message is
+00:01:35,600 --> 00:01:37,360
+acceptable window relative to its own
+clock. If the message has been seen
 
 41
-00:00:56,630 --> 00:00:56,640
-solves is ensuring that a message is
+00:01:37,360 --> 00:01:39,360
+clock. If the message has been seen
+before, if it falls outside the window,
 
 42
-00:00:56,640 --> 00:00:59,189
-solves is ensuring that a message is
-timely and authentic.
+00:01:39,360 --> 00:01:41,840
+before, if it falls outside the window,
+it's just going to get dropped.
 
 43
-00:00:59,189 --> 00:00:59,199
-timely and authentic.
+00:01:41,840 --> 00:01:44,960
+it's just going to get dropped.
+So KRAM exists at the top of the message
 
 44
-00:00:59,199 --> 00:01:01,990
-timely and authentic.
-So without KRAM, an attacker can
+00:01:44,960 --> 00:01:48,320
+So KRAM exists at the top of the message
+processing pipeline. All of the
 
 45
-00:01:01,990 --> 00:01:02,000
-So without KRAM, an attacker can
+00:01:48,320 --> 00:01:50,320
+processing pipeline. All of the
+non-key event message flow through a
 
 46
-00:01:02,000 --> 00:01:04,549
-So without KRAM, an attacker can
-intercept a valid signed message and
+00:01:50,320 --> 00:01:52,720
+non-key event message flow through a
+non-key event messages flow through a
 
 47
-00:01:04,549 --> 00:01:04,559
-intercept a valid signed message and
+00:01:52,720 --> 00:01:55,119
+non-key event messages flow through a
+single method and KRAM is applied
 
 48
-00:01:04,559 --> 00:01:07,030
-intercept a valid signed message and
-then replay that message at a later time
+00:01:55,119 --> 00:01:57,520
+single method and KRAM is applied
+immediately after some basic allow deny
 
 49
-00:01:07,030 --> 00:01:07,040
-then replay that message at a later time
+00:01:57,520 --> 00:01:59,680
+immediately after some basic allow deny
+logic if in case you want to filter for
 
 50
-00:01:07,040 --> 00:01:10,149
-then replay that message at a later time
-and you could have a or the
+00:01:59,680 --> 00:02:01,520
+logic if in case you want to filter for
+given identifiers right in case you want
 
 51
-00:01:10,149 --> 00:01:10,159
-and you could have a or the
+00:02:01,520 --> 00:02:04,719
+given identifiers right in case you want
+to not let specific people in. And I
 
 52
-00:01:10,159 --> 00:01:11,429
-and you could have a or the
-receiver of that message would have no
+00:02:04,719 --> 00:02:06,079
+to not let specific people in. And I
+should note here that KRAM is designed
 
 53
-00:01:11,429 --> 00:01:11,439
-receiver of that message would have no
+00:02:06,079 --> 00:02:08,879
+should note here that KRAM is designed
+for KERI v2 which is not out yet.
 
 54
-00:01:11,439 --> 00:01:13,429
-receiver of that message would have no
-way of distinguishing it from a fresh
-
-55
-00:01:13,429 --> 00:01:13,439
-way of distinguishing it from a fresh
-
-56
-00:01:13,439 --> 00:01:15,350
-way of distinguishing it from a fresh
-one which could cause all kinds of
-
-57
-00:01:15,350 --> 00:01:15,360
-one which could cause all kinds of
-
-58
-00:01:15,360 --> 00:01:17,190
-one which could cause all kinds of
-problems with you know like if you
-
-59
-00:01:17,190 --> 00:01:17,200
-problems with you know like if you
-
-60
-00:01:17,200 --> 00:01:18,390
-problems with you know like if you
-were signing on to an account or
-
-61
-00:01:18,390 --> 00:01:18,400
-were signing on to an account or
-
-62
-00:01:18,400 --> 00:01:19,590
-were signing on to an account or
-something you could have someone who is
-
-63
-00:01:19,590 --> 00:01:19,600
-something you could have someone who is
-
-64
-00:01:19,600 --> 00:01:23,270
-something you could have someone who is
-able to sign on for you. So the so
-
-65
-00:01:23,270 --> 00:01:23,280
-able to sign on for you. So the so
-
-66
-00:01:23,280 --> 00:01:25,429
-able to sign on for you. So the so
-KRAM works by enforcing a timeliness
-
-67
-00:01:25,429 --> 00:01:25,439
-KRAM works by enforcing a timeliness
-
-68
-00:01:25,439 --> 00:01:27,429
-KRAM works by enforcing a timeliness
-cache window.
-
-69
-00:01:27,429 --> 00:01:27,439
-cache window.
-
-70
-00:01:27,439 --> 00:01:29,429
-cache window.
-Each message includes a datetime stamp
-
-71
-00:01:29,429 --> 00:01:29,439
-Each message includes a datetime stamp
-
-72
-00:01:29,439 --> 00:01:30,789
-Each message includes a datetime stamp
-and the receiver is going to check
-
-73
-00:01:30,789 --> 00:01:30,799
-and the receiver is going to check
-
-74
-00:01:30,799 --> 00:01:32,950
-and the receiver is going to check
-whether that time stamp falls within an
-
-75
-00:01:32,950 --> 00:01:32,960
-whether that time stamp falls within an
-
-76
-00:01:32,960 --> 00:01:35,590
-whether that time stamp falls within an
-acceptable window relative to its own
-
-77
-00:01:35,590 --> 00:01:35,600
-acceptable window relative to its own
-
-78
-00:01:35,600 --> 00:01:37,350
-acceptable window relative to its own
-clock. If the message has been seen
-
-79
-00:01:37,350 --> 00:01:37,360
-clock. If the message has been seen
-
-80
-00:01:37,360 --> 00:01:39,350
-clock. If the message has been seen
-before, if it falls outside the window,
-
-81
-00:01:39,350 --> 00:01:39,360
-before, if it falls outside the window,
-
-82
-00:01:39,360 --> 00:01:41,830
-before, if it falls outside the window,
-it's just going to get dropped.
-
-83
-00:01:41,830 --> 00:01:41,840
-it's just going to get dropped.
-
-84
-00:01:41,840 --> 00:01:44,950
-it's just going to get dropped.
-So KRAM exists at the top of the message
-
-85
-00:01:44,950 --> 00:01:44,960
-So KRAM exists at the top of the message
-
-86
-00:01:44,960 --> 00:01:48,310
-So KRAM exists at the top of the message
-processing pipeline. All of the
-
-87
-00:01:48,310 --> 00:01:48,320
-processing pipeline. All of the
-
-88
-00:01:48,320 --> 00:01:50,310
-processing pipeline. All of the
-non-key event message flow through a
-
-89
-00:01:50,310 --> 00:01:50,320
-non-key event message flow through a
-
-90
-00:01:50,320 --> 00:01:52,710
-non-key event message flow through a
-non-key event messages flow through a
-
-91
-00:01:52,710 --> 00:01:52,720
-non-key event messages flow through a
-
-92
-00:01:52,720 --> 00:01:55,109
-non-key event messages flow through a
-single method and KRAM is applied
-
-93
-00:01:55,109 --> 00:01:55,119
-single method and KRAM is applied
-
-94
-00:01:55,119 --> 00:01:57,510
-single method and KRAM is applied
-immediately after some basic allow deny
-
-95
-00:01:57,510 --> 00:01:57,520
-immediately after some basic allow deny
-
-96
-00:01:57,520 --> 00:01:59,670
-immediately after some basic allow deny
-logic if in case you want to filter for
-
-97
-00:01:59,670 --> 00:01:59,680
-logic if in case you want to filter for
-
-98
-00:01:59,680 --> 00:02:01,510
-logic if in case you want to filter for
-given identifiers right in case you want
-
-99
-00:02:01,510 --> 00:02:01,520
-given identifiers right in case you want
-
-100
-00:02:01,520 --> 00:02:04,709
-given identifiers right in case you want
-to not let specific people in. And I
-
-101
-00:02:04,709 --> 00:02:04,719
-to not let specific people in. And I
-
-102
-00:02:04,719 --> 00:02:06,069
-to not let specific people in. And I
-should note here that KRAM is designed
-
-103
-00:02:06,069 --> 00:02:06,079
-should note here that KRAM is designed
-
-104
-00:02:06,079 --> 00:02:08,869
-should note here that KRAM is designed
-for KERI v2 which is not out yet.
-
-105
-00:02:08,869 --> 00:02:08,879
-for KERI v2 which is not out yet.
-
-106
-00:02:08,879 --> 00:02:10,790
+00:02:08,879 --> 00:02:10,800
 for KERI v2 which is not out yet.
 But it represents a change from a prior
 
-107
-00:02:10,790 --> 00:02:10,800
-but it represents a change from a prior
-
-108
-00:02:10,800 --> 00:02:13,190
+55
+00:02:10,800 --> 00:02:13,200
 but it represents a change from a prior
 approach wherein before we would escrow
 
-109
-00:02:13,190 --> 00:02:13,200
-approach wherein before we would escrow
-
-110
-00:02:13,200 --> 00:02:15,430
+56
+00:02:13,200 --> 00:02:15,440
 approach wherein before we would escrow
 messages u when authentication
 
-111
-00:02:15,430 --> 00:02:15,440
-messages u when authentication
-
-112
-00:02:15,440 --> 00:02:17,030
+57
+00:02:15,440 --> 00:02:17,040
 messages u when authentication
 information wasn't immediately available
 
-113
-00:02:17,030 --> 00:02:17,040
-information wasn't immediately available
-
-114
-00:02:17,040 --> 00:02:18,949
+58
+00:02:17,040 --> 00:02:18,959
 information wasn't immediately available
 like if we didn't have the Key Event Log
 
-115
-00:02:18,949 --> 00:02:18,959
-like if we didn't have the Key Event Log
-
-116
-00:02:18,959 --> 00:02:21,670
+59
+00:02:18,959 --> 00:02:21,680
 like if we didn't have the Key Event Log
 whereas now we just drop them and notify
 
-117
-00:02:21,670 --> 00:02:21,680
-whereas now we just drop them and notify
-
-118
-00:02:21,680 --> 00:02:23,270
+60
+00:02:21,680 --> 00:02:23,280
 whereas now we just drop them and notify
 such that the Key Event Log can be
 
-119
-00:02:23,270 --> 00:02:23,280
-such that the Key Event Log can be
-
-120
-00:02:23,280 --> 00:02:25,910
+61
+00:02:23,280 --> 00:02:25,920
 such that the Key Event Log can be
 retrieved via something that is out
 
-121
-00:02:25,910 --> 00:02:25,920
-retrieved via something that is out
-
-122
+62
 00:02:25,920 --> 00:02:29,910
 retrieved via something that is out
 of scope for this talk.
 
-123
-00:02:32,309 --> 00:02:32,319
-So before diving into KRAM's
-
-124
-00:02:32,319 --> 00:02:33,990
+63
+00:02:32,309 --> 00:02:34,000
 So before diving into KRAM's
 mechanics I just want to make sure that
 
-125
-00:02:33,990 --> 00:02:34,000
-mechanics I just want to make sure that
-
-126
-00:02:34,000 --> 00:02:36,390
+64
+00:02:34,000 --> 00:02:36,400
 mechanics I just want to make sure that
 everybody is familiar or largely
 
-127
-00:02:36,390 --> 00:02:36,400
-everybody is familiar or largely
-
-128
-00:02:36,400 --> 00:02:40,390
+65
+00:02:36,400 --> 00:02:40,400
 everybody is familiar or largely
 familiar with these few with these
 
-129
-00:02:40,390 --> 00:02:40,400
-familiar with these few with these
-
-130
-00:02:40,400 --> 00:02:42,790
+66
+00:02:40,400 --> 00:02:42,800
 familiar with these few with these
 few key terminology points. Does anyone
 
-131
-00:02:42,790 --> 00:02:42,800
-few key terminology points. Does anyone
-
-132
-00:02:42,800 --> 00:02:45,670
+67
+00:02:42,800 --> 00:02:45,680
 few key terminology points. Does anyone
 have any questions about KERI? Well,
 
-133
-00:02:45,670 --> 00:02:45,680
-have any questions about KERI? Well,
-
-134
-00:02:45,680 --> 00:02:47,190
+68
+00:02:45,680 --> 00:02:47,200
 have any questions about KERI? Well,
 okay. Questions about KERI might be a
 
-135
-00:02:47,190 --> 00:02:47,200
-okay. Questions about KERI might be a
-
-136
-00:02:47,200 --> 00:02:49,350
+69
+00:02:47,200 --> 00:02:49,360
 okay. Questions about KERI might be a
 little broad, but we all know what AIDs
 
-137
-00:02:49,350 --> 00:02:49,360
-little broad, but we all know what AIDs
-
-138
-00:02:49,360 --> 00:02:51,190
+70
+00:02:49,360 --> 00:02:51,200
 little broad, but we all know what AIDs
 are,
 
-139
-00:02:51,190 --> 00:02:51,200
-are,
-
-140
-00:02:51,200 --> 00:02:53,350
+71
+00:02:51,200 --> 00:02:53,360
 are,
 kels,
 
-141
-00:02:53,350 --> 00:02:53,360
-kels,
-
-142
-00:02:53,360 --> 00:02:54,949
+72
+00:02:53,360 --> 00:02:54,959
 kels,
 key state, we've talked a lot about it
 
-143
-00:02:54,949 --> 00:02:54,959
-key state, we've talked a lot about it
-
-144
-00:02:54,959 --> 00:02:57,430
+73
+00:02:54,959 --> 00:02:57,440
 key state, we've talked a lot about it
 today. Said is maybe worth touching on,
 
-145
-00:02:57,430 --> 00:02:57,440
-today. Said is maybe worth touching on,
-
-146
-00:02:57,440 --> 00:02:59,350
+74
+00:02:57,440 --> 00:02:59,360
 today. Said is maybe worth touching on,
 which is the self-addressing
 
-147
-00:02:59,350 --> 00:02:59,360
-which is the self-addressing
-
-148
-00:02:59,360 --> 00:03:01,430
+75
+00:02:59,360 --> 00:03:01,440
 which is the self-addressing
 identifiers, which are digests computed
 
-149
-00:03:01,430 --> 00:03:01,440
-identifiers, which are digests computed
-
-150
-00:03:01,440 --> 00:03:03,910
+76
+00:03:01,440 --> 00:03:03,920
 identifiers, which are digests computed
 over the contents of a data structure.
 
-151
-00:03:03,910 --> 00:03:03,920
-over the contents of a data structure.
-
-152
-00:03:03,920 --> 00:03:06,149
+77
+00:03:03,920 --> 00:03:06,159
 over the contents of a data structure.
 And basically, this is an ID for a given
 
-153
-00:03:06,149 --> 00:03:06,159
-And basically, this is an ID for a given
-
-154
-00:03:06,159 --> 00:03:09,270
+78
+00:03:06,159 --> 00:03:09,280
 And basically, this is an ID for a given
 message or in this instance, it is or
 
-155
-00:03:09,270 --> 00:03:09,280
-message or in this instance, it is or
-
-156
-00:03:09,280 --> 00:03:10,869
+79
+00:03:09,280 --> 00:03:10,879
 message or in this instance, it is or
 referencing it as an ID for a given
 
-157
-00:03:10,869 --> 00:03:10,879
-referencing it as an ID for a given
-
-158
-00:03:10,879 --> 00:03:13,589
+80
+00:03:10,879 --> 00:03:13,599
 referencing it as an ID for a given
 message. So that it's a context
 
-159
-00:03:13,589 --> 00:03:13,599
-message. So that it's a context
-
-160
-00:03:13,599 --> 00:03:15,670
+81
+00:03:13,599 --> 00:03:15,680
 message. So that it's a context
 identifier based on your payload.
 
-161
-00:03:15,670 --> 00:03:15,680
-identifier based on your payload.
-
-162
-00:03:15,680 --> 00:03:17,990
+82
+00:03:15,680 --> 00:03:18,000
 identifier based on your payload.
 Yeah. Yeah, that's that seems
 
-163
-00:03:17,990 --> 00:03:18,000
-Yeah. Yeah, that's that seems
-
-164
-00:03:18,000 --> 00:03:18,390
+83
+00:03:18,000 --> 00:03:18,400
 Yeah. Yeah, that's that seems
 correct.
 
-165
-00:03:18,390 --> 00:03:18,400
-correct.
-
-166
-00:03:18,400 --> 00:03:20,309
+84
+00:03:18,400 --> 00:03:20,319
 correct.
 It's actually the whole message,
 
-167
-00:03:20,309 --> 00:03:20,319
-It's actually the whole message,
-
-168
-00:03:20,319 --> 00:03:21,830
+85
+00:03:20,319 --> 00:03:21,840
 It's actually the whole message,
 right? It's a digest of the message.
 
-169
-00:03:21,830 --> 00:03:21,840
-right? It's a digest of the message.
-
-170
-00:03:21,840 --> 00:03:23,509
+86
+00:03:21,840 --> 00:03:23,519
 right? It's a digest of the message.
 It's a digest of the message,
 
-171
-00:03:23,509 --> 00:03:23,519
-It's a digest of the message,
-
-172
-00:03:23,519 --> 00:03:26,229
+87
+00:03:23,519 --> 00:03:26,239
 It's a digest of the message,
 but it's embedded in the message
 
-173
-00:03:26,229 --> 00:03:26,239
-but it's embedded in the message
-
-174
-00:03:26,239 --> 00:03:29,110
+88
+00:03:26,239 --> 00:03:29,120
 but it's embedded in the message
 protocol. So that there's one universal
 
-175
-00:03:29,110 --> 00:03:29,120
-protocol. So that there's one universal
-
-176
+89
 00:03:29,120 --> 00:03:33,509
 protocol. So that there's one universal
 identifier for that message.
 
-177
-00:03:37,670 --> 00:03:37,680
-So it's unique per message even in the
-
-178
-00:03:37,680 --> 00:03:38,229
+90
+00:03:37,670 --> 00:03:38,239
 So it's unique per message even in the
 thread.
 
-179
-00:03:38,229 --> 00:03:38,239
-thread.
-
-180
-00:03:38,239 --> 00:03:39,430
+91
+00:03:38,239 --> 00:03:39,440
 thread.
 Yeah.
 
-181
-00:03:39,430 --> 00:03:39,440
-Yeah.
-
-182
-00:03:39,440 --> 00:03:41,830
+92
+00:03:39,440 --> 00:03:41,840
 Yeah.
 Yes. Could you repeat the
 
-183
-00:03:41,830 --> 00:03:41,840
-Yes. Could you repeat the
-
-184
-00:03:41,840 --> 00:03:44,630
+93
+00:03:41,840 --> 00:03:44,640
 Yes. Could you repeat the
 conclusion of this because you are the
 
-185
-00:03:44,630 --> 00:03:44,640
-conclusion of this because you are the
-
-186
-00:03:44,640 --> 00:03:47,030
+94
+00:03:44,640 --> 00:03:47,040
 conclusion of this because you are the
 only one with a microphone then we going
 
-187
-00:03:47,030 --> 00:03:47,040
-only one with a microphone then we going
-
-188
+95
 00:03:47,040 --> 00:03:52,070
 only one with a microphone then we going
 Oh yes. So basically
 
-189
-00:03:54,949 --> 00:03:54,959
-we have saids as unique identifiers
-
-190
-00:03:54,959 --> 00:03:57,110
+96
+00:03:54,949 --> 00:03:57,120
 we have saids as unique identifiers
 which are digests of a given message
 
-191
-00:03:57,110 --> 00:03:57,120
-which are digests of a given message
-
-192
-00:03:57,120 --> 00:04:00,470
+97
+00:03:57,120 --> 00:04:00,480
 which are digests of a given message
 such that no two messages that are the
 
-193
-00:04:00,470 --> 00:04:00,480
-such that no two messages that are the
-
-194
-00:04:00,480 --> 00:04:04,309
+98
+00:04:00,480 --> 00:04:04,319
 such that no two messages that are the
 same would have different sets. I.e. If
 
-195
-00:04:04,309 --> 00:04:04,319
-same would have different sets. I.e. If
-
-196
-00:04:04,319 --> 00:04:06,149
+99
+00:04:04,319 --> 00:04:06,159
 same would have different sets. I.e. If
 a me if two messages have the same set
 
-197
-00:04:06,149 --> 00:04:06,159
-a me if two messages have the same set
-
-198
-00:04:06,159 --> 00:04:08,070
+100
+00:04:06,159 --> 00:04:08,080
 a me if two messages have the same set
 then they must have identical contents
 
-199
-00:04:08,070 --> 00:04:08,080
-then they must have identical contents
-
-200
-00:04:08,080 --> 00:04:12,550
+101
+00:04:08,080 --> 00:04:12,560
 then they must have identical contents
 and time stamps. So then seals
 
-201
-00:04:12,550 --> 00:04:12,560
-and time stamps. So then seals
-
-202
-00:04:12,560 --> 00:04:14,789
+102
+00:04:12,560 --> 00:04:14,799
 and time stamps. So then seals
 briefly is a cryptographic commitment
 
-203
-00:04:14,789 --> 00:04:14,799
-briefly is a cryptographic commitment
-
-204
-00:04:14,799 --> 00:04:16,949
+103
+00:04:14,799 --> 00:04:16,959
 briefly is a cryptographic commitment
 which can anchor arbitrary data to a
 
-205
-00:04:16,949 --> 00:04:16,959
-which can anchor arbitrary data to a
-
-206
-00:04:16,959 --> 00:04:20,870
+104
+00:04:16,959 --> 00:04:20,880
 which can anchor arbitrary data to a
 tree of hashes or to a particular
 
-207
-00:04:20,870 --> 00:04:20,880
-tree of hashes or to a particular
-
-208
-00:04:20,880 --> 00:04:23,670
+105
+00:04:20,880 --> 00:04:23,680
 tree of hashes or to a particular
 event in the key event sequence. And
 
-209
-00:04:23,670 --> 00:04:23,680
-event in the key event sequence. And
-
-210
-00:04:23,680 --> 00:04:26,310
+106
+00:04:23,680 --> 00:04:26,320
 event in the key event sequence. And
 we're assuming with KRAM that the
 
-211
-00:04:26,310 --> 00:04:26,320
-we're assuming with KRAM that the
-
-212
-00:04:26,320 --> 00:04:28,390
+107
+00:04:26,320 --> 00:04:28,400
 we're assuming with KRAM that the
 receiver will already hold the copy of
 
-213
-00:04:28,390 --> 00:04:28,400
-receiver will already hold the copy of
-
-214
-00:04:28,400 --> 00:04:30,710
+108
+00:04:28,400 --> 00:04:30,720
 receiver will already hold the copy of
 the sender's KEL. Which is again
 
-215
-00:04:30,710 --> 00:04:30,720
-the sender's KEL. Which is again
-
-216
-00:04:30,720 --> 00:04:32,629
+109
+00:04:30,720 --> 00:04:32,639
 the sender's KEL. Which is again
 kind of gesturing towards that fact that
 
-217
-00:04:32,629 --> 00:04:32,639
-kind of gesturing towards that fact that
-
-218
-00:04:32,639 --> 00:04:34,550
+110
+00:04:32,639 --> 00:04:34,560
 kind of gesturing towards that fact that
 that retrieval mechanism is out of scope
 
-219
-00:04:34,550 --> 00:04:34,560
-that retrieval mechanism is out of scope
-
-220
-00:04:34,560 --> 00:04:38,629
+111
+00:04:34,560 --> 00:04:38,639
 that retrieval mechanism is out of scope
 but it does exist or will exist.
 
-221
-00:04:38,629 --> 00:04:38,639
-but it does exist or will exist.
-
-222
-00:04:38,639 --> 00:04:41,590
+112
+00:04:38,639 --> 00:04:41,600
 but it does exist or will exist.
 So in KRAM we have three authentication
 
-223
-00:04:41,590 --> 00:04:41,600
-So in KRAM we have three authentication
-
-224
-00:04:41,600 --> 00:04:44,710
+113
+00:04:41,600 --> 00:04:44,720
 So in KRAM we have three authentication
 types. We have an anchoring seal
 
-225
-00:04:44,710 --> 00:04:44,720
-types. We have an anchoring seal
-
-226
-00:04:44,720 --> 00:04:48,469
+114
+00:04:44,720 --> 00:04:48,479
 types. We have an anchoring seal
 reference which is a message that's
 
-227
-00:04:48,469 --> 00:04:48,479
-reference which is a message that's
-
-228
-00:04:48,479 --> 00:04:50,310
+115
+00:04:48,479 --> 00:04:50,320
 reference which is a message that's
 au authenticated via a seal in the
 
-229
-00:04:50,310 --> 00:04:50,320
-au authenticated via a seal in the
-
-230
-00:04:50,320 --> 00:04:53,270
+116
+00:04:50,320 --> 00:04:53,280
 au authenticated via a seal in the
 sender's KEL. And this works because
 
-231
-00:04:53,270 --> 00:04:53,280
-sender's KEL. And this works because
-
-232
-00:04:53,280 --> 00:04:56,070
+117
+00:04:53,280 --> 00:04:56,080
 sender's KEL. And this works because
 you can preemptively authenticate your
 
-233
-00:04:56,070 --> 00:04:56,080
-you can preemptively authenticate your
-
-234
-00:04:56,080 --> 00:05:00,629
+118
+00:04:56,080 --> 00:05:00,639
 you can preemptively authenticate your
 messages as a sender by digesting
 
-235
-00:05:00,629 --> 00:05:00,639
-messages as a sender by digesting
-
-236
-00:05:00,639 --> 00:05:02,469
+119
+00:05:00,639 --> 00:05:02,479
 messages as a sender by digesting
 them into a seal with the
 
-237
-00:05:02,469 --> 00:05:02,479
-them into a seal with the
-
-238
-00:05:02,479 --> 00:05:05,270
+120
+00:05:02,479 --> 00:05:05,280
 them into a seal with the
 authentications already
 
-239
-00:05:05,270 --> 00:05:05,280
-authentications already
-
-240
-00:05:05,280 --> 00:05:06,870
+121
+00:05:05,280 --> 00:05:06,880
 authentications already
 created and then adding that to your
 
-241
-00:05:06,870 --> 00:05:06,880
-created and then adding that to your
-
-242
-00:05:06,880 --> 00:05:10,150
+122
+00:05:06,880 --> 00:05:10,160
 created and then adding that to your
 keel you know and then continuing
 
-243
-00:05:10,150 --> 00:05:10,160
-keel you know and then continuing
-
-244
-00:05:10,160 --> 00:05:11,830
+123
+00:05:10,160 --> 00:05:11,840
 keel you know and then continuing
 your Key Event Log. I think this would
 
-245
-00:05:11,830 --> 00:05:11,840
-your Key Event Log. I think this would
-
-246
-00:05:11,840 --> 00:05:13,990
+124
+00:05:11,840 --> 00:05:14,000
 your Key Event Log. I think this would
 be done via an interaction event and
 
-247
-00:05:13,990 --> 00:05:14,000
-be done via an interaction event and
-
-248
-00:05:14,000 --> 00:05:15,990
+125
+00:05:14,000 --> 00:05:16,000
 be done via an interaction event and
 then other people can just look up that
 
-249
-00:05:15,990 --> 00:05:16,000
-then other people can just look up that
-
-250
-00:05:16,000 --> 00:05:17,909
+126
+00:05:16,000 --> 00:05:17,919
 then other people can just look up that
 seal and confirm that is a
 
-251
-00:05:17,909 --> 00:05:17,919
-seal and confirm that is a
-
-252
-00:05:17,919 --> 00:05:20,390
+127
+00:05:17,919 --> 00:05:20,400
 seal and confirm that is a
 pre-authenticated message. We have
 
-253
-00:05:20,390 --> 00:05:20,400
-pre-authenticated message. We have
-
-254
-00:05:20,400 --> 00:05:23,270
+128
+00:05:20,400 --> 00:05:23,280
 pre-authenticated message. We have
 single key signature which is just one
 
-255
-00:05:23,270 --> 00:05:23,280
-single key signature which is just one
-
-256
-00:05:23,280 --> 00:05:27,029
+129
+00:05:23,280 --> 00:05:27,039
 single key signature which is just one
 key in the key list. I should mention
 
-257
-00:05:27,029 --> 00:05:27,039
-key in the key list. I should mention
-
-258
+130
 00:05:27,039 --> 00:05:32,070
 key in the key list. I should mention
 that let's see
 
-259
-00:05:34,629 --> 00:05:34,639
-when we are determining this type of
-
-260
-00:05:34,639 --> 00:05:37,909
+131
+00:05:34,629 --> 00:05:37,919
 when we are determining this type of
 authentication we're looking at key list
 
-261
-00:05:37,909 --> 00:05:37,919
-authentication we're looking at key list
-
-262
-00:05:37,919 --> 00:05:39,430
+132
+00:05:37,919 --> 00:05:39,440
 authentication we're looking at key list
 cardality.
 
-263
-00:05:39,430 --> 00:05:39,440
-cardality.
-
-264
-00:05:39,440 --> 00:05:42,710
+133
+00:05:39,440 --> 00:05:42,720
 cardality.
 So sometimes an identifier will have
 
-265
-00:05:42,710 --> 00:05:42,720
-So sometimes an identifier will have
-
-266
-00:05:42,720 --> 00:05:45,270
+134
+00:05:42,720 --> 00:05:45,280
 So sometimes an identifier will have
 multiple signing keys but it won't be a
 
-267
-00:05:45,270 --> 00:05:45,280
-multiple signing keys but it won't be a
-
-268
-00:05:45,280 --> 00:05:47,830
+135
+00:05:45,280 --> 00:05:47,840
 multiple signing keys but it won't be a
 multi key signature and for the purposes
 
-269
-00:05:47,830 --> 00:05:47,840
-multi key signature and for the purposes
-
-270
-00:05:47,840 --> 00:05:49,990
+136
+00:05:47,840 --> 00:05:50,000
 multi key signature and for the purposes
 in eventually that matters. It is
 
-271
-00:05:49,990 --> 00:05:50,000
-in eventually that matters. It is
-
-272
-00:05:50,000 --> 00:05:51,909
+137
+00:05:50,000 --> 00:05:51,919
 in eventually that matters. It is
 covered in KRAM because KRAM does
 
-273
-00:05:51,909 --> 00:05:51,919
-covered in KRAM because KRAM does
-
-274
-00:05:51,919 --> 00:05:54,469
+138
+00:05:51,919 --> 00:05:54,479
 covered in KRAM because KRAM does
 authenticate but what we're doing here
 
-275
-00:05:54,469 --> 00:05:54,479
-authenticate but what we're doing here
-
-276
-00:05:54,479 --> 00:05:56,310
+139
+00:05:54,479 --> 00:05:56,320
 authenticate but what we're doing here
 really what but why we're breaking these
 
-277
-00:05:56,310 --> 00:05:56,320
-really what but why we're breaking these
-
-278
-00:05:56,320 --> 00:06:00,070
+140
+00:05:56,320 --> 00:06:00,080
 really what but why we're breaking these
 things out is because oh did I no
 
-279
-00:06:00,070 --> 00:06:00,080
-things out is because oh did I no
-
-280
-00:06:00,080 --> 00:06:02,790
+141
+00:06:00,080 --> 00:06:02,800
 things out is because oh did I no
 it's still good because we're trying to
 
-281
-00:06:02,790 --> 00:06:02,800
-it's still good because we're trying to
-
-282
-00:06:02,800 --> 00:06:05,749
+142
+00:06:02,800 --> 00:06:05,759
 it's still good because we're trying to
 do amplification and DOS mitigation.
 
-283
-00:06:05,749 --> 00:06:05,759
-do amplification and DOS mitigation.
-
-284
-00:06:05,759 --> 00:06:09,749
+143
+00:06:05,759 --> 00:06:09,759
 do amplification and DOS mitigation.
 So, it's important to do the cheapest
 
-285
-00:06:09,749 --> 00:06:09,759
-So, it's important to do the cheapest
-
-286
-00:06:09,759 --> 00:06:13,029
+144
+00:06:09,759 --> 00:06:13,039
 So, it's important to do the cheapest
 method of dropping messages before we
 
-287
-00:06:13,029 --> 00:06:13,039
-method of dropping messages before we
-
-288
-00:06:13,039 --> 00:06:14,390
+145
+00:06:13,039 --> 00:06:14,400
 method of dropping messages before we
 get into the more expensive
 
-289
-00:06:14,390 --> 00:06:14,400
-get into the more expensive
-
-290
-00:06:14,400 --> 00:06:15,990
+146
+00:06:14,400 --> 00:06:16,000
 get into the more expensive
 authenticationbased
 
-291
-00:06:15,990 --> 00:06:16,000
-authenticationbased
-
-292
-00:06:16,000 --> 00:06:18,550
+147
+00:06:16,000 --> 00:06:18,560
 authenticationbased
 methods of dropping messages.
 
-293
-00:06:18,550 --> 00:06:18,560
-methods of dropping messages.
-
-294
+148
 00:06:18,560 --> 00:06:23,830
 methods of dropping messages.
 So, first we would
 
-295
-00:06:25,029 --> 00:06:25,039
-first we're going to look at the key
-
-296
-00:06:25,039 --> 00:06:26,629
+149
+00:06:25,029 --> 00:06:26,639
 first we're going to look at the key
 list cardality. We're going to say is it
 
-297
-00:06:26,629 --> 00:06:26,639
-list cardality. We're going to say is it
-
-298
-00:06:26,639 --> 00:06:28,629
+150
+00:06:26,639 --> 00:06:28,639
 list cardality. We're going to say is it
 a single signature? Is it a multi key
 
-299
-00:06:28,629 --> 00:06:28,639
-a single signature? Is it a multi key
-
-300
-00:06:28,639 --> 00:06:30,150
+151
+00:06:28,639 --> 00:06:30,160
 a single signature? Is it a multi key
 signature? Does it have a seal
 
-301
-00:06:30,150 --> 00:06:30,160
-signature? Does it have a seal
-
-302
-00:06:30,160 --> 00:06:32,309
+152
+00:06:30,160 --> 00:06:32,319
 signature? Does it have a seal
 reference? And then if it's multi key
 
-303
-00:06:32,309 --> 00:06:32,319
-reference? And then if it's multi key
-
-304
-00:06:32,319 --> 00:06:33,990
+153
+00:06:32,319 --> 00:06:34,000
 reference? And then if it's multi key
 and it has a seal reference, we're going
 
-305
-00:06:33,990 --> 00:06:34,000
-and it has a seal reference, we're going
-
-306
-00:06:34,000 --> 00:06:35,590
+154
+00:06:34,000 --> 00:06:35,600
 and it has a seal reference, we're going
 to try and look at that seal reference
 
-307
-00:06:35,590 --> 00:06:35,600
-to try and look at that seal reference
-
-308
-00:06:35,600 --> 00:06:38,629
+155
+00:06:35,600 --> 00:06:38,639
 to try and look at that seal reference
 first before we go on to see if that
 
-309
-00:06:38,629 --> 00:06:38,639
-first before we go on to see if that
-
-310
-00:06:38,639 --> 00:06:41,830
+156
+00:06:38,639 --> 00:06:41,840
 first before we go on to see if that
 multikey has some has some validity
 
-311
-00:06:41,830 --> 00:06:41,840
-multikey has some has some validity
-
-312
-00:06:41,840 --> 00:06:43,590
+157
+00:06:41,840 --> 00:06:43,600
 multikey has some has some validity
 to it, if it has signatures that are
 
-313
-00:06:43,590 --> 00:06:43,600
-to it, if it has signatures that are
-
-314
+158
 00:06:43,600 --> 00:06:48,629
 to it, if it has signatures that are
 valid and validating those.
 
-315
-00:06:51,110 --> 00:06:51,120
-All right. So we'll talk briefly about
-
-316
-00:06:51,120 --> 00:06:52,629
+159
+00:06:51,110 --> 00:06:52,639
 All right. So we'll talk briefly about
 multisig. You guys have probably heard
 
-317
-00:06:52,629 --> 00:06:52,639
-multisig. You guys have probably heard
-
-318
-00:06:52,639 --> 00:06:56,150
+160
+00:06:52,639 --> 00:06:56,160
 multisig. You guys have probably heard
 it all already today. But this is
 
-319
-00:06:56,150 --> 00:06:56,160
-it all already today. But this is
-
-320
-00:06:56,160 --> 00:06:58,150
+161
+00:06:56,160 --> 00:06:58,160
 it all already today. But this is
 when multiple signing keys are required
 
-321
-00:06:58,150 --> 00:06:58,160
-when multiple signing keys are required
-
-322
-00:06:58,160 --> 00:07:00,230
+162
+00:06:58,160 --> 00:07:00,240
 when multiple signing keys are required
 to authorize an action. These would be
 
-323
-00:07:00,230 --> 00:07:00,240
-to authorize an action. These would be
-
-324
-00:07:00,240 --> 00:07:03,510
+163
+00:07:00,240 --> 00:07:03,520
 to authorize an action. These would be
 distributed signing keys. In
 
-325
-00:07:03,510 --> 00:07:03,520
-distributed signing keys. In
-
-326
-00:07:03,520 --> 00:07:05,830
+164
+00:07:03,520 --> 00:07:05,840
 distributed signing keys. In
 practice, that's when a multi-IG group
 
-327
-00:07:05,830 --> 00:07:05,840
-practice, that's when a multi-IG group
-
-328
-00:07:05,840 --> 00:07:07,430
+165
+00:07:05,840 --> 00:07:07,440
 practice, that's when a multi-IG group
 sends a message and not all the
 
-329
-00:07:07,430 --> 00:07:07,440
-sends a message and not all the
-
-330
-00:07:07,440 --> 00:07:09,670
+166
+00:07:07,440 --> 00:07:09,680
 sends a message and not all the
 signatures may be attached at once. The
 
-331
-00:07:09,670 --> 00:07:09,680
-signatures may be attached at once. The
-
-332
-00:07:09,680 --> 00:07:10,950
+167
+00:07:09,680 --> 00:07:10,960
 signatures may be attached at once. The
 different members of the group may sign
 
-333
-00:07:10,950 --> 00:07:10,960
-different members of the group may sign
-
-334
-00:07:10,960 --> 00:07:12,950
+168
+00:07:10,960 --> 00:07:12,960
 different members of the group may sign
 at different times and from different
 
-335
-00:07:12,950 --> 00:07:12,960
-at different times and from different
-
-336
-00:07:12,960 --> 00:07:15,110
+169
+00:07:12,960 --> 00:07:15,120
 at different times and from different
 devices. The receiver needs to
 
-337
-00:07:15,110 --> 00:07:15,120
-devices. The receiver needs to
-
-338
-00:07:15,120 --> 00:07:18,469
+170
+00:07:15,120 --> 00:07:18,479
 devices. The receiver needs to
 collect those signatures
 
-339
-00:07:18,469 --> 00:07:18,479
-collect those signatures
-
-340
-00:07:18,479 --> 00:07:21,589
+171
+00:07:18,479 --> 00:07:21,599
 collect those signatures
 needs to collect those signatures
 
-341
-00:07:21,589 --> 00:07:21,599
-needs to collect those signatures
-
-342
+172
 00:07:21,599 --> 00:07:24,629
 needs to collect those signatures
 sorry
 
-343
-00:07:28,070 --> 00:07:28,080
-incrementally until we meet a threshold
-
-344
-00:07:28,080 --> 00:07:34,070
+173
+00:07:28,070 --> 00:07:34,080
 incrementally until we meet a threshold
 which will validate that message if
 
-345
-00:07:34,070 --> 00:07:34,080
-which will validate that message if
-
-346
-00:07:34,080 --> 00:07:37,029
+174
+00:07:34,080 --> 00:07:37,039
 which will validate that message if
 it if the message is able to collect all
 
-347
-00:07:37,029 --> 00:07:37,039
-it if the message is able to collect all
-
-348
-00:07:37,039 --> 00:07:39,270
+175
+00:07:37,039 --> 00:07:39,280
 it if the message is able to collect all
 those signatures.
 
-349
-00:07:39,270 --> 00:07:39,280
-those signatures.
-
-350
-00:07:39,280 --> 00:07:41,189
+176
+00:07:39,280 --> 00:07:41,199
 those signatures.
 So this is where we have different
 
-351
-00:07:41,189 --> 00:07:41,199
-So this is where we have different
-
-352
-00:07:41,199 --> 00:07:44,390
+177
+00:07:41,199 --> 00:07:44,400
 So this is where we have different
 KRAM windows. KRAM uses a long lag
 
-353
-00:07:44,390 --> 00:07:44,400
-KRAM windows. KRAM uses a long lag
-
-354
-00:07:44,400 --> 00:07:47,670
+178
+00:07:44,400 --> 00:07:47,680
 KRAM windows. KRAM uses a long lag
 window for multi key signatures wherein
 
-355
-00:07:47,670 --> 00:07:47,680
-window for multi key signatures wherein
-
-356
-00:07:47,680 --> 00:07:49,909
+179
+00:07:47,680 --> 00:07:49,919
 window for multi key signatures wherein
 As opposed to a short lag window for
 
-357
-00:07:49,909 --> 00:07:49,919
-As opposed to a short lag window for
-
-358
-00:07:49,919 --> 00:07:52,390
+180
+00:07:49,919 --> 00:07:52,400
 As opposed to a short lag window for
 single keys and seal reference
 
-359
-00:07:52,390 --> 00:07:52,400
-single keys and seal reference
-
-360
-00:07:52,400 --> 00:07:55,270
+181
+00:07:52,400 --> 00:07:55,280
 single keys and seal reference
 messages. The long lag might be minutes,
 
-361
-00:07:55,270 --> 00:07:55,280
-messages. The long lag might be minutes,
-
-362
-00:07:55,280 --> 00:07:57,990
+182
+00:07:55,280 --> 00:07:58,000
 messages. The long lag might be minutes,
 might be hours or days whatever is
 
-363
-00:07:57,990 --> 00:07:58,000
-might be hours or days whatever is
-
-364
-00:07:58,000 --> 00:07:59,830
+183
+00:07:58,000 --> 00:07:59,840
 might be hours or days whatever is
 appropriate for the operational tempo of
 
-365
-00:07:59,830 --> 00:07:59,840
-appropriate for the operational tempo of
-
-366
-00:07:59,840 --> 00:08:02,710
+184
+00:07:59,840 --> 00:08:02,720
 appropriate for the operational tempo of
 the multisig group and the short lag
 
-367
-00:08:02,710 --> 00:08:02,720
-the multisig group and the short lag
-
-368
-00:08:02,720 --> 00:08:04,550
+185
+00:08:02,720 --> 00:08:04,560
 the multisig group and the short lag
 only accounts for network latency and
 
-369
-00:08:04,550 --> 00:08:04,560
-only accounts for network latency and
-
-370
-00:08:04,560 --> 00:08:06,150
+186
+00:08:04,560 --> 00:08:06,160
 only accounts for network latency and
 initial processing times. This is that
 
-371
-00:08:06,150 --> 00:08:06,160
-initial processing times. This is that
-
-372
-00:08:06,160 --> 00:08:08,550
+187
+00:08:06,160 --> 00:08:08,560
 initial processing times. This is that
 window that I was mentioning earlier.
 
-373
-00:08:08,550 --> 00:08:08,560
-window that I was mentioning earlier.
-
-374
-00:08:08,560 --> 00:08:11,029
+188
+00:08:08,560 --> 00:08:11,039
 window that I was mentioning earlier.
 It's going to be different depending on
 
-375
-00:08:11,029 --> 00:08:11,039
-It's going to be different depending on
-
-376
-00:08:11,039 --> 00:08:12,790
+189
+00:08:11,039 --> 00:08:12,800
 It's going to be different depending on
 the authentication mechanism that we
 
-377
-00:08:12,790 --> 00:08:12,800
-the authentication mechanism that we
-
-378
-00:08:12,800 --> 00:08:15,110
+190
+00:08:12,800 --> 00:08:15,120
 the authentication mechanism that we
 kind of sus out in the beginning of the
 
-379
-00:08:15,110 --> 00:08:15,120
-kind of sus out in the beginning of the
-
-380
-00:08:15,120 --> 00:08:17,430
+191
+00:08:15,120 --> 00:08:17,440
 kind of sus out in the beginning of the
 KRAM It method which is why this is
 
-381
-00:08:17,430 --> 00:08:17,440
-KRAM It method which is why this is
-
-382
-00:08:17,440 --> 00:08:21,350
+192
+00:08:17,440 --> 00:08:21,360
 KRAM It method which is why this is
 called KRAM It with re
 
-383
-00:08:21,350 --> 00:08:21,360
-called KRAM It with re
-
-384
-00:08:21,360 --> 00:08:23,589
+193
+00:08:21,360 --> 00:08:23,599
 called KRAM It with re
 so
 
-385
-00:08:23,589 --> 00:08:23,599
-so
-
-386
-00:08:23,599 --> 00:08:26,390
+194
+00:08:23,599 --> 00:08:26,400
 so
 let's see
 
-387
-00:08:26,390 --> 00:08:26,400
-let's see
-
-388
-00:08:26,400 --> 00:08:27,909
+195
+00:08:26,400 --> 00:08:27,919
 let's see
 further
 
-389
-00:08:27,909 --> 00:08:27,919
-further
-
-390
-00:08:27,919 --> 00:08:30,469
+196
+00:08:27,919 --> 00:08:30,479
 further
 let's talk about what a replay attack is
 
-391
-00:08:30,469 --> 00:08:30,479
-let's talk about what a replay attack is
-
-392
-00:08:30,479 --> 00:08:32,709
+197
+00:08:30,479 --> 00:08:32,719
 let's talk about what a replay attack is
 I mentioned this already but I wanted
 
-393
-00:08:32,709 --> 00:08:32,719
-I mentioned this already but I wanted
-
-394
-00:08:32,719 --> 00:08:35,269
+198
+00:08:32,719 --> 00:08:35,279
 I mentioned this already but I wanted
 to go through it again just so that we
 
-395
-00:08:35,269 --> 00:08:35,279
-to go through it again just so that we
-
-396
-00:08:35,279 --> 00:08:36,790
+199
+00:08:35,279 --> 00:08:36,800
 to go through it again just so that we
 can
 
-397
-00:08:36,790 --> 00:08:36,800
-can
-
-398
-00:08:36,800 --> 00:08:38,630
+200
+00:08:36,800 --> 00:08:38,640
 can
 Create some context for the next
 
-399
-00:08:38,630 --> 00:08:38,640
-Create some context for the next
-
-400
-00:08:38,640 --> 00:08:39,589
+201
+00:08:38,640 --> 00:08:39,599
 Create some context for the next
 things that we're going to be talking
 
-401
-00:08:39,589 --> 00:08:39,599
-things that we're going to be talking
-
-402
-00:08:39,599 --> 00:08:42,230
+202
+00:08:39,599 --> 00:08:42,240
 things that we're going to be talking
 about. So, replay attacks are
 
-403
-00:08:42,230 --> 00:08:42,240
-about. So, replay attacks are
-
-404
-00:08:42,240 --> 00:08:44,310
+203
+00:08:42,240 --> 00:08:44,320
 about. So, replay attacks are
 fundamental threats in any authenticated
 
-405
-00:08:44,310 --> 00:08:44,320
-fundamental threats in any authenticated
-
-406
-00:08:44,320 --> 00:08:47,509
+204
+00:08:44,320 --> 00:08:47,519
 fundamental threats in any authenticated
 messaging system. The concept is that
 
-407
-00:08:47,509 --> 00:08:47,519
-messaging system. The concept is that
-
-408
-00:08:47,519 --> 00:08:49,750
+205
+00:08:47,519 --> 00:08:49,760
 messaging system. The concept is that
 an attacker will intercept a message
 
-409
-00:08:49,750 --> 00:08:49,760
-an attacker will intercept a message
-
-410
-00:08:49,760 --> 00:08:51,829
+206
+00:08:49,760 --> 00:08:51,839
 an attacker will intercept a message
 that was legitimately created and signed
 
-411
-00:08:51,829 --> 00:08:51,839
-that was legitimately created and signed
-
-412
-00:08:51,839 --> 00:08:54,389
+207
+00:08:51,839 --> 00:08:54,399
 that was legitimately created and signed
 and then is able to resend that
 
-413
-00:08:54,389 --> 00:08:54,399
-and then is able to resend that
-
-414
-00:08:54,399 --> 00:08:56,870
+208
+00:08:54,399 --> 00:08:56,880
 and then is able to resend that
 replaying it to the receiver at a
 
-415
-00:08:56,870 --> 00:08:56,880
-replaying it to the receiver at a
-
-416
-00:08:56,880 --> 00:08:59,110
+209
+00:08:56,880 --> 00:08:59,120
 replaying it to the receiver at a
 later time. If the receiver has no
 
-417
-00:08:59,110 --> 00:08:59,120
-later time. If the receiver has no
-
-418
-00:08:59,120 --> 00:09:02,150
+210
+00:08:59,120 --> 00:09:02,160
 later time. If the receiver has no
 mechanism to detect that the message is
 
-419
-00:09:02,150 --> 00:09:02,160
-mechanism to detect that the message is
-
-420
-00:09:02,160 --> 00:09:04,070
+211
+00:09:02,160 --> 00:09:04,080
 mechanism to detect that the message is
 a duplicate, it may process it again as
 
-421
-00:09:04,070 --> 00:09:04,080
-a duplicate, it may process it again as
-
-422
-00:09:04,080 --> 00:09:06,310
+212
+00:09:04,080 --> 00:09:06,320
 a duplicate, it may process it again as
 if it were fresh. And depending on
 
-423
-00:09:06,310 --> 00:09:06,320
-if it were fresh. And depending on
-
-424
-00:09:06,320 --> 00:09:07,670
+213
+00:09:06,320 --> 00:09:07,680
 if it were fresh. And depending on
 the message type, this could grant
 
-425
-00:09:07,670 --> 00:09:07,680
-the message type, this could grant
-
-426
-00:09:07,680 --> 00:09:09,670
+214
+00:09:07,680 --> 00:09:09,680
 the message type, this could grant
 unauthorized access, trigle trigger
 
-427
-00:09:09,670 --> 00:09:09,680
-unauthorized access, trigle trigger
-
-428
-00:09:09,680 --> 00:09:12,870
+215
+00:09:09,680 --> 00:09:12,880
 unauthorized access, trigle trigger
 duplicate operations, or otherwise
 
-429
-00:09:12,870 --> 00:09:12,880
-duplicate operations, or otherwise
-
-430
-00:09:12,880 --> 00:09:15,350
+216
+00:09:12,880 --> 00:09:15,360
 duplicate operations, or otherwise
 cause harm. So, it's important to note
 
-431
-00:09:15,350 --> 00:09:15,360
-cause harm. So, it's important to note
-
-432
-00:09:15,360 --> 00:09:17,110
+217
+00:09:15,360 --> 00:09:17,120
 cause harm. So, it's important to note
 that the attacker doesn't need to forge
 
-433
-00:09:17,110 --> 00:09:17,120
-that the attacker doesn't need to forge
-
-434
-00:09:17,120 --> 00:09:19,269
+218
+00:09:17,120 --> 00:09:19,279
 that the attacker doesn't need to forge
 or modify anything in the case of a
 
-435
-00:09:19,269 --> 00:09:19,279
-or modify anything in the case of a
-
-436
-00:09:19,279 --> 00:09:21,670
+219
+00:09:19,279 --> 00:09:21,680
 or modify anything in the case of a
 replay attack. The message is
 
-437
-00:09:21,670 --> 00:09:21,680
-replay attack. The message is
-
-438
-00:09:21,680 --> 00:09:23,829
+220
+00:09:21,680 --> 00:09:23,839
 replay attack. The message is
 genuinely signed by the real sender and
 
-439
-00:09:23,829 --> 00:09:23,839
-genuinely signed by the real sender and
-
-440
-00:09:23,839 --> 00:09:26,070
+221
+00:09:23,839 --> 00:09:26,080
 genuinely signed by the real sender and
 the attacker can exploit this the
 
-441
-00:09:26,070 --> 00:09:26,080
-the attacker can exploit this the
-
-442
-00:09:26,080 --> 00:09:27,350
+222
+00:09:26,080 --> 00:09:27,360
 the attacker can exploit this the
 fact that message has a valid
 
-443
-00:09:27,350 --> 00:09:27,360
-fact that message has a valid
-
-444
-00:09:27,360 --> 00:09:29,910
+223
+00:09:27,360 --> 00:09:29,920
 fact that message has a valid
 signature on it. But that doesn't
 
-445
-00:09:29,910 --> 00:09:29,920
-signature on it. But that doesn't
-
-446
-00:09:29,920 --> 00:09:32,070
+224
+00:09:29,920 --> 00:09:32,080
 signature on it. But that doesn't
 mean that the message is provably
 
-447
-00:09:32,070 --> 00:09:32,080
-mean that the message is provably
-
-448
-00:09:32,080 --> 00:09:34,949
+225
+00:09:32,080 --> 00:09:34,959
 mean that the message is provably
 delivered right now.
 
-449
-00:09:34,949 --> 00:09:34,959
-delivered right now.
-
-450
-00:09:34,959 --> 00:09:38,070
+226
+00:09:34,959 --> 00:09:38,080
 delivered right now.
 So that's this is why timeliness is a
 
-451
-00:09:38,070 --> 00:09:38,080
-So that's this is why timeliness is a
-
-452
-00:09:38,080 --> 00:09:40,470
+227
+00:09:38,080 --> 00:09:40,480
 So that's this is why timeliness is a
 core mechanic for KRAM. A message could
 
-453
-00:09:40,470 --> 00:09:40,480
-core mechanic for KRAM. A message could
-
-454
-00:09:40,480 --> 00:09:43,990
+228
+00:09:40,480 --> 00:09:44,000
 core mechanic for KRAM. A message could
 be properly signed but it must also
 
-455
-00:09:43,990 --> 00:09:44,000
-be properly signed but it must also
-
-456
-00:09:44,000 --> 00:09:46,790
+229
+00:09:44,000 --> 00:09:46,800
 be properly signed but it must also
 fall within the timeliness window that
 
-457
-00:09:46,790 --> 00:09:46,800
-fall within the timeliness window that
-
-458
-00:09:46,800 --> 00:09:51,990
+230
+00:09:46,800 --> 00:09:52,000
 fall within the timeliness window that
 Is able to correctly filter out
 
-459
-00:09:51,990 --> 00:09:52,000
-Is able to correctly filter out
-
-460
-00:09:52,000 --> 00:09:54,870
+231
+00:09:52,000 --> 00:09:54,880
 Is able to correctly filter out
 any messages that may also that may
 
-461
-00:09:54,870 --> 00:09:54,880
-any messages that may also that may
-
-462
-00:09:54,880 --> 00:09:59,190
+232
+00:09:54,880 --> 00:09:59,200
 any messages that may also that may
 be sent by malicious bad actors
 
-463
-00:09:59,190 --> 00:09:59,200
-be sent by malicious bad actors
-
-464
-00:09:59,200 --> 00:10:01,910
+233
+00:09:59,200 --> 00:10:01,920
 be sent by malicious bad actors
 in current use protocols. How is that
 
-465
-00:10:01,910 --> 00:10:01,920
-in current use protocols. How is that
-
-466
-00:10:01,920 --> 00:10:03,430
+234
+00:10:01,920 --> 00:10:05,509
 in current use protocols. How is that
 mitigated?
 
-467
-00:10:03,430 --> 00:10:03,440
-mitigated?
-
-468
-00:10:03,440 --> 00:10:05,509
-mitigated?
-
-469
+235
 00:10:05,509 --> 00:10:05,519
 
 
-470
-00:10:05,519 --> 00:10:07,509
-Or other examples.
-
-471
-00:10:07,509 --> 00:10:07,519
-or other examples.
-
-472
-00:10:07,519 --> 00:10:09,590
+236
+00:10:05,519 --> 00:10:09,600
 or other examples.
 I don't know. I've only studied
 
-473
-00:10:09,590 --> 00:10:09,600
-I don't know. I've only studied
-
-474
-00:10:09,600 --> 00:10:12,470
+237
+00:10:09,600 --> 00:10:12,480
 I don't know. I've only studied
 KERI so I couldn't tell you how OOTH 2
 
-475
-00:10:12,470 --> 00:10:12,480
-KERI so I couldn't tell you how OOTH 2
-
-476
-00:10:12,480 --> 00:10:13,110
+238
+00:10:12,480 --> 00:10:13,120
 KERI so I couldn't tell you how OOTH 2
 does it
 
-477
-00:10:13,110 --> 00:10:13,120
-does it
-
-478
-00:10:13,120 --> 00:10:16,870
+239
+00:10:13,120 --> 00:10:16,880
 does it
 approach in most secure channel
 
-479
-00:10:16,870 --> 00:10:16,880
-approach in most secure channel
-
-480
-00:10:16,880 --> 00:10:17,910
+240
+00:10:16,880 --> 00:10:17,920
 approach in most secure channel
 is it a non
 
-481
-00:10:17,910 --> 00:10:17,920
-is it a non
-
-482
-00:10:17,920 --> 00:10:22,069
+241
+00:10:17,920 --> 00:10:22,079
 is it a non
 by TLS is you do a challenge response.
 
-483
-00:10:22,069 --> 00:10:22,079
-by TLS is you do a challenge response.
-
-484
-00:10:22,079 --> 00:10:25,829
+242
+00:10:22,079 --> 00:10:25,839
 by TLS is you do a challenge response.
 So it's you three messages. So you send
 
-485
-00:10:25,829 --> 00:10:25,839
-So it's you three messages. So you send
-
-486
-00:10:25,839 --> 00:10:30,389
+243
+00:10:25,839 --> 00:10:30,399
 So it's you three messages. So you send
 a request, the host sends you back a
 
-487
-00:10:30,389 --> 00:10:30,399
-a request, the host sends you back a
-
-488
-00:10:30,399 --> 00:10:33,590
+244
+00:10:30,399 --> 00:10:33,600
 a request, the host sends you back a
 nonce, you sign the nonce or encrypt the
 
-489
-00:10:33,590 --> 00:10:33,600
-nonce, you sign the nonce or encrypt the
-
-490
-00:10:33,600 --> 00:10:35,829
+245
+00:10:33,600 --> 00:10:35,839
 nonce, you sign the nonce or encrypt the
 nonce, send it back and then they decrypt
 
-491
-00:10:35,829 --> 00:10:35,839
-nonce, send it back and then they decrypt
-
-492
-00:10:35,839 --> 00:10:38,790
+246
+00:10:35,839 --> 00:10:38,800
 nonce, send it back and then they decrypt
 it or verify the signature and that
 
-493
-00:10:38,790 --> 00:10:38,800
-it or verify the signature and that
-
-494
-00:10:38,800 --> 00:10:41,190
+247
+00:10:38,800 --> 00:10:41,200
 it or verify the signature and that
 knots is basically
 
-495
-00:10:41,190 --> 00:10:41,200
-knots is basically
-
-496
-00:10:41,200 --> 00:10:43,750
+248
+00:10:41,200 --> 00:10:43,760
 knots is basically
 not replayable as long as they don't
 
-497
-00:10:43,750 --> 00:10:43,760
-not replayable as long as they don't
-
-498
-00:10:43,760 --> 00:10:45,910
+249
+00:10:43,760 --> 00:10:45,920
 not replayable as long as they don't
 ever generate the same knots and accept
 
-499
-00:10:45,910 --> 00:10:45,920
-ever generate the same knots and accept
-
-500
-00:10:45,920 --> 00:10:49,829
+250
+00:10:45,920 --> 00:10:49,839
 ever generate the same knots and accept
 it. That means they either they either
 
-501
-00:10:49,829 --> 00:10:49,839
-it. That means they either they either
-
-502
-00:10:49,839 --> 00:10:52,630
+251
+00:10:49,839 --> 00:10:52,640
 it. That means they either they either
 assume an ephemeral secure session so
 
-503
-00:10:52,630 --> 00:10:52,640
-assume an ephemeral secure session so
-
-504
-00:10:52,640 --> 00:10:54,870
+252
+00:10:52,640 --> 00:10:54,880
 assume an ephemeral secure session so
 they don't have to save the nonce but if
 
-505
-00:10:54,870 --> 00:10:54,880
-they don't have to save the nonce but if
-
-506
-00:10:54,880 --> 00:10:58,150
+253
+00:10:54,880 --> 00:10:58,160
 they don't have to save the nonce but if
 you want something like multi-IG that
 
-507
-00:10:58,150 --> 00:10:58,160
-you want something like multi-IG that
-
-508
-00:10:58,160 --> 00:11:01,269
+254
+00:10:58,160 --> 00:11:01,279
 you want something like multi-IG that
 has that can span multiple sessions then
 
-509
-00:11:01,269 --> 00:11:01,279
-has that can span multiple sessions then
-
-510
-00:11:01,279 --> 00:11:02,870
+255
+00:11:01,279 --> 00:11:02,880
 has that can span multiple sessions then
 your host because now you have to store
 
-511
-00:11:02,870 --> 00:11:02,880
-your host because now you have to store
-
-512
-00:11:02,880 --> 00:11:06,069
+256
+00:11:02,880 --> 00:11:06,079
 your host because now you have to store
 all those nonses forever get replayed.
 
-513
-00:11:06,069 --> 00:11:06,079
-all those nonses forever get replayed.
-
-514
-00:11:06,079 --> 00:11:08,230
+257
+00:11:06,079 --> 00:11:08,240
 all those nonses forever get replayed.
 So, so, so when you look at replay
 
-515
-00:11:08,230 --> 00:11:08,240
-So, so, so when you look at replay
-
-516
-00:11:08,240 --> 00:11:11,110
+258
+00:11:08,240 --> 00:11:11,120
 So, so, so when you look at replay
 attack protection, when you go away from
 
-517
-00:11:11,110 --> 00:11:11,120
-attack protection, when you go away from
-
-518
-00:11:11,120 --> 00:11:14,470
+259
+00:11:11,120 --> 00:11:14,480
 attack protection, when you go away from
 ephemeral interactions to things that
 
-519
-00:11:14,470 --> 00:11:14,480
-ephemeral interactions to things that
-
-520
-00:11:14,480 --> 00:11:16,470
+260
+00:11:14,480 --> 00:11:16,480
 ephemeral interactions to things that
 have to last for long periods of time,
 
-521
-00:11:16,470 --> 00:11:16,480
-have to last for long periods of time,
-
-522
-00:11:16,480 --> 00:11:18,310
+261
+00:11:16,480 --> 00:11:18,320
 have to last for long periods of time,
 most of the existing mechanisms just
 
-523
-00:11:18,310 --> 00:11:18,320
-most of the existing mechanisms just
-
-524
-00:11:18,320 --> 00:11:19,590
+262
+00:11:18,320 --> 00:11:19,600
 most of the existing mechanisms just
 don't work. They just they don't they
 
-525
-00:11:19,590 --> 00:11:19,600
-don't work. They just they don't they
-
-526
-00:11:19,600 --> 00:11:21,990
+263
+00:11:19,600 --> 00:11:22,000
 don't work. They just they don't they
 don't scale. You have to remember things
 
-527
-00:11:21,990 --> 00:11:22,000
-don't scale. You have to remember things
-
-528
-00:11:22,000 --> 00:11:24,389
+264
+00:11:22,000 --> 00:11:24,399
 don't scale. You have to remember things
 forever or you have to start to build
 
-529
-00:11:24,389 --> 00:11:24,399
-forever or you have to start to build
-
-530
-00:11:24,399 --> 00:11:25,990
+265
+00:11:24,399 --> 00:11:26,000
 forever or you have to start to build
 prable caches.
 
-531
-00:11:25,990 --> 00:11:26,000
-prable caches.
-
-532
-00:11:26,000 --> 00:11:29,030
+266
+00:11:26,000 --> 00:11:29,040
 prable caches.
 Statistically random with large
 
-533
-00:11:29,030 --> 00:11:29,040
-Statistically random with large
-
-534
+267
 00:11:29,040 --> 00:11:32,870
 Statistically random with large
 Yeah,
 
-535
-00:11:34,069 --> 00:11:34,079
-that makes sense actually.
-
-536
-00:11:34,079 --> 00:11:35,030
+268
+00:11:34,069 --> 00:11:35,040
 that makes sense actually.
 Okay.
 
-537
-00:11:35,030 --> 00:11:35,040
-Okay.
-
-538
-00:11:35,040 --> 00:11:35,910
+269
+00:11:35,040 --> 00:11:35,920
 Okay.
 to summarize
 
-539
-00:11:35,910 --> 00:11:35,920
-to summarize
-
-540
-00:11:35,920 --> 00:11:40,870
+270
+00:11:35,920 --> 00:11:40,880
 to summarize
 to summarize other authentication
 
-541
-00:11:40,870 --> 00:11:40,880
-to summarize other authentication
-
-542
-00:11:40,880 --> 00:11:44,069
+271
+00:11:40,880 --> 00:11:44,079
 to summarize other authentication
 mechanisms like OOTH to do multi-
 
-543
-00:11:44,069 --> 00:11:44,079
-mechanisms like OOTH to do multi-
-
-544
-00:11:44,079 --> 00:11:47,509
+272
+00:11:44,079 --> 00:11:47,519
 mechanisms like OOTH to do multi-
 message authentication via nonses which
 
-545
-00:11:47,509 --> 00:11:47,519
-message authentication via nonses which
-
-546
+273
 00:11:47,519 --> 00:11:56,470
 message authentication via nonses which
 are not scalable as such. Okay.
 
-547
-00:11:58,630 --> 00:11:58,640
-all right.
-
-548
-00:11:58,640 --> 00:12:00,150
+274
+00:11:58,630 --> 00:12:00,160
 all right.
 Now,
 
-549
-00:12:00,150 --> 00:12:00,160
-Now,
-
-550
-00:12:00,160 --> 00:12:02,389
+275
+00:12:00,160 --> 00:12:02,399
 Now,
 talk about some fundamental protections
 
-551
-00:12:02,389 --> 00:12:02,399
-talk about some fundamental protections
-
-552
-00:12:02,399 --> 00:12:04,230
+276
+00:12:02,399 --> 00:12:04,240
 talk about some fundamental protections
 of KRAM.
 
-553
-00:12:04,230 --> 00:12:04,240
-of KRAM.
-
-554
-00:12:04,240 --> 00:12:06,310
+277
+00:12:04,240 --> 00:12:06,320
 of KRAM.
 So, the first thing that we're going to
 
-555
-00:12:06,310 --> 00:12:06,320
-So, the first thing that we're going to
-
-556
-00:12:06,320 --> 00:12:08,790
+278
+00:12:06,320 --> 00:12:08,800
 So, the first thing that we're going to
 do when well, we're we're we're ordering
 
-557
-00:12:08,790 --> 00:12:08,800
-do when well, we're we're we're ordering
-
-558
-00:12:08,800 --> 00:12:12,629
+279
+00:12:08,800 --> 00:12:12,639
 do when well, we're we're we're ordering
 these by the cheapest means of
 
-559
-00:12:12,629 --> 00:12:12,639
-these by the cheapest means of
-
-560
-00:12:12,639 --> 00:12:14,710
+280
+00:12:12,639 --> 00:12:14,720
 these by the cheapest means of
 making sure that your message is
 
-561
-00:12:14,710 --> 00:12:14,720
-making sure that your message is
-
-562
-00:12:14,720 --> 00:12:18,389
+281
+00:12:14,720 --> 00:12:18,399
 making sure that your message is
 authenticated per the given point in the
 
-563
-00:12:18,389 --> 00:12:18,399
-authenticated per the given point in the
-
-564
-00:12:18,399 --> 00:12:20,629
+282
+00:12:18,399 --> 00:12:20,639
 authenticated per the given point in the
 in the protection that you're at. So the
 
-565
-00:12:20,629 --> 00:12:20,639
-in the protection that you're at. So the
-
-566
-00:12:20,639 --> 00:12:21,829
+283
+00:12:20,639 --> 00:12:21,839
 in the protection that you're at. So the
 first thing that we want to do is we
 
-567
-00:12:21,829 --> 00:12:21,839
-first thing that we want to do is we
-
-568
-00:12:21,839 --> 00:12:23,750
+284
+00:12:21,839 --> 00:12:23,760
 first thing that we want to do is we
 want to look up the look up this
 
-569
-00:12:23,750 --> 00:12:23,760
-want to look up the look up this
-
-570
-00:12:23,760 --> 00:12:25,750
+285
+00:12:23,760 --> 00:12:25,760
 want to look up the look up this
 message. Like we said, it's got a set on
 
-571
-00:12:25,750 --> 00:12:25,760
-message. Like we said, it's got a set on
-
-572
-00:12:25,760 --> 00:12:27,910
+286
+00:12:25,760 --> 00:12:27,920
 message. Like we said, it's got a set on
 it which is unique. So we're looking it
 
-573
-00:12:27,910 --> 00:12:27,920
-it which is unique. So we're looking it
-
-574
-00:12:27,920 --> 00:12:31,350
+287
+00:12:27,920 --> 00:12:31,360
 it which is unique. So we're looking it
 up against a cache. And if that message
 
-575
-00:12:31,350 --> 00:12:31,360
-up against a cache. And if that message
-
-576
-00:12:31,360 --> 00:12:33,990
+288
+00:12:31,360 --> 00:12:34,000
 up against a cache. And if that message
 is there in that cache already, then we
 
-577
-00:12:33,990 --> 00:12:34,000
-is there in that cache already, then we
-
-578
-00:12:34,000 --> 00:12:36,310
+289
+00:12:34,000 --> 00:12:36,320
 is there in that cache already, then we
 know it's a duplicate because no message
 
-579
-00:12:36,310 --> 00:12:36,320
-know it's a duplicate because no message
-
-580
-00:12:36,320 --> 00:12:38,150
+290
+00:12:36,320 --> 00:12:38,160
 know it's a duplicate because no message
 can have the same set as a message
 
-581
-00:12:38,150 --> 00:12:38,160
-can have the same set as a message
-
-582
-00:12:38,160 --> 00:12:39,829
+291
+00:12:38,160 --> 00:12:39,839
 can have the same set as a message
 that's already existed. So you know
 
-583
-00:12:39,829 --> 00:12:39,839
-that's already existed. So you know
-
-584
-00:12:39,839 --> 00:12:41,829
+292
+00:12:39,839 --> 00:12:41,839
 that's already existed. So you know
 you've got something funny going on if
 
-585
-00:12:41,829 --> 00:12:41,839
-you've got something funny going on if
-
-586
-00:12:41,839 --> 00:12:44,790
+293
+00:12:41,839 --> 00:12:44,800
 you've got something funny going on if
 you're or well it could it could be
 
-587
-00:12:44,790 --> 00:12:44,800
-you're or well it could it could be
-
-588
-00:12:44,800 --> 00:12:46,310
+294
+00:12:44,800 --> 00:12:46,320
 you're or well it could it could be
 it could not be something funny. It
 
-589
-00:12:46,310 --> 00:12:46,320
-it could not be something funny. It
-
-590
-00:12:46,320 --> 00:12:47,829
+295
+00:12:46,320 --> 00:12:47,839
 it could not be something funny. It
 could also just be someone who's
 
-591
-00:12:47,829 --> 00:12:47,839
-could also just be someone who's
-
-592
-00:12:47,839 --> 00:12:49,190
+296
+00:12:47,839 --> 00:12:49,200
 could also just be someone who's
 legitimately trying to send a message
 
-593
-00:12:49,190 --> 00:12:49,200
-legitimately trying to send a message
-
-594
-00:12:49,200 --> 00:12:51,430
+297
+00:12:49,200 --> 00:12:51,440
 legitimately trying to send a message
 again. But the point being that the
 
-595
-00:12:51,430 --> 00:12:51,440
-again. But the point being that the
-
-596
-00:12:51,440 --> 00:12:53,269
+298
+00:12:51,440 --> 00:12:53,279
 again. But the point being that the
 first thing we do cache lookup cache
 
-597
-00:12:53,269 --> 00:12:53,279
-first thing we do cache lookup cache
-
-598
-00:12:53,279 --> 00:12:57,030
+299
+00:12:53,279 --> 00:12:57,040
 first thing we do cache lookup cache
 lookup and drop if it's if we already
 
-599
-00:12:57,030 --> 00:12:57,040
-lookup and drop if it's if we already
-
-600
-00:12:57,040 --> 00:13:00,870
+300
+00:12:57,040 --> 00:13:00,880
 lookup and drop if it's if we already
 have something there. We are also
 
-601
-00:13:00,870 --> 00:13:00,880
-have something there. We are also
-
-602
-00:13:00,880 --> 00:13:03,030
+301
+00:13:00,880 --> 00:13:03,040
 have something there. We are also
 checking to see if these are multikey
 
-603
-00:13:03,030 --> 00:13:03,040
-checking to see if these are multikey
-
-604
-00:13:03,040 --> 00:13:05,750
+302
+00:13:03,040 --> 00:13:05,760
 checking to see if these are multikey
 messages because we can have a message
 
-605
-00:13:05,750 --> 00:13:05,760
-messages because we can have a message
-
-606
-00:13:05,760 --> 00:13:09,670
+303
+00:13:05,760 --> 00:13:09,680
 messages because we can have a message
 that has the same said but has
 
-607
-00:13:09,670 --> 00:13:09,680
-that has the same said but has
-
-608
-00:13:09,680 --> 00:13:11,910
+304
+00:13:09,680 --> 00:13:11,920
 that has the same said but has
 additional signatures that must be
 
-609
-00:13:11,910 --> 00:13:11,920
-additional signatures that must be
-
-610
-00:13:11,920 --> 00:13:13,590
+305
+00:13:11,920 --> 00:13:13,600
 additional signatures that must be
 collected towards a threshold. So there
 
-611
-00:13:13,590 --> 00:13:13,600
-collected towards a threshold. So there
-
-612
-00:13:13,600 --> 00:13:15,829
+306
+00:13:13,600 --> 00:13:15,839
 collected towards a threshold. So there
 is a little bit of nuance with respects
 
-613
-00:13:15,829 --> 00:13:15,839
-is a little bit of nuance with respects
-
-614
-00:13:15,839 --> 00:13:19,030
+307
+00:13:15,839 --> 00:13:19,040
 is a little bit of nuance with respects
 to multi key or multi yeah mult multi
 
-615
-00:13:19,030 --> 00:13:19,040
-to multi key or multi yeah mult multi
-
-616
-00:13:19,040 --> 00:13:21,910
+308
+00:13:19,040 --> 00:13:21,920
 to multi key or multi yeah mult multi
 key messages.
 
-617
-00:13:21,910 --> 00:13:21,920
-key messages.
-
-618
-00:13:21,920 --> 00:13:23,590
+309
+00:13:21,920 --> 00:13:23,600
 key messages.
 Next you're going to do a timeliness
 
-619
-00:13:23,590 --> 00:13:23,600
-Next you're going to do a timeliness
-
-620
-00:13:23,600 --> 00:13:25,509
+310
+00:13:23,600 --> 00:13:25,519
 Next you're going to do a timeliness
 check which only occurs for uncashed
 
-621
-00:13:25,509 --> 00:13:25,519
-check which only occurs for uncashed
-
-622
-00:13:25,519 --> 00:13:29,190
+311
+00:13:25,519 --> 00:13:29,200
 check which only occurs for uncashed
 messages. And you're going to do this
 
-623
-00:13:29,190 --> 00:13:29,200
-messages. And you're going to do this
-
-624
-00:13:29,200 --> 00:13:30,870
+312
+00:13:29,200 --> 00:13:30,880
 messages. And you're going to do this
 nice little formula here. This is this
 
-625
-00:13:30,870 --> 00:13:30,880
-nice little formula here. This is this
-
-626
-00:13:30,880 --> 00:13:32,550
+313
+00:13:30,880 --> 00:13:32,560
 nice little formula here. This is this
 is the real magic behind KRAM or at
 
-627
-00:13:32,550 --> 00:13:32,560
-is the real magic behind KRAM or at
-
-628
-00:13:32,560 --> 00:13:34,710
+314
+00:13:32,560 --> 00:13:34,720
 is the real magic behind KRAM or at
 least some of it which is a receiver
 
-629
-00:13:34,710 --> 00:13:34,720
-least some of it which is a receiver
-
-630
-00:13:34,720 --> 00:13:40,310
+315
+00:13:34,720 --> 00:13:40,320
 least some of it which is a receiver
 date time minus drift minus ML which is
 
-631
-00:13:40,310 --> 00:13:40,320
-date time minus drift minus ML which is
-
-632
-00:13:40,320 --> 00:13:44,949
+316
+00:13:40,320 --> 00:13:44,959
 date time minus drift minus ML which is
 going to be sort of a this is like a
 
-633
-00:13:44,949 --> 00:13:44,959
-going to be sort of a this is like a
-
-634
-00:13:44,959 --> 00:13:47,350
+317
+00:13:44,959 --> 00:13:47,360
 going to be sort of a this is like a
 v this is a variable like this could be
 
-635
-00:13:47,350 --> 00:13:47,360
-v this is a variable like this could be
-
-636
-00:13:47,360 --> 00:13:49,350
+318
+00:13:47,360 --> 00:13:49,360
 v this is a variable like this could be
 different depending on whether you have
 
-637
-00:13:49,350 --> 00:13:49,360
-different depending on whether you have
-
-638
-00:13:49,360 --> 00:13:52,069
+319
+00:13:49,360 --> 00:13:52,079
 different depending on whether you have
 a multi key it might be a longer lag or
 
-639
-00:13:52,069 --> 00:13:52,079
-a multi key it might be a longer lag or
-
-640
-00:13:52,079 --> 00:13:56,389
+320
+00:13:52,079 --> 00:13:56,399
 a multi key it might be a longer lag or
 whether you have a zip wherein you're
 
-641
-00:13:56,389 --> 00:13:56,399
-whether you have a zip wherein you're
-
-642
-00:13:56,399 --> 00:13:57,990
+321
+00:13:56,399 --> 00:13:58,000
 whether you have a zip wherein you're
 going to be waiting for an even longer
 
-643
-00:13:57,990 --> 00:13:58,000
-going to be waiting for an even longer
-
-644
-00:13:58,000 --> 00:14:00,470
+322
+00:13:58,000 --> 00:14:00,480
 going to be waiting for an even longer
 time to do different negotiations. of
 
-645
-00:14:00,470 --> 00:14:00,480
-time to do different negotiations. of
-
-646
-00:14:00,480 --> 00:14:02,470
+323
+00:14:00,480 --> 00:14:02,480
 time to do different negotiations. of
 contracts or multiple messages within
 
-647
-00:14:02,470 --> 00:14:02,480
-contracts or multiple messages within
-
-648
-00:14:02,480 --> 00:14:06,629
+324
+00:14:02,480 --> 00:14:06,639
 contracts or multiple messages within
 within a given very long time window.
 
-649
-00:14:06,629 --> 00:14:06,639
-within a given very long time window.
-
-650
-00:14:06,639 --> 00:14:10,550
+325
+00:14:06,639 --> 00:14:10,560
 within a given very long time window.
 So right do you see here ML equals SL IE
 
-651
-00:14:10,550 --> 00:14:10,560
-so right do you see here ML equals SL IE
-
-652
-00:14:10,560 --> 00:14:12,310
+326
+00:14:10,560 --> 00:14:12,320
 so right do you see here ML equals SL IE
 we're doing for seal reference and
 
-653
-00:14:12,310 --> 00:14:12,320
-we're doing for seal reference and
-
-654
-00:14:12,320 --> 00:14:14,230
+327
+00:14:12,320 --> 00:14:14,240
 we're doing for seal reference and
 single key we swap this out for a short
 
-655
-00:14:14,230 --> 00:14:14,240
-single key we swap this out for a short
-
-656
-00:14:14,240 --> 00:14:18,550
+328
+00:14:14,240 --> 00:14:18,560
 single key we swap this out for a short
 lag long lag for multi key etc.
 
-657
-00:14:18,550 --> 00:14:18,560
-lag long lag for multi key etc.
-
-658
-00:14:18,560 --> 00:14:19,430
+329
+00:14:18,560 --> 00:14:19,440
 lag long lag for multi key etc.
 Next you're going to try to
 
-659
-00:14:19,430 --> 00:14:19,440
-Next you're going to try to
-
-660
-00:14:19,440 --> 00:14:21,430
+330
+00:14:19,440 --> 00:14:21,440
 Next you're going to try to
 authenticate. you're going to resolve
 
-661
-00:14:21,430 --> 00:14:21,440
-authenticate. you're going to resolve
-
-662
-00:14:21,440 --> 00:14:24,069
+331
+00:14:21,440 --> 00:14:24,079
 authenticate. you're going to resolve
 the O seal type by checking the seal
 
-663
-00:14:24,069 --> 00:14:24,079
-the O seal type by checking the seal
-
-664
-00:14:24,079 --> 00:14:25,910
+332
+00:14:24,079 --> 00:14:25,920
 the O seal type by checking the seal
 reference first because it's cheap and
 
-665
-00:14:25,910 --> 00:14:25,920
-reference first because it's cheap and
-
-666
-00:14:25,920 --> 00:14:28,470
+333
+00:14:25,920 --> 00:14:28,480
 reference first because it's cheap and
 then you're going to go on to signatures
 
-667
-00:14:28,470 --> 00:14:28,480
-then you're going to go on to signatures
-
-668
-00:14:28,480 --> 00:14:31,829
+334
+00:14:28,480 --> 00:14:31,839
 then you're going to go on to signatures
 and with single key you just have to
 
-669
-00:14:31,829 --> 00:14:31,839
-and with single key you just have to
-
-670
-00:14:31,839 --> 00:14:35,829
+335
+00:14:31,839 --> 00:14:35,839
 and with single key you just have to
 validate cache and accept. Multi key.
 
-671
-00:14:35,829 --> 00:14:35,839
-validate cache and accept. Multi key.
-
-672
-00:14:35,839 --> 00:14:37,590
+336
+00:14:35,839 --> 00:14:37,600
 validate cache and accept. Multi key.
 Again, you're going to verify the
 
-673
-00:14:37,590 --> 00:14:37,600
-Again, you're going to verify the
-
-674
-00:14:37,600 --> 00:14:39,590
+337
+00:14:37,600 --> 00:14:39,600
 Again, you're going to verify the
 available signatures and then you're
 
-675
-00:14:39,590 --> 00:14:39,600
-available signatures and then you're
-
-676
-00:14:39,600 --> 00:14:41,509
+338
+00:14:39,600 --> 00:14:41,519
 available signatures and then you're
 going to take a look at that threshold
 
-677
-00:14:41,509 --> 00:14:41,519
-going to take a look at that threshold
-
-678
-00:14:41,519 --> 00:14:43,670
+339
+00:14:41,519 --> 00:14:43,680
 going to take a look at that threshold
 And see if it's met at that point.
 
-679
-00:14:43,670 --> 00:14:43,680
-And see if it's met at that point.
-
-680
-00:14:43,680 --> 00:14:47,590
+340
+00:14:43,680 --> 00:14:47,600
 And see if it's met at that point.
 And if not, then you're going to
 
-681
-00:14:47,590 --> 00:14:47,600
-And if not, then you're going to
-
-682
-00:14:47,600 --> 00:14:49,110
+341
+00:14:47,600 --> 00:14:49,120
 And if not, then you're going to
 you're going to well, you're basically
 
-683
-00:14:49,110 --> 00:14:49,120
-you're going to well, you're basically
-
-684
-00:14:49,120 --> 00:14:50,710
+342
+00:14:49,120 --> 00:14:50,720
 you're going to well, you're basically
 just collecting those and waiting for
 
-685
-00:14:50,710 --> 00:14:50,720
-just collecting those and waiting for
-
-686
-00:14:50,720 --> 00:14:52,790
+343
+00:14:50,720 --> 00:14:52,800
 just collecting those and waiting for
 more messages to come in until that
 
-687
-00:14:52,790 --> 00:14:52,800
-more messages to come in until that
-
-688
-00:14:52,800 --> 00:14:56,470
+344
+00:14:52,800 --> 00:14:56,480
 more messages to come in until that
 threshold is met. It's important to
 
-689
-00:14:56,470 --> 00:14:56,480
-threshold is met. It's important to
-
-690
-00:14:56,480 --> 00:14:59,750
+345
+00:14:56,480 --> 00:14:59,760
 threshold is met. It's important to
 note that the prune windows always
 
-691
-00:14:59,750 --> 00:14:59,760
-note that the prune windows always
-
-692
-00:14:59,760 --> 00:15:02,310
+346
+00:14:59,760 --> 00:15:02,320
 note that the prune windows always
 must be greater than the accept windows
 
-693
-00:15:02,310 --> 00:15:02,320
-must be greater than the accept windows
-
-694
-00:15:02,320 --> 00:15:04,150
+347
+00:15:02,320 --> 00:15:04,160
 must be greater than the accept windows
 which is going to prevent gap attacks
 
-695
-00:15:04,150 --> 00:15:04,160
-which is going to prevent gap attacks
-
-696
-00:15:04,160 --> 00:15:06,790
+348
+00:15:04,160 --> 00:15:06,800
 which is going to prevent gap attacks
 during configuration changes. And again
 
-697
-00:15:06,790 --> 00:15:06,800
-during configuration changes. And again
-
-698
-00:15:06,800 --> 00:15:09,030
+349
+00:15:06,800 --> 00:15:09,040
 during configuration changes. And again
 we're doing yes
 
-699
-00:15:09,030 --> 00:15:09,040
-we're doing yes
-
-700
-00:15:09,040 --> 00:15:11,269
+350
+00:15:09,040 --> 00:15:11,279
 we're doing yes
 the window is a measure of timing.
 
-701
-00:15:11,269 --> 00:15:11,279
-the window is a measure of timing.
-
-702
-00:15:11,279 --> 00:15:14,069
+351
+00:15:11,279 --> 00:15:14,079
 the window is a measure of timing.
 Yeah it's it's like it's a sliding
 
-703
-00:15:14,069 --> 00:15:14,079
-Yeah it's it's like it's a sliding
-
-704
-00:15:14,079 --> 00:15:16,550
+352
+00:15:14,079 --> 00:15:16,560
 Yeah it's it's like it's a sliding
 window. So a given window will be an
 
-705
-00:15:16,550 --> 00:15:16,560
-window. So a given window will be an
-
-706
-00:15:16,560 --> 00:15:18,790
+353
+00:15:16,560 --> 00:15:18,800
 window. So a given window will be an
 offset in one direction and another.
 
-707
-00:15:18,790 --> 00:15:18,800
-offset in one direction and another.
-
-708
-00:15:18,800 --> 00:15:21,829
+354
+00:15:18,800 --> 00:15:21,839
 offset in one direction and another.
 Right. So like if it's what time is it?
 
-709
-00:15:21,829 --> 00:15:21,839
-Right. So like if it's what time is it?
-
-710
-00:15:21,839 --> 00:15:24,310
+355
+00:15:21,839 --> 00:15:24,320
 Right. So like if it's what time is it?
 Three. or something else.
 
-711
-00:15:24,310 --> 00:15:24,320
-Three. or something else.
-
-712
-00:15:24,320 --> 00:15:25,269
+356
+00:15:24,320 --> 00:15:25,279
 Three. or something else.
 Say that last part again.
 
-713
-00:15:25,269 --> 00:15:25,279
-Say that last part again.
-
-714
-00:15:25,279 --> 00:15:27,110
+357
+00:15:25,279 --> 00:15:27,120
 Say that last part again.
 Is the expectation that it's wall
 
-715
-00:15:27,110 --> 00:15:27,120
-Is the expectation that it's wall
-
-716
-00:15:27,120 --> 00:15:29,829
+358
+00:15:27,120 --> 00:15:29,839
 Is the expectation that it's wall
 clock time or something else like tick
 
-717
-00:15:29,829 --> 00:15:29,839
-clock time or something else like tick
-
-718
-00:15:29,839 --> 00:15:30,550
+359
+00:15:29,839 --> 00:15:30,560
 clock time or something else like tick
 counts?
 
-719
-00:15:30,550 --> 00:15:30,560
-counts?
-
-720
-00:15:30,560 --> 00:15:31,910
+360
+00:15:30,560 --> 00:15:31,920
 counts?
 It's going to be wall clock time,
 
-721
-00:15:31,910 --> 00:15:31,920
-It's going to be wall clock time,
-
-722
-00:15:31,920 --> 00:15:33,110
+361
+00:15:31,920 --> 00:15:33,120
 It's going to be wall clock time,
 right? Network time.
 
-723
-00:15:33,110 --> 00:15:33,120
-right? Network time.
-
-724
-00:15:33,120 --> 00:15:34,470
+362
+00:15:33,120 --> 00:15:34,480
 right? Network time.
 Network time.
 
-725
-00:15:34,470 --> 00:15:34,480
-Network time.
-
-726
-00:15:34,480 --> 00:15:37,189
+363
+00:15:34,480 --> 00:15:37,199
 Network time.
 Yes. So
 
-727
-00:15:37,189 --> 00:15:37,199
-Yes. So
-
-728
-00:15:37,199 --> 00:15:39,350
+364
+00:15:37,199 --> 00:15:39,360
 Yes. So
 so is there a dependency to have secure
 
-729
-00:15:39,350 --> 00:15:39,360
-so is there a dependency to have secure
-
-730
-00:15:39,360 --> 00:15:41,030
+365
+00:15:39,360 --> 00:15:41,040
 so is there a dependency to have secure
 time?
 
-731
-00:15:41,030 --> 00:15:41,040
-time?
-
-732
-00:15:41,040 --> 00:15:43,350
+366
+00:15:41,040 --> 00:15:43,360
 time?
 Yes. Well, no. Okay.
 
-733
-00:15:43,350 --> 00:15:43,360
-Yes. Well, no. Okay.
-
-734
-00:15:43,360 --> 00:15:44,470
+367
+00:15:43,360 --> 00:15:44,480
 Yes. Well, no. Okay.
 No.
 
-735
-00:15:44,470 --> 00:15:44,480
-No.
-
-736
-00:15:44,480 --> 00:15:45,269
+368
+00:15:44,480 --> 00:15:45,279
 No.
 No. No.
 
-737
-00:15:45,269 --> 00:15:45,279
-No. No.
-
-738
-00:15:45,279 --> 00:15:46,470
+369
+00:15:45,279 --> 00:15:46,480
 No. No.
 What's secure? What do you mean secure
 
-739
-00:15:46,470 --> 00:15:46,480
-What's secure? What do you mean secure
-
-740
-00:15:46,480 --> 00:15:46,870
+370
+00:15:46,480 --> 00:15:46,880
 What's secure? What do you mean secure
 time?
 
-741
-00:15:46,870 --> 00:15:46,880
-time?
-
-742
-00:15:46,880 --> 00:15:50,710
+371
+00:15:46,880 --> 00:15:50,720
 time?
 Is always relative to the host. So it
 
-743
-00:15:50,710 --> 00:15:50,720
-Is always relative to the host. So it
-
-744
-00:15:50,720 --> 00:15:52,710
+372
+00:15:50,720 --> 00:15:52,720
 Is always relative to the host. So it
 doesn't matter what an attacker
 
-745
-00:15:52,710 --> 00:15:52,720
-doesn't matter what an attacker
-
-746
-00:15:52,720 --> 00:15:54,470
+373
+00:15:52,720 --> 00:15:54,480
 doesn't matter what an attacker
 does. If they don't if they're not
 
-747
-00:15:54,470 --> 00:15:54,480
-does. If they don't if they're not
-
-748
-00:15:54,480 --> 00:15:57,110
+374
+00:15:54,480 --> 00:15:57,120
 does. If they don't if they're not
 synchronized with the host time, they
 
-749
-00:15:57,110 --> 00:15:57,120
-synchronized with the host time, they
-
-750
-00:15:57,120 --> 00:15:59,670
+375
+00:15:57,120 --> 00:15:59,680
 synchronized with the host time, they
 can't lie about the time, right? And
 
-751
-00:15:59,670 --> 00:15:59,680
-can't lie about the time, right? And
-
-752
-00:15:59,680 --> 00:16:02,470
+376
+00:15:59,680 --> 00:16:02,480
 can't lie about the time, right? And
 and if the host records the timing, they
 
-753
-00:16:02,470 --> 00:16:02,480
-and if the host records the timing, they
-
-754
-00:16:02,480 --> 00:16:05,269
+377
+00:16:02,480 --> 00:16:05,279
 and if the host records the timing, they
 can't do a clock reprate attack on
 
-755
-00:16:05,269 --> 00:16:05,279
-can't do a clock reprate attack on
-
-756
-00:16:05,279 --> 00:16:07,910
+378
+00:16:05,279 --> 00:16:07,920
 can't do a clock reprate attack on
 it. So that when they spin back up, you
 
-757
-00:16:07,910 --> 00:16:07,920
-it. So that when they spin back up, you
-
-758
-00:16:07,920 --> 00:16:10,389
+379
+00:16:07,920 --> 00:16:10,399
 it. So that when they spin back up, you
 know, they can't like push the time
 
-759
-00:16:10,389 --> 00:16:10,399
-know, they can't like push the time
-
-760
-00:16:10,399 --> 00:16:13,990
+380
+00:16:10,399 --> 00:16:14,000
 know, they can't like push the time
 back, you know. So time, but the
 
-761
-00:16:13,990 --> 00:16:14,000
-back, you know. So time, but the
-
-762
-00:16:14,000 --> 00:16:15,430
+381
+00:16:14,000 --> 00:16:15,440
 back, you know. So time, but the
 security is the
 
-763
-00:16:15,430 --> 00:16:15,440
-security is the
-
-764
-00:16:15,440 --> 00:16:17,509
+382
+00:16:15,440 --> 00:16:17,519
 security is the
 the host the host itself. And the
 
-765
-00:16:17,509 --> 00:16:17,519
-the host the host itself. And the
-
-766
+383
 00:16:17,519 --> 00:16:23,430
 the host the host itself. And the
 assumption is the attack
 
-767
-00:16:23,990 --> 00:16:24,000
-Yeah.
-
-768
-00:16:24,000 --> 00:16:24,790
+384
+00:16:23,990 --> 00:16:24,800
 Yeah.
 So to be clear,
 
-769
-00:16:24,790 --> 00:16:24,800
-So to be clear,
-
-770
-00:16:24,800 --> 00:16:27,189
+385
+00:16:24,800 --> 00:16:27,199
 So to be clear,
 I know what you mean by security
 
-771
-00:16:27,189 --> 00:16:27,199
-I know what you mean by security
-
-772
-00:16:27,199 --> 00:16:30,470
+386
+00:16:27,199 --> 00:16:30,480
 I know what you mean by security
 but those
 
-773
-00:16:30,470 --> 00:16:30,480
-but those
-
-774
-00:16:30,480 --> 00:16:33,590
+387
+00:16:30,480 --> 00:16:33,600
 but those
 answer server that tells.
 
-775
-00:16:33,590 --> 00:16:33,600
-answer server that tells.
-
-776
-00:16:33,600 --> 00:16:36,389
+388
+00:16:33,600 --> 00:16:36,399
 answer server that tells.
 Yeah. But in this case server you just
 
-777
-00:16:36,389 --> 00:16:36,399
-Yeah. But in this case server you just
-
-778
-00:16:36,399 --> 00:16:37,350
+389
+00:16:36,399 --> 00:16:37,360
 Yeah. But in this case server you just
 you are the server.
 
-779
-00:16:37,350 --> 00:16:37,360
-you are the server.
-
-780
-00:16:37,360 --> 00:16:38,470
+390
+00:16:37,360 --> 00:16:38,480
 you are the server.
 Yeah. You are the server.
 
-781
-00:16:38,470 --> 00:16:38,480
-Yeah. You are the server.
-
-782
-00:16:38,480 --> 00:16:41,910
+391
+00:16:38,480 --> 00:16:41,920
 Yeah. You are the server.
 Okay. So you are the server which is the
 
-783
-00:16:41,910 --> 00:16:41,920
-Okay. So you are the server which is the
-
-784
-00:16:41,920 --> 00:16:43,670
+392
+00:16:41,920 --> 00:16:43,680
 Okay. So you are the server which is the
 security essentially to answer your
 
-785
-00:16:43,670 --> 00:16:43,680
-security essentially to answer your
-
-786
-00:16:43,680 --> 00:16:47,269
+393
+00:16:43,680 --> 00:16:47,279
 security essentially to answer your
 question. Okay. That for the microphone.
 
-787
-00:16:47,269 --> 00:16:47,279
-question. Okay. That for the microphone.
-
-788
-00:16:47,279 --> 00:16:49,350
+394
+00:16:47,279 --> 00:16:49,360
 question. Okay. That for the microphone.
 Let's see. Did I miss anything on
 
-789
-00:16:49,350 --> 00:16:49,360
-Let's see. Did I miss anything on
-
-790
-00:16:49,360 --> 00:16:51,509
+395
+00:16:49,360 --> 00:16:51,519
 Let's see. Did I miss anything on
 here?
 
-791
-00:16:51,509 --> 00:16:51,519
-here?
-
-792
-00:16:51,519 --> 00:16:53,990
+396
+00:16:51,519 --> 00:16:54,000
 here?
 Oh, right. Key state protection.
 
-793
-00:16:53,990 --> 00:16:54,000
-Oh, right. Key state protection.
-
-794
-00:16:54,000 --> 00:16:57,269
+397
+00:16:54,000 --> 00:16:57,279
 Oh, right. Key state protection.
 It's good to be aware that this is for
 
-795
-00:16:57,269 --> 00:16:57,279
-it's good to be aware that this is for
-
-796
-00:16:57,279 --> 00:17:00,150
+398
+00:16:57,279 --> 00:17:00,160
 it's good to be aware that this is for
 A single given key state. And if
 
-797
-00:17:00,150 --> 00:17:00,160
-A single given key state. And if
-
-798
-00:17:00,160 --> 00:17:03,269
+399
+00:17:00,160 --> 00:17:03,279
 A single given key state. And if
 sender key state changes in the duration
 
-799
-00:17:03,269 --> 00:17:03,279
-sender key state changes in the duration
-
-800
-00:17:03,279 --> 00:17:06,949
+400
+00:17:03,279 --> 00:17:06,959
 sender key state changes in the duration
 of a given, you know, messaging
 
-801
-00:17:06,949 --> 00:17:06,959
-of a given, you know, messaging
-
-802
-00:17:06,959 --> 00:17:08,230
+401
+00:17:06,959 --> 00:17:08,240
 of a given, you know, messaging
 exchange, like if you're collecting
 
-803
-00:17:08,230 --> 00:17:08,240
-exchange, like if you're collecting
-
-804
-00:17:08,240 --> 00:17:10,150
+402
+00:17:08,240 --> 00:17:10,160
 exchange, like if you're collecting
 signatures on a multisig and the sender
 
-805
-00:17:10,150 --> 00:17:10,160
-signatures on a multisig and the sender
-
-806
-00:17:10,160 --> 00:17:11,829
+403
+00:17:10,160 --> 00:17:11,839
 signatures on a multisig and the sender
 key state changes at some point during
 
-807
-00:17:11,829 --> 00:17:11,839
-key state changes at some point during
-
-808
-00:17:11,839 --> 00:17:14,949
+404
+00:17:11,839 --> 00:17:14,959
 key state changes at some point during
 that, then that messaging operation
 
-809
-00:17:14,949 --> 00:17:14,959
-that, then that messaging operation
-
-810
-00:17:14,959 --> 00:17:17,590
+405
+00:17:14,959 --> 00:17:17,600
 that, then that messaging operation
 is going to have to happen again.
 
-811
-00:17:17,590 --> 00:17:17,600
-is going to have to happen again.
-
-812
-00:17:17,600 --> 00:17:18,230
+406
+00:17:17,600 --> 00:17:18,240
 is going to have to happen again.
 You
 
-813
-00:17:18,230 --> 00:17:18,240
-You
-
-814
-00:17:18,240 --> 00:17:19,669
+407
+00:17:18,240 --> 00:17:19,679
 You
 said gonna have to what?
 
-815
-00:17:19,669 --> 00:17:19,679
-said gonna have to what?
-
-816
-00:17:19,679 --> 00:17:21,189
+408
+00:17:19,679 --> 00:17:21,199
 said gonna have to what?
 It's gonna have to happen again.
 
-817
-00:17:21,189 --> 00:17:21,199
-It's gonna have to happen again.
-
-818
-00:17:21,199 --> 00:17:21,829
+409
+00:17:21,199 --> 00:17:21,839
 It's gonna have to happen again.
 Oh, yes.
 
-819
-00:17:21,829 --> 00:17:21,839
-Oh, yes.
-
-820
-00:17:21,839 --> 00:17:24,069
+410
+00:17:21,839 --> 00:17:24,079
 Oh, yes.
 Yes. Okay, good. Looking at me. I was
 
-821
-00:17:24,069 --> 00:17:24,079
-Yes. Okay, good. Looking at me. I was
-
-822
-00:17:24,079 --> 00:17:25,350
+411
+00:17:24,079 --> 00:17:25,360
 Yes. Okay, good. Looking at me. I was
 like,
 
-823
-00:17:25,350 --> 00:17:25,360
-like,
-
-824
-00:17:25,360 --> 00:17:28,230
+412
+00:17:25,360 --> 00:17:28,240
 like,
 I didn't hear what you said. I didn't
 
-825
-00:17:28,230 --> 00:17:28,240
-I didn't hear what you said. I didn't
-
-826
-00:17:28,240 --> 00:17:29,190
+413
+00:17:28,240 --> 00:17:29,200
 I didn't hear what you said. I didn't
 hear the
 
-827
-00:17:29,190 --> 00:17:29,200
-hear the
-
-828
-00:17:29,200 --> 00:17:32,470
+414
+00:17:29,200 --> 00:17:32,480
 hear the
 Thank you. Okay. Now we get to talk
 
-829
-00:17:32,470 --> 00:17:32,480
-Thank you. Okay. Now we get to talk
-
-830
-00:17:32,480 --> 00:17:35,110
+415
+00:17:32,480 --> 00:17:35,120
 Thank you. Okay. Now we get to talk
 about the cool stuff. So, it's all cool
 
-831
-00:17:35,110 --> 00:17:35,120
-about the cool stuff. So, it's all cool
-
-832
-00:17:35,120 --> 00:17:39,510
+416
+00:17:35,120 --> 00:17:39,520
 about the cool stuff. So, it's all cool
 stuff. I'm just kidding. These are
 
-833
-00:17:39,510 --> 00:17:39,520
-stuff. I'm just kidding. These are
-
-834
-00:17:39,520 --> 00:17:42,470
+417
+00:17:39,520 --> 00:17:42,480
 stuff. I'm just kidding. These are
 kind of they're not introduced by KRAM,
 
-835
-00:17:42,470 --> 00:17:42,480
-kind of they're not introduced by KRAM,
-
-836
-00:17:42,480 --> 00:17:47,270
+418
+00:17:42,480 --> 00:17:47,280
 kind of they're not introduced by KRAM,
 but having KRAM as a replay attack.
 
-837
-00:17:47,270 --> 00:17:47,280
-but having KRAM as a replay attack.
-
-838
-00:17:47,280 --> 00:17:51,270
+419
+00:17:47,280 --> 00:17:51,280
 but having KRAM as a replay attack.
 Defense introduces other modes of
 
-839
-00:17:51,270 --> 00:17:51,280
-defense introduces other modes of
-
-840
-00:17:51,280 --> 00:17:53,590
+420
+00:17:51,280 --> 00:17:53,600
 defense introduces other modes of
 exploitation. So we have gap replay
 
-841
-00:17:53,590 --> 00:17:53,600
-exploitation. So we have gap replay
-
-842
-00:17:53,600 --> 00:17:57,029
+421
+00:17:53,600 --> 00:17:57,039
 exploitation. So we have gap replay
 attack and gap first play attack.
 
-843
-00:17:57,029 --> 00:17:57,039
-attack and gap first play attack.
-
-844
-00:17:57,039 --> 00:17:58,549
+422
+00:17:57,039 --> 00:17:58,559
 attack and gap first play attack.
 Essentially
 
-845
-00:17:58,549 --> 00:17:58,559
-essentially
-
-846
-00:17:58,559 --> 00:18:00,150
+423
+00:17:58,559 --> 00:18:00,160
 essentially
 I'm actually going to move on to the
 
-847
-00:18:00,150 --> 00:18:00,160
-I'm actually going to move on to the
-
-848
-00:18:00,160 --> 00:18:01,669
+424
+00:18:00,160 --> 00:18:01,679
 I'm actually going to move on to the
 next slide because I have some nice
 
-849
-00:18:01,669 --> 00:18:01,679
-next slide because I have some nice
-
-850
-00:18:01,679 --> 00:18:04,549
+425
+00:18:01,679 --> 00:18:04,559
 next slide because I have some nice
 visuals here for you for a gap replay
 
-851
-00:18:04,549 --> 00:18:04,559
-visuals here for you for a gap replay
-
-852
-00:18:04,559 --> 00:18:07,110
+426
+00:18:04,559 --> 00:18:07,120
 visuals here for you for a gap replay
 attack. Here we have our timeliness
 
-853
-00:18:07,110 --> 00:18:07,120
-attack. Here we have our timeliness
-
-854
-00:18:07,120 --> 00:18:09,590
+427
+00:18:07,120 --> 00:18:09,600
 attack. Here we have our timeliness
 window. We have our message being sent.
 
-855
-00:18:09,590 --> 00:18:09,600
-window. We have our message being sent.
-
-856
-00:18:09,600 --> 00:18:11,750
+428
+00:18:09,600 --> 00:18:11,760
 window. We have our message being sent.
 It's accepted and cached and then the
 
-857
-00:18:11,750 --> 00:18:11,760
-It's accepted and cached and then the
-
-858
-00:18:11,760 --> 00:18:14,070
+429
+00:18:11,760 --> 00:18:14,080
 It's accepted and cached and then the
 message gets pruned. You have an old
 
-859
-00:18:14,070 --> 00:18:14,080
-message gets pruned. You have an old
-
-860
-00:18:14,080 --> 00:18:17,990
+430
+00:18:14,080 --> 00:18:18,000
 message gets pruned. You have an old
 timeliness window right here. And after
 
-861
-00:18:17,990 --> 00:18:18,000
-timeliness window right here. And after
-
-862
-00:18:18,000 --> 00:18:20,310
+431
+00:18:18,000 --> 00:18:20,320
 timeliness window right here. And after
 the message is sent, before it's
 
-863
-00:18:20,310 --> 00:18:20,320
-the message is sent, before it's
-
-864
-00:18:20,320 --> 00:18:22,549
+432
+00:18:20,320 --> 00:18:22,559
 the message is sent, before it's
 accepted, a bad actor is going to go and
 
-865
-00:18:22,549 --> 00:18:22,559
-accepted, a bad actor is going to go and
-
-866
-00:18:22,559 --> 00:18:25,430
+433
+00:18:22,559 --> 00:18:25,440
 accepted, a bad actor is going to go and
 grab that message. Right?
 
-867
-00:18:25,430 --> 00:18:25,440
-grab that message. Right?
-
-868
-00:18:25,440 --> 00:18:28,710
+434
+00:18:25,440 --> 00:18:28,720
 grab that message. Right?
 Next, the timeliness window expires. The
 
-869
-00:18:28,710 --> 00:18:28,720
-Next, the timeliness window expires. The
-
-870
-00:18:28,720 --> 00:18:31,350
+435
+00:18:28,720 --> 00:18:31,360
 Next, the timeliness window expires. The
 message is pruned, but then you as the
 
-871
-00:18:31,350 --> 00:18:31,360
-message is pruned, but then you as the
-
-872
-00:18:31,360 --> 00:18:33,590
+436
+00:18:31,360 --> 00:18:33,600
 message is pruned, but then you as the
 server or the receiver is going to
 
-873
-00:18:33,590 --> 00:18:33,600
-server or the receiver is going to
-
-874
-00:18:33,600 --> 00:18:35,510
+437
+00:18:33,600 --> 00:18:35,520
 server or the receiver is going to
 change your timeliness window and
 
-875
-00:18:35,510 --> 00:18:35,520
-change your timeliness window and
-
-876
-00:18:35,520 --> 00:18:38,549
+438
+00:18:35,520 --> 00:18:38,559
 change your timeliness window and
 increase it. So here after the message
 
-877
-00:18:38,549 --> 00:18:38,559
-increase it. So here after the message
-
-878
-00:18:38,559 --> 00:18:41,750
+439
+00:18:38,559 --> 00:18:41,760
 increase it. So here after the message
 is pruned a bad actor can replay that
 
-879
-00:18:41,750 --> 00:18:41,760
-is pruned a bad actor can replay that
-
-880
-00:18:41,760 --> 00:18:44,230
+440
+00:18:41,760 --> 00:18:44,240
 is pruned a bad actor can replay that
 message in this little vulnerable gap
 
-881
-00:18:44,230 --> 00:18:44,240
-message in this little vulnerable gap
-
-882
-00:18:44,240 --> 00:18:45,830
+441
+00:18:44,240 --> 00:18:45,840
 message in this little vulnerable gap
 right here. We're going to talk about
 
-883
-00:18:45,830 --> 00:18:45,840
-right here. We're going to talk about
-
-884
-00:18:45,840 --> 00:18:48,390
+442
+00:18:45,840 --> 00:18:48,400
 right here. We're going to talk about
 how we solve these with KRAM but these
 
-885
-00:18:48,390 --> 00:18:48,400
-how we solve these with KRAM but these
-
-886
-00:18:48,400 --> 00:18:50,390
+443
+00:18:48,400 --> 00:18:50,400
 how we solve these with KRAM but these
 are complications that are introduced
 
-887
-00:18:50,390 --> 00:18:50,400
-are complications that are introduced
-
-888
-00:18:50,400 --> 00:18:52,070
+444
+00:18:50,400 --> 00:18:52,080
 are complications that are introduced
 that need to be addressed.
 
-889
-00:18:52,070 --> 00:18:52,080
-that need to be addressed.
-
-890
-00:18:52,080 --> 00:18:53,830
+445
+00:18:52,080 --> 00:18:53,840
 that need to be addressed.
 You dynamically change
 
-891
-00:18:53,830 --> 00:18:53,840
-You dynamically change
-
-892
-00:18:53,840 --> 00:18:57,350
+446
+00:18:53,840 --> 00:18:57,360
 You dynamically change
 if you dynamically change windows
 
-893
-00:18:57,350 --> 00:18:57,360
-if you dynamically change windows
-
-894
-00:18:57,360 --> 00:18:59,110
+447
+00:18:57,360 --> 00:18:59,120
 if you dynamically change windows
 yes exactly. So this is when you have a
 
-895
-00:18:59,110 --> 00:18:59,120
-yes exactly. So this is when you have a
-
-896
-00:18:59,120 --> 00:19:01,909
+448
+00:18:59,120 --> 00:19:01,919
 yes exactly. So this is when you have a
 running system and you want to change
 
-897
-00:19:01,909 --> 00:19:01,919
-running system and you want to change
-
-898
-00:19:01,919 --> 00:19:03,510
+449
+00:19:01,919 --> 00:19:03,520
 running system and you want to change
 your timeliness window for a given
 
-899
-00:19:03,510 --> 00:19:03,520
-your timeliness window for a given
-
-900
-00:19:03,520 --> 00:19:07,669
+450
+00:19:03,520 --> 00:19:07,679
 your timeliness window for a given
 message type or other configuration.
 
-901
-00:19:07,669 --> 00:19:07,679
-message type or other configuration.
-
-902
-00:19:07,679 --> 00:19:11,590
+451
+00:19:07,679 --> 00:19:11,600
 message type or other configuration.
 So for a gap
 
-903
-00:19:11,590 --> 00:19:11,600
-So for a gap
-
-904
-00:19:11,600 --> 00:19:14,470
+452
+00:19:11,600 --> 00:19:14,480
 So for a gap
 hold on sorry this one should say gap
 
-905
-00:19:14,470 --> 00:19:14,480
-hold on sorry this one should say gap
-
-906
-00:19:14,480 --> 00:19:16,470
+453
+00:19:14,480 --> 00:19:16,480
 hold on sorry this one should say gap
 first play visual. This is a gap first
 
-907
-00:19:16,470 --> 00:19:16,480
-first play visual. This is a gap first
-
-908
-00:19:16,480 --> 00:19:18,549
+454
+00:19:16,480 --> 00:19:18,559
 first play visual. This is a gap first
 play attack. Basically what happens
 
-909
-00:19:18,549 --> 00:19:18,559
-play attack. Basically what happens
-
-910
-00:19:18,559 --> 00:19:21,110
+455
+00:19:18,559 --> 00:19:21,120
 play attack. Basically what happens
 here is you have a message sent. A bad
 
-911
-00:19:21,110 --> 00:19:21,120
-here is you have a message sent. A bad
-
-912
-00:19:21,120 --> 00:19:22,470
+456
+00:19:21,120 --> 00:19:22,480
 here is you have a message sent. A bad
 actor is going to intercept that
 
-913
-00:19:22,470 --> 00:19:22,480
-actor is going to intercept that
-
-914
-00:19:22,480 --> 00:19:24,870
+457
+00:19:22,480 --> 00:19:24,880
 actor is going to intercept that
 message, but it's going to come through
 
-915
-00:19:24,870 --> 00:19:24,880
-message, but it's going to come through
-
-916
-00:19:24,880 --> 00:19:26,950
+458
+00:19:24,880 --> 00:19:26,960
 message, but it's going to come through
 With the receiver of the message
 
-917
-00:19:26,950 --> 00:19:26,960
-With the receiver of the message
-
-918
-00:19:26,960 --> 00:19:29,190
+459
+00:19:26,960 --> 00:19:29,200
 With the receiver of the message
 never having touched it or looked at it
 
-919
-00:19:29,190 --> 00:19:29,200
-never having touched it or looked at it
-
-920
-00:19:29,200 --> 00:19:31,909
+460
+00:19:29,200 --> 00:19:31,919
 never having touched it or looked at it
 because it comes through after your
 
-921
-00:19:31,909 --> 00:19:31,919
-because it comes through after your
-
-922
-00:19:31,919 --> 00:19:34,070
+461
+00:19:31,919 --> 00:19:34,080
 because it comes through after your
 timeliness window.
 
-923
-00:19:34,070 --> 00:19:34,080
-timeliness window.
-
-924
-00:19:34,080 --> 00:19:35,909
+462
+00:19:34,080 --> 00:19:35,919
 timeliness window.
 Post that. This is a little bit
 
-925
-00:19:35,909 --> 00:19:35,919
-Post that. This is a little bit
-
-926
-00:19:35,919 --> 00:19:38,390
+463
+00:19:35,919 --> 00:19:38,400
 Post that. This is a little bit
 of a confusing time scale, but post that
 
-927
-00:19:38,390 --> 00:19:38,400
-of a confusing time scale, but post that
-
-928
-00:19:38,400 --> 00:19:40,390
+464
+00:19:38,400 --> 00:19:40,400
 of a confusing time scale, but post that
 you're going to increase your timeliness
 
-929
-00:19:40,390 --> 00:19:40,400
-you're going to increase your timeliness
-
-930
-00:19:40,400 --> 00:19:43,190
+465
+00:19:40,400 --> 00:19:43,200
 you're going to increase your timeliness
 window. And then that bad actor who's
 
-931
-00:19:43,190 --> 00:19:43,200
-window. And then that bad actor who's
-
-932
-00:19:43,200 --> 00:19:46,789
+466
+00:19:43,200 --> 00:19:46,799
 window. And then that bad actor who's
 saved that message can first play it
 
-933
-00:19:46,789 --> 00:19:46,799
-saved that message can first play it
-
-934
-00:19:46,799 --> 00:19:49,190
+467
+00:19:46,799 --> 00:19:49,200
 saved that message can first play it
 into your new increased timeliness
 
-935
-00:19:49,190 --> 00:19:49,200
-into your new increased timeliness
-
-936
-00:19:49,200 --> 00:19:51,669
+468
+00:19:49,200 --> 00:19:51,679
 into your new increased timeliness
 window. What's the intuition for why
 
-937
-00:19:51,669 --> 00:19:51,679
-window. What's the intuition for why
-
-938
-00:19:51,679 --> 00:19:54,230
+469
+00:19:51,679 --> 00:19:54,240
 window. What's the intuition for why
 they increase third time in this window?
 
-939
-00:19:54,230 --> 00:19:54,240
-they increase third time in this window?
-
-940
-00:19:54,240 --> 00:19:56,230
+470
+00:19:54,240 --> 00:19:56,240
 they increase third time in this window?
 Could be any number of reasons like
 
-941
-00:19:56,230 --> 00:19:56,240
-Could be any number of reasons like
-
-942
-00:19:56,240 --> 00:19:59,590
+471
+00:19:56,240 --> 00:19:59,600
 Could be any number of reasons like
 let's say you're doing a multi-IG
 
-943
-00:19:59,590 --> 00:19:59,600
-let's say you're doing a multi-IG
-
-944
-00:19:59,600 --> 00:20:02,710
+472
+00:19:59,600 --> 00:20:02,720
 let's say you're doing a multi-IG
 exchange or a mult a multisig and the
 
-945
-00:20:02,710 --> 00:20:02,720
-exchange or a mult a multisig and the
-
-946
-00:20:02,720 --> 00:20:06,070
+473
+00:20:02,720 --> 00:20:06,080
 exchange or a mult a multisig and the
 group participants are not they're
 
-947
-00:20:06,070 --> 00:20:06,080
-group participants are not they're
-
-948
-00:20:06,080 --> 00:20:07,990
+474
+00:20:06,080 --> 00:20:08,000
 group participants are not they're
 they're not getting their signatures in
 
-949
-00:20:07,990 --> 00:20:08,000
-they're not getting their signatures in
-
-950
-00:20:08,000 --> 00:20:09,990
+475
+00:20:08,000 --> 00:20:10,000
 they're not getting their signatures in
 on time for given messages and you say I
 
-951
-00:20:09,990 --> 00:20:10,000
-on time for given messages and you say I
-
-952
-00:20:10,000 --> 00:20:11,029
+476
+00:20:10,000 --> 00:20:11,039
 on time for given messages and you say I
 want to give these people a little bit
 
-953
-00:20:11,029 --> 00:20:11,039
-want to give these people a little bit
-
-954
-00:20:11,039 --> 00:20:13,270
+477
+00:20:11,039 --> 00:20:13,280
 want to give these people a little bit
 more time. You increase the window but
 
-955
-00:20:13,270 --> 00:20:13,280
-more time. You increase the window but
-
-956
-00:20:13,280 --> 00:20:14,789
+478
+00:20:13,280 --> 00:20:14,799
 more time. You increase the window but
 you also open yourself up to this
 
-957
-00:20:14,789 --> 00:20:14,799
-you also open yourself up to this
-
-958
-00:20:14,799 --> 00:20:16,470
+479
+00:20:14,799 --> 00:20:16,480
 you also open yourself up to this
 just on a network with lots of packet
 
-959
-00:20:16,470 --> 00:20:16,480
-just on a network with lots of packet
-
-960
-00:20:16,480 --> 00:20:17,110
+480
+00:20:16,480 --> 00:20:17,120
 just on a network with lots of packet
 loss.
 
-961
-00:20:17,110 --> 00:20:17,120
-loss.
-
-962
-00:20:17,120 --> 00:20:18,789
+481
+00:20:17,120 --> 00:20:18,799
 loss.
 Exactly. the network starts to have
 
-963
-00:20:18,789 --> 00:20:18,799
-Exactly. the network starts to have
-
-964
-00:20:18,799 --> 00:20:22,789
+482
+00:20:18,799 --> 00:20:22,799
 Exactly. the network starts to have
 congestion and now your latency.
 
-965
-00:20:22,789 --> 00:20:22,799
-congestion and now your latency.
-
-966
-00:20:22,799 --> 00:20:26,070
+483
+00:20:22,799 --> 00:20:26,080
 congestion and now your latency.
 So taper could simulate that using the
 
-967
-00:20:26,070 --> 00:20:26,080
-So taper could simulate that using the
-
-968
-00:20:26,080 --> 00:20:28,470
+484
+00:20:26,080 --> 00:20:28,480
 So taper could simulate that using the
 denial somewhere in the network
 
-969
-00:20:28,470 --> 00:20:28,480
-denial somewhere in the network
-
-970
-00:20:28,480 --> 00:20:31,029
+485
+00:20:28,480 --> 00:20:31,039
 denial somewhere in the network
 and then and then and then it into the
 
-971
-00:20:31,029 --> 00:20:31,039
-and then and then and then it into the
-
-972
-00:20:31,039 --> 00:20:32,230
+486
+00:20:31,039 --> 00:20:32,240
 and then and then and then it into the
 window. Okay.
 
-973
-00:20:32,230 --> 00:20:32,240
-window. Okay.
-
-974
-00:20:32,240 --> 00:20:34,950
+487
+00:20:32,240 --> 00:20:34,960
 window. Okay.
 Yes, that's so another to reiterate
 
-975
-00:20:34,950 --> 00:20:34,960
-Yes, that's so another to reiterate
-
-976
-00:20:34,960 --> 00:20:36,950
+488
+00:20:34,960 --> 00:20:36,960
 Yes, that's so another to reiterate
 another reason that you could
 
-977
-00:20:36,950 --> 00:20:36,960
-another reason that you could
-
-978
-00:20:36,960 --> 00:20:38,149
+489
+00:20:36,960 --> 00:20:38,159
 another reason that you could
 encounter this or that you could
 
-979
-00:20:38,149 --> 00:20:38,159
-encounter this or that you could
-
-980
-00:20:38,159 --> 00:20:39,270
+490
+00:20:38,159 --> 00:20:39,280
 encounter this or that you could
 encounter needing to change your
 
-981
-00:20:39,270 --> 00:20:39,280
-encounter needing to change your
-
-982
-00:20:39,280 --> 00:20:41,110
+491
+00:20:39,280 --> 00:20:41,120
 encounter needing to change your
 timeliness window is if you have a lot
 
-983
-00:20:41,110 --> 00:20:41,120
-timeliness window is if you have a lot
-
-984
-00:20:41,120 --> 00:20:43,270
+492
+00:20:41,120 --> 00:20:43,280
 timeliness window is if you have a lot
 of network latency. Perhaps an
 
-985
-00:20:43,270 --> 00:20:43,280
-of network latency. Perhaps an
-
-986
-00:20:43,280 --> 00:20:45,110
+493
+00:20:43,280 --> 00:20:45,120
 of network latency. Perhaps an
 attacker is dosing you or maybe you're
 
-987
-00:20:45,110 --> 00:20:45,120
-attacker is dosing you or maybe you're
-
-988
-00:20:45,120 --> 00:20:47,669
+494
+00:20:45,120 --> 00:20:47,679
 attacker is dosing you or maybe you're
 just scaling up and you realize that you
 
-989
-00:20:47,669 --> 00:20:47,679
-just scaling up and you realize that you
-
-990
-00:20:47,679 --> 00:20:49,909
+495
+00:20:47,679 --> 00:20:49,919
 just scaling up and you realize that you
 need more time to process. So
 
-991
-00:20:49,909 --> 00:20:49,919
-need more time to process. So
-
-992
-00:20:49,919 --> 00:20:51,350
+496
+00:20:49,919 --> 00:20:51,360
 need more time to process. So
 anyways, now we're going to talk about
 
-993
-00:20:51,350 --> 00:20:51,360
-anyways, now we're going to talk about
-
-994
-00:20:51,360 --> 00:20:56,390
+497
+00:20:51,360 --> 00:20:56,400
 anyways, now we're going to talk about
 how we address these. So
 
-995
-00:20:56,390 --> 00:20:56,400
-how we address these. So
-
-996
-00:20:56,400 --> 00:21:00,789
+498
+00:20:56,400 --> 00:21:00,799
 how we address these. So
 oh now this is the right slide. We
 
-997
-00:21:00,789 --> 00:21:00,799
-oh now this is the right slide. We
-
-998
-00:21:00,799 --> 00:21:02,789
+499
+00:21:00,799 --> 00:21:02,799
 oh now this is the right slide. We
 have three cases.
 
-999
-00:21:02,789 --> 00:21:02,799
-have three cases.
-
-1000
-00:21:02,799 --> 00:21:04,710
+500
+00:21:02,799 --> 00:21:04,720
 have three cases.
 If you're decreasing a window size,
 
-1001
-00:21:04,710 --> 00:21:04,720
-If you're decreasing a window size,
-
-1002
-00:21:04,720 --> 00:21:06,230
+501
+00:21:04,720 --> 00:21:06,240
 If you're decreasing a window size,
 that's safe and you can apply that
 
-1003
-00:21:06,230 --> 00:21:06,240
-that's safe and you can apply that
-
-1004
-00:21:06,240 --> 00:21:08,149
+502
+00:21:06,240 --> 00:21:08,159
 that's safe and you can apply that
 immediately. If you're increasing a
 
-1005
-00:21:08,149 --> 00:21:08,159
-immediately. If you're increasing a
-
-1006
-00:21:08,159 --> 00:21:10,230
+503
+00:21:08,159 --> 00:21:10,240
 immediately. If you're increasing a
 window size, you need a two-step
 
-1007
-00:21:10,230 --> 00:21:10,240
-window size, you need a two-step
-
-1008
-00:21:10,240 --> 00:21:14,230
+504
+00:21:10,240 --> 00:21:14,240
 window size, you need a two-step
 process. And if you're changing
 
-1009
-00:21:14,230 --> 00:21:14,240
-process. And if you're changing
-
-1010
-00:21:14,240 --> 00:21:16,230
+505
+00:21:14,240 --> 00:21:16,240
 process. And if you're changing
 cache type granularity, I'll talk a
 
-1011
-00:21:16,230 --> 00:21:16,240
-cache type granularity, I'll talk a
-
-1012
-00:21:16,240 --> 00:21:18,070
+506
+00:21:16,240 --> 00:21:18,080
 cache type granularity, I'll talk a
 little bit about configuring cache types
 
-1013
-00:21:18,070 --> 00:21:18,080
-little bit about configuring cache types
-
-1014
-00:21:18,080 --> 00:21:20,070
+507
+00:21:18,080 --> 00:21:20,080
 little bit about configuring cache types
 in the later slides. That's more complex
 
-1015
-00:21:20,070 --> 00:21:20,080
-in the later slides. That's more complex
-
-1016
-00:21:20,080 --> 00:21:22,390
+508
+00:21:20,080 --> 00:21:22,400
 in the later slides. That's more complex
 and would require a worst case analysis,
 
-1017
-00:21:22,390 --> 00:21:22,400
-and would require a worst case analysis,
-
-1018
-00:21:22,400 --> 00:21:24,070
+509
+00:21:22,400 --> 00:21:24,080
 and would require a worst case analysis,
 but that's a little bit out of scope for
 
-1019
-00:21:24,070 --> 00:21:24,080
-but that's a little bit out of scope for
-
-1020
-00:21:24,080 --> 00:21:27,190
+510
+00:21:24,080 --> 00:21:27,200
 but that's a little bit out of scope for
 this. Anyways, the two-step
 
-1021
-00:21:27,190 --> 00:21:27,200
-this. Anyways, the two-step
-
-1022
-00:21:27,200 --> 00:21:29,909
+511
+00:21:27,200 --> 00:21:29,919
 this. Anyways, the two-step
 processes for increasing it is you're
 
-1023
-00:21:29,909 --> 00:21:29,919
-processes for increasing it is you're
-
-1024
-00:21:29,919 --> 00:21:32,310
+512
+00:21:29,919 --> 00:21:32,320
 processes for increasing it is you're
 essentially going to want to have a
 
-1025
-00:21:32,310 --> 00:21:32,320
-essentially going to want to have a
-
-1026
-00:21:32,320 --> 00:21:35,350
+513
+00:21:32,320 --> 00:21:35,360
 essentially going to want to have a
 prune lag wherein
 
-1027
-00:21:35,350 --> 00:21:35,360
-prune lag wherein
-
-1028
-00:21:35,360 --> 00:21:37,990
+514
+00:21:35,360 --> 00:21:38,000
 prune lag wherein
 when you do an increase, you have an
 
-1029
-00:21:37,990 --> 00:21:38,000
-when you do an increase, you have an
-
-1030
-00:21:38,000 --> 00:21:40,710
+515
+00:21:38,000 --> 00:21:40,720
 when you do an increase, you have an
 extra lag where you're not pruning
 
-1031
-00:21:40,710 --> 00:21:40,720
-extra lag where you're not pruning
-
-1032
-00:21:40,720 --> 00:21:43,029
+516
+00:21:40,720 --> 00:21:43,039
 extra lag where you're not pruning
 windows until you've exceeded the time
 
-1033
-00:21:43,029 --> 00:21:43,039
-windows until you've exceeded the time
-
-1034
-00:21:43,039 --> 00:21:45,190
+517
+00:21:43,039 --> 00:21:45,200
 windows until you've exceeded the time
 delta between your old timeliness window
 
-1035
-00:21:45,190 --> 00:21:45,200
-delta between your old timeliness window
-
-1036
-00:21:45,200 --> 00:21:47,350
+518
+00:21:45,200 --> 00:21:47,360
 delta between your old timeliness window
 and the new increased timeliness window.
 
-1037
-00:21:47,350 --> 00:21:47,360
-and the new increased timeliness window.
-
-1038
-00:21:47,360 --> 00:21:49,830
+519
+00:21:47,360 --> 00:21:49,840
 and the new increased timeliness window.
 And that actually covers both gap replay
 
-1039
-00:21:49,830 --> 00:21:49,840
-And that actually covers both gap replay
-
-1040
+520
 00:21:49,840 --> 00:21:54,870
 And that actually covers both gap replay
 attacks and gap first play attacks.
 
-1041
-00:21:58,230 --> 00:21:58,240
-Let's see here.
-
-1042
-00:21:58,240 --> 00:22:00,470
+521
+00:21:58,230 --> 00:22:00,480
 Let's see here.
 Then we have a little bit about the
 
-1043
-00:22:00,470 --> 00:22:00,480
-Then we have a little bit about the
-
-1044
-00:22:00,480 --> 00:22:02,149
+522
+00:22:00,480 --> 00:22:02,159
 Then we have a little bit about the
 configuration
 
-1045
-00:22:02,149 --> 00:22:02,159
-configuration
-
-1046
-00:22:02,159 --> 00:22:05,190
+523
+00:22:02,159 --> 00:22:05,200
 configuration
 wherein this is designed for
 
-1047
-00:22:05,190 --> 00:22:05,200
-wherein this is designed for
-
-1048
-00:22:05,200 --> 00:22:08,230
+524
+00:22:05,200 --> 00:22:08,240
 wherein this is designed for
 incremental adoption. So not every
 
-1049
-00:22:08,230 --> 00:22:08,240
-incremental adoption. So not every
-
-1050
-00:22:08,240 --> 00:22:09,590
+525
+00:22:08,240 --> 00:22:09,600
 incremental adoption. So not every
 deployment is going to be able to run
 
-1051
-00:22:09,590 --> 00:22:09,600
-deployment is going to be able to run
-
-1052
-00:22:09,600 --> 00:22:11,990
+526
+00:22:09,600 --> 00:22:12,000
 deployment is going to be able to run
 KRAM for all messages types overnight
 
-1053
-00:22:11,990 --> 00:22:12,000
-KRAM for all messages types overnight
-
-1054
-00:22:12,000 --> 00:22:14,310
+527
+00:22:12,000 --> 00:22:14,320
 KRAM for all messages types overnight
 and the configuration system sort of
 
-1055
-00:22:14,310 --> 00:22:14,320
-and the configuration system sort of
-
-1056
-00:22:14,320 --> 00:22:16,710
+528
+00:22:14,320 --> 00:22:16,720
 and the configuration system sort of
 reflects this. So we have up here the
 
-1057
-00:22:16,710 --> 00:22:16,720
-reflects this. So we have up here the
-
-1058
-00:22:16,720 --> 00:22:19,110
+529
+00:22:16,720 --> 00:22:19,120
 reflects this. So we have up here the
 enabled true which just means your KRAM
 
-1059
-00:22:19,110 --> 00:22:19,120
-enabled true which just means your KRAM
-
-1060
-00:22:19,120 --> 00:22:22,470
+530
+00:22:19,120 --> 00:22:22,480
 enabled true which just means your KRAM
 is on. Then you have denials and
 
-1061
-00:22:22,470 --> 00:22:22,480
-is on. Then you have denials and
-
-1062
-00:22:22,480 --> 00:22:26,870
+531
+00:22:22,480 --> 00:22:26,880
 is on. Then you have denials and
 these are each keyed to KERI
 
-1063
-00:22:26,870 --> 00:22:26,880
-these are each keyed to KERI
-
-1064
-00:22:26,880 --> 00:22:30,230
+532
+00:22:26,880 --> 00:22:30,240
 these are each keyed to KERI
 version. So we have version one and
 
-1065
-00:22:30,230 --> 00:22:30,240
-version. So we have version one and
-
-1066
-00:22:30,240 --> 00:22:33,750
+533
+00:22:30,240 --> 00:22:33,760
 version. So we have version one and
 version two right here. And these are
 
-1067
-00:22:33,750 --> 00:22:33,760
-version two right here. And these are
-
-1068
-00:22:33,760 --> 00:22:36,710
+534
+00:22:33,760 --> 00:22:36,720
 version two right here. And these are
 going to be message types. And these are
 
-1069
-00:22:36,710 --> 00:22:36,720
-going to be message types. And these are
-
-1070
-00:22:36,720 --> 00:22:40,149
+535
+00:22:36,720 --> 00:22:40,159
 going to be message types. And these are
 going to be
 
-1071
-00:22:40,149 --> 00:22:40,159
-going to be
-
-1072
-00:22:40,159 --> 00:22:44,710
+536
+00:22:40,159 --> 00:22:44,720
 going to be
 these are going to be thinking on the
 
-1073
-00:22:44,710 --> 00:22:44,720
-these are going to be thinking on the
-
-1074
+537
 00:22:44,720 --> 00:22:50,149
 these are going to be thinking on the
 word for it
 
-1075
-00:22:53,990 --> 00:22:54,000
-route. Yeah, sorry.
-
-1076
-00:22:54,000 --> 00:22:56,390
+538
+00:22:53,990 --> 00:22:56,400
 route. Yeah, sorry.
 And the denial systems supports wild
 
-1077
-00:22:56,390 --> 00:22:56,400
-and the denial systems supports wild
-
-1078
-00:22:56,400 --> 00:22:59,110
+539
+00:22:56,400 --> 00:22:59,120
 and the denial systems supports wild
 carding through empty fields. So these
 
-1079
-00:22:59,110 --> 00:22:59,120
-carding through empty fields. So these
-
-1080
-00:22:59,120 --> 00:23:01,830
+540
+00:22:59,120 --> 00:23:01,840
 carding through empty fields. So these
 one comma zero KERI version one wild
 
-1081
-00:23:01,830 --> 00:23:01,840
-one comma zero KERI version one wild
-
-1082
-00:23:01,840 --> 00:23:03,430
+541
+00:23:01,840 --> 00:23:03,440
 one comma zero KERI version one wild
 card wild card just means we're going to
 
-1083
-00:23:03,430 --> 00:23:03,440
-card wild card just means we're going to
-
-1084
-00:23:03,440 --> 00:23:07,909
+542
+00:23:03,440 --> 00:23:07,919
 card wild card just means we're going to
 deny all KERI v1 messages for KRAM
 
-1085
-00:23:07,909 --> 00:23:07,919
-deny all KERI v1 messages for KRAM
-
-1086
-00:23:07,919 --> 00:23:12,710
+543
+00:23:07,919 --> 00:23:12,720
 deny all KERI v1 messages for KRAM
 or well we're not going to use KRAM on
 
-1087
-00:23:12,710 --> 00:23:12,720
-or well we're not going to use KRAM on
-
-1088
-00:23:12,720 --> 00:23:15,510
+544
+00:23:12,720 --> 00:23:15,520
 or well we're not going to use KRAM on
 KERI v1 messages right and for these
 
-1089
-00:23:15,510 --> 00:23:15,520
-KERI v1 messages right and for these
-
-1090
-00:23:15,520 --> 00:23:17,190
+545
+00:23:15,520 --> 00:23:17,200
 KERI v1 messages right and for these
 it's we're not going to use KRAM on
 
-1091
-00:23:17,190 --> 00:23:17,200
-it's we're not going to use KRAM on
-
-1092
-00:23:17,200 --> 00:23:20,549
+546
+00:23:17,200 --> 00:23:20,559
 it's we're not going to use KRAM on
 KERI v2 messages with a pro message
 
-1093
-00:23:20,549 --> 00:23:20,559
-KERI v2 messages with a pro message
-
-1094
-00:23:20,559 --> 00:23:23,430
+547
+00:23:20,559 --> 00:23:23,440
 KERI v2 messages with a pro message
 type and then any route and for the
 
-1095
-00:23:23,430 --> 00:23:23,440
-type and then any route and for the
-
-1096
-00:23:23,440 --> 00:23:25,830
+548
+00:23:23,440 --> 00:23:25,840
 type and then any route and for the
 third one we're not going to be using or
 
-1097
-00:23:25,830 --> 00:23:25,840
-third one we're not going to be using or
-
-1098
-00:23:25,840 --> 00:23:27,029
+549
+00:23:25,840 --> 00:23:27,039
 third one we're not going to be using or
 we're not going to use we're not going
 
-1099
-00:23:27,029 --> 00:23:27,039
-we're not going to use we're not going
-
-1100
-00:23:27,039 --> 00:23:30,789
+550
+00:23:27,039 --> 00:23:30,799
 we're not going to use we're not going
 to feed messages through KRAM for KERI
 
-1101
-00:23:30,789 --> 00:23:30,799
-to feed messages through KRAM for KERI
-
-1102
-00:23:30,799 --> 00:23:33,270
+551
+00:23:30,799 --> 00:23:33,280
 to feed messages through KRAM for KERI
 version two reply messages with a
 
-1103
-00:23:33,270 --> 00:23:33,280
-version two reply messages with a
-
-1104
-00:23:33,280 --> 00:23:36,870
+552
+00:23:33,280 --> 00:23:36,880
 version two reply messages with a
 slashend route.
 
-1105
-00:23:36,870 --> 00:23:36,880
-slashend route.
-
-1106
-00:23:36,880 --> 00:23:39,669
+553
+00:23:36,880 --> 00:23:39,679
 slashend route.
 And the denial logic is applied at the
 
-1107
-00:23:39,669 --> 00:23:39,679
-And the denial logic is applied at the
-
-1108
-00:23:39,679 --> 00:23:42,710
+554
+00:23:39,679 --> 00:23:42,720
 And the denial logic is applied at the
 top before we even get into any of the
 
-1109
-00:23:42,710 --> 00:23:42,720
-top before we even get into any of the
-
-1110
-00:23:42,720 --> 00:23:45,270
+555
+00:23:42,720 --> 00:23:45,280
 top before we even get into any of the
 Message processing stuff that we
 
-1111
-00:23:45,270 --> 00:23:45,280
-Message processing stuff that we
-
-1112
-00:23:45,280 --> 00:23:48,390
+556
+00:23:45,280 --> 00:23:48,400
 Message processing stuff that we
 discussed earlier.
 
-1113
-00:23:48,390 --> 00:23:48,400
-discussed earlier.
-
-1114
-00:23:48,400 --> 00:23:51,590
+557
+00:23:48,400 --> 00:23:51,600
 discussed earlier.
 That is pretty much all I have. Well, I
 
-1115
-00:23:51,590 --> 00:23:51,600
-That is pretty much all I have. Well, I
-
-1116
-00:23:51,600 --> 00:23:54,149
+558
+00:23:51,600 --> 00:23:54,159
 That is pretty much all I have. Well, I
 was also gonna say
 
-1117
-00:23:54,149 --> 00:23:54,159
-was also gonna say
-
-1118
+559
 00:23:54,159 --> 00:23:57,990
 was also gonna say
 that
 
-1119
-00:23:59,830 --> 00:23:59,840
-a lot of people worked on this. Sam
-
-1120
-00:23:59,840 --> 00:24:01,510
+560
+00:23:59,830 --> 00:24:01,520
 a lot of people worked on this. Sam
 wrote the white paper. Several other
 
-1121
-00:24:01,510 --> 00:24:01,520
-wrote the white paper. Several other
-
-1122
-00:24:01,520 --> 00:24:02,710
+561
+00:24:01,520 --> 00:24:02,720
 wrote the white paper. Several other
 people from the KERI Foundation have
 
-1123
-00:24:02,710 --> 00:24:02,720
-people from the KERI Foundation have
-
-1124
-00:24:02,720 --> 00:24:03,990
+562
+00:24:02,720 --> 00:24:04,000
 people from the KERI Foundation have
 put a lot of effort into getting the
 
-1125
-00:24:03,990 --> 00:24:04,000
-put a lot of effort into getting the
-
-1126
-00:24:04,000 --> 00:24:05,990
+563
+00:24:04,000 --> 00:24:06,000
 put a lot of effort into getting the
 implementation to where it's at now. And
 
-1127
-00:24:05,990 --> 00:24:06,000
-implementation to where it's at now. And
-
-1128
-00:24:06,000 --> 00:24:07,750
+564
+00:24:06,000 --> 00:24:07,760
 implementation to where it's at now. And
 I know that many other people are going
 
-1129
-00:24:07,750 --> 00:24:07,760
-I know that many other people are going
-
-1130
-00:24:07,760 --> 00:24:10,149
+565
+00:24:07,760 --> 00:24:10,159
 I know that many other people are going
 to work on it before it's complete. So,
 
-1131
-00:24:10,149 --> 00:24:10,159
-to work on it before it's complete. So,
-
-1132
+566
 00:24:10,159 --> 00:24:15,750
 to work on it before it's complete. So,
 I give them a round of applause.
 
-1133
-00:24:18,870 --> 00:24:18,880
-Does anyone have any other questions?
-
-1134
-00:24:18,880 --> 00:24:23,269
+567
+00:24:18,870 --> 00:24:23,269
 Does anyone have any other questions?
 I run a little short.
 
-1135
-00:24:24,149 --> 00:24:24,159
-Yes.
-
-1136
-00:24:24,159 --> 00:24:26,310
+568
+00:24:24,149 --> 00:24:26,320
 Yes.
 Where do you see this being put into
 
-1137
-00:24:26,310 --> 00:24:26,320
-Where do you see this being put into
-
-1138
-00:24:26,320 --> 00:24:29,269
+569
+00:24:26,320 --> 00:24:29,279
 Where do you see this being put into
 application within I mean let's just say
 
-1139
-00:24:29,269 --> 00:24:29,279
-application within I mean let's just say
-
-1140
-00:24:29,279 --> 00:24:31,590
+570
+00:24:29,279 --> 00:24:31,600
 application within I mean let's just say
 the healthcare
 
-1141
-00:24:31,590 --> 00:24:31,600
-the healthcare
-
-1142
-00:24:31,600 --> 00:24:32,870
+571
+00:24:31,600 --> 00:24:32,880
 the healthcare
 platform.
 
-1143
-00:24:32,870 --> 00:24:32,880
-platform.
-
-1144
-00:24:32,880 --> 00:24:37,669
+572
+00:24:32,880 --> 00:24:37,679
 platform.
 So this is going to be like for say
 
-1145
-00:24:37,669 --> 00:24:37,679
-So this is going to be like for say
-
-1146
-00:24:37,679 --> 00:24:39,029
+573
+00:24:37,679 --> 00:24:39,039
 So this is going to be like for say
 for example for our account
 
-1147
-00:24:39,029 --> 00:24:39,039
-for example for our account
-
-1148
-00:24:39,039 --> 00:24:41,350
+574
+00:24:39,039 --> 00:24:41,360
 for example for our account
 communications with ESSR they could use
 
-1149
-00:24:41,350 --> 00:24:41,360
-communications with ESSR they could use
-
-1150
-00:24:41,360 --> 00:24:45,590
+575
+00:24:41,360 --> 00:24:45,600
 communications with ESSR they could use
 this for any credential
 
-1151
-00:24:45,590 --> 00:24:45,600
-this for any credential
-
-1152
-00:24:45,600 --> 00:24:47,909
+576
+00:24:45,600 --> 00:24:47,919
 this for any credential
 presentations they could use this right.
 
-1153
-00:24:47,909 --> 00:24:47,919
-presentations they could use this right.
-
-1154
-00:24:47,919 --> 00:24:50,230
+577
+00:24:47,919 --> 00:24:50,240
 presentations they could use this right.
 So, we were talking a little or we
 
-1155
-00:24:50,230 --> 00:24:50,240
-So, we were talking a little or we
-
-1156
-00:24:50,240 --> 00:24:53,029
+578
+00:24:50,240 --> 00:24:53,039
 So, we were talking a little or we
 haven't talked about this yet, but
 
-1157
-00:24:53,029 --> 00:24:53,039
-haven't talked about this yet, but
-
-1158
-00:24:53,039 --> 00:24:54,390
+579
+00:24:53,039 --> 00:24:54,400
 haven't talked about this yet, but
 actually I'm going to abstain because
 
-1159
-00:24:54,390 --> 00:24:54,400
-actually I'm going to abstain because
-
-1160
-00:24:54,400 --> 00:24:55,510
+580
+00:24:54,400 --> 00:24:55,520
 actually I'm going to abstain because
 I'm not sure if I'm supposed to say that
 
-1161
-00:24:55,510 --> 00:24:55,520
-I'm not sure if I'm supposed to say that
-
-1162
-00:24:55,520 --> 00:24:58,310
+581
+00:24:55,520 --> 00:24:58,320
 I'm not sure if I'm supposed to say that
 yet, but those two use cases are
 
-1163
-00:24:58,310 --> 00:24:58,320
-yet, but those two use cases are
-
-1164
-00:24:58,320 --> 00:25:00,549
+582
+00:24:58,320 --> 00:25:00,559
 yet, but those two use cases are
 pretty relevant to us as a healthcare.
 
-1165
-00:25:00,549 --> 00:25:00,559
-pretty relevant to us as a healthcare.
-
-1166
+583
 00:25:00,559 --> 00:25:05,990
 pretty relevant to us as a healthcare.
 Absolutely.
 
-1167
-00:25:13,190 --> 00:25:13,200
-Yeah. Anywhere we're accepting messages.
-
-1168
-00:25:13,200 --> 00:25:14,230
+584
+00:25:13,190 --> 00:25:14,240
 Yeah. Anywhere we're accepting messages.
 Yes.
 
-1169
-00:25:14,230 --> 00:25:14,240
-Yes.
-
-1170
-00:25:14,240 --> 00:25:16,630
+585
+00:25:14,240 --> 00:25:16,640
 Yes.
 In particular, all the messages are
 
-1171
-00:25:16,630 --> 00:25:16,640
-In particular, all the messages are
-
-1172
-00:25:16,640 --> 00:25:17,269
+586
+00:25:16,640 --> 00:25:17,279
 In particular, all the messages are
 messages.
 
-1173
-00:25:17,269 --> 00:25:17,279
-messages.
-
-1174
-00:25:17,279 --> 00:25:20,710
+587
+00:25:17,279 --> 00:25:20,720
 messages.
 Yes. So, IPEX EXN messages all covered
 
-1175
-00:25:20,710 --> 00:25:20,720
-Yes. So, IPEX EXN messages all covered
-
-1176
-00:25:20,720 --> 00:25:23,190
+588
+00:25:20,720 --> 00:25:23,200
 Yes. So, IPEX EXN messages all covered
 by KRAM.
 
-1177
-00:25:23,190 --> 00:25:23,200
-by KRAM.
-
-1178
-00:25:23,200 --> 00:25:23,510
+589
+00:25:23,200 --> 00:25:23,520
 by KRAM.
 Yes.
 
-1179
-00:25:23,510 --> 00:25:23,520
-Yes.
-
-1180
-00:25:23,520 --> 00:25:25,190
+590
+00:25:23,520 --> 00:25:25,200
 Yes.
 I just want to understand the problem a
 
-1181
-00:25:25,190 --> 00:25:25,200
-I just want to understand the problem a
-
-1182
-00:25:25,200 --> 00:25:26,710
+591
+00:25:25,200 --> 00:25:26,720
 I just want to understand the problem a
 little bit better of why we need to keep
 
-1183
-00:25:26,710 --> 00:25:26,720
-little bit better of why we need to keep
-
-1184
-00:25:26,720 --> 00:25:29,110
+592
+00:25:26,720 --> 00:25:29,120
 little bit better of why we need to keep
 this just I think that's what he had
 
-1185
-00:25:29,110 --> 00:25:29,120
-this just I think that's what he had
-
-1186
-00:25:29,120 --> 00:25:29,510
+593
+00:25:29,120 --> 00:25:29,520
 this just I think that's what he had
 asked.
 
-1187
-00:25:29,510 --> 00:25:29,520
-asked.
-
-1188
-00:25:29,520 --> 00:25:29,990
+594
+00:25:29,520 --> 00:25:30,000
 asked.
 Oh, sure.
 
-1189
-00:25:29,990 --> 00:25:30,000
-Oh, sure.
-
-1190
-00:25:30,000 --> 00:25:32,630
+595
+00:25:30,000 --> 00:25:32,640
 Oh, sure.
 I understand it replaces the knots, but
 
-1191
-00:25:32,630 --> 00:25:32,640
-I understand it replaces the knots, but
-
-1192
-00:25:32,640 --> 00:25:36,630
+596
+00:25:32,640 --> 00:25:36,640
 I understand it replaces the knots, but
 why is that beneficial? Like what?
 
-1193
-00:25:36,630 --> 00:25:36,640
-why is that beneficial? Like what?
-
-1194
-00:25:36,640 --> 00:25:37,190
+597
+00:25:36,640 --> 00:25:37,200
 why is that beneficial? Like what?
 What?
 
-1195
-00:25:37,190 --> 00:25:37,200
-What?
-
-1196
-00:25:37,200 --> 00:25:39,990
+598
+00:25:37,200 --> 00:25:40,000
 What?
 Yeah. Just so if you have a non I
 
-1197
-00:25:39,990 --> 00:25:40,000
-Yeah. Just so if you have a non I
-
-1198
-00:25:40,000 --> 00:25:41,510
+599
+00:25:40,000 --> 00:25:41,520
 Yeah. Just so if you have a non I
 assume it's kind of like a temporary
 
-1199
-00:25:41,510 --> 00:25:41,520
-assume it's kind of like a temporary
-
-1200
-00:25:41,520 --> 00:25:42,390
+600
+00:25:41,520 --> 00:25:42,400
 assume it's kind of like a temporary
 token.
 
-1201
-00:25:42,390 --> 00:25:42,400
-token.
-
-1202
-00:25:42,400 --> 00:25:42,789
+601
+00:25:42,400 --> 00:25:42,799
 token.
 Yes,
 
-1203
-00:25:42,789 --> 00:25:42,799
-Yes,
-
-1204
-00:25:42,799 --> 00:25:44,390
+602
+00:25:42,799 --> 00:25:44,400
 Yes,
 that's what I've used in the past. that
 
-1205
-00:25:44,390 --> 00:25:44,400
-that's what I've used in the past. that
-
-1206
-00:25:44,400 --> 00:25:47,350
+603
+00:25:44,400 --> 00:25:47,360
 that's what I've used in the past. that
 then it would increase the database size
 
-1207
-00:25:47,350 --> 00:25:47,360
-then it would increase the database size
-
-1208
-00:25:47,360 --> 00:25:50,149
+604
+00:25:47,360 --> 00:25:50,159
 then it would increase the database size
 or maybe you have to have
 
-1209
-00:25:50,149 --> 00:25:50,159
-or maybe you have to have
-
-1210
-00:25:50,159 --> 00:25:51,669
+605
+00:25:50,159 --> 00:25:51,679
 or maybe you have to have
 connectivity back to I'm trying to
 
-1211
-00:25:51,669 --> 00:25:51,679
-connectivity back to I'm trying to
-
-1212
-00:25:51,679 --> 00:25:54,630
+606
+00:25:51,679 --> 00:25:54,640
 connectivity back to I'm trying to
 figure out why.
 
-1213
-00:25:54,630 --> 00:25:54,640
-figure out why.
-
-1214
-00:25:54,640 --> 00:25:58,070
+607
+00:25:54,640 --> 00:25:58,080
 figure out why.
 It's like an elegant way of solving
 
-1215
-00:25:58,070 --> 00:25:58,080
-it's like an elegant way of solving
-
-1216
-00:25:58,080 --> 00:26:01,110
+608
+00:25:58,080 --> 00:26:01,120
 it's like an elegant way of solving
 replay attacks without attaching nonses
 
-1217
-00:26:01,110 --> 00:26:01,120
-replay attacks without attaching nonses
-
-1218
-00:26:01,120 --> 00:26:03,590
+609
+00:26:01,120 --> 00:26:03,600
 replay attacks without attaching nonses
 to every message because the time itself
 
-1219
-00:26:03,590 --> 00:26:03,600
-to every message because the time itself
-
-1220
-00:26:03,600 --> 00:26:06,710
+610
+00:26:03,600 --> 00:26:06,720
 to every message because the time itself
 functions as the nonce
 
-1221
-00:26:06,710 --> 00:26:06,720
-functions as the nonce
-
-1222
-00:26:06,720 --> 00:26:08,310
+611
+00:26:06,720 --> 00:26:08,320
 functions as the nonce
 like the time attached to the message.
 
-1223
-00:26:08,310 --> 00:26:08,320
-like the time attached to the message.
-
-1224
-00:26:08,320 --> 00:26:10,070
+612
+00:26:08,320 --> 00:26:10,080
 like the time attached to the message.
 It's not you know it's not that we don't
 
-1225
-00:26:10,070 --> 00:26:10,080
-It's not you know it's not that we don't
-
-1226
-00:26:10,080 --> 00:26:11,990
+613
+00:26:10,080 --> 00:26:12,000
 It's not you know it's not that we don't
 have a non the time is the non right
 
-1227
-00:26:11,990 --> 00:26:12,000
-have a non the time is the non right
-
-1228
-00:26:12,000 --> 00:26:13,110
+614
+00:26:12,000 --> 00:26:13,120
 have a non the time is the non right
 and with the knots you're talking about
 
-1229
-00:26:13,110 --> 00:26:13,120
-and with the knots you're talking about
-
-1230
-00:26:13,120 --> 00:26:16,710
+615
+00:26:13,120 --> 00:26:16,720
 and with the knots you're talking about
 interactive authentification right
 
-1231
-00:26:16,710 --> 00:26:16,720
-interactive authentification right
-
-1232
-00:26:16,720 --> 00:26:17,990
+616
+00:26:16,720 --> 00:26:18,000
 interactive authentification right
 this is fully not interactive
 
-1233
-00:26:17,990 --> 00:26:18,000
-this is fully not interactive
-
-1234
-00:26:18,000 --> 00:26:20,470
+617
+00:26:18,000 --> 00:26:20,480
 this is fully not interactive
 so if you think about think about
 
-1235
-00:26:20,470 --> 00:26:20,480
-so if you think about think about
-
-1236
-00:26:20,480 --> 00:26:25,750
+618
+00:26:20,480 --> 00:26:25,760
 so if you think about think about
 network latency we're doing at scale
 
-1237
-00:26:25,750 --> 00:26:25,760
-network latency we're doing at scale
-
-1238
-00:26:25,760 --> 00:26:27,590
+619
+00:26:25,760 --> 00:26:27,600
 network latency we're doing at scale
 requests
 
-1239
-00:26:27,590 --> 00:26:27,600
-requests
-
-1240
-00:26:27,600 --> 00:26:29,990
+620
+00:26:27,600 --> 00:26:30,000
 requests
 every request
 
-1241
-00:26:29,990 --> 00:26:30,000
-every request
-
-1242
-00:26:30,000 --> 00:26:32,230
+621
+00:26:30,000 --> 00:26:32,240
 every request
 has to create a TCP connection because
 
-1243
-00:26:32,230 --> 00:26:32,240
-has to create a TCP connection because
-
-1244
-00:26:32,240 --> 00:26:35,110
+622
+00:26:32,240 --> 00:26:35,120
 has to create a TCP connection because
 has to be it has to be a secure channel
 
-1245
-00:26:35,110 --> 00:26:35,120
-has to be it has to be a secure channel
-
-1246
-00:26:35,120 --> 00:26:37,750
+623
+00:26:35,120 --> 00:26:37,760
 has to be it has to be a secure channel
 otherwise you can't can't control it so
 
-1247
-00:26:37,750 --> 00:26:37,760
-otherwise you can't can't control it so
-
-1248
-00:26:37,760 --> 00:26:39,909
+624
+00:26:37,760 --> 00:26:39,919
 otherwise you can't can't control it so
 All asynchronous messaging is off the is
 
-1249
-00:26:39,909 --> 00:26:39,919
-All asynchronous messaging is off the is
-
-1250
-00:26:39,919 --> 00:26:41,669
+625
+00:26:39,919 --> 00:26:41,679
 All asynchronous messaging is off the is
 off the table. This allow this will work
 
-1251
-00:26:41,669 --> 00:26:41,679
-off the table. This allow this will work
-
-1252
-00:26:41,679 --> 00:26:43,269
+626
+00:26:41,679 --> 00:26:43,279
 off the table. This allow this will work
 with just as well with asynchronous
 
-1253
-00:26:43,269 --> 00:26:43,279
-with just as well with asynchronous
-
-1254
-00:26:43,279 --> 00:26:45,190
+627
+00:26:43,279 --> 00:26:45,200
 with just as well with asynchronous
 messaging as synchronous messaging.
 
-1255
-00:26:45,190 --> 00:26:45,200
-messaging as synchronous messaging.
-
-1256
-00:26:45,200 --> 00:26:47,430
+628
+00:26:45,200 --> 00:26:47,440
 messaging as synchronous messaging.
 It'll work just fine where the
 
-1257
-00:26:47,430 --> 00:26:47,440
-It'll work just fine where the
-
-1258
-00:26:47,440 --> 00:26:49,029
+629
+00:26:47,440 --> 00:26:49,039
 It'll work just fine where the
 sender and receiver use a completely
 
-1259
-00:26:49,029 --> 00:26:49,039
-sender and receiver use a completely
-
-1260
-00:26:49,039 --> 00:26:50,950
+630
+00:26:49,039 --> 00:26:50,960
 sender and receiver use a completely
 different channel. Doesn't matter.
 
-1261
-00:26:50,950 --> 00:26:50,960
-different channel. Doesn't matter.
-
-1262
-00:26:50,960 --> 00:26:51,510
+631
+00:26:50,960 --> 00:26:51,520
 different channel. Doesn't matter.
 Okay?
 
-1263
-00:26:51,510 --> 00:26:51,520
-Okay?
-
-1264
-00:26:51,520 --> 00:26:53,269
+632
+00:26:51,520 --> 00:26:53,279
 Okay?
 Because there's no interaction, right?
 
-1265
-00:26:53,269 --> 00:26:53,279
-Because there's no interaction, right?
-
-1266
-00:26:53,279 --> 00:26:54,950
+633
+00:26:53,279 --> 00:26:54,960
 Because there's no interaction, right?
 So now you can get rid of all of those
 
-1267
-00:26:54,950 --> 00:26:54,960
-So now you can get rid of all of those
-
-1268
-00:26:54,960 --> 00:26:57,990
+634
+00:26:54,960 --> 00:26:58,000
 So now you can get rid of all of those
 constraints and then the latency for a
 
-1269
-00:26:57,990 --> 00:26:58,000
-constraints and then the latency for a
-
-1270
-00:26:58,000 --> 00:27:01,830
+635
+00:26:58,000 --> 00:27:01,840
 constraints and then the latency for a
 request is zero because the request
 
-1271
-00:27:01,830 --> 00:27:01,840
-request is zero because the request
-
-1272
-00:27:01,840 --> 00:27:04,310
+636
+00:27:01,840 --> 00:27:04,320
 request is zero because the request
 either goes through or it doesn't.
 
-1273
-00:27:04,310 --> 00:27:04,320
-either goes through or it doesn't.
-
-1274
-00:27:04,320 --> 00:27:06,470
+637
+00:27:04,320 --> 00:27:06,480
 either goes through or it doesn't.
 Whereas if it's interactive, you send a
 
-1275
-00:27:06,470 --> 00:27:06,480
-Whereas if it's interactive, you send a
-
-1276
-00:27:06,480 --> 00:27:08,390
+638
+00:27:06,480 --> 00:27:08,400
 Whereas if it's interactive, you send a
 request, you get a reply, you send a
 
-1277
-00:27:08,390 --> 00:27:08,400
-request, you get a reply, you send a
-
-1278
-00:27:08,400 --> 00:27:11,190
+639
+00:27:08,400 --> 00:27:11,200
 request, you get a reply, you send a
 response, and now you've got three you
 
-1279
-00:27:11,190 --> 00:27:11,200
-response, and now you've got three you
-
-1280
-00:27:11,200 --> 00:27:13,430
+640
+00:27:11,200 --> 00:27:13,440
 response, and now you've got three you
 got three passes across your network,
 
-1281
-00:27:13,430 --> 00:27:13,440
-got three passes across your network,
-
-1282
-00:27:13,440 --> 00:27:15,110
+641
+00:27:13,440 --> 00:27:15,120
 got three passes across your network,
 which if your network's loaded or
 
-1283
-00:27:15,110 --> 00:27:15,120
-which if your network's loaded or
-
-1284
-00:27:15,120 --> 00:27:18,390
+642
+00:27:15,120 --> 00:27:18,400
 which if your network's loaded or
 congested, you triple the your latency
 
-1285
-00:27:18,390 --> 00:27:18,400
-congested, you triple the your latency
-
-1286
-00:27:18,400 --> 00:27:20,870
+643
+00:27:18,400 --> 00:27:20,880
 congested, you triple the your latency
 always. And when you go to scale, that
 
-1287
-00:27:20,870 --> 00:27:20,880
-always. And when you go to scale, that
-
-1288
-00:27:20,880 --> 00:27:24,230
+644
+00:27:20,880 --> 00:27:24,240
 always. And when you go to scale, that
 doesn't scale well. And you know, so
 
-1289
-00:27:24,230 --> 00:27:24,240
-doesn't scale well. And you know, so
-
-1290
-00:27:24,240 --> 00:27:27,510
+645
+00:27:24,240 --> 00:27:27,520
 doesn't scale well. And you know, so
 so that's a that's a reason not to use
 
-1291
-00:27:27,510 --> 00:27:27,520
-so that's a that's a reason not to use
-
-1292
-00:27:27,520 --> 00:27:28,950
+646
+00:27:27,520 --> 00:27:28,960
 so that's a that's a reason not to use
 interactive.
 
-1293
-00:27:28,950 --> 00:27:28,960
-interactive.
-
-1294
-00:27:28,960 --> 00:27:29,909
+647
+00:27:28,960 --> 00:27:29,919
 interactive.
 So to re
 
-1295
-00:27:29,909 --> 00:27:29,919
-So to re
-
-1296
-00:27:29,919 --> 00:27:32,390
+648
+00:27:29,919 --> 00:27:32,400
 So to re
 two reasons, one asynchronous messaging
 
-1297
-00:27:32,390 --> 00:27:32,400
-two reasons, one asynchronous messaging
-
-1298
-00:27:32,400 --> 00:27:35,669
+649
+00:27:32,400 --> 00:27:35,679
 two reasons, one asynchronous messaging
 asynchronous and remove the remove
 
-1299
-00:27:35,669 --> 00:27:35,679
-asynchronous and remove the remove
-
-1300
-00:27:35,679 --> 00:27:37,430
+650
+00:27:35,679 --> 00:27:37,440
 asynchronous and remove the remove
 the latency at scale.
 
-1301
-00:27:37,430 --> 00:27:37,440
-the latency at scale.
-
-1302
-00:27:37,440 --> 00:27:40,870
+651
+00:27:37,440 --> 00:27:40,880
 the latency at scale.
 So to reiterate for the microphone
 
-1303
-00:27:40,870 --> 00:27:40,880
-So to reiterate for the microphone
-
-1304
-00:27:40,880 --> 00:27:44,549
+652
+00:27:40,880 --> 00:27:44,559
 So to reiterate for the microphone
 this is asynchronous which traditional
 
-1305
-00:27:44,549 --> 00:27:44,559
-this is asynchronous which traditional
-
-1306
-00:27:44,559 --> 00:27:48,230
+653
+00:27:44,559 --> 00:27:48,240
 this is asynchronous which traditional
 nonsspased authentication is not and
 
-1307
-00:27:48,230 --> 00:27:48,240
-nonsspased authentication is not and
-
-1308
-00:27:48,240 --> 00:27:52,230
+654
+00:27:48,240 --> 00:27:52,240
 nonsspased authentication is not and
 this also works at scale without having
 
-1309
-00:27:52,230 --> 00:27:52,240
-this also works at scale without having
-
-1310
-00:27:52,240 --> 00:27:54,789
+655
+00:27:52,240 --> 00:27:54,799
 this also works at scale without having
 to rely on the traditional mode of
 
-1311
-00:27:54,789 --> 00:27:54,799
-to rely on the traditional mode of
-
-1312
-00:27:54,799 --> 00:27:57,190
+656
+00:27:54,799 --> 00:27:57,200
 to rely on the traditional mode of
 exchanging several messages in order to
 
-1313
-00:27:57,190 --> 00:27:57,200
-exchanging several messages in order to
-
-1314
-00:27:57,200 --> 00:28:00,789
+657
+00:27:57,200 --> 00:28:00,799
 exchanging several messages in order to
 meet the same meet the same
 
-1315
-00:28:00,789 --> 00:28:00,799
-meet the same meet the same
-
-1316
-00:28:00,799 --> 00:28:02,310
+658
+00:28:00,799 --> 00:28:02,320
 meet the same meet the same
 functionality.
 
-1317
-00:28:02,310 --> 00:28:02,320
-functionality.
-
-1318
-00:28:02,320 --> 00:28:04,870
+659
+00:28:02,320 --> 00:28:04,880
 functionality.
 So explaining a little about the problem
 
-1319
-00:28:04,870 --> 00:28:04,880
-So explaining a little about the problem
-
-1320
-00:28:04,880 --> 00:28:06,230
+660
+00:28:04,880 --> 00:28:06,240
 So explaining a little about the problem
 statement, right? You know what's what
 
-1321
-00:28:06,230 --> 00:28:06,240
-statement, right? You know what's what
-
-1322
-00:28:06,240 --> 00:28:08,789
+661
+00:28:06,240 --> 00:28:08,799
 statement, right? You know what's what
 was the difference between KERI not
 
-1323
-00:28:08,789 --> 00:28:08,799
-was the difference between KERI not
-
-1324
-00:28:08,799 --> 00:28:12,149
+662
+00:28:08,799 --> 00:28:12,159
 was the difference between KERI not
 having CRA and now CRA existing and I'm
 
-1325
-00:28:12,149 --> 00:28:12,159
-having CRA and now CRA existing and I'm
-
-1326
-00:28:12,159 --> 00:28:15,350
+663
+00:28:12,159 --> 00:28:15,360
 having CRA and now CRA existing and I'm
 just maybe restating is the but we just
 
-1327
-00:28:15,350 --> 00:28:15,360
-just maybe restating is the but we just
-
-1328
-00:28:15,360 --> 00:28:18,310
+664
+00:28:15,360 --> 00:28:18,320
 just maybe restating is the but we just
 restated for the replay attack but so
 
-1329
-00:28:18,310 --> 00:28:18,320
-restated for the replay attack but so
-
-1330
-00:28:18,320 --> 00:28:20,710
+665
+00:28:18,320 --> 00:28:20,720
 restated for the replay attack but so
 was that a vulnerability and existing
 
-1331
-00:28:20,710 --> 00:28:20,720
-was that a vulnerability and existing
-
-1332
-00:28:20,720 --> 00:28:22,389
+666
+00:28:20,720 --> 00:28:22,399
 was that a vulnerability and existing
 vulnerability right now?
 
-1333
-00:28:22,389 --> 00:28:22,399
-vulnerability right now?
-
-1334
-00:28:22,399 --> 00:28:22,950
+667
+00:28:22,399 --> 00:28:22,960
 vulnerability right now?
 Yes.
 
-1335
-00:28:22,950 --> 00:28:22,960
-Yes.
-
-1336
-00:28:22,960 --> 00:28:25,830
+668
+00:28:22,960 --> 00:28:25,840
 Yes.
 Okay. KRAM has been proposed for quite
 
-1337
-00:28:25,830 --> 00:28:25,840
-Okay. KRAM has been proposed for quite
-
-1338
-00:28:25,840 --> 00:28:28,470
+669
+00:28:25,840 --> 00:28:28,480
 Okay. KRAM has been proposed for quite
 quite some time but nobody thought it
 
-1339
-00:28:28,470 --> 00:28:28,480
-quite some time but nobody thought it
-
-1340
+670
 00:28:28,480 --> 00:28:32,389
 quite some time but nobody thought it
 was important to
 
-1341
-00:28:35,430 --> 00:28:35,440
-So, so in our authentication server, we
-
-1342
-00:28:35,440 --> 00:28:38,070
+671
+00:28:35,430 --> 00:28:38,080
 So, so in our authentication server, we
 have a custom build replay
 
-1343
-00:28:38,070 --> 00:28:38,080
-have a custom build replay
-
-1344
-00:28:38,080 --> 00:28:39,990
+672
+00:28:38,080 --> 00:28:40,000
 have a custom build replay
 and so we can now get rid of that once
 
-1345
-00:28:39,990 --> 00:28:40,000
-and so we can now get rid of that once
-
-1346
-00:28:40,000 --> 00:28:42,549
+673
+00:28:40,000 --> 00:28:42,559
 and so we can now get rid of that once
 we upgrade KERI 2.0.
 
-1347
-00:28:42,549 --> 00:28:42,559
-we upgrade KERI 2.0.
-
-1348
-00:28:42,559 --> 00:28:44,389
+674
+00:28:42,559 --> 00:28:44,399
 we upgrade KERI 2.0.
 Yeah. So, that was traditionally not
 
-1349
-00:28:44,389 --> 00:28:44,399
-Yeah. So, that was traditionally not
-
-1350
-00:28:44,399 --> 00:28:46,789
+675
+00:28:44,399 --> 00:28:46,799
 Yeah. So, that was traditionally not
 covered by the KERI suite or KERIpy
 
-1351
-00:28:46,789 --> 00:28:46,799
-covered by the KERI suite or KERIpy
-
-1352
-00:28:46,799 --> 00:28:49,190
+676
+00:28:46,799 --> 00:28:49,200
 covered by the KERI suite or KERIpy
 as
 
-1353
-00:28:49,190 --> 00:28:49,200
-as
-
-1354
-00:28:49,200 --> 00:28:52,070
+677
+00:28:49,200 --> 00:28:52,080
 as
 it
 
-1355
-00:28:52,070 --> 00:28:52,080
-it
-
-1356
+678
 00:28:52,080 --> 00:28:56,470
 it
 build their own attack.
 
-1357
-00:28:58,470 --> 00:28:58,480
-We wanted we wanted it to be something
-
-1358
-00:28:58,480 --> 00:29:03,669
+679
+00:28:58,470 --> 00:29:03,669
 We wanted we wanted it to be something
 that everybody gets for free. Awesome.
 
-1359
-00:29:12,149 --> 00:29:12,159
-All right,
-
-1360
-00:29:12,159 --> 00:29:15,720
+680
+00:29:12,149 --> 00:29:15,720
 All right,
 get me out of here.
 

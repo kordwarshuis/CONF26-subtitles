@@ -1,6938 +1,3852 @@
-1
-00:00:06,230 --> 00:00:06,240
+﻿1
+00:00:06,230 --> 00:00:08,400
 Just really quickly as we get our
+conversation just started, I wanted to
 
 2
-00:00:06,240 --> 00:00:08,390
-Just really quickly as we get our
+00:00:08,400 --> 00:00:10,480
 conversation just started, I wanted to
+Give a couple of quick ground rules.
 
 3
-00:00:08,390 --> 00:00:08,400
-conversation just started, I wanted to
+00:00:10,480 --> 00:00:13,440
+Give a couple of quick ground rules.
+First of all some of my questions
 
 4
-00:00:08,400 --> 00:00:10,470
-conversation just started, I wanted to
-Give a couple of quick ground rules.
+00:00:13,440 --> 00:00:16,240
+First of all some of my questions
+might be fairly open and broad and
 
 5
-00:00:10,470 --> 00:00:10,480
-Give a couple of quick ground rules.
+00:00:16,240 --> 00:00:18,400
+might be fairly open and broad and
+lead to some pretty long-winded
 
 6
-00:00:10,480 --> 00:00:13,430
-Give a couple of quick ground rules.
-First of all some of my questions
+00:00:18,400 --> 00:00:20,320
+lead to some pretty long-winded
+potentially long-winded answers. So just
 
 7
-00:00:13,430 --> 00:00:13,440
-First of all some of my questions
+00:00:20,320 --> 00:00:21,840
+potentially long-winded answers. So just
+be conscious of the time and the
 
 8
-00:00:13,440 --> 00:00:16,230
-First of all some of my questions
-might be fairly open and broad and
+00:00:21,840 --> 00:00:24,400
+be conscious of the time and the
+respectful of everybody and make sure
 
 9
-00:00:16,230 --> 00:00:16,240
-might be fairly open and broad and
+00:00:24,400 --> 00:00:26,400
+respectful of everybody and make sure
+we give everybody a chance to chime
 
 10
-00:00:16,240 --> 00:00:18,390
-might be fairly open and broad and
-lead to some pretty long-winded
+00:00:26,400 --> 00:00:28,240
+we give everybody a chance to chime
+in. Also, all the questions, even if
 
 11
-00:00:18,390 --> 00:00:18,400
-lead to some pretty long-winded
+00:00:28,240 --> 00:00:30,080
+in. Also, all the questions, even if
+I direct maybe at one person, they're
 
 12
-00:00:18,400 --> 00:00:20,310
-lead to some pretty long-winded
-potentially long-winded answers. So just
+00:00:30,080 --> 00:00:31,840
+I direct maybe at one person, they're
+all open to all of you. So, if you feel
 
 13
-00:00:20,310 --> 00:00:20,320
-potentially long-winded answers. So just
+00:00:31,840 --> 00:00:32,960
+all open to all of you. So, if you feel
+like you want to say something about it,
 
 14
-00:00:20,320 --> 00:00:21,830
-potentially long-winded answers. So just
-be conscious of the time and the
+00:00:32,960 --> 00:00:36,399
+like you want to say something about it,
+by all means, jump in anytime. So, with
 
 15
-00:00:21,830 --> 00:00:21,840
-be conscious of the time and the
+00:00:36,399 --> 00:00:38,079
+by all means, jump in anytime. So, with
+that, our the theme for this
 
 16
-00:00:21,840 --> 00:00:24,390
-be conscious of the time and the
-respectful of everybody and make sure
+00:00:38,079 --> 00:00:41,840
+that, our the theme for this
+conversation, this chat tonight is
 
 17
-00:00:24,390 --> 00:00:24,400
-respectful of everybody and make sure
+00:00:41,840 --> 00:00:43,360
+conversation, this chat tonight is
+in effect, what does KERI make
 
 18
-00:00:24,400 --> 00:00:26,390
-respectful of everybody and make sure
-we give everybody a chance to chime
+00:00:43,360 --> 00:00:45,520
+in effect, what does KERI make
+possible that isn't possible without
 
 19
-00:00:26,390 --> 00:00:26,400
-we give everybody a chance to chime
+00:00:45,520 --> 00:00:49,039
+possible that isn't possible without
+KERI? So, in that frame,
 
 20
-00:00:26,400 --> 00:00:28,230
-we give everybody a chance to chime
-in. Also, all the questions, even if
+00:00:49,039 --> 00:00:51,600
+KERI? So, in that frame,
+the first question I have is a little
 
 21
-00:00:28,230 --> 00:00:28,240
-in. Also, all the questions, even if
+00:00:51,600 --> 00:00:53,440
+the first question I have is a little
+bit of an ex existential question, I
 
 22
-00:00:28,240 --> 00:00:30,070
-in. Also, all the questions, even if
-I direct maybe at one person, they're
+00:00:53,440 --> 00:00:57,760
+bit of an ex existential question, I
+guess. Why are you here?
 
 23
-00:00:30,070 --> 00:00:30,080
-I direct maybe at one person, they're
+00:00:57,760 --> 00:00:59,359
+guess. Why are you here?
+And what I mean by that is kind of
 
 24
-00:00:30,080 --> 00:00:31,830
-I direct maybe at one person, they're
-all open to all of you. So, if you feel
+00:00:59,359 --> 00:01:01,120
+And what I mean by that is kind of
+what's the story again being respectful
 
 25
-00:00:31,830 --> 00:00:31,840
-all open to all of you. So, if you feel
+00:01:01,120 --> 00:01:02,640
+what's the story again being respectful
+of the time and all that. What's the
 
 26
-00:00:31,840 --> 00:00:32,950
-all open to all of you. So, if you feel
-like you want to say something about it,
+00:01:02,640 --> 00:01:04,479
+of the time and all that. What's the
+story that leads you to sitting in this
 
 27
-00:00:32,950 --> 00:00:32,960
-like you want to say something about it,
+00:01:04,479 --> 00:01:06,400
+story that leads you to sitting in this
+chair at this time? What's your aha
 
 28
-00:00:32,960 --> 00:00:36,389
-like you want to say something about it,
-by all means, jump in anytime. So, with
+00:01:06,400 --> 00:01:08,479
+chair at this time? What's your aha
+moment with KERI? What brought you to
 
 29
-00:00:36,389 --> 00:00:36,399
-by all means, jump in anytime. So, with
+00:01:08,479 --> 00:01:10,080
+moment with KERI? What brought you to
+this point? I'm going to just kind of
 
 30
-00:00:36,399 --> 00:00:38,069
-by all means, jump in anytime. So, with
-that, our the theme for this
+00:01:10,080 --> 00:01:11,600
+this point? I'm going to just kind of
+open this one up as a bit of an
 
 31
-00:00:38,069 --> 00:00:38,079
-that, our the theme for this
+00:01:11,600 --> 00:01:14,240
+open this one up as a bit of an
+introductory question for everybody.
 
 32
-00:00:38,079 --> 00:00:41,830
-that, our the theme for this
-conversation, this chat tonight is
+00:01:14,240 --> 00:01:16,000
+introductory question for everybody.
+Alan, I want to start with you. Well, I
 
 33
-00:00:41,830 --> 00:00:41,840
-conversation, this chat tonight is
+00:01:16,000 --> 00:01:18,799
+Alan, I want to start with you. Well, I
+guess I should start by saying that I
 
 34
-00:00:41,840 --> 00:00:43,350
-conversation, this chat tonight is
-in effect, what does KERI make
+00:01:18,799 --> 00:01:21,119
+guess I should start by saying that I
+I genuinely believe that we should all
 
 35
-00:00:43,350 --> 00:00:43,360
-in effect, what does KERI make
+00:01:21,119 --> 00:01:24,479
+I genuinely believe that we should all
+be our own identity providers and I
 
 36
-00:00:43,360 --> 00:00:45,510
-in effect, what does KERI make
-possible that isn't possible without
+00:01:24,479 --> 00:01:26,799
+be our own identity providers and I
+don't see how you can do that without
 
 37
-00:00:45,510 --> 00:00:45,520
-possible that isn't possible without
+00:01:26,799 --> 00:01:30,240
+don't see how you can do that without
+either KERI or something very similar
 
 38
-00:00:45,520 --> 00:00:49,029
-possible that isn't possible without
-KERI? So, in that frame,
+00:01:30,240 --> 00:01:32,479
+either KERI or something very similar
+and that's why I'm here to see that
 
 39
-00:00:49,029 --> 00:00:49,039
-KERI? So, in that frame,
+00:01:32,479 --> 00:01:33,040
+and that's why I'm here to see that
+happen.
 
 40
-00:00:49,039 --> 00:00:51,590
-KERI? So, in that frame,
-the first question I have is a little
+00:01:33,040 --> 00:01:34,799
+happen.
+Great. And did you have a particular aha
 
 41
-00:00:51,590 --> 00:00:51,600
-the first question I have is a little
+00:01:34,799 --> 00:01:37,040
+Great. And did you have a particular aha
+moment with KERI when you fi founded
 
 42
-00:00:51,600 --> 00:00:53,430
-the first question I have is a little
-bit of an ex existential question, I
+00:01:37,040 --> 00:01:38,799
+moment with KERI when you fi founded
+and or was it more of a gradual thing
 
 43
-00:00:53,430 --> 00:00:53,440
-bit of an ex existential question, I
+00:01:38,799 --> 00:01:39,600
+and or was it more of a gradual thing
+for you or
 
 44
-00:00:53,440 --> 00:00:57,750
-bit of an ex existential question, I
-guess. Why are you here?
+00:01:39,600 --> 00:01:42,479
+for you or
+it's been a gradual thing and a
 
 45
-00:00:57,750 --> 00:00:57,760
-guess. Why are you here?
+00:01:42,479 --> 00:01:45,439
+it's been a gradual thing and a
+continuing education by Sam
 
 46
-00:00:57,760 --> 00:00:59,349
-guess. Why are you here?
-And what I mean by that is kind of
+00:01:45,439 --> 00:01:48,000
+continuing education by Sam
+it's a it's a continuing process I can
 
 47
-00:00:59,349 --> 00:00:59,359
-And what I mean by that is kind of
+00:01:48,000 --> 00:01:49,759
+it's a it's a continuing process I can
+tell you
 
 48
-00:00:59,359 --> 00:01:01,110
-And what I mean by that is kind of
-what's the story again being respectful
+00:01:49,759 --> 00:01:53,119
+tell you
+that's good Thomas
 
 49
-00:01:01,110 --> 00:01:01,120
-what's the story again being respectful
+00:01:53,119 --> 00:01:57,439
+that's good Thomas
+I would have to say for me the aha
 
 50
-00:01:01,120 --> 00:01:02,630
-what's the story again being respectful
-of the time and all that. What's the
+00:01:57,439 --> 00:01:59,520
+I would have to say for me the aha
+moment coming from the blockchain
 
 51
-00:01:02,630 --> 00:01:02,640
-of the time and all that. What's the
+00:01:59,520 --> 00:02:03,520
+moment coming from the blockchain
+space was realizing that what Sam has
 
 52
-00:01:02,640 --> 00:01:04,469
-of the time and all that. What's the
-story that leads you to sitting in this
+00:02:03,520 --> 00:02:08,319
+space was realizing that what Sam has
+invented is all of the things that we
 
 53
-00:01:04,469 --> 00:01:04,479
-story that leads you to sitting in this
+00:02:08,319 --> 00:02:10,640
+invented is all of the things that we
+value about blockchain
 
 54
-00:01:04,479 --> 00:01:06,390
-story that leads you to sitting in this
-chair at this time? What's your aha
+00:02:10,640 --> 00:02:14,879
+value about blockchain
+without the negatives.
 
 55
-00:01:06,390 --> 00:01:06,400
-chair at this time? What's your aha
+00:02:14,879 --> 00:02:17,520
+without the negatives.
+Okay, cool. Yeah. And when did you
 
 56
-00:01:06,400 --> 00:01:08,469
-chair at this time? What's your aha
-moment with KERI? What brought you to
+00:02:17,520 --> 00:02:19,840
+Okay, cool. Yeah. And when did you
+actually first get introduced to Sam or
 
 57
-00:01:08,469 --> 00:01:08,479
-moment with KERI? What brought you to
+00:02:19,840 --> 00:02:21,040
+actually first get introduced to Sam or
+to KERI in general?
 
 58
-00:01:08,479 --> 00:01:10,070
-moment with KERI? What brought you to
-this point? I'm going to just kind of
+00:02:21,040 --> 00:02:22,720
+to KERI in general?
+It's it's going to be about four
 
 59
-00:01:10,070 --> 00:01:10,080
-this point? I'm going to just kind of
+00:02:22,720 --> 00:02:23,599
+It's it's going to be about four
+years now.
 
 60
-00:01:10,080 --> 00:01:11,590
-this point? I'm going to just kind of
-open this one up as a bit of an
+00:02:23,599 --> 00:02:23,920
+years now.
+Yeah.
 
 61
-00:01:11,590 --> 00:01:11,600
-open this one up as a bit of an
+00:02:23,920 --> 00:02:25,680
+Yeah.
+Okay. It's been a while. All right,
 
 62
-00:01:11,600 --> 00:01:14,230
-open this one up as a bit of an
-introductory question for everybody.
+00:02:25,680 --> 00:02:26,640
+Okay. It's been a while. All right,
+Nico.
 
 63
-00:01:14,230 --> 00:01:14,240
-introductory question for everybody.
+00:02:26,640 --> 00:02:28,720
+Nico.
+Yeah. So, you know, this kind of brings
 
 64
-00:01:14,240 --> 00:01:15,990
-introductory question for everybody.
-Alan, I want to start with you. Well, I
+00:02:28,720 --> 00:02:32,000
+Yeah. So, you know, this kind of brings
+me back to Sovereign, right? I was
 
 65
-00:01:15,990 --> 00:01:16,000
-Alan, I want to start with you. Well, I
+00:02:32,000 --> 00:02:34,400
+me back to Sovereign, right? I was
+introduced by Timothy Ruff
 
 66
-00:01:16,000 --> 00:01:18,789
-Alan, I want to start with you. Well, I
-guess I should start by saying that I
+00:02:34,400 --> 00:02:37,280
+introduced by Timothy Ruff
+randomly messaging me on Twitter as a
 
 67
-00:01:18,789 --> 00:01:18,799
-guess I should start by saying that I
+00:02:37,280 --> 00:02:40,400
+randomly messaging me on Twitter as a
+pseudonmous account whether or not I
 
 68
-00:01:18,799 --> 00:01:21,109
-guess I should start by saying that I
-I genuinely believe that we should all
+00:02:40,400 --> 00:02:43,280
+pseudonmous account whether or not I
+wanted to invest and the opportunity and
 
 69
-00:01:21,109 --> 00:01:21,119
-I genuinely believe that we should all
+00:02:43,280 --> 00:02:45,360
+wanted to invest and the opportunity and
+failure of sovereign was the exact
 
 70
-00:01:21,119 --> 00:01:24,469
-I genuinely believe that we should all
-be our own identity providers and I
+00:02:45,360 --> 00:02:48,239
+failure of sovereign was the exact
+catalyst for what led me to KERI.
 
 71
-00:01:24,469 --> 00:01:24,479
-be our own identity providers and I
+00:02:48,239 --> 00:02:50,560
+catalyst for what led me to KERI.
+Obviously like the opportunity of
 
 72
-00:01:24,479 --> 00:01:26,789
-be our own identity providers and I
-don't see how you can do that without
+00:02:50,560 --> 00:02:53,280
+Obviously like the opportunity of
+decentralized identity was massive and
 
 73
-00:01:26,789 --> 00:01:26,799
-don't see how you can do that without
+00:02:53,280 --> 00:02:55,920
+decentralized identity was massive and
+not realized there. And I knew there
 
 74
-00:01:26,799 --> 00:01:30,230
-don't see how you can do that without
-either KERI or something very similar
+00:02:55,920 --> 00:02:58,480
+not realized there. And I knew there
+was something beyond a blockchain when I
 
 75
-00:01:30,230 --> 00:01:30,240
-either KERI or something very similar
+00:02:58,480 --> 00:03:01,040
+was something beyond a blockchain when I
+was posting, I remember on the Telegram
 
 76
-00:01:30,240 --> 00:01:32,469
-either KERI or something very similar
-and that's why I'm here to see that
+00:03:01,040 --> 00:03:04,560
+was posting, I remember on the Telegram
+of Sovereign about something like a
 
 77
-00:01:32,469 --> 00:01:32,479
-and that's why I'm here to see that
+00:03:04,560 --> 00:03:07,120
+of Sovereign about something like a
+microleddger and Timothy actually
 
 78
-00:01:32,479 --> 00:01:33,030
-and that's why I'm here to see that
-happen.
+00:03:07,120 --> 00:03:08,640
+microleddger and Timothy actually
+messaged me in a sideh show like who
 
 79
-00:01:33,030 --> 00:01:33,040
-happen.
+00:03:08,640 --> 00:03:10,959
+messaged me in a sideh show like who
+told you about microledders? It's like
 
 80
-00:01:33,040 --> 00:01:34,789
-happen.
-Great. And did you have a particular aha
+00:03:10,959 --> 00:03:12,879
+told you about microledders? It's like
+it's like no, I just came to it on my
 
 81
-00:01:34,789 --> 00:01:34,799
-Great. And did you have a particular aha
+00:03:12,879 --> 00:03:15,040
+it's like no, I just came to it on my
+own idea and we started talking about
 
 82
-00:01:34,799 --> 00:01:37,030
-Great. And did you have a particular aha
-moment with KERI when you fi founded
+00:03:15,040 --> 00:03:16,879
+own idea and we started talking about
+the implications of what could be beyond
 
 83
-00:01:37,030 --> 00:01:37,040
-moment with KERI when you fi founded
+00:03:16,879 --> 00:03:18,720
+the implications of what could be beyond
+how do you scale a chain beyond this
 
 84
-00:01:37,040 --> 00:01:38,789
-moment with KERI when you fi founded
-and or was it more of a gradual thing
+00:03:18,720 --> 00:03:20,800
+how do you scale a chain beyond this
+sort of one chain to rule them all. And
 
 85
-00:01:38,789 --> 00:01:38,799
-and or was it more of a gradual thing
+00:03:20,800 --> 00:03:22,959
+sort of one chain to rule them all. And
+then subsequently, you know, when
 
 86
-00:01:38,799 --> 00:01:39,590
-and or was it more of a gradual thing
-for you or
+00:03:22,959 --> 00:03:25,040
+then subsequently, you know, when
+things are looking their bleakest
 
 87
-00:01:39,590 --> 00:01:39,600
-for you or
+00:03:25,040 --> 00:03:27,760
+things are looking their bleakest
+Sam comes out with the white paper and
 
 88
-00:01:39,600 --> 00:01:42,469
-for you or
-it's been a gradual thing and a
+00:03:27,760 --> 00:03:30,239
+Sam comes out with the white paper and
+Immediately it strikes me like, "Oh
 
 89
-00:01:42,469 --> 00:01:42,479
-it's been a gradual thing and a
+00:03:30,239 --> 00:03:32,799
+Immediately it strikes me like, "Oh
+my god, this is it. This is the endgame
 
 90
-00:01:42,479 --> 00:01:45,429
-it's been a gradual thing and a
-continuing education by Sam
+00:03:32,799 --> 00:03:36,560
+my god, this is it. This is the endgame
+of how identity needs to be created at
 
 91
-00:01:45,429 --> 00:01:45,439
-continuing education by Sam
+00:03:36,560 --> 00:03:40,000
+of how identity needs to be created at
+scale in a decentralized way." And I was
 
 92
-00:01:45,439 --> 00:01:47,990
-continuing education by Sam
-it's a it's a continuing process I can
+00:03:40,000 --> 00:03:42,159
+scale in a decentralized way." And I was
+pleading for the rest of the sovereign
 
 93
-00:01:47,990 --> 00:01:48,000
-it's a it's a continuing process I can
+00:03:42,159 --> 00:03:45,680
+pleading for the rest of the sovereign
+people to recognize what this was. And
 
 94
-00:01:48,000 --> 00:01:49,749
-it's a it's a continuing process I can
-tell you
+00:03:45,680 --> 00:03:48,640
+people to recognize what this was. And
+no one else saw it. So we created
 
 95
-00:01:49,749 --> 00:01:49,759
-tell you
-
-96
-00:01:49,759 --> 00:01:53,109
-tell you
-that's good Thomas
-
-97
-00:01:53,109 --> 00:01:53,119
-that's good Thomas
-
-98
-00:01:53,119 --> 00:01:57,429
-that's good Thomas
-I would have to say for me the aha
-
-99
-00:01:57,429 --> 00:01:57,439
-I would have to say for me the aha
-
-100
-00:01:57,439 --> 00:01:59,510
-I would have to say for me the aha
-moment coming from the blockchain
-
-101
-00:01:59,510 --> 00:01:59,520
-moment coming from the blockchain
-
-102
-00:01:59,520 --> 00:02:03,510
-moment coming from the blockchain
-space was realizing that what Sam has
-
-103
-00:02:03,510 --> 00:02:03,520
-space was realizing that what Sam has
-
-104
-00:02:03,520 --> 00:02:08,309
-space was realizing that what Sam has
-invented is all of the things that we
-
-105
-00:02:08,309 --> 00:02:08,319
-invented is all of the things that we
-
-106
-00:02:08,319 --> 00:02:10,630
-invented is all of the things that we
-value about blockchain
-
-107
-00:02:10,630 --> 00:02:10,640
-value about blockchain
-
-108
-00:02:10,640 --> 00:02:14,869
-value about blockchain
-without the negatives.
-
-109
-00:02:14,869 --> 00:02:14,879
-without the negatives.
-
-110
-00:02:14,879 --> 00:02:17,510
-without the negatives.
-Okay, cool. Yeah. And when did you
-
-111
-00:02:17,510 --> 00:02:17,520
-Okay, cool. Yeah. And when did you
-
-112
-00:02:17,520 --> 00:02:19,830
-Okay, cool. Yeah. And when did you
-actually first get introduced to Sam or
-
-113
-00:02:19,830 --> 00:02:19,840
-actually first get introduced to Sam or
-
-114
-00:02:19,840 --> 00:02:21,030
-actually first get introduced to Sam or
-to KERI in general?
-
-115
-00:02:21,030 --> 00:02:21,040
-to KERI in general?
-
-116
-00:02:21,040 --> 00:02:22,710
-to KERI in general?
-It's it's going to be about four
-
-117
-00:02:22,710 --> 00:02:22,720
-It's it's going to be about four
-
-118
-00:02:22,720 --> 00:02:23,589
-It's it's going to be about four
-years now.
-
-119
-00:02:23,589 --> 00:02:23,599
-years now.
-
-120
-00:02:23,599 --> 00:02:23,910
-years now.
-Yeah.
-
-121
-00:02:23,910 --> 00:02:23,920
-Yeah.
-
-122
-00:02:23,920 --> 00:02:25,670
-Yeah.
-Okay. It's been a while. All right,
-
-123
-00:02:25,670 --> 00:02:25,680
-Okay. It's been a while. All right,
-
-124
-00:02:25,680 --> 00:02:26,630
-Okay. It's been a while. All right,
-Nico.
-
-125
-00:02:26,630 --> 00:02:26,640
-Nico.
-
-126
-00:02:26,640 --> 00:02:28,710
-Nico.
-Yeah. So, you know, this kind of brings
-
-127
-00:02:28,710 --> 00:02:28,720
-Yeah. So, you know, this kind of brings
-
-128
-00:02:28,720 --> 00:02:31,990
-Yeah. So, you know, this kind of brings
-me back to Sovereign, right? I was
-
-129
-00:02:31,990 --> 00:02:32,000
-me back to Sovereign, right? I was
-
-130
-00:02:32,000 --> 00:02:34,390
-me back to Sovereign, right? I was
-introduced by Timothy Ruff 
-
-131
-00:02:34,390 --> 00:02:34,400
-introduced by Timothy Ruff 
-
-132
-00:02:34,400 --> 00:02:37,270
-introduced by Timothy Ruff 
-randomly messaging me on Twitter as a
-
-133
-00:02:37,270 --> 00:02:37,280
-randomly messaging me on Twitter as a
-
-134
-00:02:37,280 --> 00:02:40,390
-randomly messaging me on Twitter as a
-pseudonmous account whether or not I
-
-135
-00:02:40,390 --> 00:02:40,400
-pseudonmous account whether or not I
-
-136
-00:02:40,400 --> 00:02:43,270
-pseudonmous account whether or not I
-wanted to invest and the opportunity and
-
-137
-00:02:43,270 --> 00:02:43,280
-wanted to invest and the opportunity and
-
-138
-00:02:43,280 --> 00:02:45,350
-wanted to invest and the opportunity and
-failure of sovereign was the exact
-
-139
-00:02:45,350 --> 00:02:45,360
-failure of sovereign was the exact
-
-140
-00:02:45,360 --> 00:02:48,229
-failure of sovereign was the exact
-catalyst for what led me to KERI.
-
-141
-00:02:48,229 --> 00:02:48,239
-catalyst for what led me to KERI.
-
-142
-00:02:48,239 --> 00:02:50,550
-catalyst for what led me to KERI.
-Obviously like the opportunity of
-
-143
-00:02:50,550 --> 00:02:50,560
-Obviously like the opportunity of
-
-144
-00:02:50,560 --> 00:02:53,270
-Obviously like the opportunity of
-decentralized identity was massive and
-
-145
-00:02:53,270 --> 00:02:53,280
-decentralized identity was massive and
-
-146
-00:02:53,280 --> 00:02:55,910
-decentralized identity was massive and
-not realized there. And I knew there
-
-147
-00:02:55,910 --> 00:02:55,920
-not realized there. And I knew there
-
-148
-00:02:55,920 --> 00:02:58,470
-not realized there. And I knew there
-was something beyond a blockchain when I
-
-149
-00:02:58,470 --> 00:02:58,480
-was something beyond a blockchain when I
-
-150
-00:02:58,480 --> 00:03:01,030
-was something beyond a blockchain when I
-was posting, I remember on the Telegram
-
-151
-00:03:01,030 --> 00:03:01,040
-was posting, I remember on the Telegram
-
-152
-00:03:01,040 --> 00:03:04,550
-was posting, I remember on the Telegram
-of Sovereign about something like a
-
-153
-00:03:04,550 --> 00:03:04,560
-of Sovereign about something like a
-
-154
-00:03:04,560 --> 00:03:07,110
-of Sovereign about something like a
-microleddger and Timothy actually
-
-155
-00:03:07,110 --> 00:03:07,120
-microleddger and Timothy actually
-
-156
-00:03:07,120 --> 00:03:08,630
-microleddger and Timothy actually
-messaged me in a sideh show like who
-
-157
-00:03:08,630 --> 00:03:08,640
-messaged me in a sideh show like who
-
-158
-00:03:08,640 --> 00:03:10,949
-messaged me in a sideh show like who
-told you about microledders? It's like
-
-159
-00:03:10,949 --> 00:03:10,959
-told you about microledders? It's like
-
-160
-00:03:10,959 --> 00:03:12,869
-told you about microledders? It's like
-it's like no, I just came to it on my
-
-161
-00:03:12,869 --> 00:03:12,879
-it's like no, I just came to it on my
-
-162
-00:03:12,879 --> 00:03:15,030
-it's like no, I just came to it on my
-own idea and we started talking about
-
-163
-00:03:15,030 --> 00:03:15,040
-own idea and we started talking about
-
-164
-00:03:15,040 --> 00:03:16,869
-own idea and we started talking about
-the implications of what could be beyond
-
-165
-00:03:16,869 --> 00:03:16,879
-the implications of what could be beyond
-
-166
-00:03:16,879 --> 00:03:18,710
-the implications of what could be beyond
-how do you scale a chain beyond this
-
-167
-00:03:18,710 --> 00:03:18,720
-how do you scale a chain beyond this
-
-168
-00:03:18,720 --> 00:03:20,790
-how do you scale a chain beyond this
-sort of one chain to rule them all. And
-
-169
-00:03:20,790 --> 00:03:20,800
-sort of one chain to rule them all. And
-
-170
-00:03:20,800 --> 00:03:22,949
-sort of one chain to rule them all. And
-then subsequently, you know, when
-
-171
-00:03:22,949 --> 00:03:22,959
-then subsequently, you know, when
-
-172
-00:03:22,959 --> 00:03:25,030
-then subsequently, you know, when
-things are looking their bleakest
-
-173
-00:03:25,030 --> 00:03:25,040
-things are looking their bleakest
-
-174
-00:03:25,040 --> 00:03:27,750
-things are looking their bleakest
-Sam comes out with the white paper and
-
-175
-00:03:27,750 --> 00:03:27,760
-Sam comes out with the white paper and
-
-176
-00:03:27,760 --> 00:03:30,229
-Sam comes out with the white paper and
-Immediately it strikes me like, "Oh
-
-177
-00:03:30,229 --> 00:03:30,239
-Immediately it strikes me like, "Oh
-
-178
-00:03:30,239 --> 00:03:32,789
-Immediately it strikes me like, "Oh
-my god, this is it. This is the endgame
-
-179
-00:03:32,789 --> 00:03:32,799
-my god, this is it. This is the endgame
-
-180
-00:03:32,799 --> 00:03:36,550
-my god, this is it. This is the endgame
-of how identity needs to be created at
-
-181
-00:03:36,550 --> 00:03:36,560
-of how identity needs to be created at
-
-182
-00:03:36,560 --> 00:03:39,990
-of how identity needs to be created at
-scale in a decentralized way." And I was
-
-183
-00:03:39,990 --> 00:03:40,000
-scale in a decentralized way." And I was
-
-184
-00:03:40,000 --> 00:03:42,149
-scale in a decentralized way." And I was
-pleading for the rest of the sovereign
-
-185
-00:03:42,149 --> 00:03:42,159
-pleading for the rest of the sovereign
-
-186
-00:03:42,159 --> 00:03:45,670
-pleading for the rest of the sovereign
-people to recognize what this was. And
-
-187
-00:03:45,670 --> 00:03:45,680
-people to recognize what this was. And
-
-188
-00:03:45,680 --> 00:03:48,630
-people to recognize what this was. And
-no one else saw it. So we created
-
-189
-00:03:48,630 --> 00:03:48,640
-no one else saw it. So we created
-
-190
 00:03:48,640 --> 00:03:53,830
 no one else saw it. So we created
 key state Capital to solve that problem.
 
-191
+96
 00:03:55,350 --> 00:03:55,360
 
 
-192
-00:03:55,360 --> 00:03:58,630
-
-I started working in the telco space
-
-193
-00:03:58,630 --> 00:03:58,640
-I started working in the telco space
-
-194
-00:03:58,640 --> 00:04:00,869
+97
+00:03:55,360 --> 00:04:00,879
 I started working in the telco space
 only a few years ago and not very deep
 
-195
-00:04:00,869 --> 00:04:00,879
-only a few years ago and not very deep
-
-196
-00:04:00,879 --> 00:04:02,630
+98
+00:04:00,879 --> 00:04:02,640
 only a few years ago and not very deep
 Into it and I'm a little bit of an
 
-197
-00:04:02,630 --> 00:04:02,640
-Into it and I'm a little bit of an
-
-198
-00:04:02,640 --> 00:04:06,070
+99
+00:04:02,640 --> 00:04:06,080
 Into it and I'm a little bit of an
 outsider in those circles. But the
 
-199
-00:04:06,070 --> 00:04:06,080
+100
+00:04:06,080 --> 00:04:08,959
 outsider in those circles. But the
+thing that was shocking to me is that
 
-200
-00:04:06,080 --> 00:04:08,949
-outsider in those circles. But the
-thing that was shocking to me is that 
-
-201
-00:04:08,949 --> 00:04:08,959
-thing that was shocking to me is that 
-
-202
-00:04:08,959 --> 00:04:11,509
-thing that was shocking to me is that 
+101
+00:04:08,959 --> 00:04:11,519
+thing that was shocking to me is that
 large companies have invested billions
 
-203
-00:04:11,509 --> 00:04:11,519
-large companies have invested billions
-
-204
-00:04:11,519 --> 00:04:13,270
+102
+00:04:11,519 --> 00:04:13,280
 large companies have invested billions
 maybe tens of billions is a better
 
-205
-00:04:13,270 --> 00:04:13,280
-maybe tens of billions is a better
-
-206
-00:04:13,280 --> 00:04:16,550
+103
+00:04:13,280 --> 00:04:16,560
 maybe tens of billions is a better
 estimate in complying with regulations
 
-207
-00:04:16,550 --> 00:04:16,560
-estimate in complying with regulations
-
-208
-00:04:16,560 --> 00:04:19,830
+104
+00:04:16,560 --> 00:04:19,840
 estimate in complying with regulations
 like from the FCC related to
 
-209
-00:04:19,830 --> 00:04:19,840
-like from the FCC related to
-
-210
-00:04:19,840 --> 00:04:22,550
+105
+00:04:19,840 --> 00:04:22,560
 like from the FCC related to
 shaken in the United States.
 
-211
-00:04:22,550 --> 00:04:22,560
-shaken in the United States.
-
-212
-00:04:22,560 --> 00:04:24,390
+106
+00:04:22,560 --> 00:04:24,400
 shaken in the United States.
 And after 10 billion dollars of
 
-213
-00:04:24,390 --> 00:04:24,400
-And after 10 billion dollars of
-
-214
-00:04:24,400 --> 00:04:26,150
+107
+00:04:24,400 --> 00:04:26,160
 And after 10 billion dollars of
 investment they haven't solved the
 
-215
-00:04:26,150 --> 00:04:26,160
-investment they haven't solved the
-
-216
-00:04:26,160 --> 00:04:28,230
+108
+00:04:26,160 --> 00:04:28,240
 investment they haven't solved the
 problem even a little bit. It's like
 
-217
-00:04:28,230 --> 00:04:28,240
-problem even a little bit. It's like
-
-218
-00:04:28,240 --> 00:04:30,950
+109
+00:04:28,240 --> 00:04:30,960
 problem even a little bit. It's like
 almost as bad as it was to start with.
 
-219
-00:04:30,950 --> 00:04:30,960
-almost as bad as it was to start with.
-
-220
-00:04:30,960 --> 00:04:32,550
+110
+00:04:30,960 --> 00:04:32,560
 almost as bad as it was to start with.
 The only way to solve the problem is
 
-221
-00:04:32,550 --> 00:04:32,560
-The only way to solve the problem is
-
-222
+111
 00:04:32,560 --> 00:04:36,070
 The only way to solve the problem is
 with KERI.
 
-223
-00:04:37,909 --> 00:04:37,919
+112
+00:04:37,909 --> 00:04:39,909
 I agree.
 
-224
-00:04:37,919 --> 00:04:39,909
-I agree.
-
-
-225
+113
 00:04:39,909 --> 00:04:39,919
 
 
-226
-00:04:39,919 --> 00:04:42,390
-
-I want to ask a little bit about you
-
-227
-00:04:42,390 --> 00:04:42,400
-I want to ask a little bit about you
-
-228
-00:04:42,400 --> 00:04:44,950
+114
+00:04:39,919 --> 00:04:44,960
 I want to ask a little bit about you
 all come from it seems pretty different
 
-229
-00:04:44,950 --> 00:04:44,960
-all come from it seems pretty different
-
-230
-00:04:44,960 --> 00:04:46,469
+115
+00:04:44,960 --> 00:04:46,479
 all come from it seems pretty different
 problem spaces. Maybe there's some
 
-231
-00:04:46,469 --> 00:04:46,479
-problem spaces. Maybe there's some
-
-232
-00:04:46,479 --> 00:04:49,430
+116
+00:04:46,479 --> 00:04:49,440
 problem spaces. Maybe there's some
 overlap in some cases but what
 
-233
-00:04:49,430 --> 00:04:49,440
-overlap in some cases but what
-
-234
-00:04:49,440 --> 00:04:51,670
+117
+00:04:49,440 --> 00:04:51,680
 overlap in some cases but what
 solutions have you evaluated or seen
 
-235
-00:04:51,670 --> 00:04:51,680
-solutions have you evaluated or seen
-
-236
-00:04:51,680 --> 00:04:53,670
+118
+00:04:51,680 --> 00:04:53,680
 solutions have you evaluated or seen
 attempted to some of the problems that
 
-237
-00:04:53,670 --> 00:04:53,680
+119
+00:04:53,680 --> 00:04:56,880
 attempted to some of the problems that
+you're particularly interested in?
 
-238
-00:04:53,680 --> 00:04:56,870
-attempted to some of the problems that
-you're particularly interested in? 
-
-239
-00:04:56,870 --> 00:04:56,880
-you're particularly interested in? 
-
-240
-00:04:56,880 --> 00:04:58,629
-you're particularly interested in? 
+120
+00:04:56,880 --> 00:04:58,639
+you're particularly interested in?
 And how have they what solutions
 
-241
-00:04:58,629 --> 00:04:58,639
-and how have they what solutions
-
-242
-00:04:58,639 --> 00:05:00,310
+121
+00:04:58,639 --> 00:05:00,320
 and how have they what solutions
 have you seen attempted and how
 
-243
-00:05:00,310 --> 00:05:00,320
-have you seen attempted and how
-
-244
-00:05:00,320 --> 00:05:01,590
+122
+00:05:00,320 --> 00:05:01,600
 have you seen attempted and how
 have they failed
 
-245
-00:05:01,590 --> 00:05:01,600
-have they failed
-
-246
-00:05:01,600 --> 00:05:03,430
+123
+00:05:01,600 --> 00:05:03,440
 have they failed
 without now let's not get into vendor
 
-247
-00:05:03,430 --> 00:05:03,440
-without now let's not get into vendor
-
-248
-00:05:03,440 --> 00:05:05,909
+124
+00:05:03,440 --> 00:05:05,919
 without now let's not get into vendor
 bashing and stuff like that you know
 
-249
-00:05:05,909 --> 00:05:05,919
-bashing and stuff like that you know
-
-250
-00:05:05,919 --> 00:05:08,230
+125
+00:05:05,919 --> 00:05:08,240
 bashing and stuff like that you know
 we'll try to be nice as much as we can
 
-251
-00:05:08,230 --> 00:05:08,240
-we'll try to be nice as much as we can
-
-252
-00:05:08,240 --> 00:05:10,870
+126
+00:05:08,240 --> 00:05:10,880
 we'll try to be nice as much as we can
 but you know what have you seen as
 
-253
-00:05:10,870 --> 00:05:10,880
-but you know what have you seen as
-
-254
-00:05:10,880 --> 00:05:14,150
+127
+00:05:10,880 --> 00:05:14,160
 but you know what have you seen as
 failures and we'll go from there and
 
-255
-00:05:14,150 --> 00:05:14,160
-failures and we'll go from there and
-
-256
-00:05:14,160 --> 00:05:16,790
+128
+00:05:14,160 --> 00:05:16,800
 failures and we'll go from there and
 this is open to all of you so whoever
 
-257
-00:05:16,790 --> 00:05:16,800
-this is open to all of you so whoever
-
-258
-00:05:16,800 --> 00:05:17,990
+129
+00:05:16,800 --> 00:05:18,000
 this is open to all of you so whoever
 would like to jump in first I
 
-259
-00:05:17,990 --> 00:05:18,000
-would like to jump in first I
-
-260
-00:05:18,000 --> 00:05:21,590
+130
+00:05:18,000 --> 00:05:21,600
 would like to jump in first I
 I think for me I in particular when I
 
-261
-00:05:21,590 --> 00:05:21,600
-I think for me I in particular when I
-
-262
-00:05:21,600 --> 00:05:22,870
+131
+00:05:21,600 --> 00:05:22,880
 I think for me I in particular when I
 was working primarily in the blockchain
 
-263
-00:05:22,870 --> 00:05:22,880
-was working primarily in the blockchain
-
-264
-00:05:22,880 --> 00:05:25,670
+132
+00:05:22,880 --> 00:05:25,680
 was working primarily in the blockchain
 space was focused on consensus systems
 
-265
-00:05:25,670 --> 00:05:25,680
-space was focused on consensus systems
-
-266
-00:05:25,680 --> 00:05:27,670
+133
+00:05:25,680 --> 00:05:27,680
 space was focused on consensus systems
 So thinking about again how do you
 
-267
-00:05:27,670 --> 00:05:27,680
+134
+00:05:27,680 --> 00:05:31,840
 So thinking about again how do you
+scale recognition of an event
 
-268
-00:05:27,680 --> 00:05:31,830
-So thinking about again how do you
-scale recognition of an event 
-
-269
-00:05:31,830 --> 00:05:31,840
-scale recognition of an event 
-
-270
-00:05:31,840 --> 00:05:34,629
-scale recognition of an event 
+135
+00:05:31,840 --> 00:05:34,639
+scale recognition of an event
 globally right and we went across many
 
-271
-00:05:34,629 --> 00:05:34,639
-globally right and we went across many
-
-272
-00:05:34,639 --> 00:05:38,469
+136
+00:05:34,639 --> 00:05:38,479
 globally right and we went across many
 different various obscure consensus
 
-273
-00:05:38,469 --> 00:05:38,479
-different various obscure consensus
-
-274
-00:05:38,479 --> 00:05:40,550
+137
+00:05:38,479 --> 00:05:40,560
 different various obscure consensus
 systems some that like are more than
 
-275
-00:05:40,550 --> 00:05:40,560
-systems some that like are more than
-
-276
-00:05:40,560 --> 00:05:42,950
+138
+00:05:40,560 --> 00:05:42,960
 systems some that like are more than
 proof of stake you have DAGs you have
 
-277
-00:05:42,950 --> 00:05:42,960
-proof of stake you have DAGs you have
-
-278
-00:05:42,960 --> 00:05:45,590
+139
+00:05:42,960 --> 00:05:45,600
 proof of stake you have DAGs you have
 parallel crystal streams it's it's it's
 
-279
-00:05:45,590 --> 00:05:45,600
-parallel crystal streams it's it's it's
-
-280
-00:05:45,600 --> 00:05:49,110
+140
+00:05:45,600 --> 00:05:49,120
 parallel crystal streams it's it's it's
 some crazy structures out there but I
 
-281
-00:05:49,110 --> 00:05:49,120
-some crazy structures out there but I
-
-282
-00:05:49,120 --> 00:05:51,749
+141
+00:05:49,120 --> 00:05:51,759
 some crazy structures out there but I
 think the bottom line is that you
 
-283
-00:05:51,749 --> 00:05:51,759
-think the bottom line is that you
-
-284
-00:05:51,759 --> 00:05:55,510
+142
+00:05:51,759 --> 00:05:55,520
 think the bottom line is that you
 need a system that is expressive enough
 
-285
-00:05:55,510 --> 00:05:55,520
-need a system that is expressive enough
-
-286
-00:05:55,520 --> 00:05:58,310
+143
+00:05:55,520 --> 00:05:58,320
 need a system that is expressive enough
 to if someone wants to define the limits
 
-287
-00:05:58,310 --> 00:05:58,320
-to if someone wants to define the limits
-
-288
-00:05:58,320 --> 00:06:00,950
+144
+00:05:58,320 --> 00:06:00,960
 to if someone wants to define the limits
 of consensus they can do so in such a
 
-289
-00:06:00,950 --> 00:06:00,960
-of consensus they can do so in such a
-
-290
-00:06:00,960 --> 00:06:03,990
+145
+00:06:00,960 --> 00:06:04,000
 of consensus they can do so in such a
 way that it can compose with another
 
-291
-00:06:03,990 --> 00:06:04,000
-way that it can compose with another
-
-292
-00:06:04,000 --> 00:06:05,749
+146
+00:06:04,000 --> 00:06:05,759
 way that it can compose with another
 consensus system because it all it is
 
-293
-00:06:05,749 --> 00:06:05,759
-consensus system because it all it is
-
-294
-00:06:05,759 --> 00:06:09,350
+147
+00:06:05,759 --> 00:06:09,360
 consensus system because it all it is
 governance right I'm going to push back
 
-295
-00:06:09,350 --> 00:06:09,360
-governance right I'm going to push back
-
-296
-00:06:09,360 --> 00:06:09,749
+148
+00:06:09,360 --> 00:06:09,759
 governance right I'm going to push back
 what
 
-297
-00:06:09,749 --> 00:06:09,759
-what
-
-298
-00:06:09,759 --> 00:06:12,309
+149
+00:06:09,759 --> 00:06:12,319
 what
 I'm going to push back I think with
 
-299
-00:06:12,309 --> 00:06:12,319
-I'm going to push back I think with
-
-300
-00:06:12,319 --> 00:06:14,390
+150
+00:06:12,319 --> 00:06:14,400
 I'm going to push back I think with
 KERI coming from the blockchain space
 
-301
-00:06:14,390 --> 00:06:14,400
-KERI coming from the blockchain space
-
-302
-00:06:14,400 --> 00:06:17,189
+151
+00:06:14,400 --> 00:06:17,199
 KERI coming from the blockchain space
 and consensus I think with KERI you
 
-303
-00:06:17,189 --> 00:06:17,199
-and consensus I think with KERI you
-
-304
-00:06:17,199 --> 00:06:19,830
+152
+00:06:17,199 --> 00:06:19,840
 and consensus I think with KERI you
 don't actually need consensus all you
 
-305
-00:06:19,830 --> 00:06:19,840
-don't actually need consensus all you
-
-306
-00:06:19,840 --> 00:06:24,790
+153
+00:06:19,840 --> 00:06:24,800
 don't actually need consensus all you
 need is one honest watcher to tell you
 
-307
-00:06:24,790 --> 00:06:24,800
-need is one honest watcher to tell you
-
-308
-00:06:24,800 --> 00:06:25,590
+154
+00:06:24,800 --> 00:06:25,600
 need is one honest watcher to tell you
 someone's lying.
 
-309
-00:06:25,590 --> 00:06:25,600
-someone's lying.
-
-310
-00:06:25,600 --> 00:06:27,029
+155
+00:06:25,600 --> 00:06:27,039
 someone's lying.
 I Wait, so hold on.
 
-311
-00:06:27,029 --> 00:06:27,039
-I Wait, so hold on.
-
-312
-00:06:27,039 --> 00:06:28,309
+156
+00:06:27,039 --> 00:06:28,319
 I Wait, so hold on.
 Well, maybe I misinterpreted what you
 
-313
-00:06:28,309 --> 00:06:28,319
-Well, maybe I misinterpreted what you
-
-314
-00:06:28,319 --> 00:06:28,390
+157
+00:06:28,319 --> 00:06:28,400
 Well, maybe I misinterpreted what you
 said.
 
-315
-00:06:28,390 --> 00:06:28,400
-said.
-
-316
-00:06:28,400 --> 00:06:29,749
+158
+00:06:28,400 --> 00:06:29,759
 said.
 No, no, no. I was leading there.
 
-317
-00:06:29,749 --> 00:06:29,759
-No, no, no. I was leading there.
-
-318
-00:06:29,759 --> 00:06:30,309
+159
+00:06:29,759 --> 00:06:30,319
 No, no, no. I was leading there.
 Okay. Okay.
 
-319
-00:06:30,309 --> 00:06:30,319
-Okay. Okay.
-
-320
-00:06:30,319 --> 00:06:32,469
+160
+00:06:30,319 --> 00:06:32,479
 Okay. Okay.
 Right. In the sense that like you don't
 
-321
-00:06:32,469 --> 00:06:32,479
-Right. In the sense that like you don't
-
-322
-00:06:32,479 --> 00:06:34,070
+161
+00:06:32,479 --> 00:06:34,080
 Right. In the sense that like you don't
 need consensus.
 
-323
-00:06:34,070 --> 00:06:34,080
-need consensus.
-
-324
-00:06:34,080 --> 00:06:37,350
+162
+00:06:34,080 --> 00:06:37,360
 need consensus.
 What you need is convergence.
 
-325
-00:06:37,350 --> 00:06:37,360
-What you need is convergence.
-
-326
-00:06:37,360 --> 00:06:39,270
+163
+00:06:37,360 --> 00:06:39,280
 What you need is convergence.
 Convergence on the truth.
 
-327
-00:06:39,270 --> 00:06:39,280
+164
+00:06:39,280 --> 00:06:43,199
 Convergence on the truth.
+To your question.
 
-328
-00:06:39,280 --> 00:06:43,189
-Convergence on the truth.
-To your question. 
-
-329
-00:06:43,189 --> 00:06:43,199
-To your question. 
-
-330
-00:06:43,199 --> 00:06:46,950
-To your question. 
+165
+00:06:43,199 --> 00:06:46,960
+To your question.
 For me the failures that I have
 
-331
-00:06:46,950 --> 00:06:46,960
-for me the failures that I have
-
-332
-00:06:46,960 --> 00:06:49,029
+166
+00:06:46,960 --> 00:06:49,039
 for me the failures that I have
 seen in the decentralized identity space
 
-333
-00:06:49,029 --> 00:06:49,039
-seen in the decentralized identity space
-
-334
-00:06:49,039 --> 00:06:51,590
+167
+00:06:49,039 --> 00:06:51,600
 seen in the decentralized identity space
 is when the logic of digital identity
 
-335
-00:06:51,590 --> 00:06:51,600
-is when the logic of digital identity
-
-336
-00:06:51,600 --> 00:06:54,230
+168
+00:06:51,600 --> 00:06:54,240
 is when the logic of digital identity
 was applied to decentralization of
 
-337
-00:06:54,230 --> 00:06:54,240
-was applied to decentralization of
-
-338
-00:06:54,240 --> 00:06:56,629
+169
+00:06:54,240 --> 00:06:56,639
 was applied to decentralization of
 finance where
 
-339
-00:06:56,629 --> 00:06:56,639
-finance where
-
-340
-00:06:56,639 --> 00:07:00,150
+170
+00:06:56,639 --> 00:07:00,160
 finance where
 Blockchain networks tried to do the
 
-341
-00:07:00,150 --> 00:07:00,160
-Blockchain networks tried to do the
-
-342
-00:07:00,160 --> 00:07:01,589
+171
+00:07:00,160 --> 00:07:01,599
 Blockchain networks tried to do the
 same thing they did with a token with
 
-343
-00:07:01,589 --> 00:07:01,599
-same thing they did with a token with
-
-344
-00:07:01,599 --> 00:07:03,270
+172
+00:07:01,599 --> 00:07:03,280
 same thing they did with a token with
 your identity. then you end up just
 
-345
-00:07:03,270 --> 00:07:03,280
-your identity. then you end up just
-
-346
-00:07:03,280 --> 00:07:05,830
+173
+00:07:03,280 --> 00:07:05,840
 your identity. then you end up just
 locking an identity into another network
 
-347
-00:07:05,830 --> 00:07:05,840
-locking an identity into another network
-
-348
-00:07:05,840 --> 00:07:09,830
+174
+00:07:05,840 --> 00:07:09,840
 locking an identity into another network
 with varying actual decentralization
 
-349
-00:07:09,830 --> 00:07:09,840
-with varying actual decentralization
-
-350
-00:07:09,840 --> 00:07:13,589
+175
+00:07:09,840 --> 00:07:13,599
 with varying actual decentralization
 And relying on purchasing of a token
 
-351
-00:07:13,589 --> 00:07:13,599
-And relying on purchasing of a token
-
-352
-00:07:13,599 --> 00:07:15,830
+176
+00:07:13,599 --> 00:07:15,840
 And relying on purchasing of a token
 for that identity to work and then not
 
-353
-00:07:15,830 --> 00:07:15,840
-for that identity to work and then not
-
-354
-00:07:15,840 --> 00:07:17,270
+177
+00:07:15,840 --> 00:07:17,280
 for that identity to work and then not
 really being able to use it outside of
 
-355
-00:07:17,270 --> 00:07:17,280
-really being able to use it outside of
-
-356
-00:07:17,280 --> 00:07:20,469
+178
+00:07:17,280 --> 00:07:20,479
 really being able to use it outside of
 that ecosystem. So for me the
 
-357
-00:07:20,469 --> 00:07:20,479
-that ecosystem. So for me the
-
-358
-00:07:20,479 --> 00:07:23,510
+179
+00:07:20,479 --> 00:07:23,520
 that ecosystem. So for me the
 failures are trying to apply what we've
 
-359
-00:07:23,510 --> 00:07:23,520
-failures are trying to apply what we've
-
-360
-00:07:23,520 --> 00:07:25,510
+180
+00:07:23,520 --> 00:07:25,520
 failures are trying to apply what we've
 applied to decentralized finance to
 
-361
-00:07:25,510 --> 00:07:25,520
-applied to decentralized finance to
-
-362
-00:07:25,520 --> 00:07:28,230
+181
+00:07:25,520 --> 00:07:28,240
 applied to decentralized finance to
 identity and that just does not work.
 
-363
-00:07:28,230 --> 00:07:28,240
-identity and that just does not work.
-
-364
-00:07:28,240 --> 00:07:30,309
+182
+00:07:28,240 --> 00:07:30,319
 identity and that just does not work.
 And why not like give us a little more
 
-365
-00:07:30,309 --> 00:07:30,319
-And why not like give us a little more
-
-366
-00:07:30,319 --> 00:07:31,990
+183
+00:07:30,319 --> 00:07:32,000
 And why not like give us a little more
 detail on Well, well, because
 
-367
-00:07:31,990 --> 00:07:32,000
-detail on Well, well, because
-
-368
-00:07:32,000 --> 00:07:33,990
+184
+00:07:32,000 --> 00:07:34,000
 detail on Well, well, because
 effectively your identity is once again
 
-369
-00:07:33,990 --> 00:07:34,000
-effectively your identity is once again
-
-370
-00:07:34,000 --> 00:07:37,510
+185
+00:07:34,000 --> 00:07:37,520
 effectively your identity is once again
 siloed into a network. It's relying on a
 
-371
-00:07:37,510 --> 00:07:37,520
-siloed into a network. It's relying on a
-
-372
-00:07:37,520 --> 00:07:41,749
+186
+00:07:37,520 --> 00:07:41,759
 siloed into a network. It's relying on a
 token. It's also non-existent once
 
-373
-00:07:41,749 --> 00:07:41,759
-token. It's also non-existent once
-
-374
-00:07:41,759 --> 00:07:43,749
+187
+00:07:41,759 --> 00:07:43,759
 token. It's also non-existent once
 that network fails or that chain
 
-375
-00:07:43,749 --> 00:07:43,759
-that network fails or that chain
-
-376
-00:07:43,759 --> 00:07:46,390
+188
+00:07:43,759 --> 00:07:46,400
 that network fails or that chain
 crashes. And it has no meaning or
 
-377
-00:07:46,390 --> 00:07:46,400
-crashes. And it has no meaning or
-
-378
-00:07:46,400 --> 00:07:48,469
+189
+00:07:46,400 --> 00:07:48,479
 crashes. And it has no meaning or
 authenticity outside of that network.
 
-379
-00:07:48,469 --> 00:07:48,479
-authenticity outside of that network.
-
-380
-00:07:48,479 --> 00:07:51,510
+190
+00:07:48,479 --> 00:07:51,520
 authenticity outside of that network.
 So I need multiple identities
 
-381
-00:07:51,510 --> 00:07:51,520
-So I need multiple identities
-
-382
-00:07:51,520 --> 00:07:53,270
+191
+00:07:51,520 --> 00:07:53,280
 So I need multiple identities
 across multiple chains of multiple
 
-383
-00:07:53,270 --> 00:07:53,280
-across multiple chains of multiple
-
-384
-00:07:53,280 --> 00:07:56,309
+192
+00:07:53,280 --> 00:07:56,319
 across multiple chains of multiple
 tokens that have multiple levels of
 
-385
-00:07:56,309 --> 00:07:56,319
-tokens that have multiple levels of
-
-386
-00:07:56,319 --> 00:07:58,390
+193
+00:07:56,319 --> 00:07:58,400
 tokens that have multiple levels of
 security. it just isn't the right way to
 
-387
-00:07:58,390 --> 00:07:58,400
-security. it just isn't the right way to
-
-388
-00:07:58,400 --> 00:08:01,909
+194
+00:07:58,400 --> 00:08:01,919
 security. it just isn't the right way to
 go about decentralized identity.
 
-389
-00:08:01,909 --> 00:08:01,919
-go about decentralized identity.
-
-390
-00:08:01,919 --> 00:08:04,469
+195
+00:08:01,919 --> 00:08:04,479
 go about decentralized identity.
 I'd like to comment that one of the
 
-391
-00:08:04,469 --> 00:08:04,479
-I'd like to comment that one of the
-
-392
-00:08:04,479 --> 00:08:06,390
+196
+00:08:04,479 --> 00:08:06,400
 I'd like to comment that one of the
 failure modes that I see and that I'm
 
-393
-00:08:06,390 --> 00:08:06,400
-failure modes that I see and that I'm
-
-394
-00:08:06,400 --> 00:08:08,390
+197
+00:08:06,400 --> 00:08:08,400
 failure modes that I see and that I'm
 deeply concerned about right now is the
 
-395
-00:08:08,390 --> 00:08:08,400
-deeply concerned about right now is the
-
-396
-00:08:08,400 --> 00:08:10,869
+198
+00:08:08,400 --> 00:08:10,879
 deeply concerned about right now is the
 idea of business wallets.
 
-397
-00:08:10,869 --> 00:08:10,879
-idea of business wallets.
-
-398
-00:08:10,879 --> 00:08:12,309
+199
+00:08:10,879 --> 00:08:12,319
 idea of business wallets.
 I think this is one of the most
 
-399
-00:08:12,309 --> 00:08:12,319
+200
+00:08:12,319 --> 00:08:15,599
 I think this is one of the most
+dangerous and worthless efforts
 
-400
-00:08:12,319 --> 00:08:15,589
-I think this is one of the most
-dangerous and worthless efforts 
+201
+00:08:15,599 --> 00:08:18,479
+dangerous and worthless efforts
+that the world has ever come up with.
 
-401
-00:08:15,589 --> 00:08:15,599
-dangerous and worthless efforts 
-
-402
-00:08:15,599 --> 00:08:18,469
-dangerous and worthless efforts 
-that the world has ever come up with. 
-
-403
-00:08:18,469 --> 00:08:18,479
-that the world has ever come up with. 
-
-404
-00:08:18,479 --> 00:08:20,550
-that the world has ever come up with. 
+202
+00:08:18,479 --> 00:08:20,560
+that the world has ever come up with.
 That's strong words, but I think the
 
-405
-00:08:20,550 --> 00:08:20,560
-that's strong words, but I think the
-
-406
-00:08:20,560 --> 00:08:23,029
+203
+00:08:20,560 --> 00:08:23,039
 that's strong words, but I think the
 whole EU business wallet initiative is
 
-407
-00:08:23,029 --> 00:08:23,039
-whole EU business wallet initiative is
-
-408
-00:08:23,039 --> 00:08:25,270
+204
+00:08:23,039 --> 00:08:25,280
 whole EU business wallet initiative is
 destined for failure.
 
-409
-00:08:25,270 --> 00:08:25,280
-destined for failure.
-
-410
-00:08:25,280 --> 00:08:27,830
+205
+00:08:25,280 --> 00:08:27,840
 destined for failure.
 And part of the reason why is because
 
-411
-00:08:27,830 --> 00:08:27,840
-And part of the reason why is because
-
-412
-00:08:27,840 --> 00:08:30,469
+206
+00:08:27,840 --> 00:08:30,479
 And part of the reason why is because
 it's not respecting the first
 
-413
-00:08:30,469 --> 00:08:30,479
-it's not respecting the first
-
-414
-00:08:30,479 --> 00:08:32,949
+207
+00:08:30,479 --> 00:08:32,959
 it's not respecting the first
 principle which is you have to
 
-415
-00:08:32,949 --> 00:08:32,959
-principle which is you have to
-
-416
-00:08:32,959 --> 00:08:35,750
+208
+00:08:32,959 --> 00:08:35,760
 principle which is you have to
 have transparency. If you wrap a border
 
-417
-00:08:35,750 --> 00:08:35,760
-have transparency. If you wrap a border
-
-418
-00:08:35,760 --> 00:08:38,149
+209
+00:08:35,760 --> 00:08:38,159
 have transparency. If you wrap a border
 around an organization and say we're
 
-419
-00:08:38,149 --> 00:08:38,159
-around an organization and say we're
-
-420
-00:08:38,159 --> 00:08:40,230
+210
+00:08:38,159 --> 00:08:40,240
 around an organization and say we're
 going to think of everything inside this
 
-421
-00:08:40,230 --> 00:08:40,240
-going to think of everything inside this
-
-422
-00:08:40,240 --> 00:08:43,430
+211
+00:08:40,240 --> 00:08:43,440
 going to think of everything inside this
 organization as being atomic. We
 
-423
-00:08:43,430 --> 00:08:43,440
-organization as being atomic. We
-
-424
-00:08:43,440 --> 00:08:45,509
+212
+00:08:43,440 --> 00:08:45,519
 organization as being atomic. We
 can't decompose it in any way and we're
 
-425
-00:08:45,509 --> 00:08:45,519
-can't decompose it in any way and we're
-
-426
-00:08:45,519 --> 00:08:47,509
+213
+00:08:45,519 --> 00:08:47,519
 can't decompose it in any way and we're
 just going to say the organization
 
-427
-00:08:47,509 --> 00:08:47,519
-just going to say the organization
-
-428
-00:08:47,519 --> 00:08:49,990
+214
+00:08:47,519 --> 00:08:50,000
 just going to say the organization
 projects its identity outward and
 
-429
-00:08:49,990 --> 00:08:50,000
-projects its identity outward and
-
-430
-00:08:50,000 --> 00:08:53,269
+215
+00:08:50,000 --> 00:08:53,279
 projects its identity outward and
 everything inside of it is irrelevant.
 
-431
-00:08:53,269 --> 00:08:53,279
-everything inside of it is irrelevant.
-
-432
-00:08:53,279 --> 00:08:56,230
+216
+00:08:53,279 --> 00:08:56,240
 everything inside of it is irrelevant.
 you end up no matter what your key
 
-433
-00:08:56,230 --> 00:08:56,240
-you end up no matter what your key
-
-434
-00:08:56,240 --> 00:08:58,310
+217
+00:08:56,240 --> 00:08:58,320
 you end up no matter what your key
 management strategy is, no matter what
 
-435
-00:08:58,310 --> 00:08:58,320
-management strategy is, no matter what
-
-436
-00:08:58,320 --> 00:09:00,310
+218
+00:08:58,320 --> 00:09:00,320
 management strategy is, no matter what
 your credential formats are, whatever,
 
-437
-00:09:00,310 --> 00:09:00,320
-your credential formats are, whatever,
-
-438
-00:09:00,320 --> 00:09:02,949
+219
+00:09:00,320 --> 00:09:02,959
 your credential formats are, whatever,
 you end up in failure mode. And so in
 
-439
-00:09:02,949 --> 00:09:02,959
+220
+00:09:02,959 --> 00:09:05,040
 you end up in failure mode. And so in
+some ways, this is a shout out to
 
-440
-00:09:02,959 --> 00:09:05,030
-you end up in failure mode. And so in
-some ways, this is a shout out to 
-
-441
-00:09:05,030 --> 00:09:05,040
-some ways, this is a shout out to 
-
-442
-00:09:05,040 --> 00:09:07,670
-some ways, this is a shout out to 
+221
+00:09:05,040 --> 00:09:07,680
+some ways, this is a shout out to
 Carla. I think the fundamental
 
-443
-00:09:07,670 --> 00:09:07,680
-Carla. I think the fundamental
-
-444
-00:09:07,680 --> 00:09:10,550
+222
+00:09:07,680 --> 00:09:10,560
 Carla. I think the fundamental
 principles of VLES
 
-445
-00:09:10,550 --> 00:09:10,560
-principles of VLES
-
-446
-00:09:10,560 --> 00:09:13,750
+223
+00:09:10,560 --> 00:09:13,760
 principles of VLES
 are deeply true. Those principles are
 
-447
-00:09:13,750 --> 00:09:13,760
-are deeply true. Those principles are
-
-448
-00:09:13,760 --> 00:09:15,910
+224
+00:09:13,760 --> 00:09:15,920
 are deeply true. Those principles are
 that an organization doesn't just have
 
-449
-00:09:15,910 --> 00:09:15,920
-that an organization doesn't just have
-
-450
-00:09:15,920 --> 00:09:18,230
+225
+00:09:15,920 --> 00:09:18,240
 that an organization doesn't just have
 authority because it exists. And people
 
-451
-00:09:18,230 --> 00:09:18,240
-authority because it exists. And people
-
-452
-00:09:18,240 --> 00:09:20,070
+226
+00:09:18,240 --> 00:09:20,080
 authority because it exists. And people
 who belong to an organization don't have
 
-453
-00:09:20,070 --> 00:09:20,080
-who belong to an organization don't have
-
-454
-00:09:20,080 --> 00:09:21,590
+227
+00:09:20,080 --> 00:09:21,600
 who belong to an organization don't have
 authority just because they belong to
 
-455
-00:09:21,590 --> 00:09:21,600
-authority just because they belong to
-
-456
-00:09:21,600 --> 00:09:23,829
+228
+00:09:21,600 --> 00:09:23,839
 authority just because they belong to
 the organization. They actually have
 
-457
-00:09:23,829 --> 00:09:23,839
-the organization. They actually have
-
-458
-00:09:23,839 --> 00:09:25,430
+229
+00:09:23,839 --> 00:09:25,440
 the organization. They actually have
 authority because they got delegated
 
-459
-00:09:25,430 --> 00:09:25,440
-authority because they got delegated
-
-460
-00:09:25,440 --> 00:09:27,829
+230
+00:09:25,440 --> 00:09:27,839
 authority because they got delegated
 authority from somewhere. And if you
 
-461
-00:09:27,829 --> 00:09:27,839
-authority from somewhere. And if you
-
-462
-00:09:27,839 --> 00:09:30,310
+231
+00:09:27,839 --> 00:09:30,320
 authority from somewhere. And if you
 can't track that down, you end up with a
 
-463
-00:09:30,310 --> 00:09:30,320
-can't track that down, you end up with a
-
-464
-00:09:30,320 --> 00:09:31,910
+232
+00:09:30,320 --> 00:09:31,920
 can't track that down, you end up with a
 massive failure mode for the whole
 
-465
-00:09:31,910 --> 00:09:31,920
-massive failure mode for the whole
-
-466
-00:09:31,920 --> 00:09:34,790
+233
+00:09:31,920 --> 00:09:34,800
 massive failure mode for the whole
 world.
 
-467
-00:09:34,790 --> 00:09:34,800
-world.
-
-468
-00:09:34,800 --> 00:09:35,590
+234
+00:09:34,800 --> 00:09:35,600
 world.
 Alan,
 
-469
-00:09:35,590 --> 00:09:35,600
-Alan,
-
-470
-00:09:35,600 --> 00:09:37,750
+235
+00:09:35,600 --> 00:09:37,760
 Alan,
 yeah, I see something that is a
 
-471
-00:09:37,750 --> 00:09:37,760
-yeah, I see something that is a
-
-472
-00:09:37,760 --> 00:09:39,910
+236
+00:09:37,760 --> 00:09:39,920
 yeah, I see something that is a
 continuing failure in the world
 
-473
-00:09:39,910 --> 00:09:39,920
-continuing failure in the world
-
-474
-00:09:39,920 --> 00:09:41,990
+237
+00:09:39,920 --> 00:09:42,000
 continuing failure in the world
 generally, which is something I call
 
-475
-00:09:41,990 --> 00:09:42,000
-generally, which is something I call
-
-476
-00:09:42,000 --> 00:09:45,750
+238
+00:09:42,000 --> 00:09:45,760
 generally, which is something I call
 identity theater. And I call
 
-477
-00:09:45,750 --> 00:09:45,760
-identity theater. And I call
-
-478
-00:09:45,760 --> 00:09:47,670
+239
+00:09:45,760 --> 00:09:47,680
 identity theater. And I call
 someone up and they say, "Oh, what's
 
-479
-00:09:47,670 --> 00:09:47,680
-someone up and they say, "Oh, what's
-
-480
-00:09:47,680 --> 00:09:49,910
+240
+00:09:47,680 --> 00:09:49,920
 someone up and they say, "Oh, what's
 your email address? What's your mailing
 
-481
-00:09:49,910 --> 00:09:49,920
-your email address? What's your mailing
-
-482
-00:09:49,920 --> 00:09:51,269
+241
+00:09:49,920 --> 00:09:51,279
 your email address? What's your mailing
 address?" They ask me a bunch of
 
-483
-00:09:51,269 --> 00:09:51,279
-address?" They ask me a bunch of
-
-484
-00:09:51,279 --> 00:09:53,350
+242
+00:09:51,279 --> 00:09:53,360
 address?" They ask me a bunch of
 questions that somehow are supposed to
 
-485
-00:09:53,350 --> 00:09:53,360
-questions that somehow are supposed to
-
-486
-00:09:53,360 --> 00:09:55,269
+243
+00:09:53,360 --> 00:09:55,279
 questions that somehow are supposed to
 prove that I am me. And I'll say, "So,
 
-487
-00:09:55,269 --> 00:09:55,279
-prove that I am me. And I'll say, "So,
-
-488
-00:09:55,279 --> 00:09:57,750
+244
+00:09:55,279 --> 00:09:57,760
 prove that I am me. And I'll say, "So,
 did that really prove that I am me?"
 
-489
-00:09:57,750 --> 00:09:57,760
-did that really prove that I am me?"
-
-490
-00:09:57,760 --> 00:09:59,190
+245
+00:09:57,760 --> 00:09:59,200
 did that really prove that I am me?"
 And they just laugh at the other end,
 
-491
-00:09:59,190 --> 00:09:59,200
-And they just laugh at the other end,
-
-492
-00:09:59,200 --> 00:10:01,350
+246
+00:09:59,200 --> 00:10:01,360
 And they just laugh at the other end,
 but they continuously do it. I went
 
-493
-00:10:01,350 --> 00:10:01,360
-but they continuously do it. I went
-
-494
-00:10:01,360 --> 00:10:04,470
+247
+00:10:01,360 --> 00:10:04,480
 but they continuously do it. I went
 through an airport the other day,
 
-495
-00:10:04,470 --> 00:10:04,480
-through an airport the other day,
-
-496
-00:10:04,480 --> 00:10:07,509
+248
+00:10:04,480 --> 00:10:07,519
 through an airport the other day,
 and they checked our passports five
 
-497
-00:10:07,509 --> 00:10:07,519
-and they checked our passports five
-
-498
-00:10:07,519 --> 00:10:09,670
+249
+00:10:07,519 --> 00:10:09,680
 and they checked our passports five
 times on the way through to the gate.
 
-499
-00:10:09,670 --> 00:10:09,680
+250
+00:10:09,680 --> 00:10:11,600
 times on the way through to the gate.
+And
 
-500
-00:10:09,680 --> 00:10:11,590
-times on the way through to the gate.
-And 
-
-501
-00:10:11,590 --> 00:10:11,600
-And 
-
-502
-00:10:11,600 --> 00:10:11,910
-And 
+251
+00:10:11,600 --> 00:10:11,920
+And
 why
 
-503
-00:10:11,910 --> 00:10:11,920
-why
-
-504
-00:10:11,920 --> 00:10:14,150
+252
+00:10:11,920 --> 00:10:14,160
 why
 it's it's why it's it's just it's just
 
-505
-00:10:14,150 --> 00:10:14,160
-it's it's why it's it's just it's just
-
-506
-00:10:14,160 --> 00:10:16,389
+253
+00:10:14,160 --> 00:10:16,399
 it's it's why it's it's just it's just
 Security theater, identity theater,
 
-507
-00:10:16,389 --> 00:10:16,399
-Security theater, identity theater,
-
-508
-00:10:16,399 --> 00:10:18,470
+254
+00:10:16,399 --> 00:10:18,480
 Security theater, identity theater,
 whatever you want to call it, but it's
 
-509
-00:10:18,470 --> 00:10:18,480
-whatever you want to call it, but it's
-
-510
-00:10:18,480 --> 00:10:20,949
+255
+00:10:18,480 --> 00:10:20,959
 whatever you want to call it, but it's
 The SAD thing is that's
 
-511
-00:10:20,949 --> 00:10:20,959
-The SAD thing is that's
-
-512
-00:10:20,959 --> 00:10:22,790
+256
+00:10:20,959 --> 00:10:22,800
 The SAD thing is that's
 the that's the best that the business
 
-513
-00:10:22,790 --> 00:10:22,800
-the that's the best that the business
-
-514
-00:10:22,800 --> 00:10:26,790
+257
+00:10:22,800 --> 00:10:26,800
 the that's the best that the business
 world has at the moment. And they
 
-515
-00:10:26,790 --> 00:10:26,800
-world has at the moment. And they
-
-516
-00:10:26,800 --> 00:10:29,670
+258
+00:10:26,800 --> 00:10:29,680
 world has at the moment. And they
 seem to think it's okay.
 
-517
-00:10:29,670 --> 00:10:29,680
-seem to think it's okay.
-
-518
-00:10:29,680 --> 00:10:32,150
+259
+00:10:29,680 --> 00:10:32,160
 seem to think it's okay.
 Better things are coming.
 
-519
-00:10:32,150 --> 00:10:32,160
-Better things are coming.
-
-520
-00:10:32,160 --> 00:10:34,069
+260
+00:10:32,160 --> 00:10:34,079
 Better things are coming.
 Good. Okay. Speaking of theater, I'm
 
-521
-00:10:34,069 --> 00:10:34,079
-Good. Okay. Speaking of theater, I'm
-
-522
-00:10:34,079 --> 00:10:35,750
+261
+00:10:34,079 --> 00:10:35,760
 Good. Okay. Speaking of theater, I'm
 glad you brought that up because one
 
-523
-00:10:35,750 --> 00:10:35,760
-glad you brought that up because one
-
-524
-00:10:35,760 --> 00:10:37,190
+262
+00:10:35,760 --> 00:10:37,200
 glad you brought that up because one
 of the questions I wanted to ask and I'm
 
-525
-00:10:37,190 --> 00:10:37,200
-of the questions I wanted to ask and I'm
-
-526
-00:10:37,200 --> 00:10:38,389
+263
+00:10:37,200 --> 00:10:38,399
 of the questions I wanted to ask and I'm
 going to direct this specifically at
 
-527
-00:10:38,389 --> 00:10:38,399
-going to direct this specifically at
-
-528
-00:10:38,399 --> 00:10:41,110
+264
+00:10:38,399 --> 00:10:41,120
 going to direct this specifically at
 Thomas and Allan to start with just
 
-529
-00:10:41,110 --> 00:10:41,120
-Thomas and Allan to start with just
-
-530
-00:10:41,120 --> 00:10:42,470
+265
+00:10:41,120 --> 00:10:42,480
 Thomas and Allan to start with just
 because we heard your presentations
 
-531
-00:10:42,470 --> 00:10:42,480
-because we heard your presentations
-
-532
-00:10:42,480 --> 00:10:44,870
+266
+00:10:42,480 --> 00:10:44,880
 because we heard your presentations
 earlier today and both of you talked
 
-533
-00:10:44,870 --> 00:10:44,880
-earlier today and both of you talked
-
-534
-00:10:44,880 --> 00:10:46,310
+267
+00:10:44,880 --> 00:10:46,320
 earlier today and both of you talked
 about in different ways. Allan, you
 
-535
-00:10:46,310 --> 00:10:46,320
-about in different ways. Allan, you
-
-536
-00:10:46,320 --> 00:10:48,230
+268
+00:10:46,320 --> 00:10:48,240
 about in different ways. Allan, you
 mentioned kind of taking a bit of a
 
-537
-00:10:48,230 --> 00:10:48,240
-mentioned kind of taking a bit of a
-
-538
-00:10:48,240 --> 00:10:49,910
+269
+00:10:48,240 --> 00:10:49,920
 mentioned kind of taking a bit of a
 step-wise approach to getting KERI out
 
-539
-00:10:49,910 --> 00:10:49,920
-step-wise approach to getting KERI out
-
-540
-00:10:49,920 --> 00:10:52,069
+270
+00:10:49,920 --> 00:10:52,079
 step-wise approach to getting KERI out
 into the world and Thomas, you mentioned
 
-541
-00:10:52,069 --> 00:10:52,079
-into the world and Thomas, you mentioned
-
-542
-00:10:52,079 --> 00:10:54,870
+271
+00:10:52,079 --> 00:10:54,880
 into the world and Thomas, you mentioned
 a version of KERI maybe that's not
 
-543
-00:10:54,870 --> 00:10:54,880
-a version of KERI maybe that's not
-
-544
-00:10:54,880 --> 00:10:57,350
+272
+00:10:54,880 --> 00:10:57,360
 a version of KERI maybe that's not
 fully implemented as KERI as it is
 
-545
-00:10:57,350 --> 00:10:57,360
-fully implemented as KERI as it is
-
-546
-00:10:57,360 --> 00:10:59,670
+273
+00:10:57,360 --> 00:10:59,680
 fully implemented as KERI as it is
 defined. What do you see as the risks of
 
-547
-00:10:59,670 --> 00:10:59,680
-defined. What do you see as the risks of
-
-548
-00:10:59,680 --> 00:11:01,750
+274
+00:10:59,680 --> 00:11:01,760
 defined. What do you see as the risks of
 what you might call KERI theater where
 
-549
-00:11:01,750 --> 00:11:01,760
-what you might call KERI theater where
-
-550
-00:11:01,760 --> 00:11:05,750
+275
+00:11:01,760 --> 00:11:05,760
 what you might call KERI theater where
 where it's not fully KERI but that's
 
-551
-00:11:05,750 --> 00:11:05,760
-where it's not fully KERI but that's
-
-552
-00:11:05,760 --> 00:11:07,509
+276
+00:11:05,760 --> 00:11:07,519
 where it's not fully KERI but that's
 out there in the world but some form of
 
-553
-00:11:07,509 --> 00:11:07,519
-out there in the world but some form of
-
-554
-00:11:07,519 --> 00:11:09,509
+277
+00:11:07,519 --> 00:11:09,519
 out there in the world but some form of
 it? What do you see as potentially risk
 
-555
-00:11:09,509 --> 00:11:09,519
-it? What do you see as potentially risk
-
-556
-00:11:09,519 --> 00:11:10,949
+278
+00:11:09,519 --> 00:11:10,959
 it? What do you see as potentially risk
 that we need to be aware of in that sort
 
-557
-00:11:10,949 --> 00:11:10,959
-that we need to be aware of in that sort
-
-558
+279
 00:11:10,959 --> 00:11:14,470
 that we need to be aware of in that sort
 of situation?
 
-559
-00:11:18,389 --> 00:11:18,399
-I'll go first. I think it should be
-
-560
-00:11:18,399 --> 00:11:22,389
+280
+00:11:18,389 --> 00:11:22,399
 I'll go first. I think it should be
 Really as much of caring as is
 
-561
-00:11:22,389 --> 00:11:22,399
-Really as much of caring as is
-
-562
-00:11:22,399 --> 00:11:24,710
+281
+00:11:22,399 --> 00:11:24,720
 Really as much of caring as is
 necessary to make it fully secure and
 
-563
-00:11:24,710 --> 00:11:24,720
-necessary to make it fully secure and
-
-564
-00:11:24,720 --> 00:11:29,750
+282
+00:11:24,720 --> 00:11:29,760
 necessary to make it fully secure and
 privacy protecting. but there's
 
-565
-00:11:29,750 --> 00:11:29,760
-privacy protecting. but there's
-
-566
-00:11:29,760 --> 00:11:32,710
+283
+00:11:29,760 --> 00:11:32,720
 privacy protecting. but there's
 nothing wrong with that being built into
 
-567
-00:11:32,710 --> 00:11:32,720
-nothing wrong with that being built into
-
-568
-00:11:32,720 --> 00:11:36,069
+284
+00:11:32,720 --> 00:11:36,079
 nothing wrong with that being built into
 existing legacy applications to add this
 
-569
-00:11:36,069 --> 00:11:36,079
-existing legacy applications to add this
-
-570
-00:11:36,079 --> 00:11:39,350
+285
+00:11:36,079 --> 00:11:39,360
 existing legacy applications to add this
 layer of trustability onto existing
 
-571
-00:11:39,350 --> 00:11:39,360
-layer of trustability onto existing
-
-572
-00:11:39,360 --> 00:11:43,750
+286
+00:11:39,360 --> 00:11:43,760
 layer of trustability onto existing
 transactions that are at risk.
 
-573
-00:11:43,750 --> 00:11:43,760
-transactions that are at risk.
-
-574
-00:11:43,760 --> 00:11:46,150
+287
+00:11:43,760 --> 00:11:46,160
 transactions that are at risk.
 So but no it really if it if it's
 
-575
-00:11:46,150 --> 00:11:46,160
-So but no it really if it if it's
-
-576
-00:11:46,160 --> 00:11:49,670
+288
+00:11:46,160 --> 00:11:49,680
 So but no it really if it if it's
 not as much care as is needed to
 
-577
-00:11:49,670 --> 00:11:49,680
-not as much care as is needed to
-
-578
-00:11:49,680 --> 00:11:52,949
+289
+00:11:49,680 --> 00:11:52,959
 not as much care as is needed to
 make it secure and safe then that's
 
-579
-00:11:52,949 --> 00:11:52,959
-make it secure and safe then that's
-
-580
-00:11:52,959 --> 00:11:54,949
+290
+00:11:52,959 --> 00:11:54,959
 make it secure and safe then that's
 not going to be good enough.
 
-581
-00:11:54,949 --> 00:11:54,959
-not going to be good enough.
-
-582
-00:11:54,959 --> 00:11:56,710
+291
+00:11:54,959 --> 00:11:56,720
 not going to be good enough.
 Yeah.
 
-583
-00:11:56,710 --> 00:11:56,720
-Yeah.
-
-584
-00:11:56,720 --> 00:11:58,470
+292
+00:11:56,720 --> 00:11:58,480
 Yeah.
 I would agree. I think there are
 
-585
-00:11:58,470 --> 00:11:58,480
-I would agree. I think there are
-
-586
-00:11:58,480 --> 00:12:02,310
+293
+00:11:58,480 --> 00:12:02,320
 I would agree. I think there are
 scenarios perhaps whereby
 
-587
-00:12:02,310 --> 00:12:02,320
-scenarios perhaps whereby
-
-588
-00:12:02,320 --> 00:12:05,590
+294
+00:12:02,320 --> 00:12:05,600
 scenarios perhaps whereby
 You can take on the risk of not using
 
-589
-00:12:05,590 --> 00:12:05,600
-You can take on the risk of not using
-
-590
-00:12:05,600 --> 00:12:08,550
+295
+00:12:05,600 --> 00:12:08,560
 You can take on the risk of not using
 all of KERI. The KERI light method
 
-591
-00:12:08,550 --> 00:12:08,560
-all of KERI. The KERI light method
-
-592
-00:12:08,560 --> 00:12:09,990
+296
+00:12:08,560 --> 00:12:10,000
 all of KERI. The KERI light method
 that I mentioned that the Swiss
 
-593
-00:12:09,990 --> 00:12:10,000
-that I mentioned that the Swiss
-
-594
-00:12:10,000 --> 00:12:12,710
+297
+00:12:10,000 --> 00:12:12,720
 that I mentioned that the Swiss
 government are using from my perspective
 
-595
-00:12:12,710 --> 00:12:12,720
-government are using from my perspective
-
-596
-00:12:12,720 --> 00:12:14,470
+298
+00:12:12,720 --> 00:12:14,480
 government are using from my perspective
 is actually where you shouldn't be
 
-597
-00:12:14,470 --> 00:12:14,480
-is actually where you shouldn't be
-
-598
-00:12:14,480 --> 00:12:16,150
+299
+00:12:14,480 --> 00:12:16,160
 is actually where you shouldn't be
 taking those risks because you're
 
-599
-00:12:16,150 --> 00:12:16,160
-taking those risks because you're
-
-600
-00:12:16,160 --> 00:12:18,069
+300
+00:12:16,160 --> 00:12:18,079
 taking those risks because you're
 dealing about with digital identifier
 
-601
-00:12:18,069 --> 00:12:18,079
-dealing about with digital identifier
-
-602
-00:12:18,079 --> 00:12:23,030
+301
+00:12:18,079 --> 00:12:23,040
 dealing about with digital identifier
 people. I also think that the KERI
 
-603
-00:12:23,030 --> 00:12:23,040
-people. I also think that the KERI
-
-604
-00:12:23,040 --> 00:12:25,910
+302
+00:12:23,040 --> 00:12:25,920
 people. I also think that the KERI
 Light approach is just
 
-605
-00:12:25,910 --> 00:12:25,920
-Light approach is just
-
-606
-00:12:25,920 --> 00:12:28,870
+303
+00:12:25,920 --> 00:12:28,880
 Light approach is just
 The byproduct of someone on their
 
-607
-00:12:28,870 --> 00:12:28,880
-The byproduct of someone on their
-
-608
-00:12:28,880 --> 00:12:30,790
+304
+00:12:28,880 --> 00:12:30,800
 The byproduct of someone on their
 journey through KERI. I was about to
 
-609
-00:12:30,790 --> 00:12:30,800
-journey through KERI. I was about to
-
-610
-00:12:30,800 --> 00:12:31,269
+305
+00:12:30,800 --> 00:12:31,279
 journey through KERI. I was about to
 say that
 
-611
-00:12:31,269 --> 00:12:31,279
-say that
-
-612
-00:12:31,279 --> 00:12:33,350
+306
+00:12:31,279 --> 00:12:33,360
 say that
 it's it's almost part of that learning
 
-613
-00:12:33,350 --> 00:12:33,360
+307
+00:12:33,360 --> 00:12:37,360
 it's it's almost part of that learning
+roadmap to some extent
 
-614
-00:12:33,360 --> 00:12:37,350
-it's it's almost part of that learning
-roadmap to some extent 
-
-615
-00:12:37,350 --> 00:12:37,360
-roadmap to some extent 
-
-616
-00:12:37,360 --> 00:12:39,910
-roadmap to some extent 
+308
+00:12:37,360 --> 00:12:39,920
+roadmap to some extent
 from my perspective but I would I
 
-617
-00:12:39,910 --> 00:12:39,920
-from my perspective but I would I
-
-618
-00:12:39,920 --> 00:12:41,670
+309
+00:12:39,920 --> 00:12:41,680
 from my perspective but I would I
 would emphasize that for digital
 
-619
-00:12:41,670 --> 00:12:41,680
-would emphasize that for digital
-
-620
-00:12:41,680 --> 00:12:45,750
+310
+00:12:41,680 --> 00:12:45,760
 would emphasize that for digital
 identifier for humans for people for
 
-621
-00:12:45,750 --> 00:12:45,760
-identifier for humans for people for
-
-622
-00:12:45,760 --> 00:12:47,509
+311
+00:12:45,760 --> 00:12:47,519
 identifier for humans for people for
 governmentsized
 
-623
-00:12:47,509 --> 00:12:47,519
-governmentsized
-
-624
-00:12:47,519 --> 00:12:49,190
+312
+00:12:47,519 --> 00:12:49,200
 governmentsized
 systems
 
-625
-00:12:49,190 --> 00:12:49,200
-systems
-
-626
-00:12:49,200 --> 00:12:52,710
+313
+00:12:49,200 --> 00:12:52,720
 systems
 Anything but real full KERI with all
 
-627
-00:12:52,710 --> 00:12:52,720
-Anything but real full KERI with all
-
-628
-00:12:52,720 --> 00:12:57,110
+314
+00:12:52,720 --> 00:12:57,120
 Anything but real full KERI with all
 of the five W's is a risk.
 
-629
-00:12:57,110 --> 00:12:57,120
-of the five W's is a risk.
-
-630
-00:12:57,120 --> 00:12:58,470
+315
+00:12:57,120 --> 00:12:58,480
 of the five W's is a risk.
 Fair enough. Nico, you looked like you
 
-631
-00:12:58,470 --> 00:12:58,480
-Fair enough. Nico, you looked like you
-
-632
-00:12:58,480 --> 00:12:59,269
+316
+00:12:58,480 --> 00:12:59,279
 Fair enough. Nico, you looked like you
 had something to
 
-633
-00:12:59,269 --> 00:12:59,279
-had something to
-
-634
-00:12:59,279 --> 00:13:01,030
+317
+00:12:59,279 --> 00:13:01,040
 had something to
 Oh, no. He took everything I wanted to
 
-635
-00:13:01,030 --> 00:13:01,040
-Oh, no. He took everything I wanted to
-
-636
-00:13:01,040 --> 00:13:05,190
+318
+00:13:01,040 --> 00:13:05,200
 Oh, no. He took everything I wanted to
 say. How rude. That's great. Daniel,
 
-637
-00:13:05,190 --> 00:13:05,200
-say. How rude. That's great. Daniel,
-
-638
-00:13:05,200 --> 00:13:06,389
+319
+00:13:05,200 --> 00:13:06,399
 say. How rude. That's great. Daniel,
 anything to add here?
 
-639
-00:13:06,389 --> 00:13:06,399
+320
+00:13:06,399 --> 00:13:09,279
 anything to add here?
+I once proposed a KERI light
 
-640
-00:13:06,399 --> 00:13:09,269
-anything to add here?
-I once proposed a KERI light 
+321
+00:13:09,279 --> 00:13:14,320
+I once proposed a KERI light
+posture in our ecosystem and
 
-641
-00:13:09,269 --> 00:13:09,279
-I once proposed a KERI light 
-
-642
-00:13:09,279 --> 00:13:14,310
-I once proposed a KERI light 
-posture in our ecosystem and 
-
-643
-00:13:14,310 --> 00:13:14,320
-posture in our ecosystem and 
-
-644
-00:13:14,320 --> 00:13:17,030
-posture in our ecosystem and 
+322
+00:13:14,320 --> 00:13:17,040
+posture in our ecosystem and
 there's certain conditions under
 
-645
-00:13:17,030 --> 00:13:17,040
-there's certain conditions under
-
-646
-00:13:17,040 --> 00:13:19,430
+323
+00:13:17,040 --> 00:13:19,440
 there's certain conditions under
 which you could operate with
 
-647
-00:13:19,430 --> 00:13:19,440
-which you could operate with
-
-648
-00:13:19,440 --> 00:13:22,150
+324
+00:13:19,440 --> 00:13:22,160
 which you could operate with
 less than what KERI provides, but I
 
-649
-00:13:22,150 --> 00:13:22,160
-less than what KERI provides, but I
-
-650
-00:13:22,160 --> 00:13:23,829
+325
+00:13:22,160 --> 00:13:23,839
 less than what KERI provides, but I
 don't think they apply at an ecosystem
 
-651
-00:13:23,829 --> 00:13:23,839
-don't think they apply at an ecosystem
-
-652
-00:13:23,839 --> 00:13:27,509
+326
+00:13:23,839 --> 00:13:27,519
 don't think they apply at an ecosystem
 level. I think that was a mistake.
 
-653
-00:13:27,509 --> 00:13:27,519
-level. I think that was a mistake.
-
-654
-00:13:27,519 --> 00:13:32,150
+327
+00:13:27,519 --> 00:13:32,160
 level. I think that was a mistake.
 Okay, good. My next question,
 
-655
-00:13:32,150 --> 00:13:32,160
-Okay, good. My next question,
-
-656
-00:13:32,160 --> 00:13:34,870
+328
+00:13:32,160 --> 00:13:34,880
 Okay, good. My next question,
 what well,
 
-657
-00:13:34,870 --> 00:13:34,880
-what well,
-
-658
-00:13:34,880 --> 00:13:36,150
+329
+00:13:34,880 --> 00:13:36,160
 what well,
 I'm going to open this up a little more.
 
-659
-00:13:36,150 --> 00:13:36,160
-I'm going to open this up a little more.
-
-660
-00:13:36,160 --> 00:13:37,990
+330
+00:13:36,160 --> 00:13:38,000
 I'm going to open this up a little more.
 I was going to say one thing, but I'm
 
-661
-00:13:37,990 --> 00:13:38,000
-I was going to say one thing, but I'm
-
-662
-00:13:38,000 --> 00:13:39,350
+331
+00:13:38,000 --> 00:13:39,360
 I was going to say one thing, but I'm
 not going to limit it to one thing and
 
-663
-00:13:39,350 --> 00:13:39,360
-not going to limit it to one thing and
-
-664
-00:13:39,360 --> 00:13:41,430
+332
+00:13:39,360 --> 00:13:41,440
 not going to limit it to one thing and
 put too much of a boundary on it. What
 
-665
-00:13:41,430 --> 00:13:41,440
-put too much of a boundary on it. What
-
-666
-00:13:41,440 --> 00:13:43,829
+333
+00:13:41,440 --> 00:13:43,839
 put too much of a boundary on it. What
 what have you taken what will you take
 
-667
-00:13:43,829 --> 00:13:43,839
-what have you taken what will you take
-
-668
-00:13:43,839 --> 00:13:46,470
+334
+00:13:43,839 --> 00:13:46,480
 what have you taken what will you take
 away I guess from this conference
 
-669
-00:13:46,470 --> 00:13:46,480
-away I guess from this conference
-
-670
-00:13:46,480 --> 00:13:49,590
+335
+00:13:46,480 --> 00:13:49,600
 away I guess from this conference
 that either enhanced your understanding
 
-671
-00:13:49,590 --> 00:13:49,600
-that either enhanced your understanding
-
-672
-00:13:49,600 --> 00:13:51,829
+336
+00:13:49,600 --> 00:13:51,839
 that either enhanced your understanding
 of KERI will change the way maybe
 
-673
-00:13:51,829 --> 00:13:51,839
-of KERI will change the way maybe
-
-674
-00:13:51,839 --> 00:13:55,269
+337
+00:13:51,839 --> 00:13:55,279
 of KERI will change the way maybe
 you approach or describe KERI or
 
-675
-00:13:55,269 --> 00:13:55,279
-you approach or describe KERI or
-
-676
-00:13:55,279 --> 00:13:57,590
+338
+00:13:55,279 --> 00:13:57,600
 you approach or describe KERI or
 what are you taking away with you from
 
-677
-00:13:57,590 --> 00:13:57,600
-what are you taking away with you from
-
-678
-00:13:57,600 --> 00:13:59,269
+339
+00:13:57,600 --> 00:13:59,279
 what are you taking away with you from
 being involved in this conference for a
 
-679
-00:13:59,269 --> 00:13:59,279
-being involved in this conference for a
-
-680
-00:13:59,279 --> 00:14:02,389
+340
+00:13:59,279 --> 00:14:02,399
 being involved in this conference for a
 couple of days the first inaugural KERI
 
-681
-00:14:02,389 --> 00:14:02,399
-couple of days the first inaugural KERI
-
-682
+341
 00:14:02,399 --> 00:14:05,670
 couple of days the first inaugural KERI
 conference
 
-683
-00:14:10,230 --> 00:14:10,240
-I would say first and foremost 
-
-684
-00:14:10,240 --> 00:14:13,350
-I would say first and foremost 
+342
+00:14:10,230 --> 00:14:13,360
+I would say first and foremost
 If it's not perfect,
 
-685
-00:14:13,350 --> 00:14:13,360
-If it's not perfect,
-
-686
-00:14:13,360 --> 00:14:16,069
+343
+00:14:13,360 --> 00:14:16,079
 If it's not perfect,
 still put it out there. I mean, I think
 
-687
-00:14:16,069 --> 00:14:16,079
-still put it out there. I mean, I think
-
-688
-00:14:16,079 --> 00:14:17,910
+344
+00:14:16,079 --> 00:14:17,920
 still put it out there. I mean, I think
 the KERI Conference is a little bit of
 
-689
-00:14:17,910 --> 00:14:17,920
-the KERI Conference is a little bit of
-
-690
-00:14:17,920 --> 00:14:21,430
+345
+00:14:17,920 --> 00:14:21,440
 the KERI Conference is a little bit of
 a microcosm of that, right? It's our
 
-691
-00:14:21,430 --> 00:14:21,440
-a microcosm of that, right? It's our
-
-692
-00:14:21,440 --> 00:14:23,430
+346
+00:14:21,440 --> 00:14:23,440
 a microcosm of that, right? It's our
 first step at making a carryon only
 
-693
-00:14:23,430 --> 00:14:23,440
-first step at making a carryon only
-
-694
-00:14:23,440 --> 00:14:25,829
+347
+00:14:23,440 --> 00:14:25,839
 first step at making a carryon only
 conference. I think we did a great job
 
-695
-00:14:25,829 --> 00:14:25,839
-conference. I think we did a great job
-
-696
-00:14:25,839 --> 00:14:27,509
+348
+00:14:25,839 --> 00:14:27,519
 conference. I think we did a great job
 considering, but there's definitely ways
 
-697
-00:14:27,509 --> 00:14:27,519
-considering, but there's definitely ways
-
-698
-00:14:27,519 --> 00:14:29,189
+349
+00:14:27,519 --> 00:14:29,199
 considering, but there's definitely ways
 we can improve on it. There's definitely
 
-699
-00:14:29,189 --> 00:14:29,199
-we can improve on it. There's definitely
-
-700
-00:14:29,199 --> 00:14:32,150
+350
+00:14:29,199 --> 00:14:32,160
 we can improve on it. There's definitely
 ways that it can be expanded beyond
 
-701
-00:14:32,150 --> 00:14:32,160
-ways that it can be expanded beyond
-
-702
-00:14:32,160 --> 00:14:35,750
+351
+00:14:32,160 --> 00:14:35,760
 ways that it can be expanded beyond
 this. And the same thing with all
 
-703
-00:14:35,750 --> 00:14:35,760
-this. And the same thing with all
-
-704
-00:14:35,760 --> 00:14:39,350
+352
+00:14:35,760 --> 00:14:39,360
 this. And the same thing with all
 of the open threads that Sam's designs
 
-705
-00:14:39,350 --> 00:14:39,360
-of the open threads that Sam's designs
-
-706
-00:14:39,360 --> 00:14:41,829
+353
+00:14:39,360 --> 00:14:41,839
 of the open threads that Sam's designs
 has allowed us to pursue now this blue
 
-707
-00:14:41,829 --> 00:14:41,839
-has allowed us to pursue now this blue
-
-708
-00:14:41,839 --> 00:14:44,870
+354
+00:14:41,839 --> 00:14:44,880
 has allowed us to pursue now this blue
 sky of opportunities
 
-709
-00:14:44,870 --> 00:14:44,880
-sky of opportunities
-
-710
-00:14:44,880 --> 00:14:47,110
+355
+00:14:44,880 --> 00:14:47,120
 sky of opportunities
 that exists now in the world
 
-711
-00:14:47,110 --> 00:14:47,120
-that exists now in the world
-
-712
-00:14:47,120 --> 00:14:49,350
+356
+00:14:47,120 --> 00:14:49,360
 that exists now in the world
 because of this architecture.
 
-713
-00:14:49,350 --> 00:14:49,360
-because of this architecture.
-
-714
-00:14:49,360 --> 00:14:52,870
+357
+00:14:49,360 --> 00:14:52,880
 because of this architecture.
 The level of coordination and
 
-715
-00:14:52,870 --> 00:14:52,880
-The level of coordination and
-
-716
-00:14:52,880 --> 00:14:54,790
+358
+00:14:52,880 --> 00:14:54,800
 The level of coordination and
 communication that's necessary to
 
-717
-00:14:54,790 --> 00:14:54,800
-communication that's necessary to
-
-718
-00:14:54,800 --> 00:14:58,470
+359
+00:14:54,800 --> 00:14:58,480
 communication that's necessary to
 optimize our attention about what really
 
-719
-00:14:58,470 --> 00:14:58,480
-optimize our attention about what really
-
-720
-00:14:58,480 --> 00:15:01,910
+360
+00:14:58,480 --> 00:15:01,920
 optimize our attention about what really
 matters is one of the most important
 
-721
-00:15:01,910 --> 00:15:01,920
-matters is one of the most important
-
-722
-00:15:01,920 --> 00:15:05,189
+361
+00:15:01,920 --> 00:15:05,199
 matters is one of the most important
 choke points I think of our ecosystem.
 
-723
-00:15:05,189 --> 00:15:05,199
-choke points I think of our ecosystem.
-
-724
-00:15:05,199 --> 00:15:09,350
+362
+00:15:05,199 --> 00:15:09,360
 choke points I think of our ecosystem.
 That and money. So we need more money
 
-725
-00:15:09,350 --> 00:15:09,360
-That and money. So we need more money
-
-726
-00:15:09,360 --> 00:15:10,790
+363
+00:15:09,360 --> 00:15:10,800
 That and money. So we need more money
 too. So
 
-727
-00:15:10,790 --> 00:15:10,800
-too. So
-
-728
+364
 00:15:10,800 --> 00:15:15,430
 too. So
 indeed
 
-729
-00:15:17,670 --> 00:15:17,680
-I'm I'm going to take away how delighted
-
-730
-00:15:17,680 --> 00:15:22,230
+365
+00:15:17,670 --> 00:15:22,240
 I'm I'm going to take away how delighted
 I am that the KERI community is as
 
-731
-00:15:22,230 --> 00:15:22,240
-I am that the KERI community is as
-
-732
-00:15:22,240 --> 00:15:24,389
+366
+00:15:22,240 --> 00:15:24,399
 I am that the KERI community is as
 not only as big as it is but growing so
 
-733
-00:15:24,389 --> 00:15:24,399
-not only as big as it is but growing so
-
-734
-00:15:24,399 --> 00:15:28,069
+367
+00:15:24,399 --> 00:15:28,079
 not only as big as it is but growing so
 fast and that's must be very
 
-735
-00:15:28,069 --> 00:15:28,079
-fast and that's must be very
-
-736
-00:15:28,079 --> 00:15:29,590
+368
+00:15:28,079 --> 00:15:29,600
 fast and that's must be very
 encouraging for everybody here but
 
-737
-00:15:29,590 --> 00:15:29,600
-encouraging for everybody here but
-
-738
-00:15:29,600 --> 00:15:33,750
+369
+00:15:29,600 --> 00:15:33,760
 encouraging for everybody here but
 especially Sam because it's his baby
 
-739
-00:15:33,750 --> 00:15:33,760
-especially Sam because it's his baby
-
-740
-00:15:33,760 --> 00:15:37,350
+370
+00:15:33,760 --> 00:15:37,360
 especially Sam because it's his baby
 and it's it's getting to a
 
-741
-00:15:37,350 --> 00:15:37,360
+371
+00:15:37,360 --> 00:15:40,480
 and it's it's getting to a
+difficult teens age I think but It's
 
-742
-00:15:37,360 --> 00:15:40,470
-and it's it's getting to a
-difficult teens age I think but It's 
-
-743
-00:15:40,470 --> 00:15:40,480
-difficult teens age I think but It's 
-
-744
-00:15:40,480 --> 00:15:42,389
-difficult teens age I think but It's 
+372
+00:15:40,480 --> 00:15:42,399
+difficult teens age I think but It's
 maturing nicely.
 
-745
-00:15:42,389 --> 00:15:42,399
-maturing nicely.
-
-746
-00:15:42,399 --> 00:15:43,990
+373
+00:15:42,399 --> 00:15:44,000
 maturing nicely.
 Yeah. And I'll just personally add on
 
-747
-00:15:43,990 --> 00:15:44,000
-Yeah. And I'll just personally add on
-
-748
-00:15:44,000 --> 00:15:45,189
+374
+00:15:44,000 --> 00:15:45,199
 Yeah. And I'll just personally add on
 to that I'm I've been super
 
-749
-00:15:45,189 --> 00:15:45,199
-to that I'm I've been super
-
-750
-00:15:45,199 --> 00:15:48,310
+375
+00:15:45,199 --> 00:15:48,320
 to that I'm I've been super
 impressed how deep so many of you
 
-751
-00:15:48,310 --> 00:15:48,320
-impressed how deep so many of you
-
-752
-00:15:48,320 --> 00:15:50,710
+376
+00:15:48,320 --> 00:15:50,720
 impressed how deep so many of you
 guys already are in KERI and
 
-753
-00:15:50,710 --> 00:15:50,720
-guys already are in KERI and
-
-754
-00:15:50,720 --> 00:15:52,710
+377
+00:15:50,720 --> 00:15:52,720
 guys already are in KERI and
 understanding of I feel like I'm I'm
 
-755
-00:15:52,710 --> 00:15:52,720
-understanding of I feel like I'm I'm
-
-756
-00:15:52,720 --> 00:15:56,150
+378
+00:15:52,720 --> 00:15:56,160
 understanding of I feel like I'm I'm
 certainly a little bit of imposttor
 
-757
-00:15:56,150 --> 00:15:56,160
-certainly a little bit of imposttor
-
-758
-00:15:56,160 --> 00:15:58,790
+379
+00:15:56,160 --> 00:15:58,800
 certainly a little bit of imposttor
 syndrome even sitting in this chair in
 
-759
-00:15:58,790 --> 00:15:58,800
-syndrome even sitting in this chair in
-
-760
-00:15:58,800 --> 00:16:01,509
+380
+00:15:58,800 --> 00:16:01,519
 syndrome even sitting in this chair in
 the position that I'm in. Anyway
 
-761
-00:16:01,509 --> 00:16:01,519
-the position that I'm in. Anyway
-
-762
-00:16:01,519 --> 00:16:03,509
+381
+00:16:01,519 --> 00:16:03,519
 the position that I'm in. Anyway
 Thomas, you want to
 
-763
-00:16:03,509 --> 00:16:03,519
-Thomas, you want to
-
-764
-00:16:03,519 --> 00:16:06,710
+382
+00:16:03,519 --> 00:16:06,720
 Thomas, you want to
 One of my takeaways from some of the
 
-765
-00:16:06,710 --> 00:16:06,720
-One of my takeaways from some of the
-
-766
-00:16:06,720 --> 00:16:09,110
+383
+00:16:06,720 --> 00:16:09,120
 One of my takeaways from some of the
 conversations that I've been privy to
 
-767
-00:16:09,110 --> 00:16:09,120
-conversations that I've been privy to
-
-768
-00:16:09,120 --> 00:16:11,990
+384
+00:16:09,120 --> 00:16:12,000
 conversations that I've been privy to
 and observed is there's there's almost a
 
-769
-00:16:11,990 --> 00:16:12,000
-and observed is there's there's almost a
-
-770
-00:16:12,000 --> 00:16:13,749
+385
+00:16:12,000 --> 00:16:13,759
 and observed is there's there's almost a
 need to take all of the technical
 
-771
-00:16:13,749 --> 00:16:13,759
-need to take all of the technical
-
-772
-00:16:13,759 --> 00:16:15,350
+386
+00:16:13,759 --> 00:16:15,360
 need to take all of the technical
 contributors
 
-773
-00:16:15,350 --> 00:16:15,360
-contributors
-
-774
-00:16:15,360 --> 00:16:18,470
+387
+00:16:15,360 --> 00:16:18,480
 contributors
 Behind the various libraries and
 
-775
-00:16:18,470 --> 00:16:18,480
-Behind the various libraries and
-
-776
-00:16:18,480 --> 00:16:20,870
+388
+00:16:18,480 --> 00:16:20,880
 Behind the various libraries and
 lock them in a room so that they can
 
-777
-00:16:20,870 --> 00:16:20,880
-lock them in a room so that they can
-
-778
-00:16:20,880 --> 00:16:25,110
+389
+00:16:20,880 --> 00:16:25,120
 lock them in a room so that they can
 have effectively a technical standup
 
-779
-00:16:25,110 --> 00:16:25,120
-have effectively a technical standup
-
-780
-00:16:25,120 --> 00:16:27,110
+390
+00:16:25,120 --> 00:16:27,120
 have effectively a technical standup
 and have these conversations because
 
-781
-00:16:27,110 --> 00:16:27,120
-and have these conversations because
-
-782
-00:16:27,120 --> 00:16:28,949
+391
+00:16:27,120 --> 00:16:28,959
 and have these conversations because
 I've seen just actually through the
 
-783
-00:16:28,949 --> 00:16:28,959
+392
+00:16:28,959 --> 00:16:32,880
 I've seen just actually through the
+hallways from one session to another
 
-784
-00:16:28,959 --> 00:16:32,870
-I've seen just actually through the
-hallways from one session to another 
-
-785
-00:16:32,870 --> 00:16:32,880
-hallways from one session to another 
-
-786
-00:16:32,880 --> 00:16:34,389
-hallways from one session to another 
+393
+00:16:32,880 --> 00:16:34,399
+hallways from one session to another
 devs talking to each other and
 
-787
-00:16:34,389 --> 00:16:34,399
-devs talking to each other and
-
-788
-00:16:34,399 --> 00:16:36,949
+394
+00:16:34,399 --> 00:16:36,959
 devs talking to each other and
 finding a path to solve a problem that
 
-789
-00:16:36,949 --> 00:16:36,959
-finding a path to solve a problem that
-
-790
-00:16:36,959 --> 00:16:38,150
+395
+00:16:36,959 --> 00:16:38,160
 finding a path to solve a problem that
 they've been dealing with and that's
 
-791
-00:16:38,150 --> 00:16:38,160
-they've been dealing with and that's
-
-792
-00:16:38,160 --> 00:16:40,629
+396
+00:16:38,160 --> 00:16:40,639
 they've been dealing with and that's
 just happened walking from one room to
 
-793
-00:16:40,629 --> 00:16:40,639
-just happened walking from one room to
-
-794
-00:16:40,639 --> 00:16:44,230
+397
+00:16:40,639 --> 00:16:44,240
 just happened walking from one room to
 another so I think not only is KERI
 
-795
-00:16:44,230 --> 00:16:44,240
-another so I think not only is KERI
-
-796
-00:16:44,240 --> 00:16:46,949
+398
+00:16:44,240 --> 00:16:46,959
 another so I think not only is KERI
 conference important to talk about
 
-797
-00:16:46,949 --> 00:16:46,959
-conference important to talk about
-
-798
-00:16:46,959 --> 00:16:49,590
+399
+00:16:46,959 --> 00:16:49,600
 conference important to talk about
 the specifications to talk about the
 
-799
-00:16:49,590 --> 00:16:49,600
-the specifications to talk about the
-
-800
-00:16:49,600 --> 00:16:52,550
+400
+00:16:49,600 --> 00:16:52,560
 the specifications to talk about the
 opportunities where revenue streams may
 
-801
-00:16:52,550 --> 00:16:52,560
-opportunities where revenue streams may
-
-802
-00:16:52,560 --> 00:16:54,550
+401
+00:16:52,560 --> 00:16:54,560
 opportunities where revenue streams may
 exist and what everyone is building
 
-803
-00:16:54,550 --> 00:16:54,560
-exist and what everyone is building
-
-804
-00:16:54,560 --> 00:16:56,470
+402
+00:16:54,560 --> 00:16:56,480
 exist and what everyone is building
 but also give the devs that are
 
-805
-00:16:56,470 --> 00:16:56,480
-but also give the devs that are
-
-806
-00:16:56,480 --> 00:16:58,470
+403
+00:16:56,480 --> 00:16:58,480
 but also give the devs that are
 typically only engaging in an online
 
-807
-00:16:58,470 --> 00:16:58,480
-typically only engaging in an online
-
-808
-00:16:58,480 --> 00:16:59,829
+404
+00:16:58,480 --> 00:16:59,839
 typically only engaging in an online
 environment that opportunity to lock
 
-809
-00:16:59,829 --> 00:16:59,839
-environment that opportunity to lock
-
-810
-00:16:59,839 --> 00:17:01,350
+405
+00:16:59,839 --> 00:17:01,360
 environment that opportunity to lock
 them in the room. Maybe not lock them,
 
-811
-00:17:01,350 --> 00:17:01,360
-them in the room. Maybe not lock them,
-
-812
-00:17:01,360 --> 00:17:03,430
+406
+00:17:01,360 --> 00:17:03,440
 them in the room. Maybe not lock them,
 but stick them in the room and allow
 
-813
-00:17:03,430 --> 00:17:03,440
-but stick them in the room and allow
-
-814
-00:17:03,440 --> 00:17:05,669
+407
+00:17:03,440 --> 00:17:05,679
 but stick them in the room and allow
 them to have that same dialogue that
 
-815
-00:17:05,669 --> 00:17:05,679
-them to have that same dialogue that
-
-816
-00:17:05,679 --> 00:17:07,829
+408
+00:17:05,679 --> 00:17:07,839
 them to have that same dialogue that
 I've seen happen just between rooms with
 
-817
-00:17:07,829 --> 00:17:07,839
-I've seen happen just between rooms with
-
-818
-00:17:07,839 --> 00:17:09,829
+409
+00:17:07,839 --> 00:17:09,839
 I've seen happen just between rooms with
 a with a focus kind of agenda. I think
 
-819
-00:17:09,829 --> 00:17:09,839
-a with a focus kind of agenda. I think
-
-820
-00:17:09,839 --> 00:17:12,150
+410
+00:17:09,839 --> 00:17:12,160
 a with a focus kind of agenda. I think
 that'd be extremely productive.
 
-821
-00:17:12,150 --> 00:17:12,160
-that'd be extremely productive.
-
-822
-00:17:12,160 --> 00:17:14,870
+411
+00:17:12,160 --> 00:17:14,880
 that'd be extremely productive.
 I like that. Yeah. Daniel,
 
-823
-00:17:14,870 --> 00:17:14,880
-I like that. Yeah. Daniel,
-
-824
-00:17:14,880 --> 00:17:16,949
+412
+00:17:14,880 --> 00:17:16,959
 I like that. Yeah. Daniel,
 I'll just say that I'm super
 
-825
-00:17:16,949 --> 00:17:16,959
-I'll just say that I'm super
-
-826
-00:17:16,959 --> 00:17:19,189
+413
+00:17:16,959 --> 00:17:19,199
 I'll just say that I'm super
 excited about the is it five
 
-827
-00:17:19,189 --> 00:17:19,199
-excited about the is it five
-
-828
-00:17:19,199 --> 00:17:21,029
+414
+00:17:19,199 --> 00:17:21,039
 excited about the is it five
 engineers, Sam, that you've you've got
 
-829
-00:17:21,029 --> 00:17:21,039
-engineers, Sam, that you've you've got
-
-830
-00:17:21,039 --> 00:17:23,669
+415
+00:17:21,039 --> 00:17:23,679
 engineers, Sam, that you've you've got
 working on your five Ws or maybe it's
 
-831
-00:17:23,669 --> 00:17:23,679
-working on your five Ws or maybe it's
-
-832
-00:17:23,679 --> 00:17:26,549
+416
+00:17:23,679 --> 00:17:26,559
 working on your five Ws or maybe it's
 five W's but three engineers or four.
 
-833
-00:17:26,549 --> 00:17:26,559
-five W's but three engineers or four.
-
-834
-00:17:26,559 --> 00:17:29,430
+417
+00:17:26,559 --> 00:17:29,440
 five W's but three engineers or four.
 Anyway those five W's are really
 
-835
-00:17:29,430 --> 00:17:29,440
-Anyway those five W's are really
-
-836
-00:17:29,440 --> 00:17:31,430
+418
+00:17:29,440 --> 00:17:31,440
 Anyway those five W's are really
 awesome and I'm looking forward to it.
 
-837
-00:17:31,430 --> 00:17:31,440
-awesome and I'm looking forward to it.
-
-838
-00:17:31,440 --> 00:17:33,029
+419
+00:17:31,440 --> 00:17:33,039
 awesome and I'm looking forward to it.
 That's maybe one of the things that I'm
 
-839
-00:17:33,029 --> 00:17:33,039
-That's maybe one of the things that I'm
-
-840
-00:17:33,039 --> 00:17:35,909
+420
+00:17:33,039 --> 00:17:35,919
 That's maybe one of the things that I'm
 most jazzed about. Wait, also I didn't
 
-841
-00:17:35,909 --> 00:17:35,919
-most jazzed about. Wait, also I didn't
-
-842
-00:17:35,919 --> 00:17:37,350
+421
+00:17:35,919 --> 00:17:37,360
 most jazzed about. Wait, also I didn't
 get a chance to see the mobile wallet
 
-843
-00:17:37,350 --> 00:17:37,360
-get a chance to see the mobile wallet
-
-844
-00:17:37,360 --> 00:17:38,150
+422
+00:17:37,360 --> 00:17:38,160
 get a chance to see the mobile wallet
 yet.
 
-845
-00:17:38,150 --> 00:17:38,160
-yet.
-
-846
-00:17:38,160 --> 00:17:38,870
+423
+00:17:38,160 --> 00:17:38,880
 yet.
 You didn't?
 
-847
-00:17:38,870 --> 00:17:38,880
-You didn't?
-
-848
-00:17:38,880 --> 00:17:40,310
+424
+00:17:38,880 --> 00:17:40,320
 You didn't?
 No.
 
-849
-00:17:40,310 --> 00:17:40,320
-No.
-
-850
-00:17:40,320 --> 00:17:42,230
+425
+00:17:40,320 --> 00:17:42,240
 No.
 Where's Keanu?
 
-851
-00:17:42,230 --> 00:17:42,240
-Where's Keanu?
-
-852
-00:17:42,240 --> 00:17:44,150
+426
+00:17:42,240 --> 00:17:44,160
 Where's Keanu?
 Or no, Jay.
 
-853
-00:17:44,150 --> 00:17:44,160
-Or no, Jay.
-
-854
-00:17:44,160 --> 00:17:46,070
+427
+00:17:44,160 --> 00:17:46,080
 Or no, Jay.
 So, so I want to see that. But also, and
 
-855
-00:17:46,070 --> 00:17:46,080
-So, so I want to see that. But also, and
-
-856
-00:17:46,080 --> 00:17:46,870
+428
+00:17:46,080 --> 00:17:46,880
 So, so I want to see that. But also, and
 you'll arrange that
 
-857
-00:17:46,870 --> 00:17:46,880
-you'll arrange that
-
-858
-00:17:46,880 --> 00:17:50,470
+429
+00:17:46,880 --> 00:17:50,480
 you'll arrange that
 regrettably as well. With Sam's
 
-859
-00:17:50,470 --> 00:17:50,480
-regrettably as well. With Sam's
-
-860
-00:17:50,480 --> 00:17:53,110
+430
+00:17:50,480 --> 00:17:53,120
 regrettably as well. With Sam's
 crippled voice right now. It was
 
-861
-00:17:53,110 --> 00:17:53,120
-crippled voice right now. It was
-
-862
-00:17:53,120 --> 00:17:55,110
+431
+00:17:53,120 --> 00:17:55,120
 crippled voice right now. It was
 that's why we recorded all the sessions
 
-863
-00:17:55,110 --> 00:17:55,120
-that's why we recorded all the sessions
-
-864
-00:17:55,120 --> 00:17:56,950
+432
+00:17:55,120 --> 00:17:56,960
 that's why we recorded all the sessions
 so you can see all of them,
 
-865
-00:17:56,950 --> 00:17:56,960
-so you can see all of them,
-
-866
-00:17:56,960 --> 00:17:58,549
+433
+00:17:56,960 --> 00:17:58,559
 so you can see all of them,
 right?
 
-867
-00:17:58,549 --> 00:17:58,559
-right?
-
-868
-00:17:58,559 --> 00:18:01,430
+434
+00:17:58,559 --> 00:18:01,440
 right?
 And additionally, I mean, I think
 
-869
-00:18:01,430 --> 00:18:01,440
-And additionally, I mean, I think
-
-870
-00:18:01,440 --> 00:18:04,789
+435
+00:18:01,440 --> 00:18:04,799
 And additionally, I mean, I think
 the transfer registry primitive
 
-871
-00:18:04,789 --> 00:18:04,799
-the transfer registry primitive
-
-872
-00:18:04,799 --> 00:18:07,270
+436
+00:18:04,799 --> 00:18:07,280
 the transfer registry primitive
 that's going to unlock a lot of new
 
-873
-00:18:07,270 --> 00:18:07,280
-that's going to unlock a lot of new
-
-874
-00:18:07,280 --> 00:18:09,590
+437
+00:18:07,280 --> 00:18:09,600
 that's going to unlock a lot of new
 opportunities. It's very interesting.
 
-875
-00:18:09,590 --> 00:18:09,600
-opportunities. It's very interesting.
-
-876
-00:18:09,600 --> 00:18:12,310
+438
+00:18:09,600 --> 00:18:12,320
 opportunities. It's very interesting.
 I'm curious to see how that fits with
 
-877
-00:18:12,310 --> 00:18:12,320
-I'm curious to see how that fits with
-
-878
-00:18:12,320 --> 00:18:14,230
+439
+00:18:12,320 --> 00:18:14,240
 I'm curious to see how that fits with
 the rest of the stack.
 
-879
-00:18:14,230 --> 00:18:14,240
-the rest of the stack.
-
-880
-00:18:14,240 --> 00:18:18,150
+440
+00:18:14,240 --> 00:18:18,160
 the rest of the stack.
 Cool. Yeah. So the theme that as we
 
-881
-00:18:18,150 --> 00:18:18,160
-Cool. Yeah. So the theme that as we
-
-882
-00:18:18,160 --> 00:18:20,549
+441
+00:18:18,160 --> 00:18:20,559
 Cool. Yeah. So the theme that as we
 introduced it is what's possible now.
 
-883
-00:18:20,549 --> 00:18:20,559
-introduced it is what's possible now.
-
-884
-00:18:20,559 --> 00:18:22,950
+442
+00:18:20,559 --> 00:18:22,960
 introduced it is what's possible now.
 That wasn't possible before. And
 
-885
-00:18:22,950 --> 00:18:22,960
-That wasn't possible before. And
-
-886
-00:18:22,960 --> 00:18:24,710
+443
+00:18:22,960 --> 00:18:24,720
 That wasn't possible before. And
 let's flip that for a minute and talk
 
-887
-00:18:24,710 --> 00:18:24,720
-let's flip that for a minute and talk
-
-888
-00:18:24,720 --> 00:18:27,669
+444
+00:18:24,720 --> 00:18:27,679
 let's flip that for a minute and talk
 about and some of you or maybe all
 
-889
-00:18:27,669 --> 00:18:27,679
-about and some of you or maybe all
-
-890
-00:18:27,679 --> 00:18:28,870
+445
+00:18:27,679 --> 00:18:28,880
 about and some of you or maybe all
 of you have had a chance to talk about
 
-891
-00:18:28,870 --> 00:18:28,880
-of you have had a chance to talk about
-
-892
-00:18:28,880 --> 00:18:30,630
+446
+00:18:28,880 --> 00:18:30,640
 of you have had a chance to talk about
 this to some degree. So, let's maybe
 
-893
-00:18:30,630 --> 00:18:30,640
-this to some degree. So, let's maybe
-
-894
-00:18:30,640 --> 00:18:33,510
+447
+00:18:30,640 --> 00:18:33,520
 this to some degree. So, let's maybe
 unpack it a little bit more. What isn't
 
-895
-00:18:33,510 --> 00:18:33,520
-unpack it a little bit more. What isn't
-
-896
-00:18:33,520 --> 00:18:36,310
+448
+00:18:33,520 --> 00:18:36,320
 unpack it a little bit more. What isn't
 possible right now with KERI and what
 
-897
-00:18:36,310 --> 00:18:36,320
-possible right now with KERI and what
-
-898
-00:18:36,320 --> 00:18:39,270
+449
+00:18:36,320 --> 00:18:39,280
 possible right now with KERI and what
 needs what do we need to change to make
 
-899
-00:18:39,270 --> 00:18:39,280
-needs what do we need to change to make
-
-900
-00:18:39,280 --> 00:18:41,990
+450
+00:18:39,280 --> 00:18:42,000
 needs what do we need to change to make
 KERI possible? Let's start with Daniel
 
-901
-00:18:41,990 --> 00:18:42,000
-KERI possible? Let's start with Daniel
-
-902
-00:18:42,000 --> 00:18:45,190
+451
+00:18:42,000 --> 00:18:45,200
 KERI possible? Let's start with Daniel
 and move work our way down or anybody
 
-903
-00:18:45,190 --> 00:18:45,200
-and move work our way down or anybody
-
-904
-00:18:45,200 --> 00:18:46,549
+452
+00:18:45,200 --> 00:18:46,559
 and move work our way down or anybody
 else want to chime in if you if you
 
-905
-00:18:46,549 --> 00:18:46,559
-else want to chime in if you if you
-
-906
-00:18:46,559 --> 00:18:47,750
+453
+00:18:46,559 --> 00:18:47,760
 else want to chime in if you if you
 don't.
 
-907
-00:18:47,750 --> 00:18:47,760
+454
+00:18:47,760 --> 00:18:52,480
 don't.
+Well I'd like to see the
 
-908
-00:18:47,760 --> 00:18:52,470
-don't.
-Well I'd like to see the 
-
-909
-00:18:52,470 --> 00:18:52,480
-Well I'd like to see the 
-
-910
-00:18:52,480 --> 00:18:55,430
-Well I'd like to see the 
+455
+00:18:52,480 --> 00:18:55,440
+Well I'd like to see the
 the developer experience be one where a
 
-911
-00:18:55,430 --> 00:18:55,440
-the developer experience be one where a
-
-912
-00:18:55,440 --> 00:18:57,430
+456
+00:18:55,440 --> 00:18:57,440
 the developer experience be one where a
 developer says I heard that KERI was
 
-913
-00:18:57,430 --> 00:18:57,440
-developer says I heard that KERI was
-
-914
-00:18:57,440 --> 00:18:59,990
+457
+00:18:57,440 --> 00:19:00,000
 developer says I heard that KERI was
 interesting. I'm eating a sandwich on
 
-915
-00:18:59,990 --> 00:19:00,000
-interesting. I'm eating a sandwich on
-
-916
-00:19:00,000 --> 00:19:01,590
+458
+00:19:00,000 --> 00:19:01,600
 interesting. I'm eating a sandwich on
 my lunch break.
 
-917
-00:19:01,590 --> 00:19:01,600
-my lunch break.
-
-918
-00:19:01,600 --> 00:19:04,390
+459
+00:19:01,600 --> 00:19:04,400
 my lunch break.
 I wrote a you know a KERI online or
 
-919
-00:19:04,390 --> 00:19:04,400
-I wrote a you know a KERI online or
-
-920
-00:19:04,400 --> 00:19:07,110
+460
+00:19:04,400 --> 00:19:07,120
 I wrote a you know a KERI online or
 I asked chat GPT and three minutes
 
-921
-00:19:07,110 --> 00:19:07,120
-I asked chat GPT and three minutes
-
-922
-00:19:07,120 --> 00:19:09,830
+461
+00:19:07,120 --> 00:19:09,840
 I asked chat GPT and three minutes
 later I have something that you know
 
-923
-00:19:09,830 --> 00:19:09,840
-later I have something that you know
-
-924
-00:19:09,840 --> 00:19:13,190
+462
+00:19:09,840 --> 00:19:13,200
 later I have something that you know
 plugs up end to end or whatever. That
 
-925
-00:19:13,190 --> 00:19:13,200
-plugs up end to end or whatever. That
-
-926
-00:19:13,200 --> 00:19:17,270
+463
+00:19:13,200 --> 00:19:17,280
 plugs up end to end or whatever. That
 to me feels like a utopia. We're
 
-927
-00:19:17,270 --> 00:19:17,280
-to me feels like a utopia. We're
-
-928
-00:19:17,280 --> 00:19:20,230
+464
+00:19:17,280 --> 00:19:20,240
 to me feels like a utopia. We're
 working hard on that. But it will be
 
-929
-00:19:20,230 --> 00:19:20,240
-working hard on that. But it will be
-
-930
-00:19:20,240 --> 00:19:22,230
+465
+00:19:20,240 --> 00:19:22,240
 working hard on that. But it will be
 a while because there's just so much to
 
-931
-00:19:22,230 --> 00:19:22,240
-a while because there's just so much to
-
-932
-00:19:22,240 --> 00:19:24,070
+466
+00:19:22,240 --> 00:19:24,080
 a while because there's just so much to
 learn and there's so many things you
 
-933
-00:19:24,070 --> 00:19:24,080
+467
+00:19:24,080 --> 00:19:28,400
 learn and there's so many things you
+have to glue together. And I remember
 
-934
-00:19:24,080 --> 00:19:28,390
-learn and there's so many things you
-have to glue together. And I remember 
-
-935
-00:19:28,390 --> 00:19:28,400
-have to glue together. And I remember 
-
-936
-00:19:28,400 --> 00:19:31,909
-have to glue together. And I remember 
+468
+00:19:28,400 --> 00:19:31,919
+have to glue together. And I remember
 Back in 2017, I saw the first demo of
 
-937
-00:19:31,909 --> 00:19:31,919
-Back in 2017, I saw the first demo of
-
-938
-00:19:31,919 --> 00:19:37,110
+469
+00:19:31,919 --> 00:19:37,120
 Back in 2017, I saw the first demo of
 a wallet that showed a proof
 
-939
-00:19:37,110 --> 00:19:37,120
-a wallet that showed a proof
-
-940
-00:19:37,120 --> 00:19:40,150
+470
+00:19:37,120 --> 00:19:40,160
 a wallet that showed a proof
 request and a response
 
-941
-00:19:40,150 --> 00:19:40,160
-request and a response
-
-942
-00:19:40,160 --> 00:19:42,310
+471
+00:19:40,160 --> 00:19:42,320
 request and a response
 You know in decentralized identity
 
-943
-00:19:42,310 --> 00:19:42,320
-You know in decentralized identity
-
-944
-00:19:42,320 --> 00:19:44,870
+472
+00:19:42,320 --> 00:19:44,880
 You know in decentralized identity
 circles. And it was such a from the
 
-945
-00:19:44,870 --> 00:19:44,880
-circles. And it was such a from the
-
-946
-00:19:44,880 --> 00:19:47,430
+473
+00:19:44,880 --> 00:19:47,440
 circles. And it was such a from the
 outside it was a really boring demo. It
 
-947
-00:19:47,430 --> 00:19:47,440
-outside it was a really boring demo. It
-
-948
-00:19:47,440 --> 00:19:49,750
+474
+00:19:47,440 --> 00:19:49,760
 outside it was a really boring demo. It
 was like somebody holds up a wallet
 
-949
-00:19:49,750 --> 00:19:49,760
-was like somebody holds up a wallet
-
-950
-00:19:49,760 --> 00:19:51,669
+475
+00:19:49,760 --> 00:19:51,679
 was like somebody holds up a wallet
 and they click a couple of buttons and
 
-951
-00:19:51,669 --> 00:19:51,679
-and they click a couple of buttons and
-
-952
-00:19:51,679 --> 00:19:53,110
+476
+00:19:51,679 --> 00:19:53,120
 and they click a couple of buttons and
 then they get a green light and they
 
-953
-00:19:53,110 --> 00:19:53,120
-then they get a green light and they
-
-954
-00:19:53,120 --> 00:19:55,909
+477
+00:19:53,120 --> 00:19:55,919
 then they get a green light and they
 showed it. And I freaked out when I saw
 
-955
-00:19:55,909 --> 00:19:55,919
-showed it. And I freaked out when I saw
-
-956
-00:19:55,919 --> 00:19:58,950
+478
+00:19:55,919 --> 00:19:58,960
 showed it. And I freaked out when I saw
 it because I knew there were like 2700
 
-957
-00:19:58,950 --> 00:19:58,960
-it because I knew there were like 2700
-
-958
-00:19:58,960 --> 00:20:00,630
+479
+00:19:58,960 --> 00:20:00,640
 it because I knew there were like 2700
 things that had to be right for that
 
-959
-00:20:00,630 --> 00:20:00,640
-things that had to be right for that
-
-960
-00:20:00,640 --> 00:20:03,029
+480
+00:20:00,640 --> 00:20:03,039
 things that had to be right for that
 demo to work and that's kind of how I
 
-961
-00:20:03,029 --> 00:20:03,039
-demo to work and that's kind of how I
-
-962
-00:20:03,039 --> 00:20:04,950
+481
+00:20:03,039 --> 00:20:04,960
 demo to work and that's kind of how I
 feel today.
 
-963
-00:20:04,950 --> 00:20:04,960
-feel today.
-
-964
-00:20:04,960 --> 00:20:06,710
+482
+00:20:04,960 --> 00:20:06,720
 feel today.
 Nice. And maybe applying this to your
 
-965
-00:20:06,710 --> 00:20:06,720
-Nice. And maybe applying this to your
-
-966
-00:20:06,720 --> 00:20:08,710
+483
+00:20:06,720 --> 00:20:08,720
 Nice. And maybe applying this to your
 specific space like what still
 
-967
-00:20:08,710 --> 00:20:08,720
-specific space like what still
-
-968
-00:20:08,720 --> 00:20:12,150
+484
+00:20:08,720 --> 00:20:12,160
 specific space like what still
 needs to happen yet for KERI to be
 
-969
-00:20:12,150 --> 00:20:12,160
-needs to happen yet for KERI to be
-
-970
-00:20:12,160 --> 00:20:14,789
+485
+00:20:12,160 --> 00:20:14,799
 needs to happen yet for KERI to be
 fully realized there? Well, in telco,
 
-971
-00:20:14,789 --> 00:20:14,799
-fully realized there? Well, in telco,
-
-972
-00:20:14,799 --> 00:20:17,350
+486
+00:20:14,799 --> 00:20:17,360
 fully realized there? Well, in telco,
 the demo that I showed everybody
 
-973
-00:20:17,350 --> 00:20:17,360
-the demo that I showed everybody
-
-974
-00:20:17,360 --> 00:20:20,710
+487
+00:20:17,360 --> 00:20:20,720
 the demo that I showed everybody
 when I kind of showed a canned video
 
-975
-00:20:20,710 --> 00:20:20,720
-when I kind of showed a canned video
-
-976
-00:20:20,720 --> 00:20:23,430
+488
+00:20:20,720 --> 00:20:23,440
 when I kind of showed a canned video
 included Google you know, a Google
 
-977
-00:20:23,430 --> 00:20:23,440
-included Google you know, a Google
-
-978
-00:20:23,440 --> 00:20:26,230
+489
+00:20:23,440 --> 00:20:26,240
 included Google you know, a Google
 handset verifying something for
 
-979
-00:20:26,230 --> 00:20:26,240
-handset verifying something for
-
-980
-00:20:26,240 --> 00:20:28,549
+490
+00:20:26,240 --> 00:20:28,559
 handset verifying something for
 KERI. Google built that. They signed
 
-981
-00:20:28,549 --> 00:20:28,559
+491
+00:20:28,559 --> 00:20:31,520
 KERI. Google built that. They signed
+it. They showed it at this
 
-982
-00:20:28,559 --> 00:20:31,510
-KERI. Google built that. They signed
-it. They showed it at this 
-
-983
-00:20:31,510 --> 00:20:31,520
-it. They showed it at this 
-
-984
-00:20:31,520 --> 00:20:34,470
-it. They showed it at this 
+492
+00:20:31,520 --> 00:20:34,480
+it. They showed it at this
 worldwide conference, but it's not in
 
-985
-00:20:34,470 --> 00:20:34,480
-worldwide conference, but it's not in
-
-986
-00:20:34,480 --> 00:20:36,310
+493
+00:20:34,480 --> 00:20:36,320
 worldwide conference, but it's not in
 general distribution yet. I would really
 
-987
-00:20:36,310 --> 00:20:36,320
-general distribution yet. I would really
-
-988
-00:20:36,320 --> 00:20:38,710
+494
+00:20:36,320 --> 00:20:38,720
 general distribution yet. I would really
 love to see that happen. And Apple, who
 
-989
-00:20:38,710 --> 00:20:38,720
-love to see that happen. And Apple, who
-
-990
-00:20:38,720 --> 00:20:40,310
+495
+00:20:38,720 --> 00:20:40,320
 love to see that happen. And Apple, who
 started working on it, I'd like to see
 
-991
-00:20:40,310 --> 00:20:40,320
-started working on it, I'd like to see
-
-992
-00:20:40,320 --> 00:20:43,510
+496
+00:20:40,320 --> 00:20:43,520
 started working on it, I'd like to see
 them finish what they started.
 
-993
-00:20:43,510 --> 00:20:43,520
-them finish what they started.
-
-994
-00:20:43,520 --> 00:20:44,710
+497
+00:20:43,520 --> 00:20:44,720
 them finish what they started.
 Nico.
 
-995
-00:20:44,710 --> 00:20:44,720
-Nico.
-
-996
-00:20:44,720 --> 00:20:46,710
+498
+00:20:44,720 --> 00:20:46,720
 Nico.
 Yeah, I it's kind of a specific one
 
-997
-00:20:46,710 --> 00:20:46,720
-Yeah, I it's kind of a specific one
-
-998
-00:20:46,720 --> 00:20:49,590
+499
+00:20:46,720 --> 00:20:49,600
 Yeah, I it's kind of a specific one
 actually. But I
 
-999
-00:20:49,590 --> 00:20:49,600
-actually. But I
-
-1000
-00:20:49,600 --> 00:20:52,149
+500
+00:20:49,600 --> 00:20:52,159
 actually. But I
 really am looking forward to when
 
-1001
-00:20:52,149 --> 00:20:52,159
-really am looking forward to when
-
-1002
-00:20:52,159 --> 00:20:55,110
+501
+00:20:52,159 --> 00:20:55,120
 really am looking forward to when
 someone builds an ambient watcher
 
-1003
-00:20:55,110 --> 00:20:55,120
-someone builds an ambient watcher
-
-1004
-00:20:55,120 --> 00:20:57,110
+502
+00:20:55,120 --> 00:20:57,120
 someone builds an ambient watcher
 network cache
 
-1005
-00:20:57,110 --> 00:20:57,120
-network cache
-
-1006
-00:20:57,120 --> 00:21:00,310
+503
+00:20:57,120 --> 00:21:00,320
 network cache
 where you can just propagate key state
 
-1007
-00:21:00,310 --> 00:21:00,320
-where you can just propagate key state
-
-1008
-00:21:00,320 --> 00:21:03,350
+504
+00:21:00,320 --> 00:21:03,360
 where you can just propagate key state
 to there and then just repeat that
 
-1009
-00:21:03,350 --> 00:21:03,360
-to there and then just repeat that
-
-1010
-00:21:03,360 --> 00:21:05,830
+505
+00:21:03,360 --> 00:21:05,840
 to there and then just repeat that
 when that comes online and it's
 
-1011
-00:21:05,830 --> 00:21:05,840
-when that comes online and it's
-
-1012
-00:21:05,840 --> 00:21:09,590
+506
+00:21:05,840 --> 00:21:09,600
 when that comes online and it's
 sufficiently decorrelated I think the
 
-1013
-00:21:09,590 --> 00:21:09,600
-sufficiently decorrelated I think the
-
-1014
-00:21:09,600 --> 00:21:12,470
+507
+00:21:09,600 --> 00:21:12,480
 sufficiently decorrelated I think the
 network effects of KERI and the
 
-1015
-00:21:12,470 --> 00:21:12,480
-network effects of KERI and the
-
-1016
-00:21:12,480 --> 00:21:14,630
+508
+00:21:12,480 --> 00:21:14,640
 network effects of KERI and the
 possibilities of multiple roots of trust
 
-1017
-00:21:14,630 --> 00:21:14,640
-possibilities of multiple roots of trust
-
-1018
-00:21:14,640 --> 00:21:16,710
+509
+00:21:14,640 --> 00:21:16,720
 possibilities of multiple roots of trust
 and their credential sets interacting in
 
-1019
-00:21:16,710 --> 00:21:16,720
-and their credential sets interacting in
-
-1020
-00:21:16,720 --> 00:21:19,750
+510
+00:21:16,720 --> 00:21:19,760
 and their credential sets interacting in
 the combinatorial explosion, right? The
 
-1021
-00:21:19,750 --> 00:21:19,760
+511
+00:21:19,760 --> 00:21:23,200
 the combinatorial explosion, right? The
+Cambrian the KERI explosion, right?
 
-1022
-00:21:19,760 --> 00:21:23,190
-the combinatorial explosion, right? The
-Cambrian the KERI explosion, right? 
-
-1023
-00:21:23,190 --> 00:21:23,200
-Cambrian the KERI explosion, right? 
-
-1024
-00:21:23,200 --> 00:21:26,390
-Cambrian the KERI explosion, right? 
+512
+00:21:23,200 --> 00:21:26,400
+Cambrian the KERI explosion, right?
 Is that's when the value proposition of
 
-1025
-00:21:26,390 --> 00:21:26,400
-is that's when the value proposition of
-
-1026
-00:21:26,400 --> 00:21:28,549
+513
+00:21:26,400 --> 00:21:28,559
 is that's when the value proposition of
 KERI really comes alive for me at least
 
-1027
-00:21:28,549 --> 00:21:28,559
-KERI really comes alive for me at least
-
-1028
-00:21:28,559 --> 00:21:30,950
+514
+00:21:28,559 --> 00:21:30,960
 KERI really comes alive for me at least
 in a theoretical sense. I don't know
 
-1029
-00:21:30,950 --> 00:21:30,960
-in a theoretical sense. I don't know
-
-1030
-00:21:30,960 --> 00:21:33,270
+515
+00:21:30,960 --> 00:21:33,280
 in a theoretical sense. I don't know
 there's so much that is possible to be
 
-1031
-00:21:33,270 --> 00:21:33,280
-there's so much that is possible to be
-
-1032
-00:21:33,280 --> 00:21:36,070
+516
+00:21:33,280 --> 00:21:36,080
 there's so much that is possible to be
 built with these data structures. It you
 
-1033
-00:21:36,070 --> 00:21:36,080
-built with these data structures. It you
-
-1034
-00:21:36,080 --> 00:21:38,549
+517
+00:21:36,080 --> 00:21:38,559
 built with these data structures. It you
 could talk about this all day. Please
 
-1035
-00:21:38,549 --> 00:21:38,559
-could talk about this all day. Please
-
-1036
+518
 00:21:38,559 --> 00:21:43,270
 could talk about this all day. Please
 continue.
 
-1037
-00:21:45,990 --> 00:21:46,000
-Thomas, go ahead. I'd have to second
-
-1038
-00:21:46,000 --> 00:21:48,870
+519
+00:21:45,990 --> 00:21:48,880
 Thomas, go ahead. I'd have to second
 what Daniel said. I think one of
 
-1039
-00:21:48,870 --> 00:21:48,880
-what Daniel said. I think one of
-
-1040
-00:21:48,880 --> 00:21:51,990
+520
+00:21:48,880 --> 00:21:52,000
 what Daniel said. I think one of
 the biggest risks is there's a snowball
 
-1041
-00:21:51,990 --> 00:21:52,000
-the biggest risks is there's a snowball
-
-1042
-00:21:52,000 --> 00:21:53,750
+521
+00:21:52,000 --> 00:21:53,760
 the biggest risks is there's a snowball
 effect happening with KERI and
 
-1043
-00:21:53,750 --> 00:21:53,760
-effect happening with KERI and
-
-1044
-00:21:53,760 --> 00:21:55,590
+522
+00:21:53,760 --> 00:21:55,600
 effect happening with KERI and
 developers are hearing about it. They're
 
-1045
-00:21:55,590 --> 00:21:55,600
-developers are hearing about it. They're
-
-1046
-00:21:55,600 --> 00:21:57,830
+523
+00:21:55,600 --> 00:21:57,840
 developers are hearing about it. They're
 going to explore the ecosystem and maybe
 
-1047
-00:21:57,830 --> 00:21:57,840
-going to explore the ecosystem and maybe
-
-1048
-00:21:57,840 --> 00:21:59,909
+524
+00:21:57,840 --> 00:21:59,919
 going to explore the ecosystem and maybe
 they're going to shy away because it's
 
-1049
-00:21:59,909 --> 00:21:59,919
-they're going to shy away because it's
-
-1050
-00:21:59,919 --> 00:22:02,950
+525
+00:21:59,919 --> 00:22:02,960
 they're going to shy away because it's
 not the most ideal developer friendly
 
-1051
-00:22:02,950 --> 00:22:02,960
-not the most ideal developer friendly
-
-1052
-00:22:02,960 --> 00:22:05,270
+526
+00:22:02,960 --> 00:22:05,280
 not the most ideal developer friendly
 experience, especially when it comes to
 
-1053
-00:22:05,270 --> 00:22:05,280
-experience, especially when it comes to
-
-1054
-00:22:05,280 --> 00:22:07,750
+527
+00:22:05,280 --> 00:22:07,760
 experience, especially when it comes to
 troubleshooting and tracing out errors
 
-1055
-00:22:07,750 --> 00:22:07,760
-troubleshooting and tracing out errors
-
-1056
-00:22:07,760 --> 00:22:10,630
+528
+00:22:07,760 --> 00:22:10,640
 troubleshooting and tracing out errors
 within your code. And I mean, Fergal
 
-1057
-00:22:10,630 --> 00:22:10,640
-within your code. And I mean, Fergal
-
-1058
-00:22:10,640 --> 00:22:12,149
+529
+00:22:10,640 --> 00:22:12,159
 within your code. And I mean, Fergal
 actually ran a whole session on this. So
 
-1059
-00:22:12,149 --> 00:22:12,159
-actually ran a whole session on this. So
-
-1060
-00:22:12,159 --> 00:22:14,870
+530
+00:22:12,159 --> 00:22:14,880
 actually ran a whole session on this. So
 there's there's there's that element
 
-1061
-00:22:14,870 --> 00:22:14,880
-there's there's there's that element
-
-1062
-00:22:14,880 --> 00:22:18,070
+531
+00:22:14,880 --> 00:22:18,080
 there's there's there's that element
 of the experience to the developer. I
 
-1063
-00:22:18,070 --> 00:22:18,080
-of the experience to the developer. I
-
-1064
-00:22:18,080 --> 00:22:19,510
+532
+00:22:18,080 --> 00:22:19,520
 of the experience to the developer. I
 mean I think a lot of us see that as
 
-1065
-00:22:19,510 --> 00:22:19,520
-mean I think a lot of us see that as
-
-1066
-00:22:19,520 --> 00:22:21,029
+533
+00:22:19,520 --> 00:22:21,039
 mean I think a lot of us see that as
 just a pain we have to deal with for the
 
-1067
-00:22:21,029 --> 00:22:21,039
-just a pain we have to deal with for the
-
-1068
-00:22:21,039 --> 00:22:22,710
+534
+00:22:21,039 --> 00:22:22,720
 just a pain we have to deal with for the
 time being but we understand that the
 
-1069
-00:22:22,710 --> 00:22:22,720
-time being but we understand that the
-
-1070
-00:22:22,720 --> 00:22:26,470
+535
+00:22:22,720 --> 00:22:26,480
 time being but we understand that the
 journey is worth it. Outside of that
 
-1071
-00:22:26,470 --> 00:22:26,480
-journey is worth it. Outside of that
-
-1072
-00:22:26,480 --> 00:22:29,909
+536
+00:22:26,480 --> 00:22:29,919
 journey is worth it. Outside of that
 for me I would also like to envision the
 
-1073
-00:22:29,909 --> 00:22:29,919
-for me I would also like to envision the
-
-1074
-00:22:29,919 --> 00:22:33,190
+537
+00:22:29,919 --> 00:22:33,200
 for me I would also like to envision the
 ability to download the wallet and for
 
-1075
-00:22:33,190 --> 00:22:33,200
-ability to download the wallet and for
-
-1076
-00:22:33,200 --> 00:22:36,149
+538
+00:22:33,200 --> 00:22:36,159
 ability to download the wallet and for
 there to be a gossip protocol that
 
-1077
-00:22:36,149 --> 00:22:36,159
-there to be a gossip protocol that
-
-1078
-00:22:36,159 --> 00:22:39,190
+539
+00:22:36,159 --> 00:22:39,200
 there to be a gossip protocol that
 allows me to just choose which agent I
 
-1079
-00:22:39,190 --> 00:22:39,200
-allows me to just choose which agent I
-
-1080
-00:22:39,200 --> 00:22:42,710
+540
+00:22:39,200 --> 00:22:42,720
 allows me to just choose which agent I
 want to connect to. I'd love to see
 
-1081
-00:22:42,710 --> 00:22:42,720
-want to connect to. I'd love to see
-
-1082
-00:22:42,720 --> 00:22:44,630
+541
+00:22:42,720 --> 00:22:44,640
 want to connect to. I'd love to see
 that level of adoption and the
 
-1083
-00:22:44,630 --> 00:22:44,640
-that level of adoption and the
-
-1084
-00:22:44,640 --> 00:22:46,870
+542
+00:22:44,640 --> 00:22:46,880
 that level of adoption and the
 infrastructure roll out and I think SEDI
 
-1085
-00:22:46,870 --> 00:22:46,880
-infrastructure roll out and I think SEDI
-
-1086
-00:22:46,880 --> 00:22:48,870
+543
+00:22:46,880 --> 00:22:48,880
 infrastructure roll out and I think SEDI
 is actually one of those initiatives
 
-1087
-00:22:48,870 --> 00:22:48,880
-is actually one of those initiatives
-
-1088
-00:22:48,880 --> 00:22:50,070
+544
+00:22:48,880 --> 00:22:50,080
 is actually one of those initiatives
 that will drive that type of
 
-1089
-00:22:50,070 --> 00:22:50,080
-that will drive that type of
-
-1090
-00:22:50,080 --> 00:22:53,750
+545
+00:22:50,080 --> 00:22:53,760
 that will drive that type of
 infrastructure roll out as well.
 
-1091
-00:22:53,750 --> 00:22:53,760
+546
+00:22:53,760 --> 00:22:57,520
 infrastructure roll out as well.
+Well, there's a scenario that
 
-1092
-00:22:53,760 --> 00:22:57,510
-infrastructure roll out as well.
-Well, there's a scenario that 
-
-1093
-00:22:57,510 --> 00:22:57,520
-Well, there's a scenario that 
-
-1094
-00:22:57,520 --> 00:22:59,990
-Well, there's a scenario that 
+547
+00:22:57,520 --> 00:23:00,000
+Well, there's a scenario that
 may be solvable and may have an answer
 
-1095
-00:22:59,990 --> 00:23:00,000
-may be solvable and may have an answer
-
-1096
-00:23:00,000 --> 00:23:01,750
+548
+00:23:00,000 --> 00:23:01,760
 may be solvable and may have an answer
 that but I don't know what it is yet.
 
-1097
-00:23:01,750 --> 00:23:01,760
-that but I don't know what it is yet.
-
-1098
-00:23:01,760 --> 00:23:03,270
+549
+00:23:01,760 --> 00:23:03,280
 that but I don't know what it is yet.
 So, I'm going to put this out as a
 
-1099
-00:23:03,270 --> 00:23:03,280
-So, I'm going to put this out as a
-
-1100
-00:23:03,280 --> 00:23:05,590
+550
+00:23:03,280 --> 00:23:05,600
 So, I'm going to put this out as a
 question to everybody. So the
 
-1101
-00:23:05,590 --> 00:23:05,600
-question to everybody. So the
-
-1102
-00:23:05,600 --> 00:23:07,750
+551
+00:23:05,600 --> 00:23:07,760
 question to everybody. So the
 scenario was that the u the governor of
 
-1103
-00:23:07,750 --> 00:23:07,760
-scenario was that the u the governor of
-
-1104
-00:23:07,760 --> 00:23:11,590
+552
+00:23:07,760 --> 00:23:11,600
 scenario was that the u the governor of
 the state of Utah has himself a SEDI
 
-1105
-00:23:11,590 --> 00:23:11,600
-the state of Utah has himself a SEDI
-
-1106
-00:23:11,600 --> 00:23:16,070
+553
+00:23:11,600 --> 00:23:16,080
 the state of Utah has himself a SEDI
 credential and a watcher network
 
-1107
-00:23:16,070 --> 00:23:16,080
-credential and a watcher network
-
-1108
-00:23:16,080 --> 00:23:18,470
+554
+00:23:16,080 --> 00:23:18,480
 credential and a watcher network
 detects duplicity.
 
-1109
-00:23:18,470 --> 00:23:18,480
-detects duplicity.
-
-1110
-00:23:18,480 --> 00:23:21,750
+555
+00:23:18,480 --> 00:23:21,760
 detects duplicity.
 What happens next?
 
-1111
-00:23:21,750 --> 00:23:21,760
-What happens next?
-
-1112
+556
 00:23:21,760 --> 00:23:26,230
 What happens next?
 Impeached.
 
-1113
-00:23:29,270 --> 00:23:29,280
-It's a good question.
-
-1114
-00:23:29,280 --> 00:23:31,029
+557
+00:23:29,270 --> 00:23:31,039
 It's a good question.
 I'm looking for answers. We can't have
 
-1115
-00:23:31,029 --> 00:23:31,039
-I'm looking for answers. We can't have
-
-1116
-00:23:31,039 --> 00:23:33,029
+558
+00:23:31,039 --> 00:23:33,039
 I'm looking for answers. We can't have
 any political leader who says two
 
-1117
-00:23:33,029 --> 00:23:33,039
-any political leader who says two
-
-1118
-00:23:33,039 --> 00:23:34,549
+559
+00:23:33,039 --> 00:23:34,559
 any political leader who says two
 different contradictory things,
 
-1119
-00:23:34,549 --> 00:23:34,559
-different contradictory things,
-
-1120
-00:23:34,559 --> 00:23:35,350
+560
+00:23:34,559 --> 00:23:35,360
 different contradictory things,
 right?
 
-1121
-00:23:35,350 --> 00:23:35,360
-right?
-
-1122
+561
 00:23:35,360 --> 00:23:39,510
 right?
 That doesn't happen in politics.
 
-1123
-00:23:41,270 --> 00:23:41,280
-Yeah. If anybody wants to try to throw
-
-1124
-00:23:41,280 --> 00:23:43,590
+562
+00:23:41,270 --> 00:23:43,600
 Yeah. If anybody wants to try to throw
 an answer out there,
 
-1125
-00:23:43,590 --> 00:23:43,600
-an answer out there,
-
-1126
-00:23:43,600 --> 00:23:45,750
+563
+00:23:43,600 --> 00:23:45,760
 an answer out there,
 I think you stumped him, Alan.
 
-1127
-00:23:45,750 --> 00:23:45,760
-I think you stumped him, Alan.
-
-1128
+564
 00:23:45,760 --> 00:23:53,270
 I think you stumped him, Alan.
 His people will do a rotation for
 
-1129
-00:23:55,750 --> 00:23:55,760
-Should we revoke or revert? Oh, no.
-
-1130
-00:23:55,760 --> 00:23:58,630
+565
+00:23:55,750 --> 00:23:58,640
 Should we revoke or revert? Oh, no.
 Revise. Is it revise?
 
-1131
-00:23:58,630 --> 00:23:58,640
-Revise. Is it revise?
-
-1132
-00:23:58,640 --> 00:24:01,270
+566
+00:23:58,640 --> 00:24:01,280
 Revise. Is it revise?
 Actually,
 
-1133
-00:24:01,270 --> 00:24:01,280
-Actually,
-
-1134
-00:24:01,280 --> 00:24:03,029
+567
+00:24:01,280 --> 00:24:03,039
 Actually,
 it's a it is a bit more of a general
 
-1135
-00:24:03,029 --> 00:24:03,039
-it's a it is a bit more of a general
-
-1136
-00:24:03,039 --> 00:24:05,750
+568
+00:24:03,039 --> 00:24:05,760
 it's a it is a bit more of a general
 purpose question though where you have a
 
-1137
-00:24:05,750 --> 00:24:05,760
-purpose question though where you have a
-
-1138
-00:24:05,760 --> 00:24:10,390
+569
+00:24:05,760 --> 00:24:10,400
 purpose question though where you have a
 a regular human out there and
 
-1139
-00:24:10,390 --> 00:24:10,400
-a regular human out there and
-
-1140
-00:24:10,400 --> 00:24:13,269
+570
+00:24:10,400 --> 00:24:13,279
 a regular human out there and
 u some watcher network somewhere detects
 
-1141
-00:24:13,269 --> 00:24:13,279
-u some watcher network somewhere detects
-
-1142
-00:24:13,279 --> 00:24:15,350
+571
+00:24:13,279 --> 00:24:15,360
 u some watcher network somewhere detects
 duplicity on their key and this is
 
-1143
-00:24:15,350 --> 00:24:15,360
-duplicity on their key and this is
-
-1144
-00:24:15,360 --> 00:24:17,110
+572
+00:24:15,360 --> 00:24:17,120
 duplicity on their key and this is
 just some person who's going to inform
 
-1145
-00:24:17,110 --> 00:24:17,120
-just some person who's going to inform
-
-1146
-00:24:17,120 --> 00:24:18,390
+573
+00:24:17,120 --> 00:24:18,400
 just some person who's going to inform
 them what to do and
 
-1147
-00:24:18,390 --> 00:24:18,400
-them what to do and
-
-1148
-00:24:18,400 --> 00:24:20,549
+574
+00:24:18,400 --> 00:24:20,559
 them what to do and
 well you need to your wallet you should
 
-1149
-00:24:20,549 --> 00:24:20,559
-well you need to your wallet you should
-
-1150
-00:24:20,559 --> 00:24:22,950
+575
+00:24:20,559 --> 00:24:22,960
 well you need to your wallet you should
 have a local watcher that is informing
 
-1151
-00:24:22,950 --> 00:24:22,960
-have a local watcher that is informing
-
-1152
-00:24:22,960 --> 00:24:25,510
+576
+00:24:22,960 --> 00:24:25,520
 have a local watcher that is informing
 your wallet of any changes to your
 
-1153
-00:24:25,510 --> 00:24:25,520
-your wallet of any changes to your
-
-1154
-00:24:25,520 --> 00:24:28,710
+577
+00:24:25,520 --> 00:24:28,720
 your wallet of any changes to your
 key state that you didn't source And so
 
-1155
-00:24:28,710 --> 00:24:28,720
-key state that you didn't source And so
-
-1156
-00:24:28,720 --> 00:24:31,029
+578
+00:24:28,720 --> 00:24:31,039
 key state that you didn't source And so
 it can compare the two and see that your
 
-1157
-00:24:31,029 --> 00:24:31,039
-it can compare the two and see that your
-
-1158
-00:24:31,039 --> 00:24:33,830
+579
+00:24:31,039 --> 00:24:33,840
 it can compare the two and see that your
 witnesses don't agree with what you did.
 
-1159
-00:24:33,830 --> 00:24:33,840
-witnesses don't agree with what you did.
-
-1160
-00:24:33,840 --> 00:24:36,549
+580
+00:24:33,840 --> 00:24:36,559
 witnesses don't agree with what you did.
 And so it'll tell you, hey, there's bad
 
-1161
-00:24:36,549 --> 00:24:36,559
-And so it'll tell you, hey, there's bad
-
-1162
-00:24:36,559 --> 00:24:38,630
+581
+00:24:36,559 --> 00:24:38,640
 And so it'll tell you, hey, there's bad
 stuff just happened. What would you like
 
-1163
-00:24:38,630 --> 00:24:38,640
-stuff just happened. What would you like
-
-1164
-00:24:38,640 --> 00:24:40,710
+582
+00:24:38,640 --> 00:24:40,720
 stuff just happened. What would you like
 me to do about it? I can do a rotation,
 
-1165
-00:24:40,710 --> 00:24:40,720
-me to do about it? I can do a rotation,
-
-1166
-00:24:40,720 --> 00:24:42,630
+583
+00:24:40,720 --> 00:24:42,640
 me to do about it? I can do a rotation,
 repair it. Do you want to call? You
 
-1167
-00:24:42,630 --> 00:24:42,640
-repair it. Do you want to call? You
-
-1168
-00:24:42,640 --> 00:24:44,470
+584
+00:24:42,640 --> 00:24:44,480
 repair it. Do you want to call? You
 know, all of those are things are part
 
-1169
-00:24:44,470 --> 00:24:44,480
-know, all of those are things are part
-
-1170
-00:24:44,480 --> 00:24:46,710
+585
+00:24:44,480 --> 00:24:46,720
 know, all of those are things are part
 of the user experience that needs to be
 
-1171
-00:24:46,710 --> 00:24:46,720
-of the user experience that needs to be
-
-1172
-00:24:46,720 --> 00:24:48,390
+586
+00:24:46,720 --> 00:24:48,400
 of the user experience that needs to be
 developed to make it. That's what the
 
-1173
-00:24:48,390 --> 00:24:48,400
-developed to make it. That's what the
-
-1174
-00:24:48,400 --> 00:24:51,110
+587
+00:24:48,400 --> 00:24:51,120
 developed to make it. That's what the
 wizard in the five W's is for is to
 
-1175
-00:24:51,110 --> 00:24:51,120
-wizard in the five W's is for is to
-
-1176
-00:24:51,120 --> 00:24:53,110
+588
+00:24:51,120 --> 00:24:53,120
 wizard in the five W's is for is to
 figure out so that you can suggest to
 
-1177
-00:24:53,110 --> 00:24:53,120
-figure out so that you can suggest to
-
-1178
-00:24:53,120 --> 00:24:54,710
+589
+00:24:53,120 --> 00:24:54,720
 figure out so that you can suggest to
 people the right thing to do. One of the
 
-1179
-00:24:54,710 --> 00:24:54,720
-people the right thing to do. One of the
-
-1180
-00:24:54,720 --> 00:24:56,789
+590
+00:24:54,720 --> 00:24:56,799
 people the right thing to do. One of the
 things in critical physical security
 
-1181
-00:24:56,789 --> 00:24:56,799
-things in critical physical security
-
-1182
-00:24:56,799 --> 00:24:59,430
+591
+00:24:56,799 --> 00:24:59,440
 things in critical physical security
 that we had to figure out is that when
 
-1183
-00:24:59,430 --> 00:24:59,440
-that we had to figure out is that when
-
-1184
-00:24:59,440 --> 00:25:03,430
+592
+00:24:59,440 --> 00:25:03,440
 that we had to figure out is that when
 bad stuff is happening, the
 
-1185
-00:25:03,430 --> 00:25:03,440
-bad stuff is happening, the
-
-1186
-00:25:03,440 --> 00:25:05,269
+593
+00:25:03,440 --> 00:25:05,279
 bad stuff is happening, the
 security people that are monitoring the
 
-1187
-00:25:05,269 --> 00:25:05,279
-security people that are monitoring the
-
-1188
-00:25:05,279 --> 00:25:08,470
+594
+00:25:05,279 --> 00:25:08,480
 security people that are monitoring the
 cameras get overwhelmed very quickly.
 
-1189
-00:25:08,470 --> 00:25:08,480
-cameras get overwhelmed very quickly.
-
-1190
-00:25:08,480 --> 00:25:10,549
+595
+00:25:08,480 --> 00:25:10,559
 cameras get overwhelmed very quickly.
 And so you can't give them a menu of
 
-1191
-00:25:10,549 --> 00:25:10,559
-And so you can't give them a menu of
-
-1192
-00:25:10,559 --> 00:25:12,710
+596
+00:25:10,559 --> 00:25:12,720
 And so you can't give them a menu of
 options. You have to give them like one
 
-1193
-00:25:12,710 --> 00:25:12,720
-options. You have to give them like one
-
-1194
-00:25:12,720 --> 00:25:15,909
+597
+00:25:12,720 --> 00:25:15,919
 options. You have to give them like one
 button, press here, and then good stuff
 
-1195
-00:25:15,909 --> 00:25:15,919
-button, press here, and then good stuff
-
-1196
-00:25:15,919 --> 00:25:17,990
+598
+00:25:15,919 --> 00:25:18,000
 button, press here, and then good stuff
 happens. And so you have to figure out
 
-1197
-00:25:17,990 --> 00:25:18,000
-happens. And so you have to figure out
-
-1198
-00:25:18,000 --> 00:25:21,269
+599
+00:25:18,000 --> 00:25:21,279
 happens. And so you have to figure out
 what that press here does so that when
 
-1199
-00:25:21,269 --> 00:25:21,279
-what that press here does so that when
-
-1200
-00:25:21,279 --> 00:25:23,190
+600
+00:25:21,279 --> 00:25:23,200
 what that press here does so that when
 there's an emergency, they don't go,
 
-1201
-00:25:23,190 --> 00:25:23,200
-there's an emergency, they don't go,
-
-1202
-00:25:23,200 --> 00:25:26,549
+601
+00:25:23,200 --> 00:25:26,559
 there's an emergency, they don't go,
 "Crap, there's duplicity. My life just
 
-1203
-00:25:26,549 --> 00:25:26,559
-"Crap, there's duplicity. My life just
-
-1204
-00:25:26,559 --> 00:25:29,510
+602
+00:25:26,559 --> 00:25:29,520
 "Crap, there's duplicity. My life just
 ended." They need to be able to say,
 
-1205
-00:25:29,510 --> 00:25:29,520
-ended." They need to be able to say,
-
-1206
-00:25:29,520 --> 00:25:32,149
+603
+00:25:29,520 --> 00:25:32,159
 ended." They need to be able to say,
 "Oh, everything's okay." Right? So you
 
-1207
-00:25:32,149 --> 00:25:32,159
-"Oh, everything's okay." Right? So you
-
-1208
-00:25:32,159 --> 00:25:33,750
+604
+00:25:32,159 --> 00:25:33,760
 "Oh, everything's okay." Right? So you
 have to figure out. So you have to have
 
-1209
-00:25:33,750 --> 00:25:33,760
-have to figure out. So you have to have
-
-1210
-00:25:33,760 --> 00:25:35,510
+605
+00:25:33,760 --> 00:25:35,520
 have to figure out. So you have to have
 enough intelligence to be able to say,
 
-1211
-00:25:35,510 --> 00:25:35,520
-enough intelligence to be able to say,
-
-1212
-00:25:35,520 --> 00:25:38,630
+606
+00:25:35,520 --> 00:25:38,640
 enough intelligence to be able to say,
 "Okay." Right? And rotations are safe.
 
-1213
-00:25:38,630 --> 00:25:38,640
-"Okay." Right? And rotations are safe.
-
-1214
-00:25:38,640 --> 00:25:40,390
+607
+00:25:38,640 --> 00:25:40,400
 "Okay." Right? And rotations are safe.
 You can rotate a lot. It doesn't hurt
 
-1215
-00:25:40,390 --> 00:25:40,400
-You can rotate a lot. It doesn't hurt
-
-1216
-00:25:40,400 --> 00:25:42,710
+608
+00:25:40,400 --> 00:25:42,720
 You can rotate a lot. It doesn't hurt
 you to rotate. It's just friction. And
 
-1217
-00:25:42,710 --> 00:25:42,720
-you to rotate. It's just friction. And
-
-1218
-00:25:42,720 --> 00:25:44,470
+609
+00:25:42,720 --> 00:25:44,480
 you to rotate. It's just friction. And
 so you can try to reduce that
 
-1219
-00:25:44,470 --> 00:25:44,480
-so you can try to reduce that
-
-1220
-00:25:44,480 --> 00:25:47,430
+610
+00:25:44,480 --> 00:25:47,440
 so you can try to reduce that
 friction but make it so that it and you
 
-1221
-00:25:47,430 --> 00:25:47,440
-friction but make it so that it and you
-
-1222
-00:25:47,440 --> 00:25:49,590
+611
+00:25:47,440 --> 00:25:49,600
 friction but make it so that it and you
 know it's like that what's the worst
 
-1223
-00:25:49,590 --> 00:25:49,600
-know it's like that what's the worst
-
-1224
-00:25:49,600 --> 00:25:52,390
+612
+00:25:49,600 --> 00:25:52,400
 know it's like that what's the worst
 thing that can happen right you know is
 
-1225
-00:25:52,390 --> 00:25:52,400
-thing that can happen right you know is
-
-1226
-00:25:52,400 --> 00:25:55,110
+613
+00:25:52,400 --> 00:25:55,120
 thing that can happen right you know is
 that you rotate when you didn't need to
 
-1227
-00:25:55,110 --> 00:25:55,120
-that you rotate when you didn't need to
-
-1228
-00:25:55,120 --> 00:25:58,390
+614
+00:25:55,120 --> 00:25:58,400
 that you rotate when you didn't need to
 right but as long as you know I mean rot
 
-1229
-00:25:58,390 --> 00:25:58,400
-right but as long as you know I mean rot
-
-1230
-00:25:58,400 --> 00:26:00,310
+615
+00:25:58,400 --> 00:26:00,320
 right but as long as you know I mean rot
 rotation too much becomes a security
 
-1231
-00:26:00,310 --> 00:26:00,320
-rotation too much becomes a security
-
-1232
-00:26:00,320 --> 00:26:02,630
+616
+00:26:00,320 --> 00:26:02,640
 rotation too much becomes a security
 problem in and of itself but you can
 
-1233
-00:26:02,630 --> 00:26:02,640
-problem in and of itself but you can
-
-1234
-00:26:02,640 --> 00:26:03,830
+617
+00:26:02,640 --> 00:26:03,840
 problem in and of itself but you can
 manage that
 
-1235
-00:26:03,830 --> 00:26:03,840
-manage that
-
-1236
-00:26:03,840 --> 00:26:05,990
+618
+00:26:03,840 --> 00:26:06,000
 manage that
 but of course the pre-rotated key then
 
-1237
-00:26:05,990 --> 00:26:06,000
-but of course the pre-rotated key then
-
-1238
-00:26:06,000 --> 00:26:09,590
+619
+00:26:06,000 --> 00:26:09,600
 but of course the pre-rotated key then
 has to be stored somewhere else and so
 
-1239
-00:26:09,590 --> 00:26:09,600
-has to be stored somewhere else and so
-
-1240
-00:26:09,600 --> 00:26:11,029
+620
+00:26:09,600 --> 00:26:11,039
 has to be stored somewhere else and so
 yes that's why I said there's friction
 
-1241
-00:26:11,029 --> 00:26:11,039
-yes that's why I said there's friction
-
-1242
-00:26:11,039 --> 00:26:12,950
+621
+00:26:11,039 --> 00:26:12,960
 yes that's why I said there's friction
 there so you have you have to the
 
-1243
-00:26:12,950 --> 00:26:12,960
-there so you have you have to the
-
-1244
-00:26:12,960 --> 00:26:14,149
+622
+00:26:12,960 --> 00:26:14,159
 there so you have you have to the
 regular human.
 
-1245
-00:26:14,149 --> 00:26:14,159
-regular human.
-
-1246
-00:26:14,159 --> 00:26:16,789
+623
+00:26:14,159 --> 00:26:16,799
 regular human.
 Yeah. So, but that's why that's
 
-1247
-00:26:16,789 --> 00:26:16,799
-Yeah. So, but that's why that's
-
-1248
-00:26:16,799 --> 00:26:18,870
+624
+00:26:16,799 --> 00:26:18,880
 Yeah. So, but that's why that's
 why there's various things that we have
 
-1249
-00:26:18,870 --> 00:26:18,880
-why there's various things that we have
-
-1250
-00:26:18,880 --> 00:26:21,350
+625
+00:26:18,880 --> 00:26:21,360
 why there's various things that we have
 to work on to figure out all the
 
-1251
-00:26:21,350 --> 00:26:21,360
-to work on to figure out all the
-
-1252
-00:26:21,360 --> 00:26:22,710
+626
+00:26:21,360 --> 00:26:22,720
 to work on to figure out all the
 different friction points and figure out
 
-1253
-00:26:22,710 --> 00:26:22,720
-different friction points and figure out
-
-1254
-00:26:22,720 --> 00:26:25,430
+627
+00:26:22,720 --> 00:26:25,440
 different friction points and figure out
 how to solve those and it's
 
-1255
-00:26:25,430 --> 00:26:25,440
-how to solve those and it's
-
-1256
-00:26:25,440 --> 00:26:27,350
+628
+00:26:25,440 --> 00:26:27,360
 how to solve those and it's
 not those aren't trivial problems. So,
 
-1257
-00:26:27,350 --> 00:26:27,360
-not those aren't trivial problems. So,
-
-1258
-00:26:27,360 --> 00:26:29,269
+629
+00:26:27,360 --> 00:26:29,279
 not those aren't trivial problems. So,
 yes, it's it's it's a hard problem yet
 
-1259
-00:26:29,269 --> 00:26:29,279
-yes, it's it's it's a hard problem yet
-
-1260
-00:26:29,279 --> 00:26:30,310
+630
+00:26:29,279 --> 00:26:30,320
 yes, it's it's it's a hard problem yet
 to be solved.
 
-1261
-00:26:30,310 --> 00:26:30,320
-to be solved.
-
-1262
-00:26:30,320 --> 00:26:31,990
+631
+00:26:30,320 --> 00:26:32,000
 to be solved.
 Maybe the answer eventually is we all
 
-1263
-00:26:31,990 --> 00:26:32,000
-Maybe the answer eventually is we all
-
-1264
-00:26:32,000 --> 00:26:34,149
+632
+00:26:32,000 --> 00:26:34,159
 Maybe the answer eventually is we all
 have a little chip and that's where we
 
-1265
-00:26:34,149 --> 00:26:34,159
-have a little chip and that's where we
-
-1266
-00:26:34,159 --> 00:26:37,029
+633
+00:26:34,159 --> 00:26:37,039
 have a little chip and that's where we
 keep our pre-rotated key.
 
-1267
-00:26:37,029 --> 00:26:37,039
-keep our pre-rotated key.
-
-1268
-00:26:37,039 --> 00:26:41,190
+634
+00:26:37,039 --> 00:26:41,200
 keep our pre-rotated key.
 I want to throw in one other thing.
 
-1269
-00:26:41,190 --> 00:26:41,200
-I want to throw in one other thing.
-
-1270
+635
 00:26:41,200 --> 00:26:45,590
 I want to throw in one other thing.
 Go ahead.
 
-1271
-00:26:47,510 --> 00:26:47,520
-Movie with Keano Reeves in it. That's a
-
-1272
-00:26:47,520 --> 00:26:49,750
+636
+00:26:47,510 --> 00:26:49,760
 Movie with Keano Reeves in it. That's a
 really dystopian view of putting stuff
 
-1273
-00:26:49,750 --> 00:26:49,760
-really dystopian view of putting stuff
-
-1274
-00:26:49,760 --> 00:26:52,070
+637
+00:26:49,760 --> 00:26:52,080
 really dystopian view of putting stuff
 in your brain.
 
-1275
-00:26:52,070 --> 00:26:52,080
-in your brain.
-
-1276
-00:26:52,080 --> 00:26:53,590
+638
+00:26:52,080 --> 00:26:53,600
 in your brain.
 I want to throw in one other thing I'm
 
-1277
-00:26:53,590 --> 00:26:53,600
-I want to throw in one other thing I'm
-
-1278
-00:26:53,600 --> 00:26:54,950
+639
+00:26:53,600 --> 00:26:54,960
 I want to throw in one other thing I'm
 really looking forward to that we can't
 
-1279
-00:26:54,950 --> 00:26:54,960
-really looking forward to that we can't
-
-1280
-00:26:54,960 --> 00:26:56,310
+640
+00:26:54,960 --> 00:26:56,320
 really looking forward to that we can't
 do today.
 
-1281
-00:26:56,310 --> 00:26:56,320
-do today.
-
-1282
-00:26:56,320 --> 00:26:59,110
+641
+00:26:56,320 --> 00:26:59,120
 do today.
 And that is I'm looking forward to
 
-1283
-00:26:59,110 --> 00:26:59,120
-And that is I'm looking forward to
-
-1284
-00:26:59,120 --> 00:27:04,390
+642
+00:26:59,120 --> 00:27:04,400
 And that is I'm looking forward to
 the postquantum support in KERI.
 
-1285
-00:27:04,390 --> 00:27:04,400
-the postquantum support in KERI.
-
-1286
-00:27:04,400 --> 00:27:07,269
+643
+00:27:04,400 --> 00:27:07,279
 the postquantum support in KERI.
 I want Falcon to be in. Part of
 
-1287
-00:27:07,269 --> 00:27:07,279
-I want Falcon to be in. Part of
-
-1288
-00:27:07,279 --> 00:27:09,590
+644
+00:27:07,279 --> 00:27:09,600
 I want Falcon to be in. Part of
 why I want it to be in is because I can
 
-1289
-00:27:09,590 --> 00:27:09,600
-why I want it to be in is because I can
-
-1290
-00:27:09,600 --> 00:27:11,350
+645
+00:27:09,600 --> 00:27:11,360
 why I want it to be in is because I can
 see the train wreck happening everywhere
 
-1291
-00:27:11,350 --> 00:27:11,360
-see the train wreck happening everywhere
-
-1292
-00:27:11,360 --> 00:27:12,710
+646
+00:27:11,360 --> 00:27:12,720
 see the train wreck happening everywhere
 else.
 
-1293
-00:27:12,710 --> 00:27:12,720
-else.
-
-1294
-00:27:12,720 --> 00:27:15,990
+647
+00:27:12,720 --> 00:27:16,000
 else.
 And I know that we have a great story,
 
-1295
-00:27:15,990 --> 00:27:16,000
-And I know that we have a great story,
-
-1296
-00:27:16,000 --> 00:27:17,750
+648
+00:27:16,000 --> 00:27:17,760
 And I know that we have a great story,
 but it will be even greater when the
 
-1297
-00:27:17,750 --> 00:27:17,760
-but it will be even greater when the
-
-1298
-00:27:17,760 --> 00:27:19,750
+649
+00:27:17,760 --> 00:27:19,760
 but it will be even greater when the
 train wreck starts to have casualties
 
-1299
-00:27:19,750 --> 00:27:19,760
-train wreck starts to have casualties
-
-1300
-00:27:19,760 --> 00:27:21,590
+650
+00:27:19,760 --> 00:27:21,600
 train wreck starts to have casualties
 everywhere else and we say, "Come on
 
-1301
-00:27:21,590 --> 00:27:21,600
-everywhere else and we say, "Come on
-
-1302
-00:27:21,600 --> 00:27:26,230
+651
+00:27:21,600 --> 00:27:26,240
 everywhere else and we say, "Come on
 over." I we're ready. I mean, it
 
-1303
-00:27:26,230 --> 00:27:26,240
+652
+00:27:26,240 --> 00:27:29,520
 over." I we're ready. I mean, it
+would not be that hard to add it in.
 
-1304
-00:27:26,240 --> 00:27:29,510
-over." I we're ready. I mean, it
-would not be that hard to add it in. 
-
-1305
-00:27:29,510 --> 00:27:29,520
-would not be that hard to add it in. 
-
-1306
-00:27:29,520 --> 00:27:32,230
-would not be that hard to add it in. 
+653
+00:27:29,520 --> 00:27:32,240
+would not be that hard to add it in.
 So that's just a little bug in
 
-1307
-00:27:32,230 --> 00:27:32,240
-so that's just a little bug in
-
-1308
-00:27:32,240 --> 00:27:34,710
+654
+00:27:32,240 --> 00:27:34,720
 so that's just a little bug in
 everybody's ear. Let's let's get that in
 
-1309
-00:27:34,710 --> 00:27:34,720
-everybody's ear. Let's let's get that in
-
-1310
-00:27:34,720 --> 00:27:37,190
+655
+00:27:34,720 --> 00:27:37,200
 everybody's ear. Let's let's get that in
 quickly. Something that just occurred to
 
-1311
-00:27:37,190 --> 00:27:37,200
-quickly. Something that just occurred to
-
-1312
-00:27:37,200 --> 00:27:39,110
+656
+00:27:37,200 --> 00:27:39,120
 quickly. Something that just occurred to
 me that I would love to see is a login
 
-1313
-00:27:39,110 --> 00:27:39,120
-me that I would love to see is a login
-
-1314
-00:27:39,120 --> 00:27:42,149
+657
+00:27:39,120 --> 00:27:42,159
 me that I would love to see is a login
 with KERI button
 
-1315
-00:27:42,149 --> 00:27:42,159
-with KERI button
-
-1316
-00:27:42,159 --> 00:27:43,830
+658
+00:27:42,159 --> 00:27:43,840
 with KERI button
 just everywhere.
 
-1317
-00:27:43,830 --> 00:27:43,840
-just everywhere.
-
-1318
-00:27:43,840 --> 00:27:45,669
+659
+00:27:43,840 --> 00:27:45,679
 just everywhere.
 Wouldn't we all? Yeah. Get rid of get
 
-1319
-00:27:45,669 --> 00:27:45,679
-Wouldn't we all? Yeah. Get rid of get
-
-1320
-00:27:45,679 --> 00:27:47,430
+660
+00:27:45,679 --> 00:27:47,440
 Wouldn't we all? Yeah. Get rid of get
 rid of the login with Google and GitHub
 
-1321
-00:27:47,430 --> 00:27:47,440
-rid of the login with Google and GitHub
-
-1322
-00:27:47,440 --> 00:27:49,029
+661
+00:27:47,440 --> 00:27:49,039
 rid of the login with Google and GitHub
 and all the other stuff and right
 
-1323
-00:27:49,029 --> 00:27:49,039
-and all the other stuff and right
-
-1324
-00:27:49,039 --> 00:27:52,310
+662
+00:27:49,039 --> 00:27:52,320
 and all the other stuff and right
 login with KERI.
 
-1325
-00:27:52,310 --> 00:27:52,320
-login with KERI.
-
-1326
-00:27:52,320 --> 00:27:54,630
+663
+00:27:52,320 --> 00:27:54,640
 login with KERI.
 All right. I actually don't have any
 
-1327
-00:27:54,630 --> 00:27:54,640
-All right. I actually don't have any
-
-1328
-00:27:54,640 --> 00:27:56,549
+664
+00:27:54,640 --> 00:27:56,559
 All right. I actually don't have any
 further questions. I wanted to open up
 
-1329
-00:27:56,549 --> 00:27:56,559
-further questions. I wanted to open up
-
-1330
-00:27:56,559 --> 00:27:58,470
+665
+00:27:56,559 --> 00:27:58,480
 further questions. I wanted to open up
 maybe to the group to ask questions
 
-1331
-00:27:58,470 --> 00:27:58,480
-maybe to the group to ask questions
-
-1332
-00:27:58,480 --> 00:28:02,070
+666
+00:27:58,480 --> 00:28:02,080
 maybe to the group to ask questions
 of our illustrious panel here. those who
 
-1333
-00:28:02,070 --> 00:28:02,080
-of our illustrious panel here. those who
-
-1334
-00:28:02,080 --> 00:28:04,149
+667
+00:28:02,080 --> 00:28:04,159
 of our illustrious panel here. those who
 haven't had a chance to maybe ask
 
-1335
-00:28:04,149 --> 00:28:04,159
-haven't had a chance to maybe ask
-
-1336
-00:28:04,159 --> 00:28:06,230
+668
+00:28:04,159 --> 00:28:06,240
 haven't had a chance to maybe ask
 questions or hear from some of our
 
-1337
-00:28:06,230 --> 00:28:06,240
-questions or hear from some of our
-
-1338
+669
 00:28:06,240 --> 00:28:09,590
 questions or hear from some of our
 guests.
 
-1339
-00:28:11,190 --> 00:28:11,200
-I guess not. I guess we've covered it
-
-1340
-00:28:11,200 --> 00:28:14,389
+670
+00:28:11,190 --> 00:28:14,399
 I guess not. I guess we've covered it
 all. We are coming to the end of or I
 
-1341
-00:28:14,389 --> 00:28:14,399
-all. We are coming to the end of or I
-
-1342
-00:28:14,399 --> 00:28:16,389
+671
+00:28:14,399 --> 00:28:16,399
 all. We are coming to the end of or I
 guess we are at the end of our
 
-1343
-00:28:16,389 --> 00:28:16,399
-guess we are at the end of our
-
-1344
-00:28:16,399 --> 00:28:19,110
+672
+00:28:16,399 --> 00:28:19,120
 guess we are at the end of our
 conference. We've had a chance to hear
 
-1345
-00:28:19,110 --> 00:28:19,120
-conference. We've had a chance to hear
-
-1346
-00:28:19,120 --> 00:28:20,870
+673
+00:28:19,120 --> 00:28:20,880
 conference. We've had a chance to hear
 from pretty much all of you at one point
 
-1347
-00:28:20,870 --> 00:28:20,880
-from pretty much all of you at one point
-
-1348
-00:28:20,880 --> 00:28:23,190
+674
+00:28:20,880 --> 00:28:23,200
 from pretty much all of you at one point
 or another and it's really been an
 
-1349
-00:28:23,190 --> 00:28:23,200
-or another and it's really been an
-
-1350
-00:28:23,200 --> 00:28:25,430
+675
+00:28:23,200 --> 00:28:25,440
 or another and it's really been an
 amazing experience. For me
 
-1351
-00:28:25,430 --> 00:28:25,440
-amazing experience. For me
-
-1352
-00:28:25,440 --> 00:28:27,190
+676
+00:28:25,440 --> 00:28:27,200
 amazing experience. For me
 personally, as a kind of new to the
 
-1353
-00:28:27,190 --> 00:28:27,200
-personally, as a kind of new to the
-
-1354
-00:28:27,200 --> 00:28:30,070
+677
+00:28:27,200 --> 00:28:30,080
 personally, as a kind of new to the
 KERI ecosystem, the KERI world,
 
-1355
-00:28:30,070 --> 00:28:30,080
-KERI ecosystem, the KERI world,
-
-1356
-00:28:30,080 --> 00:28:31,830
+678
+00:28:30,080 --> 00:28:31,840
 KERI ecosystem, the KERI world,
 it's it's really encouraging to see how
 
-1357
-00:28:31,830 --> 00:28:31,840
-it's it's really encouraging to see how
-
-1358
-00:28:31,840 --> 00:28:33,750
+679
+00:28:31,840 --> 00:28:33,760
 it's it's really encouraging to see how
 many other people have been thinking
 
-1359
-00:28:33,750 --> 00:28:33,760
-many other people have been thinking
-
-1360
-00:28:33,760 --> 00:28:35,990
+680
+00:28:33,760 --> 00:28:36,000
 many other people have been thinking
 about this for a long time and have been
 
-1361
-00:28:35,990 --> 00:28:36,000
+681
+00:28:36,000 --> 00:28:38,399
 about this for a long time and have been
+working on this for a long time.
 
-1362
-00:28:36,000 --> 00:28:38,389
-about this for a long time and have been
-working on this for a long time. 
-
-1363
-00:28:38,389 --> 00:28:38,399
-working on this for a long time. 
-
-1364
-00:28:38,399 --> 00:28:40,149
-working on this for a long time. 
+682
+00:28:38,399 --> 00:28:40,159
+working on this for a long time.
 I've got a lot of catching up to do and
 
-1365
-00:28:40,149 --> 00:28:40,159
-I've got a lot of catching up to do and
-
-1366
-00:28:40,159 --> 00:28:42,630
+683
+00:28:40,159 --> 00:28:42,640
 I've got a lot of catching up to do and
 we're excited as a as a KERI Foundation
 
-1367
-00:28:42,630 --> 00:28:42,640
-we're excited as a as a KERI Foundation
-
-1368
-00:28:42,640 --> 00:28:45,269
+684
+00:28:42,640 --> 00:28:45,279
 we're excited as a as a KERI Foundation
 team to get in to start addressing
 
-1369
-00:28:45,269 --> 00:28:45,279
-team to get in to start addressing
-
-1370
-00:28:45,279 --> 00:28:46,549
+685
+00:28:45,279 --> 00:28:46,559
 team to get in to start addressing
 some of these problems that you guys
 
-1371
-00:28:46,549 --> 00:28:46,559
-some of these problems that you guys
-
-1372
-00:28:46,559 --> 00:28:49,110
+686
+00:28:46,559 --> 00:28:49,120
 some of these problems that you guys
 have brought up. So, in the last just
 
-1373
-00:28:49,110 --> 00:28:49,120
-have brought up. So, in the last just
-
-1374
-00:28:49,120 --> 00:28:51,029
+687
+00:28:49,120 --> 00:28:51,039
 have brought up. So, in the last just
 maybe few minutes, I'll give you guys
 
-1375
-00:28:51,029 --> 00:28:51,039
-maybe few minutes, I'll give you guys
-
-1376
-00:28:51,039 --> 00:28:52,310
+688
+00:28:51,039 --> 00:28:52,320
 maybe few minutes, I'll give you guys
 each a chance to kind of give your
 
-1377
-00:28:52,310 --> 00:28:52,320
-each a chance to kind of give your
-
-1378
-00:28:52,320 --> 00:28:54,310
+689
+00:28:52,320 --> 00:28:54,320
 each a chance to kind of give your
 closing statements and your last
 
-1379
-00:28:54,310 --> 00:28:54,320
-closing statements and your last
-
-1380
-00:28:54,320 --> 00:28:56,789
+690
+00:28:54,320 --> 00:28:56,799
 closing statements and your last
 little messages to the KERI Conference
 
-1381
-00:28:56,789 --> 00:28:56,799
-little messages to the KERI Conference
-
-1382
-00:28:56,799 --> 00:29:00,230
+691
+00:28:56,799 --> 00:29:00,240
 little messages to the KERI Conference
 are our first ever KERI Conference. No
 
-1383
-00:29:00,230 --> 00:29:00,240
-are our first ever KERI Conference. No
-
-1384
-00:29:00,240 --> 00:29:03,430
+692
+00:29:00,240 --> 00:29:03,440
 are our first ever KERI Conference. No
 time limit.
 
-1385
-00:29:03,430 --> 00:29:03,440
-time limit.
-
-1386
-00:29:03,440 --> 00:29:04,310
+693
+00:29:03,440 --> 00:29:04,320
 time limit.
 Dangerous.
 
-1387
-00:29:04,310 --> 00:29:04,320
-Dangerous.
-
-1388
-00:29:04,320 --> 00:29:06,870
+694
+00:29:04,320 --> 00:29:06,880
 Dangerous.
 Well, I'll go first by just saying
 
-1389
-00:29:06,870 --> 00:29:06,880
-Well, I'll go first by just saying
-
-1390
-00:29:06,880 --> 00:29:10,789
+695
+00:29:06,880 --> 00:29:10,799
 Well, I'll go first by just saying
 that all of the thanks goes to Sam
 
-1391
-00:29:10,789 --> 00:29:10,799
-that all of the thanks goes to Sam
-
-1392
-00:29:10,799 --> 00:29:13,830
+696
+00:29:10,799 --> 00:29:13,840
 that all of the thanks goes to Sam
 Smith. I mean, none of us would be here
 
-1393
-00:29:13,830 --> 00:29:13,840
-Smith. I mean, none of us would be here
-
-1394
-00:29:13,840 --> 00:29:18,389
+697
+00:29:13,840 --> 00:29:18,399
 Smith. I mean, none of us would be here
 without Sam. and I'm
 
-1395
-00:29:18,389 --> 00:29:18,399
-without Sam. and I'm
-
-1396
-00:29:18,399 --> 00:29:21,430
+698
+00:29:18,399 --> 00:29:21,440
 without Sam. and I'm
 looking forward to next year.
 
-1397
-00:29:21,430 --> 00:29:21,440
-looking forward to next year.
-
-1398
+699
 00:29:21,440 --> 00:29:25,190
 looking forward to next year.
 Indeed.
 
-1399
-00:29:28,230 --> 00:29:28,240
-I think 
-
-1400
-00:29:28,240 --> 00:29:29,990
-I think 
+700
+00:29:28,230 --> 00:29:30,000
+I think
 one thing that's kind of come up in
 
-1401
-00:29:29,990 --> 00:29:30,000
-one thing that's kind of come up in
-
-1402
-00:29:30,000 --> 00:29:31,990
+701
+00:29:30,000 --> 00:29:32,000
 one thing that's kind of come up in
 some conversations I've been having with
 
-1403
-00:29:31,990 --> 00:29:32,000
-some conversations I've been having with
-
-1404
-00:29:32,000 --> 00:29:33,830
+702
+00:29:32,000 --> 00:29:33,840
 some conversations I've been having with
 fellow colleagues
 
-1405
-00:29:33,830 --> 00:29:33,840
-fellow colleagues
-
-1406
-00:29:33,840 --> 00:29:38,149
+703
+00:29:33,840 --> 00:29:38,159
 fellow colleagues
 From the W3C space that I just
 
-1407
-00:29:38,149 --> 00:29:38,159
-From the W3C space that I just
-
-1408
-00:29:38,159 --> 00:29:41,430
+704
+00:29:38,159 --> 00:29:41,440
 From the W3C space that I just
 wanted to share is
 
-1409
-00:29:41,430 --> 00:29:41,440
-wanted to share is
-
-1410
-00:29:41,440 --> 00:29:43,029
+705
+00:29:41,440 --> 00:29:43,039
 wanted to share is
 There's been a lot of work there in
 
-1411
-00:29:43,029 --> 00:29:43,039
-There's been a lot of work there in
-
-1412
-00:29:43,039 --> 00:29:45,590
+706
+00:29:43,039 --> 00:29:45,600
 There's been a lot of work there in
 standardization and for me there was
 
-1413
-00:29:45,590 --> 00:29:45,600
-standardization and for me there was
-
-1414
-00:29:45,600 --> 00:29:47,510
+707
+00:29:45,600 --> 00:29:47,520
 standardization and for me there was
 kind of a moment that shifted across the
 
-1415
-00:29:47,510 --> 00:29:47,520
-kind of a moment that shifted across the
-
-1416
-00:29:47,520 --> 00:29:51,430
+708
+00:29:47,520 --> 00:29:51,440
 kind of a moment that shifted across the
 last couple of months where what I
 
-1417
-00:29:51,430 --> 00:29:51,440
-last couple of months where what I
-
-1418
-00:29:51,440 --> 00:29:53,430
+709
+00:29:51,440 --> 00:29:53,440
 last couple of months where what I
 what I can acknowledge from the W3 three
 
-1419
-00:29:53,430 --> 00:29:53,440
-what I can acknowledge from the W3 three
-
-1420
-00:29:53,440 --> 00:29:56,310
+710
+00:29:53,440 --> 00:29:56,320
 what I can acknowledge from the W3 three
 spaces they have standardized the data
 
-1421
-00:29:56,310 --> 00:29:56,320
-spaces they have standardized the data
-
-1422
-00:29:56,320 --> 00:29:59,590
+711
+00:29:56,320 --> 00:29:59,600
 spaces they have standardized the data
 model and that's been that's been useful
 
-1423
-00:29:59,590 --> 00:29:59,600
-model and that's been that's been useful
-
-1424
-00:29:59,600 --> 00:30:02,389
+712
+00:29:59,600 --> 00:30:02,399
 model and that's been that's been useful
 for a lot of development work but I
 
-1425
-00:30:02,389 --> 00:30:02,399
-for a lot of development work but I
-
-1426
-00:30:02,399 --> 00:30:04,549
+713
+00:30:02,399 --> 00:30:04,559
 for a lot of development work but I
 believe that what we standardized here
 
-1427
-00:30:04,549 --> 00:30:04,559
-believe that what we standardized here
-
-1428
-00:30:04,559 --> 00:30:08,950
+714
+00:30:04,559 --> 00:30:08,960
 believe that what we standardized here
 with KERI is the trust model and
 
-1429
-00:30:08,950 --> 00:30:08,960
-with KERI is the trust model and
-
-1430
-00:30:08,960 --> 00:30:12,789
+715
+00:30:08,960 --> 00:30:12,799
 with KERI is the trust model and
 from my perspective that is something
 
-1431
-00:30:12,789 --> 00:30:12,799
-from my perspective that is something
-
-1432
-00:30:12,799 --> 00:30:16,230
+716
+00:30:12,799 --> 00:30:16,240
 from my perspective that is something
 that for me is what's keeping me here
 
-1433
-00:30:16,230 --> 00:30:16,240
+717
+00:30:16,240 --> 00:30:20,159
 that for me is what's keeping me here
+keeping the team working hard
 
-1434
-00:30:16,240 --> 00:30:20,149
-that for me is what's keeping me here
-keeping the team working hard 
-
-1435
-00:30:20,149 --> 00:30:20,159
-keeping the team working hard 
-
-1436
-00:30:20,159 --> 00:30:22,870
-keeping the team working hard 
+718
+00:30:20,159 --> 00:30:22,880
+keeping the team working hard
 and I look forward to continuing the
 
-1437
-00:30:22,870 --> 00:30:22,880
-and I look forward to continuing the
-
-1438
-00:30:22,880 --> 00:30:25,510
+719
+00:30:22,880 --> 00:30:25,520
 and I look forward to continuing the
 journey.
 
-1439
-00:30:25,510 --> 00:30:25,520
-journey.
-
-1440
-00:30:25,520 --> 00:30:27,750
+720
+00:30:25,520 --> 00:30:27,760
 journey.
 Yeah, just in the same way building
 
-1441
-00:30:27,750 --> 00:30:27,760
-Yeah, just in the same way building
-
-1442
-00:30:27,760 --> 00:30:29,990
+721
+00:30:27,760 --> 00:30:30,000
 Yeah, just in the same way building
 off of Allan's sentiment I just
 
-1443
-00:30:29,990 --> 00:30:30,000
-off of Allan's sentiment I just
-
-1444
-00:30:30,000 --> 00:30:33,110
+722
+00:30:30,000 --> 00:30:33,120
 off of Allan's sentiment I just
 want to thank you, Sam, and also
 
-1445
-00:30:33,110 --> 00:30:33,120
-want to thank you, Sam, and also
-
-1446
-00:30:33,120 --> 00:30:35,909
+723
+00:30:33,120 --> 00:30:35,919
 want to thank you, Sam, and also
 everyone else here who's put their
 
-1447
-00:30:35,909 --> 00:30:35,919
-everyone else here who's put their
-
-1448
-00:30:35,919 --> 00:30:39,750
+724
+00:30:35,919 --> 00:30:39,760
 everyone else here who's put their
 blood, sweat, tears, and time into this
 
-1449
-00:30:39,750 --> 00:30:39,760
-blood, sweat, tears, and time into this
-
-1450
-00:30:39,760 --> 00:30:42,549
+725
+00:30:39,760 --> 00:30:42,559
 blood, sweat, tears, and time into this
 protocol and into the people. You
 
-1451
-00:30:42,549 --> 00:30:42,559
-protocol and into the people. You
-
-1452
-00:30:42,559 --> 00:30:45,110
+726
+00:30:42,559 --> 00:30:45,120
 protocol and into the people. You
 all make it an absolute pleasure to be
 
-1453
-00:30:45,110 --> 00:30:45,120
-all make it an absolute pleasure to be
-
-1454
-00:30:45,120 --> 00:30:48,149
+727
+00:30:45,120 --> 00:30:48,159
 all make it an absolute pleasure to be
 on this stage with and to share in
 
-1455
-00:30:48,149 --> 00:30:48,159
-on this stage with and to share in
-
-1456
-00:30:48,159 --> 00:30:51,110
+728
+00:30:48,159 --> 00:30:51,120
 on this stage with and to share in
 this sort of co-creation of a what
 
-1457
-00:30:51,110 --> 00:30:51,120
+729
+00:30:51,120 --> 00:30:54,880
 this sort of co-creation of a what
+I view as a beautiful new future.
 
-1458
-00:30:51,120 --> 00:30:54,870
-this sort of co-creation of a what
-I view as a beautiful new future. 
-
-1459
-00:30:54,870 --> 00:30:54,880
-I view as a beautiful new future. 
-
-1460
-00:30:54,880 --> 00:30:56,630
-I view as a beautiful new future. 
+730
+00:30:54,880 --> 00:30:56,640
+I view as a beautiful new future.
 And
 
-1461
-00:30:56,630 --> 00:30:56,640
-and
-
-1462
-00:30:56,640 --> 00:30:59,350
+731
+00:30:56,640 --> 00:30:59,360
 and
 it's a joy. It's a joy to be in this
 
-1463
-00:30:59,350 --> 00:30:59,360
-it's a joy. It's a joy to be in this
-
-1464
-00:30:59,360 --> 00:31:03,110
+732
+00:30:59,360 --> 00:31:03,120
 it's a joy. It's a joy to be in this
 space and I couldn't be happier. The
 
-1465
-00:31:03,110 --> 00:31:03,120
-space and I couldn't be happier. The
-
-1466
+733
 00:31:03,120 --> 00:31:08,950
 space and I couldn't be happier. The
 duplicity game is a foot.
 
-1467
-00:31:11,590 --> 00:31:11,600
-I'll just say that I think we all
-
-1468
-00:31:11,600 --> 00:31:13,669
+734
+00:31:11,590 --> 00:31:13,679
 I'll just say that I think we all
 need to protect our own identities and
 
-1469
-00:31:13,669 --> 00:31:13,679
-need to protect our own identities and
-
-1470
-00:31:13,679 --> 00:31:16,149
+735
+00:31:13,679 --> 00:31:16,159
 need to protect our own identities and
 reputations urgently.
 
-1471
-00:31:16,149 --> 00:31:16,159
-reputations urgently.
-
-1472
-00:31:16,159 --> 00:31:20,870
+736
+00:31:16,159 --> 00:31:20,880
 reputations urgently.
 If I were malicious I would,
 
-1473
-00:31:20,870 --> 00:31:20,880
-If I were malicious I would,
-
-1474
-00:31:20,880 --> 00:31:23,510
+737
+00:31:20,880 --> 00:31:23,520
 If I were malicious I would,
 Point AIS at a bunch of different
 
-1475
-00:31:23,510 --> 00:31:23,520
-Point AIS at a bunch of different
-
-1476
-00:31:23,520 --> 00:31:25,750
+738
+00:31:23,520 --> 00:31:25,760
 Point AIS at a bunch of different
 communities and have them wreak havoc.
 
-1477
-00:31:25,750 --> 00:31:25,760
-communities and have them wreak havoc.
-
-1478
-00:31:25,760 --> 00:31:26,549
+739
+00:31:25,760 --> 00:31:26,559
 communities and have them wreak havoc.
 Yeah.
 
-1479
-00:31:26,549 --> 00:31:26,559
-Yeah.
-
-1480
-00:31:26,559 --> 00:31:28,149
+740
+00:31:26,559 --> 00:31:28,159
 Yeah.
 And we have the tools to protect
 
-1481
-00:31:28,149 --> 00:31:28,159
-And we have the tools to protect
-
-1482
-00:31:28,159 --> 00:31:30,630
+741
+00:31:28,159 --> 00:31:30,640
 And we have the tools to protect
 ourselves, but we're not using them yet.
 
-1483
-00:31:30,630 --> 00:31:30,640
-ourselves, but we're not using them yet.
-
-1484
-00:31:30,640 --> 00:31:32,149
+742
+00:31:30,640 --> 00:31:32,159
 ourselves, but we're not using them yet.
 It would be great if we toolled up
 
-1485
-00:31:32,149 --> 00:31:32,159
-It would be great if we toolled up
-
-1486
-00:31:32,159 --> 00:31:34,230
+743
+00:31:32,159 --> 00:31:34,240
 It would be great if we toolled up
 GitHub so that you couldn't make a
 
-1487
-00:31:34,230 --> 00:31:34,240
-GitHub so that you couldn't make a
-
-1488
-00:31:34,240 --> 00:31:36,070
+744
+00:31:34,240 --> 00:31:36,080
 GitHub so that you couldn't make a
 contribution unless you could prove who
 
-1489
-00:31:36,070 --> 00:31:36,080
-contribution unless you could prove who
-
-1490
-00:31:36,080 --> 00:31:40,710
+745
+00:31:36,080 --> 00:31:40,720
 contribution unless you could prove who
 you were. It would be great if you
 
-1491
-00:31:40,710 --> 00:31:40,720
-you were. It would be great if you
-
-1492
-00:31:40,720 --> 00:31:42,950
+746
+00:31:40,720 --> 00:31:42,960
 you were. It would be great if you
 know our remote interactions were
 
-1493
-00:31:42,950 --> 00:31:42,960
-know our remote interactions were
-
-1494
-00:31:42,960 --> 00:31:45,350
+747
+00:31:42,960 --> 00:31:45,360
 know our remote interactions were
 protected and I'm seeing I don't know
 
-1495
-00:31:45,350 --> 00:31:45,360
-protected and I'm seeing I don't know
-
-1496
-00:31:45,360 --> 00:31:47,669
+748
+00:31:45,360 --> 00:31:47,679
 protected and I'm seeing I don't know
 how many of you are on the various W3C
 
-1497
-00:31:47,669 --> 00:31:47,679
-how many of you are on the various W3C
-
-1498
-00:31:47,679 --> 00:31:52,230
+749
+00:31:47,679 --> 00:31:52,240
 how many of you are on the various W3C
 mailing lists but they like us are
 
-1499
-00:31:52,230 --> 00:31:52,240
+750
+00:31:52,240 --> 00:31:55,679
 mailing lists but they like us are
+vulnerable to the assumption that
 
-1500
-00:31:52,240 --> 00:31:55,669
-mailing lists but they like us are
-vulnerable to the assumption that 
-
-1501
-00:31:55,669 --> 00:31:55,679
-vulnerable to the assumption that 
-
-1502
-00:31:55,679 --> 00:31:57,509
-vulnerable to the assumption that 
+751
+00:31:55,679 --> 00:31:57,519
+vulnerable to the assumption that
 well-intentioned humans are the ones
 
-1503
-00:31:57,509 --> 00:31:57,519
-well-intentioned humans are the ones
-
-1504
-00:31:57,519 --> 00:32:00,070
+752
+00:31:57,519 --> 00:32:00,080
 well-intentioned humans are the ones
 that are going to show up and they're
 
-1505
-00:32:00,070 --> 00:32:00,080
-that are going to show up and they're
-
-1506
-00:32:00,080 --> 00:32:03,990
+753
+00:32:00,080 --> 00:32:04,000
 that are going to show up and they're
 having AIS show up in the you know in
 
-1507
-00:32:03,990 --> 00:32:04,000
-having AIS show up in the you know in
-
-1508
-00:32:04,000 --> 00:32:05,590
+754
+00:32:04,000 --> 00:32:05,600
 having AIS show up in the you know in
 the comment streams and the email
 
-1509
-00:32:05,590 --> 00:32:05,600
-the comment streams and the email
-
-1510
-00:32:05,600 --> 00:32:07,029
+755
+00:32:05,600 --> 00:32:07,039
 the comment streams and the email
 threads and so forth.
 
-1511
-00:32:07,029 --> 00:32:07,039
-threads and so forth.
-
-1512
-00:32:07,039 --> 00:32:09,669
+756
+00:32:07,039 --> 00:32:09,679
 threads and so forth.
 and they've shut those down. But
 
-1513
-00:32:09,669 --> 00:32:09,679
-and they've shut those down. But
-
-1514
-00:32:09,679 --> 00:32:12,389
+757
+00:32:09,679 --> 00:32:12,399
 and they've shut those down. But
 this is just going to get worse. And so
 
-1515
-00:32:12,389 --> 00:32:12,399
-this is just going to get worse. And so
-
-1516
-00:32:12,399 --> 00:32:15,190
+758
+00:32:12,399 --> 00:32:15,200
 this is just going to get worse. And so
 I think it might this is kind of a an
 
-1517
-00:32:15,190 --> 00:32:15,200
-I think it might this is kind of a an
-
-1518
-00:32:15,200 --> 00:32:17,909
+759
+00:32:15,200 --> 00:32:17,919
 I think it might this is kind of a an
 invitation or a shout out to people that
 
-1519
-00:32:17,909 --> 00:32:17,919
-invitation or a shout out to people that
-
-1520
-00:32:17,919 --> 00:32:21,350
+760
+00:32:17,919 --> 00:32:21,360
 invitation or a shout out to people that
 maybe it's time for us to solve our
 
-1521
-00:32:21,350 --> 00:32:21,360
-maybe it's time for us to solve our
-
-1522
-00:32:21,360 --> 00:32:23,269
+761
+00:32:21,360 --> 00:32:23,279
 maybe it's time for us to solve our
 own community's
 
-1523
-00:32:23,269 --> 00:32:23,279
+762
+00:32:23,279 --> 00:32:26,240
 own community's
+Reputation and trust problem
 
-1524
-00:32:23,279 --> 00:32:26,230
-own community's
-Reputation and trust problem 
-
-1525
-00:32:26,230 --> 00:32:26,240
-Reputation and trust problem 
-
-1526
-00:32:26,240 --> 00:32:30,630
-Reputation and trust problem 
+763
+00:32:26,240 --> 00:32:30,640
+Reputation and trust problem
 before any havoc occurs.
 
-1527
-00:32:30,630 --> 00:32:30,640
-before any havoc occurs.
-
-1528
-00:32:30,640 --> 00:32:33,029
+764
+00:32:30,640 --> 00:32:33,039
 before any havoc occurs.
 And to the extent that's true for
 
-1529
-00:32:33,029 --> 00:32:33,039
-And to the extent that's true for
-
-1530
-00:32:33,039 --> 00:32:34,789
+765
+00:32:33,039 --> 00:32:34,799
 And to the extent that's true for
 our community, it's true for every other
 
-1531
-00:32:34,789 --> 00:32:34,799
-our community, it's true for every other
-
-1532
-00:32:34,799 --> 00:32:36,789
+766
+00:32:34,799 --> 00:32:36,799
 our community, it's true for every other
 community out there, too. So, the world
 
-1533
-00:32:36,789 --> 00:32:36,799
-community out there, too. So, the world
-
-1534
-00:32:36,799 --> 00:32:39,029
+767
+00:32:36,799 --> 00:32:39,039
 community out there, too. So, the world
 really needs what we have. Let's go give
 
-1535
-00:32:39,029 --> 00:32:39,039
-really needs what we have. Let's go give
-
-1536
-00:32:39,039 --> 00:32:41,430
+768
+00:32:39,039 --> 00:32:41,440
 really needs what we have. Let's go give
 it to them.
 
-1537
-00:32:41,430 --> 00:32:41,440
-it to them.
-
-1538
-00:32:41,440 --> 00:32:44,470
+769
+00:32:41,440 --> 00:32:44,480
 it to them.
 Well said. And a big thanks to our panel
 
-1539
-00:32:44,470 --> 00:32:44,480
-Well said. And a big thanks to our panel
-
-1540
-00:32:44,480 --> 00:32:46,950
+770
+00:32:44,480 --> 00:32:46,960
 Well said. And a big thanks to our panel
 today, our guests, and a big round of
 
-1541
-00:32:46,950 --> 00:32:46,960
-today, our guests, and a big round of
-
-1542
+771
 00:32:46,960 --> 00:32:51,880
 today, our guests, and a big round of
 applause for all our guys here.
+

@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:05,110 --> 00:00:07,919
 Okie do. I suppose everybody's pretty
 tired at this point, but I hope that

@@ -1,4049 +1,2250 @@
-1
-00:00:05,269 --> 00:00:05,279
+﻿1
+00:00:05,269 --> 00:00:07,919
 So
+I'm gonna start
 
 2
-00:00:05,279 --> 00:00:07,909
-So
+00:00:07,919 --> 00:00:10,400
 I'm gonna start
+and just talk about KERI development
 
 3
-00:00:07,909 --> 00:00:07,919
-I'm gonna start
+00:00:10,400 --> 00:00:12,400
+and just talk about KERI development
+and deployment
 
 4
-00:00:07,919 --> 00:00:10,390
-I'm gonna start
-and just talk about KERI development
+00:00:12,400 --> 00:00:15,519
+and deployment
+and can you hear me good? Does it
 
 5
-00:00:10,390 --> 00:00:10,400
-and just talk about KERI development
+00:00:15,519 --> 00:00:17,199
+and can you hear me good? Does it
+work?
 
 6
-00:00:10,400 --> 00:00:12,390
-and just talk about KERI development
-and deployment
+00:00:17,199 --> 00:00:18,080
+work?
+Is it good?
 
 7
-00:00:12,390 --> 00:00:12,400
-and deployment
-
-8
-00:00:12,400 --> 00:00:15,509
-and deployment
-and can you hear me good? Does it
-
-9
-00:00:15,509 --> 00:00:15,519
-and can you hear me good? Does it
-
-10
-00:00:15,519 --> 00:00:17,189
-and can you hear me good? Does it
-work?
-
-11
-00:00:17,189 --> 00:00:17,199
-work?
-
-12
-00:00:17,199 --> 00:00:18,070
-work?
-Is it good?
-
-13
-00:00:18,070 --> 00:00:18,080
-Is it good?
-
-14
 00:00:18,080 --> 00:00:39,190
 Is it good?
 Okay, sweet.
 
-15
-00:01:03,110 --> 00:01:03,120
-can start for development on your own
-
-16
-00:01:03,120 --> 00:01:06,390
+8
+00:01:03,110 --> 00:01:06,400
 can start for development on your own
 and that includes maybe doing your
 
-17
-00:01:06,390 --> 00:01:06,400
-and that includes maybe doing your
-
-18
-00:01:06,400 --> 00:01:10,710
+9
+00:01:06,400 --> 00:01:10,720
 and that includes maybe doing your
 own plugin for Locksmith and developing
 
-19
-00:01:10,710 --> 00:01:10,720
-own plugin for Locksmith and developing
-
-20
-00:01:10,720 --> 00:01:13,270
+10
+00:01:10,720 --> 00:01:13,280
 own plugin for Locksmith and developing
 Your own API for witnesses and
 
-21
-00:01:13,270 --> 00:01:13,280
-Your own API for witnesses and
-
-22
-00:01:13,280 --> 00:01:15,830
+11
+00:01:13,280 --> 00:01:15,840
 Your own API for witnesses and
 watchers.
 
-23
-00:01:15,830 --> 00:01:15,840
-watchers.
-
-24
-00:01:15,840 --> 00:01:17,990
+12
+00:01:15,840 --> 00:01:18,000
 watchers.
 So I want to talk first about the little
 
-25
-00:01:17,990 --> 00:01:18,000
-So I want to talk first about the little
-
-26
+13
 00:01:18,000 --> 00:01:24,310
 So I want to talk first about the little
 infrastructure that we're going to have
 
-27
-00:01:26,630 --> 00:01:26,640
+14
+00:01:26,630 --> 00:01:30,320
 and the watchers which is pretty much
+you've seen this the diagram a lot
+
+15
+00:01:30,320 --> 00:01:33,360
+you've seen this the diagram a lot
+in the past few days but for the
+
+16
+00:01:33,360 --> 00:01:36,799
+in the past few days but for the
+requirements the only the base the
+
+17
+00:01:36,799 --> 00:01:39,759
+requirements the only the base the
+only thing that we really need is Python
+
+18
+00:01:39,759 --> 00:01:44,479
+only thing that we really need is Python
+We recommend the version 3.13 3
+
+19
+00:01:44,479 --> 00:01:49,119
+We recommend the version 3.13 3
+3.14 had some issues with some repo.
+
+20
+00:01:49,119 --> 00:01:53,280
+3.14 had some issues with some repo.
+So we just 3.13 should be fine and then
+
+21
+00:01:53,280 --> 00:01:56,320
+So we just 3.13 should be fine and then
+leave sodium because this is what
+
+22
+00:01:56,320 --> 00:01:58,399
+leave sodium because this is what
+KERI uses for its cryptographic
+
+23
+00:01:58,399 --> 00:02:00,079
+KERI uses for its cryptographic
+library.
+
+24
+00:02:00,079 --> 00:02:03,520
+library.
+So first we'll go with the wallet first.
+
+25
+00:02:03,520 --> 00:02:05,759
+So first we'll go with the wallet first.
+It's a Locksmith. The role of
+
+26
+00:02:05,759 --> 00:02:07,759
+It's a Locksmith. The role of
+Locksmith on this wallet is to generate
+
+27
+00:02:07,759 --> 00:02:11,360
+Locksmith on this wallet is to generate
+the AIDs to sign it to have the key
 
 28
-00:01:26,640 --> 00:01:30,310
-and the watchers which is pretty much
-you've seen this the diagram a lot 
+00:02:11,360 --> 00:02:14,160
+the AIDs to sign it to have the key
+pairs secure and to store and verify
 
 29
-00:01:30,310 --> 00:01:30,320
-you've seen this the diagram a lot 
+00:02:14,160 --> 00:02:16,800
+pairs secure and to store and verify
+through your kels and finally the
 
 30
-00:01:30,320 --> 00:01:33,350
-you've seen this the diagram a lot 
-in the past few days but for the
+00:02:16,800 --> 00:02:18,480
+through your kels and finally the
+OOBIs
 
 31
-00:01:33,350 --> 00:01:33,360
-in the past few days but for the
+00:02:18,480 --> 00:02:23,360
+OOBIs
+nothing more I think to expand on it.
 
 32
-00:01:33,360 --> 00:01:36,789
-in the past few days but for the
-requirements the only the base the
+00:02:23,360 --> 00:02:25,200
+nothing more I think to expand on it.
+It's just basically the basic function
 
 33
-00:01:36,789 --> 00:01:36,799
-requirements the only the base the
+00:02:25,200 --> 00:02:27,440
+It's just basically the basic function
+of a wallet
 
 34
-00:01:36,799 --> 00:01:39,749
-requirements the only the base the
-only thing that we really need is Python
+00:02:27,440 --> 00:02:28,879
+of a wallet
+and then we're going to go through
 
 35
-00:01:39,749 --> 00:01:39,759
-only thing that we really need is Python
+00:02:28,879 --> 00:02:31,120
+and then we're going to go through
+deploying it. So we have just three
 
 36
-00:01:39,759 --> 00:01:44,469
-only thing that we really need is Python
-We recommend the version 3.13 3
+00:02:31,120 --> 00:02:32,640
+deploying it. So we have just three
+parts that we're going to go through
 
 37
-00:01:44,469 --> 00:01:44,479
-We recommend the version 3.13 3
+00:02:32,640 --> 00:02:35,200
+parts that we're going to go through
+individually and basically first I'm
 
 38
-00:01:44,479 --> 00:01:49,109
-We recommend the version 3.13 3
-3.14 had some issues with some repo.
+00:02:35,200 --> 00:02:37,120
+individually and basically first I'm
+going to show you the repo and how you
 
 39
-00:01:49,109 --> 00:01:49,119
-3.14 had some issues with some repo.
+00:02:37,120 --> 00:02:39,280
+going to show you the repo and how you
+can set up the environment with its
 
 40
-00:01:49,119 --> 00:01:53,270
-3.14 had some issues with some repo.
-So we just 3.13 should be fine and then
+00:02:39,280 --> 00:02:43,200
+can set up the environment with its
+dependencies and how to run it and
 
 41
-00:01:53,270 --> 00:01:53,280
-So we just 3.13 should be fine and then
+00:02:43,200 --> 00:02:44,879
+dependencies and how to run it and
+everything every deployment that we're
 
 42
-00:01:53,280 --> 00:01:56,310
-So we just 3.13 should be fine and then
-leave sodium because this is what 
+00:02:44,879 --> 00:02:46,400
+everything every deployment that we're
+going to go through are going to be
 
 43
-00:01:56,310 --> 00:01:56,320
-leave sodium because this is what 
+00:02:46,400 --> 00:02:47,920
+going to go through are going to be
+local
 
 44
-00:01:56,320 --> 00:01:58,389
-leave sodium because this is what 
-KERI uses for its cryptographic
+00:02:47,920 --> 00:02:49,760
+local
+and I can explain that for a while
 
 45
-00:01:58,389 --> 00:01:58,399
-KERI uses for its cryptographic
+00:02:49,760 --> 00:02:54,480
+and I can explain that for a while
+later. So first you have the public
 
 46
-00:01:58,399 --> 00:02:00,069
-KERI uses for its cryptographic
-library.
+00:02:54,480 --> 00:02:57,280
+later. So first you have the public
+repo for the Locksmith which is on
 
 47
-00:02:00,069 --> 00:02:00,079
-library.
+00:02:57,280 --> 00:03:01,680
+repo for the Locksmith which is on
+the KERI Foundation. Note that what
 
 48
-00:02:00,079 --> 00:02:03,510
-library.
-So first we'll go with the wallet first.
+00:03:01,680 --> 00:03:03,519
+the KERI Foundation. Note that what
+I'm going to use in this presentation
 
 49
-00:02:03,510 --> 00:02:03,520
-So first we'll go with the wallet first.
+00:03:03,519 --> 00:03:09,280
+I'm going to use in this presentation
+for the demo is from a branch of this
 
 50
-00:02:03,520 --> 00:02:05,749
-So first we'll go with the wallet first.
-It's a Locksmith. The role of
+00:03:09,280 --> 00:03:11,200
+for the demo is from a branch of this
+repo which is the KERI Foundation
 
 51
-00:02:05,749 --> 00:02:05,759
-It's a Locksmith. The role of
+00:03:11,200 --> 00:03:13,200
+repo which is the KERI Foundation
+branch. It's not the main branch that
 
 52
-00:02:05,759 --> 00:02:07,749
-It's a Locksmith. The role of
-Locksmith on this wallet is to generate
+00:03:13,200 --> 00:03:15,040
+branch. It's not the main branch that
+I'm going to use because the KERI
 
 53
-00:02:07,749 --> 00:02:07,759
-Locksmith on this wallet is to generate
+00:03:15,040 --> 00:03:17,200
+I'm going to use because the KERI
+Foundation branch has the KERI
 
 54
-00:02:07,759 --> 00:02:11,350
-Locksmith on this wallet is to generate
-the AIDs to sign it to have the key
+00:03:17,200 --> 00:03:18,879
+Foundation branch has the KERI
+Foundation plugin that we're going to
 
 55
-00:02:11,350 --> 00:02:11,360
-the AIDs to sign it to have the key
+00:03:18,879 --> 00:03:23,920
+Foundation plugin that we're going to
+talk about later. I'm also going to
 
 56
-00:02:11,360 --> 00:02:14,150
-the AIDs to sign it to have the key
-pairs secure and to store and verify
+00:03:23,920 --> 00:03:26,239
+talk about later. I'm also going to
+Try to show your attention on the
 
 57
-00:02:14,150 --> 00:02:14,160
-pairs secure and to store and verify
+00:03:26,239 --> 00:03:29,280
+Try to show your attention on the
+docs that are provided by the repo and
 
 58
-00:02:14,160 --> 00:02:16,790
-pairs secure and to store and verify
-through your kels and finally the 
+00:03:29,280 --> 00:03:30,959
+docs that are provided by the repo and
+I'm just going to show you a bit through
 
 59
-00:02:16,790 --> 00:02:16,800
-through your kels and finally the 
+00:03:30,959 --> 00:03:34,159
+I'm just going to show you a bit through
+those docs. So the developer guide in
 
 60
-00:02:16,800 --> 00:02:18,470
-through your kels and finally the 
-OOBIs
+00:03:34,159 --> 00:03:37,120
+those docs. So the developer guide in
+those docs kind of explain what I
 
 61
-00:02:18,470 --> 00:02:18,480
-OOBIs
+00:03:37,120 --> 00:03:39,680
+those docs kind of explain what I
+explained before. So if you need a
 
 62
-00:02:18,480 --> 00:02:23,350
-OOBIs
-nothing more I think to expand on it.
+00:03:39,680 --> 00:03:41,280
+explained before. So if you need a
+reminder, you can just go to the repo
 
 63
-00:02:23,350 --> 00:02:23,360
-nothing more I think to expand on it.
+00:03:41,280 --> 00:03:44,000
+reminder, you can just go to the repo
+and then read it. But first it's
 
 64
-00:02:23,360 --> 00:02:25,190
-nothing more I think to expand on it.
-It's just basically the basic function
+00:03:44,000 --> 00:03:46,640
+and then read it. But first it's
+going to be Python 3.13. And then to set
 
 65
-00:02:25,190 --> 00:02:25,200
-It's just basically the basic function
+00:03:46,640 --> 00:03:48,480
+going to be Python 3.13. And then to set
+up your environment, you just have to
 
 66
-00:02:25,200 --> 00:02:27,430
-It's just basically the basic function
-of a wallet
+00:03:48,480 --> 00:03:51,920
+up your environment, you just have to
+follow the commands that are on the
 
 67
-00:02:27,430 --> 00:02:27,440
-of a wallet
+00:03:51,920 --> 00:03:55,440
+follow the commands that are on the
+developer guide. Pretty easy.
 
 68
-00:02:27,440 --> 00:02:28,869
-of a wallet
-and then we're going to go through
+00:03:55,440 --> 00:03:58,080
+developer guide. Pretty easy.
+And then finally to run it, you have the
 
 69
-00:02:28,869 --> 00:02:28,879
-and then we're going to go through
+00:03:58,080 --> 00:04:01,360
+And then finally to run it, you have the
+QT resource generation. And once you
 
 70
-00:02:28,879 --> 00:02:31,110
-and then we're going to go through
-deploying it. So we have just three
+00:04:01,360 --> 00:04:03,680
+QT resource generation. And once you
+just copy paste and run those commands,
 
 71
-00:02:31,110 --> 00:02:31,120
-deploying it. So we have just three
+00:04:03,680 --> 00:04:07,519
+just copy paste and run those commands,
+you can just run this one. And then
 
 72
-00:02:31,120 --> 00:02:32,630
-deploying it. So we have just three
-parts that we're going to go through
+00:04:07,519 --> 00:04:11,280
+you can just run this one. And then
+hopefully a lot of initialization logs
 
 73
-00:02:32,630 --> 00:02:32,640
-parts that we're going to go through
+00:04:11,280 --> 00:04:13,840
+hopefully a lot of initialization logs
+will pop up and then hopefully you will
 
 74
-00:02:32,640 --> 00:02:35,190
-parts that we're going to go through
-individually and basically first I'm
+00:04:13,840 --> 00:04:16,239
+will pop up and then hopefully you will
+have your lock smith.
 
 75
-00:02:35,190 --> 00:02:35,200
-individually and basically first I'm
+00:04:16,239 --> 00:04:21,519
+have your lock smith.
+I'm just going to run it myself if
 
 76
-00:02:35,200 --> 00:02:37,110
-individually and basically first I'm
-going to show you the repo and how you
+00:04:21,519 --> 00:04:24,960
+I'm just going to run it myself if
+I can show you.
 
 77
-00:02:37,110 --> 00:02:37,120
-going to show you the repo and how you
+00:04:24,960 --> 00:04:28,160
+I can show you.
+So, I'm just gonna
 
 78
-00:02:37,120 --> 00:02:39,270
-going to show you the repo and how you
-can set up the environment with its
+00:04:28,160 --> 00:04:32,479
+So, I'm just gonna
+Activate the virtual environment and
 
 79
-00:02:39,270 --> 00:02:39,280
-can set up the environment with its
+00:04:32,479 --> 00:04:37,199
+Activate the virtual environment and
+then I'm just gonna maybe I can just
 
 80
-00:02:39,280 --> 00:02:43,190
-can set up the environment with its
-dependencies and how to run it and
-
-81
-00:02:43,190 --> 00:02:43,200
-dependencies and how to run it and
-
-82
-00:02:43,200 --> 00:02:44,869
-dependencies and how to run it and
-everything every deployment that we're
-
-83
-00:02:44,869 --> 00:02:44,879
-everything every deployment that we're
-
-84
-00:02:44,879 --> 00:02:46,390
-everything every deployment that we're
-going to go through are going to be
-
-85
-00:02:46,390 --> 00:02:46,400
-going to go through are going to be
-
-86
-00:02:46,400 --> 00:02:47,910
-going to go through are going to be
-local
-
-87
-00:02:47,910 --> 00:02:47,920
-local
-
-88
-00:02:47,920 --> 00:02:49,750
-local
-and I can explain that for a while
-
-89
-00:02:49,750 --> 00:02:49,760
-and I can explain that for a while
-
-90
-00:02:49,760 --> 00:02:54,470
-and I can explain that for a while
-later. So first you have the public
-
-91
-00:02:54,470 --> 00:02:54,480
-later. So first you have the public
-
-92
-00:02:54,480 --> 00:02:57,270
-later. So first you have the public
-repo for the Locksmith which is on
-
-93
-00:02:57,270 --> 00:02:57,280
-repo for the Locksmith which is on
-
-94
-00:02:57,280 --> 00:03:01,670
-repo for the Locksmith which is on
-the KERI Foundation. Note that what
-
-95
-00:03:01,670 --> 00:03:01,680
-the KERI Foundation. Note that what
-
-96
-00:03:01,680 --> 00:03:03,509
-the KERI Foundation. Note that what
-I'm going to use in this presentation
-
-97
-00:03:03,509 --> 00:03:03,519
-I'm going to use in this presentation
-
-98
-00:03:03,519 --> 00:03:09,270
-I'm going to use in this presentation
-for the demo is from a branch of this
-
-99
-00:03:09,270 --> 00:03:09,280
-for the demo is from a branch of this
-
-100
-00:03:09,280 --> 00:03:11,190
-for the demo is from a branch of this
-repo which is the KERI Foundation
-
-101
-00:03:11,190 --> 00:03:11,200
-repo which is the KERI Foundation
-
-102
-00:03:11,200 --> 00:03:13,190
-repo which is the KERI Foundation
-branch. It's not the main branch that
-
-103
-00:03:13,190 --> 00:03:13,200
-branch. It's not the main branch that
-
-104
-00:03:13,200 --> 00:03:15,030
-branch. It's not the main branch that
-I'm going to use because the KERI
-
-105
-00:03:15,030 --> 00:03:15,040
-I'm going to use because the KERI
-
-106
-00:03:15,040 --> 00:03:17,190
-I'm going to use because the KERI
-Foundation branch has the KERI
-
-107
-00:03:17,190 --> 00:03:17,200
-Foundation branch has the KERI
-
-108
-00:03:17,200 --> 00:03:18,869
-Foundation branch has the KERI
-Foundation plugin that we're going to
-
-109
-00:03:18,869 --> 00:03:18,879
-Foundation plugin that we're going to
-
-110
-00:03:18,879 --> 00:03:23,910
-Foundation plugin that we're going to
-talk about later. I'm also going to
-
-111
-00:03:23,910 --> 00:03:23,920
-talk about later. I'm also going to
-
-112
-00:03:23,920 --> 00:03:26,229
-talk about later. I'm also going to
-Try to show your attention on the
-
-113
-00:03:26,229 --> 00:03:26,239
-Try to show your attention on the
-
-114
-00:03:26,239 --> 00:03:29,270
-Try to show your attention on the
-docs that are provided by the repo and
-
-115
-00:03:29,270 --> 00:03:29,280
-docs that are provided by the repo and
-
-116
-00:03:29,280 --> 00:03:30,949
-docs that are provided by the repo and
-I'm just going to show you a bit through
-
-117
-00:03:30,949 --> 00:03:30,959
-I'm just going to show you a bit through
-
-118
-00:03:30,959 --> 00:03:34,149
-I'm just going to show you a bit through
-those docs. So the developer guide in
-
-119
-00:03:34,149 --> 00:03:34,159
-those docs. So the developer guide in
-
-120
-00:03:34,159 --> 00:03:37,110
-those docs. So the developer guide in
-those docs kind of explain what I
-
-121
-00:03:37,110 --> 00:03:37,120
-those docs kind of explain what I
-
-122
-00:03:37,120 --> 00:03:39,670
-those docs kind of explain what I
-explained before. So if you need a
-
-123
-00:03:39,670 --> 00:03:39,680
-explained before. So if you need a
-
-124
-00:03:39,680 --> 00:03:41,270
-explained before. So if you need a
-reminder, you can just go to the repo
-
-125
-00:03:41,270 --> 00:03:41,280
-reminder, you can just go to the repo
-
-126
-00:03:41,280 --> 00:03:43,990
-reminder, you can just go to the repo
-and then read it. But first it's
-
-127
-00:03:43,990 --> 00:03:44,000
-and then read it. But first it's
-
-128
-00:03:44,000 --> 00:03:46,630
-and then read it. But first it's
-going to be Python 3.13. And then to set
-
-129
-00:03:46,630 --> 00:03:46,640
-going to be Python 3.13. And then to set
-
-130
-00:03:46,640 --> 00:03:48,470
-going to be Python 3.13. And then to set
-up your environment, you just have to
-
-131
-00:03:48,470 --> 00:03:48,480
-up your environment, you just have to
-
-132
-00:03:48,480 --> 00:03:51,910
-up your environment, you just have to
-follow the commands that are on the
-
-133
-00:03:51,910 --> 00:03:51,920
-follow the commands that are on the
-
-134
-00:03:51,920 --> 00:03:55,430
-follow the commands that are on the
-developer guide. Pretty easy.
-
-135
-00:03:55,430 --> 00:03:55,440
-developer guide. Pretty easy.
-
-136
-00:03:55,440 --> 00:03:58,070
-developer guide. Pretty easy.
-And then finally to run it, you have the
-
-137
-00:03:58,070 --> 00:03:58,080
-And then finally to run it, you have the
-
-138
-00:03:58,080 --> 00:04:01,350
-And then finally to run it, you have the
-QT resource generation. And once you
-
-139
-00:04:01,350 --> 00:04:01,360
-QT resource generation. And once you
-
-140
-00:04:01,360 --> 00:04:03,670
-QT resource generation. And once you
-just copy paste and run those commands,
-
-141
-00:04:03,670 --> 00:04:03,680
-just copy paste and run those commands,
-
-142
-00:04:03,680 --> 00:04:07,509
-just copy paste and run those commands,
-you can just run this one. And then
-
-143
-00:04:07,509 --> 00:04:07,519
-you can just run this one. And then
-
-144
-00:04:07,519 --> 00:04:11,270
-you can just run this one. And then
-hopefully a lot of initialization logs
-
-145
-00:04:11,270 --> 00:04:11,280
-hopefully a lot of initialization logs
-
-146
-00:04:11,280 --> 00:04:13,830
-hopefully a lot of initialization logs
-will pop up and then hopefully you will
-
-147
-00:04:13,830 --> 00:04:13,840
-will pop up and then hopefully you will
-
-148
-00:04:13,840 --> 00:04:16,229
-will pop up and then hopefully you will
-have your lock smith.
-
-149
-00:04:16,229 --> 00:04:16,239
-have your lock smith.
-
-150
-00:04:16,239 --> 00:04:21,509
-have your lock smith.
-I'm just going to run it myself if
-
-151
-00:04:21,509 --> 00:04:21,519
-I'm just going to run it myself if
-
-152
-00:04:21,519 --> 00:04:24,950
-I'm just going to run it myself if
-I can show you.
-
-153
-00:04:24,950 --> 00:04:24,960
-I can show you.
-
-154
-00:04:24,960 --> 00:04:28,150
-I can show you.
-So, I'm just gonna
-
-155
-00:04:28,150 --> 00:04:28,160
-So, I'm just gonna
-
-156
-00:04:28,160 --> 00:04:32,469
-So, I'm just gonna
-Activate the virtual environment and
-
-157
-00:04:32,469 --> 00:04:32,479
-Activate the virtual environment and
-
-158
-00:04:32,479 --> 00:04:37,189
-Activate the virtual environment and
-then I'm just gonna maybe I can just
-
-159
-00:04:37,189 --> 00:04:37,199
-then I'm just gonna maybe I can just
-
-160
 00:04:37,199 --> 00:04:41,030
 then I'm just gonna maybe I can just
 Where is it?
 
-161
-00:04:43,430 --> 00:04:43,440
-I'm just going to
-
-162
-00:04:43,440 --> 00:04:45,749
+81
+00:04:43,430 --> 00:04:45,759
 I'm just going to
 Take
 
-163
-00:04:45,749 --> 00:04:45,759
-Take
-
-164
+82
 00:04:45,759 --> 00:04:50,230
 Take
 let me take the
 
-165
-00:05:06,230 --> 00:05:06,240
-And then it popped up here. So here. Oh,
-
-166
-00:05:06,240 --> 00:05:10,790
+83
+00:05:06,230 --> 00:05:10,790
 And then it popped up here. So here. Oh,
 why is it so big?
 
-167
-00:05:13,670 --> 00:05:13,680
-So here we have our Locksmith.
-
-168
-00:05:13,680 --> 00:05:16,710
+84
+00:05:13,670 --> 00:05:16,720
 So here we have our Locksmith.
 I just created a vault, but we can if
 
-169
-00:05:16,710 --> 00:05:16,720
-I just created a vault, but we can if
-
-170
-00:05:16,720 --> 00:05:20,390
+85
+00:05:16,720 --> 00:05:20,400
 I just created a vault, but we can if
 I make a new one,
 
-171
-00:05:20,390 --> 00:05:20,400
-I make a new one,
-
-172
-00:05:20,400 --> 00:05:23,430
+86
+00:05:20,400 --> 00:05:23,440
 I make a new one,
 call it presentation.
 
-173
-00:05:23,430 --> 00:05:23,440
-call it presentation.
-
-174
-00:05:23,440 --> 00:05:27,430
+87
+00:05:23,440 --> 00:05:27,440
 call it presentation.
 no passcode and then here you go.
 
-175
-00:05:27,430 --> 00:05:27,440
-no passcode and then here you go.
-
-176
-00:05:27,440 --> 00:05:29,189
+88
+00:05:27,440 --> 00:05:29,199
 no passcode and then here you go.
 So here
 
-177
-00:05:29,189 --> 00:05:29,199
-So here
-
-178
-00:05:29,199 --> 00:05:32,310
+89
+00:05:29,199 --> 00:05:32,320
 So here
 a vault is just a logical grouping of
 
-179
-00:05:32,310 --> 00:05:32,320
-a vault is just a logical grouping of
-
-180
-00:05:32,320 --> 00:05:35,430
+90
+00:05:32,320 --> 00:05:35,440
 a vault is just a logical grouping of
 a of AIDs or
 
-181
-00:05:35,430 --> 00:05:35,440
-a of AIDs or
-
-182
-00:05:35,440 --> 00:05:37,350
+91
+00:05:35,440 --> 00:05:37,360
 a of AIDs or
 yes if you're familiar with the with the
 
-183
-00:05:37,350 --> 00:05:37,360
+92
+00:05:37,360 --> 00:05:40,400
 yes if you're familiar with the with the
+car by code it's the same as a habry
 
-184
-00:05:37,360 --> 00:05:40,390
-yes if you're familiar with the with the
-car by code it's the same as a habry 
+93
+00:05:40,400 --> 00:05:42,960
+car by code it's the same as a habry
+which is where you host your AIDs and
 
-185
-00:05:40,390 --> 00:05:40,400
-car by code it's the same as a habry 
-
-186
-00:05:40,400 --> 00:05:42,950
-car by code it's the same as a habry 
-which is where you host your AIDs and 
-
-187
-00:05:42,950 --> 00:05:42,960
-which is where you host your AIDs and 
-
-188
-00:05:42,960 --> 00:05:44,310
-which is where you host your AIDs and 
+94
+00:05:42,960 --> 00:05:44,320
+which is where you host your AIDs and
 which is where you have your key pairs
 
-189
-00:05:44,310 --> 00:05:44,320
-which is where you have your key pairs
-
-190
-00:05:44,320 --> 00:05:45,430
+95
+00:05:44,320 --> 00:05:45,440
 which is where you have your key pairs
 and all that stuff.
 
-191
-00:05:45,430 --> 00:05:45,440
-and all that stuff.
-
-192
-00:05:45,440 --> 00:05:47,270
+96
+00:05:45,440 --> 00:05:47,280
 and all that stuff.
 Okay.
 
-193
-00:05:47,270 --> 00:05:47,280
-Okay.
-
-194
-00:05:47,280 --> 00:05:50,150
+97
+00:05:47,280 --> 00:05:50,160
 Okay.
 So here you have the KERI Foundation
 
-195
-00:05:50,150 --> 00:05:50,160
-So here you have the KERI Foundation
-
-196
-00:05:50,160 --> 00:05:52,550
+98
+00:05:50,160 --> 00:05:52,560
 So here you have the KERI Foundation
 plugin which we're going to talk about
 
-197
-00:05:52,550 --> 00:05:52,560
-plugin which we're going to talk about
-
-198
-00:05:52,560 --> 00:05:57,670
+99
+00:05:52,560 --> 00:05:57,680
 plugin which we're going to talk about
 now if I can there you go. So the reason
 
-199
-00:05:57,670 --> 00:05:57,680
-now if I can there you go. So the reason
-
-200
-00:05:57,680 --> 00:06:00,469
+100
+00:05:57,680 --> 00:06:00,479
 now if I can there you go. So the reason
 why we have a KERI Foundation plugin is
 
-201
-00:06:00,469 --> 00:06:00,479
-why we have a KERI Foundation plugin is
-
-202
-00:06:00,479 --> 00:06:02,790
+101
+00:06:00,479 --> 00:06:02,800
 why we have a EKRI Foundation plugin is
 actually because of a boot server that
 
-203
-00:06:02,790 --> 00:06:02,800
-actually because of a boot server that
-
-204
-00:06:02,800 --> 00:06:04,550
+102
+00:06:02,800 --> 00:06:04,560
 actually because of a boot server that
 we have.
 
-205
-00:06:04,550 --> 00:06:04,560
-we have.
-
-206
-00:06:04,560 --> 00:06:06,230
+103
+00:06:04,560 --> 00:06:06,240
 we have.
 So the boot server what is the boot
 
-207
-00:06:06,230 --> 00:06:06,240
-So the boot server what is the boot
-
-208
-00:06:06,240 --> 00:06:09,029
+104
+00:06:06,240 --> 00:06:09,039
 So the boot server what is the boot
 server? Well the boot server is kind of
 
-209
-00:06:09,029 --> 00:06:09,039
+105
+00:06:09,039 --> 00:06:12,000
 server? Well the boot server is kind of
+the in between be in between before
 
-210
-00:06:09,039 --> 00:06:11,990
-server? Well the boot server is kind of
-the in between be in between before 
-
-211
-00:06:11,990 --> 00:06:12,000
-the in between be in between before 
-
-212
-00:06:12,000 --> 00:06:14,070
-the in between be in between before 
+106
+00:06:12,000 --> 00:06:14,080
+the in between be in between before
 between Locksmith and the watch
 
-213
-00:06:14,070 --> 00:06:14,080
-between Locksmith and the watch
-
-214
-00:06:14,080 --> 00:06:16,790
+107
+00:06:14,080 --> 00:06:16,800
 between Locksmith and the watch
 witnesses and watchers. And the role of
 
-215
-00:06:16,790 --> 00:06:16,800
-witnesses and watchers. And the role of
-
-216
-00:06:16,800 --> 00:06:18,710
+108
+00:06:16,800 --> 00:06:18,720
 witnesses and watchers. And the role of
 the boot server is to provision the
 
-217
-00:06:18,710 --> 00:06:18,720
-the boot server is to provision the
-
-218
-00:06:18,720 --> 00:06:22,469
+109
+00:06:18,720 --> 00:06:22,479
 the boot server is to provision the
 witnesses to your wallet. And now you're
 
-219
-00:06:22,469 --> 00:06:22,479
-witnesses to your wallet. And now you're
-
-220
-00:06:22,479 --> 00:06:24,390
+110
+00:06:22,479 --> 00:06:24,400
 witnesses to your wallet. And now you're
 gonna maybe a question that you might
 
-221
-00:06:24,390 --> 00:06:24,400
-gonna maybe a question that you might
-
-222
-00:06:24,400 --> 00:06:27,270
+111
+00:06:24,400 --> 00:06:27,280
 gonna maybe a question that you might
 have is why can I not just talk from
 
-223
-00:06:27,270 --> 00:06:27,280
-have is why can I not just talk from
-
-224
-00:06:27,280 --> 00:06:29,270
+112
+00:06:27,280 --> 00:06:29,280
 have is why can I not just talk from
 Locksmith directly to the witnesses and
 
-225
-00:06:29,270 --> 00:06:29,280
-Locksmith directly to the witnesses and
-
-226
-00:06:29,280 --> 00:06:32,390
+113
+00:06:29,280 --> 00:06:32,400
 Locksmith directly to the witnesses and
 watchers? Well, the reason for that is
 
-227
-00:06:32,390 --> 00:06:32,400
-watchers? Well, the reason for that is
-
-228
-00:06:32,400 --> 00:06:35,990
+114
+00:06:32,400 --> 00:06:36,000
 watchers? Well, the reason for that is
 the witnesses and watchers API.
 
-229
-00:06:35,990 --> 00:06:36,000
-the witnesses and watchers API.
-
-230
-00:06:36,000 --> 00:06:39,909
+115
+00:06:36,000 --> 00:06:39,919
 the witnesses and watchers API.
 So when you look here for example
 
-231
-00:06:39,909 --> 00:06:39,919
-So when you look here for example
-
-232
-00:06:39,919 --> 00:06:43,430
+116
+00:06:39,919 --> 00:06:43,440
 So when you look here for example
 for the witnesses API you have actually
 
-233
-00:06:43,430 --> 00:06:43,440
-for the witnesses API you have actually
-
-234
-00:06:43,440 --> 00:06:45,670
+117
+00:06:43,440 --> 00:06:45,680
 for the witnesses API you have actually
 two servers. So you have the boot server
 
-235
-00:06:45,670 --> 00:06:45,680
-two servers. So you have the boot server
-
-236
-00:06:45,680 --> 00:06:47,909
+118
+00:06:45,680 --> 00:06:47,919
 two servers. So you have the boot server
 and then you have the witness server.
 
-237
-00:06:47,909 --> 00:06:47,919
-and then you have the witness server.
-
-238
-00:06:47,919 --> 00:06:50,390
+119
+00:06:47,919 --> 00:06:50,400
 and then you have the witness server.
 The boot server, if you pay attention to
 
-239
-00:06:50,390 --> 00:06:50,400
-The boot server, if you pay attention to
-
-240
-00:06:50,400 --> 00:06:53,350
+120
+00:06:50,400 --> 00:06:53,360
 The boot server, if you pay attention to
 the API,
 
-241
-00:06:53,350 --> 00:06:53,360
-the API,
-
-242
-00:06:53,360 --> 00:06:56,070
+121
+00:06:53,360 --> 00:06:56,080
 the API,
 this is the one that actually creates
 
-243
-00:06:56,070 --> 00:06:56,080
-this is the one that actually creates
-
-244
-00:06:56,080 --> 00:06:59,749
+122
+00:06:56,080 --> 00:06:59,759
 this is the one that actually creates
 the witnesses and deletes them. And the
 
-245
-00:06:59,749 --> 00:06:59,759
-the witnesses and deletes them. And the
-
-246
-00:06:59,759 --> 00:07:01,990
+123
+00:06:59,759 --> 00:07:02,000
 the witnesses and deletes them. And the
 problem is that the boot server is
 
-247
-00:07:01,990 --> 00:07:02,000
-problem is that the boot server is
-
-248
-00:07:02,000 --> 00:07:03,589
+124
+00:07:02,000 --> 00:07:03,599
 problem is that the boot server is
 private. So it's not publicly
 
-249
-00:07:03,589 --> 00:07:03,599
-private. So it's not publicly
-
-250
-00:07:03,599 --> 00:07:05,830
+125
+00:07:03,599 --> 00:07:05,840
 private. So it's not publicly
 accessible. So even if you try to send a
 
-251
-00:07:05,830 --> 00:07:05,840
-accessible. So even if you try to send a
-
-252
-00:07:05,840 --> 00:07:09,029
+126
+00:07:05,840 --> 00:07:09,039
 accessible. So even if you try to send a
 request to it, it will not respond.
 
-253
-00:07:09,029 --> 00:07:09,039
-request to it, it will not respond.
-
-254
-00:07:09,039 --> 00:07:11,670
+127
+00:07:09,039 --> 00:07:11,680
 request to it, it will not respond.
 But the witness server and the
 
-255
-00:07:11,670 --> 00:07:11,680
-But the witness server and the
-
-256
-00:07:11,680 --> 00:07:14,390
+128
+00:07:11,680 --> 00:07:14,400
 But the witness server and the
 watcher server those two are public. So
 
-257
-00:07:14,390 --> 00:07:14,400
-watcher server those two are public. So
-
-258
-00:07:14,400 --> 00:07:16,469
+129
+00:07:14,400 --> 00:07:16,479
 watcher server those two are public. So
 once you have your witnesses and your
 
-259
-00:07:16,469 --> 00:07:16,479
-once you have your witnesses and your
-
-260
-00:07:16,479 --> 00:07:19,029
+130
+00:07:16,479 --> 00:07:19,039
 once you have your witnesses and your
 watcher you can publicly access those
 
-261
-00:07:19,029 --> 00:07:19,039
-watcher you can publicly access those
-
-262
-00:07:19,039 --> 00:07:21,749
+131
+00:07:19,039 --> 00:07:21,759
 watcher you can publicly access those
 however you want. And same for the
 
-263
-00:07:21,749 --> 00:07:21,759
-however you want. And same for the
-
-264
-00:07:21,759 --> 00:07:24,629
+132
+00:07:21,759 --> 00:07:24,639
 however you want. And same for the
 watcher API this is also private. So the
 
-265
-00:07:24,629 --> 00:07:24,639
-watcher API this is also private. So the
-
-266
-00:07:24,639 --> 00:07:28,629
+133
+00:07:24,639 --> 00:07:28,639
 watcher API this is also private. So the
 reason is that we have our boot
 
-267
-00:07:28,629 --> 00:07:28,639
-reason is that we have our boot
-
-268
-00:07:28,639 --> 00:07:33,029
+134
+00:07:28,639 --> 00:07:33,039
 reason is that we have our boot
 server which serve as the one who
 
-269
-00:07:33,029 --> 00:07:33,039
-server which serve as the one who
-
-270
-00:07:33,039 --> 00:07:36,469
+135
+00:07:33,039 --> 00:07:36,479
 server which serve as the one who
 will call the private APIs to get the
 
-271
-00:07:36,469 --> 00:07:36,479
-will call the private APIs to get the
-
-272
-00:07:36,479 --> 00:07:39,270
+136
+00:07:36,479 --> 00:07:39,280
 will call the private APIs to get the
 witnesses and watchers and the f the
 
-273
-00:07:39,270 --> 00:07:39,280
-witnesses and watchers and the f the
-
-274
-00:07:39,280 --> 00:07:41,430
+137
+00:07:39,280 --> 00:07:41,440
 witnesses and watchers and the f the
 KERI Foundation plug-in acts as a
 
-275
-00:07:41,430 --> 00:07:41,440
-KERI Foundation plug-in acts as a
-
-276
-00:07:41,440 --> 00:07:44,469
+138
+00:07:41,440 --> 00:07:44,479
 KERI Foundation plug-in acts as a
 bridge between the Locksmith wallet and
 
-277
-00:07:44,469 --> 00:07:44,479
-bridge between the Locksmith wallet and
-
-278
-00:07:44,479 --> 00:07:49,510
+139
+00:07:44,479 --> 00:07:49,520
 bridge between the Locksmith wallet and
 the boot server. Currently the boot the
 
-279
-00:07:49,510 --> 00:07:49,520
-the boot server. Currently the boot the
-
-280
-00:07:49,520 --> 00:07:52,550
+140
+00:07:49,520 --> 00:07:52,560
 the boot server. Currently the boot the
 KERI Foundation plugin is in charge of
 
-281
-00:07:52,550 --> 00:07:52,560
-KERI Foundation plugin is in charge of
-
-282
-00:07:52,560 --> 00:07:55,350
+141
+00:07:52,560 --> 00:07:55,360
 KERI Foundation plugin is in charge of
 onboarding witness registration watcher
 
-283
-00:07:55,350 --> 00:07:55,360
-onboarding witness registration watcher
-
-284
-00:07:55,360 --> 00:07:57,189
+142
+00:07:55,360 --> 00:07:57,199
 onboarding witness registration watcher
 resolution and off management. And when
 
-285
-00:07:57,189 --> 00:07:57,199
-resolution and off management. And when
-
-286
-00:07:57,199 --> 00:07:59,749
+143
+00:07:57,199 --> 00:07:59,759
 resolution and off management. And when
 we're talking about on boarding we're
 
-287
-00:07:59,749 --> 00:07:59,759
-we're talking about on boarding we're
-
-288
-00:07:59,759 --> 00:08:02,950
+144
+00:07:59,759 --> 00:08:02,960
 we're talking about on boarding we're
 talking about kind of setting you up
 
-289
-00:08:02,950 --> 00:08:02,960
-talking about kind of setting you up
-
-290
-00:08:02,960 --> 00:08:05,830
+145
+00:08:02,960 --> 00:08:05,840
 talking about kind of setting you up
 so you can have your own witnesses
 
-291
-00:08:05,830 --> 00:08:05,840
-so you can have your own witnesses
-
-292
-00:08:05,840 --> 00:08:07,830
+146
+00:08:05,840 --> 00:08:07,840
 so you can have your own witnesses
 And watcher.
 
-293
-00:08:07,830 --> 00:08:07,840
-And watcher.
-
-294
-00:08:07,840 --> 00:08:10,710
+147
+00:08:07,840 --> 00:08:10,720
 And watcher.
 Now an important thing to note is that
 
-295
-00:08:10,710 --> 00:08:10,720
-Now an important thing to note is that
-
-296
-00:08:10,720 --> 00:08:13,589
+148
+00:08:10,720 --> 00:08:13,599
 Now an important thing to note is that
 For the at least locally the KERI
 
-297
-00:08:13,589 --> 00:08:13,599
-For the at least locally the KERI
-
-298
-00:08:13,599 --> 00:08:16,309
+149
+00:08:13,599 --> 00:08:16,319
 For the at least locally the KERI
 Foundation sorry the boot server has
 
-299
-00:08:16,309 --> 00:08:16,319
-Foundation sorry the boot server has
-
-300
-00:08:16,319 --> 00:08:21,110
+150
+00:08:16,319 --> 00:08:21,120
 Foundation sorry the boot server has
 to be on the same machine or server as
 
-301
-00:08:21,110 --> 00:08:21,120
-to be on the same machine or server as
-
-302
-00:08:21,120 --> 00:08:23,430
+151
+00:08:21,120 --> 00:08:23,440
 to be on the same machine or server as
 the witnesses and watchers so it can
 
-303
-00:08:23,430 --> 00:08:23,440
-the witnesses and watchers so it can
-
-304
-00:08:23,440 --> 00:08:26,150
+152
+00:08:23,440 --> 00:08:26,160
 the witnesses and watchers so it can
 talk locally as I mentioned before
 
-305
-00:08:26,150 --> 00:08:26,160
-talk locally as I mentioned before
-
-306
-00:08:26,160 --> 00:08:29,670
+153
+00:08:26,160 --> 00:08:29,680
 talk locally as I mentioned before
 because the APIs are private.
 
-307
-00:08:29,670 --> 00:08:29,680
-because the APIs are private.
-
-308
+154
 00:08:29,680 --> 00:08:34,870
 because the APIs are private.
-So 
+So
 
-309
-00:08:38,790 --> 00:08:38,800
-so yeah so now let's go through the
-
-310
-00:08:38,800 --> 00:08:40,790
+155
+00:08:38,790 --> 00:08:40,800
 so yeah so now let's go through the
 plugin before we go through the boot
 
-311
-00:08:40,790 --> 00:08:40,800
-plugin before we go through the boot
-
-312
-00:08:40,800 --> 00:08:42,389
+156
+00:08:40,800 --> 00:08:42,399
 plugin before we go through the boot
 server. So I want to go to the plugin
 
-313
-00:08:42,389 --> 00:08:42,399
-server. So I want to go to the plugin
-
-314
-00:08:42,399 --> 00:08:45,190
+157
+00:08:42,399 --> 00:08:45,200
 server. So I want to go to the plugin
 and how you could if you wanted make
 
-315
-00:08:45,190 --> 00:08:45,200
-and how you could if you wanted make
-
-316
-00:08:45,200 --> 00:08:47,350
+158
+00:08:45,200 --> 00:08:47,360
 and how you could if you wanted make
 your own plugin.
 
-317
-00:08:47,350 --> 00:08:47,360
-your own plugin.
-
-318
-00:08:47,360 --> 00:08:50,870
+159
+00:08:47,360 --> 00:08:50,880
 your own plugin.
 So if you go to the Locksmith repos
 
-319
-00:08:50,870 --> 00:08:50,880
-So if you go to the Locksmith repos
-
-320
-00:08:50,880 --> 00:08:53,990
+160
+00:08:50,880 --> 00:08:54,000
 So if you go to the Locksmith repos
 repository and if you go to the plugins
 
-321
-00:08:53,990 --> 00:08:54,000
-repository and if you go to the plugins
-
-322
-00:08:54,000 --> 00:08:56,790
+161
+00:08:54,000 --> 00:08:56,800
 repository and if you go to the plugins
 and the base py it has a bunch of
 
-323
-00:08:56,790 --> 00:08:56,800
-and the base py it has a bunch of
-
-324
-00:08:56,800 --> 00:08:59,269
+162
+00:08:56,800 --> 00:08:59,279
 and the base py it has a bunch of
 classes that allows you to create your
 
-325
-00:08:59,269 --> 00:08:59,279
-classes that allows you to create your
-
-326
-00:08:59,279 --> 00:09:03,750
+163
+00:08:59,279 --> 00:09:03,760
 classes that allows you to create your
 own plugin. If you look at the
 
-327
-00:09:03,750 --> 00:09:03,760
-own plugin. If you look at the
-
-328
-00:09:03,760 --> 00:09:06,070
+164
+00:09:03,760 --> 00:09:06,080
 own plugin. If you look at the
 plug-in.base it has a bunch of method
 
-329
-00:09:06,070 --> 00:09:06,080
-plug-in.base it has a bunch of method
-
-330
-00:09:06,080 --> 00:09:09,190
+165
+00:09:06,080 --> 00:09:09,200
 plug-in.base it has a bunch of method
 that you can override to create your
 
-331
-00:09:09,190 --> 00:09:09,200
-that you can override to create your
-
-332
-00:09:09,200 --> 00:09:11,190
+166
+00:09:09,200 --> 00:09:11,200
 that you can override to create your
 own plugin.
 
-333
-00:09:11,190 --> 00:09:11,200
-own plugin.
-
-334
-00:09:11,200 --> 00:09:13,670
+167
+00:09:11,200 --> 00:09:13,680
 own plugin.
 For example here is the KERI
 
-335
-00:09:13,670 --> 00:09:13,680
-For example here is the KERI
-
-336
-00:09:13,680 --> 00:09:16,710
+168
+00:09:13,680 --> 00:09:16,720
 For example here is the KERI
 Foundation plugin that is in the plug-in
 
-337
-00:09:16,710 --> 00:09:16,720
-Foundation plugin that is in the plug-in
-
-338
-00:09:16,720 --> 00:09:18,389
+169
+00:09:16,720 --> 00:09:18,399
 Foundation plugin that is in the plug-in
 folder. You can also look it up on the
 
-339
-00:09:18,389 --> 00:09:18,399
-folder. You can also look it up on the
-
-340
-00:09:18,399 --> 00:09:21,590
+170
+00:09:18,399 --> 00:09:21,600
 folder. You can also look it up on the
 KERI Foundation branch. It is using
 
-341
-00:09:21,590 --> 00:09:21,600
-KERI Foundation branch. It is using
-
-342
-00:09:21,600 --> 00:09:23,670
+171
+00:09:21,600 --> 00:09:23,680
 KERI Foundation branch. It is using
 the plug-in base, the witness provider
 
-343
-00:09:23,670 --> 00:09:23,680
-the plug-in base, the witness provider
-
-344
-00:09:23,680 --> 00:09:26,230
+172
+00:09:23,680 --> 00:09:26,240
 the plug-in base, the witness provider
 plugin and the account provider plugin.
 
-345
-00:09:26,230 --> 00:09:26,240
-plugin and the account provider plugin.
-
-346
-00:09:26,240 --> 00:09:28,389
+173
+00:09:26,240 --> 00:09:28,399
 plugin and the account provider plugin.
 Then it has
 
-347
-00:09:28,389 --> 00:09:28,399
-Then it has
-
-348
-00:09:28,399 --> 00:09:29,990
+174
+00:09:28,399 --> 00:09:30,000
 Then it has
 u for example here you can see that it's
 
-349
-00:09:29,990 --> 00:09:30,000
-u for example here you can see that it's
-
-350
-00:09:30,000 --> 00:09:32,870
+175
+00:09:30,000 --> 00:09:32,880
 u for example here you can see that it's
 overriding the plug-in ID function
 
-351
-00:09:32,870 --> 00:09:32,880
-overriding the plug-in ID function
-
-352
-00:09:32,880 --> 00:09:35,670
+176
+00:09:32,880 --> 00:09:35,680
 overriding the plug-in ID function
 and the initialize function. I'm not
 
-353
-00:09:35,670 --> 00:09:35,680
-and the initialize function. I'm not
-
-354
-00:09:35,680 --> 00:09:37,670
+177
+00:09:35,680 --> 00:09:37,680
 and the initialize function. I'm not
 going to go into too much detail as to
 
-355
-00:09:37,670 --> 00:09:37,680
-going to go into too much detail as to
-
-356
-00:09:37,680 --> 00:09:40,150
+178
+00:09:37,680 --> 00:09:40,160
 going to go into too much detail as to
 how you can or what you should put into
 
-357
-00:09:40,150 --> 00:09:40,160
-how you can or what you should put into
-
-358
-00:09:40,160 --> 00:09:42,150
+179
+00:09:40,160 --> 00:09:42,160
 how you can or what you should put into
 into those methods, but at least know
 
-359
-00:09:42,150 --> 00:09:42,160
-into those methods, but at least know
-
-360
-00:09:42,160 --> 00:09:43,990
+180
+00:09:42,160 --> 00:09:44,000
 into those methods, but at least know
 that it's there. And if you need the
 
-361
-00:09:43,990 --> 00:09:44,000
-that it's there. And if you need the
-
-362
-00:09:44,000 --> 00:09:46,389
+181
+00:09:44,000 --> 00:09:46,399
 that it's there. And if you need the
 references you can just look at the
 
-363
-00:09:46,389 --> 00:09:46,399
-references you can just look at the
-
-364
-00:09:46,399 --> 00:09:48,710
+182
+00:09:46,399 --> 00:09:48,720
 references you can just look at the
 KERI Foundation plugin in the
 
-365
-00:09:48,710 --> 00:09:48,720
-KERI Foundation plugin in the
-
-366
-00:09:48,720 --> 00:09:51,590
+183
+00:09:48,720 --> 00:09:51,600
 KERI Foundation plugin in the
 repository to maybe get some in
 
-367
-00:09:51,590 --> 00:09:51,600
-repository to maybe get some in
-
-368
-00:09:51,600 --> 00:09:54,310
+184
+00:09:51,600 --> 00:09:54,320
 repository to maybe get some in
 inspiration.
 
-369
-00:09:54,310 --> 00:09:54,320
-inspiration.
-
-370
-00:09:54,320 --> 00:09:57,910
+185
+00:09:54,320 --> 00:09:57,920
 inspiration.
 Okay. So now I want to go through
 
-371
-00:09:57,910 --> 00:09:57,920
-Okay. So now I want to go through
-
-372
-00:09:57,920 --> 00:10:00,150
+186
+00:09:57,920 --> 00:10:00,160
 Okay. So now I want to go through
 the witnesses. Oh, no, sorry. I want to
 
-373
-00:10:00,150 --> 00:10:00,160
-the witnesses. Oh, no, sorry. I want to
-
-374
-00:10:00,160 --> 00:10:01,509
+187
+00:10:00,160 --> 00:10:01,519
 the witnesses. Oh, no, sorry. I want to
 go to the boot server. And just to
 
-375
-00:10:01,509 --> 00:10:01,519
-go to the boot server. And just to
-
-376
-00:10:01,519 --> 00:10:03,509
+188
+00:10:01,519 --> 00:10:03,519
 go to the boot server. And just to
 remind you, the boot server serve as a
 
-377
-00:10:03,509 --> 00:10:03,519
-remind you, the boot server serve as a
-
-378
-00:10:03,519 --> 00:10:06,710
+189
+00:10:03,519 --> 00:10:06,720
 remind you, the boot server serve as a
 public API to provision your
 
-379
-00:10:06,710 --> 00:10:06,720
-public API to provision your
-
-380
-00:10:06,720 --> 00:10:09,509
+190
+00:10:06,720 --> 00:10:09,519
 public API to provision your
 witnesses and watcher. The kev boot is
 
-381
-00:10:09,509 --> 00:10:09,519
-witnesses and watcher. The kev boot is
-
-382
-00:10:09,519 --> 00:10:11,670
+191
+00:10:09,519 --> 00:10:11,680
 witnesses and watcher. The kev boot is
 also available publicly. So if you want
 
-383
-00:10:11,670 --> 00:10:11,680
-also available publicly. So if you want
-
-384
-00:10:11,680 --> 00:10:13,350
+192
+00:10:11,680 --> 00:10:13,360
 also available publicly. So if you want
 to look at it, you can. It's on the
 
-385
-00:10:13,350 --> 00:10:13,360
-to look at it, you can. It's on the
-
-386
-00:10:13,360 --> 00:10:15,990
+193
+00:10:13,360 --> 00:10:16,000
 to look at it, you can. It's on the
 KERI Foundation repository. You can
 
-387
-00:10:15,990 --> 00:10:16,000
-KERI Foundation repository. You can
-
-388
-00:10:16,000 --> 00:10:19,990
+194
+00:10:16,000 --> 00:10:20,000
 KERI Foundation repository. You can
 look at it. See how the code works.
 
-389
-00:10:19,990 --> 00:10:20,000
-look at it. See how the code works.
-
-390
-00:10:20,000 --> 00:10:23,030
+195
+00:10:20,000 --> 00:10:23,040
 look at it. See how the code works.
 And to run it very simple create your
 
-391
-00:10:23,030 --> 00:10:23,040
-And to run it very simple create your
-
-392
-00:10:23,040 --> 00:10:26,069
+196
+00:10:23,040 --> 00:10:26,079
 And to run it very simple create your
 virtual environment. And then here are
 
-393
-00:10:26,069 --> 00:10:26,079
-virtual environment. And then here are
-
-394
-00:10:26,079 --> 00:10:30,550
+197
+00:10:26,079 --> 00:10:30,560
 virtual environment. And then here are
 the variable that your that your G
 
-395
-00:10:30,550 --> 00:10:30,560
+198
+00:10:30,560 --> 00:10:33,920
 the variable that your that your G
+foundation boot needs to talk to
 
-396
-00:10:30,560 --> 00:10:33,910
-the variable that your that your G
-foundation boot needs to talk to 
-
-397
-00:10:33,910 --> 00:10:33,920
-foundation boot needs to talk to 
-
-398
-00:10:33,920 --> 00:10:36,550
-foundation boot needs to talk to 
+199
+00:10:33,920 --> 00:10:36,560
+foundation boot needs to talk to
 the witnesses and watcher. I'm going
 
-399
-00:10:36,550 --> 00:10:36,560
-the witnesses and watcher. I'm going
-
-400
-00:10:36,560 --> 00:10:40,389
+200
+00:10:36,560 --> 00:10:40,399
 the witnesses and watcher. I'm going
 to just show you also to do a demo.
 
-401
-00:10:40,389 --> 00:10:40,399
-to just show you also to do a demo.
-
-402
+201
 00:10:40,399 --> 00:10:43,750
 to just show you also to do a demo.
 So
 
-403
-00:10:47,670 --> 00:10:47,680
-So here I have my KERI Foundation
-
-404
-00:10:47,680 --> 00:10:52,230
+202
+00:10:47,670 --> 00:10:52,240
 So here I have my KERI Foundation
 boot server. I'm going to
 
-405
-00:10:52,230 --> 00:10:52,240
-boot server. I'm going to
-
-406
-00:10:52,240 --> 00:10:55,350
+203
+00:10:52,240 --> 00:10:55,360
 boot server. I'm going to
 activate it. And then
 
-407
-00:10:55,350 --> 00:10:55,360
-activate it. And then
-
-408
-00:10:55,360 --> 00:10:59,590
+204
+00:10:55,360 --> 00:10:59,600
 activate it. And then
 Just like in the just like in the
 
-409
-00:10:59,590 --> 00:10:59,600
-Just like in the just like in the
-
-410
-00:10:59,600 --> 00:11:00,949
+205
+00:10:59,600 --> 00:11:00,959
 Just like in the just like in the
 slide that I showed, I'm just going to
 
-411
-00:11:00,949 --> 00:11:00,959
-slide that I showed, I'm just going to
-
-412
-00:11:00,959 --> 00:11:03,750
+206
+00:11:00,959 --> 00:11:03,760
 slide that I showed, I'm just going to
 cop copy. I'm not going to install the
 
-413
-00:11:03,750 --> 00:11:03,760
-cop copy. I'm not going to install the
-
-414
-00:11:03,760 --> 00:11:06,150
+207
+00:11:03,760 --> 00:11:06,160
 cop copy. I'm not going to install the
 dependencies since I'm already done it.
 
-415
-00:11:06,150 --> 00:11:06,160
-dependencies since I'm already done it.
-
-416
-00:11:06,160 --> 00:11:09,269
+208
+00:11:06,160 --> 00:11:09,279
 dependencies since I'm already done it.
 So I'm going to go here, paste these,
 
-417
-00:11:09,269 --> 00:11:09,279
-So I'm going to go here, paste these,
-
-418
-00:11:09,279 --> 00:11:12,310
+209
+00:11:09,279 --> 00:11:12,320
 So I'm going to go here, paste these,
 and then run it. So now you can see that
 
-419
-00:11:12,310 --> 00:11:12,320
-and then run it. So now you can see that
-
-420
+210
 00:11:12,320 --> 00:11:17,829
 and then run it. So now you can see that
 it's running here. And if I go
 
-421
-00:11:29,430 --> 00:11:29,440
-Oh,
-
-422
-00:11:29,440 --> 00:11:31,750
+211
+00:11:29,430 --> 00:11:31,760
 Oh,
 let me Bam. Because I need to refresh
 
-423
-00:11:31,750 --> 00:11:31,760
-let me Bam. Because I need to refresh
-
-424
+212
 00:11:31,760 --> 00:11:42,790
 let me Bam. Because I need to refresh
 it. Sorry.
 
-425
-00:11:46,470 --> 00:11:46,480
-Oh, I also need to
-
-426
-00:11:46,480 --> 00:11:51,670
+213
+00:11:46,470 --> 00:11:51,680
 Oh, I also need to
 I also need to give Locksmith
 
-427
-00:11:51,670 --> 00:11:51,680
-I also need to give Locksmith
-
-428
-00:11:51,680 --> 00:11:54,550
+214
+00:11:51,680 --> 00:11:54,560
 I also need to give Locksmith
 the
 
-429
-00:11:54,550 --> 00:11:54,560
-the
-
-430
-00:11:54,560 --> 00:11:57,990
+215
+00:11:54,560 --> 00:11:58,000
 the
 the address for the
 
-431
-00:11:57,990 --> 00:11:58,000
-the address for the
-
-432
-00:11:58,000 --> 00:12:00,150
+216
+00:11:58,000 --> 00:12:00,160
 the address for the
 for the
 
-433
-00:12:00,150 --> 00:12:00,160
-for the
-
-434
-00:12:00,160 --> 00:12:03,910
+217
+00:12:00,160 --> 00:12:03,920
 for the
 boot server. So here and then if I run
 
-435
-00:12:03,910 --> 00:12:03,920
-boot server. So here and then if I run
-
-436
+218
 00:12:03,920 --> 00:12:09,829
 boot server. So here and then if I run
 it back
 
-437
-00:12:12,710 --> 00:12:12,720
-my Locksmith
-
-438
-00:12:12,720 --> 00:12:15,750
+219
+00:12:12,710 --> 00:12:15,760
 my Locksmith
 can get in.
 
-439
-00:12:15,750 --> 00:12:15,760
-can get in.
-
-440
-00:12:15,760 --> 00:12:19,590
+220
+00:12:15,760 --> 00:12:19,600
 can get in.
 Oh why is it?
 
-441
-00:12:19,590 --> 00:12:19,600
-Oh why is it?
-
-442
+221
 00:12:19,600 --> 00:12:25,990
 Oh why is it?
 Oh maybe because
 
-443
-00:12:50,550 --> 00:12:50,560
-Oh, already connects, I guess. H, it's
-
-444
-00:12:50,560 --> 00:12:52,389
+222
+00:12:50,550 --> 00:12:52,399
 Oh, already connects, I guess. H, it's
 already connected to the boot server, I
 
-445
-00:12:52,389 --> 00:12:52,399
-already connected to the boot server, I
-
-446
-00:12:52,399 --> 00:12:53,670
+223
+00:12:52,399 --> 00:12:53,680
 already connected to the boot server, I
 guess.
 
-447
-00:12:53,670 --> 00:12:53,680
-guess.
-
-448
-00:12:53,680 --> 00:12:59,269
+224
+00:12:53,680 --> 00:12:59,279
 guess.
 So, I actually can't see it, but
 
-449
-00:12:59,269 --> 00:12:59,279
-So, I actually can't see it, but
-
-450
-00:12:59,279 --> 00:13:03,350
+225
+00:12:59,279 --> 00:13:03,360
 So, I actually can't see it, but
 usually if you look it up on the K
 
-451
-00:13:03,350 --> 00:13:03,360
-usually if you look it up on the K
-
-452
-00:13:03,360 --> 00:13:05,750
+226
+00:13:03,360 --> 00:13:05,760
 usually if you look it up on the K
 Foundation plugin, it should show that
 
-453
-00:13:05,750 --> 00:13:05,760
-Foundation plugin, it should show that
-
-454
-00:13:05,760 --> 00:13:09,990
+227
+00:13:05,760 --> 00:13:10,000
 Foundation plugin, it should show that
 you can service an AID and connect
 
-455
-00:13:09,990 --> 00:13:10,000
-you can service an AID and connect
-
-456
-00:13:10,000 --> 00:13:12,389
+228
+00:13:10,000 --> 00:13:12,399
 you can service an AID and connect
 witnesses and watchers to it.
 
-457
-00:13:12,389 --> 00:13:12,399
-witnesses and watchers to it.
-
-458
-00:13:12,399 --> 00:13:16,710
+229
+00:13:12,399 --> 00:13:16,720
 witnesses and watchers to it.
 You could try deleting your local KERI
 
-459
-00:13:16,710 --> 00:13:16,720
-You could try deleting your local KERI
-
-460
-00:13:16,720 --> 00:13:19,509
+230
+00:13:16,720 --> 00:13:19,519
 You could try deleting your local KERI
 home.
 
-461
-00:13:19,509 --> 00:13:19,519
-home.
-
-462
-00:13:19,519 --> 00:13:21,269
+231
+00:13:19,519 --> 00:13:21,279
 home.
 and then start fresh and then should
 
-463
-00:13:21,269 --> 00:13:21,279
-and then start fresh and then should
-
-464
-00:13:21,279 --> 00:13:22,230
+232
+00:13:21,279 --> 00:13:22,240
 and then start fresh and then should
 recreate on that.
 
-465
-00:13:22,230 --> 00:13:22,240
-recreate on that.
-
-466
-00:13:22,240 --> 00:13:25,110
+233
+00:13:22,240 --> 00:13:25,120
 recreate on that.
 Oh, I make a whole another repo.
 
-467
-00:13:25,110 --> 00:13:25,120
-Oh, I make a whole another repo.
-
-468
-00:13:25,120 --> 00:13:25,990
+234
+00:13:25,120 --> 00:13:26,000
 Oh, I make a whole another repo.
 I could
 
-469
-00:13:25,990 --> 00:13:26,000
-I could
-
-470
-00:13:26,000 --> 00:13:27,110
+235
+00:13:26,000 --> 00:13:27,120
 I could
 Yeah, go ahead. Go ahead.
 
-471
-00:13:27,110 --> 00:13:27,120
-Yeah, go ahead. Go ahead.
-
-472
-00:13:27,120 --> 00:13:28,710
+236
+00:13:27,120 --> 00:13:28,720
 Yeah, go ahead. Go ahead.
 I could I could do it at the end
 
-473
-00:13:28,710 --> 00:13:28,720
+237
+00:13:28,720 --> 00:13:31,680
 I could I could do it at the end
+probably. I just want to go through
 
-474
-00:13:28,720 --> 00:13:31,670
-I could I could do it at the end
-probably. I just want to go through 
-
-475
-00:13:31,670 --> 00:13:31,680
-probably. I just want to go through 
-
-476
-00:13:31,680 --> 00:13:33,190
-probably. I just want to go through 
+238
+00:13:31,680 --> 00:13:33,200
+probably. I just want to go through
 the whole slide and maybe I'll do
 
-477
-00:13:33,190 --> 00:13:33,200
-the whole slide and maybe I'll do
-
-478
-00:13:33,200 --> 00:13:36,629
+239
+00:13:33,200 --> 00:13:36,639
 the whole slide and maybe I'll do
 another demo. But so let me finish the
 
-479
-00:13:36,629 --> 00:13:36,639
-another demo. But so let me finish the
-
-480
-00:13:36,639 --> 00:13:40,949
+240
+00:13:36,639 --> 00:13:40,959
 another demo. But so let me finish the
 slides first. Go to the witnesses of
 
-481
-00:13:40,949 --> 00:13:40,959
-slides first. Go to the witnesses of
-
-482
-00:13:40,959 --> 00:13:42,389
+241
+00:13:40,959 --> 00:13:42,399
 slides first. Go to the witnesses of
 course have the role of the witnesses
 
-483
-00:13:42,389 --> 00:13:42,399
-course have the role of the witnesses
-
-484
-00:13:42,399 --> 00:13:44,790
+242
+00:13:42,399 --> 00:13:44,800
 course have the role of the witnesses
 and what they do the anchor the events
 
-485
-00:13:44,790 --> 00:13:44,800
-and what they do the anchor the events
-
-486
-00:13:44,800 --> 00:13:49,110
+243
+00:13:44,800 --> 00:13:49,120
 and what they do the anchor the events
 and trying to keep the authenticity
 
-487
-00:13:49,110 --> 00:13:49,120
-and trying to keep the authenticity
-
-488
-00:13:49,120 --> 00:13:50,949
+244
+00:13:49,120 --> 00:13:50,959
 and trying to keep the authenticity
 and make sure that everything is correct
 
-489
-00:13:50,949 --> 00:13:50,959
-and make sure that everything is correct
-
-490
-00:13:50,959 --> 00:13:53,990
+245
+00:13:50,959 --> 00:13:54,000
 and make sure that everything is correct
 of course because we're the witnesses.
 
-491
-00:13:53,990 --> 00:13:54,000
-of course because we're the witnesses.
-
-492
-00:13:54,000 --> 00:13:55,350
+246
+00:13:54,000 --> 00:13:55,360
 of course because we're the witnesses.
 So same thing we're going to go through
 
-493
-00:13:55,350 --> 00:13:55,360
-So same thing we're going to go through
-
-494
-00:13:55,360 --> 00:13:58,230
+247
+00:13:55,360 --> 00:13:58,240
 So same thing we're going to go through
 the witness the repo the environment and
 
-495
-00:13:58,230 --> 00:13:58,240
-the witness the repo the environment and
-
-496
-00:13:58,240 --> 00:14:01,350
+248
+00:13:58,240 --> 00:14:01,360
 the witness the repo the environment and
 how to run it locally.
 
-497
-00:14:01,350 --> 00:14:01,360
-how to run it locally.
-
-498
-00:14:01,360 --> 00:14:03,590
+249
+00:14:01,360 --> 00:14:03,600
 how to run it locally.
 So first you can get the code on the
 
-499
-00:14:03,590 --> 00:14:03,600
-So first you can get the code on the
-
-500
-00:14:03,600 --> 00:14:06,470
+250
+00:14:03,600 --> 00:14:06,480
 So first you can get the code on the
 witness repository in the career
 
-501
-00:14:06,470 --> 00:14:06,480
-witness repository in the career
-
-502
-00:14:06,480 --> 00:14:08,310
+251
+00:14:06,480 --> 00:14:08,320
 witness repository in the career
 foundation.
 
-503
-00:14:08,310 --> 00:14:08,320
-foundation.
-
-504
-00:14:08,320 --> 00:14:12,949
+252
+00:14:08,320 --> 00:14:12,959
 foundation.
 It also has docs. So I have the
 
-505
-00:14:12,949 --> 00:14:12,959
-It also has docs. So I have the
-
-506
-00:14:12,959 --> 00:14:15,750
+253
+00:14:12,959 --> 00:14:15,760
 It also has docs. So I have the
 developer guide. Same thing just make
 
-507
-00:14:15,750 --> 00:14:15,760
-developer guide. Same thing just make
-
-508
-00:14:15,760 --> 00:14:18,069
+254
+00:14:15,760 --> 00:14:18,079
 developer guide. Same thing just make
 sure that you have lip sodium.
 
-509
-00:14:18,069 --> 00:14:18,079
-sure that you have lip sodium.
-
-510
-00:14:18,079 --> 00:14:21,670
+255
+00:14:18,079 --> 00:14:21,680
 sure that you have lip sodium.
 How to set up your environment.
 
-511
-00:14:21,670 --> 00:14:21,680
-How to set up your environment.
-
-512
-00:14:21,680 --> 00:14:24,710
+256
+00:14:21,680 --> 00:14:24,720
 How to set up your environment.
 And then one thing about the
 
-513
-00:14:24,710 --> 00:14:24,720
-And then one thing about the
-
-514
-00:14:24,720 --> 00:14:26,310
+257
+00:14:24,720 --> 00:14:26,320
 And then one thing about the
 configuration
 
-515
-00:14:26,310 --> 00:14:26,320
-configuration
-
-516
-00:14:26,320 --> 00:14:29,829
+258
+00:14:26,320 --> 00:14:29,839
 configuration
 If you were here last time Ryan
 
-517
-00:14:29,829 --> 00:14:29,839
-If you were here last time Ryan
-
-518
-00:14:29,839 --> 00:14:32,389
+259
+00:14:29,839 --> 00:14:32,399
 If you were here last time Ryan
 you talked about it and how it works. So
 
-519
-00:14:32,389 --> 00:14:32,399
-you talked about it and how it works. So
-
-520
-00:14:32,399 --> 00:14:34,710
+260
+00:14:32,399 --> 00:14:34,720
 you talked about it and how it works. So
 I'm not going to repeat it again but
 
-521
-00:14:34,710 --> 00:14:34,720
-I'm not going to repeat it again but
-
-522
-00:14:34,720 --> 00:14:38,710
+261
+00:14:34,720 --> 00:14:38,720
 I'm not going to repeat it again but
 just suggest surely that the curls here
 
-523
-00:14:38,710 --> 00:14:38,720
-just suggest surely that the curls here
-
-524
-00:14:38,720 --> 00:14:42,710
+262
+00:14:38,720 --> 00:14:42,720
 just suggest surely that the curls here
 will be the address that the witness
 
-525
-00:14:42,710 --> 00:14:42,720
-will be the address that the witness
-
-526
-00:14:42,720 --> 00:14:46,550
+263
+00:14:42,720 --> 00:14:46,560
 will be the address that the witness
 server is going to use.
 
-527
-00:14:46,550 --> 00:14:46,560
-server is going to use.
-
-528
-00:14:46,560 --> 00:14:49,189
+264
+00:14:46,560 --> 00:14:49,199
 server is going to use.
 And then to run the witnesses, you can
 
-529
-00:14:49,189 --> 00:14:49,199
-And then to run the witnesses, you can
-
-530
-00:14:49,199 --> 00:14:52,629
+265
+00:14:49,199 --> 00:14:52,639
 And then to run the witnesses, you can
 use the first one or I usually use the
 
-531
-00:14:52,629 --> 00:14:52,639
-use the first one or I usually use the
-
-532
-00:14:52,639 --> 00:14:56,310
+266
+00:14:52,639 --> 00:14:56,320
 use the first one or I usually use the
 other one. Let me
 
-533
-00:14:56,310 --> 00:14:56,320
-other one. Let me
-
-534
+267
 00:14:56,320 --> 00:15:02,150
 other one. Let me
 show it here.
 
-535
-00:15:05,509 --> 00:15:05,519
-So I have it here. Let me activate
-
-536
-00:15:05,519 --> 00:15:07,430
+268
+00:15:05,509 --> 00:15:07,440
 So I have it here. Let me activate
 the
 
-537
-00:15:07,430 --> 00:15:07,440
-the
-
-538
+269
 00:15:07,440 --> 00:15:11,110
 the
 Oops.
 
-539
-00:15:16,629 --> 00:15:16,639
-And then let me take Oops.
-
-540
-00:15:16,639 --> 00:15:20,870
+270
+00:15:16,629 --> 00:15:20,880
 And then let me take Oops.
 Let me write this. So scripts
 
-541
-00:15:20,870 --> 00:15:20,880
-Let me write this. So scripts
-
-542
+271
 00:15:20,880 --> 00:15:26,790
 Let me write this. So scripts
 and then
 
-543
-00:15:28,949 --> 00:15:28,959
-so there you go. So you have my
-
-544
-00:15:28,959 --> 00:15:31,590
+272
+00:15:28,949 --> 00:15:31,600
 so there you go. So you have my
 witnesses running
 
-545
-00:15:31,590 --> 00:15:31,600
-witnesses running
-
-546
-00:15:31,600 --> 00:15:33,829
+273
+00:15:31,600 --> 00:15:33,839
 witnesses running
 and if you if you look at here you can
 
-547
-00:15:33,829 --> 00:15:33,839
-and if you if you look at here you can
-
-548
-00:15:33,839 --> 00:15:35,829
+274
+00:15:33,839 --> 00:15:35,839
 and if you if you look at here you can
 see the public server address I mean the
 
-549
-00:15:35,829 --> 00:15:35,839
-see the public server address I mean the
-
-550
-00:15:35,839 --> 00:15:38,470
+275
+00:15:35,839 --> 00:15:38,480
 see the public server address I mean the
 port which is 5631
 
-551
-00:15:38,470 --> 00:15:38,480
-port which is 5631
-
-552
-00:15:38,480 --> 00:15:40,470
+276
+00:15:38,480 --> 00:15:40,480
 port which is 5631
 Sorry the private one which is
 
-553
-00:15:40,470 --> 00:15:40,480
-Sorry the private one which is
-
-554
-00:15:40,480 --> 00:15:42,870
+277
+00:15:40,480 --> 00:15:42,880
 Sorry the private one which is
 internal and then external which is the
 
-555
-00:15:42,870 --> 00:15:42,880
-internal and then external which is the
-
-556
-00:15:42,880 --> 00:15:46,949
+278
+00:15:42,880 --> 00:15:46,959
 internal and then external which is the
 public one at the 5632 port which is
 
-557
-00:15:46,949 --> 00:15:46,959
-public one at the 5632 port which is
-
-558
-00:15:46,959 --> 00:15:49,110
+279
+00:15:46,959 --> 00:15:49,120
 public one at the 5632 port which is
 the default one unless you change it in
 
-559
-00:15:49,110 --> 00:15:49,120
-the default one unless you change it in
-
-560
-00:15:49,120 --> 00:15:52,150
+280
+00:15:49,120 --> 00:15:52,160
 the default one unless you change it in
 the configuration and then you can see
 
-561
-00:15:52,150 --> 00:15:52,160
-the configuration and then you can see
-
-562
-00:15:52,160 --> 00:15:57,430
+281
+00:15:52,160 --> 00:15:57,440
 the configuration and then you can see
 your witnesses and their own AID.
 
-563
-00:15:57,430 --> 00:15:57,440
-your witnesses and their own AID.
-
-564
-00:15:57,440 --> 00:16:00,230
+282
+00:15:57,440 --> 00:16:00,240
 your witnesses and their own AID.
 Now to develop with witnesses
 
-565
-00:16:00,230 --> 00:16:00,240
-Now to develop with witnesses
-
-566
-00:16:00,240 --> 00:16:03,749
+283
+00:16:00,240 --> 00:16:03,759
 Now to develop with witnesses
 You have the API which is given and
 
-567
-00:16:03,749 --> 00:16:03,759
-You have the API which is given and
-
-568
-00:16:03,759 --> 00:16:05,829
+284
+00:16:03,759 --> 00:16:05,839
 You have the API which is given and
 shown in the readme file of the
 
-569
-00:16:05,829 --> 00:16:05,839
-shown in the readme file of the
-
-570
-00:16:05,839 --> 00:16:08,550
+285
+00:16:05,839 --> 00:16:08,560
 shown in the readme file of the
 repository for the witnesses you have
 
-571
-00:16:08,550 --> 00:16:08,560
-repository for the witnesses you have
-
-572
-00:16:08,560 --> 00:16:11,269
+286
+00:16:08,560 --> 00:16:11,279
 repository for the witnesses you have
 different of course action post
 
-573
-00:16:11,269 --> 00:16:11,279
-different of course action post
-
-574
-00:16:11,279 --> 00:16:15,749
+287
+00:16:11,279 --> 00:16:15,759
 different of course action post
 delete but I'm going to go into the post
 
-575
-00:16:15,749 --> 00:16:15,759
-delete but I'm going to go into the post
-
-576
-00:16:15,759 --> 00:16:19,749
+288
+00:16:15,759 --> 00:16:19,759
 delete but I'm going to go into the post
 and here basically have the
 
-577
-00:16:19,749 --> 00:16:19,759
-and here basically have the
-
-578
-00:16:19,759 --> 00:16:22,790
+289
+00:16:19,759 --> 00:16:22,800
 and here basically have the
 the whole post function it's a falcon
 
-579
-00:16:22,790 --> 00:16:22,800
-the whole post function it's a falcon
-
-580
-00:16:22,800 --> 00:16:25,189
+290
+00:16:22,800 --> 00:16:25,199
 the whole post function it's a falcon
 app so it's in under the witness
 
-581
-00:16:25,189 --> 00:16:25,199
-app so it's in under the witness
-
-582
-00:16:25,199 --> 00:16:28,069
+291
+00:16:25,199 --> 00:16:28,079
 app so it's in under the witness
 collection class And if you look at it
 
-583
-00:16:28,069 --> 00:16:28,079
-collection class And if you look at it
-
-584
-00:16:28,079 --> 00:16:29,670
+292
+00:16:28,079 --> 00:16:29,680
 collection class And if you look at it
 closely,
 
-585
-00:16:29,670 --> 00:16:29,680
-closely,
-
-586
-00:16:29,680 --> 00:16:33,030
+293
+00:16:29,680 --> 00:16:33,040
 closely,
 you can see that when it receive a post
 
-587
-00:16:33,030 --> 00:16:33,040
-you can see that when it receive a post
-
-588
-00:16:33,040 --> 00:16:36,150
+294
+00:16:33,040 --> 00:16:36,160
 you can see that when it receive a post
 method, it will first check for the AID,
 
-589
-00:16:36,150 --> 00:16:36,160
-method, it will first check for the AID,
-
-590
-00:16:36,160 --> 00:16:38,629
+295
+00:16:36,160 --> 00:16:38,639
 method, it will first check for the AID,
 check that it's a valid AID, and then it
 
-591
-00:16:38,629 --> 00:16:38,639
-check that it's a valid AID, and then it
-
-592
-00:16:38,639 --> 00:16:41,189
+296
+00:16:38,639 --> 00:16:41,199
 check that it's a valid AID, and then it
 just creates a witness
 
-593
-00:16:41,189 --> 00:16:41,199
-just creates a witness
-
-594
-00:16:41,199 --> 00:16:43,670
+297
+00:16:41,199 --> 00:16:43,680
 just creates a witness
 Gets the OOBIs and sends the data
 
-595
-00:16:43,670 --> 00:16:43,680
-Gets the OOBIs and sends the data
-
-596
-00:16:43,680 --> 00:16:45,990
+298
+00:16:43,680 --> 00:16:46,000
 Gets the OOBIs and sends the data
 back. That's all it does. So, if you
 
-597
-00:16:45,990 --> 00:16:46,000
-back. That's all it does. So, if you
-
-598
-00:16:46,000 --> 00:16:49,430
+299
+00:16:46,000 --> 00:16:49,440
 back. That's all it does. So, if you
 wanted, you could check for I don't
 
-599
-00:16:49,430 --> 00:16:49,440
-wanted, you could check for I don't
-
-600
-00:16:49,440 --> 00:16:52,150
+300
+00:16:49,440 --> 00:16:52,160
 wanted, you could check for I don't
 know, check for more things. But if you
 
-601
-00:16:52,150 --> 00:16:52,160
-know, check for more things. But if you
-
-602
-00:16:52,160 --> 00:16:54,389
+301
+00:16:52,160 --> 00:16:54,399
 know, check for more things. But if you
 want to start developing witnesses and
 
-603
-00:16:54,389 --> 00:16:54,399
-want to start developing witnesses and
-
-604
-00:16:54,399 --> 00:16:56,790
+302
+00:16:54,399 --> 00:16:56,800
 want to start developing witnesses and
 changing maybe how they behave, this is
 
-605
-00:16:56,790 --> 00:16:56,800
-changing maybe how they behave, this is
-
-606
-00:16:56,800 --> 00:16:58,629
+303
+00:16:56,800 --> 00:16:58,639
 changing maybe how they behave, this is
 where you would go. This is just an
 
-607
-00:16:58,629 --> 00:16:58,639
-where you would go. This is just an
-
-608
-00:16:58,639 --> 00:17:01,269
+304
+00:16:58,639 --> 00:17:01,279
 where you would go. This is just an
 example of the on post, but there's also
 
-609
-00:17:01,269 --> 00:17:01,279
-example of the on post, but there's also
-
-610
-00:17:01,279 --> 00:17:04,949
+305
+00:17:01,279 --> 00:17:04,959
 example of the on post, but there's also
 the ondelete. There's also all the all
 
-611
-00:17:04,949 --> 00:17:04,959
+306
+00:17:04,959 --> 00:17:08,079
 the ondelete. There's also all the all
+the public
 
-612
-00:17:04,959 --> 00:17:08,069
-the ondelete. There's also all the all
-the public 
-
-613
-00:17:08,069 --> 00:17:08,079
-the public 
-
-614
-00:17:08,079 --> 00:17:11,350
-the public 
+307
+00:17:08,079 --> 00:17:11,360
+the public
 actions and API that you can change
 
-615
-00:17:11,350 --> 00:17:11,360
-actions and API that you can change
-
-616
-00:17:11,360 --> 00:17:14,549
+308
+00:17:11,360 --> 00:17:14,559
 actions and API that you can change
 which would also be under
 
-617
-00:17:14,549 --> 00:17:14,559
-which would also be under
-
-618
-00:17:14,559 --> 00:17:17,270
+309
+00:17:14,559 --> 00:17:17,280
 which would also be under
 Under this. So it's in
 
-619
-00:17:17,270 --> 00:17:17,280
-Under this. So it's in
-
-620
-00:17:17,280 --> 00:17:19,590
+310
+00:17:17,280 --> 00:17:19,600
 Under this. So it's in
 withnetwitnessing py. So if you want to
 
-621
-00:17:19,590 --> 00:17:19,600
-withnetwitnessing py. So if you want to
-
-622
+311
 00:17:19,600 --> 00:17:24,949
 withnetwitnessing py. So if you want to
 change anything go here.
 
-623
-00:17:28,150 --> 00:17:28,160
-Now the watchers
-
-624
-00:17:28,160 --> 00:17:30,150
+312
+00:17:28,150 --> 00:17:30,160
 Now the watchers
 same thing that we're going to go
 
-625
-00:17:30,150 --> 00:17:30,160
-same thing that we're going to go
-
-626
-00:17:30,160 --> 00:17:33,750
+313
+00:17:30,160 --> 00:17:33,760
 same thing that we're going to go
 through public repo of the watchers in
 
-627
-00:17:33,750 --> 00:17:33,760
-through public repo of the watchers in
-
-628
-00:17:33,760 --> 00:17:35,750
+314
+00:17:33,760 --> 00:17:35,760
 through public repo of the watchers in
 the current foundation.
 
-629
-00:17:35,750 --> 00:17:35,760
-the current foundation.
-
-630
-00:17:35,760 --> 00:17:38,390
+315
+00:17:35,760 --> 00:17:38,400
 the current foundation.
 This one doesn't have docs yet. I
 
-631
-00:17:38,390 --> 00:17:38,400
+316
+00:17:38,400 --> 00:17:42,799
 This one doesn't have docs yet. I
+suppose we might either add it later.
 
-632
-00:17:38,400 --> 00:17:42,789
-This one doesn't have docs yet. I
-suppose we might either add it later. 
-
-633
-00:17:42,789 --> 00:17:42,799
-suppose we might either add it later. 
-
-634
-00:17:42,799 --> 00:17:46,630
-suppose we might either add it later. 
+317
+00:17:42,799 --> 00:17:46,640
+suppose we might either add it later.
 But that's from the readme. You can
 
-635
-00:17:46,630 --> 00:17:46,640
-but that's from the readme. You can
-
-636
-00:17:46,640 --> 00:17:48,710
+318
+00:17:46,640 --> 00:17:48,720
 but that's from the readme. You can
 I don't think we can install from pi
 
-637
-00:17:48,710 --> 00:17:48,720
-I don't think we can install from pi
-
-638
-00:17:48,720 --> 00:17:50,950
+319
+00:17:48,720 --> 00:17:50,960
 I don't think we can install from pi
 yet. Correct me if I'm wrong. Yeah, we
 
-639
-00:17:50,950 --> 00:17:50,960
-yet. Correct me if I'm wrong. Yeah, we
-
-640
-00:17:50,960 --> 00:17:53,190
+320
+00:17:50,960 --> 00:17:53,200
 yet. Correct me if I'm wrong. Yeah, we
 can install it from pi yet. So, just
 
-641
-00:17:53,190 --> 00:17:53,200
-can install it from pi yet. So, just
-
-642
-00:17:53,200 --> 00:17:56,630
+321
+00:17:53,200 --> 00:17:56,640
 can install it from pi yet. So, just
 clone the repo and then install the
 
-643
-00:17:56,630 --> 00:17:56,640
-clone the repo and then install the
-
-644
-00:17:56,640 --> 00:17:59,669
+322
+00:17:56,640 --> 00:17:59,679
 clone the repo and then install the
 environment or hopefully with the from a
 
-645
-00:17:59,669 --> 00:17:59,679
-environment or hopefully with the from a
-
-646
-00:17:59,679 --> 00:18:01,510
+323
+00:17:59,679 --> 00:18:01,520
 environment or hopefully with the from a
 virtual environment.
 
-647
-00:18:01,510 --> 00:18:01,520
-virtual environment.
-
-648
-00:18:01,520 --> 00:18:03,029
+324
+00:18:01,520 --> 00:18:03,039
 virtual environment.
 Same thing same thing for the
 
-649
-00:18:03,029 --> 00:18:03,039
-Same thing same thing for the
-
-650
-00:18:03,039 --> 00:18:05,990
+325
+00:18:03,039 --> 00:18:06,000
 Same thing same thing for the
 configuration. The curls is also the
 
-651
-00:18:05,990 --> 00:18:06,000
-configuration. The curls is also the
-
-652
-00:18:06,000 --> 00:18:09,590
+326
+00:18:06,000 --> 00:18:09,600
 configuration. The curls is also the
 address from which the whater server is
 
-653
-00:18:09,590 --> 00:18:09,600
-address from which the whater server is
-
-654
-00:18:09,600 --> 00:18:11,669
+327
+00:18:09,600 --> 00:18:11,679
 address from which the whater server is
 going to respond to.
 
-655
-00:18:11,669 --> 00:18:11,679
-going to respond to.
-
-656
-00:18:11,679 --> 00:18:14,950
+328
+00:18:11,679 --> 00:18:14,960
 going to respond to.
 I'm going to also
 
-657
-00:18:14,950 --> 00:18:14,960
-I'm going to also
-
-658
-00:18:14,960 --> 00:18:19,830
+329
+00:18:14,960 --> 00:18:19,840
 I'm going to also
 have it in here. So, my watcher,
 
-659
-00:18:19,830 --> 00:18:19,840
-have it in here. So, my watcher,
-
-660
-00:18:19,840 --> 00:18:22,870
+330
+00:18:19,840 --> 00:18:22,880
 have it in here. So, my watcher,
 where is this? So,
 
-661
-00:18:22,870 --> 00:18:22,880
-where is this? So,
-
-662
-00:18:22,880 --> 00:18:27,110
+331
+00:18:22,880 --> 00:18:27,120
 where is this? So,
 so here. Just going to activate it. And
 
-663
-00:18:27,110 --> 00:18:27,120
-so here. Just going to activate it. And
-
-664
-00:18:27,120 --> 00:18:28,710
+332
+00:18:27,120 --> 00:18:28,720
 so here. Just going to activate it. And
 then
 
-665
-00:18:28,710 --> 00:18:28,720
-then
-
-666
+333
 00:18:28,720 --> 00:18:38,230
 then
 if I go
 
-667
-00:18:44,710 --> 00:18:44,720
-bam.
-
-668
-00:18:44,720 --> 00:18:48,789
+334
+00:18:44,710 --> 00:18:48,799
 bam.
 Then just copy this.
 
-669
-00:18:48,789 --> 00:18:48,799
-Then just copy this.
-
-670
-00:18:48,799 --> 00:18:51,590
+335
+00:18:48,799 --> 00:18:51,600
 Then just copy this.
 All right. So if you I'm just going to
 
-671
-00:18:51,590 --> 00:18:51,600
-All right. So if you I'm just going to
-
-672
-00:18:51,600 --> 00:18:54,230
+336
+00:18:51,600 --> 00:18:54,240
 All right. So if you I'm just going to
 go back to the slide.
 
-673
-00:18:54,230 --> 00:18:54,240
-go back to the slide.
-
-674
-00:18:54,240 --> 00:18:55,909
+337
+00:18:54,240 --> 00:18:55,919
 go back to the slide.
 But here you can see the same thing as
 
-675
-00:18:55,909 --> 00:18:55,919
-But here you can see the same thing as
-
-676
-00:18:55,919 --> 00:18:58,789
+338
+00:18:55,919 --> 00:18:58,799
 But here you can see the same thing as
 the witnesses. It shows your address
 
-677
-00:18:58,789 --> 00:18:58,799
-the witnesses. It shows your address
-
-678
-00:18:58,799 --> 00:19:01,510
+339
+00:18:58,799 --> 00:19:01,520
 the witnesses. It shows your address
 public address for the watcher
 
-679
-00:19:01,510 --> 00:19:01,520
-public address for the watcher
-
-680
-00:19:01,520 --> 00:19:04,070
+340
+00:19:01,520 --> 00:19:04,080
 public address for the watcher
 server private and also the watchers
 
-681
-00:19:04,070 --> 00:19:04,080
-server private and also the watchers
-
-682
-00:19:04,080 --> 00:19:06,870
+341
+00:19:04,080 --> 00:19:06,880
 server private and also the watchers
 running. I can probably show it
 
-683
-00:19:06,870 --> 00:19:06,880
-running. I can probably show it
-
-684
+342
 00:19:06,880 --> 00:19:12,070
 running. I can probably show it
 better on here.
 
-685
-00:19:14,150 --> 00:19:14,160
-You can see they have the watchers here
-
-686
-00:19:14,160 --> 00:19:17,029
+343
+00:19:14,150 --> 00:19:17,039
 You can see they have the watchers here
 as well as their IDs. And then you can
 
-687
-00:19:17,029 --> 00:19:17,039
-as well as their IDs. And then you can
-
-688
-00:19:17,039 --> 00:19:19,830
+344
+00:19:17,039 --> 00:19:19,840
 as well as their IDs. And then you can
 see that it's going up because the
 
-689
-00:19:19,830 --> 00:19:19,840
-see that it's going up because the
-
-690
-00:19:19,840 --> 00:19:21,750
+345
+00:19:19,840 --> 00:19:21,760
 see that it's going up because the
 witnesses are running. So, they're all
 
-691
-00:19:21,750 --> 00:19:21,760
-witnesses are running. So, they're all
-
-692
+346
 00:19:21,760 --> 00:19:26,310
 witnesses are running. So, they're all
 checking the witnesses.
 
-693
-00:19:28,070 --> 00:19:28,080
-So,
-
-694
-00:19:28,080 --> 00:19:31,270
+347
+00:19:28,070 --> 00:19:31,280
 So,
 A quick note that is important
 
-695
-00:19:31,270 --> 00:19:31,280
-A quick note that is important
-
-696
-00:19:31,280 --> 00:19:34,150
+348
+00:19:31,280 --> 00:19:34,160
 A quick note that is important
 is that the W witnesses and watcher are
 
-697
-00:19:34,150 --> 00:19:34,160
-is that the W witnesses and watcher are
-
-698
-00:19:34,160 --> 00:19:35,990
+349
+00:19:34,160 --> 00:19:36,000
 is that the W witnesses and watcher are
 supposed to run together. They're not
 
-699
-00:19:35,990 --> 00:19:36,000
-supposed to run together. They're not
-
-700
-00:19:36,000 --> 00:19:39,029
+350
+00:19:36,000 --> 00:19:39,039
 supposed to run together. They're not
 supposed to be individually
 
-701
-00:19:39,029 --> 00:19:39,039
-supposed to be individually
-
-702
-00:19:39,039 --> 00:19:41,669
+351
+00:19:39,039 --> 00:19:41,679
 supposed to be individually
 running. They have to be together.
 
-703
-00:19:41,669 --> 00:19:41,679
-running. They have to be together.
-
-704
-00:19:41,679 --> 00:19:43,510
+352
+00:19:41,679 --> 00:19:43,520
 running. They have to be together.
 So, first would be the witnesses and
 
-705
-00:19:43,510 --> 00:19:43,520
+353
+00:19:43,520 --> 00:19:45,440
 So, first would be the witnesses and
+then the watchers have to be
 
-706
-00:19:43,520 --> 00:19:45,430
-So, first would be the witnesses and
-then the watchers have to be 
-
-707
-00:19:45,430 --> 00:19:45,440
-then the watchers have to be 
-
-708
-00:19:45,440 --> 00:19:48,710
-then the watchers have to be 
+354
+00:19:45,440 --> 00:19:48,720
+then the watchers have to be
 deployed together.
 
-709
-00:19:48,710 --> 00:19:48,720
-deployed together.
-
-710
-00:19:48,720 --> 00:19:50,950
+355
+00:19:48,720 --> 00:19:50,960
 deployed together.
 Same thing for the watchers. you
 
-711
-00:19:50,950 --> 00:19:50,960
-Same thing for the watchers. you
-
-712
-00:19:50,960 --> 00:19:54,710
+356
+00:19:50,960 --> 00:19:54,720
 Same thing for the watchers. you
 have the same API and you can find the
 
-713
-00:19:54,710 --> 00:19:54,720
-have the same API and you can find the
-
-714
-00:19:54,720 --> 00:19:58,150
+357
+00:19:54,720 --> 00:19:58,160
 have the same API and you can find the
 Functions for them in this file here.
 
-715
-00:19:58,150 --> 00:19:58,160
-Functions for them in this file here.
-
-716
-00:19:58,160 --> 00:20:01,029
+358
+00:19:58,160 --> 00:20:01,039
 Functions for them in this file here.
 I took the post for the watchers that
 
-717
-00:20:01,029 --> 00:20:01,039
-I took the post for the watchers that
-
-718
-00:20:01,039 --> 00:20:03,590
+359
+00:20:01,039 --> 00:20:03,600
 I took the post for the watchers that
 provision the watcher.
 
-719
-00:20:03,590 --> 00:20:03,600
-provision the watcher.
-
-720
-00:20:03,600 --> 00:20:08,310
+360
+00:20:03,600 --> 00:20:08,320
 provision the watcher.
 So to finish what we have is this
 
-721
-00:20:08,310 --> 00:20:08,320
-So to finish what we have is this
-
-722
-00:20:08,320 --> 00:20:09,990
+361
+00:20:08,320 --> 00:20:10,000
 So to finish what we have is this
 architecture technically that we have
 
-723
-00:20:09,990 --> 00:20:10,000
-architecture technically that we have
-
-724
-00:20:10,000 --> 00:20:12,789
+362
+00:20:10,000 --> 00:20:12,799
 architecture technically that we have
 the wallet that can make public API
 
-725
-00:20:12,789 --> 00:20:12,799
-the wallet that can make public API
-
-726
-00:20:12,799 --> 00:20:15,750
+363
+00:20:12,799 --> 00:20:15,760
 the wallet that can make public API
 requests but mostly if you want to just
 
-727
-00:20:15,750 --> 00:20:15,760
-requests but mostly if you want to just
-
-728
-00:20:15,760 --> 00:20:18,390
+364
+00:20:15,760 --> 00:20:18,400
 requests but mostly if you want to just
 have witnesses and watchers provisioning
 
-729
-00:20:18,390 --> 00:20:18,400
-have witnesses and watchers provisioning
-
-730
-00:20:18,400 --> 00:20:20,390
+365
+00:20:18,400 --> 00:20:20,400
 have witnesses and watchers provisioning
 it would be through a boot server that
 
-731
-00:20:20,390 --> 00:20:20,400
-it would be through a boot server that
-
-732
-00:20:20,400 --> 00:20:24,150
+366
+00:20:20,400 --> 00:20:24,160
 it would be through a boot server that
 then talks privately to witnesses and
 
-733
-00:20:24,150 --> 00:20:24,160
-then talks privately to witnesses and
-
-734
-00:20:24,160 --> 00:20:28,390
+367
+00:20:24,160 --> 00:20:28,400
 then talks privately to witnesses and
 watcher server in their own environment.
 
-735
-00:20:28,390 --> 00:20:28,400
-watcher server in their own environment.
-
-736
-00:20:28,400 --> 00:20:33,110
+368
+00:20:28,400 --> 00:20:33,120
 watcher server in their own environment.
 I think that's all I have. Unless
 
-737
-00:20:33,110 --> 00:20:33,120
-I think that's all I have. Unless
-
-738
-00:20:33,120 --> 00:20:36,549
+369
+00:20:33,120 --> 00:20:36,559
 I think that's all I have. Unless
 do you guys have any questions?
 
-739
-00:20:36,549 --> 00:20:36,559
-do you guys have any questions?
-
-740
-00:20:36,559 --> 00:20:37,190
+370
+00:20:36,559 --> 00:20:37,200
 do you guys have any questions?
 Yes.
 
-741
-00:20:37,190 --> 00:20:37,200
+371
+00:20:37,200 --> 00:20:39,360
 Yes.
+Thank you.
 
-742
-00:20:37,200 --> 00:20:39,350
-Yes.
-Thank you. 
-
-743
-00:20:39,350 --> 00:20:39,360
-Thank you. 
-
-744
-00:20:39,360 --> 00:20:41,830
-Thank you. 
+372
+00:20:39,360 --> 00:20:41,840
+Thank you.
 Given that Kir is a protocol and again
 
-745
-00:20:41,830 --> 00:20:41,840
-given that Kir is a protocol and again
-
-746
-00:20:41,840 --> 00:20:43,830
+373
+00:20:41,840 --> 00:20:43,840
 given that Kir is a protocol and again
 protocols not companies. So why
 
-747
-00:20:43,830 --> 00:20:43,840
-protocols not companies. So why
-
-748
-00:20:43,840 --> 00:20:45,270
+374
+00:20:43,840 --> 00:20:45,280
 protocols not companies. So why
 would you want to make changes to
 
-749
-00:20:45,270 --> 00:20:45,280
-would you want to make changes to
-
-750
-00:20:45,280 --> 00:20:47,830
+375
+00:20:45,280 --> 00:20:47,840
 would you want to make changes to
 weaknesses or watchers? I thought that
 
-751
-00:20:47,830 --> 00:20:47,840
-weaknesses or watchers? I thought that
-
-752
-00:20:47,840 --> 00:20:50,789
+376
+00:20:47,840 --> 00:20:50,799
 weaknesses or watchers? I thought that
 was like common infrastructure or am I
 
-753
-00:20:50,789 --> 00:20:50,799
-was like common infrastructure or am I
-
-754
-00:20:50,799 --> 00:20:52,149
+377
+00:20:50,799 --> 00:20:52,159
 was like common infrastructure or am I
 wrong?
 
-755
-00:20:52,149 --> 00:20:52,159
-wrong?
-
-756
-00:20:52,159 --> 00:20:56,230
+378
+00:20:52,159 --> 00:20:56,240
 wrong?
 Am I like for example in this?
 
-757
-00:20:56,230 --> 00:20:56,240
-Am I like for example in this?
-
-758
-00:20:56,240 --> 00:20:58,470
+379
+00:20:56,240 --> 00:20:58,480
 Am I like for example in this?
 Yeah. Yeah. For example, you can add
 
-759
-00:20:58,470 --> 00:20:58,480
-Yeah. Yeah. For example, you can add
-
-760
-00:20:58,480 --> 00:21:01,270
+380
+00:20:58,480 --> 00:21:01,280
 Yeah. Yeah. For example, you can add
 some more checks or you can have u we
 
-761
-00:21:01,270 --> 00:21:01,280
+381
+00:21:01,280 --> 00:21:04,080
 some more checks or you can have u we
+were talking about weight limiting
 
-762
-00:21:01,280 --> 00:21:04,070
-some more checks or you can have u we
-were talking about weight limiting 
-
-763
-00:21:04,070 --> 00:21:04,080
-were talking about weight limiting 
-
-764
-00:21:04,080 --> 00:21:08,630
-were talking about weight limiting 
+382
+00:21:04,080 --> 00:21:08,640
+were talking about weight limiting
 for example on how much a person
 
-765
-00:21:08,630 --> 00:21:08,640
-for example on how much a person
-
-766
-00:21:08,640 --> 00:21:10,950
+383
+00:21:08,640 --> 00:21:10,960
 for example on how much a person
 could provision witnesses. You could
 
-767
-00:21:10,950 --> 00:21:10,960
-could provision witnesses. You could
-
-768
-00:21:10,960 --> 00:21:13,029
+384
+00:21:10,960 --> 00:21:13,039
 could provision witnesses. You could
 limit it or you could expand it.
 
-769
-00:21:13,029 --> 00:21:13,039
-limit it or you could expand it.
-
-770
-00:21:13,039 --> 00:21:16,390
+385
+00:21:13,039 --> 00:21:16,400
 limit it or you could expand it.
 Also another thing that you
 
-771
-00:21:16,390 --> 00:21:16,400
-Also another thing that you
-
-772
-00:21:16,400 --> 00:21:18,310
+386
+00:21:16,400 --> 00:21:18,320
 Also another thing that you
 could note
 
-773
-00:21:18,310 --> 00:21:18,320
-could note
-
-774
-00:21:18,320 --> 00:21:21,110
+387
+00:21:18,320 --> 00:21:21,120
 could note
 For example for the plugin if I can
 
-775
-00:21:21,110 --> 00:21:21,120
-For example for the plugin if I can
-
-776
-00:21:21,120 --> 00:21:24,630
+388
+00:21:21,120 --> 00:21:24,640
 For example for the plugin if I can
 find it I think it was here. Oh yeah.
 
-777
-00:21:24,630 --> 00:21:24,640
-find it I think it was here. Oh yeah.
-
-778
-00:21:24,640 --> 00:21:25,750
+389
+00:21:24,640 --> 00:21:25,760
 find it I think it was here. Oh yeah.
 So, for example, for the KERI
 
-779
-00:21:25,750 --> 00:21:25,760
-So, for example, for the KERI
-
-780
-00:21:25,760 --> 00:21:27,590
+390
+00:21:25,760 --> 00:21:27,600
 So, for example, for the KERI
 Foundation plugin, all it does right now
 
-781
-00:21:27,590 --> 00:21:27,600
-Foundation plugin, all it does right now
-
-782
-00:21:27,600 --> 00:21:29,270
+391
+00:21:27,600 --> 00:21:29,280
 Foundation plugin, all it does right now
 is just onboarding. So, it's pretty
 
-783
-00:21:29,270 --> 00:21:29,280
-is just onboarding. So, it's pretty
-
-784
-00:21:29,280 --> 00:21:31,830
+392
+00:21:29,280 --> 00:21:31,840
 is just onboarding. So, it's pretty
 simple. But if you really wanted to, you
 
-785
-00:21:31,830 --> 00:21:31,840
-simple. But if you really wanted to, you
-
-786
-00:21:31,840 --> 00:21:33,270
+393
+00:21:31,840 --> 00:21:33,280
 simple. But if you really wanted to, you
 can make your own plugin where you
 
-787
-00:21:33,270 --> 00:21:33,280
-can make your own plugin where you
-
-788
-00:21:33,280 --> 00:21:35,510
+394
+00:21:33,280 --> 00:21:35,520
 can make your own plugin where you
 include payment. So, people go through
 
-789
-00:21:35,510 --> 00:21:35,520
-include payment. So, people go through
-
-790
-00:21:35,520 --> 00:21:37,350
+395
+00:21:35,520 --> 00:21:37,360
 include payment. So, people go through
 the payment first and then it would
 
-791
-00:21:37,350 --> 00:21:37,360
-the payment first and then it would
-
-792
-00:21:37,360 --> 00:21:39,669
+396
+00:21:37,360 --> 00:21:39,679
 the payment first and then it would
 provision your witnesses and watchers
 
-793
-00:21:39,669 --> 00:21:39,679
-provision your witnesses and watchers
-
-794
-00:21:39,679 --> 00:21:41,830
+397
+00:21:39,679 --> 00:21:41,840
 provision your witnesses and watchers
 and your watchers can make sure the
 
-795
-00:21:41,830 --> 00:21:41,840
-and your watchers can make sure the
-
-796
-00:21:41,840 --> 00:21:43,029
+398
+00:21:41,840 --> 00:21:43,039
 and your watchers can make sure the
 money was transferred.
 
-797
-00:21:43,029 --> 00:21:43,039
-money was transferred.
-
-798
-00:21:43,039 --> 00:21:44,549
+399
+00:21:43,039 --> 00:21:44,559
 money was transferred.
 Yeah. So, it could it could go through
 
-799
-00:21:44,549 --> 00:21:44,559
-Yeah. So, it could it could go through
-
-800
-00:21:44,559 --> 00:21:47,029
+400
+00:21:44,559 --> 00:21:47,039
 Yeah. So, it could it could go through
 then off authorization for some account
 
-801
-00:21:47,029 --> 00:21:47,039
-then off authorization for some account
-
-802
-00:21:47,039 --> 00:21:50,470
+401
+00:21:47,039 --> 00:21:50,480
 then off authorization for some account
 approve account management and
 
-803
-00:21:50,470 --> 00:21:50,480
-approve account management and
-
-804
-00:21:50,480 --> 00:21:51,750
+402
+00:21:50,480 --> 00:21:51,760
 approve account management and
 approvement.
 
-805
-00:21:51,750 --> 00:21:51,760
-approvement.
-
-806
-00:21:51,760 --> 00:21:52,310
+403
+00:21:51,760 --> 00:21:52,320
 approvement.
 Approval.
 
-807
-00:21:52,310 --> 00:21:52,320
-Approval.
-
-808
-00:21:52,320 --> 00:21:54,549
+404
+00:21:52,320 --> 00:21:54,559
 Approval.
 Approval. There you go. that's the word.
 
-809
-00:21:54,549 --> 00:21:54,559
-Approval. There you go. that's the word.
-
-810
-00:21:54,559 --> 00:21:57,430
+405
+00:21:54,559 --> 00:21:57,440
 Approval. There you go. that's the word.
 So, yeah. So, if you want, I think what
 
-811
-00:21:57,430 --> 00:21:57,440
-So, yeah. So, if you want, I think what
-
-812
-00:21:57,440 --> 00:21:59,029
+406
+00:21:57,440 --> 00:21:59,039
 So, yeah. So, if you want, I think what
 would be more interesting is probably
 
-813
-00:21:59,029 --> 00:21:59,039
-would be more interesting is probably
-
-814
-00:21:59,039 --> 00:22:01,430
+407
+00:21:59,039 --> 00:22:01,440
 would be more interesting is probably
 doing your own plug-in first because
 
-815
-00:22:01,430 --> 00:22:01,440
-doing your own plug-in first because
-
-816
-00:22:01,440 --> 00:22:03,990
+408
+00:22:01,440 --> 00:22:04,000
 doing your own plug-in first because
 that's when you could decouple that
 
-817
-00:22:03,990 --> 00:22:04,000
-that's when you could decouple that
-
-818
-00:22:04,000 --> 00:22:05,590
+409
+00:22:04,000 --> 00:22:05,600
 that's when you could decouple that
 from the witnesses and just handle
 
-819
-00:22:05,590 --> 00:22:05,600
-from the witnesses and just handle
-
-820
-00:22:05,600 --> 00:22:08,310
+410
+00:22:05,600 --> 00:22:08,320
 from the witnesses and just handle
 everything in your own plugin.
 
-821
-00:22:08,310 --> 00:22:08,320
+411
+00:22:08,320 --> 00:22:10,799
 everything in your own plugin.
+One thing to note also that this
 
-822
-00:22:08,320 --> 00:22:10,789
-everything in your own plugin.
-One thing to note also that this 
-
-823
-00:22:10,789 --> 00:22:10,799
-One thing to note also that this 
-
-824
-00:22:10,799 --> 00:22:12,710
-One thing to note also that this 
+412
+00:22:10,799 --> 00:22:12,720
+One thing to note also that this
 witness service that we're talking about
 
-825
-00:22:12,710 --> 00:22:12,720
-witness service that we're talking about
-
-826
-00:22:12,720 --> 00:22:15,590
+413
+00:22:12,720 --> 00:22:15,600
 witness service that we're talking about
 here doesn't necessarily if you're
 
-827
-00:22:15,590 --> 00:22:15,600
-here doesn't necessarily if you're
-
-828
-00:22:15,600 --> 00:22:17,990
+414
+00:22:15,600 --> 00:22:18,000
 here doesn't necessarily if you're
 manipulating in that on post handler,
 
-829
-00:22:17,990 --> 00:22:18,000
-manipulating in that on post handler,
-
-830
-00:22:18,000 --> 00:22:20,310
+415
+00:22:18,000 --> 00:22:20,320
 manipulating in that on post handler,
 you're not necessarily manipulating how
 
-831
-00:22:20,310 --> 00:22:20,320
-you're not necessarily manipulating how
-
-832
-00:22:20,320 --> 00:22:24,230
+416
+00:22:20,320 --> 00:22:24,240
 you're not necessarily manipulating how
 the witness code itself works. type
 
-833
-00:22:24,230 --> 00:22:24,240
-the witness code itself works. type
-
-834
-00:22:24,240 --> 00:22:27,350
+417
+00:22:24,240 --> 00:22:27,360
 the witness code itself works. type
 you're just you're just manipulating the
 
-835
-00:22:27,350 --> 00:22:27,360
-you're just you're just manipulating the
-
-836
-00:22:27,360 --> 00:22:29,350
+418
+00:22:27,360 --> 00:22:29,360
 you're just you're just manipulating the
 layer basically the API layer of
 
-837
-00:22:29,350 --> 00:22:29,360
-layer basically the API layer of
-
-838
-00:22:29,360 --> 00:22:30,710
+419
+00:22:29,360 --> 00:22:30,720
 layer basically the API layer of
 communication to
 
-839
-00:22:30,710 --> 00:22:30,720
-communication to
-
-840
-00:22:30,720 --> 00:22:31,750
+420
+00:22:30,720 --> 00:22:31,760
 communication to
 so you can expand
 
-841
-00:22:31,750 --> 00:22:31,760
-so you can expand
-
-842
-00:22:31,760 --> 00:22:34,310
+421
+00:22:31,760 --> 00:22:34,320
 so you can expand
 so you're really not modifying any other
 
-843
-00:22:34,310 --> 00:22:34,320
-so you're really not modifying any other
-
-844
-00:22:34,320 --> 00:22:35,909
+422
+00:22:34,320 --> 00:22:35,919
 so you're really not modifying any other
 just adding extra functionality
 
-845
-00:22:35,909 --> 00:22:35,919
-just adding extra functionality
-
-846
-00:22:35,919 --> 00:22:37,110
+423
+00:22:35,919 --> 00:22:37,120
 just adding extra functionality
 auxiliary functional
 
-847
-00:22:37,110 --> 00:22:37,120
-auxiliary functional
-
-848
-00:22:37,120 --> 00:22:38,149
+424
+00:22:37,120 --> 00:22:38,159
 auxiliary functional
 right exactly
 
-849
-00:22:38,149 --> 00:22:38,159
-right exactly
-
-850
-00:22:38,159 --> 00:22:39,190
+425
+00:22:38,159 --> 00:22:39,200
 right exactly
 got it
 
-851
-00:22:39,190 --> 00:22:39,200
-got it
-
-852
-00:22:39,200 --> 00:22:39,830
+426
+00:22:39,200 --> 00:22:39,840
 got it
 and if
 
-853
-00:22:39,830 --> 00:22:39,840
-and if
-
-854
-00:22:39,840 --> 00:22:41,750
+427
+00:22:39,840 --> 00:22:41,760
 and if
 of course being open source if you
 
-855
-00:22:41,750 --> 00:22:41,760
-of course being open source if you
-
-856
-00:22:41,760 --> 00:22:43,110
+428
+00:22:41,760 --> 00:22:43,120
 of course being open source if you
 wanted to go in and manipulate the
 
-857
-00:22:43,110 --> 00:22:43,120
-wanted to go in and manipulate the
-
-858
-00:22:43,120 --> 00:22:45,110
+429
+00:22:43,120 --> 00:22:45,120
 wanted to go in and manipulate the
 witness protocol some way for your own
 
-859
-00:22:45,110 --> 00:22:45,120
-witness protocol some way for your own
-
-860
-00:22:45,120 --> 00:22:48,549
+430
+00:22:45,120 --> 00:22:48,559
 witness protocol some way for your own
 version you that's on your on your own
 
-861
-00:22:48,549 --> 00:22:48,559
-version you that's on your on your own
-
-862
-00:22:48,559 --> 00:22:51,510
+431
+00:22:48,559 --> 00:22:51,520
 version you that's on your on your own
 yeah and I think oh wait
 
-863
-00:22:51,510 --> 00:22:51,520
-yeah and I think oh wait
-
-864
-00:22:51,520 --> 00:22:55,270
+432
+00:22:51,520 --> 00:22:55,280
 yeah and I think oh wait
 I think if to look here for example
 
-865
-00:22:55,270 --> 00:22:55,280
-I think if to look here for example
-
-866
-00:22:55,280 --> 00:22:58,630
+433
+00:22:55,280 --> 00:22:58,640
 I think if to look here for example
 This is all it does just calls create
 
-867
-00:22:58,630 --> 00:22:58,640
-This is all it does just calls create
-
-868
-00:22:58,640 --> 00:23:00,789
+434
+00:22:58,640 --> 00:23:00,799
 This is all it does just calls create
 witness but then everything after you
 
-869
-00:23:00,789 --> 00:23:00,799
-witness but then everything after you
-
-870
-00:23:00,799 --> 00:23:03,270
+435
+00:23:00,799 --> 00:23:03,280
 witness but then everything after you
 can you can probably
 
-871
-00:23:03,270 --> 00:23:03,280
-can you can probably
-
-872
-00:23:03,280 --> 00:23:05,669
+436
+00:23:03,280 --> 00:23:05,679
 can you can probably
 add more functionalities for yourself
 
-873
-00:23:05,669 --> 00:23:05,679
-add more functionalities for yourself
-
-874
-00:23:05,679 --> 00:23:08,549
+437
+00:23:05,679 --> 00:23:08,559
 add more functionalities for yourself
 for example for tracking or for like
 
-875
-00:23:08,549 --> 00:23:08,559
-for example for tracking or for like
-
-876
-00:23:08,559 --> 00:23:11,190
+438
+00:23:08,559 --> 00:23:11,200
 for example for tracking or for like
 stats if you wanted to but that's up to
 
-877
-00:23:11,190 --> 00:23:11,200
-stats if you wanted to but that's up to
-
-878
-00:23:11,200 --> 00:23:13,270
+439
+00:23:11,200 --> 00:23:13,280
 stats if you wanted to but that's up to
 you so I'm just trying to give you an
 
-879
-00:23:13,270 --> 00:23:13,280
-you so I'm just trying to give you an
-
-880
-00:23:13,280 --> 00:23:16,230
+440
+00:23:13,280 --> 00:23:16,240
 you so I'm just trying to give you an
 example of where you would start and how
 
-881
-00:23:16,230 --> 00:23:16,240
-example of where you would start and how
-
-882
-00:23:16,240 --> 00:23:17,430
+441
+00:23:16,240 --> 00:23:17,440
 example of where you would start and how
 you could start
 
-883
-00:23:17,430 --> 00:23:17,440
-you could start
-
-884
-00:23:17,440 --> 00:23:20,310
+442
+00:23:17,440 --> 00:23:20,320
 you could start
 that create witness method weaves down
 
-885
-00:23:20,310 --> 00:23:20,320
-that create witness method weaves down
-
-886
-00:23:20,320 --> 00:23:22,149
+443
+00:23:20,320 --> 00:23:22,159
 that create witness method weaves down
 into the car pie
 
-887
-00:23:22,149 --> 00:23:22,159
-into the car pie
-
-888
-00:23:22,159 --> 00:23:24,470
+444
+00:23:22,159 --> 00:23:24,480
 into the car pie
 Yeah,
 
-889
-00:23:24,470 --> 00:23:24,480
-Yeah,
-
-890
-00:23:24,480 --> 00:23:25,909
+445
+00:23:24,480 --> 00:23:25,919
 Yeah,
 cool.
 
-891
-00:23:25,909 --> 00:23:25,919
-cool.
-
-892
-00:23:25,919 --> 00:23:27,350
+446
+00:23:25,919 --> 00:23:27,360
 cool.
 Yeah,
 
-893
-00:23:27,350 --> 00:23:27,360
-Yeah,
-
-894
-00:23:27,360 --> 00:23:29,110
+447
+00:23:27,360 --> 00:23:29,120
 Yeah,
 great. Thank you.
 
-895
-00:23:29,110 --> 00:23:29,120
-great. Thank you.
-
-896
-00:23:29,120 --> 00:23:31,590
+448
+00:23:29,120 --> 00:23:31,600
 great. Thank you.
 Yeah, no problem. So, if you don't have
 
-897
-00:23:31,590 --> 00:23:31,600
-Yeah, no problem. So, if you don't have
-
-898
-00:23:31,600 --> 00:23:33,590
+449
+00:23:31,600 --> 00:23:33,600
 Yeah, no problem. So, if you don't have
 any questions, then I think I'll give
 
-899
-00:23:33,590 --> 00:23:33,600
-any questions, then I think I'll give
-
-900
+450
 00:23:33,600 --> 00:23:37,559
 any questions, then I think I'll give
 you back 20 minutes.
+
