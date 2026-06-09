@@ -127,19 +127,19 @@ browser and this basically meant that
 
 32
 00:01:31,439 --> 00:01:34,320
-KERI couldn't drag LMDB into the
+KERIpy couldn't drag LMDB into the
 
 33
 00:01:34,320 --> 00:01:37,439
-webpath because LMDB relies on MAPAP
+web path because LMDB relies on MMAP
 
 34
 00:01:37,439 --> 00:01:38,960
-which is not supported in web
+which is not supported in
 
 35
 00:01:38,960 --> 00:01:41,360
-assembly.
+WebAssembly.
 
 36
 00:01:41,360 --> 00:01:43,920
@@ -203,7 +203,7 @@ compiled to WebAssembly which allows it
 
 51
 00:02:14,720 --> 00:02:18,239
-to run into in the browser which
+to run in the browser which
 
 52
 00:02:18,239 --> 00:02:20,080
@@ -223,7 +223,7 @@ packages that was a medium challenge
 
 56
 00:02:27,120 --> 00:02:28,400
-And then we have PycScript as like
+And then we have PyScript as like
 
 57
 00:02:28,400 --> 00:02:30,000
@@ -267,15 +267,15 @@ to work in the browser which started
 
 67
 00:02:48,160 --> 00:02:51,519
-with pi sodium which is
+with pysodium which is
 
 68
 00:02:51,519 --> 00:02:54,000
-a python wrapper for lib sodium which is
+a python wrapper for Libsodium which is
 
 69
 00:02:54,000 --> 00:02:57,120
-a C library. So I had to take lib sodium
+a C library. So I had to take Libsodium
 
 70
 00:02:57,120 --> 00:03:00,480
@@ -287,23 +287,23 @@ then I re I changed some of the code in
 
 72
 00:03:03,040 --> 00:03:05,280
-pi sodium so that it loaded the packaged
+Pysodium so that it loaded the packaged
 
 73
 00:03:05,280 --> 00:03:07,519
-lib sodium that I created called it py
+Libsodium that I created called it pychloride
 
 74
 00:03:07,519 --> 00:03:09,440
-chloride because it's like you know
+because it's like you know
 
 75
 00:03:09,440 --> 00:03:12,560
-sodium chloride that was Sam's idea
+sodiumchloride that was Sam's idea
 
 76
 00:03:12,560 --> 00:03:15,200
-I'll give credit where credit blake 3
+I'll give credit where credit due
 
 77
 00:03:15,200 --> 00:03:18,080
@@ -311,7 +311,7 @@ is written in rust I had to compile this
 
 78
 00:03:18,080 --> 00:03:22,159
-WebAssembly and also in the in an
+WebAssembly and also in an
 
 79
 00:03:22,159 --> 00:03:24,239
@@ -319,7 +319,7 @@ attempt to get ready for future proofing
 
 80
 00:03:24,239 --> 00:03:27,760
-we took this PIQS which is an open
+we took this pyoqs which is an open
 
 81
 00:03:27,760 --> 00:03:32,560
@@ -347,11 +347,11 @@ All right. Yes. So we had to so in
 
 87
 00:03:45,440 --> 00:03:47,599
-KERIpy itself we had to make it web
+KERIpy itself we had to make it
 
 88
 00:03:47,599 --> 00:03:50,720
-assembly safe which meant creating a
+WebAssembly safe which meant creating a
 
 89
 00:03:50,720 --> 00:03:53,680
@@ -359,11 +359,11 @@ second database backing which used
 
 90
 00:03:53,680 --> 00:03:55,599
-index DB which runs in the browser. We
+indexedDB which runs in the browser. We
 
 91
 00:03:55,599 --> 00:03:58,879
-created webdber instead of lmdvrer
+created webdber instead of lmdber
 
 92
 00:03:58,879 --> 00:04:00,400
@@ -371,7 +371,7 @@ which means we're no longer relying on
 
 93
 00:04:00,400 --> 00:04:02,400
-the memory mapb.
+the MMAP LMDB
 
 94
 00:04:02,400 --> 00:04:04,319
@@ -387,7 +387,7 @@ that it works in the browser. And again,
 
 97
 00:04:10,720 --> 00:04:13,120
-this webder allowed us to create like a
+this webdber allowed us to create like a
 
 98
 00:04:13,120 --> 00:04:15,680
@@ -403,7 +403,7 @@ accident and then you lose all your keys
 
 101
 00:04:19,040 --> 00:04:19,840
-because that would suck. Can
+because that would suck. – Can
 
 102
 00:04:19,840 --> 00:04:21,440
@@ -419,7 +419,7 @@ On that.
 
 105
 00:04:22,479 --> 00:04:23,040
-Sure.
+ Sure.
 
 106
 00:04:23,040 --> 00:04:26,479
