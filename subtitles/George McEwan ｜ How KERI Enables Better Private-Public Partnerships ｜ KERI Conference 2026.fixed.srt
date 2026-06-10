@@ -574,7 +574,7 @@ Scott, we even had conversations
 
 143
 00:05:32,520 --> 00:05:34,760
-with the Direct Trust around is there a
+with the DirectTrust around is there a
 
 144
 00:05:34,760 --> 00:05:37,360
@@ -2039,7 +2039,7 @@ UDAP exercise. We're talking about the
 
 508
 00:19:29,240 --> 00:19:31,160
-root of trust that's associated with
+Root of Trust that's associated with
 
 509
 00:19:31,160 --> 00:19:32,480
@@ -2047,7 +2047,7 @@ that
 
 510
 00:19:32,480 --> 00:19:34,800
-is a cryptographic root of trust that is
+is a cryptographic Root of Trust that is
 
 511
 00:19:34,800 --> 00:19:36,680
@@ -3428,7 +3428,7 @@ been speaking with Health Caery and
 
 854
 00:32:32,840 --> 00:32:35,440
-we've been speaking with Direct Trust.
+we've been speaking with DirectTrust.
 
 855
 00:32:35,440 --> 00:32:36,960

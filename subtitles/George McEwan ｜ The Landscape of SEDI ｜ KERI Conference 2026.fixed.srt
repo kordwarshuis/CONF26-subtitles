@@ -2960,7 +2960,7 @@ trusted apps. To me, there are many
 
 740
 00:27:13,039 --> 00:27:15,120
-roots of trust that can come into your
+Roots of Trust that can come into your
 
 741
 00:27:15,120 --> 00:27:17,760

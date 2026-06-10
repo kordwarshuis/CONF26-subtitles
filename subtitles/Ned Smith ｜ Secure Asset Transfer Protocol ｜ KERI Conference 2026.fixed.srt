@@ -2568,7 +2568,7 @@ something called attestable hardware
 
 636
 00:30:31,840 --> 00:30:34,799
-root of trust and something called dice.
+Root of Trust and something called dice.
 
 637
 00:30:34,799 --> 00:30:36,480
@@ -2830,7 +2830,7 @@ controller and say shouldn't shouldn't
 
 701
 00:33:23,840 --> 00:33:26,159
-the you know the hardware route of trust
+the you know the hardware Root of Trust
 
 702
 00:33:26,159 --> 00:33:28,080

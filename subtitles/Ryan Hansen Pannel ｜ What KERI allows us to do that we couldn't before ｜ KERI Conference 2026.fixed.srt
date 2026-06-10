@@ -2037,7 +2037,7 @@ network effects of KERI and the
 
 508
 00:21:12,480 --> 00:21:14,640
-possibilities of multiple roots of trust
+possibilities of multiple Roots of Trust
 
 509
 00:21:14,640 --> 00:21:16,720

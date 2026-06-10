@@ -1951,7 +1951,7 @@ about lightweight wall. The first one is
 
 484
 00:20:19,280 --> 00:20:24,070
-going to be on the root of trust.
+going to be on the Root of Trust.
 
 485
 00:20:25,830 --> 00:20:27,360

@@ -793,7 +793,7 @@ we have two bootstrap vectors,
 
 196
 00:07:45,840 --> 00:07:47,360
-organizational root of trust, that's
+organizational Root of Trust, that's
 
 197
 00:07:47,360 --> 00:07:48,480
@@ -846,7 +846,7 @@ year and in the next year is a personal
 
 209
 00:08:13,840 --> 00:08:15,320
-root of trust. That's never happened
+Root of Trust. That's never happened
 
 210
 00:08:15,320 --> 00:08:16,880
@@ -854,7 +854,7 @@ before, not an organizational root of
 
 211
 00:08:16,880 --> 00:08:18,680
-trust, a personal root of trust. That
+trust, a personal Root of Trust. That
 
 212
 00:08:18,680 --> 00:08:22,160
@@ -894,7 +894,7 @@ has the potential to leverage
 
 221
 00:08:43,960 --> 00:08:46,960
-that root of trust, which is Utah state.
+that Root of Trust, which is Utah state.
 
 222
 00:08:46,960 --> 00:08:50,640
@@ -3135,7 +3135,7 @@ that because now you have a
 
 776
 00:30:12,880 --> 00:30:14,800
-organizational root of trust. It's a
+organizational Root of Trust. It's a
 
 777
 00:30:14,800 --> 00:30:16,720

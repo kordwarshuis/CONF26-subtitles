@@ -935,7 +935,7 @@ of a digital certificate, which is
 
 233
 00:08:34,840 --> 00:08:36,919
-something Direct Trust does at scale
+something DirectTrust does at scale
 
 234
 00:08:36,919 --> 00:08:38,200
@@ -1657,7 +1657,7 @@ purpose. So, and if you actually pull
 
 413
 00:15:28,760 --> 00:15:30,520
-back the covers on what Direct Trust
+back the covers on what DirectTrust
 
 414
 00:15:30,520 --> 00:15:34,640
@@ -2618,7 +2618,7 @@ going to be a lot of work done I think
 
 652
 00:24:11,240 --> 00:24:12,480
-with direct trust and others in the
+with DirectTrust and others in the
 
 653
 00:24:12,480 --> 00:24:14,800

@@ -3722,11 +3722,11 @@ I'll go super quick. It starts with
 
 927
 00:35:07,839 --> 00:35:09,839
-the trust anchors which for the BLI is
+the trust anchors which for the VLI is
 
 928
 00:35:09,839 --> 00:35:12,480
-GLEIF. VC direct trust playing a
+GLEIF. VC DirectTrust playing a
 
 929
 00:35:12,480 --> 00:35:14,640
@@ -3758,7 +3758,7 @@ this. So the way that the BAI stack
 
 936
 00:35:27,920 --> 00:35:30,079
-works is they are the root of trust.
+works is they are the Root of Trust.
 
 937
 00:35:30,079 --> 00:35:32,320
@@ -3794,7 +3794,7 @@ is cryptographically attestable all the
 
 945
 00:35:48,400 --> 00:35:50,320
-way back to the root of trust. So, I now
+way back to the Root of Trust. So, I now
 
 946
 00:35:50,320 --> 00:35:53,680
@@ -3807,7 +3807,7 @@ In particular, I know what you're
 948
 00:35:55,760 --> 00:35:57,440
 in particular, I know what you're
-doing, which is where direct trust comes
+doing, which is where DirectTrust comes
 
 949
 00:35:57,440 --> 00:35:59,440
@@ -3819,7 +3819,7 @@ doing. And that you are chained back to
 
 951
 00:36:02,400 --> 00:36:04,640
-GLE as a root of trust. So, super
+GLEIF as a Root of Trust. So, super
 
 952
 00:36:04,640 --> 00:36:08,560
@@ -3951,7 +3951,7 @@ vital initiative. It's backed by
 
 984
 00:37:24,400 --> 00:37:26,560
-Caroline's direct trust and GLEIF.
+Caroline's DirectTrust and GLEIF.
 
 985
 00:37:26,560 --> 00:37:28,400

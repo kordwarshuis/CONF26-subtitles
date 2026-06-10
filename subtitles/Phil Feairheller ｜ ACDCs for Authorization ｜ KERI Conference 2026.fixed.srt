@@ -2504,7 +2504,7 @@ at the convergence of what's happening
 
 624
 00:23:44,320 --> 00:23:46,240
-here, Direct Trust is working very
+here, DirectTrust is working very
 
 625
 00:23:46,240 --> 00:23:49,679

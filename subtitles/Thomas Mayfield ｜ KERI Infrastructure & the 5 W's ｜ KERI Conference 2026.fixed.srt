@@ -1329,7 +1329,7 @@ credentials chain back through the
 
 331
 00:14:31,680 --> 00:14:35,120
-schemas and issuers to a root of trust.
+schemas and issuers to a Root of Trust.
 
 332
 00:14:35,120 --> 00:14:37,600
@@ -1430,7 +1430,7 @@ delegate authority through ACDC's down
 
 356
 00:15:33,040 --> 00:15:37,120
-from a route of trust. GLEIF's VI system
+from a Root of Trust. GLEIF's VI system
 
 357
 00:15:37,120 --> 00:15:38,800
@@ -2421,7 +2421,7 @@ clients wallet where you now have this
 
 601
 00:27:28,320 --> 00:27:30,559
-endto-end route of trust. So when you
+endto-end Root of Trust. So when you
 
 602
 00:27:30,559 --> 00:27:34,559
@@ -2433,7 +2433,7 @@ financial products you have this very
 
 604
 00:27:36,960 --> 00:27:40,880
-robust compliance root of trust.
+robust compliance Root of Trust.
 
 605
 00:27:40,880 --> 00:27:46,960
