@@ -1040,11 +1040,11 @@ should have a DID:Web. That would be
 
 257
 00:09:50,920 --> 00:09:52,400
-amazing, right?" So yes, there is a did
+amazing, right?" So yes, there is a DID:Web
 
 258
 00:09:52,400 --> 00:09:55,000
-web and it's an unofficial draft right
+and it's an unofficial draft right
 
 259
 00:09:55,000 --> 00:09:56,720
@@ -1125,11 +1125,11 @@ because
 
 278
 00:10:42,560 --> 00:10:44,680
-there's no history of that did document.
+there's no history of that DID document.
 
 279
 00:10:44,680 --> 00:10:45,960
-That did document could change at any
+That DID document could change at any
 
 280
 00:10:45,960 --> 00:10:48,080
@@ -1157,7 +1157,7 @@ all those problems. When you get a
 
 286
 00:10:58,800 --> 00:11:00,560
-did document, you have no way of knowing
+DID document, you have no way of knowing
 
 287
 00:11:00,560 --> 00:11:02,880
@@ -1442,7 +1442,7 @@ this, you're going to get back that JSON
 
 356
 00:13:26,080 --> 00:13:28,080
-did document.
+DID document.
 
 357
 00:13:28,080 --> 00:13:29,440
@@ -1522,7 +1522,7 @@ that. But, if you want to verify the
 
 376
 00:14:12,840 --> 00:14:16,160
-information in the did document, you do
+information in the DID document, you do
 
 377
 00:14:16,160 --> 00:14:20,200
@@ -1570,7 +1570,7 @@ two endpoints. You resolve the did.json
 
 388
 00:14:44,000 --> 00:14:45,880
-and get the did document, but then you
+and get the DID document, but then you
 
 389
 00:14:45,880 --> 00:14:48,520
@@ -3011,7 +3011,7 @@ web resolvable. You have to look for the
 
 747
 00:28:00,680 --> 00:28:02,480
-actual identifier in the did document to
+actual identifier in the DID document to
 
 748
 00:28:02,480 --> 00:28:04,280
@@ -3031,7 +3031,7 @@ what a verification method looks like in
 
 752
 00:28:11,520 --> 00:28:14,040
-a DID:Webs did document. This is all
+a DID:Webs DID document. This is all
 
 753
 00:28:14,040 --> 00:28:15,640
@@ -3141,7 +3141,7 @@ something like this in the
 
 779
 00:29:14,160 --> 00:29:16,760
-in the did document. So, this service
+in the DID document. So, this service
 
 780
 00:29:16,760 --> 00:29:18,920
@@ -3529,7 +3529,7 @@ because of KERI cuz there was no way to
 
 875
 00:32:48,640 --> 00:32:51,800
-deal with this in the did document. So,
+deal with this in the DID document. So,
 
 876
 00:32:51,800 --> 00:32:53,240
@@ -3578,7 +3578,7 @@ keys.
 
 887
 00:33:15,880 --> 00:33:17,600
-When you get to the did document itself,
+When you get to the DID document itself,
 
 888
 00:33:17,600 --> 00:33:19,080
@@ -3590,7 +3590,7 @@ Oh, this is delegation. When you get to
 
 890
 00:33:20,480 --> 00:33:21,960
-the did document itself, it looks like
+the DID document itself, it looks like
 
 891
 00:33:21,960 --> 00:33:23,390
@@ -4085,11 +4085,11 @@ Tells me where the witness is.
 
 1011
 00:38:32,160 --> 00:38:33,880
-You can look at the did document, see
+You can look at the DID document, see
 
 1012
 00:38:33,880 --> 00:38:37,040
-the did document.
+the DID document.
 
 1013
 00:38:37,040 --> 00:38:40,480
@@ -4175,7 +4175,7 @@ call the KERI.caesars the KERI event
 
 1033
 00:39:33,440 --> 00:39:36,520
-stream that created that did document.
+stream that created that DID document.
 
 1034
 00:39:36,520 --> 00:39:37,720
