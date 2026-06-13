@@ -1,1626 +1,1614 @@
 1
-00:00:06,390 --> 00:00:08,000
-My name is Samuel Smith.
-If anybody
+00:00:03,174 --> 00:00:05,074
+My name is Sam Smith.
 
 2
+00:00:06,280 --> 00:00:08,000
+If anybody
+
+3
 00:00:08,000 --> 00:00:10,480
 can't remember my name,
 
-3
+4
 00:00:10,480 --> 00:00:12,510
 [laughter]
 
-4
-00:00:14,030 --> 00:00:15,880
+5
+00:00:12,534 --> 00:00:14,108
 it's because you're more identity
+
+6
+00:00:14,133 --> 00:00:15,880
 challenged than my parents thought I
 
-5
+7
 00:00:15,880 --> 00:00:18,280
 would be than they gave me that name.
 
-6
+8
 00:00:18,280 --> 00:00:21,400
 Anyway, that's all right. Great. So,
 
-7
+9
 00:00:21,400 --> 00:00:23,880
 I'm going to talk about the trade space
 
-8
+10
 00:00:23,880 --> 00:00:26,440
 of KERI, not in detail,
 
-9
+11
 00:00:26,440 --> 00:00:29,710
 but I'm going to talk about why
 
-10
+12
 00:00:29,710 --> 00:00:29,720
 
 
-11
-00:00:29,720 --> 00:00:35,000
+13
+00:00:29,720 --> 00:00:31,028
 we solve
+
+14
+00:00:31,052 --> 00:00:35,000
 the privacy problem using bulk issuance
 
-12
+15
 00:00:35,000 --> 00:00:38,240
 instead of other mechanisms. And
 
-13
+16
 00:00:38,240 --> 00:00:40,360
 I'll and I'll give you the shorthand
 
-14
+17
 00:00:40,360 --> 00:00:43,710
 to the trade space.
 
-15
-00:00:47,070 --> 00:00:49,160
+18
+00:00:43,802 --> 00:00:47,047
 KERI's policy is security first always,
+
+19
+00:00:47,093 --> 00:00:49,160
 which means if we're ever in a situation
 
-16
+20
 00:00:49,160 --> 00:00:51,120
 where we're going to make a trade, and
 
-17
+21
 00:00:51,120 --> 00:00:54,000
 we're going to trade for weaker security
 
-18
+22
 00:00:54,000 --> 00:00:56,800
 or stronger something else,
 
-19
+23
 00:00:56,800 --> 00:00:58,400
 we're not going to make that trade.
 
-20
+24
 00:00:58,400 --> 00:01:00,520
 We're going to always trade for stronger
 
-21
+25
 00:01:00,520 --> 00:01:02,760
-security. We're not We're not going to
+security. We're not going to
 
-22
+26
 00:01:02,760 --> 00:01:04,879
 say, "Well,
 
-23
+27
 00:01:04,879 --> 00:01:06,880
 that security's okay.
 
-24
+28
 00:01:06,880 --> 00:01:10,360
-It We can We can We can do this because
+We can do this because
 
-25
+29
 00:01:10,360 --> 00:01:11,040
 the
 
-26
+30
 00:01:11,040 --> 00:01:14,760
 the trajectory of technology for
 
-27
+31
 00:01:14,760 --> 00:01:17,280
 security is that every weak trade for
 
-28
-00:01:17,280 --> 00:01:20,800
-security is a bad trade. May not to May
+32
+00:01:17,280 --> 00:01:19,972
+security is a bad trade. May
 
-29
-00:01:20,800 --> 00:01:23,560
+33
+00:01:19,997 --> 00:01:23,560
 not be today, but in your lifetime it'll
 
-30
+34
 00:01:23,560 --> 00:01:26,440
 be a bad trade. So, so let's try to be
 
-31
+35
 00:01:26,440 --> 00:01:29,120
 creative about solving the other
 
-32
+36
 00:01:29,120 --> 00:01:32,280
 problems without starting off by saying,
 
-33
+37
 00:01:32,280 --> 00:01:34,120
 "Well, it's easier to solve those
 
-34
+38
 00:01:34,120 --> 00:01:36,120
 problems if we just throw security under
 
-35
+39
 00:01:36,120 --> 00:01:37,320
 the bus."
 
-36
+40
 00:01:37,320 --> 00:01:39,560
 Actually say, "You know what? If my
 
-37
+41
 00:01:39,560 --> 00:01:41,120
 constraint is I'm not going to throw
 
-38
+42
 00:01:41,120 --> 00:01:43,200
 security under the bus, what's the best
 
-39
+43
 00:01:43,200 --> 00:01:44,880
 I can do? And is it good enough?" And
 
-40
+44
 00:01:44,880 --> 00:01:46,880
-that's really And that's really the
+that's really the
 
-41
+45
 00:01:46,880 --> 00:01:49,240
-the difference in the in the ethos.
+the difference in the ethos.
 
-42
+46
 00:01:49,240 --> 00:01:51,200
 So
 
-43
+47
 00:01:51,200 --> 00:01:53,120
 for those of you know,
 
-44
+48
 00:01:53,120 --> 00:01:57,240
 With KERI, each AID controller is
 
-45
+49
 00:01:57,240 --> 00:01:59,520
 its own identity provider.
 
-46
+50
 00:01:59,520 --> 00:02:02,240
-So, we use this phrase keys at the edge.
+So, we use this phrase Keys-at-the-Edge.
 
-47
+51
 00:02:02,240 --> 00:02:04,960
 Each edge self-authenticates.
 
-48
+52
 00:02:04,960 --> 00:02:06,680
 What that means is there are no
 
-49
+53
 00:02:06,680 --> 00:02:09,119
 third-party IDPs, no relying parties, no
 
-50
+54
 00:02:09,119 --> 00:02:11,240
 trusted intermediaries.
 
-51
+55
 00:02:11,240 --> 00:02:14,720
 Every interaction is end-to-end or
 
-52
+56
 00:02:14,720 --> 00:02:17,160
 edge-to-edge, depending on your
 
-53
+57
 00:02:17,160 --> 00:02:19,280
 your mental model, right? If I have
 
-54
+58
 00:02:19,280 --> 00:02:21,280
 a network and I have people at the edge
 
-55
+59
 00:02:21,280 --> 00:02:23,280
 trying to get in, it's called an edge.
 
-56
+60
 00:02:23,280 --> 00:02:24,680
 If I'm trying to communicate across a
 
-57
+61
 00:02:24,680 --> 00:02:26,120
 network, it's called an end, but they're
 
-58
+62
 00:02:26,120 --> 00:02:28,840
 the same thing from KERI's perspective.
 
-59
+63
 00:02:28,840 --> 00:02:30,000
 So,
 
-60
+64
 00:02:30,000 --> 00:02:33,280
 in my plenary this morning,
 
-61
+65
 00:02:33,280 --> 00:02:35,840
-I ended with this idea of reputable
+I ended with this idea of Reputable
 
-62
+66
 00:02:35,840 --> 00:02:38,160
-autonomic pseudonymity in control over
+Autonomic Pseudonymity in Control over
 
-63
+67
 00:02:38,160 --> 00:02:40,320
-confidential contexts.
+Confidential Contexts.
 
-64
+68
 00:02:40,320 --> 00:02:43,120
 The way we solve privacy
 
-65
+69
 00:02:43,120 --> 00:02:44,800
 is with this one, control over
 
-66
+70
 00:02:44,800 --> 00:02:47,680
 confidential contexts. And bulk issuance
 
-67
+71
 00:02:47,680 --> 00:02:51,880
 gives the user precise control over
 
-68
+72
 00:02:51,880 --> 00:02:53,840
 confidential contexts. So, they get to
 
-69
+73
 00:02:53,840 --> 00:02:55,440
 decide
 
-70
+74
 00:02:55,440 --> 00:02:58,200
 what the reach and scope of their
 
-71
+75
 00:02:58,200 --> 00:02:59,760
 disclosure are in terms of their
 
-72
+76
 00:02:59,760 --> 00:03:02,350
 correlatability.
 
-73
+77
 00:03:02,350 --> 00:03:02,360
 
 
-74
-00:03:02,360 --> 00:03:06,560
+78
+00:03:02,360 --> 00:03:04,448
 We understand that every piece of
+
+79
+00:03:04,472 --> 00:03:06,560
 information that we share over the
 
-75
+80
 00:03:06,560 --> 00:03:08,160
 internet
 
-76
+81
 00:03:08,160 --> 00:03:09,959
 is correlatable.
 
-77
+82
 00:03:09,959 --> 00:03:12,239
 There is no such thing as
 
-78
+83
 00:03:12,239 --> 00:03:14,239
 no correlation.
 
-79
+84
 00:03:14,239 --> 00:03:17,640
 Unlinkability is not the same as
 
-80
+85
 00:03:17,640 --> 00:03:20,750
 uncorrelatability.
 
-81
-00:03:22,910 --> 00:03:27,080
+86
+00:03:20,775 --> 00:03:23,011
 So, you know, we called it Rhapsody. So,
+
+87
+00:03:23,036 --> 00:03:27,080
 let's see how we use ACDC's for this.
 
-82
+88
 00:03:27,080 --> 00:03:30,160
-ACDC's And I think most of you are
+ACDC's… And I think most of you are
 
-83
+89
 00:03:30,160 --> 00:03:32,200
 familiar, but I recognize some faces
 
-84
+90
 00:03:32,200 --> 00:03:34,280
 in here that maybe haven't actually sat
 
-85
+91
 00:03:34,280 --> 00:03:35,400
 through,
 
-86
+92
 00:03:35,400 --> 00:03:37,040
 you know, something about ACDC. So, I'm
 
-87
+93
 00:03:37,040 --> 00:03:39,800
 going to give a couple of just short
 
-88
+94
 00:03:39,800 --> 00:03:41,400
 introductions cuz I've got a lot of
 
-89
+95
 00:03:41,400 --> 00:03:43,400
 detail to go through, and if
 
-90
+96
 00:03:43,400 --> 00:03:46,320
 if you thought this was going to be a
 
-91
+97
 00:03:46,320 --> 00:03:48,519
 high-level talk like the plenary this
 
-92
+98
 00:03:48,519 --> 00:03:50,600
 morning, I'm really going to disappoint
 
-93
+99
 00:03:50,600 --> 00:03:51,760
 you.
 
-94
+100
 00:03:51,760 --> 00:03:54,280
-This is I'm This is I'm going to This is
+This is
 
-95
+101
 00:03:54,280 --> 00:03:55,720
 going to go fast.
 
-96
+102
 00:03:55,720 --> 00:04:00,240
 So, think of an ACDC as a graph fragment
 
-97
+103
 00:04:00,240 --> 00:04:01,600
 that has
 
-98
+104
 00:04:01,600 --> 00:04:03,320
 edges that point to other graph
 
-99
+105
 00:04:03,320 --> 00:04:04,720
 fragments.
 
-100
+106
 00:04:04,720 --> 00:04:06,520
 And so, if you take graph fragments and
 
-101
+107
 00:04:06,520 --> 00:04:09,200
 connect their edges, you get a graph.
 
-102
+108
 00:04:09,200 --> 00:04:11,240
 That's the point.
 
-103
+109
 00:04:11,240 --> 00:04:15,800
 But, the edges are part of the ACDC.
 
-104
+110
 00:04:15,800 --> 00:04:17,720
 And the reason for that is the
 
-105
+111
 00:04:17,720 --> 00:04:20,359
 authority and the authentication for
 
-106
+112
 00:04:20,359 --> 00:04:24,160
 each graph fragment includes its edges.
 
-107
+113
 00:04:24,160 --> 00:04:27,200
 So, you authenticate the
 
-108
+114
 00:04:27,200 --> 00:04:29,600
 attributes which are the node and its
 
-109
+115
 00:04:29,600 --> 00:04:32,600
 edges, and that is an ACDC. And now I
 
-110
+116
 00:04:32,600 --> 00:04:35,160
 can compose
 
-111
+117
 00:04:35,160 --> 00:04:38,000
 arbitrary data structures from graph
 
-112
+118
 00:04:38,000 --> 00:04:39,800
 fragments because all data can be
 
-113
+119
 00:04:39,800 --> 00:04:42,400
 graphed. Right?
 
-114
+120
 00:04:42,400 --> 00:04:45,360
-And the edges It's called a label
+And the edges (It's called a label
 
-115
-00:04:45,360 --> 00:04:47,400
-and the edges It's called a label
-property graph because the edges have
+121
+00:04:45,385 --> 00:04:47,400
+property graph) because the edges have
 
-116
+122
 00:04:47,400 --> 00:04:48,800
 properties.
 
-117
+123
 00:04:48,800 --> 00:04:51,040
 The edges can be blinded. They can be
 
-118
+124
 00:04:51,040 --> 00:04:53,880
-private edges. They can They can have
+private edges. They can have
 
-119
+125
 00:04:53,880 --> 00:04:57,040
 operators. They can be grouped together.
 
-120
+126
 00:04:57,040 --> 00:04:59,880
 They can be aggregated. They can be used
 
-121
+127
 00:04:59,880 --> 00:05:02,720
 in various ways. The edges have
 
-122
+128
 00:05:02,720 --> 00:05:06,760
 their own set of individual attributes
 
-123
+129
 00:05:06,760 --> 00:05:09,600
 that are metadata about the way you
 
-124
+130
 00:05:09,600 --> 00:05:12,400
 compose the information
 
-125
+131
 00:05:12,400 --> 00:05:14,400
 in a secure way.
 
-126
+132
 00:05:14,400 --> 00:05:16,640
 And other approaches to composing
 
-127
+133
 00:05:16,640 --> 00:05:20,200
 information don't allow you to securely
 
-128
+134
 00:05:20,200 --> 00:05:22,200
 compose the information from multiple
 
-129
+135
 00:05:22,200 --> 00:05:25,480
 sources. They put it all in one data
 
-130
+136
 00:05:25,480 --> 00:05:27,320
 structure that under the hood is
 
-131
+137
 00:05:27,320 --> 00:05:29,240
 actually a graph, right? If I have a
 
-132
+138
 00:05:29,240 --> 00:05:30,840
 nested
 
-133
+139
 00:05:30,840 --> 00:05:33,600
-set of JSON blocks, it's it's a graph,
+set of JSON blocks, it's a graph,
 
-134
+140
 00:05:33,600 --> 00:05:37,200
 but it's not composable in a secure way.
 
-135
+141
 00:05:37,200 --> 00:05:39,200
-It's It's all or nothing.
+It's all or nothing.
 
-136
+142
 00:05:39,200 --> 00:05:40,960
 And so, ACDC says, "No, that's a bad
 
-137
+143
 00:05:40,960 --> 00:05:43,240
-idea. We need to We need secure
+idea. We need secure
 
-138
+144
 00:05:43,240 --> 00:05:44,640
 composition."
 
-139
+145
 00:05:44,640 --> 00:05:48,160
 ACDCs are designed to solve
 
-140
+146
 00:05:48,160 --> 00:05:50,120
-problems where you need perpetually
+problems where you need Perpetually
 
-141
+147
 00:05:50,120 --> 00:05:52,720
-verifiable issuances. Can you use an
+Verifiable Issuances. Can you use an
 
-142
+148
 00:05:52,720 --> 00:05:55,320
 ACDC with a bare signature
 
-143
+149
 00:05:55,320 --> 00:05:56,840
 with a short crypto
 
-144
+150
 00:05:56,840 --> 00:05:59,320
 Absolutely. You don't have to anchor
 
-145
+151
 00:05:59,320 --> 00:06:02,160
-your ACDC's in a in a in a transaction
+your ACDC's in a transaction
 
-146
+152
 00:06:02,160 --> 00:06:03,440
-of an Oracle or a KEL to make them
+and then harbor a KEL to make them
 
-147
+153
 00:06:03,440 --> 00:06:05,710
 perpetually verifiable.
 
-148
-00:06:05,710 --> 00:06:05,720
-
-
-149
-00:06:05,720 --> 00:06:09,840
+154
+00:06:05,720 --> 00:06:07,159
 But we have to solve the perpetual
+
+155
+00:06:07,184 --> 00:06:09,840
 verifiability problem.
 
-150
+156
 00:06:09,840 --> 00:06:12,600
 So let's solve the hard problem first.
 
-151
+157
 00:06:12,600 --> 00:06:14,320
 So I use this sometimes that people are
 
-152
+158
 00:06:14,320 --> 00:06:16,520
 familiar with it. If I have a bunch of
 
-153
+159
 00:06:16,520 --> 00:06:19,240
 rocks, a bunch of gravel, and a bunch of
 
-154
+160
 00:06:19,240 --> 00:06:22,800
 sand, and water, and I want to get all
 
-155
+161
 00:06:22,800 --> 00:06:25,960
 of that into a jar, and get the most
 
-156
+162
 00:06:25,960 --> 00:06:27,919
 that I can get in there,
 
-157
+163
 00:06:27,919 --> 00:06:31,000
 what do I put in first?
 
-158
+164
 00:06:31,000 --> 00:06:33,320
 The water, right? I put the water in,
 
-159
+165
 00:06:33,320 --> 00:06:35,560
 right? No, I put the rocks in first,
 
-160
+166
 00:06:35,560 --> 00:06:37,000
 then I put the gravel, then I put the
 
-161
+167
 00:06:37,000 --> 00:06:38,600
 sand, and then the water fills in the
 
-162
+168
 00:06:38,600 --> 00:06:41,680
 blanks. So ephemeral applications are
 
-163
+169
 00:06:41,680 --> 00:06:43,760
 the easy thing. Everybody knows how to
 
-164
+170
 00:06:43,760 --> 00:06:46,000
 do ephemeral application. Nobody solved
 
-165
+171
 00:06:46,000 --> 00:06:48,069
 the perpetual verifiable problem before
 
-166
+172
 00:06:48,069 --> 00:06:49,919
-carrying ACDC in a
+KERI and ACDC in a
 
-167
+173
 00:06:49,919 --> 00:06:52,000
 decentralized way. Obviously, if you
 
-168
+174
 00:06:52,000 --> 00:06:54,120
 have a database and a central authority
 
-169
+175
 00:06:54,120 --> 00:06:55,200
 to the database, you can solve any
 
-170
+176
 00:06:55,200 --> 00:06:57,800
 problem you want. It's easy, right? But
 
-171
+177
 00:06:57,800 --> 00:06:59,400
-it but it doesn't that's not the
+that's not the
 
-172
+178
 00:06:59,400 --> 00:07:02,000
 hard problem of decentralized data. The
 
-173
+179
 00:07:02,000 --> 00:07:03,760
 hard problem of decentralized data is
 
-174
+180
 00:07:03,760 --> 00:07:05,280
 how do I solve
 
-175
+181
 00:07:05,280 --> 00:07:06,840
 how do I solve perpetual issuances
 
-176
+182
 00:07:06,840 --> 00:07:09,960
 without a centralized authority?
 
-177
+183
 00:07:09,960 --> 00:07:12,080
 Right? Each fragment is separably
 
-178
+184
 00:07:12,080 --> 00:07:14,280
 authenticatable. That means the graph
 
-179
+185
 00:07:14,280 --> 00:07:16,400
 doesn't have a single source. Every
 
-180
+186
 00:07:16,400 --> 00:07:18,760
 node, every fragment can come from a
 
-181
+187
 00:07:18,760 --> 00:07:20,240
 different source. They can all come from
 
-182
+188
 00:07:20,240 --> 00:07:22,040
 one source or different ones. That
 
-183
+189
 00:07:22,040 --> 00:07:23,880
 allows me to do delegation, all sorts of
 
-184
+190
 00:07:23,880 --> 00:07:24,800
 things.
 
-185
+191
 00:07:24,800 --> 00:07:26,960
 Right? So I have
 
-186
+192
 00:07:26,960 --> 00:07:29,640
-delegable, tenable, aggreable,
+Delegable, Attenuable, Aggrable,
 
-187
+193
 00:07:29,640 --> 00:07:32,440
-revocable, transferable authority.
+Revocable, Transferable Authority.
 
-188
+194
 00:07:32,440 --> 00:07:34,680
-Can we break that down?
+– Can we break that down?
 
-189
+195
 00:07:34,680 --> 00:07:36,280
-Okay.
+– Okay.
 
-190
+196
 00:07:36,280 --> 00:07:37,600
 Well, I haven't talked about
 
-191
-00:07:37,600 --> 00:07:39,400
-well, I haven't talked about
+197
+00:07:37,625 --> 00:07:39,400
 aggregating, but notice that if I have
 
-192
+198
 00:07:39,400 --> 00:07:41,720
 multiple ones going in one thing, I've
 
-193
+199
 00:07:41,720 --> 00:07:44,520
 aggregated. If I have a chain, that's
 
-194
+200
 00:07:44,520 --> 00:07:46,320
-that's a tenuous that's a tenuous
+attenuable
 
-195
+201
 00:07:46,320 --> 00:07:48,880
 delegable. And transferable means that I
 
-196
+202
 00:07:48,880 --> 00:07:50,000
 can
 
-197
+203
 00:07:50,000 --> 00:07:54,440
-I can change who's who's in control.
+I can change who's in control.
 
-198
+204
 00:07:54,440 --> 00:07:57,440
 And actually I'll talk about that in my
 
-199
+205
 00:07:57,440 --> 00:08:00,800
 plenary tomorrow. All right.
 
-200
+206
 00:08:00,800 --> 00:08:04,000
 What this allows us to do
 
-201
-00:08:04,000 --> 00:08:06,080
-what this allows us to do
+207
+00:08:04,025 --> 00:08:06,080
 for verifiable credentials, which are
 
-202
+208
 00:08:06,080 --> 00:08:07,960
 all about authority,
 
-203
+209
 00:08:07,960 --> 00:08:09,600
 is that we can have high fidelity
 
-204
+210
 00:08:09,600 --> 00:08:11,760
 modeling of real world authority
 
-205
+211
 00:08:11,760 --> 00:08:13,200
 structures.
 
-206
+212
 00:08:13,200 --> 00:08:16,320
 Not authority structures that are the
 
-207
+213
 00:08:16,320 --> 00:08:18,200
 best we can do because we have a broken
 
-208
+214
 00:08:18,200 --> 00:08:20,520
 model, which is
 
-209
+215
 00:08:20,520 --> 00:08:23,400
 current security, current OAuth
 
-210
+216
 00:08:23,400 --> 00:08:25,560
 OIDC. It's all broken models because it
 
-211
+217
 00:08:25,560 --> 00:08:26,960
 says, "Well, this is what we can do with
 
-212
+218
 00:08:26,960 --> 00:08:28,960
 the technology we have. We have to use
 
-213
+219
 00:08:28,960 --> 00:08:30,400
 the secure sessions. We have to use
 
-214
+220
 00:08:30,400 --> 00:08:32,719
 encryption. We have to use things like
 
-215
+221
 00:08:32,719 --> 00:08:35,000
 Diffie-Hellman, TLS key exchanges, and
 
-216
+222
 00:08:35,000 --> 00:08:36,719
 we have to do ephemeral stuff because we
 
-217
+223
 00:08:36,719 --> 00:08:38,520
-don't know how to solve the perpetual
+don't know how to solve the
 
-218
+224
 00:08:38,520 --> 00:08:41,039
 perpetual verifiability problem. And
 
-219
+225
 00:08:41,039 --> 00:08:42,560
 then we'll make the rest of the world
 
-220
+226
 00:08:42,560 --> 00:08:44,080
 change their authority structures to
 
-221
+227
 00:08:44,080 --> 00:08:45,960
 match that."
 
-222
+228
 00:08:45,960 --> 00:08:48,520
 And what ACDC say from the
 
-223
+229
 00:08:48,520 --> 00:08:50,400
 beginning is, "No, no, that's not the
 
-224
+230
 00:08:50,400 --> 00:08:52,320
 way real world authority structures
 
-225
+231
 00:08:52,320 --> 00:08:54,360
 work. Real world authority structures
 
-226
+232
 00:08:54,360 --> 00:08:57,160
 have these properties."
 
-227
+233
 00:08:57,160 --> 00:08:58,200
 And it doesn't matter whether it's
 
-228
+234
 00:08:58,200 --> 00:08:59,800
 organizational identity or personal
 
-229
+235
 00:08:59,800 --> 00:09:02,120
 identity, right? If I'm a parent and
 
-230
+236
 00:09:02,120 --> 00:09:04,440
 I have a child and I want to do
 
-231
+237
 00:09:04,440 --> 00:09:07,000
 and I want to have
 
-232
+238
 00:09:07,000 --> 00:09:08,320
 you know
 
-233
+239
 00:09:08,320 --> 00:09:10,360
 control over what my child is allowed to
 
-234
+240
 00:09:10,360 --> 00:09:12,920
-do, then I'm then I've got a delegable
+do, then I've got a delegable
 
-235
+241
 00:09:12,920 --> 00:09:15,240
 attenuable authority structure.
 
-236
+242
 00:09:15,240 --> 00:09:16,280
 Right?
 
-237
+243
 00:09:16,280 --> 00:09:19,120
 It looks like organizational identity.
 
-238
+244
 00:09:19,120 --> 00:09:20,920
 So those are the problems we're
 
-239
+245
 00:09:20,920 --> 00:09:22,400
 solving.
 
-240
+246
 00:09:22,400 --> 00:09:24,680
 Oh, I should have
 
-241
+247
 00:09:24,680 --> 00:09:26,480
 This was supposed to be animated. I
 
-242
+248
 00:09:26,480 --> 00:09:29,040
 messed up. Okay.
 
-243
+249
 00:09:29,040 --> 00:09:30,760
 I'm not going to talk about this stuff.
 
-244
+250
 00:09:30,760 --> 00:09:32,600
 I put this on the slide because I'm
 
-245
+251
 00:09:32,600 --> 00:09:34,800
 going to talk about blind
 
-246
+252
 00:09:34,800 --> 00:09:36,560
 bulk issuance.
 
-247
+253
 00:09:36,560 --> 00:09:38,800
 But a lot of people say because I spend
 
-248
+254
 00:09:38,800 --> 00:09:40,440
 a lot of time
 
-249
+255
 00:09:40,440 --> 00:09:43,000
 talking about
 
-250
+256
 00:09:43,000 --> 00:09:46,240
 about the other things that ACDCs do,
 
-251
+257
 00:09:46,240 --> 00:09:48,200
 that we actually don't support all of
 
-252
+258
 00:09:48,200 --> 00:09:50,760
 the least disclosure mechanisms that
 
-253
+259
 00:09:50,760 --> 00:09:52,840
-ever all the other credentials do. We
+all the other credentials do. We
 
-254
+260
 00:09:52,840 --> 00:09:54,400
 just don't support a particular type of
 
-255
+261
 00:09:54,400 --> 00:09:56,120
-proof stuff because we feel that it's
+proof stuff because we feel that
 
-256
+262
 00:09:56,120 --> 00:09:59,080
-it's it makes an unfortunate security
+it makes an unfortunate security
 
-257
+263
 00:09:59,080 --> 00:10:02,000
-compromise. So, we have we follow the
+compromise. So, we follow the
 
-258
+264
 00:10:02,000 --> 00:10:03,920
 principle of least disclosure. We have
 
-259
+265
 00:10:03,920 --> 00:10:05,520
 something called gradual
 
-260
+266
 00:10:05,520 --> 00:10:07,600
-gradual disclosure
+disclosure
 
-261
+267
 00:10:07,600 --> 00:10:09,680
 that allows us to progressively
 
-262
+268
 00:10:09,680 --> 00:10:11,480
 disclosures
 
-263
+269
 00:10:11,480 --> 00:10:13,760
 so that we can negotiate how much
 
-264
+270
 00:10:13,760 --> 00:10:15,680
 information is disclosed in a particular
 
-265
+271
 00:10:15,680 --> 00:10:17,760
 context. Now,
 
-266
+272
 00:10:17,760 --> 00:10:21,480
 control over confidential context. That
 
-267
+273
 00:10:21,480 --> 00:10:23,520
 means I don't disclose any more
 
-268
+274
 00:10:23,520 --> 00:10:26,760
 information than I need to,
 
-269
+275
 00:10:26,760 --> 00:10:28,080
 right?
 
-270
+276
 00:10:28,080 --> 00:10:30,480
 to facilitate a transaction. And that
 
-271
+277
 00:10:30,480 --> 00:10:33,040
-transaction might be negotiating over
+transaction might mean negotiating over
 
-272
+278
 00:10:33,040 --> 00:10:35,200
 what I'm going to disclose.
 
-273
+279
 00:10:35,200 --> 00:10:39,080
 And so, I can have multiple
 
-274
+280
 00:10:39,080 --> 00:10:41,800
 interactions and transactions to
 
-275
+281
 00:10:41,800 --> 00:10:45,200
 negotiate the full set of disclosures
 
-276
+282
 00:10:45,200 --> 00:10:47,120
 and how I do those disclosures. And so,
 
-277
+283
 00:10:47,120 --> 00:10:48,280
 we have something called compact
 
-278
+284
 00:10:48,280 --> 00:10:50,920
-disclosure, mediated disclosure, partial
+disclosure, metadata disclosure, partial
 
-279
+285
 00:10:50,920 --> 00:10:53,000
 disclosure, nested partial disclosure,
 
-280
+286
 00:10:53,000 --> 00:10:54,280
 full disclosure, and selective
 
-281
+287
 00:10:54,280 --> 00:10:56,160
 disclosure. Those are all disclosure
 
-282
+288
 00:10:56,160 --> 00:10:57,920
 mechanisms that don't exist anywhere
 
-283
+289
 00:10:57,920 --> 00:11:00,240
 else except in ACDCs, except for
 
-284
+290
 00:11:00,240 --> 00:11:02,200
 selective disclosure. They have one
 
-285
+291
 00:11:02,200 --> 00:11:03,760
 mechanism for selective disclosure and
 
-286
+292
 00:11:03,760 --> 00:11:05,920
 nothing else. And so, it means you
 
-287
+293
 00:11:05,920 --> 00:11:08,280
 can't model real-world authority
 
-288
+294
 00:11:08,280 --> 00:11:09,800
 structures when it comes to disclosing
 
-289
+295
 00:11:09,800 --> 00:11:11,720
-information. You need more you need more
+information. You need more
 
-290
+296
 00:11:11,720 --> 00:11:14,360
-capability. And then, you can do com-
+capability. And then, you can do
 
-291
+297
 00:11:14,360 --> 00:11:16,680
 combinations of the above. And then, we
 
-292
+298
 00:11:16,680 --> 00:11:18,800
 have bulk issued instance disclosure,
 
-293
+299
 00:11:18,800 --> 00:11:20,920
 which I'm going to talk about today. So,
 
-294
+300
 00:11:20,920 --> 00:11:22,440
 so I'm only going to talk about one of
 
-295
+301
 00:11:22,440 --> 00:11:24,760
 the things on this list. And then, we
 
-296
+302
 00:11:24,760 --> 00:11:26,680
 have contractually protected disclosure,
 
-297
+303
 00:11:26,680 --> 00:11:28,480
 which you've heard about, right? There's
 
-298
+304
 00:11:28,480 --> 00:11:29,800
 several people that have mentioned that.
 
-299
+305
 00:11:29,800 --> 00:11:31,080
 You've seen demos of contractually
 
-300
+306
 00:11:31,080 --> 00:11:33,320
 protected disclosure. So, that is
 
-301
+307
 00:11:33,320 --> 00:11:35,240
 essential if we're going to have a
 
-302
+308
 00:11:35,240 --> 00:11:37,640
 comprehensive approach to privacy.
 
-303
+309
 00:11:37,640 --> 00:11:39,560
 Comprehensive approach says you invert
 
-304
+310
 00:11:39,560 --> 00:11:41,240
 the economics. One of the ways you
 
-305
+311
 00:11:41,240 --> 00:11:43,800
-invert the economics in is impose
+invert the economics is impose
 
-306
+312
 00:11:43,800 --> 00:11:45,320
 liability
 
-307
+313
 00:11:45,320 --> 00:11:48,040
 on the recipient of the disclosure. They
 
-308
+314
 00:11:48,040 --> 00:11:50,120
 don't get a safe harbor. They don't get
 
-309
+315
 00:11:50,120 --> 00:11:52,640
 to do things like de-identify the data
 
-310
+316
 00:11:52,640 --> 00:11:54,080
-and then and then they can do whatever
+and then they can do whatever
 
-311
+317
 00:11:54,080 --> 00:11:56,160
 they want with it. You attach
 
-312
+318
 00:11:56,160 --> 00:11:58,640
 strings to the data and those strings
 
-313
+319
 00:11:58,640 --> 00:12:01,440
 are enforceable which changes their
 
-314
+320
 00:12:01,440 --> 00:12:03,160
 their behavior. So, we're changing
 
-315
+321
 00:12:03,160 --> 00:12:05,000
 behavior of the recipient of the
 
-316
+322
 00:12:05,000 --> 00:12:08,400
 disclosure, not trying to minimize the
 
-317
+323
 00:12:08,400 --> 00:12:10,760
 disclosure and then hoping they can't
 
-318
+324
 00:12:10,760 --> 00:12:12,960
 use it against us. We actually say you
 
-319
+325
 00:12:12,960 --> 00:12:14,720
 can't use it against us and if you do,
 
-320
+326
 00:12:14,720 --> 00:12:16,480
 this is what we're going to do to you.
 
-321
+327
 00:12:16,480 --> 00:12:18,640
 Right? So, we need to have a contractual
 
-322
+328
 00:12:18,640 --> 00:12:20,560
 projected disclosure and we need to have
 
-323
+329
 00:12:20,560 --> 00:12:23,400
 one that the recipient will agree to.
 
-324
+330
 00:12:23,400 --> 00:12:24,680
 And that's why we need graduated
 
-325
+331
 00:12:24,680 --> 00:12:27,640
 disclosure so that we can gradually move
 
-326
+332
 00:12:27,640 --> 00:12:29,440
-into a situation where we're we're
+into a situation where we're
 
-327
+333
 00:12:29,440 --> 00:12:31,760
 mutually agree. And then we have
 
-328
+334
 00:12:31,760 --> 00:12:34,520
-bindable ACDC state registries. Those
+blindable ACDC state registries. Those
 
-329
+335
 00:12:34,520 --> 00:12:36,680
 are a little bit a part of bulk issuance
 
-330
+336
 00:12:36,680 --> 00:12:37,839
 so I'll talk about those a little bit as
 
-331
+337
 00:12:37,839 --> 00:12:40,800
 well. So, that's the full set
 
-332
+338
 00:12:40,800 --> 00:12:43,000
 of mechanisms
 
-333
+339
 00:12:43,000 --> 00:12:45,320
 and there's a lot. And that's why often
 
-334
+340
 00:12:45,320 --> 00:12:47,920
 people look at ACDCs they
 
-335
+341
 00:12:47,920 --> 00:12:50,120
 go, "Oh, there's a lot there." Right?
 
-336
+342
 00:12:50,120 --> 00:12:51,880
 But if we want to really do it right, we
 
-337
+343
 00:12:51,880 --> 00:12:54,040
 have to do all of those things.
 
-338
+344
 00:12:54,040 --> 00:12:55,760
 All right. So, let's talk about
 
-339
+345
 00:12:55,760 --> 00:12:57,680
 infrastructure.
 
-340
+346
 00:12:57,680 --> 00:13:00,560
-Just to remember, we have
+Just to remember,
 
-341
+347
 00:13:00,560 --> 00:13:02,400
 we have controllers, they have witnesses
 
-342
+348
 00:13:02,400 --> 00:13:05,440
 and watchers. That's for KERI. That's
 
-343
+349
 00:13:05,440 --> 00:13:07,800
 key to it. ACDCs
 
-344
+350
 00:13:07,800 --> 00:13:09,720
 are built on top of KERI. So, when we
 
-345
+351
 00:13:09,720 --> 00:13:12,480
 talk about ACDCs, it's another protocol,
 
-346
+352
 00:13:12,480 --> 00:13:14,800
 it's another set of infrastructure, it's
 
-347
+353
 00:13:14,800 --> 00:13:16,920
 a bunch of new stuff that you have to
 
-348
+354
 00:13:16,920 --> 00:13:18,560
 learn about.
 
-349
+355
 00:13:18,560 --> 00:13:21,839
 So, we have registrar and observer
 
-350
+356
 00:13:21,839 --> 00:13:23,640
 and this is what they look like.
 
-351
+357
 00:13:23,640 --> 00:13:25,520
 And then we have
 
-352
+358
 00:13:25,520 --> 00:13:27,560
 We can do bulk issuance with the
 
-353
+359
 00:13:27,560 --> 00:13:29,720
-registrar and observer if we if we do it
+registrar and observer if we do it
 
-354
+360
 00:13:29,720 --> 00:13:32,240
 right. And we use sparse Merkle
 
-355
+361
 00:13:32,240 --> 00:13:34,480
 trees to be able to do that. Sparse
 
-356
+362
 00:13:34,480 --> 00:13:38,040
 Merkle trees are technically a type of
 
-357
+363
 00:13:38,040 --> 00:13:40,000
 zero-knowledge proof. We do use
 
-358
+364
 00:13:40,000 --> 00:13:42,080
 zero-knowledge proofs. A digital
 
-359
+365
 00:13:42,080 --> 00:13:44,040
 signature, a conventional digital
 
-360
+366
 00:13:44,040 --> 00:13:46,520
 signature, is technically a type of
 
-361
+367
 00:13:46,520 --> 00:13:48,160
 zero-knowledge proof.
 
-362
+368
 00:13:48,160 --> 00:13:50,080
 Just nobody calls them that, but if you
 
-363
+369
 00:13:50,080 --> 00:13:52,800
 look at the math, a digital signature is
 
-364
+370
 00:13:52,800 --> 00:13:54,920
 disclosing that somebody who knew a
 
-365
+371
 00:13:54,920 --> 00:13:57,560
 private key and a nonce
 
-366
+372
 00:13:57,560 --> 00:13:59,320
 created the signature without disclosing
 
-367
+373
 00:13:59,320 --> 00:14:00,560
 either the private key or the nonce.
 
-368
+374
 00:14:00,560 --> 00:14:02,560
 It's a zero-knowledge proof. A Merkle
 
-369
+375
 00:14:02,560 --> 00:14:04,480
 tree, you can do an inclusion proof or
 
-370
+376
 00:14:04,480 --> 00:14:06,720
 an exclusion proof
 
-371
+377
 00:14:06,720 --> 00:14:09,200
 of entry in the tree without disclosing
 
-372
+378
 00:14:09,200 --> 00:14:10,840
 all of the tree. That's a zero-knowledge
 
-373
+379
 00:14:10,840 --> 00:14:13,560
 proof, by the book. Right? So, we take
 
-374
+380
 00:14:13,560 --> 00:14:15,800
 advantage of those. We just don't take
 
-375
+381
 00:14:15,800 --> 00:14:17,400
 advantage of the ones that have weak
 
-376
+382
 00:14:17,400 --> 00:14:20,400
 security because the crypto periods for
 
-377
+383
 00:14:20,400 --> 00:14:23,400
-for perpetual verifiable
+perpetual verifiable
 
-378
+384
 00:14:23,400 --> 00:14:26,680
 issuances. But, if the application
 
-379
+385
 00:14:26,680 --> 00:14:29,520
 fits an ephemeral application, I have no
 
-380
+386
 00:14:29,520 --> 00:14:31,200
 problem with using zero-knowledge proof.
 
-381
+387
 00:14:31,200 --> 00:14:32,880
 I use them all the time. I just don't
 
-382
+388
 00:14:32,880 --> 00:14:34,320
 call them that because most people don't
 
-383
+389
 00:14:34,320 --> 00:14:36,760
 call them that either.
 
-384
+390
 00:14:36,760 --> 00:14:38,520
 We also have something called a user
 
-385
+391
 00:14:38,520 --> 00:14:40,560
 presentation registry, which is also a
 
-386
+392
 00:14:40,560 --> 00:14:42,360
 new thing that nobody else does as far
 
-387
+393
 00:14:42,360 --> 00:14:44,120
 as I've never seen anybody do it, which
 
-388
+394
 00:14:44,120 --> 00:14:47,880
 allows presenters to detect compromise
 
-389
+395
 00:14:47,880 --> 00:14:50,320
 of their proofs that are in their
 
-390
+396
 00:14:50,320 --> 00:14:52,400
 credentials that they're
 
-391
+397
 00:14:52,400 --> 00:14:54,760
 presenting. So they themselves
 
-392
+398
 00:14:54,760 --> 00:14:56,080
 will protect it from fraud, not just the
 
-393
+399
 00:14:56,080 --> 00:14:59,120
 issuer. So, what does an issuance
 
-394
+400
 00:14:59,120 --> 00:15:01,920
 registrar registry look like? Here's the
 
-395
+401
 00:15:01,920 --> 00:15:04,760
 block diagram. You have Let's see, can
 
-396
+402
 00:15:04,760 --> 00:15:07,320
 you see my cursor?
 
-397
+403
 00:15:07,320 --> 00:15:09,320
 No. No. All right.
-
-398
-00:15:09,320 --> 00:15:10,680
-Oh, well.
-
-399
-00:15:10,680 --> 00:15:16,350
-Oh, I have a thing.
-
-400
-00:15:19,110 --> 00:15:23,590
-Let me Let me pull this up.
-I got distracted.
-
-401
-00:15:31,630 --> 00:15:31,640
-
-
-402
-00:15:31,640 --> 00:15:37,720
-No, that works.
-There it goes. There we are. Okay.
-
-403
-00:15:37,720 --> 00:15:41,360
-There we go. How fancy. All right. So,
 
 404
 00:15:41,360 --> 00:15:42,960
@@ -1636,7 +1624,7 @@ an issuee,
 
 407
 00:15:46,120 --> 00:15:48,120
-and we use that terminology is a
+and we use that terminology, it's a
 
 408
 00:15:48,120 --> 00:15:50,240
@@ -1648,7 +1636,7 @@ get confused about a data subject or a
 
 410
 00:15:52,360 --> 00:15:55,440
-holder. We're really talking about the
+holder. We're really talking about
 
 411
 00:15:55,440 --> 00:15:58,160
@@ -1656,7 +1644,7 @@ the ACDC is targeted. We have untargeted
 
 412
 00:15:58,160 --> 00:16:00,640
-and targeted ACDs, and if it's targeted,
+and targeted ACDCs, and if it's targeted,
 
 413
 00:16:00,640 --> 00:16:02,400
@@ -1708,15 +1696,15 @@ presentation.
 
 425
 00:16:27,920 --> 00:16:30,280
-The issue The issuer
+The issu–er
 
 426
 00:16:30,280 --> 00:16:33,880
-creates a regis- a registry of the state
+creates a registry of the state
 
 427
 00:16:33,880 --> 00:16:37,040
-of the ACDC, puts it and puts it's
+of the ACDC, it
 
 428
 00:16:37,040 --> 00:16:39,520
@@ -1728,7 +1716,7 @@ and then an observer,
 
 430
 00:16:42,280 --> 00:16:44,839
-Which is controlled by the verifier,
+which is controlled by the verifier,
 
 431
 00:16:44,839 --> 00:16:46,360
@@ -1740,7 +1728,7 @@ issuer,
 
 433
 00:16:48,000 --> 00:16:51,280
-notice that this model the witness
+notice that this models the witness
 
 434
 00:16:51,280 --> 00:16:54,200
@@ -1808,2120 +1796,2130 @@ credential hasn't been revoked." For
 
 450
 00:17:24,720 --> 00:17:27,040
-example, if I if I have dynamic state
+example, if I have dynamic state
 
 451
-00:17:27,040 --> 00:17:32,630
+00:17:27,040 --> 00:17:29,985
 ACDCs. So, that's not a new concept.
 
 452
-00:17:35,750 --> 00:17:39,120
+00:17:32,655 --> 00:17:37,278
 Here's what it looks like from a
-a cryptographic point of view the data
 
 453
+00:17:37,302 --> 00:17:39,120
+a cryptographic point of view, the data
+
+454
 00:17:39,120 --> 00:17:42,160
 point of view. So, what I have is I have
 
-454
+455
 00:17:42,160 --> 00:17:44,760
 the Key Event Log of the issuer.
 
-455
+456
 00:17:44,760 --> 00:17:46,680
 And I have events in the Key Event Log
 
-456
+457
 00:17:46,680 --> 00:17:47,960
 and I just show different types of
 
-457
-00:17:47,960 --> 00:17:51,040
-events in set, interact, rotate. But
-
 458
+00:17:47,960 --> 00:17:51,040
+events, incept, interact, rotate. But
+
+459
 00:17:51,040 --> 00:17:53,080
 each event in the Key Event Log can have
 
-459
-00:17:53,080 --> 00:17:54,640
-a seals.
-
 460
-00:17:54,640 --> 00:17:57,600
-These we call these anchoring seals.
+00:17:53,080 --> 00:17:54,640
+it sealed.
 
 461
+00:17:54,640 --> 00:17:57,600
+We call these anchoring seals.
+
+462
 00:17:57,600 --> 00:17:59,320
 They basically are hashes. They're
 
-462
-00:17:59,320 --> 00:18:01,760
-actually technically saids of things I
-
 463
+00:17:59,320 --> 00:18:01,760
+actually technically SAIDs of things I
+
+464
 00:18:01,760 --> 00:18:03,240
 want to anchor.
 
-464
-00:18:03,240 --> 00:18:05,440
-The they are privacy preserving because
-
 465
+00:18:03,240 --> 00:18:05,440
+They are privacy preserving because
+
+466
 00:18:05,440 --> 00:18:07,160
 I don't know what the hash is. It's
 
-466
+467
 00:18:07,160 --> 00:18:10,120
 a cryptographic hash. I can't infer what
 
-467
-00:18:10,120 --> 00:18:12,040
-what the hash is of unless I know
-
 468
+00:18:10,120 --> 00:18:12,040
+the hash is of unless I know
+
+469
 00:18:12,040 --> 00:18:14,160
 what it is to begin with. But I can
 
-469
+470
 00:18:14,160 --> 00:18:16,080
 cryptically verify once it's disclosed
 
-470
-00:18:16,080 --> 00:18:17,520
-to me what it is that it's in that it's
-
 471
+00:18:16,080 --> 00:18:17,520
+to me what it is, that it's
+
+472
 00:18:17,520 --> 00:18:19,640
 there, right? So, so I have a
 
-472
+473
 00:18:19,640 --> 00:18:22,280
 cryptographic anchoring of
 
-473
+474
 00:18:22,280 --> 00:18:26,680
 a registry. A registry is essentially
 
-474
+475
 00:18:26,680 --> 00:18:29,240
 another type of log. We call them a
 
-475
-00:18:29,240 --> 00:18:31,360
-transaction event log. It is a hash
-
 476
+00:18:29,240 --> 00:18:31,360
+Transaction Event Log. It is a hash
+
+477
 00:18:31,360 --> 00:18:33,640
 chain data structure.
 
-477
+478
 00:18:33,640 --> 00:18:34,920
 But it's
 
-478
+479
 00:18:34,920 --> 00:18:38,280
 managing not key state but ACDC state.
 
-479
+480
 00:18:38,280 --> 00:18:42,000
 So, if my ACDC is dynamically revocable,
 
-480
-00:18:42,000 --> 00:18:43,720
-I have issued and revoked are the are
-
 481
+00:18:42,000 --> 00:18:43,720
+I have issued and revoked, are the are
+
+482
 00:18:43,720 --> 00:18:45,600
 the two states. And I have this new
 
-482
-00:18:45,600 --> 00:18:47,440
-thing called no change and that's
-
 483
-00:18:47,440 --> 00:18:49,960
-because this is a blinded state tail.
+00:18:45,600 --> 00:18:47,440
+thing called No Change and that's
 
 484
-00:18:49,960 --> 00:18:52,560
-So, I can issue events to the regis-
+00:18:47,440 --> 00:18:49,960
+because this is a blinded state TEL.
 
 485
+00:18:49,960 --> 00:18:52,560
+So, I can issue events to the
+
+486
 00:18:52,560 --> 00:18:55,440
 registry that are blinded. I don't know
 
-486
+487
 00:18:55,440 --> 00:18:57,480
 what the state is.
 
-487
+488
 00:18:57,480 --> 00:18:59,240
 A third-party observer can't
 
-488
+489
 00:18:59,240 --> 00:19:01,200
 correlate the state just by looking at
 
-489
+490
 00:19:01,200 --> 00:19:02,640
 the registry.
 
-490
+491
 00:19:02,640 --> 00:19:05,120
 Only second parties that I disclose
 
-491
+492
 00:19:05,120 --> 00:19:07,320
 to can figure out what the state is.
 
-492
-00:19:07,320 --> 00:19:09,240
-And so, I can have So, a given issuer
-
 493
-00:19:09,240 --> 00:19:12,480
-can have a registry per
+00:19:07,320 --> 00:19:09,240
+So, a given issuer
 
 494
+00:19:09,240 --> 00:19:12,480
+can have a registry
+
+495
 00:19:12,480 --> 00:19:15,600
 per ACDC that they issue to manage
 
-495
+496
 00:19:15,600 --> 00:19:17,560
 the state.
 
-496
+497
 00:19:17,560 --> 00:19:19,840
 So, blinded state registry.
 
-497
+498
 00:19:19,840 --> 00:19:23,440
 So, these are the fields in an ACDC.
 
-498
+499
 00:19:23,440 --> 00:19:25,640
 The top-level fields.
 
-499
-00:19:25,640 --> 00:19:30,040
-And the S A E and R are we call them
-
 500
+00:19:25,640 --> 00:19:30,040
+And the S, A, E and R, we call them
+
+501
 00:19:30,040 --> 00:19:32,120
 sections because they typically are
 
-501
-00:19:32,120 --> 00:19:35,040
-expanded to block of other things.
-
 502
+00:19:32,120 --> 00:19:35,040
+expanding the block of other things.
+
+503
 00:19:35,040 --> 00:19:37,000
 But we have attributes, edges, rules. I
 
-503
-00:19:37,000 --> 00:19:39,360
-but we have attributes, edges, rules. I
+504
+00:19:37,024 --> 00:19:39,360
 talked about edges. We have schema.
 
-504
+505
 00:19:39,360 --> 00:19:42,040
 We have a registry field that points to
 
-505
+506
 00:19:42,040 --> 00:19:44,200
 the registry that governs this
 
-506
+507
 00:19:44,200 --> 00:19:46,400
 ACDC. ACDCs don't have to have
 
-507
+508
 00:19:46,400 --> 00:19:49,360
 registries. If they're issued and
 
-508
+509
 00:19:49,360 --> 00:19:51,080
 they expire with time, they're not
 
-509
+510
 00:19:51,080 --> 00:19:52,520
 dynamically revocable, they don't need a
 
-510
-00:19:52,520 --> 00:19:54,320
-registry. So, so the registry field's
-
 511
+00:19:52,520 --> 00:19:54,320
+registry. So, the registry field's
+
+512
 00:19:54,320 --> 00:19:55,480
 missing.
 
-512
+513
 00:19:55,480 --> 00:19:57,430
 Empty.
 
-513
-00:19:57,430 --> 00:19:57,440
-
-
 514
-00:19:57,440 --> 00:20:02,680
+00:19:57,440 --> 00:20:00,520
 I then have in my registry, I have a
-registry inception event,
 
 515
+00:20:00,544 --> 00:20:02,680
+Registry Inception Event,
+
+516
 00:20:02,680 --> 00:20:04,720
 which defines governance for the
 
-516
+517
 00:20:04,720 --> 00:20:07,600
 registry. So, what is governance? Well,
 
-517
+518
 00:20:07,600 --> 00:20:10,200
 it's the issuer AID. It says this
 
-518
+519
 00:20:10,200 --> 00:20:12,960
 registry is governed by this AID. And
 
-519
-00:20:12,960 --> 00:20:15,240
-then it has a set like everything, has a
-
 520
+00:20:12,960 --> 00:20:15,240
+then it has a SAID like everything, has a
+
+521
 00:20:15,240 --> 00:20:18,120
 serial sequence number, has a date time.
 
-521
+522
 00:20:18,120 --> 00:20:21,280
 And then I can issue blinded updates.
 
-522
+523
 00:20:21,280 --> 00:20:23,200
 The blinded updates
 
-523
+524
 00:20:23,200 --> 00:20:24,440
 have
 
-524
+525
 00:20:24,440 --> 00:20:26,480
 A prior
 
-525
+526
 00:20:26,480 --> 00:20:28,120
 connection so that
 
-526
+527
 00:20:28,120 --> 00:20:29,280
 change age
 
-527
-00:20:29,280 --> 00:20:31,680
-sequence number. And then has this blid,
-
 528
+00:20:29,280 --> 00:20:31,680
+sequence number. And then has this BLID,
+
+529
 00:20:31,680 --> 00:20:33,840
 which is this blinded ID.
 
-529
+530
 00:20:33,840 --> 00:20:36,200
 So, I don't know what the state is if I
 
-530
+531
 00:20:36,200 --> 00:20:37,640
 look at the registry. The registry's
 
-531
+532
 00:20:37,640 --> 00:20:39,320
 blind to me. Third party looks at it and
 
-532
+533
 00:20:39,320 --> 00:20:40,560
 says, "Okay, you got a registry got
 
-533
+534
 00:20:40,560 --> 00:20:42,000
 events in it. I don't know what I don't
 
-534
+535
 00:20:42,000 --> 00:20:44,760
 know what ACDC it manages. I don't
 
-535
+536
 00:20:44,760 --> 00:20:46,760
 know what it's doing because all of that
 
-536
+537
 00:20:46,760 --> 00:20:48,320
 important information is blinded over
 
-537
-00:20:48,320 --> 00:20:51,830
+538
+00:20:48,320 --> 00:20:49,515
 here."
 
-538
-00:20:54,510 --> 00:20:56,920
-So, my blinded attribute block is where
-I get that information. So, I have this
-
 539
-00:20:56,920 --> 00:20:59,560
-the blid. I have a UUID, which means the
+00:20:51,874 --> 00:20:54,023
+So, my blinded attribute block is where
 
 540
-00:20:59,560 --> 00:21:01,920
-blid is universally unique. It's called
+00:20:54,048 --> 00:20:56,920
+I get that information. So, I have this
 
 541
-00:21:01,920 --> 00:21:04,280
-a salt I call it a salty nonce.
+00:20:56,920 --> 00:20:59,560
+the BLID, I have a UUID, which means the
 
 542
+00:20:59,560 --> 00:21:01,920
+BLID is universally unique.
+
+543
+00:21:01,920 --> 00:21:04,280
+I call it a salty nonce.
+
+544
 00:21:04,280 --> 00:21:07,040
 I have the set of the ACDC and then I
 
-543
+545
 00:21:07,040 --> 00:21:08,840
 have the state.
 
-544
+546
 00:21:08,840 --> 00:21:10,600
-So, the only way I know the only way I
+So, the only way I
 
-545
+547
 00:21:10,600 --> 00:21:12,679
 can get this is that the presenter,
 
-546
+548
 00:21:12,679 --> 00:21:15,120
 the issuee, unblinds it
 
-547
+549
 00:21:15,120 --> 00:21:17,240
 for me and gives it to me. And they only
 
-548
+550
 00:21:17,240 --> 00:21:19,920
 unblind it after
 
-549
+551
 00:21:19,920 --> 00:21:22,480
 for example, if I'm a verifier, I agree
 
-550
+552
 00:21:22,480 --> 00:21:24,720
 to the terms if it's contractually
 
-551
+553
 00:21:24,720 --> 00:21:27,000
 protected disclosure or after we
 
-552
+554
 00:21:27,000 --> 00:21:29,960
 negotiate what it is or what parts that
 
-553
+555
 00:21:29,960 --> 00:21:31,480
-I that, you know, that I'm going to
+you know, that I'm going to
 
-554
+556
 00:21:31,480 --> 00:21:33,320
 disclose. And now they can at least
 
-555
+557
 00:21:33,320 --> 00:21:36,000
 verify that the ACD is validly issued,
 
-556
+558
 00:21:36,000 --> 00:21:38,880
 but may maybe the ACDC used selective
 
-557
+559
 00:21:38,880 --> 00:21:40,840
 disclosure to only disclose one field in
 
-558
+560
 00:21:40,840 --> 00:21:42,880
 the attribute block. But now I can at
 
-559
+561
 00:21:42,880 --> 00:21:45,120
 least look it up and say, "Yeah, it was
 
-560
-00:21:45,120 --> 00:21:47,120
-Professionally verifiable because
-
-561
-00:21:47,120 --> 00:21:48,920
-because it was
-
 562
-00:21:48,920 --> 00:21:51,120
-I can trace it I can trace it." So, this
+00:21:45,120 --> 00:21:47,120
+professionally verifiable because
 
 563
+00:21:47,120 --> 00:21:48,920
+because
+
+564
+00:21:48,920 --> 00:21:51,120
+I can trace it." So, this
+
+565
 00:21:51,120 --> 00:21:52,640
 is what it looks like.
 
-564
+566
 00:21:52,640 --> 00:21:55,120
 I've got the Key Event Log.
 
-565
+567
 00:21:55,120 --> 00:21:57,440
 I've got the events in the registry. So,
 
-566
+568
 00:21:57,440 --> 00:22:00,960
 I've got an incept. Incept is vacuous.
 
-567
+569
 00:22:00,960 --> 00:22:03,120
 It just creates the registry. Why is
 
-568
+570
 00:22:03,120 --> 00:22:05,320
 this useful?
 
-569
+571
 00:22:05,320 --> 00:22:07,600
 Well, I don't want the creation of the
 
-570
+572
 00:22:07,600 --> 00:22:10,720
 registry to be correlatable.
 
-571
+573
 00:22:10,720 --> 00:22:12,320
 So, if I'm the state of Utah and I'm
 
-572
+574
 00:22:12,320 --> 00:22:15,640
-issuing birth certificates,
+issuing birth certificates, [inaudible]
 
-573
+575
 00:22:15,640 --> 00:22:17,800
 born, I create a registry on their
 
-574
+576
 00:22:17,800 --> 00:22:20,400
 birthday,
 
-575
+577
 00:22:20,400 --> 00:22:22,000
 then I've correlated their birth date to
 
-576
+578
 00:22:22,000 --> 00:22:23,640
 the registry creation. That's a
 
-577
+579
 00:22:23,640 --> 00:22:25,400
 really bad thing to do. So, I want to be
 
-578
+580
 00:22:25,400 --> 00:22:28,120
 able to do is just create registries
 
-579
+581
 00:22:28,120 --> 00:22:29,560
 bulk
 
-580
+582
 00:22:29,560 --> 00:22:31,920
 that are just placeholders.
 
-581
+583
 00:22:31,920 --> 00:22:34,800
 And so, on day one of SEDI, the state of
 
-582
+584
 00:22:34,800 --> 00:22:36,640
 Utah will create enough registries for
 
-583
+585
 00:22:36,640 --> 00:22:38,400
 all the citizens of the population of
 
-584
+586
 00:22:38,400 --> 00:22:40,560
 the state of Utah for the next
 
-585
+587
 00:22:40,560 --> 00:22:42,760
 however many years they want to do that.
 
-586
+588
 00:22:42,760 --> 00:22:44,720
 And now they're only correlated to the
 
-587
+589
 00:22:44,720 --> 00:22:47,720
 date that's went into place.
 
-588
+590
 00:22:47,720 --> 00:22:49,560
 Anybody that's born before that date,
 
-589
+591
 00:22:49,560 --> 00:22:51,320
 their registry is created on that date.
 
-590
+592
 00:22:51,320 --> 00:22:52,720
 Anybody born after that date, their
 
-591
+593
 00:22:52,720 --> 00:22:54,960
 registry is created on that date. A lot
 
-592
+594
 00:22:54,960 --> 00:22:57,120
 of mechanisms that people build for
 
-593
+595
 00:22:57,120 --> 00:22:59,360
 privacy don't actually consider the
 
-594
+596
 00:22:59,360 --> 00:23:02,200
 statistical correlatability of the meta
 
-595
+597
 00:23:02,200 --> 00:23:04,520
 data that they use when they build their
 
-596
+598
 00:23:04,520 --> 00:23:06,720
 systems. And so every time I look at
 
-597
+599
 00:23:06,720 --> 00:23:08,560
 something I go is there metadata there?
 
-598
+600
 00:23:08,560 --> 00:23:10,560
 Yes, there is. That metadata is
 
-599
+601
 00:23:10,560 --> 00:23:12,400
 inherently correlatable. It will defeat
 
-600
+602
 00:23:12,400 --> 00:23:14,120
 any mechanisms I use that are
 
-601
+603
 00:23:14,120 --> 00:23:17,000
 cryptographic because I just have to pay
 
-602
+604
 00:23:17,000 --> 00:23:19,240
-attention and I can correlate it. So I
+attention and I can correlate it.
 
-603
+605
 00:23:19,240 --> 00:23:22,120
 So I have to build into the system
 
-604
+606
 00:23:22,120 --> 00:23:24,920
 anti-metadata correlation mechanism. So
 
-605
+607
 00:23:24,920 --> 00:23:27,360
 bulk issuance, this is bulk issuance.
 
-606
-00:23:27,360 --> 00:23:29,480
-That is a Sorry.
-
-607
-00:23:29,480 --> 00:23:33,470
-Oh, no. I got to go redo that.
-
 608
-00:23:37,510 --> 00:23:40,600
-So it's helpful to focus All right.
-I got to go slower. 1 2
+00:23:27,360 --> 00:23:29,480
+That is a… Sorry.
 
 609
+00:23:29,480 --> 00:23:31,860
+Oh, no. I got to go redo that.
+
+610
+00:23:33,553 --> 00:23:39,362
+So it's helpful to focus. All right.
+
+611
+00:23:39,386 --> 00:23:40,600
+I got to go slower. 1 2
+
+612
 00:23:40,600 --> 00:23:41,880
 3
 
-610
+613
 00:23:41,880 --> 00:23:44,550
 4. There we go. All right. What else is
 
-611
+614
 00:23:44,560 --> 00:23:45,920
 on here?
 
-612
-00:23:45,920 --> 00:23:49,920
-Well, I update See all these updates?
-
-613
-00:23:49,920 --> 00:23:52,200
-They just have these blinds in them.
-
-614
-00:23:52,200 --> 00:23:53,320
-The blinds are blinded. I don't know
-
 615
+00:23:45,920 --> 00:23:49,920
+Well, I update… See all these updates?
+
+616
+00:23:49,920 --> 00:23:52,200
+They just have these BLIDs in them.
+
+617
+00:23:52,200 --> 00:23:53,320
+The BLIDs are blinded. I don't know
+
+618
 00:23:53,320 --> 00:23:55,920
 what the update is. Look over here. This
 
-616
+619
 00:23:55,920 --> 00:23:56,920
 one
 
-617
+620
 00:23:56,920 --> 00:23:59,560
 is an update but it doesn't have
 
-618
+621
 00:23:59,560 --> 00:24:00,640
-I
+[inaudible]
 
-619
+622
 00:24:00,640 --> 00:24:03,000
 update my registry with
 
-620
+623
 00:24:03,000 --> 00:24:05,160
 nothing.
 
-621
+624
 00:24:05,160 --> 00:24:07,560
 Well, if I wanted to make sure that like
 
-622
+625
 00:24:07,560 --> 00:24:09,360
 let's say
 
-623
+626
 00:24:09,360 --> 00:24:12,840
 that as the state
 
-624
+627
 00:24:12,840 --> 00:24:14,920
 once a day
 
-625
+628
 00:24:14,920 --> 00:24:17,080
 I create updates whenever I issue new
 
-626
+629
 00:24:17,080 --> 00:24:18,800
 birth certificates.
 
-627
+630
 00:24:18,800 --> 00:24:21,440
 Now the update is correlatable to the
 
-628
+631
 00:24:21,440 --> 00:24:23,800
 birth certificate. So I want to do is I
 
-629
+632
 00:24:23,800 --> 00:24:25,400
 want to have a bunch of registries that
 
-630
+633
 00:24:25,400 --> 00:24:27,760
 I just update randomly.
 
-631
+634
 00:24:27,760 --> 00:24:29,120
 So that there's no correlatable
 
-632
+635
 00:24:29,120 --> 00:24:31,240
 information but the fact that I had an
 
-633
+636
 00:24:31,240 --> 00:24:32,560
 update.
 
-634
+637
 00:24:32,560 --> 00:24:34,440
 A lot of mechanisms for verifiable
 
-635
+638
 00:24:34,440 --> 00:24:36,320
 credential that have revocation
 
-636
+639
 00:24:36,320 --> 00:24:38,800
 registries, you look at the metadata
 
-637
+640
 00:24:38,800 --> 00:24:40,920
 when the transaction was posted to the
 
-638
+641
 00:24:40,920 --> 00:24:42,880
 to the registrar or the verifiable data
 
-639
+642
 00:24:42,880 --> 00:24:44,600
 registry, it means you can
 
-640
+643
 00:24:44,600 --> 00:24:46,000
 correlate out the information you're
 
-641
+644
 00:24:46,000 --> 00:24:47,560
 trying to protect. You don't actually
 
-642
+645
 00:24:47,560 --> 00:24:49,320
 have to have anything. You don't have to
 
-643
+646
 00:24:49,320 --> 00:24:50,600
 break anything. You just have to pay
 
-644
+647
 00:24:50,600 --> 00:24:51,800
 attention. You just have to be a good
 
-645
+648
 00:24:51,800 --> 00:24:53,400
 data scientist.
 
-646
+649
 00:24:53,400 --> 00:24:55,800
-Since I Since I started my life as an AI
+Since I started my life as an AI
 
-647
+650
 00:24:55,800 --> 00:24:57,960
 data scientist, I always think about
 
-648
+651
 00:24:57,960 --> 00:24:59,920
 those things first. I'm late comer to
 
-649
+652
 00:24:59,920 --> 00:25:01,880
 cryptography. I go, "Well,
 
-650
+653
 00:25:01,880 --> 00:25:03,200
 cryptographers don't think about data
 
-651
+654
 00:25:03,200 --> 00:25:04,320
-science. They don't know how to They
+science. They don't know how to… They
 
-652
+655
 00:25:04,320 --> 00:25:05,640
 don't really think about statistics.
 
-653
+656
 00:25:05,640 --> 00:25:07,360
 They don't know about much of the
 
-654
+657
 00:25:07,360 --> 00:25:08,960
 statistical stuff that they use. They
 
-655
+658
 00:25:08,960 --> 00:25:10,160
 just know that there's certain things
 
-656
+659
 00:25:10,160 --> 00:25:11,200
 that they can get away with." And I'm
 
-657
+660
 00:25:11,200 --> 00:25:16,110
 sorry for criticizing cryptographers.
 
-658
-00:25:16,110 --> 00:25:16,120
-
-
-659
-00:25:16,120 --> 00:25:20,320
+661
+00:25:16,120 --> 00:25:17,158
 Anyway,
+
+662
+00:25:17,182 --> 00:25:20,320
 so I wanted to do that and I keep
 
-660
+663
 00:25:20,320 --> 00:25:21,920
 hitting the wrong one. All right, one
 
-661
+664
 00:25:21,920 --> 00:25:25,400
 more time. Sorry about this.
 
-662
+665
 00:25:25,400 --> 00:25:27,120
 I guess I could just exit out of the
 
-663
-00:25:27,120 --> 00:25:31,990
+666
+00:25:27,120 --> 00:25:28,522
 animation. All right.
 
-664
-00:25:34,630 --> 00:25:36,480
-Here we go. It's on here. All right, so
-No, this is the wrong This is No, that
+667
+00:25:32,013 --> 00:25:34,237
+Here we go. It's on here. All right, so…
 
-665
+668
+00:25:34,262 --> 00:25:36,480
+No, this is the wrong… This is No, that
+
+669
 00:25:36,480 --> 00:25:38,000
 won't work. That's a different one. All
 
-666
+670
 00:25:38,000 --> 00:25:40,920
 right, here we go.
 
-667
-00:25:40,920 --> 00:25:43,750
+671
+00:25:40,920 --> 00:25:41,882
 Go slow.
 
-668
-00:25:46,030 --> 00:25:48,480
+672
+00:25:43,779 --> 00:25:45,914
 It's sensitive. All right, so what
+
+673
+00:25:45,939 --> 00:25:48,480
 I have here is the one that's actually
 
-669
+674
 00:25:48,480 --> 00:25:51,320
 issued. It's some update.
 
-670
+675
 00:25:51,320 --> 00:25:54,480
-And then I can I can update it with the
+And then I can update it with the
 
-671
+676
 00:25:54,480 --> 00:25:56,440
 same state,
 
-672
+677
 00:25:56,440 --> 00:25:58,440
 but somebody looking at it doesn't know
 
-673
+678
 00:25:58,440 --> 00:26:00,480
 what the update means.
 
-674
+679
 00:26:00,480 --> 00:26:02,720
 So this example actually came up
 
-675
+680
 00:26:02,720 --> 00:26:05,560
 with when I was talking to some people
 
-676
+681
 00:26:05,560 --> 00:26:08,280
 a few years ago for Swiss ID, and they
 
-677
+682
 00:26:08,280 --> 00:26:10,640
 looked at the existing KERI stuff and
 
-678
+683
 00:26:10,640 --> 00:26:12,280
 they said, "Well, yeah, one of the
 
-679
+684
 00:26:12,280 --> 00:26:13,920
 problems they have with at the point in
 
-680
+685
 00:26:13,920 --> 00:26:15,600
 time pretty much all of the verifiable
 
-681
+686
 00:26:15,600 --> 00:26:18,160
 credential systems on the planet is that
 
-682
+687
 00:26:18,160 --> 00:26:20,960
 if you know what the state is at any
 
-683
+688
 00:26:20,960 --> 00:26:22,480
 point in time,
 
-684
+689
 00:26:22,480 --> 00:26:24,520
 and there's only two states,
 
-685
+690
 00:26:24,520 --> 00:26:26,560
 and there's an update, then you don't
 
-686
+691
 00:26:26,560 --> 00:26:28,280
 have to actually be disclosed the
 
-687
+692
 00:26:28,280 --> 00:26:30,720
 update. You can infer, cuz there's only
 
-688
+693
 00:26:30,720 --> 00:26:32,440
 two states, that the update changed the
 
-689
+694
 00:26:32,440 --> 00:26:34,720
 state and what the current state is.
 
-690
+695
 00:26:34,720 --> 00:26:37,760
 So the example is I apply for a job
 
-691
+696
 00:26:37,760 --> 00:26:40,400
 someplace, and I'm using a verifiable
 
-692
+697
 00:26:40,400 --> 00:26:41,680
 credential
 
-693
+698
 00:26:41,680 --> 00:26:43,560
 that's privacy-preserving,
 
-694
+699
 00:26:43,560 --> 00:26:46,280
 and I disclose that I'm an employee of
 
-695
+700
 00:26:46,280 --> 00:26:47,680
 a company,
 
-696
+701
 00:26:47,680 --> 00:26:50,320
 and then they don't hire me,
 
-697
+702
 00:26:50,320 --> 00:26:52,640
 but they put me on the list of saying,
 
-698
+703
 00:26:52,640 --> 00:26:54,000
 you know,
 
-699
+704
 00:26:54,000 --> 00:26:55,400
 we want to keep track cuz we really like
 
-700
+705
 00:26:55,400 --> 00:26:57,040
-this guy, but he just won't Timing
+this guy, but he just won't… Timing
 
-701
+706
 00:26:57,040 --> 00:26:58,840
 wasn't quite right, right?
 
-702
+707
 00:26:58,840 --> 00:27:00,760
 But, since now they know the registry
 
-703
+708
 00:27:00,760 --> 00:27:02,480
 can then
 
-704
+709
 00:27:02,480 --> 00:27:04,680
 watch it. And if there's a new state in
 
-705
+710
 00:27:04,680 --> 00:27:06,000
 there, and they know that there's only
 
-706
+711
 00:27:06,000 --> 00:27:07,760
 two states issued and revoked, guess
 
-707
+712
 00:27:07,760 --> 00:27:10,360
 what? They know when I get fired.
 
-708
+713
 00:27:10,360 --> 00:27:11,800
 Might be 5 years from now, and then they
 
-709
+714
 00:27:11,800 --> 00:27:13,680
 go, "Oh, he got fired. Let's see if he
 
-710
+715
 00:27:13,680 --> 00:27:15,840
 wants a job with us."
 
-711
+716
 00:27:15,840 --> 00:27:17,480
 So, I need to have my state updates be
 
-712
+717
 00:27:17,480 --> 00:27:19,040
 blinded
 
-713
+718
 00:27:19,040 --> 00:27:20,360
 so that there's no statistical
 
-714
+719
 00:27:20,360 --> 00:27:22,960
 correlatability. Has nothing to do with
 
-715
+720
 00:27:22,960 --> 00:27:24,640
 cryptographic correlatability or
 
-716
+721
 00:27:24,640 --> 00:27:26,840
 cryptographic linkability. It is I don't
 
-717
+722
 00:27:26,840 --> 00:27:28,720
 have any metadata that is statistically
 
-718
+723
 00:27:28,720 --> 00:27:30,400
 correlatable. So, that means I have to
 
-719
+724
 00:27:30,400 --> 00:27:32,840
 be able to update my state
 
-720
+725
 00:27:32,840 --> 00:27:34,960
 with blinded updates
 
-721
+726
 00:27:34,960 --> 00:27:37,120
-in a way that it and the user can
+in a way that it… and the user can
 
-722
+727
 00:27:37,120 --> 00:27:38,640
 request this. The user can go back to
 
-723
+728
 00:27:38,640 --> 00:27:40,360
 the issuer and say, "Hey, you know what?
 
-724
+729
 00:27:40,360 --> 00:27:42,440
 I did three presentations of my state. I
 
-725
+730
 00:27:42,440 --> 00:27:44,720
 want you to issue a new one
 
-726
+731
 00:27:44,720 --> 00:27:46,240
 so that decorrelates everything that I
 
-727
+732
 00:27:46,240 --> 00:27:48,160
 just did." Because now they can't go and
 
-728
+733
 00:27:48,160 --> 00:27:50,280
 look and see the latest state cuz the
 
-729
+734
 00:27:50,280 --> 00:27:52,360
 latest state is after the one they had,
 
-730
+735
 00:27:52,360 --> 00:27:53,720
 so they don't know what the state is.
 
-731
+736
 00:27:53,720 --> 00:27:55,360
 They don't know if it went to revoked
 
-732
+737
 00:27:55,360 --> 00:27:56,520
 or it went to some other state. They
 
-733
+738
 00:27:56,520 --> 00:27:58,160
 just know they don't know it. And then
 
-734
+739
 00:27:58,160 --> 00:27:59,760
-when you revoke it, you just you just
+when you revoke it,
 
-735
+740
 00:27:59,760 --> 00:28:02,200
-keep you can just keep updating it every
+you can just keep updating it every
 
-736
+741
 00:28:02,200 --> 00:28:03,920
 once in a while, and they go, "Oh, well,
 
-737
+742
 00:28:03,920 --> 00:28:05,320
 it may must still be employed
 
-738
+743
 00:28:05,320 --> 00:28:08,000
 because his registry is still updating,
 
-739
+744
 00:28:08,000 --> 00:28:09,960
 right? He didn't abandon the registry."
 
-740
+745
 00:28:09,960 --> 00:28:12,200
 So, it gives you perpetual protection
 
-741
+746
 00:28:12,200 --> 00:28:14,600
 from metadata correlation because
 
-742
+747
 00:28:14,600 --> 00:28:16,360
 the registry can live forever and
 
-743
+748
 00:28:16,360 --> 00:28:17,640
 protect you.
 
-744
+749
 00:28:17,640 --> 00:28:19,240
-All right, so Is it
+All right, so… – Is it
 
-745
+750
 00:28:19,240 --> 00:28:21,960
-derived from something? Yes, it's a blo
+derived from something? – Yes, it's a blo…
 
-746
+751
 00:28:21,960 --> 00:28:24,280
-it's Well, it's it's HD an HD
+it's an HD
 
-747
+752
 00:28:24,280 --> 00:28:26,400
-process. So, so what we're trying to do
+process. So, what we're trying to do
 
-748
+753
 00:28:26,400 --> 00:28:29,360
 is minimize the key management. So, the
 
-749
+754
 00:28:29,360 --> 00:28:32,200
 issuer and the issuee exchange a salt.
 
-750
+755
 00:28:32,200 --> 00:28:34,120
 And then you use the salt to derive the
 
-751
+756
 00:28:34,120 --> 00:28:35,760
 blinding factors.
 
-752
+757
 00:28:35,760 --> 00:28:36,960
 So, you don't have to have any
 
-753
+758
 00:28:36,960 --> 00:28:38,640
 interactions.
 
-754
+759
 00:28:38,640 --> 00:28:41,480
 What happens is the issuee can go
 
-755
+760
 00:28:41,480 --> 00:28:43,880
-look at the look at the registry, see
+look at the registry, see
 
-756
+761
 00:28:43,880 --> 00:28:45,880
 that there's a new event, and they can
 
-757
+762
 00:28:45,880 --> 00:28:47,560
 figure out what it is cuz they know the
 
-758
+763
 00:28:47,560 --> 00:28:49,240
 salt.
 
-759
+764
 00:28:49,240 --> 00:28:51,480
-And so they can they can actually try
+And so they can actually try
 
-760
+765
 00:28:51,480 --> 00:28:53,840
 all the combinations of state to figure
 
-761
+766
 00:28:53,840 --> 00:28:56,360
 out which one it is without them
 
-762
+767
 00:28:56,360 --> 00:28:58,040
 having
 
-763
+768
 00:28:58,040 --> 00:29:00,600
 to have any ongoing interaction. So I
 
-764
+769
 00:29:00,600 --> 00:29:02,760
 hate interactions. If you ever pay
 
-765
+770
 00:29:02,760 --> 00:29:04,840
 attention, I think interactive protocols
 
-766
+771
 00:29:04,840 --> 00:29:07,480
 are bad idea. I want non-interactive
 
-767
+772
 00:29:07,480 --> 00:29:09,080
 protocols in general. So that's a
 
-768
+773
 00:29:09,080 --> 00:29:11,000
 non-interactive way to allow them to do
 
-769
+774
 00:29:11,000 --> 00:29:13,720
 it is to use a salt. All right. So
 
-770
+775
 00:29:13,720 --> 00:29:16,320
-shared blindness state registry. So
+Shared Blinded State Registry. So
 
-771
+776
 00:29:16,320 --> 00:29:18,200
 maybe you say registries are expensive.
 
-772
+777
 00:29:18,200 --> 00:29:19,160
 I don't want to have all these
 
-773
+778
 00:29:19,160 --> 00:29:21,640
 registries. Well, because the state's
 
-774
+779
 00:29:21,640 --> 00:29:24,000
 blinded and the blind includes the
 
-775
+780
 00:29:24,000 --> 00:29:26,800
 actual ACDC that the registry's for,
 
-776
+781
 00:29:26,800 --> 00:29:28,600
 there's no reason you can't share one
 
-777
+782
 00:29:28,600 --> 00:29:31,480
 registry across any number of ACDCs. So
 
-778
-00:29:31,480 --> 00:29:33,560
-there's an issue where I could use I
+783
+00:29:31,480 --> 00:29:31,986
+as an issuer
 
-779
-00:29:33,560 --> 00:29:36,040
-could use one registry for all of the
+784
+00:29:32,011 --> 00:29:36,040
+I could use one registry for all of the
 
-780
+785
 00:29:36,040 --> 00:29:38,040
 credentials I issue. Now, that means
 
-781
+786
 00:29:38,040 --> 00:29:39,560
 that the registry might get heavyweight
 
-782
+787
 00:29:39,560 --> 00:29:41,640
 over time and I start to get what looks
 
-783
+788
 00:29:41,640 --> 00:29:43,800
-like blockchain bloat, so I might bloat.
+like blockchain boat, so I might… bloat.
 
-784
+789
 00:29:43,800 --> 00:29:45,920
-So I may want not want to do that if I'm
+So I may not want to do that if I'm
 
-785
+790
 00:29:45,920 --> 00:29:48,920
 issuing a lot, but I can certainly can
 
-786
+791
 00:29:48,920 --> 00:29:51,520
 decide what the granularity I want to
 
-787
+792
 00:29:51,520 --> 00:29:53,440
 manage that, right? So that's the
 
-788
+793
 00:29:53,440 --> 00:29:55,280
 advantage of a blinded
 
-789
+794
 00:29:55,280 --> 00:29:57,800
 state registry.
 
-790
+795
 00:29:57,800 --> 00:29:59,360
 Yes.
 
-791
+796
 00:29:59,360 --> 00:30:01,400
-The salt?
+– The salt?
 
-792
+797
 00:30:01,400 --> 00:30:03,160
 You know, exchange something like a
 
-793
+798
 00:30:03,160 --> 00:30:05,920
-symmetric key exchange? Yes.
+symmetric key exchange? – Yes.
 
-794
+799
 00:30:05,920 --> 00:30:07,520
 But it's not for security, it's for
 
-795
+800
 00:30:07,520 --> 00:30:10,280
 privacy. So KERI says it's okay to use
 
-796
+801
 00:30:10,280 --> 00:30:12,040
 shared secrets
 
-797
+802
 00:30:12,040 --> 00:30:15,240
 for confidentiality because every
 
-798
+803
 00:30:15,240 --> 00:30:17,040
 encrypted thing that you send somebody
 
-799
+804
 00:30:17,040 --> 00:30:19,520
-is has to use a shared secret. Does that
+is has to use a shared secret. – Does that
 
-800
+805
 00:30:19,520 --> 00:30:22,520
 create a class of algorithm which has
 
-801
+806
 00:30:22,520 --> 00:30:25,600
-salt and symmetric salt exchange
+[inaudible] salt and symmetric salt exchange
 
-802
+807
 00:30:25,600 --> 00:30:26,840
 for which
 
-803
+808
 00:30:26,840 --> 00:30:29,320
-you know, the cryptog- cryptography
+you know, the cryptography
 
-804
+809
 00:30:29,320 --> 00:30:32,320
 community doesn't know what that is.
 
-805
+810
 00:30:32,320 --> 00:30:33,960
-I'm not sure I understand the
+– I'm not sure I understand the
 
-806
+811
 00:30:33,960 --> 00:30:36,280
-question. I'm just drawing a parallel
+question. – I'm just drawing a parallel
 
-807
+812
 00:30:36,280 --> 00:30:39,280
 between symmetric key exchange protocols
 
-808
+813
 00:30:39,280 --> 00:30:42,280
 and salt exchange protocols.
 
-809
+814
 00:30:42,280 --> 00:30:44,480
-And are they different? No, it's just a
+And are they different? – No, it's just a
 
-810
+815
 00:30:44,480 --> 00:30:45,120
 secret.
 
-811
+816
 00:30:45,120 --> 00:30:46,520
-And how are they secure? Have they been
+– How are they secure? Have they been
 
-812
+817
 00:30:46,520 --> 00:30:48,230
 looked at by cryptographers?
 
-813
-00:30:49,790 --> 00:30:52,920
-Well, anything that you would exchange
+818
+00:30:48,255 --> 00:30:49,841
+– Well, anything that you would exchange
+
+819
+00:30:49,866 --> 00:30:52,920
 with Diffie-Hellman is just a secret.
 
-814
+820
 00:30:52,920 --> 00:30:55,160
 So, the security of the exchange is
 
-815
+821
 00:30:55,160 --> 00:30:56,600
-whatever Diffie-Hellman gives you. It
+whatever Diffie-Hellman gives you.
 
-816
+822
 00:30:56,600 --> 00:30:58,320
-doesn't Diffie-Hellman doesn't care what
+Diffie-Hellman doesn't care what
 
-817
+823
 00:30:58,320 --> 00:30:59,680
 what secret you're exchanging.
 
-818
+824
 00:30:59,680 --> 00:31:00,880
-Diffie-Hellman is anonymous, but it's
+– Hellman is anonymous by design,
 
-819
+825
 00:31:00,880 --> 00:31:02,680
-not, right? Yeah.
+right? – Yeah.
 
-820
+826
 00:31:02,680 --> 00:31:05,040
 So, it doesn't care.
 
-821
+827
 00:31:05,040 --> 00:31:08,280
-Yeah, so basically you can use your
+Yeah, so basically you can use… your
 
-822
+828
 00:31:08,280 --> 00:31:11,760
 salt can be the shared key that
 
-823
+829
 00:31:11,760 --> 00:31:13,280
 the Diffie-Hellman gives you. So, that's
 
-824
+830
 00:31:13,280 --> 00:31:15,200
-the easy way to do it. Okay, I think
+the easy way to do it. – Okay, I think
 
-825
+831
 00:31:15,200 --> 00:31:16,440
 there's a man-in-the-middle attack, but
 
-826
+832
 00:31:16,440 --> 00:31:18,240
-I don't know. Yeah. Isn't Isn't that why
+I don't know. – Yeah. – Isn't that why
 
-827
+833
 00:31:18,240 --> 00:31:20,000
-you designed SPACK, though?
+you designed SPAC, though?
 
-828
+834
 00:31:20,000 --> 00:31:23,146
-Well, no, but yes.
+– Well, no, but yes.
 
-829
+835
 00:31:23,146 --> 00:31:24,000
 [laughter]
 
-830
+836
 00:31:24,000 --> 00:31:26,360
-SPACK solves a lot of other problems.
+SPAC solves a lot of other problems.
 
-831
+837
 00:31:26,360 --> 00:31:28,240
 You can certainly do an out-of-band
 
-832
+838
 00:31:28,240 --> 00:31:30,040
 salt exchange.
 
-833
+839
 00:31:30,040 --> 00:31:31,920
 And the reason you can do that is that
 
-834
+840
 00:31:31,920 --> 00:31:34,560
 when you do the identity assurance,
 
-835
+841
 00:31:34,560 --> 00:31:37,560
 if you're doing IAL level three identity
 
-836
+842
 00:31:37,560 --> 00:31:40,360
 assurance, it has to be an in-person
 
-837
+843
 00:31:40,360 --> 00:31:41,680
 thing, and then you can exchange the
 
-838
+844
 00:31:41,680 --> 00:31:43,760
 salt then, and it's out-of-band. And
 
-839
+845
 00:31:43,760 --> 00:31:44,640
 then you don't have to worry about
 
-840
+846
 00:31:44,640 --> 00:31:48,230
 Diffie-Hellman. But that's it.
 
-841
-00:31:51,430 --> 00:31:53,280
+847
+00:31:48,255 --> 00:31:53,280
 Well, it scales for SEDI
 because you can't get a SEDI credential
 
-842
+848
 00:31:53,280 --> 00:31:56,320
 unless you do the IAL at the start.
 
-843
+849
 00:31:56,320 --> 00:31:57,640
 And that means you can exchange the
 
-844
+850
 00:31:57,640 --> 00:31:59,480
-salt. That's physical registration
+salt. – That's physical registration
 
-845
+851
 00:31:59,480 --> 00:32:02,000
-stuff? Huh? You physical registration
+stuff? – Huh? – Your physical registration?
 
-846
+852
 00:32:02,000 --> 00:32:04,240
-Yeah. Yeah.
+– Yeah. Yeah.
 
-847
+853
 00:32:04,240 --> 00:32:07,120
 And I'll talk about that. Yes, I have
 
-848
+854
 00:32:07,120 --> 00:32:08,640
 a slide on that.
 
-849
+855
 00:32:08,640 --> 00:32:11,760
 Right, so let's talk about
 
-850
+856
 00:32:11,760 --> 00:32:13,960
 this infrastructure. I have registrars
 
-851
+857
 00:32:13,960 --> 00:32:16,400
 with registries. I have observers. All
 
-852
+858
 00:32:16,400 --> 00:32:18,920
 our observer is doing is it's keeping
 
-853
+859
 00:32:18,920 --> 00:32:21,640
 track of the registry state. So, it's
 
-854
+860
 00:32:21,640 --> 00:32:24,280
 asking the registrar, what are
 
-855
+861
 00:32:24,280 --> 00:32:25,760
 you registries you have? What state do
 
-856
+862
 00:32:25,760 --> 00:32:27,800
 you have? And now it has a local cache
 
-857
+863
 00:32:27,800 --> 00:32:30,600
 copy, and then when a verifier wants to
 
-858
+864
 00:32:30,600 --> 00:32:32,360
 verify something, he goes to his
 
-859
+865
 00:32:32,360 --> 00:32:34,640
 observer and says, "Tell me
 
-860
+866
 00:32:34,640 --> 00:32:38,040
 what the state of this ACDC is."
 
-861
+867
 00:32:38,040 --> 00:32:40,120
 So for this to work,
 
-862
+868
 00:32:40,120 --> 00:32:42,402
 you want to use bulk updates. That means
 
-863
+869
 00:32:42,402 --> 00:32:44,200
 you don't update
 
-864
+870
 00:32:44,200 --> 00:32:46,040
 instantaneously, you update like say
 
-865
+871
 00:32:46,040 --> 00:32:48,280
 once every 24 hours.
 
-866
+872
 00:32:48,280 --> 00:32:50,640
 Otherwise, if you update it instantly,
 
-867
+873
 00:32:50,640 --> 00:32:52,600
 then the observer
 
-868
+874
 00:32:52,600 --> 00:32:54,840
 could correlate
 
-869
+875
 00:32:54,840 --> 00:32:58,520
 a change to some registries
 
-870
+876
 00:32:58,520 --> 00:33:00,440
 and not others. But if all the
 
-871
+877
 00:33:00,440 --> 00:33:03,400
 registries, 100% of them update
 
-872
+878
 00:33:03,400 --> 00:33:05,960
 at the same clock time,
 
-873
+879
 00:33:05,960 --> 00:33:07,200
-because that's when they when you
+because that's when they
 
-874
+880
 00:33:07,200 --> 00:33:10,240
 broadcast the bulk update, then there's
 
-875
+881
 00:33:10,240 --> 00:33:12,440
-in the time of update. Right? So every
+[…] in the time of update. Right? So every
 
-876
+882
 00:33:12,440 --> 00:33:14,600
 time you do anything,
 
-877
+883
 00:33:14,600 --> 00:33:16,400
 if you want to make it so that it's not
 
-878
+884
 00:33:16,400 --> 00:33:18,680
 statistically correlatable, you have to
 
-879
+885
 00:33:18,680 --> 00:33:20,680
 do it in a bulk
 
-880
+886
 00:33:20,680 --> 00:33:22,840
 or herd privacy protected way. You can't
 
-881
+887
 00:33:22,840 --> 00:33:25,960
-do things one-on-one because
+do things one-on-one
 
-882
+888
 00:33:25,960 --> 00:33:27,920
 because the act of doing any kind of
 
-883
+889
 00:33:27,920 --> 00:33:30,320
 interaction one-on-one leaks
 
-884
+890
 00:33:30,320 --> 00:33:32,240
 correlatable metadata and it can't be
 
-885
+891
 00:33:32,240 --> 00:33:34,440
 defeated. You will correlate around
 
-886
+892
 00:33:34,440 --> 00:33:36,840
 whatever else you're doing because you
 
-887
+893
 00:33:36,840 --> 00:33:39,120
 leaked it, right? So even Tor, you can
 
-888
+894
 00:33:39,120 --> 00:33:42,520
 correlate around Tor because guess what
 
-889
+895
 00:33:42,520 --> 00:33:45,000
 metadata Tor leaks? Anybody know what
 
-890
+896
 00:33:45,000 --> 00:33:49,070
 metadata Tor leaks?
 
-891
-00:33:51,310 --> 00:33:53,400
-Variable packet size.
+897
+00:33:49,094 --> 00:33:52,041
+[inaudible] …riable packet size.
+
+898
+00:33:52,065 --> 00:33:53,400
 Right? You get enough of that, you can
 
-892
+899
 00:33:53,400 --> 00:33:55,200
 figure out
 
-893
+900
 00:33:55,200 --> 00:33:59,440
-Tor. So Spac, DSP protocol, we
+Tor. So SPAC, TSP protocol, we
 
-894
+901
 00:33:59,440 --> 00:34:00,760
 have
 
-895
+902
 00:34:00,760 --> 00:34:03,880
 uniform size packets. So there's
 
-896
+903
 00:34:03,880 --> 00:34:06,400
-no So packet size can't be used for
+no… So packet size can't be used for
 
-897
+904
 00:34:06,400 --> 00:34:09,080
 correlation and we have no packets that
 
-898
+905
 00:34:09,080 --> 00:34:11,639
 are just like vacuous blinded updates,
 
-899
+906
 00:34:11,639 --> 00:34:14,200
 so you can whiten your time of arrival,
 
-900
+907
 00:34:14,200 --> 00:34:16,120
 time of departure. And that's built into
 
-901
+908
 00:34:16,120 --> 00:34:18,240
 the protocol because otherwise,
 
-902
+909
 00:34:18,240 --> 00:34:19,840
 you do all of this work to
 
-903
+910
 00:34:19,840 --> 00:34:22,240
 cryptographically
 
-904
+911
 00:34:22,240 --> 00:34:23,919
 encrypt stuff
 
-905
+912
 00:34:23,919 --> 00:34:26,280
 and to try to protect your metadata from
 
-906
+913
 00:34:26,280 --> 00:34:29,560
 being correlated and then your protocol
 
-907
+914
 00:34:29,560 --> 00:34:33,440
 just leaks it all away. So the
 
-908
+915
 00:34:33,440 --> 00:34:36,760
-basic idea is want registries that bulk
+basic idea is I want registries that bulk
 
-909
+916
 00:34:36,760 --> 00:34:38,679
 update the observers.
 
-910
+917
 00:34:38,679 --> 00:34:41,159
 The observers can't infer anything
 
-911
+918
 00:34:41,159 --> 00:34:42,560
 because it's bulk updated, so you have
 
-912
+919
 00:34:42,560 --> 00:34:44,440
-her privacy.
+herd privacy.
 
-913
+920
 00:34:44,440 --> 00:34:46,120
 What is the weakness here? The weakness
 
-914
+921
 00:34:46,120 --> 00:34:49,040
 here is that if an observer is malicious
 
-915
+922
 00:34:49,040 --> 00:34:51,520
 and the issuer is malicious,
 
-916
+923
 00:34:51,520 --> 00:34:53,360
 they can collude
 
-917
+924
 00:34:53,360 --> 00:34:55,679
 and the observer can say, "Did you issue
 
-918
+925
 00:34:55,679 --> 00:34:57,800
 this? Did you change the state of this
 
-919
+926
 00:34:57,800 --> 00:34:59,280
 particular
 
-920
+927
 00:34:59,280 --> 00:35:02,280
-point?" Right? So, there's so you
+point?" Right? So, you
 
-921
+928
 00:35:02,280 --> 00:35:05,760
 depend on repressing observers and
 
-922
+929
 00:35:05,760 --> 00:35:07,760
 issuers from correlating, but there's no
 
-923
+930
 00:35:07,760 --> 00:35:09,560
 phone home here.
 
-924
+931
 00:35:09,560 --> 00:35:13,760
 The issuer can't force an observer
 
-925
+932
 00:35:13,760 --> 00:35:16,040
 because there's no phone home.
 
-926
+933
 00:35:16,040 --> 00:35:17,520
 Because all it needs is the
 
-927
+934
 00:35:17,520 --> 00:35:19,040
 information in the registry to do the
 
-928
+935
 00:35:19,040 --> 00:35:22,320
-ver- verification. So, so there's no
+verification. So, there's no
 
-929
+936
 00:35:22,320 --> 00:35:24,440
 built-in mechanism for the observer to
 
-930
+937
 00:35:24,440 --> 00:35:25,920
 trace anything in the system. It
 
-931
+938
 00:35:25,920 --> 00:35:27,880
 requires criminals
 
-932
+939
 00:35:27,880 --> 00:35:30,160
 to get together and form a criminal
 
-933
+940
 00:35:30,160 --> 00:35:32,480
 thing, and as long as you make it
 
-934
+941
 00:35:32,480 --> 00:35:34,440
 sufficiently legal, it might happen
 
-935
+942
 00:35:34,440 --> 00:35:36,320
 sometimes.
 
-936
+943
 00:35:36,320 --> 00:35:39,760
 But then you are in the boat of,
 
-937
+944
 00:35:39,760 --> 00:35:41,600
 "Well, you've got fraud in the system."
 
-938
-00:35:41,600 --> 00:35:43,560
-And guess what? You can catch You
-
-939
-00:35:43,560 --> 00:35:45,520
-can catch them because
-
-940
-00:35:45,520 --> 00:35:47,760
-be- because they're they're
-
-941
-00:35:47,760 --> 00:35:49,360
-they're they're they're colluding
-
-942
-00:35:49,360 --> 00:35:52,560
-against the law and
-
-943
-00:35:52,560 --> 00:35:54,320
-and you have you have repression. But
-
-944
-00:35:54,320 --> 00:35:56,720
-yes, it won't it doesn't make it
-
 945
+00:35:41,600 --> 00:35:43,560
+And guess what? You can
+
+946
+00:35:43,560 --> 00:35:45,520
+catch them because
+
+947
+00:35:45,520 --> 00:35:48,648
+because they're
+
+948
+00:35:48,673 --> 00:35:51,864
+colluding against the law and
+
+949
+00:35:52,413 --> 00:35:54,320
+and you have repression. But
+
+950
+00:35:54,320 --> 00:35:56,720
+yes, it doesn't make it
+
+951
 00:35:56,720 --> 00:35:59,600
 impossible. Right? There's no technical
 
-946
+952
 00:35:59,600 --> 00:36:01,920
-thing that makes it impossible in the in
+thing that makes it impossible in
 
-947
+953
 00:36:01,920 --> 00:36:04,040
 this, but what it does is it means that
 
-948
+954
 00:36:04,040 --> 00:36:08,800
 there's no easy way for them to do it.
 
-949
+955
 00:36:08,800 --> 00:36:11,640
 So, the first step in SEDI is an
 
-950
+956
 00:36:11,640 --> 00:36:13,800
 identity assurance process. What is
 
-951
+957
 00:36:13,800 --> 00:36:15,560
 identity assurance?
 
-952
+958
 00:36:15,560 --> 00:36:18,760
 Identity assurance solves one problem.
 
-953
+959
 00:36:18,760 --> 00:36:20,200
 It's called the cheap pseudonymity
 
-954
+960
 00:36:20,200 --> 00:36:22,120
 problem.
 
-955
+961
 00:36:22,120 --> 00:36:24,080
 Anybody can create
 
-956
+962
 00:36:24,080 --> 00:36:27,080
 a pseudonym, a cryptographic pseudonym,
 
-957
+963
 00:36:27,080 --> 00:36:29,440
-and prove control of the creating AID,
+and prove control of creating an AID,
 
-958
+964
 00:36:29,440 --> 00:36:30,520
 right?
 
-959
+965
 00:36:30,520 --> 00:36:32,480
 And as soon as they use the AID for
 
-960
+966
 00:36:32,480 --> 00:36:34,600
 something and they did it for bad and
 
-961
+967
 00:36:34,600 --> 00:36:36,320
 they say I'll just abandon and create a
 
-962
+968
 00:36:36,320 --> 00:36:37,320
 new one.
 
-963
+969
 00:36:37,320 --> 00:36:39,960
 Right? So, nobody can trust an AID that
 
-964
+970
 00:36:39,960 --> 00:36:41,520
 anybody can create. Decentralized
 
-965
-00:36:41,520 --> 00:36:43,640
-identity has a big problem. The problem
+971
+00:36:41,520 --> 00:36:44,937
+identity has a big problem. The problem is
 
-966
-00:36:43,640 --> 00:36:45,000
-is
-
-967
+972
 00:36:45,000 --> 00:36:47,240
-anybody can create as many AID
+anybody can create as many AIDs
 
-968
+973
 00:36:47,240 --> 00:36:49,360
-IDs as they want and then abandon them
+as they want and then abandon them
 
-969
+974
 00:36:49,360 --> 00:36:50,760
 whenever they want to. So, nobody can
 
-970
+975
 00:36:50,760 --> 00:36:53,520
 trust them, right? So, they're only good
 
-971
+976
 00:36:53,520 --> 00:36:55,240
 ephemerally. If I want them good for
 
-972
+977
 00:36:55,240 --> 00:36:56,800
 long-term, they need to have a
 
-973
+978
 00:36:56,800 --> 00:36:58,560
 reputation that says there's a reason
 
-974
+979
 00:36:58,560 --> 00:37:00,080
 why you can trust this.
 
-975
+980
 00:37:00,080 --> 00:37:02,600
-So, the So, what GLEIF does is
+So, what GLEIF does is
 
-976
+981
 00:37:02,600 --> 00:37:05,120
 provide with
 
