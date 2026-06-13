@@ -476,7 +476,7 @@ and bigger because they had to send the
 
 120
 00:04:35,440 --> 00:04:37,919
-whole thing. So PHIR, what it did was
+whole thing. So FHIR, what it did was
 
 121
 00:04:37,919 --> 00:04:40,960
@@ -492,7 +492,7 @@ transmit and of course modernized
 
 124
 00:04:44,639 --> 00:04:47,440
-because they're REST APIs. So the PHIR
+because they're REST APIs. So the FHIR
 
 125
 00:04:47,440 --> 00:04:48,880
@@ -616,7 +616,7 @@ anyone that interacts with these people
 
 155
 00:05:51,680 --> 00:05:54,240
-have to implement PHIR-based APIs to
+have to implement FHIR-based APIs to
 
 156
 00:05:54,240 --> 00:05:55,840
@@ -668,7 +668,7 @@ being able to get a hold of their own
 
 168
 00:06:20,639 --> 00:06:23,120
-data at the PHIR level. But then the one
+data at the FHIR level. But then the one
 
 169
 00:06:23,120 --> 00:06:25,039
@@ -864,7 +864,7 @@ customer where they are by integrating
 
 217
 00:08:15,759 --> 00:08:19,680
-with OAuth because PHIR requires
+with OAuth because FHIR requires
 
 218
 00:08:19,680 --> 00:08:22,160
@@ -1136,7 +1136,7 @@ stack stays the same. They're using
 
 285
 00:10:59,440 --> 00:11:01,279
-they're using PHIR APIs. They're using
+they're using FHIR APIs. They're using
 
 286
 00:11:01,279 --> 00:11:03,360
@@ -1552,7 +1552,7 @@ have a token?" You get the token and
 
 389
 00:14:50,240 --> 00:14:51,760
-then you send that over to the PHIR
+then you send that over to the FHIR
 
 390
 00:14:51,760 --> 00:14:53,360
