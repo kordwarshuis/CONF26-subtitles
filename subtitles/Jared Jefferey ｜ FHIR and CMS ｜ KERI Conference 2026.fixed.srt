@@ -1,4203 +1,4209 @@
 1
-00:00:05,670 --> 00:00:08,400
+00:00:03,159 --> 00:00:05,514
 All right. Today, so the title
-of the talk is fire and CMS. And
 
 2
+00:00:05,539 --> 00:00:08,400
+of the talk is FHIR and CMS. And
+
+3
 00:00:08,400 --> 00:00:10,639
 we'll talk a lot about that. I actually
 
-3
+4
 00:00:10,639 --> 00:00:12,880
 want to spend a little bit of time today
 
-4
+5
 00:00:12,880 --> 00:00:14,799
 going over what the vital framework is.
 
-5
+6
 00:00:14,799 --> 00:00:16,160
 It's actually the vital initiative. I
 
-6
+7
 00:00:16,160 --> 00:00:17,840
 need to change the slide on this.
 
-7
+8
 00:00:17,840 --> 00:00:19,199
 This is an old one and as you can
 
-8
+9
 00:00:19,199 --> 00:00:21,760
 see, it's glitching out. But I want
 
-9
+10
 00:00:21,760 --> 00:00:23,439
 to talk through this, what it means, why
 
-10
+11
 00:00:23,439 --> 00:00:25,920
 it's important what the acronym of
 
-11
+12
 00:00:25,920 --> 00:00:27,840
 verifiable identity and trust automation
 
-12
+13
 00:00:27,840 --> 00:00:31,279
 layer is. So here's just quick
 
-13
+14
 00:00:31,279 --> 00:00:33,680
 intro. We're going to go through CMS
 
-14
+15
 00:00:33,680 --> 00:00:35,600
 and their standards process
 
-15
+16
 00:00:35,600 --> 00:00:37,360
 interoperability standards in
 
-16
+17
 00:00:37,360 --> 00:00:39,760
 healthcare kind of at large, how we got
 
-17
-00:00:39,760 --> 00:00:42,960
-to what fire is now today. What is
-
 18
-00:00:42,960 --> 00:00:45,520
-fire? And we'll go very high level
+00:00:39,760 --> 00:00:41,925
+to what FHIR is now today.
 
 19
+00:00:41,950 --> 00:00:45,520
+What is FHIR? And we'll go very high level
+
+20
 00:00:45,520 --> 00:00:47,840
 on this. You we're not going to go into
 
-20
-00:00:47,840 --> 00:00:50,239
-kind of the different IGs within fire.
-
 21
+00:00:47,840 --> 00:00:50,239
+kind of the different IGs within FHIR.
+
+22
 00:00:50,239 --> 00:00:51,680
 We're not going to talk about, you know,
 
-22
+23
 00:00:51,680 --> 00:00:54,640
 Fast necessarily. Just this is
 
-23
-00:00:54,640 --> 00:00:57,680
-fire 101 for the KERI ecosystem as
-
 24
+00:00:54,640 --> 00:00:57,680
+FHIR 101 for the KERI ecosystem as
+
+25
 00:00:57,680 --> 00:00:59,680
 they want to come up to speed on the
 
-25
+26
 00:00:59,680 --> 00:01:01,520
 applicability of the KERI ecosystem for
 
-26
+27
 00:01:01,520 --> 00:01:03,359
 different industries. Then we'll talk
 
-27
+28
 00:01:03,359 --> 00:01:05,920
 about CMS 0057 and then we'll talk about
 
-28
+29
 00:01:05,920 --> 00:01:08,640
 The vital initiative. So just as a as
 
-29
+30
 00:01:08,640 --> 00:01:10,880
 a high level Jared Jeffrey CEO founder
 
-30
+31
 00:01:10,880 --> 00:01:12,960
 at healthcare is a startup
 
-31
+32
 00:01:12,960 --> 00:01:16,000
 that is in the industry of the
 
-32
+33
 00:01:16,000 --> 00:01:18,479
 missing trust layer for healthcare. So
 
-33
+34
 00:01:18,479 --> 00:01:20,880
 we have adopted some open source open
 
-34
+35
 00:01:20,880 --> 00:01:22,320
 standard protocols. If you're at the
 
-35
+36
 00:01:22,320 --> 00:01:24,000
 KERI conference, you can probably guess
 
-36
+37
 00:01:24,000 --> 00:01:27,759
 as to what those are. But for us, it
 
-37
+38
 00:01:27,759 --> 00:01:31,040
 is imperative that VC this
 
-38
+39
 00:01:31,040 --> 00:01:33,920
 trust layer be implemented into the
 
-39
+40
 00:01:33,920 --> 00:01:35,600
 healthcare ecosystem. As a little bit of
 
-40
+41
 00:01:35,600 --> 00:01:38,159
 background on myself I am a me a
 
-41
+42
 00:01:38,159 --> 00:01:40,640
 member of or a fellow of the American
 
-42
+43
 00:01:40,640 --> 00:01:42,000
 College of Health Data Management. I'm
 
-43
+44
 00:01:42,000 --> 00:01:45,119
 former class research. Class is
 
-44
+45
 00:01:45,119 --> 00:01:46,960
 probably the biggest name in healthc
 
-45
+46
 00:01:46,960 --> 00:01:49,520
 care's market IT research and convening.
 
-46
+47
 00:01:49,520 --> 00:01:52,000
 So they've spent years and years
 
-47
+48
 00:01:52,000 --> 00:01:54,960
 and years getting all of the right
 
-48
+49
 00:01:54,960 --> 00:01:57,280
 groups into the room where typically
 
-49
+50
 00:01:57,280 --> 00:01:58,880
 those groups are very contentious.
 
-50
+51
 00:01:58,880 --> 00:02:00,399
 They'll put those people down in a room
 
-51
+52
 00:02:00,399 --> 00:02:02,320
 say take your hats off. Let's
 
-52
+53
 00:02:02,320 --> 00:02:03,759
 actually solve problems. And so they've
 
-53
+54
 00:02:03,759 --> 00:02:06,079
 done a lot of work like getting pairs
 
-54
+55
 00:02:06,079 --> 00:02:08,080
 and providers to come together and talk
 
-55
+56
 00:02:08,080 --> 00:02:10,160
 about solutions which is the fact
 
-56
+57
 00:02:10,160 --> 00:02:11,680
 that they did that and it never came to
 
-57
+58
 00:02:11,680 --> 00:02:14,640
 blows was I think actually a miracle.
 
-58
+59
 00:02:14,640 --> 00:02:17,280
 And then previously, you know, my
 
-59
+60
 00:02:17,280 --> 00:02:19,440
 and then previously, you know, my
 educational credentials come both
 
-60
+61
 00:02:19,440 --> 00:02:22,080
 from UVU. So happy to be back at
 
-61
+62
 00:02:22,080 --> 00:02:25,040
 the alma mater today. And then
 
-62
+63
 00:02:25,040 --> 00:02:27,680
 WGU, which is Western Governor's. Okay.
 
-63
+64
 00:02:27,680 --> 00:02:29,280
 Want to talk about just really
 
-64
+65
 00:02:29,280 --> 00:02:32,959
 quickly why it is we're doing this in
 
-65
+66
 00:02:32,959 --> 00:02:36,720
 healthcare. So my background is one
 
-66
+67
 00:02:36,720 --> 00:02:38,879
 15 years in healthcare it. Yes. But
 
-67
+68
 00:02:38,879 --> 00:02:41,200
 I'm also a brain cancer survivor and
 
-68
+69
 00:02:41,200 --> 00:02:43,599
 patient myself. So at one point I was
 
-69
+70
 00:02:43,599 --> 00:02:45,360
 being treated by the single machine in
 
-70
+71
 00:02:45,360 --> 00:02:46,640
 the entire Rocky Mountain West that
 
-71
+72
 00:02:46,640 --> 00:02:48,560
 could provide me the care I needed to
 
-72
+73
 00:02:48,560 --> 00:02:50,959
 survive to thrive. Without that
 
-73
+74
 00:02:50,959 --> 00:02:53,040
 machine I wouldn't be here today. The
 
-74
+75
 00:02:53,040 --> 00:02:56,000
 reality is that for many millions
 
-75
+76
 00:02:56,000 --> 00:02:58,480
 of patients that is a very similar thing
 
-76
+77
 00:02:58,480 --> 00:03:01,519
 but often for them it is not some
 
-77
+78
 00:03:01,519 --> 00:03:04,640
 bespoke proton therapy machine that
 
-78
+79
 00:03:04,640 --> 00:03:06,480
 is hard to build. oftentimes it is
 
-79
+80
 00:03:06,480 --> 00:03:09,040
 something as simple as access to an
 
-80
+81
 00:03:09,040 --> 00:03:11,120
 ER doctor at the time they need an ER
 
-81
+82
 00:03:11,120 --> 00:03:12,959
 doctor. And so one of the things that
 
-82
+83
 00:03:12,959 --> 00:03:15,200
 has started to happen increasingly is
 
-83
+84
 00:03:15,200 --> 00:03:17,040
 that as these ransomware attacks which
 
-84
+85
 00:03:17,040 --> 00:03:18,560
 are targeting healthcare, we'll talk a
 
-85
+86
 00:03:18,560 --> 00:03:20,480
 little bit about that in a minute.
 
-86
+87
 00:03:20,480 --> 00:03:23,440
 The targeting of this industry has
 
-87
+88
 00:03:23,440 --> 00:03:25,920
 the targeting of this industry has
 real world implications. So the why for
 
-88
+89
 00:03:25,920 --> 00:03:27,680
 us, why we're here, why we're doing this
 
-89
+90
 00:03:27,680 --> 00:03:31,360
 is because as we increasingly move
 
-90
+91
 00:03:31,360 --> 00:03:33,840
 care into a digital context, we
 
-91
+92
 00:03:33,840 --> 00:03:36,720
 increasingly make the risk to patients
 
-92
+93
 00:03:36,720 --> 00:03:38,879
 explode. And why is that? Well, if you
 
-93
+94
 00:03:38,879 --> 00:03:41,599
 shut down a hospital using a ransomware
 
-94
+95
 00:03:41,599 --> 00:03:44,239
 attack, the first response that
 
-95
+96
 00:03:44,239 --> 00:03:46,080
 hospital has to do from a care
 
-96
+97
 00:03:46,080 --> 00:03:48,959
 perspective is send every ambulance
 
-97
+98
 00:03:48,959 --> 00:03:50,799
 that's supposed to come to them
 
-98
+99
 00:03:50,799 --> 00:03:53,519
 someplace else. And this the especially
 
-99
+100
 00:03:53,519 --> 00:03:55,920
 in the US that ecosystem is incredibly
 
-100
+101
 00:03:55,920 --> 00:03:57,760
 fragile. And so if you're talking about
 
-101
+102
 00:03:57,760 --> 00:04:01,120
 for example an urban center, they may
 
-102
+103
 00:04:01,120 --> 00:04:03,439
 have to push hospitals out to hospitals
 
-103
+104
 00:04:03,439 --> 00:04:05,439
 in rural centers and those hospitals may
 
-104
+105
 00:04:05,439 --> 00:04:06,799
 not have the same equipment, they may
 
-105
+106
 00:04:06,799 --> 00:04:08,159
 not have the same training, they may not
 
-106
+107
 00:04:08,159 --> 00:04:10,480
 have a level one trauma center. So if
 
-107
+108
 00:04:10,480 --> 00:04:12,720
 you shut down a large health system, you
 
-108
+109
 00:04:12,720 --> 00:04:14,480
 are actively threatening the lives of
 
-109
+110
 00:04:14,480 --> 00:04:17,280
 patients. In fact, NPR about two years
 
-110
+111
 00:04:17,280 --> 00:04:20,639
 ago put out a report that stated that a
 
-111
+112
 00:04:20,639 --> 00:04:22,160
 ransomware attack on healthcare should
 
-112
+113
 00:04:22,160 --> 00:04:24,720
 be considered as disastrous as a
 
-113
+114
 00:04:24,720 --> 00:04:27,040
 national or a natural disaster. So a
 
-114
+115
 00:04:27,040 --> 00:04:29,680
 tornado or hurricane, they are the same
 
-115
+116
 00:04:29,680 --> 00:04:31,919
 level of disruption. The difference
 
-116
+117
 00:04:31,919 --> 00:04:34,880
 of course is while we can blame God for
 
-117
+118
 00:04:34,880 --> 00:04:36,880
 tornadoes and hurricanes we blame
 
-118
+119
 00:04:36,880 --> 00:04:38,639
 Russia and North KERI for the
 
-119
+120
 00:04:38,639 --> 00:04:39,919
 ransomware attacks that are happening in
 
-120
+121
 00:04:39,919 --> 00:04:42,960
 the industry. So a little bit of data
 
-121
+122
 00:04:42,960 --> 00:04:45,600
 on this. Healthcare is the most
 
-122
+123
 00:04:45,600 --> 00:04:48,960
 targeted industry by a large margin
 
-123
+124
 00:04:48,960 --> 00:04:50,560
 when you look at some of these other
 
-124
+125
 00:04:50,560 --> 00:04:52,800
 pieces. There's a few reasons for
 
-125
+126
 00:04:52,800 --> 00:04:54,720
 this. They're also the most
 
-126
+127
 00:04:54,720 --> 00:04:56,800
 expensive. So, this is part of what's
 
-127
+128
 00:04:56,800 --> 00:04:58,160
 driving that. You'll get the biggest
 
-128
+129
 00:04:58,160 --> 00:05:00,720
 payout if you're holding a knife to the
 
-129
+130
 00:05:00,720 --> 00:05:02,720
 throat of an organization that has to
 
-130
+131
 00:05:02,720 --> 00:05:05,040
 pay you or people will die. And so,
 
-131
+132
 00:05:05,040 --> 00:05:06,880
 attackers know this. This is a
 
-132
+133
 00:05:06,880 --> 00:05:09,199
 persistent data source. This isn't just
 
-133
+134
 00:05:09,199 --> 00:05:10,720
 one year. This has been for the last
 
-134
+135
 00:05:10,720 --> 00:05:12,880
 decade. Healthcare has been the most
 
-135
+136
 00:05:12,880 --> 00:05:16,400
 targeted industry. So one of the
 
-136
+137
 00:05:16,400 --> 00:05:19,120
 questions we get all the time is why
 
-137
+138
 00:05:19,120 --> 00:05:21,199
 attack patient data? What's what's the
 
-138
+139
 00:05:21,199 --> 00:05:22,880
 value proposition for an attacker to
 
-139
+140
 00:05:22,880 --> 00:05:24,800
 come into this ecosystem and to
 
-140
+141
 00:05:24,800 --> 00:05:26,720
 compromise all of this data? The reality
 
-141
+142
 00:05:26,720 --> 00:05:28,080
 is there's a few different things. The
 
-142
+143
 00:05:28,080 --> 00:05:29,680
 first is that on the on the black
 
-143
+144
 00:05:29,680 --> 00:05:32,800
 market, a patient record is typically
 
-144
+145
 00:05:32,800 --> 00:05:35,759
 10x or more the value of let's say a
 
-145
+146
 00:05:35,759 --> 00:05:37,360
 credit card, which makes perfect sense,
 
-146
+147
 00:05:37,360 --> 00:05:38,720
 right? You your credit card gets
 
-147
+148
 00:05:38,720 --> 00:05:40,160
 compromised. What's the first thing you
 
-148
+149
 00:05:40,160 --> 00:05:42,960
 do? You call up Capital One or Chase and
 
-149
+150
 00:05:42,960 --> 00:05:44,880
 you say, "Hey, I lost my card." And
 
-150
+151
 00:05:44,880 --> 00:05:46,960
 within a week, they've got a new card
 
-151
+152
 00:05:46,960 --> 00:05:49,280
 for you, right? They've rotated you to a
 
-152
+153
 00:05:49,280 --> 00:05:50,960
 new credit card number. And you're back
 
-153
+154
 00:05:50,960 --> 00:05:53,440
 up and running. When you lose your
 
-154
+155
 00:05:53,440 --> 00:05:55,039
 medical record, you're losing your
 
-155
+156
 00:05:55,039 --> 00:05:56,639
 social security number, you're losing
 
-156
+157
 00:05:56,639 --> 00:05:59,280
 your date of birth, you're losing your
 
-157
+158
 00:05:59,280 --> 00:06:02,639
 name, you're losing typically one or
 
-158
+159
 00:06:02,639 --> 00:06:04,720
 two payment methods, and you're also
 
-159
+160
 00:06:04,720 --> 00:06:06,240
 losing all of your medical information
 
-160
+161
 00:06:06,240 --> 00:06:09,120
 itself. None of that can be rotated. As
 
-161
+162
 00:06:09,120 --> 00:06:10,800
 much as I'd love to call Capital One and
 
-162
+163
 00:06:10,800 --> 00:06:12,319
 say, "Hey, you know, I've got brain
 
-163
+164
 00:06:12,319 --> 00:06:14,000
 cancer. That's great. Can we rotate this
 
-164
+165
 00:06:14,000 --> 00:06:16,639
 to like diabetes?" I'd prefer that
 
-165
+166
 00:06:16,639 --> 00:06:18,400
 it just doesn't work that way. You have
 
-166
+167
 00:06:18,400 --> 00:06:20,560
 immutable data in a health record, which
 
-167
+168
 00:06:20,560 --> 00:06:23,120
 means that the value of that data lasts
 
-168
+169
 00:06:23,120 --> 00:06:25,600
 for as long as the data is valid,
 
-169
+170
 00:06:25,600 --> 00:06:29,440
 which is forever. So with that data,
 
-170
+171
 00:06:29,440 --> 00:06:30,560
 there are a number of different things
 
-171
+172
 00:06:30,560 --> 00:06:32,720
 that they can do. So one is just selling
 
-172
+173
 00:06:32,720 --> 00:06:34,960
 the records online but beyond that it's
 
-173
+174
 00:06:34,960 --> 00:06:38,160
 things like standing up fake clinics
 
-174
+175
 00:06:38,160 --> 00:06:50,950
 to execute fraud to CMS and it is
 
-175
+176
 00:06:53,830 --> 00:06:56,240
 I can prove to CMS that I'm treating you
 and I can do that at a scale of you
 
-176
+177
 00:06:56,240 --> 00:06:57,600
 know hundreds or thousands of clinics.
 
-177
+178
 00:06:57,600 --> 00:07:00,080
 There was actually a clinic, this was
 
-178
+179
 00:07:00,080 --> 00:07:02,720
 two years ago, I say clinic there
 
-179
+180
 00:07:02,720 --> 00:07:04,720
 was a group in Florida that was found to
 
-180
+181
 00:07:04,720 --> 00:07:07,120
 have absolutely no patients, but they
 
-181
+182
 00:07:07,120 --> 00:07:08,800
 had a whole lot of data and they were
 
-182
+183
 00:07:08,800 --> 00:07:11,199
 billing CMS pretty
 
-183
+184
 00:07:11,199 --> 00:07:13,039
 aggressively to get money out of that
 
-184
+185
 00:07:13,039 --> 00:07:15,440
 system. Other things to note here
 
-185
+186
 00:07:15,440 --> 00:07:17,680
 is and this one I actually want to hit
 
-186
+187
 00:07:17,680 --> 00:07:19,440
 Pretty heavily which is extortion
 
-187
+188
 00:07:19,440 --> 00:07:23,919
 attacks. So, it used to be that the
 
-188
+189
 00:07:23,919 --> 00:07:26,240
 primary attack surface that an attacker
 
-189
+190
 00:07:26,240 --> 00:07:27,840
 was looking for, the monetization
 
-190
+191
 00:07:27,840 --> 00:07:31,120
 that they wanted was if I hit a
 
-191
+192
 00:07:31,120 --> 00:07:33,440
 hospital, they'll pay me $7 million to
 
-192
+193
 00:07:33,440 --> 00:07:36,160
 unlock my data. And that's still true.
 
-193
+194
 00:07:36,160 --> 00:07:38,000
 But these days, the attacker actually
 
-194
+195
 00:07:38,000 --> 00:07:40,639
 also couples that with exfiltration of
 
-195
+196
 00:07:40,639 --> 00:07:43,599
 that data. And because AI has made the
 
-196
+197
 00:07:43,599 --> 00:07:46,479
 Cost per extortion so low, they'll
 
-197
+198
 00:07:46,479 --> 00:07:48,479
 now go after individual patients as
 
-198
+199
 00:07:48,479 --> 00:07:51,199
 well. So they'll go after a recent
 
-199
+200
 00:07:51,199 --> 00:07:53,440
 article I read was that a bunch of
 
-200
+201
 00:07:53,440 --> 00:07:56,160
 mimography images were captured and
 
-201
+202
 00:07:56,160 --> 00:07:57,599
 they were actually going to individual
 
-202
+203
 00:07:57,599 --> 00:07:58,960
 women and saying, "Hey, we have
 
-203
+204
 00:07:58,960 --> 00:08:00,960
 compromising images of you from this
 
-204
+205
 00:08:00,960 --> 00:08:02,400
 this data that we pulled out of your
 
-205
+206
 00:08:02,400 --> 00:08:04,000
 health system. You're going to pay us
 
-206
+207
 00:08:04,000 --> 00:08:06,080
 $2,000 or we're going to put these out
 
-207
+208
 00:08:06,080 --> 00:08:08,160
 on the dark web." And so it used to be
 
-208
+209
 00:08:08,160 --> 00:08:10,479
 that $2,000 wasn't enough to get anybody
 
-209
+210
 00:08:10,479 --> 00:08:12,639
 interested. These days, because it is so
 
-210
+211
 00:08:12,639 --> 00:08:14,319
 simple and easy to make that attack, and
 
-211
+212
 00:08:14,319 --> 00:08:15,680
 by the way, I already have all your
 
-212
+213
 00:08:15,680 --> 00:08:18,160
 contact information. We can just set
 
-213
+214
 00:08:18,160 --> 00:08:20,800
 up a script and the AI can extort for us
 
-214
+215
 00:08:20,800 --> 00:08:22,800
 Which is obviously not terrible but
 
-215
+216
 00:08:22,800 --> 00:08:24,720
 when we ask about okay why is healthcare
 
-216
+217
 00:08:24,720 --> 00:08:25,919
 so compromised it's because it's
 
-217
+218
 00:08:25,919 --> 00:08:28,319
 insecure it's high value and the
 
-218
+219
 00:08:28,319 --> 00:08:29,759
 data doesn't change across time which
 
-219
+220
 00:08:29,759 --> 00:08:32,240
 makes it a really good find and
 
-220
+221
 00:08:32,240 --> 00:08:34,560
 can be resold multiple times in the
 
-221
+222
 00:08:34,560 --> 00:08:37,839
 future. So
 
-222
+223
 00:08:37,839 --> 00:08:40,399
 the other problem here is not only is
 
-223
+224
 00:08:40,399 --> 00:08:42,719
 healthc care's data incredibly valuable
 
-224
+225
 00:08:42,719 --> 00:08:45,279
 it is also incredibly complex. So you
 
-225
+226
 00:08:45,279 --> 00:08:46,560
 have health systems, you have health
 
-226
+227
 00:08:46,560 --> 00:08:48,320
 payers. These are typically the two big
 
-227
+228
 00:08:48,320 --> 00:08:50,880
 players in the space. Each of these
 
-228
+229
 00:08:50,880 --> 00:08:53,760
 ecosystems will on average have about
 
-229
+230
 00:08:53,760 --> 00:08:56,080
 1,500 connections. So the average health
 
-230
+231
 00:08:56,080 --> 00:08:58,480
 system has got vendors that are
 
-231
+232
 00:08:58,480 --> 00:09:00,160
 connecting into their system doing a
 
-232
+233
 00:09:00,160 --> 00:09:03,600
 number of different tasks for them. Each
 
-233
+234
 00:09:03,600 --> 00:09:06,000
 one of these connections represents
 
-234
+235
 00:09:06,000 --> 00:09:08,399
 an attack surface for the attackers. I
 
-235
+236
 00:09:08,399 --> 00:09:11,120
 showed on that previous slide about 3/4s
 
-236
+237
 00:09:11,120 --> 00:09:14,320
 of actually originate in an external
 
-237
+238
 00:09:14,320 --> 00:09:17,839
 party. So I think a good example of
 
-238
+239
 00:09:17,839 --> 00:09:22,070
 helps people understand
 
-239
+240
 00:09:24,949 --> 00:09:26,480
 is probably five six years ago now.
 All of the credit card information in
 
-240
+241
 00:09:26,480 --> 00:09:28,399
 all of the credit card information in
 Target got stolen. The way that they got
 
-241
+242
 00:09:28,399 --> 00:09:30,240
 in was through the HVAC vendor. So the
 
-242
+243
 00:09:30,240 --> 00:09:31,760
 HVAC vendor had a connection into
 
-243
+244
 00:09:31,760 --> 00:09:34,240
 Target. Obviously HVAC, he doesn't
 
-244
+245
 00:09:34,240 --> 00:09:35,360
 feel like he's got to be all that
 
-245
+246
 00:09:35,360 --> 00:09:37,600
 secure, but simply by virtue of
 
-246
+247
 00:09:37,600 --> 00:09:39,279
 connectivity, they were able to do a
 
-247
+248
 00:09:39,279 --> 00:09:40,720
 privilege escalation attack, which is
 
-248
+249
 00:09:40,720 --> 00:09:42,480
 basically you compromise the first set
 
-249
+250
 00:09:42,480 --> 00:09:44,160
 of credentials. You move from those
 
-250
+251
 00:09:44,160 --> 00:09:45,600
 credentials laterally to somebody else
 
-251
+252
 00:09:45,600 --> 00:09:47,440
 that has better access into the system
 
-252
+253
 00:09:47,440 --> 00:09:48,800
 and then you can move up. Eventually,
 
-253
+254
 00:09:48,800 --> 00:09:50,560
 you're looking for a CIS admin role.
 
-254
+255
 00:09:50,560 --> 00:09:52,240
 Once you have a CIS admin role, you have
 
-255
+256
 00:09:52,240 --> 00:09:53,839
 keys of the kingdom. You execute your
 
-256
+257
 00:09:53,839 --> 00:09:56,080
 ransomware. You know, within a month,
 
-257
+258
 00:09:56,080 --> 00:09:58,720
 the cyber insurance will have paid
 
-258
+259
 00:09:58,720 --> 00:10:00,320
 out the $7 million because the
 
-259
+260
 00:10:00,320 --> 00:10:01,600
 hospital's got to get back up and
 
-260
+261
 00:10:01,600 --> 00:10:04,399
 running. So that's the attack in
 
-261
+262
 00:10:04,399 --> 00:10:08,080
 a nutshell and this is the risk. So
 
-262
+263
 00:10:08,080 --> 00:10:10,320
 again thousands of connections coming
 
-263
+264
 00:10:10,320 --> 00:10:12,000
 into the system each one of them
 
-264
+265
 00:10:12,000 --> 00:10:14,160
 representing a potential attack surface
 
-265
+266
 00:10:14,160 --> 00:10:18,399
 for bad actors to enter in. So we used
 
-266
+267
 00:10:18,399 --> 00:10:20,079
 to think and I think some people still
 
-267
+268
 00:10:20,079 --> 00:10:22,000
 do that if we've encrypted the
 
-268
+269
 00:10:22,000 --> 00:10:23,839
 channel then we have a secure connection
 
-269
+270
 00:10:23,839 --> 00:10:26,320
 and the reality is that the attacker
 
-270
+271
 00:10:26,320 --> 00:10:29,279
 will most often use that channel
 
-271
+272
 00:10:29,279 --> 00:10:31,680
 against you hunting for what we call
 
-272
+273
 00:10:31,680 --> 00:10:33,279
 shared secrets. This is a shared
 
-273
+274
 00:10:33,279 --> 00:10:34,640
 credential. This is username and
 
-274
+275
 00:10:34,640 --> 00:10:36,399
 password. This is a bearer token.
 
-275
+276
 00:10:36,399 --> 00:10:37,519
 There's a number of different things
 
-276
+277
 00:10:37,519 --> 00:10:39,839
 that qualify as a shared secret. Our
 
-277
+278
 00:10:39,839 --> 00:10:42,720
 contention is that we probably should
 
-278
+279
 00:10:42,720 --> 00:10:44,959
 stop letting them steal these shared
 
-279
+280
 00:10:44,959 --> 00:10:47,360
 secrets. impersonating your third party,
 
-280
+281
 00:10:47,360 --> 00:10:48,720
 moving through the channel that you
 
-281
+282
 00:10:48,720 --> 00:10:50,640
 trusted to be secure, and then
 
-282
+283
 00:10:50,640 --> 00:10:52,880
 exfiltrating your data. It's time for us
 
-283
+284
 00:10:52,880 --> 00:10:55,440
 to actually reduce the attack surface by
 
-284
+285
 00:10:55,440 --> 00:10:57,680
 taking this piece here and removing the
 
-285
+286
 00:10:57,680 --> 00:11:00,000
 shared secrets that come into the system
 
-286
+287
 00:11:00,000 --> 00:11:02,160
 so that those attacks are no longer
 
-287
+288
 00:11:02,160 --> 00:11:05,360
 valid no longer reasonable for an
 
-288
+289
 00:11:05,360 --> 00:11:07,519
 attacker to execute. Now, we've talked
 
-289
+290
 00:11:07,519 --> 00:11:09,839
 about earlier today a lot of the value
 
-290
+291
 00:11:09,839 --> 00:11:13,440
 in terms of the connectivity problem
 
-291
+292
 00:11:13,440 --> 00:11:16,160
 with regards to onboarding with regards
 
-292
+293
 00:11:16,160 --> 00:11:18,240
 to the manual lift on it. One of the
 
-293
+294
 00:11:18,240 --> 00:11:20,240
 other things that KERI does for us is
 
-294
+295
 00:11:20,240 --> 00:11:23,920
 this. It allows us to create a ecosystem
 
-295
+296
 00:11:23,920 --> 00:11:26,399
 of true zero trust where there is no
 
-296
+297
 00:11:26,399 --> 00:11:29,600
 Oh, that's cool. Where there is no
 
-297
+298
 00:11:29,600 --> 00:11:32,560
 compromising credential for
 
-298
+299
 00:11:32,560 --> 00:11:35,120
 participants to be attacked on.
 
-299
+300
 00:11:35,120 --> 00:11:36,560
 In fact, we've actually shown this. We
 
-300
+301
 00:11:36,560 --> 00:11:38,640
 in fact, we've actually shown this. We
 had a pentest done on a system that
 
-301
+302
 00:11:38,640 --> 00:11:40,880
 was basically running this. We stood
 
-302
+303
 00:11:40,880 --> 00:11:42,320
 the system up. We were running hundreds
 
-303
-00:11:42,320 --> 00:11:44,079
-of thousands of fire transaction
-
 304
+00:11:42,320 --> 00:11:44,079
+of thousands of FHIR transaction
+
+305
 00:11:44,079 --> 00:11:45,519
 transactions. We'll talk about that in a
 
-305
+306
 00:11:45,519 --> 00:11:47,920
 second. Through the system, we
 
-306
+307
 00:11:47,920 --> 00:11:49,839
 brought in some white hat hackers. We
 
-307
+308
 00:11:49,839 --> 00:11:51,200
 pointed them to the system and we said,
 
-308
+309
 00:11:51,200 --> 00:11:53,040
 "Go ahead and break it. Here's
 
-309
+310
 00:11:53,040 --> 00:11:54,720
 everything that you would need if it was
 
-310
+311
 00:11:54,720 --> 00:11:56,720
 a traditional system." They came
 
-311
+312
 00:11:56,720 --> 00:11:58,160
 back and said, "We can't get into the
 
-312
+313
 00:11:58,160 --> 00:12:00,160
 system. There's no serious flaws that we
 
-313
+314
 00:12:00,160 --> 00:12:03,040
 see." It was humorous to me though
 
-314
+315
 00:12:03,040 --> 00:12:04,959
 that they did say, "Hey, there's no
 
-315
+316
 00:12:04,959 --> 00:12:07,600
 TLS on this connection. So you guys are
 
-316
+317
 00:12:07,600 --> 00:12:08,959
 missing that. Maybe you should put it in
 
-317
+318
 00:12:08,959 --> 00:12:11,120
 there." And the reality is we believe
 
-318
+319
 00:12:11,120 --> 00:12:12,880
 that KERI-based connectivity is
 
-319
+320
 00:12:12,880 --> 00:12:16,560
 actually a replacement for TLS. Okay. So
 
-320
+321
 00:12:16,560 --> 00:12:19,200
 that's kind of the background on
 
-321
+322
 00:12:19,200 --> 00:12:21,839
 healthcare and why I think the vital
 
-322
+323
 00:12:21,839 --> 00:12:22,800
 initiative and what we're going to talk
 
-323
+324
 00:12:22,800 --> 00:12:24,720
 about today is important. Now let's get
 
-324
+325
 00:12:24,720 --> 00:12:28,160
 into what CMS is, what they actually do,
 
-325
+326
 00:12:28,160 --> 00:12:31,440
 why they matter. So very high level CMS
 
-326
+327
 00:12:31,440 --> 00:12:32,720
 is the Centers for Medicare and
 
-327
+328
 00:12:32,720 --> 00:12:35,680
 Medicaid. Remember Medicare is for
 
-328
+329
 00:12:35,680 --> 00:12:38,399
 the elderly, Medicaid is for low-income
 
-329
+330
 00:12:38,399 --> 00:12:40,480
 individuals. So we care about our
 
-330
+331
 00:12:40,480 --> 00:12:42,480
 elderly, we provide AID to the poor.
 
-331
+332
 00:12:42,480 --> 00:12:43,920
 That's the way I always remember it. And
 
-332
+333
 00:12:43,920 --> 00:12:46,000
 then you can keep those two straight.
 
-333
+334
 00:12:46,000 --> 00:12:48,959
 It's important to note that while not
 
-334
+335
 00:12:48,959 --> 00:12:51,600
 it's important to note that while not
 all care happens through CMS, they're
 
-335
+336
 00:12:51,600 --> 00:12:53,600
 managing what was it like a trillion
 
-336
+337
 00:12:53,600 --> 00:12:57,030
 dollars? 1.2.
 
-337
+338
 00:12:59,750 --> 00:13:01,519
 Okay. Yeah. one 1.8. So round up, you've
 got a couple trillion dollars flowing
 
-338
+339
 00:13:01,519 --> 00:13:03,200
 through the system every year, which
 
-339
+340
 00:13:03,200 --> 00:13:04,800
 means across years it's trillions and
 
-340
+341
 00:13:04,800 --> 00:13:07,200
 trillions of dollars. So even if you are
 
-341
+342
 00:13:07,200 --> 00:13:09,519
 not a Medicare or Medicaid plan, even
 
-342
+343
 00:13:09,519 --> 00:13:10,959
 if you're not accepting Medicare or
 
-343
+344
 00:13:10,959 --> 00:13:13,760
 Medicaid dollars this is the 800 lb
 
-344
+345
 00:13:13,760 --> 00:13:16,240
 gorilla in the room. So when they speak,
 
-345
+346
 00:13:16,240 --> 00:13:18,079
 typically everybody listens. Yeah. Mark
 
-346
+347
 00:13:18,079 --> 00:13:22,880
 amendment. Medicaid is not run by CMS,
 
-347
+348
 00:13:22,880 --> 00:13:24,399
 right? It's it's stun.
 
-348
+349
 00:13:24,399 --> 00:13:26,880
 The states they were the reason they
 
-349
+350
 00:13:26,880 --> 00:13:28,480
 have the
 
-350
+351
 00:13:28,480 --> 00:13:30,160
 some level of control is that they'll
 
-351
+352
 00:13:30,160 --> 00:13:35,680
 pay 90 a 9010 split for investments into
 
-352
+353
 00:13:35,680 --> 00:13:36,560
 Medicaid.
 
-353
+354
 00:13:36,560 --> 00:13:38,480
 Yeah. Yeah. Okay. Yeah, that's good.
 
-354
+355
 00:13:38,480 --> 00:13:40,720
 That's good clarity. But at the end
 
-355
+356
 00:13:40,720 --> 00:13:42,800
 of the day, the reality is that if you
 
-356
+357
 00:13:42,800 --> 00:13:44,240
 are looking to get money out of the
 
-357
+358
 00:13:44,240 --> 00:13:46,480
 healthKERI system it would be wise
 
-358
+359
 00:13:46,480 --> 00:13:50,000
 of you to listen to and abide by the
 
-359
+360
 00:13:50,000 --> 00:13:52,560
 regulations that CMS puts out. Now
 
-360
+361
 00:13:52,560 --> 00:13:55,120
 CMS themselves typically do not
 
-361
+362
 00:13:55,120 --> 00:13:57,360
 originate standards. what they like to
 
-362
+363
 00:13:57,360 --> 00:13:59,920
 do and what they've done numerous
 
-363
+364
 00:13:59,920 --> 00:14:01,760
 times in the past is that they will work
 
-364
+365
 00:14:01,760 --> 00:14:04,959
 with an industry group like HL7 who
 
-365
-00:14:04,959 --> 00:14:06,959
-who stands up the fire standard and they
-
 366
+00:14:04,959 --> 00:14:06,959
+who stands up the FHIR standard and they
+
+367
 00:14:06,959 --> 00:14:08,240
 will basically say these are the things
 
-367
+368
 00:14:08,240 --> 00:14:09,920
 that we are looking for there's deep
 
-368
-00:14:09,920 --> 00:14:12,079
-collaboration there fire will say okay
-
 369
+00:14:09,920 --> 00:14:12,079
+collaboration there FHIR will say okay
+
+370
 00:14:12,079 --> 00:14:13,839
 let's get the industry together we'll
 
-370
+371
 00:14:13,839 --> 00:14:16,079
 stand up a standard like fast which
 
-371
+372
 00:14:16,079 --> 00:14:17,680
 is what Mark was talking about
 
-372
+373
 00:14:17,680 --> 00:14:20,639
 earlier today once they have a an
 
-373
+374
 00:14:20,639 --> 00:14:22,959
 acceptable standard CMS will come
 
-374
+375
 00:14:22,959 --> 00:14:24,720
 back and basically bless that standard
 
-375
+376
 00:14:24,720 --> 00:14:26,399
 put it into regulation and say this is
 
-376
+377
 00:14:26,399 --> 00:14:28,079
 how we want to see things done. So, for
 
-377
+378
 00:14:28,079 --> 00:14:29,920
 example, we talked about pretty
 
-378
+379
 00:14:29,920 --> 00:14:33,440
 extensively earlier today CMS 0057.
 
-379
+380
 00:14:33,440 --> 00:14:35,120
 It is a regulation. It's a requirement
 
-380
+381
 00:14:35,120 --> 00:14:37,199
 it is a regulation. It's a requirement
 for payers. They will not get or will be
 
-381
+382
 00:14:37,199 --> 00:14:40,560
 penalized by CMS starting January 1,
 
-382
+383
 00:14:40,560 --> 00:14:43,519
 2027. And that penalty is based on
 
-383
-00:14:43,519 --> 00:14:45,680
-whether or not they have a fire API
-
 384
+00:14:43,519 --> 00:14:45,680
+whether or not they have a FHIR API
+
+385
 00:14:45,680 --> 00:14:47,440
 endpoint. So again, you start to see
 
-385
+386
 00:14:47,440 --> 00:14:49,760
 this converging of the federal
 
-386
+387
 00:14:49,760 --> 00:14:52,000
 regulators working with industry groups
 
-387
+388
 00:14:52,000 --> 00:14:53,920
 to establish these standards, then
 
-388
+389
 00:14:53,920 --> 00:14:57,040
 enacting them into mandate. And then
 
-389
+390
 00:14:57,040 --> 00:15:00,320
 often, but not always though I
 
-390
+391
 00:15:00,320 --> 00:15:02,079
 would argue the most effective ones
 
-391
+392
 00:15:02,079 --> 00:15:04,079
 are when they tie those to payments. So
 
-392
+393
 00:15:04,079 --> 00:15:05,120
 if they say, "Hey, you're going to get
 
-393
+394
 00:15:05,120 --> 00:15:06,160
 penalties. You're going to get fines.
 
-394
+395
 00:15:06,160 --> 00:15:07,519
 We're going to cut off your Medicare
 
-395
+396
 00:15:07,519 --> 00:15:09,600
 Medicaid funding." That's when you
 
-396
+397
 00:15:09,600 --> 00:15:11,680
 actually see the industry move. And
 
-397
+398
 00:15:11,680 --> 00:15:12,639
 then yeah, they'll they'll they'll come
 
-398
+399
 00:15:12,639 --> 00:15:14,800
 in and they'll basically say by X date
 
-399
+400
 00:15:14,800 --> 00:15:17,760
 you want to see you know why happen
 
-400
+401
 00:15:17,760 --> 00:15:20,720
 within the industry. So let's talk
 
-401
+402
 00:15:20,720 --> 00:15:22,240
 about kind of the history of these
 
-402
+403
 00:15:22,240 --> 00:15:24,000
 standards, how we got to where we are
 
-403
+404
 00:15:24,000 --> 00:15:26,000
 today. I think there's some
 
-404
+405
 00:15:26,000 --> 00:15:28,079
 instructive pieces here. It's important
 
-405
+406
 00:15:28,079 --> 00:15:30,800
 to note that we started with what I
 
-406
+407
 00:15:30,800 --> 00:15:33,120
 would call foundational interoperability
 
-407
+408
 00:15:33,120 --> 00:15:35,440
 standards and as we've moved across time
 
-408
+409
 00:15:35,440 --> 00:15:37,839
 we've moved up to I think much more
 
-409
+410
 00:15:37,839 --> 00:15:39,839
 useful standards which would be
 
-410
+411
 00:15:39,839 --> 00:15:42,480
 network interoperability standards. Now
 
-411
+412
 00:15:42,480 --> 00:15:44,320
 I want to give a couple of
 
-412
+413
 00:15:44,320 --> 00:15:46,560
 definitions here. So a foundational
 
-413
+414
 00:15:46,560 --> 00:15:48,240
 standard is basically just what's the
 
-414
+415
 00:15:48,240 --> 00:15:50,320
 pipe look like? If you stand up the pipe
 
-415
+416
 00:15:50,320 --> 00:15:51,600
 good you've met the foundational
 
-416
+417
 00:15:51,600 --> 00:15:52,880
 standard. And there we'll talk about
 
-417
+418
 00:15:52,880 --> 00:15:54,399
 some examples here in a second.
 
-418
+419
 00:15:54,399 --> 00:15:56,720
 structural is really just I have the
 
-419
+420
 00:15:56,720 --> 00:15:58,560
 the PET pipe. I know that the data is
 
-420
+421
 00:15:58,560 --> 00:16:00,320
 coming through and the reality is that
 
-421
+422
 00:16:00,320 --> 00:16:02,000
 this is a you know for a diabetic let's
 
-422
+423
 00:16:02,000 --> 00:16:04,000
 say it's a glucco glucose test. That's
 
-423
+424
 00:16:04,000 --> 00:16:05,920
 more useful than just hey data is coming
 
-424
+425
 00:16:05,920 --> 00:16:08,160
 in and out as you move up the ladder
 
-425
+426
 00:16:08,160 --> 00:16:10,000
 to like semantic data. This is where you
 
-426
+427
 00:16:10,000 --> 00:16:12,160
 start to get structure and coding into
 
-427
+428
 00:16:12,160 --> 00:16:13,759
 it which basically lets you say things
 
-428
+429
 00:16:13,759 --> 00:16:15,920
 like hey this is a glucose test it needs
 
-429
+430
 00:16:15,920 --> 00:16:18,639
 to go into the doctor's decision support
 
-430
+431
 00:16:18,639 --> 00:16:20,399
 tool. Right? So as you build the
 
-431
+432
 00:16:20,399 --> 00:16:22,240
 standard on interoperability, you get
 
-432
+433
 00:16:22,240 --> 00:16:23,759
 more and more value out of the data
 
-433
+434
 00:16:23,759 --> 00:16:25,600
 that's flowing in and out of the system.
 
-434
+435
 00:16:25,600 --> 00:16:28,399
 The network standard and this one is
 
-435
+436
 00:16:28,399 --> 00:16:31,519
 So these are I would say adopted
 
-436
+437
 00:16:31,519 --> 00:16:34,720
 nomenclature. I've been adding this. So
 
-437
+438
 00:16:34,720 --> 00:16:36,720
 this is new to healthcare. My argument
 
-438
+439
 00:16:36,720 --> 00:16:38,720
 is that we need to get to network
 
-439
+440
 00:16:38,720 --> 00:16:40,399
 standards where it is not just
 
-440
+441
 00:16:40,399 --> 00:16:42,480
 structured coded and scaled which is
 
-441
+442
 00:16:42,480 --> 00:16:44,320
 important for these other things. It
 
-442
+443
 00:16:44,320 --> 00:16:46,160
 needs to be governed and that governance
 
-443
+444
 00:16:46,160 --> 00:16:48,399
 piece is the piece that healthcare is
 
-444
+445
 00:16:48,399 --> 00:16:51,279
 still I think currently grappling with.
 
-445
+446
 00:16:51,279 --> 00:16:54,480
 So let's talk about a few of the
 
-446
+447
 00:16:54,480 --> 00:16:57,519
 ways that this lays out in terms of
 
-447
+448
 00:16:57,519 --> 00:17:01,199
 manual effort. So if you have a
 
-448
+449
 00:17:01,199 --> 00:17:02,959
 foundational interoperability model
 
-449
+450
 00:17:02,959 --> 00:17:04,319
 literally it's just the pipe. Everything
 
-450
+451
 00:17:04,319 --> 00:17:06,079
 else is on you. Congratulations. You
 
-451
+452
 00:17:06,079 --> 00:17:08,400
 have data have fun you know
 
-452
+453
 00:17:08,400 --> 00:17:10,079
 normalizing all of that. Maybe you'll
 
-453
+454
 00:17:10,079 --> 00:17:11,600
 pass it into Mirthth or Iguana or
 
-454
+455
 00:17:11,600 --> 00:17:13,120
 somebody else and they can do the job
 
-455
+456
 00:17:13,120 --> 00:17:15,520
 for you. This goes all the way up to the
 
-456
+457
 00:17:15,520 --> 00:17:17,760
 question we should be asking which is
 
-457
+458
 00:17:17,760 --> 00:17:19,520
 when data is flowing through the system
 
-458
+459
 00:17:19,520 --> 00:17:22,079
 is the standard built in such a way that
 
-459
+460
 00:17:22,079 --> 00:17:24,480
 we can answer the question affirmatively
 
-460
+461
 00:17:24,480 --> 00:17:26,000
 will this improve patient care and
 
-461
+462
 00:17:26,000 --> 00:17:28,000
 that's what we're trying to get to
 
-462
+463
 00:17:28,000 --> 00:17:30,320
 with interoperability standards. So
 
-463
+464
 00:17:30,320 --> 00:17:32,480
 let's talk about what some of these
 
-464
+465
 00:17:32,480 --> 00:17:35,760
 standards are. So back in the 80s
 
-465
+466
 00:17:35,760 --> 00:17:38,640
 which I was not around for ADTS
 
-466
+467
 00:17:38,640 --> 00:17:41,120
 came out ADTS is admissions discharges
 
-467
+468
 00:17:41,120 --> 00:17:43,360
 and transfers basically this was the
 
-468
+469
 00:17:43,360 --> 00:17:44,640
 building block of healthcare's
 
-469
+470
 00:17:44,640 --> 00:17:47,120
 interoperability. Can I see from a
 
-470
+471
 00:17:47,120 --> 00:17:49,360
 hospital perspective is the patient in
 
-471
+472
 00:17:49,360 --> 00:17:52,320
 my hospital is he out of the hospital or
 
-472
+473
 00:17:52,320 --> 00:17:54,080
 has she been transferred to another
 
-473
+474
 00:17:54,080 --> 00:17:56,000
 hospital? And that was the foundational
 
-474
+475
 00:17:56,000 --> 00:17:58,160
 effort that came again back in the 80s.
 
-475
+476
 00:17:58,160 --> 00:18:02,799
 We moved on to between 87 to 95 there
 
-476
+477
 00:18:02,799 --> 00:18:05,840
 was CCDAS that were added in and the
 
-477
+478
 00:18:05,840 --> 00:18:06,799
 one that I actually want to talk about
 
-478
+479
 00:18:06,799 --> 00:18:10,720
 is HL7B2. HL7B2 is the precursor to
 
-479
-00:18:10,720 --> 00:18:12,720
-fire. So this is probably and correct me
-
 480
+00:18:10,720 --> 00:18:12,720
+FHIR. So this is probably and correct me
+
+481
 00:18:12,720 --> 00:18:15,120
 if I'm wrong here Mark the most
 
-481
+482
 00:18:15,120 --> 00:18:17,360
 adopted standard in healthcare today.
 
-482
+483
 00:18:17,360 --> 00:18:20,320
 Most data flows on HL7B2
 
-483
+484
 00:18:20,320 --> 00:18:22,720
 most
 
-484
+485
 00:18:22,720 --> 00:18:25,600
 yeah so it's HL7B2
 
-485
+486
 00:18:25,600 --> 00:18:26,720
 question mark
 
-486
+487
 00:18:26,720 --> 00:18:30,400
 it's standard. Yeah, standard adjacent.
 
-487
+488
 00:18:30,400 --> 00:18:32,480
 And so that was back in 95 that this
 
-488
+489
 00:18:32,480 --> 00:18:33,840
 came out. You can see that
 
-489
+490
 00:18:33,840 --> 00:18:36,000
 healthcare is Yeah, go ahead.
 
-490
+491
 00:18:36,000 --> 00:18:37,600
 What's the differentiation there? What's
 
-491
+492
 00:18:37,600 --> 00:18:39,919
 what's the customization? Is it the data
 
-492
+493
 00:18:39,919 --> 00:18:41,840
 model that's consistent? Is it just
 
-493
+494
 00:18:41,840 --> 00:18:44,000
 what's what's the proprietary
 
-494
+495
 00:18:44,000 --> 00:18:44,960
 niches?
 
-495
+496
 00:18:44,960 --> 00:18:47,280
 It's it's extensions.
 
-496
+497
 00:18:47,280 --> 00:18:48,880
 It's it's wide open extensions. They
 
-497
+498
 00:18:48,880 --> 00:18:51,280
 call them Z segments. They just let you
 
-498
+499
 00:18:51,280 --> 00:18:52,480
 let you put whatever you want in there
 
-499
+500
 00:18:52,480 --> 00:18:55,039
 and define them for your local use. So
 
-500
+501
 00:18:55,039 --> 00:18:56,799
 it's a local extension and they're
 
-501
+502
 00:18:56,799 --> 00:18:59,120
 allowed and they're you know a lot of
 
-502
+503
 00:18:59,120 --> 00:19:01,520
 them are used in fact even later
 
-503
+504
 00:19:01,520 --> 00:19:03,679
 versions of HS72 that actually support
 
-504
+505
 00:19:03,679 --> 00:19:07,120
 those capabilities later people
 
-505
+506
 00:19:07,120 --> 00:19:08,720
 didn't change their Z segments because
 
-506
+507
 00:19:08,720 --> 00:19:10,400
 they were working and they were mostly
 
-507
+508
 00:19:10,400 --> 00:19:13,200
 were communicating inside the enterprise
 
-508
+509
 00:19:13,200 --> 00:19:17,039
 so communicating from the system that
 
-509
+510
 00:19:17,039 --> 00:19:19,120
 manages the
 
-510
+511
 00:19:19,120 --> 00:19:21,360
 encounters with the systems that are
 
-511
+512
 00:19:21,360 --> 00:19:24,960
 clear so from the system the lab system
 
-512
+513
 00:19:24,960 --> 00:19:27,200
 back. So that's that's why they could be
 
-513
+514
 00:19:27,200 --> 00:19:29,919
 that's why they could be not standard
 
-514
+515
 00:19:29,919 --> 00:19:32,080
 because they were for use in a in a
 
-515
+516
 00:19:32,080 --> 00:19:32,480
 price.
 
-516
+517
 00:19:32,480 --> 00:19:32,799
 Yeah.
 
-517
+518
 00:19:32,799 --> 00:19:37,120
 And the other thing is the V2 and C CCDA
 
-518
+519
 00:19:37,120 --> 00:19:38,720
 standards
 
-519
+520
 00:19:38,720 --> 00:19:41,360
 were effectively proprietary. So in
 
-520
+521
 00:19:41,360 --> 00:19:43,360
 those days you have to pay to get access
 
-521
+522
 00:19:43,360 --> 00:19:45,520
 to those just like you do today with
 
-522
+523
 00:19:45,520 --> 00:19:48,400
 X12. So if you want to do a financial
 
-523
+524
 00:19:48,400 --> 00:19:51,280
 transaction in healthcare it has to go
 
-524
+525
 00:19:51,280 --> 00:19:56,320
 RX12 because over it cost you like 1,500
 
-525
+526
 00:19:56,320 --> 00:19:59,840
 bucks a year just to be able to see that
 
-526
+527
 00:19:59,840 --> 00:20:02,960
 and extra homes in that in that era.
 
-527
+528
 00:20:02,960 --> 00:20:04,559
 Yeah. Right here.
 
-528
+529
 00:20:04,559 --> 00:20:06,080
 Yeah.
 
-529
+530
 00:20:06,080 --> 00:20:08,080
 Yeah. It's all it's all in here. And
 
-530
+531
 00:20:08,080 --> 00:20:09,760
 obviously not comprehensive. We're just
 
-531
+532
 00:20:09,760 --> 00:20:12,080
 trying to do a high level here. So
 
-532
+533
 00:20:12,080 --> 00:20:14,160
 then back in 2011, you'll be happy
 
-533
+534
 00:20:14,160 --> 00:20:15,919
 to note I was here for this one. I was
 
-534
-00:20:15,919 --> 00:20:18,880
-here for this one. The fire
-
 535
+00:20:15,919 --> 00:20:18,880
+here for this one. The FHIR
+
+536
 00:20:18,880 --> 00:20:22,400
 standard was put out in 2011. Since
 
-536
+537
 00:20:22,400 --> 00:20:24,400
 then there's been a lot of work in the
 
-537
-00:20:24,400 --> 00:20:26,400
-fire space I think at this point. So
-
 538
+00:20:24,400 --> 00:20:26,400
+FHIR space I think at this point. So
+
+539
 00:20:26,400 --> 00:20:29,919
 when I got into healthcare we were
 
-539
+540
 00:20:29,919 --> 00:20:31,440
 just talking about interoperability
 
-540
+541
 00:20:31,440 --> 00:20:33,360
 standards and there was a lot of
 
-541
-00:20:33,360 --> 00:20:35,760
-discussion around is fire the go forward
-
 542
+00:20:33,360 --> 00:20:35,760
+discussion around is FHIR the go forward
+
+543
 00:20:35,760 --> 00:20:37,840
 are we going to do this? Are we not?
 
-543
+544
 00:20:37,840 --> 00:20:39,280
 Because a lot of people were happy with
 
-544
+545
 00:20:39,280 --> 00:20:42,080
 because a lot of people were happy with
 HL7B2 in the sense that they're lazy and
 
-545
+546
 00:20:42,080 --> 00:20:43,440
 Didn't see the need to change and
 
-546
+547
 00:20:43,440 --> 00:20:45,039
 we're still faxing things anyway. So why
 
-547
+548
 00:20:45,039 --> 00:20:47,120
 do we care about a data standard? I
 
-548
+549
 00:20:47,120 --> 00:20:50,240
 would say that in the last 5 to 10
 
-549
+550
 00:20:50,240 --> 00:20:52,080
 years that has really flipped and the
 
-550
-00:20:52,080 --> 00:20:54,000
-industry has started to say yes fire is
-
 551
+00:20:52,080 --> 00:20:54,000
+industry has started to say yes FHIR is
+
+552
 00:20:54,000 --> 00:20:55,760
 the go forward standard. So even if
 
-552
-00:20:55,760 --> 00:20:57,840
-people aren't using fire today for all
-
 553
+00:20:55,760 --> 00:20:57,840
+people aren't using FHIR today for all
+
+554
 00:20:57,840 --> 00:20:59,840
 of their connections everybody has
 
-554
+555
 00:20:59,840 --> 00:21:01,679
 kind of accepted the fact that at some
 
-555
-00:21:01,679 --> 00:21:04,320
-point fire is going to be coming into
-
 556
+00:21:01,679 --> 00:21:04,320
+point FHIR is going to be coming into
+
+557
 00:21:04,320 --> 00:21:05,679
 their world and again we'll talk more
 
-557
-00:21:05,679 --> 00:21:08,000
-about what fire is in a second. So I
-
 558
+00:21:05,679 --> 00:21:08,000
+about what FHIR is in a second. So I
+
+559
 00:21:08,000 --> 00:21:11,360
 want to go up one level and talk about
 
-559
+560
 00:21:11,360 --> 00:21:13,120
 kind of the network level of
 
-560
+561
 00:21:13,120 --> 00:21:15,919
 interoperability standards. So for
 
-561
+562
 00:21:15,919 --> 00:21:18,000
 things like TEFA, which is the trusted
 
-562
+563
 00:21:18,000 --> 00:21:20,240
 exchange framework and common agreement,
 
-563
+564
 00:21:20,240 --> 00:21:22,159
 This is a federally backed program to
 
-564
+565
 00:21:22,159 --> 00:21:25,280
 do nationwide interoperability.
 
-565
-00:21:25,280 --> 00:21:27,760
-They are actually using fire in TEFLA.
-
 566
-00:21:27,760 --> 00:21:30,640
-they are actually using fire in TEFLA.
-So this isn't a morphing of this
+00:21:25,280 --> 00:21:27,760
+They are actually using FHIR in TEFLA.
 
 567
+00:21:27,760 --> 00:21:30,640
+they are actually using FHIR in TEFLA.
+So this isn't a morphing of this
+
+568
 00:21:30,640 --> 00:21:33,840
 standard here. Well, sorry, they talk a
 
-568
-00:21:33,840 --> 00:21:36,080
-big game about using fire. They
-
 569
+00:21:33,840 --> 00:21:36,080
+big game about using FHIR. They
+
+570
 00:21:36,080 --> 00:21:37,840
 anticipate that in the future they will
 
-570
+571
 00:21:37,840 --> 00:21:41,190
 use it
 
-571
+572
 00:21:44,950 --> 00:21:47,200
 is still Yeah. CCDA or HL7B2. But
 but they have acknowledged that this is
 
-572
+573
 00:21:47,200 --> 00:21:49,679
 the direction they're going to go.
 
-573
+574
 00:21:49,679 --> 00:21:52,480
 So this isn't a new standard as much
 
-574
+575
 00:21:52,480 --> 00:21:56,559
 so this isn't a new standard as much
 as it is a new set of guidelines.
 
-575
+576
 00:21:56,559 --> 00:21:59,039
 So that common agreement is the
 
-576
+577
 00:21:59,039 --> 00:22:01,360
 governance framework that they're trying
 
-577
+578
 00:22:01,360 --> 00:22:04,640
 to instantiate on top of existing
 
-578
+579
 00:22:04,640 --> 00:22:06,480
 frameworks. So the other one that I
 
-579
+580
 00:22:06,480 --> 00:22:07,520
 would mention here just kind of in
 
-580
+581
 00:22:07,520 --> 00:22:10,240
 passing is CMS aligned networks.
 
-581
+582
 00:22:10,240 --> 00:22:11,840
 That's one that will become I think more
 
-582
+583
 00:22:11,840 --> 00:22:15,830
 that's one that will become I think more
 relevant as we
 
-583
+584
 00:22:18,630 --> 00:22:24,310
-and fire in the ecosystemality
+and FHIR in the ecosystemality
 here and the reasons
 
-584
+585
 00:22:26,230 --> 00:22:28,880
 here the first being we don't actually
-have full adoption of fire up here yet
+have full adoption of FHIR up here yet
 
-585
+586
 00:22:28,880 --> 00:22:32,480
 and beyond that these ecosystems up
 
-586
+587
 00:22:32,480 --> 00:22:36,240
 here do not have I would argue an
 
-587
+588
 00:22:36,240 --> 00:22:38,480
 effective mechanism for governance and
 
-588
+589
 00:22:38,480 --> 00:22:41,600
 trust on the frameworks. So and I'
 
-589
+590
 00:22:41,600 --> 00:22:43,200
 I think I've got a couple things. We
 
-590
+591
 00:22:43,200 --> 00:22:45,039
 we'll come to it later on why I say
 
-591
+592
 00:22:45,039 --> 00:22:47,360
 that. But let's switch just very
 
-592
-00:22:47,360 --> 00:22:50,000
-quickly to talk about fire. So fire
-
 593
+00:22:47,360 --> 00:22:50,000
+quickly to talk about FHIR. So FHIR
+
+594
 00:22:50,000 --> 00:22:52,480
 is fast interoperability fast
 
-594
+595
 00:22:52,480 --> 00:22:54,799
 healthcare interoperability resources.
 
-595
+596
 00:22:54,799 --> 00:22:57,280
 It's a lot of things. So, it's an
 
-596
+597
 00:22:57,280 --> 00:22:59,200
 acronym, but it's also the data
 
-597
+598
 00:22:59,200 --> 00:23:01,600
 structure. It's restful APIs, which is
 
-598
+599
 00:23:01,600 --> 00:23:04,080
 just modern API connectivity. It's a
 
-599
+600
 00:23:04,080 --> 00:23:06,880
 set of tool sets. So, so it's a de
 
-600
+601
 00:23:06,880 --> 00:23:08,400
 developers kits. it's, you know,
 
-601
+602
 00:23:08,400 --> 00:23:10,480
 validation implementation guides.
 
-602
-00:23:10,480 --> 00:23:13,039
-HL7 actually does maintain public fire
-
 603
+00:23:10,480 --> 00:23:13,039
+HL7 actually does maintain public FHIR
+
+604
 00:23:13,039 --> 00:23:14,480
 test servers. So, if people are looking
 
-604
-00:23:14,480 --> 00:23:16,240
-to get into Fire, they've made it really
-
 605
+00:23:14,480 --> 00:23:16,240
+to get into FHIR, they've made it really
+
+606
 00:23:16,240 --> 00:23:18,240
 easy because you can go in and play
 
-606
+607
 00:23:18,240 --> 00:23:20,159
 within their ecosystem. And then
 
-607
+608
 00:23:20,159 --> 00:23:22,240
 there also is a community that's that's
 
-608
+609
 00:23:22,240 --> 00:23:24,080
 I would say relatively strong and
 
-609
+610
 00:23:24,080 --> 00:23:26,559
 vibrant, growing every day in terms of
 
-610
-00:23:26,559 --> 00:23:29,520
-People in the ecosystem doing Fire.
-
 611
+00:23:26,559 --> 00:23:29,520
+People in the ecosystem doing FHIR.
+
+612
 00:23:29,520 --> 00:23:31,120
 like I don't think I've talked to
 
-612
+613
 00:23:31,120 --> 00:23:34,000
 another healthcare startup that isn't
 
-613
-00:23:34,000 --> 00:23:35,679
-starting with fire in terms of the
-
 614
+00:23:34,000 --> 00:23:35,679
+starting with FHIR in terms of the
+
+615
 00:23:35,679 --> 00:23:37,039
 connectivity that they're trying to
 
-615
+616
 00:23:37,039 --> 00:23:39,600
 drive into the ecosystem. The other
 
-616
+617
 00:23:39,600 --> 00:23:41,679
 thing that I think I should point out
 
-617
+618
 00:23:41,679 --> 00:23:44,080
 here is that the data structure piece is
 
-618
+619
 00:23:44,080 --> 00:23:47,039
 actually incredibly valuable. So, a CCDA
 
-619
+620
 00:23:47,039 --> 00:23:50,000
 HL7V2, they didn't really allow for
 
-620
+621
 00:23:50,000 --> 00:23:51,919
 discrete elements of the data to be
 
-621
+622
 00:23:51,919 --> 00:23:54,080
 called out, which meant that oftent
 
-622
+623
 00:23:54,080 --> 00:23:56,320
 times when you're transacting a data
 
-623
+624
 00:23:56,320 --> 00:23:58,240
 record, what you're getting is a
 
-624
+625
 00:23:58,240 --> 00:24:00,320
 stack of information and then you'd have
 
-625
+626
 00:24:00,320 --> 00:24:01,600
 to go through and kind of parse through
 
-626
+627
 00:24:01,600 --> 00:24:03,440
 that to get to value. Yeah.
 
-627
+628
 00:24:03,440 --> 00:24:05,600
 Yeah. How does that relate with various
 
-628
+629
 00:24:05,600 --> 00:24:08,720
 EHR type?
 
-629
+630
 00:24:08,720 --> 00:24:10,159
 So, what do you mean? What do you mean?
 
-630
+631
 00:24:10,159 --> 00:24:11,919
 I think electronic health or portable
 
-631
+632
 00:24:11,919 --> 00:24:14,640
 health records. I'm not sure if
 
-632
+633
 00:24:14,640 --> 00:24:18,640
 Yeah. So, so with EHRs it's
 
-633
+634
 00:24:18,640 --> 00:24:21,679
 going to depend on EHR. Obviously,
 
-634
+635
 00:24:21,679 --> 00:24:24,000
 most of them are transacting data on
 
-635
+636
 00:24:24,000 --> 00:24:24,880
 HL7B2,
 
-636
+637
 00:24:24,880 --> 00:24:27,919
 but does this does this say you have to
 
-637
+638
 00:24:27,919 --> 00:24:29,440
 use a particular type or aren't there
 
-638
+639
 00:24:29,440 --> 00:24:31,919
 multiple EHRs?
 
-639
+640
 00:24:31,919 --> 00:24:37,679
 There's lots of out there. Yeah, the ONC
 
-640
+641
 00:24:37,679 --> 00:24:40,559
 basically has really got the role of
 
-641
+642
 00:24:40,559 --> 00:24:43,360
 regulating the
 
-642
+643
 00:24:43,360 --> 00:24:46,320
 healthcare tech industry. ONC being the
 
-643
+644
 00:24:46,320 --> 00:24:48,080
 office of the national coordinator for
 
-644
+645
 00:24:48,080 --> 00:24:50,000
 healthc
 
-645
+646
 00:24:50,000 --> 00:24:53,120
 and so they a number of years ago
 
-646
+647
 00:24:53,120 --> 00:24:55,039
 defined
 
-647
-00:24:55,039 --> 00:24:56,720
-fire
-
 648
+00:24:55,039 --> 00:24:56,720
+FHIR
+
+649
 00:24:56,720 --> 00:25:00,960
 set of resources known as US core
 
-649
+650
 00:25:00,960 --> 00:25:05,039
 And basically had certifications
 
-650
+651
 00:25:05,039 --> 00:25:07,039
 so that if you were a certified health
 
-651
+652
 00:25:07,039 --> 00:25:09,520
 information technology platform you
 
-652
+653
 00:25:09,520 --> 00:25:11,120
 would have to certify against that and
 
-653
+654
 00:25:11,120 --> 00:25:14,880
 that required you basically to have a
 
-654
-00:25:14,880 --> 00:25:17,520
-population health API based on fire
-
 655
-00:25:17,520 --> 00:25:20,640
-patient access API based on fire and
+00:25:14,880 --> 00:25:17,520
+population health API based on FHIR
 
 656
+00:25:17,520 --> 00:25:20,640
+patient access API based on FHIR and
+
+657
 00:25:20,640 --> 00:25:22,720
 using those calls that was on an
 
-657
-00:25:22,720 --> 00:25:24,720
-older version of fire and what's
-
 658
+00:25:22,720 --> 00:25:24,720
+older version of FHIR and what's
+
+659
 00:25:24,720 --> 00:25:28,320
 happened over the last year is
 
-659
+660
 00:25:28,320 --> 00:25:30,400
 they updated to the same version the
 
-660
+661
 00:25:30,400 --> 00:25:32,880
 players are actually
 
-661
+662
 00:25:32,880 --> 00:25:36,000
 yeah so it is a standard that
 
-662
+663
 00:25:36,000 --> 00:25:38,240
 lives underneath the EHR itself right
 
-663
+664
 00:25:38,240 --> 00:25:39,200
 because they're they're trying to get
 
-664
+665
 00:25:39,200 --> 00:25:42,720
 data in and out so back to this
 
-665
+666
 00:25:42,720 --> 00:25:44,880
 the data structure the model here, these
 
-666
+667
 00:25:44,880 --> 00:25:46,240
 data descriptions, and it's completely
 
-667
+668
 00:25:46,240 --> 00:25:48,400
 gone now, which is great. Is
 
-668
+669
 00:25:48,400 --> 00:25:50,159
 actually really important in terms of an
 
-669
+670
 00:25:50,159 --> 00:25:51,600
 upgrade here. So, one of the things that
 
-670
-00:25:51,600 --> 00:25:54,320
-Fire allows you to do that
-
 671
+00:25:51,600 --> 00:25:54,320
+FHIR allows you to do that
+
+672
 00:25:54,320 --> 00:25:56,480
 previous interoperability standards
 
-672
+673
 00:25:56,480 --> 00:25:58,080
 didn't, is to be able to call out
 
-673
-00:25:58,080 --> 00:25:59,679
-discrete data elements from the fire
-
 674
+00:25:58,080 --> 00:25:59,679
+discrete data elements from the FHIR
+
+675
 00:25:59,679 --> 00:26:01,039
 record. So, when you're talking about a
 
-675
+676
 00:26:01,039 --> 00:26:03,360
 multiundpage patient record, which I'm
 
-676
+677
 00:26:03,360 --> 00:26:04,799
 sure mine is with all the things I've
 
-677
+678
 00:26:04,799 --> 00:26:06,720
 gone through the ability to go in
 
-678
+679
 00:26:06,720 --> 00:26:08,799
 and say, I just want these blood tests,
 
-679
+680
 00:26:08,799 --> 00:26:10,720
 I just want this, you know, from this
 
-680
+681
 00:26:10,720 --> 00:26:12,960
 date to that date. to be able to parse a
 
-681
+682
 00:26:12,960 --> 00:26:15,600
 record at scale like that. That's
 
-682
+683
 00:26:15,600 --> 00:26:17,360
 incredibly valuable. And I think, you
 
-683
+684
 00:26:17,360 --> 00:26:19,120
 know, all the rest of these things are
 
-684
+685
 00:26:19,120 --> 00:26:21,039
 essential. They're helpful, but really
 
-685
+686
 00:26:21,039 --> 00:26:22,640
 it's that data structure and the ability
 
-686
+687
 00:26:22,640 --> 00:26:24,880
 to make the data actually useful in
 
-687
-00:26:24,880 --> 00:26:28,080
-clinical practice is what's driven fire
-
 688
+00:26:24,880 --> 00:26:28,080
+clinical practice is what's driven FHIR
+
+689
 00:26:28,080 --> 00:26:30,559
 API as well because traditionally what
 
-689
+690
 00:26:30,559 --> 00:26:32,640
 would happen is if you wanted data, you
 
-690
+691
 00:26:32,640 --> 00:26:34,640
 would make a request say basically send
 
-691
+692
 00:26:34,640 --> 00:26:35,679
 me a document.
 
-692
+693
 00:26:35,679 --> 00:26:36,240
 Yeah.
 
-693
+694
 00:26:36,240 --> 00:26:38,080
 Right. So, they're going to put that
 
-694
+695
 00:26:38,080 --> 00:26:39,919
 data into the document. I've been in
 
-695
+696
 00:26:39,919 --> 00:26:42,240
 meetings where been discussions of how
 
-696
+697
 00:26:42,240 --> 00:26:44,480
 much data should we put in a document if
 
-697
+698
 00:26:44,480 --> 00:26:46,720
 we're going to have a standard which is
 
-698
+699
 00:26:46,720 --> 00:26:47,919
 a little bizarre
 
-699
+700
 00:26:47,919 --> 00:26:48,400
 right
 
-700
+701
 00:26:48,400 --> 00:26:50,799
 whereas with the restful API and those
 
-701
+702
 00:26:50,799 --> 00:26:53,360
 data structures you can if you've got
 
-702
+703
 00:26:53,360 --> 00:26:55,440
 the permissions you can go in and say
 
-703
+704
 00:26:55,440 --> 00:26:58,640
 give me just the A1C readings out of the
 
-704
+705
 00:26:58,640 --> 00:27:00,240
 observation resource
 
-705
+706
 00:27:00,240 --> 00:27:02,480
 yeah just give me the discrete
 
-706
+707
 00:27:02,480 --> 00:27:04,240
 elements from the data that I actually
 
-707
+708
 00:27:04,240 --> 00:27:08,880
 want so this is the objectives of
 
-708
-00:27:08,880 --> 00:27:10,960
-fire that's that's stated by HL7 who's
-
 709
-00:27:10,960 --> 00:27:13,279
-standards body that forwards fire.
+00:27:08,880 --> 00:27:10,960
+FHIR that's that's stated by HL7 who's
 
 710
+00:27:10,960 --> 00:27:13,279
+standards body that forwards FHIR.
+
+711
 00:27:13,279 --> 00:27:14,720
 They wanted to be built for
 
-711
+712
 00:27:14,720 --> 00:27:16,240
 implementers. So this isn't something
 
-712
+713
 00:27:16,240 --> 00:27:19,600
 that was thought up by you know
 
-713
+714
 00:27:19,600 --> 00:27:21,360
 people like me who would definitely get
 
-714
+715
 00:27:21,360 --> 00:27:23,200
 it wrong but actually by impleers that
 
-715
+716
 00:27:23,200 --> 00:27:24,960
 know what needs to go into a standard.
 
-716
+717
 00:27:24,960 --> 00:27:27,279
 They regularly do connectathons
 
-717
+718
 00:27:27,279 --> 00:27:29,360
 because it doesn't do any good to
 
-718
+719
 00:27:29,360 --> 00:27:31,679
 have an implement standard if you
 
-719
+720
 00:27:31,679 --> 00:27:33,679
 can't teach people how to get this done.
 
-720
+721
 00:27:33,679 --> 00:27:35,919
 I think that this is another piece
 
-721
+722
 00:27:35,919 --> 00:27:37,440
 that's very valuable is that they
 
-722
+723
 00:27:37,440 --> 00:27:39,760
 operate on an 8020 rule. So they're
 
-723
+724
 00:27:39,760 --> 00:27:41,120
 going to anticipate that they can get
 
-724
+725
 00:27:41,120 --> 00:27:43,360
 about 80% of all the use cases enacted
 
-725
+726
 00:27:43,360 --> 00:27:47,039
 into the standard. But that XKCD
 
-726
+727
 00:27:47,039 --> 00:27:49,200
 Comic I had up earlier is very
 
-727
+728
 00:27:49,200 --> 00:27:50,720
 true which is if your standard isn't
 
-728
+729
 00:27:50,720 --> 00:27:53,120
 rigid you end up proliferating standard
 
-729
+730
 00:27:53,120 --> 00:27:55,440
 or it is rigid not flexible you end up
 
-730
+731
 00:27:55,440 --> 00:27:57,520
 proliferating standards. The other
 
-731
+732
 00:27:57,520 --> 00:27:59,120
 things that are I think important is
 
-732
+733
 00:27:59,120 --> 00:28:01,200
 it's open source. And the
 
-733
-00:28:01,200 --> 00:28:03,360
-adoption as far as everything that fire
-
 734
+00:28:01,200 --> 00:28:03,360
+adoption as far as everything that FHIR
+
+735
 00:28:03,360 --> 00:28:05,600
 tries to do is to make it incredibly
 
-735
-00:28:05,600 --> 00:28:08,240
-easy. So that's kind of the fire
-
 736
+00:28:05,600 --> 00:28:08,240
+easy. So that's kind of the FHIR
+
+737
 00:28:08,240 --> 00:28:10,480
 in a nutshell. Let's talk about CMS
 
-737
+738
 00:28:10,480 --> 00:28:13,600
 0057. So this is the latest version of
 
-738
+739
 00:28:13,600 --> 00:28:16,159
 that synergistic loop that I talked
 
-739
+740
 00:28:16,159 --> 00:28:18,240
 about earlier, which is CMS doesn't want
 
-740
+741
 00:28:18,240 --> 00:28:20,080
 to set standards. They want the industry
 
-741
+742
 00:28:20,080 --> 00:28:21,600
 to set those standards through somebody
 
-742
+743
 00:28:21,600 --> 00:28:24,080
 like HL7 and then they come together and
 
-743
+744
 00:28:24,080 --> 00:28:26,000
 start to put them into mandates. CMS
 
-744
+745
 00:28:26,000 --> 00:28:28,960
 0057 basically says that by January 1,
 
-745
+746
 00:28:28,960 --> 00:28:31,840
 2027, every payer that receives Medicare
 
-746
+747
 00:28:31,840 --> 00:28:34,559
 and Medicaid dollars has to stand up an
 
-747
+748
 00:28:34,559 --> 00:28:37,840
 API for these four use cases, which is
 
-748
+749
 00:28:37,840 --> 00:28:40,399
 Pay-to-payer exchange patient
 
-749
+750
 00:28:40,399 --> 00:28:43,039
 access pair to provider exchange,
 
-750
+751
 00:28:43,039 --> 00:28:44,799
 and then a streamlined pri prior
 
-751
+752
 00:28:44,799 --> 00:28:47,679
 authorization process. Is anybody not
 
-752
+753
 00:28:47,679 --> 00:28:49,120
 familiar with what prior authorization
 
-753
+754
 00:28:49,120 --> 00:28:50,559
 is? We've we've thrown that around
 
-754
+755
 00:28:50,559 --> 00:28:52,559
 pretty loosely, but if you don't know,
 
-755
+756
 00:28:52,559 --> 00:28:54,880
 okay, great. I will say that when I
 
-756
+757
 00:28:54,880 --> 00:28:57,520
 went to go get the proton therapy, it
 
-757
+758
 00:28:57,520 --> 00:28:59,760
 took 3 months to get the prior
 
-758
+759
 00:28:59,760 --> 00:29:02,399
 authorization approved on that. So
 
-759
+760
 00:29:02,399 --> 00:29:04,159
 if we can streamline that, I would be
 
-760
+761
 00:29:04,159 --> 00:29:07,440
 very, very pleased. So,
 
-761
+762
 00:29:07,440 --> 00:29:08,799
 let's talk about how the connections
 
-762
+763
 00:29:08,799 --> 00:29:10,399
 work right now. Mark mentioned a couple
 
-763
+764
 00:29:10,399 --> 00:29:11,919
 of these things earlier, but it's
 
-764
+765
 00:29:11,919 --> 00:29:13,919
 typically in terms of trust on the
 
-765
+766
 00:29:13,919 --> 00:29:15,919
 connection, it's certificates, it's
 
-766
+767
 00:29:15,919 --> 00:29:18,880
 tokens, it's very manual. And often
 
-767
+768
 00:29:18,880 --> 00:29:21,200
 the org identity is assumed not
 
-768
+769
 00:29:21,200 --> 00:29:23,039
 proven. So they have some evidence of
 
-769
+770
 00:29:23,039 --> 00:29:24,880
 who you are, but it's not cryptographic
 
-770
+771
 00:29:24,880 --> 00:29:26,399
 evidence. It's not something that would
 
-771
+772
 00:29:26,399 --> 00:29:29,840
 necessarily hold up in court. And so
 
-772
+773
 00:29:29,840 --> 00:29:32,159
 with this idea that healthcare is the
 
-773
+774
 00:29:32,159 --> 00:29:34,080
 most targeted and that most of those
 
-774
+775
 00:29:34,080 --> 00:29:35,520
 attacks are coming through third
 
-775
+776
 00:29:35,520 --> 00:29:38,320
 parties this is a disaster waiting
 
-776
+777
 00:29:38,320 --> 00:29:40,480
 to happen. So CMS has come in and said
 
-777
+778
 00:29:40,480 --> 00:29:42,000
 you need to stand up these four types of
 
-778
+779
 00:29:42,000 --> 00:29:44,399
 APIs. In reality, what that means is
 
-779
+780
 00:29:44,399 --> 00:29:45,919
 you're going to have thousands, if not
 
-780
+781
 00:29:45,919 --> 00:29:47,520
 hundreds of thousands of new connections
 
-781
+782
 00:29:47,520 --> 00:29:50,000
 coming into the ecosystem. And given
 
-782
+783
 00:29:50,000 --> 00:29:52,720
 that we are already the most targeted,
 
-783
+784
 00:29:52,720 --> 00:29:54,080
 we're just going to make it worse for
 
-784
+785
 00:29:54,080 --> 00:29:56,799
 ourselves because again three-4s of
 
-785
+786
 00:29:56,799 --> 00:29:58,000
 all the attacks are already coming
 
-786
+787
 00:29:58,000 --> 00:29:59,919
 through an outside connection that
 
-787
+788
 00:29:59,919 --> 00:30:03,760
 you have. So let's talk about
 
-788
-00:30:03,760 --> 00:30:06,480
-what fire has done and then we can talk
-
 789
+00:30:03,760 --> 00:30:06,480
+what FHIR has done and then we can talk
+
+790
 00:30:06,480 --> 00:30:08,399
 about what we think still needs to be
 
-790
+791
 00:30:08,399 --> 00:30:11,039
 done. So semantic data again super
 
-791
+792
 00:30:11,039 --> 00:30:12,399
 important that you're all speaking the
 
-792
+793
 00:30:12,399 --> 00:30:14,240
 same language on your data transactions.
 
-793
+794
 00:30:14,240 --> 00:30:17,600
 Real time versus asynchronous.
 
-794
+795
 00:30:17,600 --> 00:30:19,120
 You want something that's lighter. I
 
-795
+796
 00:30:19,120 --> 00:30:20,080
 you want something that's lighter. I
 think they've done a great job with
 
-796
+797
 00:30:20,080 --> 00:30:22,159
 that. The developer access and the
 
-797
+798
 00:30:22,159 --> 00:30:23,840
 discrete element parsing. This is again,
 
-798
-00:30:23,840 --> 00:30:25,520
-I think the biggest one that Fire has
-
 799
+00:30:23,840 --> 00:30:25,520
+I think the biggest one that FHIR has
+
+800
 00:30:25,520 --> 00:30:27,520
 solved. You may disagree with me,
 
-800
+801
 00:30:27,520 --> 00:30:28,799
 Mark. There might be things more
 
-801
+802
 00:30:28,799 --> 00:30:29,840
 important, but I think that's pretty
 
-802
-00:30:29,840 --> 00:30:32,640
-foundational to the value that Fire
-
 803
-00:30:32,640 --> 00:30:36,720
-drives. So really fire fixes today
+00:30:29,840 --> 00:30:32,640
+foundational to the value that FHIR
 
 804
+00:30:32,640 --> 00:30:36,720
+drives. So really FHIR fixes today
+
+805
 00:30:36,720 --> 00:30:38,960
 the how. They do a really good job of
 
-805
+806
 00:30:38,960 --> 00:30:41,039
 how are we going to get data moving back
 
-806
+807
 00:30:41,039 --> 00:30:43,440
 and forth. Sorry, that's a meta
 
-807
+808
 00:30:43,440 --> 00:30:46,720
 alarm. But what it doesn't solve is the
 
-808
+809
 00:30:46,720 --> 00:30:49,919
 who. So right now in the industry,
 
-809
+810
 00:30:49,919 --> 00:30:51,919
 Mitch, what was the last count on Epic
 
-810
+811
 00:30:51,919 --> 00:30:54,960
 lawsuits? Are we up to 15 yet?
 
-811
+812
 00:30:54,960 --> 00:30:55,679
 It's climbing.
 
-812
+813
 00:30:55,679 --> 00:30:57,039
 Yeah. Okay. So, we're we're somewhere
 
-813
+814
 00:30:57,039 --> 00:30:59,120
 between 13 and 15 lawsuits. And that is
 
-814
+815
 00:30:59,120 --> 00:31:01,520
 both Epic suing people and Epic being
 
-815
+816
 00:31:01,520 --> 00:31:02,559
 sued by people.
 
-816
+817
 00:31:02,559 --> 00:31:07,120
 Epic's the largest EHR.
 
-817
+818
 00:31:07,120 --> 00:31:09,279
 Yeah. They're the behemoth in the
 
-818
+819
 00:31:09,279 --> 00:31:11,600
 industry. So essentially what
 
-819
+820
 00:31:11,600 --> 00:31:12,960
 happened, and I'll walk you through
 
-820
+821
 00:31:12,960 --> 00:31:14,000
 this because I actually think it's
 
-821
+822
 00:31:14,000 --> 00:31:16,159
 really interesting, is a small startup
 
-822
+823
 00:31:16,159 --> 00:31:18,559
 called Particle Health sued Epic and
 
-823
+824
 00:31:18,559 --> 00:31:19,760
 basically said, "You're blocking
 
-824
+825
 00:31:19,760 --> 00:31:22,000
 information. We have a right to clinical
 
-825
+826
 00:31:22,000 --> 00:31:23,760
 information through Epic's EMR. We want
 
-826
+827
 00:31:23,760 --> 00:31:25,120
 to be able to treat patients and you're
 
-827
+828
 00:31:25,120 --> 00:31:27,039
 not giving us that info." And so they
 
-828
+829
 00:31:27,039 --> 00:31:28,480
 kicked off this lawsuit that kind of
 
-829
+830
 00:31:28,480 --> 00:31:31,600
 rocked the industry. The response to
 
-830
+831
 00:31:31,600 --> 00:31:34,320
 this was, yes, obviously Epic's taking
 
-831
+832
 00:31:34,320 --> 00:31:35,600
 this with their lawyers in court and
 
-832
+833
 00:31:35,600 --> 00:31:37,760
 they're having discreet arguments there.
 
-833
+834
 00:31:37,760 --> 00:31:40,320
 But in the court of public opinion, Epic
 
-834
+835
 00:31:40,320 --> 00:31:42,799
 decided to go out and sue one of the
 
-835
+836
 00:31:42,799 --> 00:31:45,440
 on-ramps to the networks. So, Particle
 
-836
+837
 00:31:45,440 --> 00:31:46,960
 said, "Hey, you have to give us the
 
-837
+838
 00:31:46,960 --> 00:31:48,240
 data." And in the court of public
 
-838
+839
 00:31:48,240 --> 00:31:50,000
 opinion, Epic said, "We can't give you
 
-839
+840
 00:31:50,000 --> 00:31:51,120
 the data. The networks aren't
 
-840
+841
 00:31:51,120 --> 00:31:52,720
 trustworthy." And so they went and sued
 
-841
+842
 00:31:52,720 --> 00:31:54,000
 Health Gorilla, which is one of these
 
-842
+843
 00:31:54,000 --> 00:31:56,080
 on-ramps into TEFLA, that national
 
-843
+844
 00:31:56,080 --> 00:31:57,679
 exchange framework, and basically
 
-844
+845
 00:31:57,679 --> 00:31:59,200
 alleged that they were letting bad
 
-845
+846
 00:31:59,200 --> 00:32:01,200
 actors onto the network without proper
 
-846
+847
 00:32:01,200 --> 00:32:04,559
 vetting. And so Epic now can kind of
 
-847
+848
 00:32:04,559 --> 00:32:07,919
 hold their virtue in the court of
 
-848
+849
 00:32:07,919 --> 00:32:09,440
 public opinion by saying, "No, no, no.
 
-849
+850
 00:32:09,440 --> 00:32:11,200
 We're not info blocking. We're doing
 
-850
+851
 00:32:11,200 --> 00:32:12,880
 what's right by patients because if we
 
-851
+852
 00:32:12,880 --> 00:32:14,640
 were to put patients data out on these
 
-852
+853
 00:32:14,640 --> 00:32:15,840
 networks, it would be compromised
 
-853
+854
 00:32:15,840 --> 00:32:17,600
 because the networks can't be trusted."
 
-854
+855
 00:32:17,600 --> 00:32:19,279
 And then of course because lawyers
 
-855
+856
 00:32:19,279 --> 00:32:21,279
 get excited, there has been a number of
 
-856
+857
 00:32:21,279 --> 00:32:22,960
 other lawsuits that have all started to
 
-857
+858
 00:32:22,960 --> 00:32:24,559
 spawn out of this same thing. So you've
 
-858
+859
 00:32:24,559 --> 00:32:26,320
 got class action lawsuits that are go
 
-859
+860
 00:32:26,320 --> 00:32:28,720
 now going after Epic because this is a
 
-860
+861
 00:32:28,720 --> 00:32:31,200
 big a big issue. States are suing
 
-861
+862
 00:32:31,200 --> 00:32:33,600
 Epic around this same thing. And at
 
-862
+863
 00:32:33,600 --> 00:32:36,080
 the core of all of these latigious
 
-863
+864
 00:32:36,080 --> 00:32:39,120
 contentions is well can we trust the
 
-864
+865
 00:32:39,120 --> 00:32:42,559
 other side of the ecosystem? And so
 
-865
+866
 00:32:42,559 --> 00:32:44,240
 coming all the way back to the lawsuit
 
-866
+867
 00:32:44,240 --> 00:32:48,000
 that kicked this off, if we could
 
-867
+868
 00:32:48,000 --> 00:32:50,399
 trust the network, then we could
 
-868
+869
 00:32:50,399 --> 00:32:52,240
 actually hold Epic to account and say,
 
-869
+870
 00:32:52,240 --> 00:32:54,000
 "Yeah, you're info blocking. You're just
 
-870
+871
 00:32:54,000 --> 00:32:56,240
 not sharing the data because you don't
 
-871
+872
 00:32:56,240 --> 00:32:57,760
 want to because data is the new oil and
 
-872
+873
 00:32:57,760 --> 00:32:59,679
 because you see a lot of value in owning
 
-873
+874
 00:32:59,679 --> 00:33:02,080
 all of the patient records." But
 
-874
+875
 00:33:02,080 --> 00:33:04,159
 without that trust, we have to get into
 
-875
+876
 00:33:04,159 --> 00:33:07,360
 this incredible and increasing web of
 
-876
+877
 00:33:07,360 --> 00:33:09,760
 litigation trying to solve that problem
 
-877
+878
 00:33:09,760 --> 00:33:12,720
 at scale. So, I said this earlier today,
 
-878
+879
 00:33:12,720 --> 00:33:14,640
 I'll say it again. The question used to
 
-879
+880
 00:33:14,640 --> 00:33:17,360
 be, can we connect? The answer is yes.
 
-880
+881
 00:33:17,360 --> 00:33:19,760
 Now, the question is, can we trust those
 
-881
+882
 00:33:19,760 --> 00:33:22,080
 connections? So this is a slide I
 
-882
+883
 00:33:22,080 --> 00:33:25,120
 also stole from Mark. I did I did
 
-883
+884
 00:33:25,120 --> 00:33:28,320
 beautify it a bit. So but if we are
 
-884
+885
 00:33:28,320 --> 00:33:31,120
 going to get to a place where we can say
 
-885
+886
 00:33:31,120 --> 00:33:33,360
 yes to the question of trust and
 
-886
+887
 00:33:33,360 --> 00:33:35,519
 connections we really need a couple of
 
-887
+888
 00:33:35,519 --> 00:33:39,039
 things. We need first to have a
 
-888
+889
 00:33:39,039 --> 00:33:41,039
 organizational binding to the
 
-889
+890
 00:33:41,039 --> 00:33:43,039
 individuals in that organization be they
 
-890
+891
 00:33:43,039 --> 00:33:46,159
 people or entities. You have to be
 
-891
+892
 00:33:46,159 --> 00:33:48,320
 able to delegate and prove delegated
 
-892
+893
 00:33:48,320 --> 00:33:49,679
 access and authority to those
 
-893
+894
 00:33:49,679 --> 00:33:51,440
 individuals. And then you have to be
 
-894
+895
 00:33:51,440 --> 00:33:54,240
 able to particularly in healthcare scope
 
-895
+896
 00:33:54,240 --> 00:33:56,559
 down their access to just the minimum
 
-896
+897
 00:33:56,559 --> 00:33:58,399
 needed the purpose of use for that
 
-897
+898
 00:33:58,399 --> 00:34:00,320
 particular connection. If you can do all
 
-898
+899
 00:34:00,320 --> 00:34:01,840
 of those things, you can bind them
 
-899
+900
 00:34:01,840 --> 00:34:04,399
 together cryptographically then you can
 
-900
+901
 00:34:04,399 --> 00:34:08,159
 get to yes we can trust the connections.
 
-901
+902
 00:34:08,159 --> 00:34:10,800
 Now how do we get to that trusted
 
-902
+903
 00:34:10,800 --> 00:34:12,079
 onboarding the connections
 
-903
+904
 00:34:12,079 --> 00:34:13,359
 themselves? It's these pillars down
 
-904
+905
 00:34:13,359 --> 00:34:14,320
 here. You need something that's
 
-905
+906
 00:34:14,320 --> 00:34:17,280
 verifiable, auditable, automated, secure
 
-906
+907
 00:34:17,280 --> 00:34:20,159
 and open. And if you think of a you know
 
-907
+908
 00:34:20,159 --> 00:34:21,839
 there may be an open source open
 
-908
+909
 00:34:21,839 --> 00:34:23,919
 standard protocol that was invented
 
-909
+910
 00:34:23,919 --> 00:34:25,839
 by someone in this room may actually fit
 
-910
+911
 00:34:25,839 --> 00:34:28,879
 the bill for this. In fact this
 
-911
+912
 00:34:28,879 --> 00:34:31,200
 may be me right now. If you understand
 
-912
+913
 00:34:31,200 --> 00:34:32,879
 KERI I think you know where this
 
-913
+914
 00:34:32,879 --> 00:34:36,000
 starts to go. We want to build and we
 
-914
+915
 00:34:36,000 --> 00:34:38,320
 talked about this earlier today. A
 
-915
+916
 00:34:38,320 --> 00:34:40,879
 trust equity framework or connectedness
 
-916
+917
 00:34:40,879 --> 00:34:44,639
 at trust. This is a diagram I
 
-917
+918
 00:34:44,639 --> 00:34:47,200
 entirely came up with myself. Phil gave
 
-918
+919
 00:34:47,200 --> 00:34:50,159
 no commentary on this at all. He didn't
 
-919
+920
 00:34:50,159 --> 00:34:52,159
 No, I'm just kidding. This is Phil's
 
-920
+921
 00:34:52,159 --> 00:34:55,200
 diagram for really how VC KERI and
 
-921
+922
 00:34:55,200 --> 00:34:57,920
 in particular the vLEI participating in
 
-922
+923
 00:34:57,920 --> 00:34:59,680
 an ecosystem where we can start to
 
-923
+924
 00:34:59,680 --> 00:35:01,839
 answer that question of can we trust the
 
-924
+925
 00:35:01,839 --> 00:35:03,920
 connection. So it starts with the
 
-925
+926
 00:35:03,920 --> 00:35:05,839
 trust anchors. Yeah, go ahead. Okay,
 
-926
+927
 00:35:05,839 --> 00:35:07,839
 I'll go super quick. It starts with
 
-927
+928
 00:35:07,839 --> 00:35:09,839
 the trust anchors which for the vLEI is
 
-928
+929
 00:35:09,839 --> 00:35:12,480
 GLEIF. VC DirectTrust playing a
 
-929
+930
 00:35:12,480 --> 00:35:14,640
 huge role in this in terms of
 
-930
+931
 00:35:14,640 --> 00:35:17,599
 translation of global standards into
 
-931
+932
 00:35:17,599 --> 00:35:20,160
 value for individual ecosystems like
 
-932
+933
 00:35:20,160 --> 00:35:22,400
 healthcare. And then obviously SEDI
 
-933
+934
 00:35:22,400 --> 00:35:23,760
 because this is all built on the same
 
-934
+935
 00:35:23,760 --> 00:35:25,920
 stack plays very nicely with the rest of
 
-935
+936
 00:35:25,920 --> 00:35:27,920
 this. So the way that the BAI stack
 
-936
+937
 00:35:27,920 --> 00:35:30,079
 works is they are the Root of Trust.
 
-937
+938
 00:35:30,079 --> 00:35:32,320
 They create what are called QVIS that
 
-938
+939
 00:35:32,320 --> 00:35:34,480
 issue a credential to organizations.
 
-939
+940
 00:35:34,480 --> 00:35:36,800
 That credential is called the vLEI. Once
 
-940
+941
 00:35:36,800 --> 00:35:38,960
 you have your VI, you can start to issue
 
-941
+942
 00:35:38,960 --> 00:35:41,520
 credentials off of that vLEI to
 
-942
+943
 00:35:41,520 --> 00:35:43,280
 individuals or entities within the
 
-943
+944
 00:35:43,280 --> 00:35:45,839
 organization. And again, all of this
 
-944
+945
 00:35:45,839 --> 00:35:48,400
 is cryptographically attestable all the
 
-945
+946
 00:35:48,400 --> 00:35:50,320
 way back to the Root of Trust. So, I now
 
-946
+947
 00:35:50,320 --> 00:35:53,680
 know who you are, who you work for.
 
-947
+948
 00:35:53,680 --> 00:35:55,760
 In particular, I know what you're
 
-948
+949
 00:35:55,760 --> 00:35:57,440
 in particular, I know what you're
 doing, which is where DirectTrust comes
 
-949
+950
 00:35:57,440 --> 00:35:59,440
 in. And it's the right things to be
 
-950
+951
 00:35:59,440 --> 00:36:02,400
 doing. And that you are chained back to
 
-951
+952
 00:36:02,400 --> 00:36:04,640
 GLEIF as a Root of Trust. So, super
 
-952
+953
 00:36:04,640 --> 00:36:08,560
 important. the end result is we can
 
-953
+954
 00:36:08,560 --> 00:36:12,400
 move from an ecosystem where connections
 
-954
+955
 00:36:12,400 --> 00:36:15,200
 take you know weeks to a day or two and
 
-955
+956
 00:36:15,200 --> 00:36:17,119
 like you said earlier today Mark the
 
-956
+957
 00:36:17,119 --> 00:36:18,800
 actual technical lift on this takes
 
-957
+958
 00:36:18,800 --> 00:36:21,280
 minutes it's going to be a day or two to
 
-958
+959
 00:36:21,280 --> 00:36:23,599
 get the emails you know coordinated
 
-959
+960
 00:36:23,599 --> 00:36:25,440
 right that's all the lift that has
 
-960
+961
 00:36:25,440 --> 00:36:27,760
 to happen on these and we drop those
 
-961
+962
 00:36:27,760 --> 00:36:32,240
 costs down by 75% or greater per
 
-962
+963
 00:36:32,240 --> 00:36:34,720
 connection the result is of course that
 
-963
+964
 00:36:34,720 --> 00:36:37,280
 If we take away the attacker's favorite
 
-964
+965
 00:36:37,280 --> 00:36:39,680
 toy in this industry, they will move on
 
-965
+966
 00:36:39,680 --> 00:36:41,200
 to other industries. They will find
 
-966
+967
 00:36:41,200 --> 00:36:43,359
 another place to go and do compromises
 
-967
+968
 00:36:43,359 --> 00:36:45,359
 because the third party attack that is
 
-968
+969
 00:36:45,359 --> 00:36:48,000
 so common and prevalent today no longer
 
-969
+970
 00:36:48,000 --> 00:36:52,560
 An issue. So what do VC? We
 
-970
+971
 00:36:52,560 --> 00:36:55,599
 see a future where the question of can
 
-971
+972
 00:36:55,599 --> 00:36:58,240
 we trust this connection is answered by
 
-972
+973
 00:36:58,240 --> 00:37:00,800
 KERI through the VLE. So as you
 
-973
-00:37:00,800 --> 00:37:03,119
-incorporate the vLEI into the fire
-
 974
+00:37:00,800 --> 00:37:03,119
+incorporate the vLEI into the FHIR
+
+975
 00:37:03,119 --> 00:37:05,680
 standard, as you start to build network
 
-975
+976
 00:37:05,680 --> 00:37:08,000
 interoperability standards that require
 
-976
+977
 00:37:08,000 --> 00:37:10,160
 organizational ID, then you get to a
 
-977
+978
 00:37:10,160 --> 00:37:12,480
 place where you can start to say yes,
 
-978
+979
 00:37:12,480 --> 00:37:14,640
 the connection is trusted. And more than
 
-979
+980
 00:37:14,640 --> 00:37:17,200
 that, you can start to automate
 
-980
+981
 00:37:17,200 --> 00:37:18,720
 connectivity across multiple
 
-981
+982
 00:37:18,720 --> 00:37:20,800
 organizations. The initiative that
 
-982
+983
 00:37:20,800 --> 00:37:22,000
 we've kicked off for this is called the
 
-983
+984
 00:37:22,000 --> 00:37:24,400
 vital initiative. It's backed by
 
-984
+985
 00:37:24,400 --> 00:37:26,560
 Caroline's DirectTrust and GLEIF.
 
-985
+986
 00:37:26,560 --> 00:37:28,400
 This is this is a group that's come
 
-986
-00:37:28,400 --> 00:37:29,920
+987
+00:37:28,400 --> 00:37:29,148
 this is this is a group that's come
+
+988
+00:37:29,172 --> 00:37:29,920
 together and said yes, VC this as a
 
-987
+989
 00:37:29,920 --> 00:37:31,920
 problem. We want to get this solved.
 
-988
+990
 00:37:31,920 --> 00:37:34,240
 So I'll stop there. What questions do
 
-989
+991
 00:37:34,240 --> 00:37:37,750
 so I'll stop there. What questions do
 you have for me?
 
-990
+992
 00:37:38,470 --> 00:37:41,200
 Yeah.
 So when
 
-991
+993
 00:37:41,200 --> 00:37:43,359
-I'm writing up and I'm making fire end
+I'm writing up and I'm making FHIR end
 
-992
+994
 00:37:43,359 --> 00:37:46,640
 points to Epic. So do you foresee this
 
-993
+995
 00:37:46,640 --> 00:37:50,079
 protocol or this trust layer being the
 
-994
+996
 00:37:50,079 --> 00:37:53,119
-the inter intermediary in that fire
+the inter intermediary in that FHIR
 
-995
+997
 00:37:53,119 --> 00:37:56,000
 call or is it a
 
-996
+998
 00:37:56,000 --> 00:37:57,520
 I'm trying to understand at what level
 
-997
+999
 00:37:57,520 --> 00:38:00,000
 do you actually implement this?
 
-998
+1000
 00:38:00,000 --> 00:38:02,240
 Yeah. So we would we would see it as
 
-999
+1001
 00:38:02,240 --> 00:38:06,160
-embedded within the fire API the call
+embedded within the FHIR API the call
 
-1000
+1002
 00:38:06,160 --> 00:38:08,160
 itself. So every time you reach out and
 
-1001
+1003
 00:38:08,160 --> 00:38:09,680
 call basically you're doing a credential
 
-1002
+1004
 00:38:09,680 --> 00:38:10,960
 presentation. You're saying this is my
 
-1003
+1005
 00:38:10,960 --> 00:38:13,839
 VI and any of the relevant engagement
 
-1004
+1006
 00:38:13,839 --> 00:38:15,920
 context RO credentials underneath that
 
-1005
+1007
 00:38:15,920 --> 00:38:19,599
 that say I am Etna. I'm the CIS admin
 
-1006
+1008
 00:38:19,599 --> 00:38:22,000
 there and I have a purpose of use for
 
-1007
+1009
 00:38:22,000 --> 00:38:23,440
 payer-to-payer connectivity. And all of
 
-1008
+1010
 00:38:23,440 --> 00:38:25,040
 that is cryptographically handed to you
 
-1009
+1011
 00:38:25,040 --> 00:38:27,119
 as you establish the connection and then
 
-1010
+1012
 00:38:27,119 --> 00:38:29,520
-the data flows through a typical fire
+the data flows through a typical FHIR
 
-1011
+1013
 00:38:29,520 --> 00:38:30,480
 API.
 
-1012
+1014
 00:38:30,480 --> 00:38:34,960
 What about from the clinical parts
 
-1013
+1015
 00:38:34,960 --> 00:38:35,839
 for
 
-1014
+1016
 00:38:35,839 --> 00:38:38,480
 so the next step for us really so this
 
-1015
+1017
 00:38:38,480 --> 00:38:42,320
 this is the simplest version right we're
 
-1016
+1018
 00:38:42,320 --> 00:38:44,160
 trying to get to just can we prove to
 
-1017
+1019
 00:38:44,160 --> 00:38:46,240
 the payers that they can connect here
 
-1018
+1020
 00:38:46,240 --> 00:38:47,680
 the next step I think you're absolutely
 
-1019
+1021
 00:38:47,680 --> 00:38:49,920
 correct is to say can we get this to the
 
-1020
+1022
 00:38:49,920 --> 00:38:51,760
 providers right and that becomes a much
 
-1021
+1023
 00:38:51,760 --> 00:38:54,560
 more complicated individual
 
-1022
+1024
 00:38:54,560 --> 00:38:57,680
 identity but you end up having to you
 
-1023
+1025
 00:38:57,680 --> 00:38:59,200
 know a provider can work at three
 
-1024
+1026
 00:38:59,200 --> 00:39:01,200
 different places so what's the context
 
-1025
+1027
 00:39:01,200 --> 00:39:03,440
 in which they're operating so that's
 
-1026
+1028
 00:39:03,440 --> 00:39:06,880
 where the VI with a purpose of use tied
 
-1027
+1029
 00:39:06,880 --> 00:39:09,200
 to a digital identity would be able to
 
-1028
+1030
 00:39:09,200 --> 00:39:12,960
 say because you're working for Beth
 
-1029
+1031
 00:39:12,960 --> 00:39:16,320
 Israel as a as a provider that yes you
 
-1030
+1032
 00:39:16,320 --> 00:39:18,400
 can request data about this patient
 
-1031
+1033
 00:39:18,400 --> 00:39:20,160
 you're treating
 
-1032
+1034
 00:39:20,160 --> 00:39:22,400
 yeah and there's there's going to be I
 
-1033
+1035
 00:39:22,400 --> 00:39:25,359
 anticipate there will be a large
 
-1034
+1036
 00:39:25,359 --> 00:39:27,839
 Fruitful discussion in the future
 
-1035
+1037
 00:39:27,839 --> 00:39:30,240
 around how we do credentiing for
 
-1036
+1038
 00:39:30,240 --> 00:39:33,200
 providers using things like this.
 
-1037
+1039
 00:39:33,200 --> 00:39:36,079
 Right now there's a there's a very
 
-1038
+1040
 00:39:36,079 --> 00:39:37,920
 right now there's a there's a very
 very expensive rent seeking happening
 
-1039
+1041
 00:39:37,920 --> 00:39:39,119
 which is the American Medical
 
-1040
+1042
 00:39:39,119 --> 00:39:41,440
 Association gets $300 million a year
 
-1041
+1043
 00:39:41,440 --> 00:39:44,560
 just issuing credentials to providers
 
-1042
+1044
 00:39:44,560 --> 00:39:46,960
 to provide care. And like we heard
 
-1043
+1045
 00:39:46,960 --> 00:39:49,680
 earlier today oftentimes that can take a
 
-1044
+1046
 00:39:49,680 --> 00:39:52,079
 couple of weeks to get things done. So,
 
-1045
+1047
 00:39:52,079 --> 00:39:57,079
 okay. And we are at time. So, thank you
 

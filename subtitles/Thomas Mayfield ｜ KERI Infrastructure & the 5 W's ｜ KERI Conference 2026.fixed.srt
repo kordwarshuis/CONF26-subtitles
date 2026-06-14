@@ -1,2987 +1,2992 @@
 1
-00:00:07,510 --> 00:00:10,880
-All right,
-good afternoon almost. My name is
+00:00:04,742 --> 00:00:05,920
+All right.
 
 2
+00:00:07,406 --> 00:00:10,880
+Good afternoon almost. My name is
+
+3
 00:00:10,880 --> 00:00:12,880
 Thomas Mayfield. I'm here from the
 
-3
+4
 00:00:12,880 --> 00:00:15,280
 Cardano Foundation. And I'm going to
 
-4
+5
 00:00:15,280 --> 00:00:18,080
 be speaking today about Veridian. And
 
-5
+6
 00:00:18,080 --> 00:00:21,199
 usually when I'm in front of this
 
-6
+7
 00:00:21,199 --> 00:00:23,119
 majority of this group of people, I am
 
-7
+8
 00:00:23,119 --> 00:00:25,760
 demonstrating what we've been building.
 
-8
+9
 00:00:25,760 --> 00:00:27,920
 But today I have the honor of actually
 
-9
-00:00:27,920 --> 00:00:30,560
-providing a bit more of a ational or
-
 10
+00:00:27,920 --> 00:00:30,560
+providing a bit more of a educational or
+
+11
 00:00:30,560 --> 00:00:40,229
 academic. Is it not loud enough Jared?
 
-11
-00:00:45,030 --> 00:00:46,879
+12
+00:00:40,254 --> 00:00:45,660
 Testing better. Excellent. Okay.
+
+13
+00:00:45,685 --> 00:00:46,879
 So my name is Thomas Mayfield. I'm
 
-12
+14
 00:00:46,879 --> 00:00:49,120
 from the Cardano Foundation. And I'm
 
-13
+15
 00:00:49,120 --> 00:00:50,559
 here going to be speaking a bit about
 
-14
+16
 00:00:50,559 --> 00:00:52,960
 Veridian. And usually when I'm in
 
-15
+17
 00:00:52,960 --> 00:00:54,399
-front of this group of people, I'm I'm
+front of this group of people, I'm
 
-16
+18
 00:00:54,399 --> 00:00:56,079
 demonstrating the tech that we've been
 
-17
+19
 00:00:56,079 --> 00:00:58,160
 building at the Cardano Foundation.
 
-18
+20
 00:00:58,160 --> 00:00:59,840
 But today I have the honor of actually
 
-19
-00:00:59,840 --> 00:01:01,680
-but today I have the honor of actually
+21
+00:00:59,865 --> 00:01:01,680
 providing a bit more of an educational
 
-20
+22
 00:01:01,680 --> 00:01:04,479
 overview of KERI and more
 
-21
+23
 00:01:04,479 --> 00:01:06,720
 specifically speaking about the
 
-22
+24
 00:01:06,720 --> 00:01:09,200
 concept of the five Ws. I will
 
-23
+25
 00:01:09,200 --> 00:01:11,920
 intertwine elements of Veridian throughout
 
-24
+26
 00:01:11,920 --> 00:01:14,640
 the talk. But I think the majority of
 
-25
+27
 00:01:14,640 --> 00:01:16,799
 this audience, it's probably going to be
 
-26
+28
 00:01:16,799 --> 00:01:18,880
 Already content you're very familiar
 
-27
+29
 00:01:18,880 --> 00:01:21,200
 with, but hopefully for the viewers that
 
-28
+30
 00:01:21,200 --> 00:01:22,720
 are going to be watching this online and
 
-29
+31
 00:01:22,720 --> 00:01:24,640
 at home it's a bit more of an
 
-30
+32
 00:01:24,640 --> 00:01:27,360
 informative content for them.
 
-31
+33
 00:01:27,360 --> 00:01:29,360
 I'm going to put my timer on so that way
 
-32
+34
 00:01:29,360 --> 00:01:32,799
 Henk doesn't have to give me a reminder.
 
-33
+35
 00:01:32,799 --> 00:01:34,000
 All right. So, today I'm going to walk
 
-34
+36
 00:01:34,000 --> 00:01:35,759
 you through the KERI infrastructure
 
-35
+37
 00:01:35,759 --> 00:01:38,640
 using a framework known as the five W's.
 
-36
+38
 00:01:38,640 --> 00:01:41,759
 Wallet, witness, watcher, web, and
 
-37
+39
 00:01:41,759 --> 00:01:44,000
 wizard. And by the end of this talk,
 
-38
+40
 00:01:44,000 --> 00:01:45,759
 you'll understand not just what each of
 
-39
+41
 00:01:45,759 --> 00:01:47,680
 these roles are, but how they work
 
-40
+42
 00:01:47,680 --> 00:01:50,560
 together as a system and also how Veridian
 
-41
+43
 00:01:50,560 --> 00:01:53,520
 is building all of this in the open. So,
 
-42
+44
 00:01:53,520 --> 00:01:56,640
 let's start with the problem. Digital
 
-43
+45
 00:01:56,640 --> 00:01:59,360
 identity today is borrowed. When you
 
-44
+46
 00:01:59,360 --> 00:02:01,840
 create an account, get a credential or
 
-45
+47
 00:02:01,840 --> 00:02:03,840
 receive a certificate. You don't
 
-46
+48
 00:02:03,840 --> 00:02:07,840
 actually own it. The issuer does, the
 
-47
+49
 00:02:07,840 --> 00:02:11,520
 registry does, or the platform does. And
 
-48
+50
 00:02:11,520 --> 00:02:14,080
 if that platform shuts down, that
 
-49
+51
 00:02:14,080 --> 00:02:17,040
 registry gets compromised or that issuer
 
-50
+52
 00:02:17,040 --> 00:02:19,440
 revokes access, your identity
 
-51
+53
 00:02:19,440 --> 00:02:22,319
 effectively disappears with it.
 
-52
+54
 00:02:22,319 --> 00:02:25,040
 You are effectively a tenant, not an
 
-53
+55
 00:02:25,040 --> 00:02:28,000
 owner of your digital identity. But
 
-54
+56
 00:02:28,000 --> 00:02:31,360
 KERI changes this. With KERI, your
 
-55
+57
 00:02:31,360 --> 00:02:33,519
 identity is rooted in cryptographic keys
 
-56
+58
 00:02:33,519 --> 00:02:37,519
 that you control. No registry needed, no
 
-57
+59
 00:02:37,519 --> 00:02:39,599
 platform dependency.
 
-58
+60
 00:02:39,599 --> 00:02:42,640
 It's portable, verifiable,
 
-59
+61
 00:02:42,640 --> 00:02:45,360
 and it is yours.
 
-60
+62
 00:02:45,360 --> 00:02:48,800
 So what is KERI exactly?
 
-61
+63
 00:02:48,800 --> 00:02:50,720
 And I don't think anyone's actually said
 
-62
+64
 00:02:50,720 --> 00:02:54,959
 the acronym and in the last few days.
 
-63
+65
 00:02:54,959 --> 00:02:58,000
 So KERI stands for key event receipt
 
-64
+66
 00:02:58,000 --> 00:03:00,560
 infrastructure and there are three core
 
-65
+67
 00:03:00,560 --> 00:03:03,680
 concepts that make this work. The first
 
-66
+68
 00:03:03,680 --> 00:03:06,959
 is self-certifying identifiers
 
-67
+69
 00:03:06,959 --> 00:03:08,640
 and what this means is that your
 
-68
+70
 00:03:08,640 --> 00:03:11,519
 identifier is derived directly from your
 
-69
+71
 00:03:11,519 --> 00:03:14,480
 cryptographic keys. There is no registry
 
-70
+72
 00:03:14,480 --> 00:03:16,720
 or registrar that grants you your
 
-71
+73
 00:03:16,720 --> 00:03:18,400
 identity.
 
-72
+74
 00:03:18,400 --> 00:03:20,879
 The second concept is that every
 
-73
+75
 00:03:20,879 --> 00:03:23,040
 critical action you take with that
 
-74
+76
 00:03:23,040 --> 00:03:26,000
 identifier, such as creating it or
 
-75
+77
 00:03:26,000 --> 00:03:28,000
 rotation those controlling cryptographic
 
-76
+78
 00:03:28,000 --> 00:03:30,879
 keys, all of these critical events are
 
-77
+79
 00:03:30,879 --> 00:03:33,840
 signed and chained into a tamperevident
 
-78
+80
 00:03:33,840 --> 00:03:35,360
 log.
 
-79
+81
 00:03:35,360 --> 00:03:38,400
 And the third concept is everyone can
 
-80
+82
 00:03:38,400 --> 00:03:41,200
 verify your identity by replaying the
 
-81
+83
 00:03:41,200 --> 00:03:44,319
 same tamper evident log. There is no
 
-82
+84
 00:03:44,319 --> 00:03:47,120
 need for phone home to a central
 
-83
+85
 00:03:47,120 --> 00:03:49,599
 repository or authority. And if you'd
 
-84
+86
 00:03:49,599 --> 00:03:51,920
 like to understand a bit more about no
 
-85
+87
 00:03:51,920 --> 00:03:53,840
 phone home, I encourage you to visi to
 
-86
+88
 00:03:53,840 --> 00:03:56,159
 visit nophonehome.com
 
-87
+89
 00:03:56,159 --> 00:03:58,879
 and you can read a bit more about this.
 
-88
+90
 00:03:58,879 --> 00:04:02,080
 So this combination of concepts, this is
 
-89
+91
 00:04:02,080 --> 00:04:04,080
 what gives us something that no other
 
-90
+92
 00:04:04,080 --> 00:04:06,640
 identity system achieves and that is
 
-91
+93
 00:04:06,640 --> 00:04:10,480
 truly portable trust.
 
-92
+94
 00:04:10,480 --> 00:04:12,480
 So let's make this concrete. In KERI,
 
-93
+95
 00:04:12,480 --> 00:04:14,560
 your identifier is called an autonomic
 
-94
+96
 00:04:14,560 --> 00:04:17,359
 identifier or an AID. And this is a
 
-95
+97
 00:04:17,359 --> 00:04:19,120
 cryptographic identifier that you
 
-96
+98
 00:04:19,120 --> 00:04:21,519
 generate. Its authority comes from the
 
-97
+99
 00:04:21,519 --> 00:04:24,800
 keys that you made. And no one else or
 
-98
+100
 00:04:24,800 --> 00:04:27,919
 entity issues that to you. Every
 
-99
+101
 00:04:27,919 --> 00:04:30,880
 significant action that the AID conducts
 
-100
+102
 00:04:30,880 --> 00:04:33,680
 gets recorded in a Key Event Log and
 
-101
+103
 00:04:33,680 --> 00:04:36,080
 that is called a KEL.
 
-102
+104
 00:04:36,080 --> 00:04:37,840
 Your inception event, this is when you
 
-103
+105
 00:04:37,840 --> 00:04:40,639
 create your AID. the rotation events
 
-104
+106
 00:04:40,639 --> 00:04:42,479
 that change the AID's controlling
 
-105
+107
 00:04:42,479 --> 00:04:45,040
 cryptographic keys or interaction events
 
-106
+108
 00:04:45,040 --> 00:04:46,800
 that anchor data that is critical to
 
-107
+109
 00:04:46,800 --> 00:04:49,759
 your AID. Each and every event is
 
-108
+110
 00:04:49,759 --> 00:04:54,310
 cryptographically signed.
 
-109
+111
 00:04:55,510 --> 00:04:57,360
 Each and every event is
 cryptographically signed with the
 
-110
+112
 00:04:57,360 --> 00:04:59,440
 previous one. And this is what creates a
 
-111
+113
 00:04:59,440 --> 00:05:02,800
 tamper evident chain. If anyone alters a
 
-112
+114
 00:05:02,800 --> 00:05:04,400
 single event in this chain, the
 
-113
+115
 00:05:04,400 --> 00:05:06,560
 signatures break and the tampering is
 
-114
+116
 00:05:06,560 --> 00:05:09,360
 immediately detectable.
 
-115
+117
 00:05:09,360 --> 00:05:10,880
 If you're familiar with blockchain
 
-116
+118
 00:05:10,880 --> 00:05:12,960
 technology, this is the same hashchain
 
-117
+119
 00:05:12,960 --> 00:05:15,440
 data structure that makes blockchain
 
-118
+120
 00:05:15,440 --> 00:05:19,360
 secure or immutable.
 
-119
+121
 00:05:19,360 --> 00:05:21,440
 Now that you understand the foundations,
 
-120
+122
 00:05:21,440 --> 00:05:23,440
 AIDs and kels, let's talk about the
 
-121
+123
 00:05:23,440 --> 00:05:25,120
 infrastructure that makes it all work at
 
-122
+124
 00:05:25,120 --> 00:05:27,520
 scale. And we've organized these into
 
-123
+125
 00:05:27,520 --> 00:05:29,919
 five roles. And conveniently, Sam has
 
-124
+126
 00:05:29,919 --> 00:05:32,400
 started them all with a letter W. So,
 
-125
+127
 00:05:32,400 --> 00:05:35,120
 let's move on to the wallet. And this is
 
-126
+128
 00:05:35,120 --> 00:05:37,280
 where your identity lives. It's the
 
-127
+129
 00:05:37,280 --> 00:05:39,919
 holder's home. The wallet generates and
 
-128
+130
 00:05:39,919 --> 00:05:42,080
 rotates the cryptographic keys. It
 
-129
+131
 00:05:42,080 --> 00:05:44,479
 stores the verifiable credentials in
 
-130
+132
 00:05:44,479 --> 00:05:46,800
 KERI. These are known as ACDCs. We'll
 
-131
+133
 00:05:46,800 --> 00:05:49,039
 talk a bit about this later. The wallet
 
-132
+134
 00:05:49,039 --> 00:05:51,199
 signs, presentations, and interaction
 
-133
+135
 00:05:51,199 --> 00:05:53,759
 events. And it collects all of this and
 
-134
+136
 00:05:53,759 --> 00:05:55,360
 it combines all of this with device
 
-135
+137
 00:05:55,360 --> 00:05:57,280
 grade security. This includes
 
-136
+138
 00:05:57,280 --> 00:05:59,759
 biometrics, your enclaves, and anything
 
-137
+139
 00:05:59,759 --> 00:06:01,680
 else that occurs on the hardware device
 
-138
+140
 00:06:01,680 --> 00:06:04,479
 itself. The key insights here are the
 
-139
+141
 00:06:04,479 --> 00:06:06,319
 wallet is the only component that the
 
-140
+142
 00:06:06,319 --> 00:06:09,039
 holder directly controls. The vital
 
-141
+143
 00:06:09,039 --> 00:06:11,360
 functions of the wallet in KERI are key
 
-142
+144
 00:06:11,360 --> 00:06:14,240
 management and signing.
 
-143
+145
 00:06:14,240 --> 00:06:16,080
 At Veridian, we've built an open source
 
-144
+146
 00:06:16,080 --> 00:06:17,759
 mobile first KERI wallet that is
 
-145
+147
 00:06:17,759 --> 00:06:19,680
 production ready and available today.
 
-146
+148
 00:06:19,680 --> 00:06:21,840
 You can download that from the Apple iOS
 
-147
+149
 00:06:21,840 --> 00:06:24,080
 stores as well as Android Play Store.
 
-148
+150
 00:06:24,080 --> 00:06:26,720
 and it is also available on the privacy
 
-149
+151
 00:06:26,720 --> 00:06:32,150
 preserving operating system graphine OS.
 
-150
+152
 00:06:35,110 --> 00:06:36,800
 Witnesses are the second W in the 5W
 framework.
 
-151
+153
 00:06:36,800 --> 00:06:38,720
 They are designated services that
 
-152
+154
 00:06:38,720 --> 00:06:41,199
 receive, sign, and republish your key
 
-153
+155
 00:06:41,199 --> 00:06:43,600
 events. You can think of these as
 
-154
+156
 00:06:43,600 --> 00:06:46,800
 notaries for your KEL.
 
-155
+157
 00:06:46,800 --> 00:06:48,479
 They give your event log a highly
 
-156
+158
 00:06:48,479 --> 00:06:50,639
 available home so verifiers can access
 
-157
+159
 00:06:50,639 --> 00:06:53,280
 it when your wallet is offline. They
 
-158
+160
 00:06:53,280 --> 00:06:56,080
 produce receipts that prove the specific
 
-159
+161
 00:06:56,080 --> 00:06:58,800
 event has been seen at a specific time.
 
-160
+162
 00:06:58,800 --> 00:07:00,720
 And through redundancy of these
 
-161
+163
 00:07:00,720 --> 00:07:05,520
 witnesses, we can resist censorship.
 
-162
+164
 00:07:05,520 --> 00:07:08,639
 Critically, you choose your witnesses.
 
-163
+165
 00:07:08,639 --> 00:07:11,199
 They are not selected or imposed by the
 
-164
+166
 00:07:11,199 --> 00:07:14,319
 system on you. And at Veridian, we operate
 
-165
+167
 00:07:14,319 --> 00:07:16,800
 witness pools that you can use directly
 
-166
+168
 00:07:16,800 --> 00:07:18,639
 or you can host yourself in your own
 
-167
+169
 00:07:18,639 --> 00:07:21,280
 infrastructure.
 
-168
+170
 00:07:21,280 --> 00:07:24,560
 The third W is the watcher.
 
-169
+171
 00:07:24,560 --> 00:07:27,280
 Watchers are independent observers. They
 
-170
+172
 00:07:27,280 --> 00:07:30,000
 are critical to KERI.
 
-171
+173
 00:07:30,000 --> 00:07:33,039
 Their job is to detect duplicity,
 
-172
+174
 00:07:33,039 --> 00:07:35,680
 meaning they catch anyone who is trying
 
-173
+175
 00:07:35,680 --> 00:07:38,240
 to present two conflicting versions of
 
-174
+176
 00:07:38,240 --> 00:07:41,280
 the same Key Event Log.
 
-175
+177
 00:07:41,280 --> 00:07:43,680
 This is KERI's answer to the double spend
 
-176
+178
 00:07:43,680 --> 00:07:46,720
 problem that you have in blockchain.
 
-177
+179
 00:07:46,720 --> 00:07:49,520
 But they do it for identity.
 
-178
+180
 00:07:49,520 --> 00:07:51,520
 Watchers give verifiers confidence that
 
-179
+181
 00:07:51,520 --> 00:07:54,080
 the state they are seeing is the latest
 
-180
+182
 00:07:54,080 --> 00:07:56,960
 legitimate state of an identifier.
 
-181
+183
 00:07:56,960 --> 00:07:59,360
 They run separately from issuers and
 
-182
+184
 00:07:59,360 --> 00:08:01,919
 holders which means they are truly
 
-183
+185
 00:08:01,919 --> 00:08:04,639
 independent.
 
-184
+186
 00:08:04,639 --> 00:08:08,240
 This is what turns trust me into check
 
-185
+187
 00:08:08,240 --> 00:08:12,400
 for yourself or verify for yourself. And
 
-186
+188
 00:08:12,400 --> 00:08:14,160
 at Veridian, we are deploying highly
 
-187
+189
 00:08:14,160 --> 00:08:15,599
 available watcher infrastructure
 
-188
+190
 00:08:15,599 --> 00:08:17,120
 services in the second half of this
 
-189
+191
 00:08:17,120 --> 00:08:20,000
 year. And I would be remiss if I did not
 
-190
+192
 00:08:20,000 --> 00:08:23,440
 pay attention and show gratitude to the
 
-191
+193
 00:08:23,440 --> 00:08:26,080
 healthKERI for releasing the watcher and
 
-192
+194
 00:08:26,080 --> 00:08:34,550
 wallets to open source.
 
-193
+195
 00:08:37,509 --> 00:08:39,599
 The fourth W is web.
 This is the discovery and transport
 
-194
+196
 00:08:39,599 --> 00:08:42,640
 layer of KERI. This is how parties find
 
-195
+197
 00:08:42,640 --> 00:08:44,959
 one another and how they exchange events
 
-196
+198
 00:08:44,959 --> 00:08:47,600
 and credentials and they do so through
 
-197
+199
 00:08:47,600 --> 00:08:50,560
 something known as an OOBI. This is an
 
-198
+200
 00:08:50,560 --> 00:08:53,200
 outofband introduction. You can think of
 
-199
+201
 00:08:53,200 --> 00:08:55,600
 these as sharable links that bootstrap
 
-200
+202
 00:08:55,600 --> 00:08:58,480
 trust between parties.
 
-201
+203
 00:08:58,480 --> 00:09:00,399
 Effectively, these can also be assumed
 
-202
+204
 00:09:00,399 --> 00:09:03,040
 to be QR codes that establish an initial
 
-203
+205
 00:09:03,040 --> 00:09:05,920
 connection and from there mailboxes and
 
-204
+206
 00:09:05,920 --> 00:09:07,839
 endpoints handle the messaging moving
 
-205
+207
 00:09:07,839 --> 00:09:10,560
 forward. The design of KERI is
 
-206
+208
 00:09:10,560 --> 00:09:12,959
 transport agnostic.
 
-207
+209
 00:09:12,959 --> 00:09:16,240
 So today it runs over HTTP, but the
 
-208
+210
 00:09:16,240 --> 00:09:18,480
 protocol doesn't really care about the
 
-209
+211
 00:09:18,480 --> 00:09:20,640
 transport. It can run over Bluetooth,
 
-210
+212
 00:09:20,640 --> 00:09:23,360
 over NFC. In fact, it can run across
 
-211
+213
 00:09:23,360 --> 00:09:24,880
 anything.
 
-212
+214
 00:09:24,880 --> 00:09:26,640
 And it's interoperable across different
 
-213
+215
 00:09:26,640 --> 00:09:30,560
 wallets and agents.
 
-214
+216
 00:09:30,560 --> 00:09:32,720
 Veridian provides hosted endpoints and
 
-215
+217
 00:09:32,720 --> 00:09:34,880
 sandboxes from our data center in
 
-216
+218
 00:09:34,880 --> 00:09:37,279
 Switzerland, including infrastructure
 
-217
+219
 00:09:37,279 --> 00:09:38,720
 deployment guides for those that are
 
-218
+220
 00:09:38,720 --> 00:09:42,389
 interested in deploying.
 
-219
+221
 00:09:47,350 --> 00:09:50,800
 The fifth and final W, the wizard.
 This is how we achieve one-click KERI.
 
-220
+222
 00:09:50,800 --> 00:09:52,640
 For example, the majority of users are
 
-221
+223
 00:09:52,640 --> 00:09:54,880
 not going to understand how to set their
 
-222
+224
 00:09:54,880 --> 00:09:58,240
 witness threshold. Wizards abstract
 
-223
+225
 00:09:58,240 --> 00:10:00,320
 low-level details of KERI and they
 
-224
+226
 00:10:00,320 --> 00:10:02,560
 provide suitable defaults that ensure we
 
-225
+227
 00:10:02,560 --> 00:10:05,680
 make KERI accessible but safe for
 
-226
+228
 00:10:05,680 --> 00:10:07,279
 users.
 
-227
+229
 00:10:07,279 --> 00:10:09,680
 For developers, we expose highlevel easy
 
-228
+230
 00:10:09,680 --> 00:10:12,399
 to understand APIs to build on. And in
 
-229
+231
 00:10:12,399 --> 00:10:15,360
 short, the wizard bridges the protocol
 
-230
+232
 00:10:15,360 --> 00:10:19,519
 to the product. Without KERI, sorry,
 
-231
+233
 00:10:19,519 --> 00:10:24,389
 without wizards.
 
-232
+234
 00:10:26,710 --> 00:10:28,800
 Yes, without Wizards, KERI is a
 powerful protocol.
 
-233
+235
 00:10:28,800 --> 00:10:31,440
 With Wizards, KERI is a product that
 
-234
+236
 00:10:31,440 --> 00:10:34,640
 you can ship to market. And at Veridian,
 
-235
+237
 00:10:34,640 --> 00:10:36,880
 we offer one-click onboarding, witness
 
-236
+238
 00:10:36,880 --> 00:10:38,800
 selection, and automated schema
 
-237
+239
 00:10:38,800 --> 00:10:40,800
 discovery.
 
-238
+240
 00:10:40,800 --> 00:10:44,480
 Now, this is the whole picture.
 
-239
+241
 00:10:44,480 --> 00:10:46,880
 This is how they all fit together.
 
-240
+242
 00:10:46,880 --> 00:10:48,720
 Wallets hold the keys and credentials.
 
-241
+243
 00:10:48,720 --> 00:10:51,440
 Witnesses attest to events. Watchers
 
-242
+244
 00:10:51,440 --> 00:10:54,079
 verify integrity. Wizards orchestrate
 
-243
+245
 00:10:54,079 --> 00:10:56,480
 operations and the web connects them all
 
-244
+246
 00:10:56,480 --> 00:10:59,440
 and provides scalability. Each of these
 
-245
+247
 00:10:59,440 --> 00:11:01,920
 five roles are independently operated,
 
-246
+248
 00:11:01,920 --> 00:11:04,399
 independently verified and uniquely can
 
-247
+249
 00:11:04,399 --> 00:11:07,920
 be independently replaced.
 
-248
+250
 00:11:07,920 --> 00:11:10,320
 So that's the friendly overview. We're
 
-249
+251
 00:11:10,320 --> 00:11:12,079
 going to delve a little bit deeper and I
 
-250
+252
 00:11:12,079 --> 00:11:14,000
 want to cover four concepts that take
 
-251
+253
 00:11:14,000 --> 00:11:16,160
 KERI from an interesting protocol to a
 
-252
+254
 00:11:16,160 --> 00:11:18,480
 production grade infrastructure. And
 
-253
+255
 00:11:18,480 --> 00:11:20,640
 those four concepts are pre-rotation,
 
-254
+256
 00:11:20,640 --> 00:11:23,120
 delegation, multi- signature control,
 
-255
+257
 00:11:23,120 --> 00:11:25,440
 and ACDCs.
 
-256
+258
 00:11:25,440 --> 00:11:27,680
 So we'll start with pre-rotation. And
 
-257
+259
 00:11:27,680 --> 00:11:29,920
 this is one of K's most elegant
 
-258
+260
 00:11:29,920 --> 00:11:32,959
 concepts. In fact, it was probably the
 
-259
+261
 00:11:32,959 --> 00:11:36,800
 main concept that enabled me to
 
-260
+262
 00:11:36,800 --> 00:11:38,480
 influence the board of the Cardano
 
-261
+263
 00:11:38,480 --> 00:11:40,880
 Foundation to allow me to build on
 
-262
+264
 00:11:40,880 --> 00:11:42,720
 KERI.
 
-263
+265
 00:11:42,720 --> 00:11:44,480
 Pre-rotation,
 
-264
+266
 00:11:44,480 --> 00:11:46,000
 as I mentioned, is one of the most
 
-265
+267
 00:11:46,000 --> 00:11:48,560
 elegant concepts of KERI. At in at
 
-266
+268
 00:11:48,560 --> 00:11:51,279
 inception of an AID, the moment you
 
-267
+269
 00:11:51,279 --> 00:11:53,519
 create it, you don't just commit to your
 
-268
+270
 00:11:53,519 --> 00:11:56,560
 current keys. You also include a hash of
 
-269
+271
 00:11:56,560 --> 00:12:00,240
 your next key set. Those next keys stay
 
-270
+272
 00:12:00,240 --> 00:12:01,920
 offline.
 
-271
+273
 00:12:01,920 --> 00:12:04,160
 They remain unused
 
-272
+274
 00:12:04,160 --> 00:12:06,720
 only until you need to rotate your
 
-273
+275
 00:12:06,720 --> 00:12:09,360
 controlling key. If an attacker steals
 
-274
+276
 00:12:09,360 --> 00:12:12,240
 your current signing keys, they cannot
 
-275
+277
 00:12:12,240 --> 00:12:15,519
 forge a valid rotation event. And
 
-276
+278
 00:12:15,519 --> 00:12:17,279
 because they cannot do that and because
 
-277
+279
 00:12:17,279 --> 00:12:19,519
 they don't have your next keys, but
 
-278
+280
 00:12:19,519 --> 00:12:22,240
 because you have committed a hash of
 
-279
+281
 00:12:22,240 --> 00:12:24,959
 your next keys, that rotation is already
 
-280
+282
 00:12:24,959 --> 00:12:27,519
 locked in and you can verify someone is
 
-281
+283
 00:12:27,519 --> 00:12:29,680
 legitimate controller of an identifier
 
-282
+284
 00:12:29,680 --> 00:12:32,880
 without publishing the public key. This
 
-283
+285
 00:12:32,880 --> 00:12:35,519
 is extremely important.
 
-284
+286
 00:12:35,519 --> 00:12:37,680
 This gives KERI something called post
 
-285
+287
 00:12:37,680 --> 00:12:40,560
 compromise recovery. Even after a key
 
-286
+288
 00:12:40,560 --> 00:12:43,519
 compromise, you can regain control. And
 
-287
+289
 00:12:43,519 --> 00:12:46,160
 because of this commitment, using this
 
-288
+290
 00:12:46,160 --> 00:12:48,880
 hash, we have resistance to future
 
-289
+291
 00:12:48,880 --> 00:12:52,079
 quantum computing attacks. There is no
 
-290
+292
 00:12:52,079 --> 00:12:53,839
 other digital identity system that
 
-291
+293
 00:12:53,839 --> 00:12:55,360
 offers this level of key management
 
-292
+294
 00:12:55,360 --> 00:12:59,190
 today.
 
-293
+295
 00:13:02,150 --> 00:13:04,800
 Multi- signature control. This ensures
 no single point of compromise for high
 
-294
+296
 00:13:04,800 --> 00:13:06,959
 value identifiers.
 
-295
+297
 00:13:06,959 --> 00:13:10,720
 An AID can require M of N signers. For
 
-296
+298
 00:13:10,720 --> 00:13:12,720
 example, two or three board members must
 
-297
+299
 00:13:12,720 --> 00:13:15,279
 sign to rotate the organization's root
 
-298
+300
 00:13:15,279 --> 00:13:17,839
 key. The threshold can be weighted for
 
-299
+301
 00:13:17,839 --> 00:13:20,639
 governance scenarios. Rotation events
 
-300
+302
 00:13:20,639 --> 00:13:22,399
 are also respective of the threshold
 
-301
+303
 00:13:22,399 --> 00:13:24,800
 rules. This means you cannot bypass
 
-302
+304
 00:13:24,800 --> 00:13:26,720
 multi- signature control even during a
 
-303
+305
 00:13:26,720 --> 00:13:28,560
 rotation event.
 
-304
+306
 00:13:28,560 --> 00:13:30,800
 This is critical for enterprise AIDs
 
-305
+307
 00:13:30,800 --> 00:13:32,639
 where a single compromise no longer
 
-306
+308
 00:13:32,639 --> 00:13:34,480
 means the entire organization is now
 
-307
+309
 00:13:34,480 --> 00:13:37,839
 compromised and game over. And Veridian
 
-308
+310
 00:13:37,839 --> 00:13:39,600
 supports multi- signature control
 
-309
+311
 00:13:39,600 --> 00:13:41,279
 coordination out of the box with our
 
-310
+312
 00:13:41,279 --> 00:13:43,839
 Veridian wallet and our cloud agents. And
 
-311
+313
 00:13:43,839 --> 00:13:45,760
 we handle the ceremony of gathering the
 
-312
+314
 00:13:45,760 --> 00:13:47,600
 signatures across multiple parties
 
-313
+315
 00:13:47,600 --> 00:13:51,360
 seamlessly for you.
 
-314
+316
 00:13:51,360 --> 00:13:54,000
 ACDC's authentic chained data
 
-315
+317
 00:13:54,000 --> 00:13:56,720
 containers. This is K's answer to
 
-316
+318
 00:13:56,720 --> 00:13:59,360
 verifiable credentials, but they go much
 
-317
+319
 00:13:59,360 --> 00:14:01,680
 further than the typical verifiable
 
-318
+320
 00:14:01,680 --> 00:14:03,440
 credential or VC that exists in the
 
-319
+321
 00:14:03,440 --> 00:14:06,880
 decentralized identity space. Each ACDC
 
-320
+322
 00:14:06,880 --> 00:14:09,040
 is signed and anchored into an issuers's
 
-321
+323
 00:14:09,040 --> 00:14:12,000
 KEL. So, its provenance is always
 
-322
+324
 00:14:12,000 --> 00:14:13,519
 verifiable.
 
-323
+325
 00:14:13,519 --> 00:14:16,240
 Schemas are composable and versionable,
 
-324
+326
 00:14:16,240 --> 00:14:18,399
 so you can build complex credential
 
-325
+327
 00:14:18,399 --> 00:14:21,760
 types from simpler ones. An ACDC
 
-326
+328
 00:14:21,760 --> 00:14:24,399
 supports graduated disclosure where you
 
-327
+329
 00:14:24,399 --> 00:14:26,480
 can share only the minimum information
 
-328
+330
 00:14:26,480 --> 00:14:28,720
 needed for a given interaction. And
 
-329
+331
 00:14:28,720 --> 00:14:30,079
 you'll notice on the slide that the
 
-330
+332
 00:14:30,079 --> 00:14:31,680
 credentials chain back through the
 
-331
+333
 00:14:31,680 --> 00:14:35,120
 schemas and issuers to a Root of Trust.
 
-332
+334
 00:14:35,120 --> 00:14:37,600
 This is what authentic chained really
 
-333
+335
 00:14:37,600 --> 00:14:40,880
 means. Every link in the chain is
 
-334
+336
 00:14:40,880 --> 00:14:42,399
 verifiable.
 
-335
+337
 00:14:42,399 --> 00:14:44,160
 And Veridian wallet allows you to store
 
-336
+338
 00:14:44,160 --> 00:14:47,279
 and present ACDCs natively. It's also
 
-337
+339
 00:14:47,279 --> 00:14:48,720
 important to mention that although the
 
-338
+340
 00:14:48,720 --> 00:14:52,240
 wallet is storing a copy of your ACDC,
 
-339
+341
 00:14:52,240 --> 00:14:54,320
 the way that ACDCs work, the way that
 
-340
+342
 00:14:54,320 --> 00:14:56,639
 they are presented, if you lose your
 
-341
+343
 00:14:56,639 --> 00:14:58,800
 wallet, you are still able to recover
 
-342
+344
 00:14:58,800 --> 00:15:00,959
 those ACDCs because it is effectively
 
-343
+345
 00:15:00,959 --> 00:15:02,720
 the keys that allow you to prove
 
-344
+346
 00:15:02,720 --> 00:15:04,959
 ownership of those credentials. So, as
 
-345
+347
 00:15:04,959 --> 00:15:07,040
 long as you have a backup of that data
 
-346
+348
 00:15:07,040 --> 00:15:08,800
 somewhere, you can regain those
 
-347
+349
 00:15:08,800 --> 00:15:10,720
 credentials or you can request that they
 
-348
+350
 00:15:10,720 --> 00:15:12,880
 are reissued to you. This is extremely
 
-349
+351
 00:15:12,880 --> 00:15:17,269
 powerful.
 
-350
+352
 00:15:19,509 --> 00:15:21,040
 Delegation of authority.
 This would probably be the second reason
 
-351
+353
 00:15:21,040 --> 00:15:22,639
 I was able to influence the Cardano
 
-352
+354
 00:15:22,639 --> 00:15:25,600
 Foundation to pursue this technology.
 
-353
+355
 00:15:25,600 --> 00:15:27,680
 Delegation is how KERI handles
 
-354
+356
 00:15:27,680 --> 00:15:30,720
 organizational identity. An AID can
 
-355
+357
 00:15:30,720 --> 00:15:33,040
 delegate authority through ACDCs down
 
-356
+358
 00:15:33,040 --> 00:15:37,120
 from a Root of Trust. GLEIF's VI system
 
-357
+359
 00:15:37,120 --> 00:15:38,800
 uses exactly this pattern for
 
-358
+360
 00:15:38,800 --> 00:15:40,639
 organizational identity within the
 
-359
+361
 00:15:40,639 --> 00:15:44,320
 financial sector. A qualified vLEI issuer,
 
-360
+362
 00:15:44,320 --> 00:15:48,000
 a QVI, receives a delegation from the
 
-361
+363
 00:15:48,000 --> 00:15:50,639
 GLEIF's root AID, and then has the
 
-362
+364
 00:15:50,639 --> 00:15:52,480
 authority to issue legal entity
 
-363
+365
 00:15:52,480 --> 00:15:55,120
 credentials to other organizations.
 
-364
+366
 00:15:55,120 --> 00:15:57,440
 That same authority can also be revoked
 
-365
+367
 00:15:57,440 --> 00:16:01,440
 at any time. Delegated AIDs also enable
 
-366
+368
 00:16:01,440 --> 00:16:04,320
 top-down hierarchical recovery. For
 
-367
+369
 00:16:04,320 --> 00:16:06,959
 example, this is how GLEIF can recover a
 
-368
+370
 00:16:06,959 --> 00:16:09,839
 compromised QVIs AID.
 
-369
+371
 00:16:09,839 --> 00:16:12,480
 With KERI delegation, the trust chain
 
-370
+372
 00:16:12,480 --> 00:16:15,279
 is always auditable. You can always
 
-371
+373
 00:16:15,279 --> 00:16:18,160
 trace any delegated AID back to its
 
-372
+374
 00:16:18,160 --> 00:16:23,350
 root.
 
-373
+375
 00:16:25,269 --> 00:16:27,759
 So, at Veridian, we are building all five
 of the W's. The open- source mobile
 
-374
+376
 00:16:27,759 --> 00:16:30,000
 wallet. We are hosting witness pools and
 
-375
+377
 00:16:30,000 --> 00:16:31,759
 self-hosting options for those who are
 
-376
+378
 00:16:31,759 --> 00:16:33,759
 interested. We are committed to
 
-377
+379
 00:16:33,759 --> 00:16:35,680
 releasing public and private watcher
 
-378
+380
 00:16:35,680 --> 00:16:38,160
 services. This year we have hosted
 
-379
+381
 00:16:38,160 --> 00:16:40,399
 endpoints, UB resolution, credential
 
-380
+382
 00:16:40,399 --> 00:16:42,800
 management services, secure KERI
 
-381
+383
 00:16:42,800 --> 00:16:46,000
 tunnels and identity access management
 
-382
+384
 00:16:46,000 --> 00:16:49,199
 integration modules.
 
-383
+385
 00:16:49,199 --> 00:16:51,120
 We have enterprise onboarding,
 
-384
+386
 00:16:51,120 --> 00:16:52,959
 provisioning services, deployment and
 
-385
+387
 00:16:52,959 --> 00:16:55,199
 infrastructure automation as well as
 
-386
+388
 00:16:55,199 --> 00:16:58,079
 disaster recovery. All of this is open
 
-387
+389
 00:16:58,079 --> 00:17:00,880
 source. All of this is production grade
 
-388
+390
 00:17:00,880 --> 00:17:03,680
 and it is built in the open by the
 
-389
+391
 00:17:03,680 --> 00:17:06,480
 Cardano Foundation. I'd now like to share
 
-390
+392
 00:17:06,480 --> 00:17:08,559
 with you an overview of what it is
 
-391
+393
 00:17:08,559 --> 00:17:11,760
 Veridian is aiming to achieve for the
 
-392
+394
 00:17:11,760 --> 00:17:13,600
 second half of this year and into the
 
-393
+395
 00:17:13,600 --> 00:17:20,789
 years to come.
 
-394
+396
 00:17:24,309 --> 00:17:27,199
 Institutions cannot verify who they're
 children with strangers. AI agents
 
-395
+397
 00:17:27,199 --> 00:17:29,200
 execute
 
-396
+398
 00:17:29,200 --> 00:17:31,360
 Today we cannot answer the most
 
-397
+399
 00:17:31,360 --> 00:17:38,950
 questions on the other
 
-398
+400
 00:17:55,750 --> 00:18:16,310
 age without
 address
 
-399
+401
 00:18:19,669 --> 00:18:22,880
 industry needs.
 So I leave you with these takeaways.
 
-400
+402
 00:18:22,880 --> 00:18:24,400
 If there are four things that I would
 
-401
+403
 00:18:24,400 --> 00:18:26,880
 like you to take from this talk, it is
 
-402
+404
 00:18:26,880 --> 00:18:29,919
 one, KERI moves identity from platforms
 
-403
+405
 00:18:29,919 --> 00:18:32,320
 and registries to cryptography.
 
-404
+406
 00:18:32,320 --> 00:18:34,400
 Self-certifying identifiers combined
 
-405
+407
 00:18:34,400 --> 00:18:36,880
 with signed event logs mean no authority
 
-406
+408
 00:18:36,880 --> 00:18:38,799
 is needed.
 
-407
+409
 00:18:38,799 --> 00:18:42,960
 Two, the five W's make KERI concrete.
 
-408
+410
 00:18:42,960 --> 00:18:46,240
 Wallet, witness, watcher, web, and
 
-409
+411
 00:18:46,240 --> 00:18:50,320
 wizard. these five roles in one coherent
 
-410
+412
 00:18:50,320 --> 00:18:52,559
 system.
 
-411
+413
 00:18:52,559 --> 00:18:54,080
 Three,
 
-412
+414
 00:18:54,080 --> 00:18:55,840
 pre-rotation,
 
-413
+415
 00:18:55,840 --> 00:18:57,360
 delegation,
 
-414
+416
 00:18:57,360 --> 00:18:59,840
 multi- signature control make it
 
-415
+417
 00:18:59,840 --> 00:19:02,400
 enterprise ready.
 
-416
+418
 00:19:02,400 --> 00:19:05,280
 Post compromise recovery, hierarchical
 
-417
+419
 00:19:05,280 --> 00:19:08,400
 trust, and threshold control address
 
-418
+420
 00:19:08,400 --> 00:19:12,640
 real world needs for the digital age.
 
-419
+421
 00:19:12,640 --> 00:19:15,679
 And four, Veridian ships all of this open
 
-420
+422
 00:19:15,679 --> 00:19:19,280
 source. You can start building today. If
 
-421
+423
 00:19:19,280 --> 00:19:21,360
 you just need to verify, you can just
 
-422
+424
 00:19:21,360 --> 00:19:23,200
 verify.
 
-423
+425
 00:19:23,200 --> 00:19:25,039
 But it is all here available open
 
-424
+426
 00:19:25,039 --> 00:19:27,600
 source. And finally, I'd like us all
 
-425
+427
 00:19:27,600 --> 00:19:30,640
 please a round of applause and thanks to
 
-426
+428
 00:19:30,640 --> 00:19:33,360
 Samuel Smith for his life dedication to
 
-427
+429
 00:19:33,360 --> 00:19:39,190
 KERI.
 
-428
+430
 00:19:48,549 --> 00:19:50,160
 I can provide the slides if you'd like.
 If you go to the website, reach out or
 
-429
+431
 00:19:50,160 --> 00:19:51,760
 just come speak with me directly. I can
 
-430
+432
 00:19:51,760 --> 00:19:54,320
 share them with you. Thomas, thank you
 
-431
+433
 00:19:54,320 --> 00:19:58,400
 for this great u presentation very just
 
-432
+434
 00:19:58,400 --> 00:19:59,919
 actually your voice just brings peace.
 
-433
+435
 00:19:59,919 --> 00:20:03,120
 But anyway, go going back to my
 
-434
+436
 00:20:03,120 --> 00:20:05,679
 question is given that Cardano is it's a
 
-435
+437
 00:20:05,679 --> 00:20:08,160
 proper blockchain I'd like to know
 
-436
+438
 00:20:08,160 --> 00:20:10,720
 more how you leverage it. How I
 
-437
+439
 00:20:10,720 --> 00:20:13,440
 assume witnesses or watchers are part of
 
-438
+440
 00:20:13,440 --> 00:20:15,679
 the infrastructure that the ledger
 
-439
+441
 00:20:15,679 --> 00:20:18,880
 itself provides.
 
-440
+442
 00:20:18,880 --> 00:20:22,480
 So the Cardano Foundation
 
-441
+443
 00:20:22,480 --> 00:20:24,960
 is a very different blockchain
 
-442
+444
 00:20:24,960 --> 00:20:27,280
 foundation than the others.
 
-443
+445
 00:20:27,280 --> 00:20:30,320
 We don't have castles and yachts.
 
-444
+446
 00:20:30,320 --> 00:20:33,360
 But we do have a vision for what is
 
-445
+447
 00:20:33,360 --> 00:20:36,080
 but we do have a vision for what is
 the right thing to do for technology and
 
-446
+448
 00:20:36,080 --> 00:20:39,039
 for people. And what we've been able to
 
-447
+449
 00:20:39,039 --> 00:20:41,520
 do is actually build Veridian
 
-448
+450
 00:20:41,520 --> 00:20:43,919
 completely offchain. And the way that we
 
-449
+451
 00:20:43,919 --> 00:20:47,520
 actually leverage the chain is in a
 
-450
+452
 00:20:47,520 --> 00:20:51,039
 number of ways. One we are also going
 
-451
+453
 00:20:51,039 --> 00:20:52,240
 through the process of becoming the
 
-452
+454
 00:20:52,240 --> 00:20:55,280
 first Swissbased QVI. So we Cardano is
 
-453
+455
 00:20:55,280 --> 00:20:57,200
 the only blockchain that is vLEI
 
-454
+456
 00:20:57,200 --> 00:20:58,799
 compatible at the moment as far as I'm
 
-455
+457
 00:20:58,799 --> 00:21:01,280
 aware. We also have the only vLEI
 
-456
+458
 00:21:01,280 --> 00:21:04,240
 compatible mobile wallet. We are working
 
-457
+459
 00:21:04,240 --> 00:21:06,720
 towards a verifiable smart contract
 
-458
+460
 00:21:06,720 --> 00:21:09,120
 format as well as a programmable token
 
-459
+461
 00:21:09,120 --> 00:21:11,600
 that leverages KERI as the identity
 
-460
+462
 00:21:11,600 --> 00:21:14,480
 layer for the token itself.
 
-461
+463
 00:21:14,480 --> 00:21:16,320
 You can actually visit
 
-462
+464
 00:21:16,320 --> 00:21:18,559
 verifiablesmartcontract.com
 
-463
+465
 00:21:18,559 --> 00:21:20,320
 and see a report that was put together
 
-464
+466
 00:21:20,320 --> 00:21:22,799
 between GLEIF Key State Capital and the
 
-465
+467
 00:21:22,799 --> 00:21:24,159
 Cardano Foundation if you'd like to
 
-466
+468
 00:21:24,159 --> 00:21:26,960
 understand more about that.
 
-467
+469
 00:21:26,960 --> 00:21:30,000
 We're also looking at how digital
 
-468
+470
 00:21:30,000 --> 00:21:32,559
 identity or decentralized identity and
 
-469
+471
 00:21:32,559 --> 00:21:34,640
 Sam touched on this a bit in day one.
 
-470
+472
 00:21:34,640 --> 00:21:38,159
 Every blockchain uses decentralized
 
-471
+473
 00:21:38,159 --> 00:21:40,240
 identity as a mechanism to try and lock
 
-472
+474
 00:21:40,240 --> 00:21:43,360
 you into their chain and to sell their
 
-473
+475
 00:21:43,360 --> 00:21:45,039
 token.
 
-474
+476
 00:21:45,039 --> 00:21:48,720
 And although this initially seems to be
 
-475
+477
 00:21:48,720 --> 00:21:53,280
 a good approach they all fail.
 
-476
+478
 00:21:53,280 --> 00:21:57,039
 they never have interoperability
 
-477
+479
 00:21:57,039 --> 00:21:59,360
 and ultimately we are creating more and
 
-478
+480
 00:21:59,360 --> 00:22:01,760
 more fragmented identity with varying
 
-479
+481
 00:22:01,760 --> 00:22:05,440
 levels of security and recoverability.
 
-480
+482
 00:22:05,440 --> 00:22:09,200
 What we've been able to do with KERI
 
-481
+483
 00:22:09,200 --> 00:22:12,640
 Is we've created
 
-482
+484
 00:22:12,640 --> 00:22:15,520
 verification across chains just using
 
-483
+485
 00:22:15,520 --> 00:22:18,400
 KERI as that identity layer. So we have
 
-484
+486
 00:22:18,400 --> 00:22:20,400
 worked with partners in Canada that are
 
-485
+487
 00:22:20,400 --> 00:22:22,880
 using corder and we've created
 
-486
+488
 00:22:22,880 --> 00:22:25,280
 verifiability of data between public and
 
-487
+489
 00:22:25,280 --> 00:22:27,600
 permissioned ecosystems.
 
-488
+490
 00:22:27,600 --> 00:22:30,240
 We've integrated it with IoT modules for
 
-489
+491
 00:22:30,240 --> 00:22:33,039
 signing data that passes through sensors
 
-490
+492
 00:22:33,039 --> 00:22:36,640
 to have an irrefutable audit trail
 
-491
+493
 00:22:36,640 --> 00:22:38,880
 for emissions data on which actual
 
-492
+494
 00:22:38,880 --> 00:22:40,400
 Canadian dollars were then paid out to
 
-493
+495
 00:22:40,400 --> 00:22:42,880
 these participants.
 
-494
+496
 00:22:42,880 --> 00:22:45,120
 But VC this as being an identity
 
-495
+497
 00:22:45,120 --> 00:22:47,280
 that can work across any network, any
 
-496
+498
 00:22:47,280 --> 00:22:50,640
 chain. That ne agnostic element of KERI
 
-497
+499
 00:22:50,640 --> 00:22:52,400
 is extremely powerful in a blockchain
 
-498
+500
 00:22:52,400 --> 00:22:53,919
 space.
 
-499
+501
 00:22:53,919 --> 00:22:56,720
 So a very long-winded way is we are
 
-500
+502
 00:22:56,720 --> 00:22:58,720
 we are integrating it into the Cardano
 
-501
+503
 00:22:58,720 --> 00:23:01,280
 blockchain in ways that make sense but
 
-502
+504
 00:23:01,280 --> 00:23:03,200
 recognizing that the identity must live
 
-503
+505
 00:23:03,200 --> 00:23:05,039
 offchain.
 
-504
+506
 00:23:05,039 --> 00:23:07,440
 We have one product as well called reeve
 
-505
+507
 00:23:07,440 --> 00:23:10,000
 where we sign our financial records and
 
-506
+508
 00:23:10,000 --> 00:23:12,320
 upload them to the blockchain and we
 
-507
+509
 00:23:12,320 --> 00:23:15,200
 actually have had the auditor get
 
-508
+510
 00:23:15,200 --> 00:23:17,280
 their vLEI and they are also signing our
 
-509
+511
 00:23:17,280 --> 00:23:19,520
 testations and anchoring them on chain.
 
-510
+512
 00:23:19,520 --> 00:23:21,360
 So this is the sort of direction we are
 
-511
+513
 00:23:21,360 --> 00:23:23,679
 moving in as it pertains to the Cardano
 
-512
+514
 00:23:23,679 --> 00:23:29,909
 blockchain itself.
 
-513
+515
 00:23:41,430 --> 00:23:44,640
 When Midnight came out I thought
 there was a you know a lot of overlap
 
-514
+516
 00:23:44,640 --> 00:23:46,080
 with this. I don't know if you guys are
 
-515
+517
 00:23:46,080 --> 00:23:47,520
 involved with Midnight at all or if
 
-516
+518
 00:23:47,520 --> 00:23:49,360
 that's a sep separate thing. Can you
 
-517
+519
 00:23:49,360 --> 00:23:50,400
 talk to that?
 
-518
+520
 00:23:50,400 --> 00:23:53,600
 I can. I have a meeting next month.
 
-519
+521
 00:23:53,600 --> 00:23:55,679
 We've had an initial conversation
 
-520
+522
 00:23:55,679 --> 00:23:58,960
 with them. Midnight was looking at
 
-521
+523
 00:23:58,960 --> 00:24:01,679
 DID methods in general. U for those that
 
-522
+524
 00:24:01,679 --> 00:24:05,039
 don't know Cardano is broken down into
 
-523
+525
 00:24:05,039 --> 00:24:07,120
 a number of entities founding entities.
 
-524
+526
 00:24:07,120 --> 00:24:12,720
 One of them is input output.
 
-525
+527
 00:24:12,720 --> 00:24:14,559
 This is a US-based entity out of
 
-526
+528
 00:24:14,559 --> 00:24:16,880
 this is a US-based entity out of
 Wyoming. Initially was founded in
 
-527
+529
 00:24:16,880 --> 00:24:20,799
 Asia. The Cardano Foundation is
 
-528
+530
 00:24:20,799 --> 00:24:24,320
 purposely put in place to ensure that
 
-529
+531
 00:24:24,320 --> 00:24:25,760
 regardless of what happens with the
 
-530
+532
 00:24:25,760 --> 00:24:28,320
 Cardano blockchain that web 3 and
 
-531
+533
 00:24:28,320 --> 00:24:30,480
 blockchain technology drives forward. So
 
-532
+534
 00:24:30,480 --> 00:24:32,480
 the mandate of the Cardano Foundation
 
-533
+535
 00:24:32,480 --> 00:24:35,440
 doesn't say that if the Cardano
 
-534
+536
 00:24:35,440 --> 00:24:37,520
 blockchain was to fail that the
 
-535
+537
 00:24:37,520 --> 00:24:39,760
 foundation closes. Our remit is to just
 
-536
+538
 00:24:39,760 --> 00:24:42,159
 drive decentralized technology in web 3.
 
-537
+539
 00:24:42,159 --> 00:24:43,679
 Obviously we are focused in on the
 
-538
+540
 00:24:43,679 --> 00:24:46,240
 Kanana blockchain. I know that they
 
-539
+541
 00:24:46,240 --> 00:24:48,640
 are very interested in the power of
 
-540
+542
 00:24:48,640 --> 00:24:52,960
 KERI and the value that vLEI brings to a
 
-541
+543
 00:24:52,960 --> 00:24:55,120
 financial privacy infrastructure that
 
-542
+544
 00:24:55,120 --> 00:24:56,720
 they are building on midnight. Midnight
 
-543
+545
 00:24:56,720 --> 00:24:59,279
 is a privacy focused blockchain that is
 
-544
+546
 00:24:59,279 --> 00:25:01,760
 being deployed by our partners in the
 
-545
+547
 00:25:01,760 --> 00:25:04,080
 states. And we are having those
 
-546
+548
 00:25:04,080 --> 00:25:11,350
 conversations now.
 
-547
+549
 00:25:13,190 --> 00:25:15,360
 What's your what has been the
 feedback when you talk to enterprises
 
-548
+550
 00:25:15,360 --> 00:25:17,760
 and companies, corporations about what
 
-549
+551
 00:25:17,760 --> 00:25:20,640
 you're doing, adoption. I'm just curious
 
-550
+552
 00:25:20,640 --> 00:25:22,640
 to see what you guys see out in the in
 
-551
+553
 00:25:22,640 --> 00:25:23,360
 the wild.
 
-552
+554
 00:25:23,360 --> 00:25:25,840
 Sure. Absolutely. Well, nothing is
 
-553
+555
 00:25:25,840 --> 00:25:28,880
 exciting us more than SEDI. But we are
 
-554
+556
 00:25:28,880 --> 00:25:31,120
 focusing what we are building is we're
 
-555
+557
 00:25:31,120 --> 00:25:32,960
 building tech that we can deploy across
 
-556
+558
 00:25:32,960 --> 00:25:34,799
 five verticals. So we initially have
 
-557
+559
 00:25:34,799 --> 00:25:36,480
 started focusing in on Switzerland
 
-558
+560
 00:25:36,480 --> 00:25:39,600
 within the financial sector. We're
 
-559
+561
 00:25:39,600 --> 00:25:41,440
 having conversations with financial
 
-560
+562
 00:25:41,440 --> 00:25:42,799
 market infrastructure players in
 
-561
+563
 00:25:42,799 --> 00:25:46,159
 Switzerland who understand the power of
 
-562
+564
 00:25:46,159 --> 00:25:50,240
 KERI or more specifically the vLEI.
 
-563
+565
 00:25:50,240 --> 00:25:52,480
 they understand there is an efficiency
 
-564
+566
 00:25:52,480 --> 00:25:55,440
 of reusable compliance that is initially
 
-565
+567
 00:25:55,440 --> 00:25:57,200
 attested by their internal compliance
 
-566
+568
 00:25:57,200 --> 00:26:00,640
 team. One of the challenges here is
 
-567
+569
 00:26:00,640 --> 00:26:03,919
 regulation. So specifically in
 
-568
+570
 00:26:03,919 --> 00:26:05,520
 Switzerland, there is a stable coin
 
-569
+571
 00:26:05,520 --> 00:26:08,320
 regulation that will come out in 2028.
 
-570
+572
 00:26:08,320 --> 00:26:10,080
 There is also work that's happening
 
-571
+573
 00:26:10,080 --> 00:26:12,000
 with the secure asset transfer protocol
 
-572
+574
 00:26:12,000 --> 00:26:13,760
 that you'll hear a bit about later today
 
-573
+575
 00:26:13,760 --> 00:26:16,400
 as well. One of the challenges here
 
-574
+576
 00:26:16,400 --> 00:26:19,840
 is you need participants that are
 
-575
+577
 00:26:19,840 --> 00:26:22,400
 willing to take a risk on a technology
 
-576
+578
 00:26:22,400 --> 00:26:24,559
 Until they're mandated to do so by
 
-577
+579
 00:26:24,559 --> 00:26:28,240
 regulation. So many people are open.
 
-578
+580
 00:26:28,240 --> 00:26:31,679
 We are uniquely positioned to lower
 
-579
+581
 00:26:31,679 --> 00:26:33,840
 we are uniquely positioned to lower
 the curve of adoption. So we are going
 
-580
+582
 00:26:33,840 --> 00:26:35,440
 in and speaking with these partners and
 
-581
+583
 00:26:35,440 --> 00:26:37,919
 being able to deploy pilots and
 
-582
+584
 00:26:37,919 --> 00:26:38,960
 demonstrate how the tech can be
 
-583
+585
 00:26:38,960 --> 00:26:41,440
 integrated into their systems. When
 
-584
+586
 00:26:41,440 --> 00:26:45,120
 we speak with other enterprises
 
-585
+587
 00:26:45,120 --> 00:26:47,279
 What we actually do is we position
 
-586
+588
 00:26:47,279 --> 00:26:49,200
 the value proposition without delving
 
-587
+589
 00:26:49,200 --> 00:26:51,679
 too deep into KERI and ACDC initially
 
-588
+590
 00:26:51,679 --> 00:26:54,960
 because you can kind of lose them.
 
-589
+591
 00:26:54,960 --> 00:26:56,640
 But effectively and I think it was
 
-590
+592
 00:26:56,640 --> 00:27:00,400
 but effectively and I think it was
 mentioned previously we need to angle
 
-591
+593
 00:27:00,400 --> 00:27:02,640
 this as a cost reduction or a security
 
-592
+594
 00:27:02,640 --> 00:27:05,840
 uplift. And then the final kind of
 
-593
+595
 00:27:05,840 --> 00:27:08,240
 caveat or carrot is you know increase
 
-594
+596
 00:27:08,240 --> 00:27:11,760
 market share. So the real the real
 
-595
+597
 00:27:11,760 --> 00:27:15,360
 value or uptick and adoption that we
 
-596
+598
 00:27:15,360 --> 00:27:18,159
 see is when we can actually not only
 
-597
+599
 00:27:18,159 --> 00:27:20,400
 deal with the bank-to bankank
 
-598
+600
 00:27:20,400 --> 00:27:22,720
 compliance and verification but bring
 
-599
+601
 00:27:22,720 --> 00:27:26,000
 the power of KERI and vLEI into the end
 
-600
+602
 00:27:26,000 --> 00:27:28,320
 clients wallet where you now have this
 
-601
+603
 00:27:28,320 --> 00:27:30,559
 endto-end Root of Trust. So when you
 
-602
+604
 00:27:30,559 --> 00:27:34,559
 start handling digital products
 
-603
+605
 00:27:34,559 --> 00:27:36,960
 financial products you have this very
 
-604
+606
 00:27:36,960 --> 00:27:40,880
 robust compliance Root of Trust.
 
-605
+607
 00:27:40,880 --> 00:27:46,960
 It is it has never been more
 
-606
+608
 00:27:46,960 --> 00:27:48,799
 it has never been more act I have people
 
-607
+609
 00:27:48,799 --> 00:27:52,240
 reaching out now for vLEI and KERI before
 
-608
+610
 00:27:52,240 --> 00:27:54,559
 we were constantly pushing so it's never
 
-609
+611
 00:27:54,559 --> 00:27:57,200
 been more clear that there is a snowball
 
-610
+612
 00:27:57,200 --> 00:28:00,080
 that is building and building I think
 
-611
+613
 00:28:00,080 --> 00:28:01,919
 the successes around SEDI are only going
 
-612
+614
 00:28:01,919 --> 00:28:04,559
 to add to that momentum within
 
-613
+615
 00:28:04,559 --> 00:28:06,960
 Switzerland alone we are using a KERI
 
-614
+616
 00:28:06,960 --> 00:28:08,480
 like method for the digital identity
 
-615
+617
 00:28:08,480 --> 00:28:12,159
 program verifiable history and my
 
-616
+618
 00:28:12,159 --> 00:28:14,559
 intentions are to start really driving
 
-617
+619
 00:28:14,559 --> 00:28:16,240
 that conversation to full KERI and
 
-618
+620
 00:28:16,240 --> 00:28:18,080
 using SEDI as the example of what's
 
-619
+621
 00:28:18,080 --> 00:28:19,679
 happening on this side of the of the
 
-620
+622
 00:28:19,679 --> 00:28:25,029
 world.
 
-621
+623
 00:28:28,549 --> 00:28:29,679
 Did I hear KERI light correctly?
 Yes, that's right.
 
-622
+624
 00:28:29,679 --> 00:28:31,919
 Okay. Could you explain what KERI light
 
-623
+625
 00:28:31,919 --> 00:28:33,039
 is?
 
-624
+626
 00:28:33,039 --> 00:28:35,679
 So I mean effectively what you have with
 
-625
+627
 00:28:35,679 --> 00:28:37,520
 a KERI-l like method is some of the
 
-626
+628
 00:28:37,520 --> 00:28:41,919
 elements of KERI which are easier to
 
-627
+629
 00:28:41,919 --> 00:28:45,840
 implement but not the full five W's
 
-628
+630
 00:28:45,840 --> 00:28:49,919
 effectively they are using what's
 
-629
+631
 00:28:49,919 --> 00:28:52,799
 known as DID Verifiable History (didvh)
 
-630
+632
 00:28:52,799 --> 00:28:56,320
 which is considered a KERI light method
 
-631
+633
 00:28:56,320 --> 00:28:58,559
 that's sort of the best there's another
 
-632
+634
 00:28:58,559 --> 00:28:59,520
 way to explain that
 
-633
+635
 00:28:59,520 --> 00:29:01,039
 maybe that's a discussion that we could
 
-634
+636
 00:29:01,039 --> 00:29:02,799
 have offline
 
-635
+637
 00:29:02,799 --> 00:29:04,720
 because we don't believe that KERI
 
-636
+638
 00:29:04,720 --> 00:29:08,640
 light exists in general because you will
 
-637
+639
 00:29:08,640 --> 00:29:11,679
 have to trade off security.
 
-638
+640
 00:29:11,679 --> 00:29:12,480
 Neither do I.
 
-639
+641
 00:29:12,480 --> 00:29:15,039
 I got a got another question about this.
 
-640
+642
 00:29:15,039 --> 00:29:19,039
 You said that Veridian is the
 
-641
+643
 00:29:19,039 --> 00:29:21,440
 implementation of 5WS
 
-642
+644
 00:29:21,440 --> 00:29:24,880
 and as you know we have collected
 
-643
+645
 00:29:24,880 --> 00:29:29,440
 quite a few sponsors to finance
 
-644
+646
 00:29:29,440 --> 00:29:32,480
 the development of 5WS in the foundation
 
-645
+647
 00:29:32,480 --> 00:29:35,919
 as well. So I wonder how is that
 
-646
+648
 00:29:35,919 --> 00:29:39,750
 synchronized
 
-647
+649
 00:29:42,630 --> 00:29:45,279
 In what regard? Well, we are building
 code and you have been building code for
 
-648
+650
 00:29:45,279 --> 00:29:48,799
 the five W's and I wonder how that
 
-649
+651
 00:29:48,799 --> 00:29:50,159
 is synchronized.
 
-650
+652
 00:29:50,159 --> 00:29:52,799
 We contribute to Web of Trust. Fergal
 
-651
+653
 00:29:52,799 --> 00:29:54,559
 is a maintainer of KERIA.
 
-652
+654
 00:29:54,559 --> 00:29:54,960
 All right.
 
-653
+655
 00:29:54,960 --> 00:29:57,039
 We're also a sponsor of the KERI
 
-654
+656
 00:29:57,039 --> 00:29:57,520
 conference.
 
-655
+657
 00:29:57,520 --> 00:29:59,600
 Yeah. Yeah. Of course. That's the
 
-656
+658
 00:29:59,600 --> 00:30:00,240
 conference
 
-657
+659
 00:30:00,240 --> 00:30:03,200
 and we definitely we believe in
 
-658
+660
 00:30:03,200 --> 00:30:05,520
 contributing as much as possible to web
 
-659
+661
 00:30:05,520 --> 00:30:07,919
 of trust KERI Foundation.
 
-660
+662
 00:30:07,919 --> 00:30:10,799
 So, so there's a way that we could
 
-661
+663
 00:30:10,799 --> 00:30:14,640
 maybe formal do some more stuff like one
 
-662
+664
 00:30:14,640 --> 00:30:17,520
 of the things that benefits wallets is
 
-663
+665
 00:30:17,520 --> 00:30:19,760
 to have multi- vendor suppliers of
 
-664
+666
 00:30:19,760 --> 00:30:22,159
 witnesses and watcher services. So
 
-665
+667
 00:30:22,159 --> 00:30:24,559
 standardizing on plugins that various
 
-666
+668
 00:30:24,559 --> 00:30:27,440
 vendors can contribute to wallets. So
 
-667
+669
 00:30:27,440 --> 00:30:30,320
 all wallets support multiple vendors of
 
-668
+670
 00:30:30,320 --> 00:30:32,159
 the infrastructure and then they can
 
-669
+671
 00:30:32,159 --> 00:30:34,159
 differentiate on other things as well.
 
-670
+672
 00:30:34,159 --> 00:30:36,880
 that I think that's attractive
 
-671
+673
 00:30:36,880 --> 00:30:39,679
 to enterprises that want to adopt to see
 
-672
+674
 00:30:39,679 --> 00:30:43,840
 that a given vendor isn't just supplying
 
-673
+675
 00:30:43,840 --> 00:30:45,360
 one set of stuff.
 
-674
+676
 00:30:45,360 --> 00:30:47,840
 Absolutely.
 
-675
+677
 00:30:47,840 --> 00:30:48,720
 Go ahead, Phil.
 
-676
+678
 00:30:48,720 --> 00:30:51,279
 go ahead, Phil.
 Can I can I add to that? I think
 
-677
+679
 00:30:51,279 --> 00:30:52,960
 we've heard several times over this
 
-678
+680
 00:30:52,960 --> 00:30:55,279
 course this week from the state of Utah
 
-679
+681
 00:30:55,279 --> 00:30:57,760
 signaling that they can't do this with
 
-680
+682
 00:30:57,760 --> 00:30:59,679
 just one vendor. They need multiple
 
-681
+683
 00:30:59,679 --> 00:31:02,080
 vendors and the way we synchronize with
 
-682
+684
 00:31:02,080 --> 00:31:04,640
 each other is the KERI protocol. And so
 
-683
+685
 00:31:04,640 --> 00:31:06,080
 I think it's awesome that these guys are
 
-684
+686
 00:31:06,080 --> 00:31:07,919
 building this great platform that's
 
-685
+687
 00:31:07,919 --> 00:31:09,200
 going to help move KERI forward. That's
 
-686
+688
 00:31:09,200 --> 00:31:12,320
 what we all need. We need more of it.
 
-687
+689
 00:31:12,320 --> 00:31:14,320
 Yeah. The question is more that we that
 
-688
+690
 00:31:14,320 --> 00:31:16,559
 we don't do double work so we create the
 
-689
+691
 00:31:16,559 --> 00:31:19,120
 same code at several.
 
-690
+692
 00:31:19,120 --> 00:31:21,039
 You almost have to because you need
 
-691
+693
 00:31:21,039 --> 00:31:23,600
 multiple vendors running the code so
 
-692
+694
 00:31:23,600 --> 00:31:25,440
 that people can. So, for example, we
 
-693
+695
 00:31:25,440 --> 00:31:27,520
 tell our customers, you can't just get
 
-694
+696
 00:31:27,520 --> 00:31:28,960
 your witnesses from us. We need other
 
-695
+697
 00:31:28,960 --> 00:31:30,880
 people with witnesses so that they can
 
-696
+698
 00:31:30,880 --> 00:31:32,559
 they have the security needed from the
 
-697
+699
 00:31:32,559 --> 00:31:34,559
 protocol. So, I yeah, there's some
 
-698
+700
 00:31:34,559 --> 00:31:35,679
 double work, but these guys have
 
-699
+701
 00:31:35,679 --> 00:31:38,399
 contributed a ton to open source. So
 
-700
+702
 00:31:38,399 --> 00:31:40,080
 I think it's I think it's working well
 
-701
+703
 00:31:40,080 --> 00:31:41,120
 actually.
 
-702
+704
 00:31:41,120 --> 00:31:42,240
 Thank you.
 
-703
+705
 00:31:43,279 --> 00:31:44,640
 Also, I'd like to give a shout out to
 
-704
+706
 00:31:44,640 --> 00:31:51,350
 Fergal.
 
-705
+707
 00:31:52,710 --> 00:31:53,200
 I have time, don't I?
 Yep.
 
-706
+708
 00:31:53,200 --> 00:31:55,840
 Excellent.
 
-707
+709
 00:31:55,840 --> 00:31:57,840
 Fergal has been instrumental in the
 
-708
+710
 00:31:57,840 --> 00:32:00,640
 success of Veridian and he's someone who
 
-709
+711
 00:32:00,640 --> 00:32:02,399
 maybe isn't at the front of the room all
 
-710
+712
 00:32:02,399 --> 00:32:04,720
 of the time, but because of what Fergal
 
-711
+713
 00:32:04,720 --> 00:32:06,799
 does dayto-day, I'm able to stand here
 
-712
+714
 00:32:06,799 --> 00:32:08,159
 and talk about the things that are being
 
-713
+715
 00:32:08,159 --> 00:32:11,360
 built and shipped and delivered. But
 
-714
+716
 00:32:11,360 --> 00:32:16,230
 Fergal is
 
-715
+717
 00:32:18,470 --> 00:32:21,519
 Fergal and I went to IIW about four years
 ago now and we attended a few
 
-716
+718
 00:32:21,519 --> 00:32:22,960
 sessions of Samuel Smith, we attended a
 
-717
+719
 00:32:22,960 --> 00:32:25,760
 bunch of sessions as well. And
 
-718
+720
 00:32:25,760 --> 00:32:27,519
 internally within the Cardano Foundation,
 
-719
+721
 00:32:27,519 --> 00:32:29,840
 you might find this funny, Sam. We
 
-720
+722
 00:32:29,840 --> 00:32:32,399
 refer to Fergal as our Samuel Smith within
 
-721
+723
 00:32:32,399 --> 00:32:35,919
 the foundation. But without his
 
-722
+724
 00:32:35,919 --> 00:32:40,000
 dedication and his willingness to
 
-723
+725
 00:32:40,000 --> 00:32:41,760
 always speak up and ensure that what we
 
-724
+726
 00:32:41,760 --> 00:32:43,519
 are doing from a dele development
 
-725
+727
 00:32:43,519 --> 00:32:45,760
 perspective is aligned with open source
 
-726
+728
 00:32:45,760 --> 00:32:49,279
 and with the ESOS of caring ACDC,
 
-727
+729
 00:32:49,279 --> 00:32:50,799
 We wouldn't be here today. So, I
 
-728
+730
 00:32:50,799 --> 00:32:52,640
 just also want to say thank you Fergal
 
-729
+731
 00:32:52,640 --> 00:32:58,950
 for all of your hard work. Truly,
 
-730
+732
 00:33:00,549 --> 00:33:02,399
 if I could just pile on to make him even
 more embarrassed. Also, his
 
-731
+733
 00:33:02,399 --> 00:33:04,640
 contributions to the KERI ecosystem in
 
-732
+734
 00:33:04,640 --> 00:33:05,919
 general as well as the open source
 
-733
+735
 00:33:05,919 --> 00:33:07,919
 community. He's one of the top guys that
 
-734
+736
 00:33:07,919 --> 00:33:09,840
 we have doing this stuff, moving us
 
-735
+737
 00:33:09,840 --> 00:33:11,039
 forward.
 
-736
+738
 00:33:11,039 --> 00:33:13,600
 Thank you.
 
-737
+739
 00:33:13,600 --> 00:33:16,880
 Speech, speech, speech.
 
-738
+740
 00:33:16,880 --> 00:33:19,679
 All right, if no other questions,
 
-739
+741
 00:33:19,679 --> 00:33:21,279
 I will end it here. Thank you.
 
-740
+742
 00:33:21,279 --> 00:33:24,919
 Thank you very much.
 

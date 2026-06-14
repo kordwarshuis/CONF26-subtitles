@@ -1,4078 +1,4079 @@
 1
-00:00:05,430 --> 00:00:07,040
+00:00:03,610 --> 00:00:05,072
 So yeah, my name is Fergal. I'm the
-identity solutions lead architect at the
 
 2
+00:00:05,097 --> 00:00:07,040
+identity solutions lead architect at the
+
+3
 00:00:07,040 --> 00:00:09,200
 Cardano Foundation. I've been there for
 
-3
+4
 00:00:09,200 --> 00:00:11,280
 the last four years building out our
 
-4
+5
 00:00:11,280 --> 00:00:12,880
 open source identity solution known as
 
-5
+6
 00:00:12,880 --> 00:00:15,280
 Veridian. Some of you may have seen
 
-6
+7
 00:00:15,280 --> 00:00:16,640
 that this morning in Thomas's
 
-7
+8
 00:00:16,640 --> 00:00:18,960
 presentation on the 5WS.
 
-8
+9
 00:00:18,960 --> 00:00:22,240
 Over a year ago, we launched the
 
-9
+10
 00:00:22,240 --> 00:00:25,359
 Veridian wallet to the public app
 
-10
+11
 00:00:25,359 --> 00:00:28,320
 stores. This is the first KERI ACDC
 
-11
+12
 00:00:28,320 --> 00:00:30,640
 mobile wallet in production. It's
 
-12
+13
 00:00:30,640 --> 00:00:33,600
 based on KERI and Signify. We
 
-13
+14
 00:00:33,600 --> 00:00:36,719
 invested a lot of time and effort into
 
-14
-00:00:36,719 --> 00:00:38,879
-Bringing a nice user experience to
-
 15
+00:00:36,719 --> 00:00:38,879
+bringing a nice user experience to
+
+16
 00:00:38,879 --> 00:00:41,280
 the user. You know abstracting away
 
-16
+17
 00:00:41,280 --> 00:00:43,920
 the details of low-level KERI and
 
-17
+18
 00:00:43,920 --> 00:00:45,120
 giving something that's actually usable
 
-18
+19
 00:00:45,120 --> 00:00:48,160
 to the end user. So in doing that we
 
-19
+20
 00:00:48,160 --> 00:00:49,840
 had to actually contribute a lot of
 
-20
-00:00:49,840 --> 00:00:52,960
-things back to Korean Signify.
-
 21
+00:00:49,840 --> 00:00:52,960
+things back to KERI and Signify.
+
+22
 00:00:52,960 --> 00:00:55,840
 Yesterday I spoke about the security
 
-22
+23
 00:00:55,840 --> 00:00:58,480
 yesterday I spoke about the security
-architecture of Korean Signify. But
+architecture of KERI and Signify. But
 
-23
+24
 00:00:58,480 --> 00:01:00,239
 today I'll talk about the path to
 
-24
+25
 00:01:00,239 --> 00:01:03,120
 production. I think there are some
 
-25
+26
 00:01:03,120 --> 00:01:05,199
 maturity gaps in the implementation of
 
-26
-00:01:05,199 --> 00:01:08,159
-Korean Signify that should be addressed
-
 27
+00:01:05,199 --> 00:01:08,159
+KERI and Signify that should be addressed
+
+28
 00:01:08,159 --> 00:01:10,159
 for adoption of the KERI suite. It's
 
-28
+29
 00:01:10,159 --> 00:01:11,760
 starting to lag behind the maturity of
 
-29
+30
 00:01:11,760 --> 00:01:14,720
 KERIpy. We'll kind of step through
 
-30
+31
 00:01:14,720 --> 00:01:18,550
 that today.
 
-31
+32
 00:01:20,310 --> 00:01:23,200
 so
 I mean yesterday's talk gave kind of an
 
-32
+33
 00:01:23,200 --> 00:01:25,520
 in-depth explanation of how it works in
 
-33
+34
 00:01:25,520 --> 00:01:28,799
 practice. But kind of the tagline
 
-34
+35
 00:01:28,799 --> 00:01:30,479
 that I had was agent in the cloud
 
-35
+36
 00:01:30,479 --> 00:01:33,680
 controller at the edge. So KERI
 
-36
+37
 00:01:33,680 --> 00:01:37,040
 allows you to deploy cloud agents
 
-37
+38
 00:01:37,040 --> 00:01:38,880
 which essentially handle all of the
 
-38
+39
 00:01:38,880 --> 00:01:42,560
 verification of KERI ACDC up in the
 
-39
+40
 00:01:42,560 --> 00:01:45,119
 cloud and allow you to use an edge
 
-40
+41
 00:01:45,119 --> 00:01:47,759
 client library known as Signify at
 
-41
+42
 00:01:47,759 --> 00:01:51,119
 the edge to just assign key
 
-42
+43
 00:01:51,119 --> 00:01:54,240
 events essentially or ACDCs this
 
-43
+44
 00:01:54,240 --> 00:01:56,640
 keeps the edge layer very thin. Okay. So
 
-44
+45
 00:01:56,640 --> 00:01:59,680
 for example, Veridian wallet on our mobile
 
-45
+46
 00:01:59,680 --> 00:02:02,000
 just uses a Signify TS just to sign
 
-46
+47
 00:02:02,000 --> 00:02:03,520
 things essentially and all of the
 
-47
+48
 00:02:03,520 --> 00:02:06,560
 complex validation logic is pushed to
 
-48
+49
 00:02:06,560 --> 00:02:08,879
 the cloud kind of like a black box
 
-49
+50
 00:02:08,879 --> 00:02:10,959
 essentially. So in many ways it
 
-50
+51
 00:02:10,959 --> 00:02:14,239
 becomes kind of a more easy to use
 
-51
+52
 00:02:14,239 --> 00:02:16,480
 API that's kind of at a higher level
 
-52
+53
 00:02:16,480 --> 00:02:21,440
 which you know is desirable for adoption
 
-53
+54
 00:02:21,440 --> 00:02:22,640
 So it gives something that's a bit
 
-54
+55
 00:02:22,640 --> 00:02:25,760
 more tangible for people to develop on
 
-55
+56
 00:02:25,760 --> 00:02:28,480
 And very quickly this is taken from
 
-56
+57
 00:02:28,480 --> 00:02:31,360
 my deck yesterday but doesn't look so
 
-57
+58
 00:02:31,360 --> 00:02:33,440
 good on the four screens there but if
 
-58
+59
 00:02:33,440 --> 00:02:35,519
 KERI is this kind of block in the
 
-59
+60
 00:02:35,519 --> 00:02:38,160
 middle is the multi- aent service it's
 
-60
+61
 00:02:38,160 --> 00:02:40,640
 based on pie Okay. So it's a Python
 
-61
+62
 00:02:40,640 --> 00:02:43,200
 service. It allows you to spin up
 
-62
+63
 00:02:43,200 --> 00:02:45,200
 various agents in the cloud that are
 
-63
+64
 00:02:45,200 --> 00:02:46,800
 fully isolated. So they have separate
 
-64
+65
 00:02:46,800 --> 00:02:49,360
 databases. And for every agent in
 
-65
+66
 00:02:49,360 --> 00:02:50,400
 the cloud, you have exactly one
 
-66
+67
 00:02:50,400 --> 00:02:51,840
 signified client at the edge. So this
 
-67
+68
 00:02:51,840 --> 00:02:54,080
 these could be various applications from
 
-68
+69
 00:02:54,080 --> 00:02:56,640
 various people sharing the same cloud
 
-69
+70
 00:02:56,640 --> 00:02:59,360
 agent. This could be say on a mobile
 
-70
+71
 00:02:59,360 --> 00:03:02,000
 device for example. And there's a
 
-71
+72
 00:03:02,000 --> 00:03:04,959
 secure communication between each client
 
-72
+73
 00:03:04,959 --> 00:03:07,760
 and agent. Which I delved into
 
-73
+74
 00:03:07,760 --> 00:03:10,959
 yesterday. I won't do that today.
 
-74
+75
 00:03:10,959 --> 00:03:13,280
 And the agent is also responsible for
 
-75
+76
 00:03:13,280 --> 00:03:15,040
 and the agent is also responsible for
 interfacing with everything else on the
 
-76
+77
 00:03:15,040 --> 00:03:17,040
 network. Such as witnesses and
 
-77
+78
 00:03:17,040 --> 00:03:19,280
 watchers and issuers and verifiers and
 
-78
+79
 00:03:19,280 --> 00:03:21,519
 so forth. So Signify only ever talks
 
-79
+80
 00:03:21,519 --> 00:03:23,200
 to the cloud agent.
 
-80
+81
 00:03:23,200 --> 00:03:26,800
 Quick question if I may. So why
 
-81
+82
 00:03:26,800 --> 00:03:30,000
 must there only be one Signify client
 
-82
+83
 00:03:30,000 --> 00:03:32,319
 per agent? So for example, let's say I
 
-83
+84
 00:03:32,319 --> 00:03:34,879
 had a Veridian wallet and I had a
 
-84
+85
 00:03:34,879 --> 00:03:37,040
 browser wallet. Why couldn't I both
 
-85
+86
 00:03:37,040 --> 00:03:39,200
 connect to the same agent? What would be
 
-86
+87
 00:03:39,200 --> 00:03:45,509
 the problems with that?
 
-87
+88
 00:03:45,509 --> 00:03:45,519
 
 
-88
+89
 00:03:45,519 --> 00:03:48,480
 do the Signify clients have different
 key material?
 
-89
+90
 00:03:48,480 --> 00:03:51,200
 No, same pass password passcode.
 
-90
+91
 00:03:51,200 --> 00:03:52,959
 Well, for me that's moving around the
 
-91
+92
 00:03:52,959 --> 00:03:54,799
 passcode a bit too much.
 
-92
+93
 00:03:54,799 --> 00:03:56,239
 Well, it's the same user though, right?
 
-93
+94
 00:03:56,239 --> 00:03:58,400
 I have my phone and I have another two
 
-94
+95
 00:03:58,400 --> 00:04:00,720
 phones or two devices. What's the
 
-95
+96
 00:04:00,720 --> 00:04:02,239
 problem with that?
 
-96
+97
 00:04:02,239 --> 00:04:04,159
 There wouldn't actually be a problem
 
-97
+98
 00:04:04,159 --> 00:04:05,680
 with that if it's effectively the same
 
-98
+99
 00:04:05,680 --> 00:04:06,720
 client. If you're using the same
 
-99
+100
 00:04:06,720 --> 00:04:08,239
 passcode, it is effectively the same
 
-100
+101
 00:04:08,239 --> 00:04:10,080
 client, just a different instance of it.
 
-101
+102
 00:04:10,080 --> 00:04:12,080
 So it'll it'll derive the same key
 
-102
+103
 00:04:12,080 --> 00:04:13,760
 material and authenticate in the same
 
-103
+104
 00:04:13,760 --> 00:04:16,000
 way.
 
-104
+105
 00:04:16,000 --> 00:04:18,560
 But if your applications keep local
 
-105
+106
 00:04:18,560 --> 00:04:21,359
 but if your applications keep local
 state, you might it might cause
 
-106
+107
 00:04:21,359 --> 00:04:22,960
 inconsistencies essentially. So
 
-107
+108
 00:04:22,960 --> 00:04:24,960
 Okay. Okay. But it might work.
 
-108
+109
 00:04:24,960 --> 00:04:27,440
 No, it would work. Yeah. Yeah.
 
-109
+110
 00:04:27,440 --> 00:04:31,040
 Although it might then you know how
 
-110
+111
 00:04:31,040 --> 00:04:33,199
 it actually stores data on KERI needs
 
-111
+112
 00:04:33,199 --> 00:04:34,880
 to be the same. You've seen this when
 
-112
+113
 00:04:34,880 --> 00:04:37,680
 you've tried to connect your
 
-113
+114
 00:04:37,680 --> 00:04:40,080
 wallet to what was our wallet. Yeah, it
 
-114
+115
 00:04:40,080 --> 00:04:41,520
 works but you see some fuzzy stuff
 
-115
+116
 00:04:41,520 --> 00:04:44,320
 that's related to our wallet only.
 
-116
+117
 00:04:44,320 --> 00:04:48,160
 But yeah, this is generally the setup.
 
-117
-00:04:48,160 --> 00:04:51,280
-but yeah, this is generally the setup.
+118
+00:04:49,196 --> 00:04:51,280
 And today I've kind of split into
 
-118
+119
 00:04:51,280 --> 00:04:53,120
 three different sections of what I will
 
-119
-00:04:53,120 --> 00:04:55,360
-cover on how we can mature Korean
-
 120
+00:04:53,120 --> 00:04:55,360
+cover on how we can mature KERI and
+
+121
 00:04:55,360 --> 00:04:58,560
 Signify. First is focused on the
 
-121
+122
 00:04:58,560 --> 00:05:01,199
 developer experience. The second on
 
-122
+123
 00:05:01,199 --> 00:05:03,759
 the operational resilience and third on
 
-123
+124
 00:05:03,759 --> 00:05:07,280
 scalability. I think the first two
 
-124
+125
 00:05:07,280 --> 00:05:09,039
 are the most important to do in the
 
-125
+126
 00:05:09,039 --> 00:05:12,080
 short term. To really you know
 
-126
+127
 00:05:12,080 --> 00:05:15,280
 increase the usability of the stack.
 
-127
+128
 00:05:15,280 --> 00:05:17,600
 Scalability is more relevant in the long
 
-128
-00:05:17,600 --> 00:05:19,520
-scalability is more relevant in the long
+129
+00:05:18,572 --> 00:05:19,520
 term. A lot of people think about this
 
-129
+130
 00:05:19,520 --> 00:05:22,479
 now but these first two points are more
 
-130
+131
 00:05:22,479 --> 00:05:24,400
 relevant in my opinion and scalability
 
-131
+132
 00:05:24,400 --> 00:05:26,479
 will be very relevant for SEDI though you
 
-132
+133
 00:05:26,479 --> 00:05:27,919
 know if we're launching KERI
 
-133
+134
 00:05:27,919 --> 00:05:29,919
 instances they want to serve thousands
 
-134
+135
 00:05:29,919 --> 00:05:32,080
 and thousands and thousands of people
 
-135
+136
 00:05:32,080 --> 00:05:34,160
 with wallets and scalability becomes a
 
-136
+137
 00:05:34,160 --> 00:05:37,039
 big concern. And just to preface as
 
-137
+138
 00:05:37,039 --> 00:05:39,440
 well, I mean this is going to be a talk
 
-138
+139
 00:05:39,440 --> 00:05:40,639
 probably explaining all the bad points
 
-139
+140
 00:05:40,639 --> 00:05:42,960
 of KERI and Signify, but it does work.
 
-140
+141
 00:05:42,960 --> 00:05:45,440
 It is in production. It's just maybe
 
-141
+142
 00:05:45,440 --> 00:05:48,080
 a bit nuanced to work with. It's very
 
-142
+143
 00:05:48,080 --> 00:05:50,240
 unless you understand it, it can be hard
 
-143
+144
 00:05:50,240 --> 00:05:51,840
 to work with because there's a lack of
 
-144
+145
 00:05:51,840 --> 00:05:54,560
 feedback in places. But all of that is
 
-145
+146
 00:05:54,560 --> 00:05:56,000
 really just traditional software
 
-146
+147
 00:05:56,000 --> 00:05:57,600
 development points that are missing.
 
-147
+148
 00:05:57,600 --> 00:05:59,360
 Just some extra maturity. It's not like
 
-148
+149
 00:05:59,360 --> 00:06:00,639
 it's not anything related to the
 
-149
+150
 00:06:00,639 --> 00:06:03,600
 protocols as such or the security.
 
-150
+151
 00:06:03,600 --> 00:06:06,800
 And in places where I say that, oh,
 
-151
+152
 00:06:06,800 --> 00:06:09,039
 and in places where I say that, oh,
 there's not enough API hardening in
 
-152
+153
 00:06:09,039 --> 00:06:11,199
 place, the reality of that is just
 
-153
+154
 00:06:11,199 --> 00:06:12,960
 something happened. The KERI crashes.
 
-154
+155
 00:06:12,960 --> 00:06:15,680
 It's not a security bug. For as so much
 
-155
+156
 00:06:15,680 --> 00:06:17,280
 as I can see, it's more about a
 
-156
+157
 00:06:17,280 --> 00:06:20,800
 resilience thing. Okay.
 
-157
+158
 00:06:20,800 --> 00:06:24,479
 So, on the developer experience the
 
-158
+159
 00:06:24,479 --> 00:06:26,800
 first point I'm going to on this slide
 
-159
+160
 00:06:26,800 --> 00:06:29,120
 refer to at the edge. So everything in
 
-160
+161
 00:06:29,120 --> 00:06:34,230
 Signify essentially
 
-161
+162
 00:06:34,230 --> 00:06:34,240
 
 
-162
+163
 00:06:34,240 --> 00:06:40,560
 we've been working quite hard over the
 last at least 6 months I think to
 
-163
+164
 00:06:40,560 --> 00:06:44,240
 strongly type the edge libraries so I
 
-164
+165
 00:06:44,240 --> 00:06:48,000
 mean if you're using sign typescript
 
-165
+166
 00:06:48,000 --> 00:06:49,360
 you should be using types essentially
 
-166
+167
 00:06:49,360 --> 00:06:52,319
 but when Signify was originally written
 
-167
+168
 00:06:52,319 --> 00:06:55,039
 It didn't have any types in it
 
-168
+169
 00:06:55,039 --> 00:06:56,720
 this is problematic if you're
 
-169
+170
 00:06:56,720 --> 00:06:58,160
 refactoring code and so forth things
 
-170
+171
 00:06:58,160 --> 00:07:02,160
 start to break. So we've put a lot
 
-171
+172
 00:07:02,160 --> 00:07:04,560
 of time and effort to strongly type
 
-172
+173
 00:07:04,560 --> 00:07:06,800
 Signify. It's not fully there yet,
 
-173
+174
 00:07:06,800 --> 00:07:09,520
 but it pretty much almost is. And
 
-174
+175
 00:07:09,520 --> 00:07:11,280
 instead of adding types directly into
 
-175
+176
 00:07:11,280 --> 00:07:13,199
 Signify, we've actually taken a kind of
 
-176
+177
 00:07:13,199 --> 00:07:16,639
 A different approach because as I
 
-177
+178
 00:07:16,639 --> 00:07:18,319
 mentioned yesterday, Signify essentially
 
-178
+179
 00:07:18,319 --> 00:07:20,319
 is kind of like an API wrapper around
 
-179
+180
 00:07:20,319 --> 00:07:22,240
 KERIA. It can do extra things like
 
-180
+181
 00:07:22,240 --> 00:07:24,400
 generate key events and sign them, but
 
-181
+182
 00:07:24,400 --> 00:07:27,759
 it's otherwise an API wrapper. And
 
-182
+183
 00:07:27,759 --> 00:07:30,880
 since you have an API on KERIA, you can
 
-183
+184
 00:07:30,880 --> 00:07:33,520
 let KERIA decide what it wants and what
 
-184
+185
 00:07:33,520 --> 00:07:35,759
 it will respond with through its open
 
-185
+186
 00:07:35,759 --> 00:07:38,639
 API documentation. Okay, so it will say
 
-186
+187
 00:07:38,639 --> 00:07:40,080
 at this endpoint, it will give a
 
-187
+188
 00:07:40,080 --> 00:07:43,280
 response in this format if it's a HTTP
 
-188
+189
 00:07:43,280 --> 00:07:46,720
 200 or whatever. So
 
-189
+190
 00:07:46,720 --> 00:07:49,919
 and this is common practice to take open
 
-190
+191
 00:07:49,919 --> 00:07:53,360
 API documentation and autogenerate types
 
-191
+192
 00:07:53,360 --> 00:07:55,759
 in languages. Okay, so that's what we've
 
-192
+193
 00:07:55,759 --> 00:07:58,400
 done. We've updated all of the open API
 
-193
+194
 00:07:58,400 --> 00:08:00,879
 docs on KERIA and generated types in
 
-194
+195
 00:08:00,879 --> 00:08:03,599
 Signify TS and Signify Java because they
 
-195
+196
 00:08:03,599 --> 00:08:06,400
 propagate to various languages now as
 
-196
+197
 00:08:06,400 --> 00:08:07,919
 a single source of truth and if you
 
-197
+198
 00:08:07,919 --> 00:08:10,000
 wanted to add in another Signify like a
 
-198
+199
 00:08:10,000 --> 00:08:12,240
 Rust library you could just
 
-199
+200
 00:08:12,240 --> 00:08:16,000
 automatically generate them. Now you
 
-200
+201
 00:08:16,000 --> 00:08:17,360
 might have to do some reworking in
 
-201
+202
 00:08:17,360 --> 00:08:18,800
 places.
 
-202
+203
 00:08:18,800 --> 00:08:22,160
 Java for example is
 
-203
+204
 00:08:22,160 --> 00:08:24,639
 not as expressive in its type system as
 
-204
+205
 00:08:24,639 --> 00:08:28,160
 TypeScript is. It didn't play nice
 
-205
+206
 00:08:28,160 --> 00:08:30,479
 with a lot of the semantics of CESR.
 
-206
+207
 00:08:30,479 --> 00:08:32,640
 But we've kind of got it working now.
 
-207
+208
 00:08:32,640 --> 00:08:35,120
 So it took some changes there but
 
-208
+209
 00:08:35,120 --> 00:08:37,120
 it's quite useful and also we're not
 
-209
+210
 00:08:37,120 --> 00:08:40,080
 hand rolling the open API docs. We're
 
-210
+211
 00:08:40,080 --> 00:08:42,959
 actually taking
 
-211
+212
 00:08:42,959 --> 00:08:44,880
 the data structures in KERIpy that
 
-212
+213
 00:08:44,880 --> 00:08:46,880
 Sam's written saying okay here are the
 
-213
+214
 00:08:46,880 --> 00:08:49,519
 top level fields of an ACDC we've
 
-214
+215
 00:08:49,519 --> 00:08:52,160
 converted those into Python data classes
 
-215
+216
 00:08:52,160 --> 00:08:54,080
 automatically generated so they can be
 
-216
+217
 00:08:54,080 --> 00:08:56,640
 reused in KERI and those data classes
 
-217
+218
 00:08:56,640 --> 00:09:00,000
 are converted to the open API docs and
 
-218
+219
 00:09:00,000 --> 00:09:01,440
 you what that gives you is if there's an
 
-219
+220
 00:09:01,440 --> 00:09:04,080
 update you know downstream it propagates
 
-220
+221
 00:09:04,080 --> 00:09:06,480
 upstream and the open API docs don't go
 
-221
+222
 00:09:06,480 --> 00:09:10,480
 out of sync so this has been a huge
 
-222
+223
 00:09:10,480 --> 00:09:13,839
 lift to make it more usable.
 
-223
+224
 00:09:13,839 --> 00:09:15,519
 Internally, I think Signify still needs
 
-224
+225
 00:09:15,519 --> 00:09:18,320
 some work.
 
-225
+226
 00:09:18,320 --> 00:09:20,320
 Probably we can get away with not doing
 
-226
+227
 00:09:20,320 --> 00:09:21,920
 probably we can get away with not doing
 that for a bit. There's maybe some other
 
-227
+228
 00:09:21,920 --> 00:09:23,200
 points that are more relevant to that
 
-228
+229
 00:09:23,200 --> 00:09:25,279
 point. I would say we'd maybe tackle
 
-229
+230
 00:09:25,279 --> 00:09:27,519
 this when we're upgrading to CESR 2,
 
-230
+231
 00:09:27,519 --> 00:09:29,200
 which would be quite a bit of work as
 
-231
+232
 00:09:29,200 --> 00:09:29,920
 well.
 
-232
+233
 00:09:29,920 --> 00:09:33,360
 So, quick question if I may. So
 
-233
+234
 00:09:33,360 --> 00:09:35,120
 some of the Web of Trust developers
 
-234
+235
 00:09:35,120 --> 00:09:38,640
 refer to Signify meaning Is it what
 
-235
+236
 00:09:38,640 --> 00:09:40,640
 Signify TS has in it? I always thought
 
-236
+237
 00:09:40,640 --> 00:09:43,680
 of it as like the protocol that KERI
 
-237
+238
 00:09:43,680 --> 00:09:47,120
 exposes. So is Signify a component or is
 
-238
+239
 00:09:47,120 --> 00:09:49,760
 it a protocol or is it all things or I
 
-239
+240
 00:09:49,760 --> 00:09:51,920
 don't. So how would you define what
 
-240
+241
 00:09:51,920 --> 00:09:54,240
 Signify is? So sorry it's a simple
 
-241
+242
 00:09:54,240 --> 00:09:56,480
 question but it's a language question
 
-242
+243
 00:09:56,480 --> 00:09:57,680
 mostly
 
-243
+244
 00:09:57,680 --> 00:10:01,040
 an edge client that you can that
 
-244
+245
 00:10:01,040 --> 00:10:02,800
 any edge client of KERI.
 
-245
+246
 00:10:02,800 --> 00:10:03,360
 Yeah.
 
-246
+247
 00:10:03,360 --> 00:10:07,680
 Okay. So it's got it.
 
-247
+248
 00:10:07,680 --> 00:10:09,519
 Yeah. Yeah. So there's a KERI
 
-248
+249
 00:10:09,519 --> 00:10:10,800
 protocol essentially,
 
-249
+250
 00:10:10,800 --> 00:10:12,640
 right? It's defined as a protocol, but
 
-250
+251
 00:10:12,640 --> 00:10:15,360
 it could be Signify JS or Signify Java
 
-251
+252
 00:10:15,360 --> 00:10:15,760
 or
 
-252
+253
 00:10:15,760 --> 00:10:17,360
 Yeah. Yeah.
 
-253
+254
 00:10:17,360 --> 00:10:18,720
 whatever other language.
 
-254
+255
 00:10:18,720 --> 00:10:21,440
 How does it look like? Is it is it
 
-255
+256
 00:10:21,440 --> 00:10:25,600
 UX stuff or is it command line stuff or
 
-256
+257
 00:10:25,600 --> 00:10:26,399
 library?
 
-257
-00:10:26,399 --> 00:10:28,160
-Library. So when you're using Signifi
-
 258
+00:10:26,399 --> 00:10:28,160
+Library. So when you're using Signify
+
+259
 00:10:28,160 --> 00:10:29,839
 TS,
 
-259
+260
 00:10:29,839 --> 00:10:31,040
 you essentially it's kind of like having
 
-260
+261
 00:10:31,040 --> 00:10:32,720
 a compiler error if you type in the
 
-261
+262
 00:10:32,720 --> 00:10:35,440
 wrong formats essentially. So if you try
 
-262
+263
 00:10:35,440 --> 00:10:38,000
 to create an ACDC or something, it will
 
-263
+264
 00:10:38,000 --> 00:10:40,240
 know what the structure should look like
 
-264
+265
 00:10:40,240 --> 00:10:43,839
 and you can reference it directly.
 
-265
+266
 00:10:43,839 --> 00:10:46,480
 Whereas before you're kind of blind
 
-266
+267
 00:10:46,480 --> 00:10:49,200
 essentially, you know you would if
 
-267
+268
 00:10:49,200 --> 00:10:51,360
 you're maybe you receive an ACDC back
 
-268
+269
 00:10:51,360 --> 00:10:52,959
 from KERI and you were going to present
 
-269
+270
 00:10:52,959 --> 00:10:55,120
 that in the UI and you would say I want
 
-270
+271
 00:10:55,120 --> 00:10:57,839
 to get the top level I field as the
 
-271
+272
 00:10:57,839 --> 00:10:59,600
 issuer.
 
-272
+273
 00:10:59,600 --> 00:11:01,600
 If you were to reference some field that
 
-273
+274
 00:11:01,600 --> 00:11:03,519
 doesn't ex exist like T before it
 
-274
+275
 00:11:03,519 --> 00:11:04,800
 wouldn't complain and you just get a
 
-275
+276
 00:11:04,800 --> 00:11:07,760
 blank space in the UI whereas now
 
-276
+277
 00:11:07,760 --> 00:11:10,000
 TypeScript would say there is no top
 
-277
+278
 00:11:10,000 --> 00:11:14,720
 level T field in an ACDC. So
 
-278
+279
 00:11:14,720 --> 00:11:16,720
 I'm a strong you know believer in
 
-279
+280
 00:11:16,720 --> 00:11:19,519
 strongly typed languages.
 
-280
+281
 00:11:19,519 --> 00:11:21,920
 The payoff is very high in terms of
 
-281
+282
 00:11:21,920 --> 00:11:23,440
 the payoff is very high in terms of
 keeping the book count low and
 
-282
+283
 00:11:23,440 --> 00:11:26,000
 especially when you refactor.
 
-283
+284
 00:11:26,000 --> 00:11:28,000
 to your to your question. It's a library
 
-284
+285
 00:11:28,000 --> 00:11:30,000
 you need to be able to build that you
 
-285
+286
 00:11:30,000 --> 00:11:32,640
 want on top of
 
-286
+287
 00:11:32,640 --> 00:11:37,190
 sort of
 
-287
+288
 00:11:42,150 --> 00:11:44,079
 a hole in the wall where you give the
 
-288
+289
 00:11:44,079 --> 00:11:47,760
 food like you give to the other
 
-289
+290
 00:11:47,760 --> 00:11:50,000
 the delivery desk or whatever.
 
-290
+291
 00:11:50,000 --> 00:11:50,880
 Yeah,
 
-291
+292
 00:11:50,880 --> 00:11:55,600
 you have the back office which is
 
-292
+293
 00:11:55,600 --> 00:11:56,880
 career
 
-293
+294
 00:11:56,880 --> 00:11:59,040
 and then you have this and then you can
 
-294
+295
 00:11:59,040 --> 00:12:00,720
 deliver it out to the UX
 
-295
+296
 00:12:00,720 --> 00:12:03,360
 serving window or something.
 
-296
+297
 00:12:03,360 --> 00:12:04,079
 Yeah.
 
-297
+298
 00:12:04,079 --> 00:12:05,600
 Okay. And with this you know what's
 
-298
+299
 00:12:05,600 --> 00:12:07,360
 going to come out, what shape it will
 
-299
+300
 00:12:07,360 --> 00:12:09,200
 be, what comes through the serving
 
-300
+301
 00:12:09,200 --> 00:12:10,560
 window whereas before it's like you're
 
-301
+302
 00:12:10,560 --> 00:12:14,550
 blindfolded. So
 
-302
+303
 00:12:14,550 --> 00:12:14,560
 
 
-303
+304
 00:12:14,560 --> 00:12:22,399
 no I'm good. Another one which is
 a bit technical. Currently with in
 
-304
+305
 00:12:22,399 --> 00:12:24,800
 all of the Signify implementations
 
-305
+306
 00:12:24,800 --> 00:12:27,760
 When you want to do something like
 
-306
+307
 00:12:27,760 --> 00:12:30,320
 issue a credential
 
-307
+308
 00:12:30,320 --> 00:12:33,200
 in one command on Signify
 
-308
+309
 00:12:33,200 --> 00:12:37,120
 it will construct the credential
 
-309
+310
 00:12:37,120 --> 00:12:39,360
 Try to create the interaction event
 
-310
+311
 00:12:39,360 --> 00:12:42,000
 to anchor it in your Key Event Log. It
 
-311
+312
 00:12:42,000 --> 00:12:44,639
 will pick the sequence number for you
 
-312
+313
 00:12:44,639 --> 00:12:47,680
 and submit it to the API all in one go.
 
-313
+314
 00:12:47,680 --> 00:12:48,240
 Absolutely.
 
-314
+315
 00:12:48,240 --> 00:12:50,639
 Which automates workflows of several
 
-315
+316
 00:12:50,639 --> 00:12:51,440
 steps. Yeah.
 
-316
+317
 00:12:51,440 --> 00:12:53,920
 Yeah. Which is not a good thing because
 
-317
+318
 00:12:53,920 --> 00:12:57,600
 if you lose the HTTP response
 
-318
+319
 00:12:57,600 --> 00:12:59,440
 u you've not lost data. Okay. It's okay
 
-319
+320
 00:12:59,440 --> 00:13:01,120
 when you use Signify completely
 
-320
+321
 00:13:01,120 --> 00:13:02,720
 stateless in smaller applications but
 
-321
+322
 00:13:02,720 --> 00:13:05,839
 when you want to build enterprise
 
-322
+323
 00:13:05,839 --> 00:13:07,760
 applications where you need you know
 
-323
+324
 00:13:07,760 --> 00:13:10,160
 mission critical reliability you need
 
-324
+325
 00:13:10,160 --> 00:13:11,680
 things to go through. So if you want
 
-325
+326
 00:13:11,680 --> 00:13:13,360
 outbox patterns, you need to be able to
 
-326
+327
 00:13:13,360 --> 00:13:15,600
 decouple those things. So you can create
 
-327
+328
 00:13:15,600 --> 00:13:19,600
 and sign at the edge and then submit.
 
-328
+329
 00:13:19,600 --> 00:13:23,910
 And the API should be ident.
 
-329
+330
 00:13:24,310 --> 00:13:25,200
 Yeah.
 Yes.
 
-330
+331
 00:13:25,200 --> 00:13:26,800
 On that particular note, I want to
 
-331
+332
 00:13:26,800 --> 00:13:28,000
 make I want to hear more what you have
 
-332
+333
 00:13:28,000 --> 00:13:29,600
 to say on outbox patterns. That's
 
-333
+334
 00:13:29,600 --> 00:13:30,880
 actually something I was looking into.
 
-334
+335
 00:13:30,880 --> 00:13:32,320
 It seems like that while we're
 
-335
+336
 00:13:32,320 --> 00:13:33,440
 considering this,
 
-336
+337
 00:13:33,440 --> 00:13:36,320
 we should consider the API, the
 
-337
+338
 00:13:36,320 --> 00:13:38,160
 fundamental design of the API between
 
-338
+339
 00:13:38,160 --> 00:13:40,880
 Signify and car because the One of the
 
-339
+340
 00:13:40,880 --> 00:13:42,160
 reasons why we have so many different
 
-340
+341
 00:13:42,160 --> 00:13:44,160
 HTTP payloads instead of just CESR
 
-341
+342
 00:13:44,160 --> 00:13:46,240
 streams which if we were to just had
 
-342
+343
 00:13:46,240 --> 00:13:47,600
 streams the outbox it would be very
 
-343
+344
 00:13:47,600 --> 00:13:48,720
 straightforward
 
-344
+345
 00:13:48,720 --> 00:13:51,519
 is because we didn't have a fully a
 
-345
+346
 00:13:51,519 --> 00:13:54,079
 complete parser and cryptographic
 
-346
+347
 00:13:54,079 --> 00:13:56,480
 primitives implementation in TypeScript
 
-347
+348
 00:13:56,480 --> 00:13:59,040
 when Signify CS was being first created
 
-348
+349
 00:13:59,040 --> 00:14:00,720
 and so we ended up doing a bit of what
 
-349
+350
 00:14:00,720 --> 00:14:03,120
 you would say is a bulkier
 
-350
+351
 00:14:03,120 --> 00:14:05,680
 API from Signify CS to KERI because
 
-351
+352
 00:14:05,680 --> 00:14:07,120
 really we should just be passing CESR
 
-352
+353
 00:14:07,120 --> 00:14:10,240
 strings around and instead we have these
 
-353
+354
 00:14:10,240 --> 00:14:12,560
 and embeds that we put in HTTP messages.
 
-354
+355
 00:14:12,560 --> 00:14:15,680
 And so I it's it's sort of a something
 
-355
+356
 00:14:15,680 --> 00:14:16,880
 that I've wondered about as part of
 
-356
+357
 00:14:16,880 --> 00:14:19,920
 maturing the Signify and KERI out. But
 
-357
+358
 00:14:19,920 --> 00:14:22,800
 even before we even get there, I do
 
-358
+359
 00:14:22,800 --> 00:14:24,720
 think we should architect everything the
 
-359
+360
 00:14:24,720 --> 00:14:26,480
 way that you're saying about boxes
 
-360
+361
 00:14:26,480 --> 00:14:28,720
 save everything locally. That makes a
 
-361
+362
 00:14:28,720 --> 00:14:29,680
 lot of sense. So
 
-362
+363
 00:14:29,680 --> 00:14:31,120
 but I'm just sort of saying if we're
 
-363
+364
 00:14:31,120 --> 00:14:32,959
 going to do that anyway, maybe we should
 
-364
+365
 00:14:32,959 --> 00:14:35,199
 reconsider what we even send per
 
-365
+366
 00:14:35,199 --> 00:14:35,920
 end.
 
-366
+367
 00:14:35,920 --> 00:14:38,160
 Yeah, that's a big refactor as well or
 
-367
+368
 00:14:38,160 --> 00:14:39,760
 change rather. Yeah,
 
-368
+369
 00:14:39,760 --> 00:14:41,680
 but you could put helper functions,
 
-369
+370
 00:14:41,680 --> 00:14:44,320
 you know, also in Signify ts, sorry,
 
-370
+371
 00:14:44,320 --> 00:14:45,279
 that
 
-371
+372
 00:14:45,279 --> 00:14:48,160
 that either give the structure or raw C.
 
-372
+373
 00:14:48,160 --> 00:14:48,720
 Okay, going
 
-373
+374
 00:14:48,720 --> 00:14:50,480
 I'll finish because I have like 10 sides
 
-374
+375
 00:14:50,480 --> 00:14:54,079
 of this. This is on our fork. We've
 
-375
+376
 00:14:54,079 --> 00:14:55,199
 done this already with identifier
 
-376
+377
 00:14:55,199 --> 00:14:56,720
 creation. So, we create the identifier
 
-377
+378
 00:14:56,720 --> 00:14:58,800
 locally and then submit it and it allows
 
-378
+379
 00:14:58,800 --> 00:15:00,800
 us to get reliability in our wallet,
 
-379
+380
 00:15:00,800 --> 00:15:03,440
 which we couldn't get before. But we
 
-380
+381
 00:15:03,440 --> 00:15:06,150
 probably need to apply this everywhere.
 
-381
+382
 00:15:06,150 --> 00:15:06,160
 
 
-382
+383
 00:15:06,160 --> 00:15:09,839
 can you say that again? You create the
 identifier and then submit it. Yeah. So
 
-383
+384
 00:15:09,839 --> 00:15:13,680
 the post call is decoupled. So we
 
-384
+385
 00:15:13,680 --> 00:15:15,680
 can put it into an outbox locally and
 
-385
+386
 00:15:15,680 --> 00:15:19,120
 push it up. We've gone to a lot of
 
-386
+387
 00:15:19,120 --> 00:15:20,720
 lengths for reliability in our wallet,
 
-387
+388
 00:15:20,720 --> 00:15:23,040
 but you need to do things like that for
 
-388
+389
 00:15:23,040 --> 00:15:25,519
 it. And you also get better control
 
-389
+390
 00:15:25,519 --> 00:15:27,360
 in the sequence number for anchoring. So
 
-390
+391
 00:15:27,360 --> 00:15:28,399
 if you're trying to assign multiple
 
-391
+392
 00:15:28,399 --> 00:15:29,920
 things at once, especially in a group
 
-392
+393
 00:15:29,920 --> 00:15:32,079
 multi context, having better control
 
-393
+394
 00:15:32,079 --> 00:15:33,040
 will be better.
 
-394
+395
 00:15:33,040 --> 00:15:35,040
 So how is this how is that just
 
-395
+396
 00:15:35,040 --> 00:15:37,279
 different from simply right now? Is that
 
-396
+397
 00:15:37,279 --> 00:15:38,560
 what the 10 slides are? Well, for
 
-397
+398
 00:15:38,560 --> 00:15:42,000
 example, right now in Signify, you IPEX
 
-398
+399
 00:15:42,000 --> 00:15:43,680
 is decoupled. You create the IPEX
 
-399
+400
 00:15:43,680 --> 00:15:45,120
 message and you submit it.
 
-400
+401
 00:15:45,120 --> 00:15:47,120
 It's two calls. Everything else isn't,
 
-401
+402
 00:15:47,120 --> 00:15:48,800
 but it should all be like IPEX.
 
-402
+403
 00:15:48,800 --> 00:15:49,279
 I see.
 
-403
+404
 00:15:49,279 --> 00:15:51,040
 Yeah.
 
-404
+405
 00:15:51,040 --> 00:15:54,480
 Wants to go through.
 
-405
+406
 00:15:54,480 --> 00:15:57,519
 Maybe I should leave the room.
 
-406
+407
 00:15:57,519 --> 00:15:59,759
 All right.
 
-407
+408
 00:15:59,759 --> 00:16:01,040
 Okay. It's just an example of the
 
-408
+409
 00:16:01,040 --> 00:16:03,440
 TypeScript generated,
 
-409
+410
 00:16:03,440 --> 00:16:05,600
 a snippet of it. It's a very long file.
 
-410
+411
 00:16:05,600 --> 00:16:07,680
 And in Java there's like hundreds of
 
-411
+412
 00:16:07,680 --> 00:16:11,440
 classes generated but this is what
 
-412
+413
 00:16:11,440 --> 00:16:14,079
 we're contributing. The other
 
-413
+414
 00:16:14,079 --> 00:16:16,639
 developer experience issue, and this is
 
-414
+415
 00:16:16,639 --> 00:16:19,279
 actually probably even a bigger issue,
 
-415
+416
 00:16:19,279 --> 00:16:21,279
 And you see this all the time on
 
-416
+417
 00:16:21,279 --> 00:16:23,839
 Discord for new developers is
 
-417
+418
 00:16:23,839 --> 00:16:27,519
 silent failures
 
-418
+419
 00:16:27,519 --> 00:16:29,600
 where, you know, you submit something to
 
-419
+420
 00:16:29,600 --> 00:16:31,199
 KERIA
 
-420
+421
 00:16:31,199 --> 00:16:35,279
 and nothing's happening essentially.
 
-421
+422
 00:16:35,279 --> 00:16:37,360
 Now with KERI when you submit things
 
-422
+423
 00:16:37,360 --> 00:16:39,519
 now with KERI when you submit things
 that take time you get an operation back
 
-423
+424
 00:16:39,519 --> 00:16:40,800
 and you can track the operation
 
-424
+425
 00:16:40,800 --> 00:16:42,720
 completion such as if it's waiting for
 
-425
+426
 00:16:42,720 --> 00:16:45,440
 witness receipts and so forth. But
 
-426
+427
 00:16:45,440 --> 00:16:46,880
 it's so common to have operations that
 
-427
+428
 00:16:46,880 --> 00:16:49,279
 are stuck in pending forever and you
 
-428
+429
 00:16:49,279 --> 00:16:51,120
 have no idea why and you can't trace it
 
-429
+430
 00:16:51,120 --> 00:16:52,399
 down and it's because you had a
 
-430
+431
 00:16:52,399 --> 00:16:54,800
 different set in this place of this and
 
-431
+432
 00:16:54,800 --> 00:16:57,279
 you there's very little feedback to why
 
-432
+433
 00:16:57,279 --> 00:17:01,279
 that happened. So
 
-433
+434
 00:17:01,279 --> 00:17:04,240
 you want to put more weight on it.
 
-434
+435
 00:17:04,240 --> 00:17:06,079
 Yeah, you just need more you just need
 
-435
+436
 00:17:06,079 --> 00:17:07,839
 better feedback patterns essentially.
 
-436
+437
 00:17:07,839 --> 00:17:09,839
 It's probably a case by case basis
 
-437
+438
 00:17:09,839 --> 00:17:12,480
 to do that. This is at kind of the
 
-438
+439
 00:17:12,480 --> 00:17:14,160
 API layer. It needs it needs work.
 
-439
+440
 00:17:14,160 --> 00:17:17,199
 But there could be like a result T kind
 
-440
+441
 00:17:17,199 --> 00:17:20,400
 of pattern applied to the call so
 
-441
+442
 00:17:20,400 --> 00:17:23,199
 that if there's a failure in any call,
 
-442
+443
 00:17:23,199 --> 00:17:25,360
 it's handled in a consistent way.
 
-443
+444
 00:17:25,360 --> 00:17:27,439
 Yeah. But this is not the call. the call
 
-444
+445
 00:17:27,439 --> 00:17:29,520
 is like it accepts it and it puts it
 
-445
+446
 00:17:29,520 --> 00:17:31,440
 onto a parser
 
-446
+447
 00:17:31,440 --> 00:17:34,240
 and then the result of parsing that
 
-447
+448
 00:17:34,240 --> 00:17:35,840
 doesn't result in a fully signed
 
-448
+449
 00:17:35,840 --> 00:17:37,200
 something because something was wrong
 
-449
+450
 00:17:37,200 --> 00:17:39,440
 and you have no idea why and you're
 
-450
+451
 00:17:39,440 --> 00:17:40,880
 tracing through the logs and there's a
 
-451
+452
 00:17:40,880 --> 00:17:44,000
 million logs.
 
-452
+453
 00:17:44,000 --> 00:17:46,320
 I don't have a I mean this is case by
 
-453
+454
 00:17:46,320 --> 00:17:48,000
 case basis so you'd have to step through
 
-454
+455
 00:17:48,000 --> 00:17:50,160
 the code and find the biggest issues but
 
-455
+456
 00:17:50,160 --> 00:17:51,600
 even if you historically look at the
 
-456
+457
 00:17:51,600 --> 00:17:53,520
 GitHub issues or Discord you'll see what
 
-457
+458
 00:17:53,520 --> 00:17:58,160
 pops up most. This one
 
-458
+459
 00:17:58,160 --> 00:17:59,760
 I think we fixed this one and actually
 
-459
+460
 00:17:59,760 --> 00:18:02,160
 caused a different issue or
 
-460
+461
 00:18:02,160 --> 00:18:04,000
 not sure.
 
-461
+462
 00:18:04,000 --> 00:18:06,240
 Yeah, we made a change. Yeah, cuz it
 
-462
+463
 00:18:06,240 --> 00:18:08,240
 wasn't
 
-463
+464
 00:18:08,240 --> 00:18:10,400
 anyway. Yeah, but in general it just
 
-464
+465
 00:18:10,400 --> 00:18:11,840
 needs work. I would say it's a
 
-465
+466
 00:18:11,840 --> 00:18:15,520
 barrier to entry. Yeah, I've seen
 
-466
+467
 00:18:15,520 --> 00:18:16,960
 this too often where the operation just
 
-467
+468
 00:18:16,960 --> 00:18:20,960
 times out and you have no idea why.
 
-468
+469
 00:18:20,960 --> 00:18:22,480
 I would think they're probably the two
 
-469
+470
 00:18:22,480 --> 00:18:23,679
 biggest things you could do for the
 
-470
+471
 00:18:23,679 --> 00:18:25,120
 developer experience. So, it's actually
 
-471
+472
 00:18:25,120 --> 00:18:27,840
 easy to build on, you know because
 
-472
+473
 00:18:27,840 --> 00:18:29,919
 if you get stuck wondering why this
 
-473
+474
 00:18:29,919 --> 00:18:32,960
 isn't working for hours and hours and
 
-474
+475
 00:18:32,960 --> 00:18:35,590
 hours, it's
 
-475
+476
 00:18:35,590 --> 00:18:35,600
 
 
-476
+477
 00:18:35,600 --> 00:18:38,320
 if you finally convince someone to try
 car
 
-477
+478
 00:18:38,320 --> 00:18:39,039
 Yeah.
 
-478
+479
 00:18:39,039 --> 00:18:40,799
 and they start developing and this is
 
-479
+480
 00:18:40,799 --> 00:18:42,559
 experience.
 
-480
+481
 00:18:42,559 --> 00:18:45,039
 Yeah. But this these are easy things to
 
-481
+482
 00:18:45,039 --> 00:18:46,320
 fix. It just takes a little bit time to
 
-482
+483
 00:18:46,320 --> 00:18:48,960
 go through certain edge cases. The
 
-483
+484
 00:18:48,960 --> 00:18:50,240
 harder one to fix is the typing which
 
-484
+485
 00:18:50,240 --> 00:18:51,520
 we've almost done. So, that's the good
 
-485
+486
 00:18:51,520 --> 00:18:54,320
 news. The second so that was
 
-486
+487
 00:18:54,320 --> 00:18:56,400
 developer experience. The second kind
 
-487
+488
 00:18:56,400 --> 00:18:58,799
 of section is operational resilience
 
-488
+489
 00:18:58,799 --> 00:19:00,480
 kind of you know after you deploy it
 
-489
+490
 00:19:00,480 --> 00:19:01,840
 what that looks like. Some of these
 
-490
+491
 00:19:01,840 --> 00:19:03,520
 might bleed back into developer
 
-491
+492
 00:19:03,520 --> 00:19:07,600
 experience though but related to the
 
-492
+493
 00:19:07,600 --> 00:19:11,679
 last one is API hardening. They're
 
-493
+494
 00:19:11,679 --> 00:19:14,640
 kind of overlapping. But additionally
 
-494
+495
 00:19:14,640 --> 00:19:16,559
 not just
 
-495
+496
 00:19:16,559 --> 00:19:17,840
 you know KERI getting stuck in the
 
-496
+497
 00:19:17,840 --> 00:19:19,840
 state where things are pending. It's
 
-497
+498
 00:19:19,840 --> 00:19:21,679
 also a bit crash prone from certain bad
 
-498
+499
 00:19:21,679 --> 00:19:23,840
 inputs.
 
-499
+500
 00:19:23,840 --> 00:19:25,840
 What happens if it crashes?
 
-500
+501
 00:19:25,840 --> 00:19:27,360
 what happens if it crashes?
 Well, if it's in the Docker setup, it
 
-501
+502
 00:19:27,360 --> 00:19:28,880
 just comes back up. That's fine. But
 
-502
+503
 00:19:28,880 --> 00:19:32,640
 like you know we even see like in our
 
-503
+504
 00:19:32,640 --> 00:19:35,360
 developer KERI deployment that we use
 
-504
+505
 00:19:35,360 --> 00:19:37,840
 at Veridian and you'll have some random
 
-505
+506
 00:19:37,840 --> 00:19:39,440
 person in the community trying to do the
 
-506
+507
 00:19:39,440 --> 00:19:42,160
 previous slide sending the wrong input
 
-507
+508
 00:19:42,160 --> 00:19:44,160
 and they crash our instance and all of
 
-508
+509
 00:19:44,160 --> 00:19:46,000
 our wallets are flashing to offline mode
 
-509
+510
 00:19:46,000 --> 00:19:48,559
 because KERI has gone down and up you
 
-510
+511
 00:19:48,559 --> 00:19:51,360
 know so it needs a bit more
 
-511
+512
 00:19:51,360 --> 00:19:53,840
 resilience. At that point it's not
 
-512
+513
 00:19:53,840 --> 00:19:55,600
 on the parser. It's actually just on
 
-513
+514
 00:19:55,600 --> 00:19:57,120
 things like the granter and things like
 
-514
+515
 00:19:57,120 --> 00:19:58,799
 that. All the dexter and the agent in
 
-515
+516
 00:19:58,799 --> 00:19:59,360
 file.
 
-516
+517
 00:19:59,360 --> 00:20:00,960
 It's the development, not the
 
-517
+518
 00:20:00,960 --> 00:20:02,240
 production.
 
-518
+519
 00:20:02,240 --> 00:20:03,200
 Oh, yeah. Yeah. Yeah.
 
-519
+520
 00:20:03,200 --> 00:20:04,559
 He says our wallets are going up and
 
-520
+521
 00:20:04,559 --> 00:20:05,360
 down. That's
 
-521
+522
 00:20:05,360 --> 00:20:06,799
 the development environment.
 
-522
+523
 00:20:06,799 --> 00:20:09,440
 Yeah. Yeah.
 
-523
+524
 00:20:09,440 --> 00:20:10,480
 They don't have access to our
 
-524
+525
 00:20:10,480 --> 00:20:15,830
 production. That's not Yeah.
 
-525
+526
 00:20:17,110 --> 00:20:20,640
 yeah. And of course, KERI is multi-
 aent. Okay. So yeah, like I just said,
 
-526
+527
 00:20:20,640 --> 00:20:22,160
 you're now denying service to other
 
-527
+528
 00:20:22,160 --> 00:20:23,360
 people just because you're submitting
 
-528
+529
 00:20:23,360 --> 00:20:26,160
 the wrong thing. And it bloats the
 
-529
+530
 00:20:26,160 --> 00:20:28,240
 logs with lots of errors. That could be
 
-530
+531
 00:20:28,240 --> 00:20:29,760
 nice,
 
-531
+532
 00:20:29,760 --> 00:20:31,280
 you know, information back to the user.
 
-532
+533
 00:20:31,280 --> 00:20:36,310
 You submitted the wrong thing.
 
-533
+534
 00:20:36,310 --> 00:20:36,320
 
 
-534
+535
 00:20:36,320 --> 00:20:42,000
 yeah, I believe this was the I believe
 this was the one we fixed recently.
 
-535
+536
 00:20:42,000 --> 00:20:45,520
 So it doesn't crash anymore if you
 
-536
+537
 00:20:45,520 --> 00:20:48,240
 point your
 
-537
+538
 00:20:48,240 --> 00:20:51,600
 Admit to the wrong instead of
 
-538
+539
 00:20:51,600 --> 00:20:53,039
 pointing it back to the grant, you point
 
-539
+540
 00:20:53,039 --> 00:20:56,240
 it to a different string. It caused a
 
-540
+541
 00:20:56,240 --> 00:20:59,440
 crash. Now it causes is now it causes
 
-541
+542
 00:20:59,440 --> 00:21:01,760
 a an operation that's pending forever.
 
-542
+543
 00:21:01,760 --> 00:21:04,000
 So you just pushed it down one layer,
 
-543
+544
 00:21:04,000 --> 00:21:06,640
 but
 
-544
+545
 00:21:06,640 --> 00:21:10,880
 Another one is application layer
 
-545
+546
 00:21:10,880 --> 00:21:12,480
 reliability.
 
-546
+547
 00:21:12,480 --> 00:21:17,350
 So
 
-547
+548
 00:21:18,870 --> 00:21:21,200
 I think there's kind of a misconception
 that the escros in KERIpy are
 
-548
+549
 00:21:21,200 --> 00:21:22,880
 meant to provide application layer
 
-549
+550
 00:21:22,880 --> 00:21:24,720
 reliability, but they're not. They're
 
-550
+551
 00:21:24,720 --> 00:21:27,120
 more they're they're more so to
 
-551
+552
 00:21:27,120 --> 00:21:31,600
 handle out of order processing. Okay. So
 
-552
+553
 00:21:31,600 --> 00:21:33,919
 in reality, if you want full reliability
 
-553
+554
 00:21:33,919 --> 00:21:36,880
 at the application layer between say
 
-554
+555
 00:21:36,880 --> 00:21:39,679
 two wallets, their agents will need to
 
-555
+556
 00:21:39,679 --> 00:21:43,039
 continuously resend information
 
-556
+557
 00:21:43,039 --> 00:21:44,880
 Until they get a acknowledgements
 
-557
+558
 00:21:44,880 --> 00:21:48,480
 back. Okay. So like for example
 
-558
+559
 00:21:48,480 --> 00:21:52,080
 currently if I send an IPEX grant and my
 
-559
+560
 00:21:52,080 --> 00:21:55,280
 KERI sends it to the port of another
 
-560
+561
 00:21:55,280 --> 00:21:59,440
 KERI instance and it's accepted 202
 
-561
+562
 00:21:59,440 --> 00:22:00,799
 all that's done is put it onto the
 
-562
+563
 00:22:00,799 --> 00:22:02,720
 parser.
 
-563
+564
 00:22:02,720 --> 00:22:04,799
 Okay. It's not going to give you any
 
-564
+565
 00:22:04,799 --> 00:22:07,760
 feedback if it crashes. The parser is in
 
-565
+566
 00:22:07,760 --> 00:22:10,400
 memory right? So if their KERI instance
 
-566
+567
 00:22:10,400 --> 00:22:12,960
 goes down at that point in time when you
 
-567
+568
 00:22:12,960 --> 00:22:15,440
 just got the 202 back, you have no idea
 
-568
+569
 00:22:15,440 --> 00:22:16,960
 that they didn't parse it at all.
 
-569
+570
 00:22:16,960 --> 00:22:19,440
 They've never seen it essentially. So
 
-570
+571
 00:22:19,440 --> 00:22:21,200
 for application reliability, we need
 
-571
+572
 00:22:21,200 --> 00:22:23,679
 retries on that.
 
-572
+573
 00:22:23,679 --> 00:22:25,520
 So when you're talking about they you
 
-573
+574
 00:22:25,520 --> 00:22:28,640
 so when you're talking about they you
 mean the other controllers agent
 
-574
+575
 00:22:28,640 --> 00:22:30,480
 maybe not even related to your agent
 
-575
+576
 00:22:30,480 --> 00:22:33,679
 other than it's on the same KERI. So,
 
-576
+577
 00:22:33,679 --> 00:22:36,000
 I was experiencing the need for
 
-577
+578
 00:22:36,000 --> 00:22:37,919
 retries that I didn't understand because
 
-578
+579
 00:22:37,919 --> 00:22:41,760
 I have a good network. But it
 
-579
+580
 00:22:41,760 --> 00:22:45,520
 could just so as a defensive program
 
-580
+581
 00:22:45,520 --> 00:22:47,600
 when you get the 202 or other certain
 
-581
+582
 00:22:47,600 --> 00:22:49,840
 other areas, you need to retry. It's not
 
-582
+583
 00:22:49,840 --> 00:22:52,000
 necessarily a network error.
 
-583
+584
 00:22:52,000 --> 00:22:52,320
 Yeah.
 
-584
+585
 00:22:52,320 --> 00:22:53,600
 Is that what you're saying? It's the
 
-585
+586
 00:22:53,600 --> 00:22:56,000
 KERI is busy or dropped it.
 
-586
+587
 00:22:56,000 --> 00:23:00,159
 Yeah. I mean, so on the 392 port, the
 
-587
+588
 00:23:00,159 --> 00:23:03,600
 CESR endpoint of KERIA, it will just
 
-588
+589
 00:23:03,600 --> 00:23:05,840
 take in the CESR stream and put it
 
-589
+590
 00:23:05,840 --> 00:23:08,880
 onto the queue of the parser and give
 
-590
+591
 00:23:08,880 --> 00:23:12,559
 you a 202 back and then parse it. But if
 
-591
+592
 00:23:12,559 --> 00:23:14,400
 it gives you the 202 back and
 
-592
+593
 00:23:14,400 --> 00:23:16,640
 immediately crashes, you've now lost
 
-593
+594
 00:23:16,640 --> 00:23:18,480
 that data.
 
-594
+595
 00:23:18,480 --> 00:23:19,760
 They have no idea that they need to
 
-595
+596
 00:23:19,760 --> 00:23:21,039
 parse something. They can't parse it.
 
-596
+597
 00:23:21,039 --> 00:23:23,840
 It's lost in memory. But the 3902 port
 
-597
+598
 00:23:23,840 --> 00:23:26,320
 isn't used by Signify TS, right? It's
 
-598
+599
 00:23:26,320 --> 00:23:28,080
 I'm not talking about Signify TS here.
 
-599
+600
 00:23:28,080 --> 00:23:30,159
 I'm talking about entire KERI here,
 
-600
+601
 00:23:30,159 --> 00:23:35,110
 but agent to agent communication. Yeah.
 
-601
+602
 00:23:35,110 --> 00:23:35,120
 
 
-602
+603
 00:23:35,120 --> 00:23:38,549
 but also from Signify clients.
 
-603
+604
 00:23:38,549 --> 00:23:38,559
 
 
-604
+605
 00:23:38,559 --> 00:23:43,600
 can use it if they want.
 392 is open.
 
-605
+606
 00:23:43,600 --> 00:23:45,520
 Yeah. But Signify TS doesn't do anything
 
-606
+607
 00:23:45,520 --> 00:23:47,360
 with it out of the box, right?
 
-607
+608
 00:23:47,360 --> 00:23:50,320
 No, it doesn't out of the box. No.
 
-608
+609
 00:23:50,320 --> 00:23:53,840
 But also Yeah. If your agent accepts,
 
-609
+610
 00:23:53,840 --> 00:23:56,640
 but also Yeah. If your agent accepts,
 you know, an IPEX message, it should
 
-610
+611
 00:23:56,640 --> 00:24:00,640
 send it, right?
 
-611
+612
 00:24:00,640 --> 00:24:03,520
 Especially for groups. So, for example,
 
-612
+613
 00:24:03,520 --> 00:24:07,760
 especially for groups. So, for example,
 If you have a group set up
 
-613
+614
 00:24:07,760 --> 00:24:10,640
 based on KERI and Signify
 
-614
+615
 00:24:10,640 --> 00:24:14,000
 Let's say the one person proposes an
 
-615
+616
 00:24:14,000 --> 00:24:16,480
 IPX message, sends it to the others, it
 
-616
+617
 00:24:16,480 --> 00:24:19,039
 starts collecting signatures. before it
 
-617
+618
 00:24:19,039 --> 00:24:21,120
 collects enough signatures, it goes
 
-618
+619
 00:24:21,120 --> 00:24:25,039
 down, comes back up, receives the other
 
-619
+620
 00:24:25,039 --> 00:24:27,279
 signatures, nothing happens. It doesn't
 
-620
+621
 00:24:27,279 --> 00:24:29,600
 send it to the other person because the
 
-621
+622
 00:24:29,600 --> 00:24:32,159
 granter deck is in memory, the queue.
 
-622
+623
 00:24:32,159 --> 00:24:35,360
 So, it's lost it. And the lead of the
 
-623
+624
 00:24:35,360 --> 00:24:37,279
 group currently is the one that sends.
 
-624
+625
 00:24:37,279 --> 00:24:39,600
 So, a lot of the in-memory decks that we
 
-625
+626
 00:24:39,600 --> 00:24:42,159
 use for cues in KERI need to be made
 
-626
+627
 00:24:42,159 --> 00:24:45,039
 durable. So
 
-627
+628
 00:24:45,039 --> 00:24:47,039
 we is there an issue? If there's not an
 
-628
+629
 00:24:47,039 --> 00:24:48,159
 issue with that, I'm going to make that
 
-629
+630
 00:24:48,159 --> 00:24:49,039
 one right now. That's
 
-630
+631
 00:24:49,039 --> 00:24:51,120
 Yeah, that's that's that's bad. That one
 
-631
+632
 00:24:51,120 --> 00:24:52,799
 that one's bad, actually. That needs to
 
-632
+633
 00:24:52,799 --> 00:24:55,919
 be fixed soon. But you don't see
 
-633
+634
 00:24:55,919 --> 00:24:57,840
 these in your normal setups like
 
-634
+635
 00:24:57,840 --> 00:25:00,159
 because it's just happy paths.
 
-635
+636
 00:25:00,159 --> 00:25:01,200
 Everything just works. Everyone clicks
 
-636
+637
 00:25:01,200 --> 00:25:02,960
 at the same time.
 
-637
+638
 00:25:02,960 --> 00:25:03,760
 It's all good.
 
-638
+639
 00:25:03,760 --> 00:25:05,440
 Yeah.
 
-639
+640
 00:25:05,440 --> 00:25:07,360
 And it'd be nice to have some more
 
-640
+641
 00:25:07,360 --> 00:25:08,799
 feedback on the async stuff because
 
-641
+642
 00:25:08,799 --> 00:25:11,760
 everything in KERI is async. So,
 
-642
+643
 00:25:11,760 --> 00:25:14,240
 if we have better ways of receiving
 
-643
+644
 00:25:14,240 --> 00:25:17,760
 results that are more rich on what's
 
-644
+645
 00:25:17,760 --> 00:25:20,159
 happening, that would be useful. But
 
-645
+646
 00:25:20,159 --> 00:25:22,159
 that's a bit open-ended.
 
-646
+647
 00:25:22,159 --> 00:25:23,440
 I mean, if you already have a plan to
 
-647
+648
 00:25:23,440 --> 00:25:24,799
 put these into issues, I don't want to
 
-648
+649
 00:25:24,799 --> 00:25:27,760
 duplicate it. But is this like is
 
-649
+650
 00:25:27,760 --> 00:25:29,039
 there's a plan to currently make an
 
-650
+651
 00:25:29,039 --> 00:25:30,080
 issue on that because if there's not,
 
-651
+652
 00:25:30,080 --> 00:25:31,600
 I'll capture it immediately.
 
-652
+653
 00:25:31,600 --> 00:25:34,320
 I have a joint discussion but I don't
 
-653
+654
 00:25:34,320 --> 00:25:35,760
 know if it has everything from this. It
 
-654
+655
 00:25:35,760 --> 00:25:37,919
 was written a while ago. It's either
 
-655
+656
 00:25:37,919 --> 00:25:42,950
 in Signify TS or KERIA. Okay.
 
-656
+657
 00:25:42,950 --> 00:25:42,960
 
 
-657
+658
 00:25:42,960 --> 00:25:48,080
 that's some information from Sam on
 application layer reliability.
 
-658
+659
 00:25:48,080 --> 00:25:49,919
 If you want to read it, it's him saying
 
-659
+660
 00:25:49,919 --> 00:25:52,320
 that KERI Pie is not going to provide
 
-660
+661
 00:25:52,320 --> 00:25:59,350
 this essentially.
 
-661
+662
 00:26:01,830 --> 00:26:04,159
 What is him saying again?
 About achieving application layer
 
-662
+663
 00:26:04,159 --> 00:26:06,000
 reliability end to end.
 
-663
+664
 00:26:06,000 --> 00:26:08,640
 Okay, cool. and the need for retries and
 
-664
+665
 00:26:08,640 --> 00:26:13,750
 identy so forth.
 
-665
+666
 00:26:15,510 --> 00:26:23,190
 Cool.
 Finally, well, not finally.
 
-666
+667
 00:26:25,830 --> 00:26:27,120
 so
 especially when you're using group
 
-667
+668
 00:26:27,120 --> 00:26:29,760
 multisig if you're doing something
 
-668
+669
 00:26:29,760 --> 00:26:31,600
 wrong, it can be quite hard to
 
-669
+670
 00:26:31,600 --> 00:26:33,760
 understand what you're doing wrong
 
-670
+671
 00:26:33,760 --> 00:26:36,080
 because it's a multi- aent setup. All
 
-671
+672
 00:26:36,080 --> 00:26:38,480
 your logs are intertwined. There's no
 
-672
+673
 00:26:38,480 --> 00:26:40,320
 way to filter on the logs. And even if
 
-673
+674
 00:26:40,320 --> 00:26:41,760
 there was a way to filter on the logs
 
-674
+675
 00:26:41,760 --> 00:26:44,400
 per agent there's still too many
 
-675
+676
 00:26:44,400 --> 00:26:45,919
 logs. There's no way to filter on the
 
-676
+677
 00:26:45,919 --> 00:26:49,039
 action you were trying to do. And
 
-677
+678
 00:26:49,039 --> 00:26:52,240
 data again, everything's based on HEO.
 
-678
+679
 00:26:52,240 --> 00:26:54,480
 Everything's async, everything's moving
 
-679
+680
 00:26:54,480 --> 00:26:57,039
 various ways with little
 
-680
+681
 00:26:57,039 --> 00:27:00,320
 observability. It's again fine in happy
 
-681
+682
 00:27:00,320 --> 00:27:01,760
 pad once you've developed it's fine
 
-682
+683
 00:27:01,760 --> 00:27:04,159
 but sometimes it can be very
 
-683
+684
 00:27:04,159 --> 00:27:05,600
 difficult to add new features to KERI
 
-684
+685
 00:27:05,600 --> 00:27:07,919
 and try and figure out where the data is
 
-685
+686
 00:27:07,919 --> 00:27:09,279
 actually moving and what's actually
 
-686
+687
 00:27:09,279 --> 00:27:11,600
 wrong and why this isn't completing and
 
-687
+688
 00:27:11,600 --> 00:27:12,480
 so forth.
 
-688
+689
 00:27:12,480 --> 00:27:14,159
 Should the KERI requests have a
 
-689
+690
 00:27:14,159 --> 00:27:15,919
 request ID added to them?
 
-690
+691
 00:27:15,919 --> 00:27:18,080
 Probably. Yeah. Yeah. But it'll need
 
-691
+692
 00:27:18,080 --> 00:27:21,200
 some work with KERIpy as well
 
-692
+693
 00:27:21,200 --> 00:27:24,480
 because most of the complex logic of
 
-693
+694
 00:27:24,480 --> 00:27:26,720
 KERI is KERIpy. It's it's a direct
 
-694
+695
 00:27:26,720 --> 00:27:28,799
 dependency. it gets pushed onto KERI
 
-695
+696
 00:27:28,799 --> 00:27:30,960
 pie. So I need to do some work
 
-696
+697
 00:27:30,960 --> 00:27:34,480
 there. So yeah, some instrumentation
 
-697
+698
 00:27:34,480 --> 00:27:37,279
 would be useful at that. And this is
 
-698
+699
 00:27:37,279 --> 00:27:39,120
 just I mean yeah, you see you go to the
 
-699
+700
 00:27:39,120 --> 00:27:40,320
 logs and you're just trying to figure
 
-700
+701
 00:27:40,320 --> 00:27:41,679
 out what's going on because you've put
 
-701
+702
 00:27:41,679 --> 00:27:44,400
 the wrong ID somewhere and it's yeah,
 
-702
+703
 00:27:44,400 --> 00:27:46,799
 you can see Kent added some you added
 
-703
+704
 00:27:46,799 --> 00:27:48,880
 some stuff here. But we probably need
 
-704
+705
 00:27:48,880 --> 00:27:50,400
 to go a bit further so we can actually
 
-705
+706
 00:27:50,400 --> 00:27:52,320
 filter on ids of like agents and so
 
-706
+707
 00:27:52,320 --> 00:27:53,039
 forth.
 
-707
+708
 00:27:53,039 --> 00:27:54,559
 A structured log.
 
-708
+709
 00:27:54,559 --> 00:27:55,120
 Yeah.
 
-709
+710
 00:27:55,120 --> 00:27:56,720
 Request ID or client ID.
 
-710
+711
 00:27:56,720 --> 00:28:00,149
 Yeah. Yeah.
 
-711
+712
 00:28:05,110 --> 00:28:06,720
 I'll do this one quite quickly.
 Yeah, probably KERI and Signify should
 
-712
+713
 00:28:06,720 --> 00:28:07,840
 yeah, probably KERI and Signify should
 have some semantic versioning because
 
-713
+714
 00:28:07,840 --> 00:28:10,799
 it's an API. And I think you raised
 
-714
+715
 00:28:10,799 --> 00:28:13,120
 issues on this. There should be compet
 
-715
+716
 00:28:13,120 --> 00:28:15,120
 compatibility enforcements between them.
 
-716
+717
 00:28:15,120 --> 00:28:17,840
 I don't think this is big issue now,
 
-717
+718
 00:28:17,840 --> 00:28:20,000
 but in as you move towards, you know,
 
-718
+719
 00:28:20,000 --> 00:28:21,760
 being a more mature ecosystem and
 
-719
+720
 00:28:21,760 --> 00:28:23,760
 getting more developers in, it'll become
 
-720
+721
 00:28:23,760 --> 00:28:28,159
 more relevant. Also versioning
 
-721
+722
 00:28:28,159 --> 00:28:30,000
 Right now you have to version on the
 
-722
+723
 00:28:30,000 --> 00:28:34,080
 KI per agent and iterate over them. So
 
-723
+724
 00:28:34,080 --> 00:28:36,080
 there needs to be a migration framework
 
-724
+725
 00:28:36,080 --> 00:28:38,559
 in place. We've been avoiding this
 
-725
+726
 00:28:38,559 --> 00:28:39,679
 for ages because there hasn't been
 
-726
+727
 00:28:39,679 --> 00:28:42,640
 migrations essentially but when there is
 
-727
+728
 00:28:42,640 --> 00:28:43,679
 yeah in production it would be
 
-728
+729
 00:28:43,679 --> 00:28:47,840
 problematic. Okay so that's
 
-729
+730
 00:28:47,840 --> 00:28:49,840
 resilience
 
-730
+731
 00:28:49,840 --> 00:28:54,950
 and again this is just I think these are
 
-731
+732
 00:28:56,950 --> 00:28:58,399
 more like traditional software problems
 you know just put some resources into it
 
-732
+733
 00:28:58,399 --> 00:29:00,640
 and it'll make it a more mature app
 
-733
+734
 00:29:00,640 --> 00:29:02,159
 it's not a protocol thing so these are
 
-734
+735
 00:29:02,159 --> 00:29:05,760
 all very achievable
 
-735
+736
 00:29:05,760 --> 00:29:08,320
 But finally on scalability
 
-736
+737
 00:29:08,320 --> 00:29:11,120
 And this one is also a kind of
 
-737
+738
 00:29:11,120 --> 00:29:13,120
 developer experience
 
-738
+739
 00:29:13,120 --> 00:29:14,720
 So
 
-739
+740
 00:29:14,720 --> 00:29:16,960
 I mentioned earlier that because a lot
 
-740
+741
 00:29:16,960 --> 00:29:19,919
 of the things are async, you need to
 
-741
+742
 00:29:19,919 --> 00:29:22,240
 submit like create an identifier, create
 
-742
+743
 00:29:22,240 --> 00:29:23,919
 a registry, issue a credential and you
 
-743
+744
 00:29:23,919 --> 00:29:26,159
 get an operation back.
 
-744
+745
 00:29:26,159 --> 00:29:28,320
 And then you need to pull on that
 
-745
+746
 00:29:28,320 --> 00:29:30,080
 status of the operation until it's done
 
-746
+747
 00:29:30,080 --> 00:29:31,440
 while it's waiting to collect signatures
 
-747
+748
 00:29:31,440 --> 00:29:35,600
 and so forth. That's kind of a pain.
 
-748
+749
 00:29:35,600 --> 00:29:38,240
 Typ modern systems are usually
 
-749
+750
 00:29:38,240 --> 00:29:40,720
 event driven. Where you would get
 
-750
+751
 00:29:40,720 --> 00:29:42,880
 some notification that it has completed
 
-751
+752
 00:29:42,880 --> 00:29:46,559
 rather than constantly checking.
 
-752
+753
 00:29:46,559 --> 00:29:47,919
 The same goes for notifications. You
 
-753
+754
 00:29:47,919 --> 00:29:49,279
 the same goes for notifications. You
 have to constantly check if there's new
 
-754
+755
 00:29:49,279 --> 00:29:52,720
 new notifications.
 
-755
+756
 00:29:52,720 --> 00:29:54,320
 You know in any general application like
 
-756
+757
 00:29:54,320 --> 00:29:55,360
 you know in any general application like
 a wallet, it's going to have to
 
-757
+758
 00:29:55,360 --> 00:29:57,520
 constantly check because it doesn't know
 
-758
+759
 00:29:57,520 --> 00:29:59,760
 when to expect that you're receiving a
 
-759
+760
 00:29:59,760 --> 00:30:00,240
 credential.
 
-760
+761
 00:30:00,240 --> 00:30:01,840
 Single threaded environment, it could
 
-761
+762
 00:30:01,840 --> 00:30:04,080
 completely
 
-762
+763
 00:30:04,080 --> 00:30:05,760
 block the rest of the application.
 
-763
+764
 00:30:05,760 --> 00:30:08,320
 Yeah. And I mean like
 
-764
+765
 00:30:08,320 --> 00:30:10,399
 this we've made event driven in our
 
-765
+766
 00:30:10,399 --> 00:30:11,760
 wallet in every application we've built
 
-766
+767
 00:30:11,760 --> 00:30:13,200
 because we've just put it in a corner in
 
-767
+768
 00:30:13,200 --> 00:30:16,240
 the box and made it event driven from
 
-768
+769
 00:30:16,240 --> 00:30:17,679
 the perspective of the rest of our
 
-769
+770
 00:30:17,679 --> 00:30:19,440
 application. But it's kind of annoying
 
-770
+771
 00:30:19,440 --> 00:30:20,720
 to have to build that every single time.
 
-771
+772
 00:30:20,720 --> 00:30:21,200
 But
 
-772
+773
 00:30:21,200 --> 00:30:24,320
 this is very doable in if we were to
 
-773
+774
 00:30:24,320 --> 00:30:26,880
 take the KERI reply
 
-774
+775
 00:30:26,880 --> 00:30:29,120
 it approach of just using the even just
 
-775
+776
 00:30:29,120 --> 00:30:32,559
 the WSGI response stream we could open
 
-776
+777
 00:30:32,559 --> 00:30:34,880
 up the server events connection per
 
-777
+778
 00:30:34,880 --> 00:30:36,080
 agent. Yep.
 
-778
+779
 00:30:36,080 --> 00:30:39,919
 To Signify and do this today.
 
-779
+780
 00:30:39,919 --> 00:30:43,600
 I might try that over the weekend.
 
-780
+781
 00:30:43,600 --> 00:30:45,679
 Huh?
 
-781
+782
 00:30:45,679 --> 00:30:46,480
 No.
 
-782
+783
 00:30:46,480 --> 00:30:50,149
 Tell me about it.
 
-783
+784
 00:30:52,310 --> 00:30:54,799
 Before I get to that. Yeah. So, the
 reason I put this in scalability is
 
-784
+785
 00:30:54,799 --> 00:30:56,799
 because right now you have 10,000
 
-785
+786
 00:30:56,799 --> 00:30:59,200
 wallets using one KERI instance and
 
-786
+787
 00:30:59,200 --> 00:31:01,279
 they have 25 pending operations that
 
-787
+788
 00:31:01,279 --> 00:31:03,679
 they're pulling, pulling, pulling. These
 
-788
+789
 00:31:03,679 --> 00:31:06,799
 are all full HTTP requests. It's way too
 
-789
+790
 00:31:06,799 --> 00:31:11,440
 much traffic hitting KERI. It yeah
 
-790
+791
 00:31:11,440 --> 00:31:15,360
 it won't work. So moving to something
 
-791
+792
 00:31:15,360 --> 00:31:17,440
 like service events
 
-792
+793
 00:31:17,440 --> 00:31:18,799
 is much better from a developer
 
-793
+794
 00:31:18,799 --> 00:31:20,880
 experience, but it's also much better
 
-794
+795
 00:31:20,880 --> 00:31:24,880
 from a load experience. And
 
-795
+796
 00:31:24,880 --> 00:31:26,720
 it isn't, well, I haven't I've never
 
-796
+797
 00:31:26,720 --> 00:31:27,840
 implemented them, so I don't know what
 
-797
+798
 00:31:27,840 --> 00:31:30,000
 it's like, but for notifications, it
 
-798
+799
 00:31:30,000 --> 00:31:32,080
 wouldn't be too difficult because it's
 
-799
+800
 00:31:32,080 --> 00:31:34,000
 just the next notification coming out on
 
-800
+801
 00:31:34,000 --> 00:31:36,880
 the event. It's more problematic for
 
-801
+802
 00:31:36,880 --> 00:31:39,519
 operations. I explain that in a moment.
 
-802
+803
 00:31:39,519 --> 00:31:42,080
 I also service end events are true
 
-803
+804
 00:31:42,080 --> 00:31:44,320
 HTTP, so they're compatible load
 
-804
+805
 00:31:44,320 --> 00:31:46,080
 balancers. So if you if you start to do
 
-805
+806
 00:31:46,080 --> 00:31:47,600
 horizontal scaling and so forth, they're
 
-806
+807
 00:31:47,600 --> 00:31:50,159
 compatible, which is why Sam likes them
 
-807
+808
 00:31:50,159 --> 00:31:51,760
 over or would prefer that over
 
-808
+809
 00:31:51,760 --> 00:31:58,070
 websockets because that isn't pure HTTP.
 
-809
+810
 00:31:59,830 --> 00:32:06,310
 yeah. Now the problem for integrating
 with operations is currently
 
-810
+811
 00:32:08,070 --> 00:32:09,919
 when you perform an action that requires
 a long run operation to track that
 
-811
+812
 00:32:09,919 --> 00:32:13,120
 status of the operation.
 
-812
+813
 00:32:13,120 --> 00:32:16,000
 It just stores the related sets and
 
-813
+814
 00:32:16,000 --> 00:32:18,080
 it just stores the related sets and
 metadata that refer to that operation.
 
-814
+815
 00:32:18,080 --> 00:32:20,159
 It doesn't have a status of pending or
 
-815
+816
 00:32:20,159 --> 00:32:22,799
 failed or anything like that.
 
-816
+817
 00:32:22,799 --> 00:32:24,559
 And when you use Signify to check that
 
-817
+818
 00:32:24,559 --> 00:32:26,080
 status of pending or failed, it's not
 
-818
+819
 00:32:26,080 --> 00:32:27,200
 stored in the database. That's what I
 
-819
+820
 00:32:27,200 --> 00:32:29,279
 mean. It doesn't flip in the database
 
-820
+821
 00:32:29,279 --> 00:32:31,760
 from pending to complete
 
-821
+822
 00:32:31,760 --> 00:32:35,039
 actually if you look at longridden.py
 
-822
+823
 00:32:35,039 --> 00:32:38,080
 in KERI, it takes all of those sets
 
-823
+824
 00:32:38,080 --> 00:32:40,720
 and compares it against the database of
 
-824
+825
 00:32:40,720 --> 00:32:42,720
 the agent to see if it's effectively
 
-825
+826
 00:32:42,720 --> 00:32:46,399
 complete. Okay, so it's not checking is
 
-826
+827
 00:32:46,399 --> 00:32:48,000
 this operation complete in the database.
 
-827
+828
 00:32:48,000 --> 00:32:50,240
 check in based on this operations
 
-828
+829
 00:32:50,240 --> 00:32:53,279
 metadata are all the signatures in place
 
-829
+830
 00:32:53,279 --> 00:32:55,440
 for this to be considered complete for
 
-830
+831
 00:32:55,440 --> 00:32:57,679
 example you can see here for the
 
-831
+832
 00:32:57,679 --> 00:33:00,559
 delegations using the swancomplete
 
-832
+833
 00:33:00,559 --> 00:33:03,279
 every time you check
 
-833
+834
 00:33:03,279 --> 00:33:05,039
 yeah basically like a diff on the
 
-834
+835
 00:33:05,039 --> 00:33:06,480
 database
 
-835
+836
 00:33:06,480 --> 00:33:08,480
 yeah so this has been quite a mental
 
-836
+837
 00:33:08,480 --> 00:33:10,720
 challenge for me for like two years with
 
-837
+838
 00:33:10,720 --> 00:33:13,760
 KERI is the notion that the concept of
 
-838
+839
 00:33:13,760 --> 00:33:16,559
 state and state modeling is missing
 
-839
+840
 00:33:16,559 --> 00:33:18,000
 and that's intentional
 
-840
+841
 00:33:18,000 --> 00:33:22,559
 I think from Sam for what is
 
-841
+842
 00:33:22,559 --> 00:33:25,600
 let's let's IPEX for example right is
 
-842
+843
 00:33:25,600 --> 00:33:28,240
 you know I tried to get a state
 
-843
+844
 00:33:28,240 --> 00:33:31,200
 machine diagram of all the possible
 
-844
+845
 00:33:31,200 --> 00:33:33,919
 state transitions and IPEX of spurn
 
-845
+846
 00:33:33,919 --> 00:33:36,480
 grant you know accept and all that and
 
-846
+847
 00:33:36,480 --> 00:33:38,960
 had very had a challenge getting to the
 
-847
+848
 00:33:38,960 --> 00:33:41,279
 precision but this is similar is you're
 
-848
+849
 00:33:41,279 --> 00:33:44,399
 wanting to KERI the state of an
 
-849
+850
 00:33:44,399 --> 00:33:46,320
 operation and it has to be derived and
 
-850
+851
 00:33:46,320 --> 00:33:48,480
 has to be requeried to compute the state
 
-851
+852
 00:33:48,480 --> 00:33:51,440
 is what I think I heard you say.
 
-852
+853
 00:33:51,440 --> 00:33:51,840
 Yeah.
 
-853
+854
 00:33:51,840 --> 00:33:54,240
 Of an operation, right? So it'd be like
 
-854
+855
 00:33:54,240 --> 00:33:56,000
 it'd be nice just to get the state back
 
-855
+856
 00:33:56,000 --> 00:33:58,880
 from curious like oh it's in pending.
 
-856
+857
 00:33:58,880 --> 00:34:00,240
 Yeah. So basically while it's currently
 
-857
+858
 00:34:00,240 --> 00:34:01,760
 like this we can't do event driven with
 
-858
+859
 00:34:01,760 --> 00:34:03,360
 ser events
 
-859
+860
 00:34:03,360 --> 00:34:04,960
 to date
 
-860
+861
 00:34:04,960 --> 00:34:06,640
 because it's you're checking against the
 
-861
+862
 00:34:06,640 --> 00:34:09,520
 database state. Okay. So instead of
 
-862
+863
 00:34:09,520 --> 00:34:13,440
 checking the database state or the diff
 
-863
+864
 00:34:13,440 --> 00:34:15,040
 when this completes for the first time
 
-864
+865
 00:34:15,040 --> 00:34:17,200
 inside KERIpy, it needs to emit an
 
-865
+866
 00:34:17,200 --> 00:34:19,359
 event that gets sent on server the
 
-866
+867
 00:34:19,359 --> 00:34:21,440
 server sent event
 
-867
+868
 00:34:21,440 --> 00:34:22,000
 thread.
 
-868
+869
 00:34:22,000 --> 00:34:23,760
 Okay. Because I'm thinking what we could
 
-869
+870
 00:34:23,760 --> 00:34:27,200
 do for each operation type is that there
 
-870
+871
 00:34:27,200 --> 00:34:28,800
 could be let's say there's already a
 
-871
+872
 00:34:28,800 --> 00:34:30,879
 server event connection from the agent
 
-872
+873
 00:34:30,879 --> 00:34:32,720
 to the Signify client. It would
 
-873
+874
 00:34:32,720 --> 00:34:33,919
 essentially just be a channel to
 
-874
+875
 00:34:33,919 --> 00:34:35,599
 communicate. I'm thinking on completion
 
-875
+876
 00:34:35,599 --> 00:34:36,879
 it would just send a completion.
 
-876
+877
 00:34:36,879 --> 00:34:39,440
 Yeah. But there is no completion of an
 
-877
+878
 00:34:39,440 --> 00:34:42,960
 operation in KERIA. It's a state check.
 
-878
+879
 00:34:42,960 --> 00:34:46,000
 It tells you it's effectively complete.
 
-879
+880
 00:34:46,000 --> 00:34:47,679
 There's no point where it's the
 
-880
+881
 00:34:47,679 --> 00:34:48,639
 database. So
 
-881
+882
 00:34:48,639 --> 00:34:49,359
 it's inferred
 
-882
+883
 00:34:49,359 --> 00:34:51,040
 if you Yeah, it's inferred. So if you
 
-883
+884
 00:34:51,040 --> 00:34:53,679
 never ever connect it again,
 
-884
+885
 00:34:53,679 --> 00:34:55,919
 nothing changes on the database to say
 
-885
+886
 00:34:55,919 --> 00:34:57,440
 it's complete. It's just you coming back
 
-886
+887
 00:34:57,440 --> 00:35:00,400
 later and saying this is the status.
 
-887
+888
 00:35:00,400 --> 00:35:02,320
 Okay. So because there's no point at
 
-888
+889
 00:35:02,320 --> 00:35:04,800
 which that happens
 
-889
+890
 00:35:04,800 --> 00:35:06,320
 things that's this is a problem all the
 
-890
+891
 00:35:06,320 --> 00:35:06,800
 time right
 
-891
+892
 00:35:06,800 --> 00:35:08,400
 so essentially
 
-892
+893
 00:35:08,400 --> 00:35:10,800
 we need to store the completed state not
 
-893
+894
 00:35:10,800 --> 00:35:11,680
 just derive it
 
-894
+895
 00:35:11,680 --> 00:35:13,760
 yeah so and also but all of this happens
 
-895
+896
 00:35:13,760 --> 00:35:16,320
 in KERIpy so KERIpy needs to tell us
 
-896
+897
 00:35:16,320 --> 00:35:18,640
 because this is a KERI thing
 
-897
+898
 00:35:18,640 --> 00:35:20,079
 operations aren't in KERIpy
 
-898
+899
 00:35:20,079 --> 00:35:22,480
 locally in KERI per agent so because
 
-899
+900
 00:35:22,480 --> 00:35:24,320
 once we derive it once even though we're
 
-900
+901
 00:35:24,320 --> 00:35:24,960
 reading it
 
-901
+902
 00:35:24,960 --> 00:35:26,480
 yeah but what triggers to derive it
 
-902
+903
 00:35:26,480 --> 00:35:28,160
 otherw then you're going to move the
 
-903
+904
 00:35:28,160 --> 00:35:29,680
 polling inside internally
 
-904
+905
 00:35:29,680 --> 00:35:31,119
 what triggers What
 
-905
+906
 00:35:31,119 --> 00:35:34,880
 what triggers check and it's complete
 
-906
+907
 00:35:34,880 --> 00:35:35,760
 in KERI out.
 
-907
+908
 00:35:35,760 --> 00:35:37,040
 So this is where I think what we should
 
-908
+909
 00:35:37,040 --> 00:35:39,599
 do when we have an operation
 
-909
+910
 00:35:39,599 --> 00:35:42,000
 There should be a doer for each
 
-910
+911
 00:35:42,000 --> 00:35:43,280
 operation
 
-911
+912
 00:35:43,280 --> 00:35:46,240
 once it completes at the end before that
 
-912
+913
 00:35:46,240 --> 00:35:47,680
 doer finishes it should write the
 
-913
+914
 00:35:47,680 --> 00:35:48,480
 complete state.
 
-914
+915
 00:35:48,480 --> 00:35:50,079
 Yeah. But then you're now you've just
 
-915
+916
 00:35:50,079 --> 00:35:53,280
 moved all of the polling internal toia
 
-916
+917
 00:35:53,280 --> 00:35:57,680
 and you'd have so many doers for 10,000
 
-917
+918
 00:35:57,680 --> 00:36:00,480
 signified clients you know. So it would
 
-918
+919
 00:36:00,480 --> 00:36:03,760
 be a lot better if internally in KERI
 
-919
+920
 00:36:03,760 --> 00:36:05,520
 Pi it could just let us know when it's
 
-920
+921
 00:36:05,520 --> 00:36:08,320
 effectively completed
 
-921
+922
 00:36:08,320 --> 00:36:09,839
 because there's already something inside
 
-922
+923
 00:36:09,839 --> 00:36:11,760
 KERIpy tracking this I would say. So
 
-923
+924
 00:36:11,760 --> 00:36:14,800
 then it can admit that event or whatever
 
-924
+925
 00:36:14,800 --> 00:36:17,520
 and we can capture it and update our
 
-925
+926
 00:36:17,520 --> 00:36:19,920
 operation in the database and send the
 
-926
+927
 00:36:19,920 --> 00:36:21,200
 event back and service events.
 
-927
+928
 00:36:21,200 --> 00:36:22,560
 Yeah, I think we're slightly talking
 
-928
+929
 00:36:22,560 --> 00:36:23,920
 past each other but I think I get what
 
-929
+930
 00:36:23,920 --> 00:36:25,520
 you're saying. I think fundamentally
 
-930
+931
 00:36:25,520 --> 00:36:27,520
 when an important event happens in KERI
 
-931
+932
 00:36:27,520 --> 00:36:29,359
 five, it should be admitted saying this
 
-932
+933
 00:36:29,359 --> 00:36:30,800
 is happened.
 
-933
+934
 00:36:30,800 --> 00:36:32,480
 Yeah. Yeah.
 
-934
+935
 00:36:32,480 --> 00:36:33,920
 Rather than having new doers that are
 
-935
+936
 00:36:33,920 --> 00:36:37,040
 also tracking it again, you know,
 
-936
+937
 00:36:37,040 --> 00:36:38,640
 cool just one more slide. So it's
 
-937
+938
 00:36:38,640 --> 00:36:39,520
 actually good.
 
-938
+939
 00:36:39,520 --> 00:36:44,079
 No, actually one so not too bad.
 
-939
+940
 00:36:44,079 --> 00:36:46,640
 Yeah, and horizontal scaling. I mean
 
-940
+941
 00:36:46,640 --> 00:36:49,200
 yeah, and horizontal scaling. I mean
 people have asked about this before
 
-941
+942
 00:36:49,200 --> 00:36:50,560
 I would put this on the lowest priority
 
-942
+943
 00:36:50,560 --> 00:36:52,079
 because other things just need to be
 
-943
+944
 00:36:52,079 --> 00:36:54,720
 fixed first to get adoption. But for
 
-944
+945
 00:36:54,720 --> 00:36:57,359
 SEDI it would be important.
 
-945
+946
 00:36:57,359 --> 00:36:59,599
 Okay right now you could do something
 
-946
+947
 00:36:59,599 --> 00:37:00,960
 like sticky sessions. It would be a very
 
-947
+948
 00:37:00,960 --> 00:37:04,720
 naive approach. Where you know you
 
-948
+949
 00:37:04,720 --> 00:37:06,880
 deploy 10 different KERIs and you
 
-949
+950
 00:37:06,880 --> 00:37:10,320
 have a load balancer and once a once a
 
-950
+951
 00:37:10,320 --> 00:37:12,480
 client connects and gets rooted to a
 
-951
+952
 00:37:12,480 --> 00:37:13,839
 KERI instance they always have to go
 
-952
+953
 00:37:13,839 --> 00:37:15,359
 there forever. that's like a sticky
 
-953
+954
 00:37:15,359 --> 00:37:17,599
 session. It would work now, but it
 
-954
+955
 00:37:17,599 --> 00:37:20,880
 wouldn't be great.
 
-955
+956
 00:37:20,880 --> 00:37:23,520
 To do true horizontal scale, I think K's
 
-956
+957
 00:37:23,520 --> 00:37:26,160
 to do true horizontal scale, I think K's
 actually already quite suited to it.
 
-957
+958
 00:37:26,160 --> 00:37:27,920
 Because all the databases of agents are
 
-958
+959
 00:37:27,920 --> 00:37:31,200
 because all the databases of agents are
 fully isolated and no agents are shared.
 
-959
+960
 00:37:31,200 --> 00:37:34,400
 They're just a bunch of LMDB files.
 
-960
+961
 00:37:34,400 --> 00:37:39,270
 Okay. So if you had to like
 
-961
+962
 00:37:40,950 --> 00:37:43,599
 the easiest thing you could do is have a
 shared volume in your cloud deployment
 
-962
+963
 00:37:43,599 --> 00:37:45,760
 that all of the instances can access and
 
-963
+964
 00:37:45,760 --> 00:37:47,599
 they would just go to the specific LMDB
 
-964
+965
 00:37:47,599 --> 00:37:49,520
 files that were that they're currently
 
-965
+966
 00:37:49,520 --> 00:37:52,000
 serving. And if it's done correctly
 
-966
+967
 00:37:52,000 --> 00:37:53,760
 they won't try to access the same LMDB
 
-967
+968
 00:37:53,760 --> 00:37:55,119
 file of someone else and you could have
 
-968
+969
 00:37:55,119 --> 00:37:58,880
 the agency coordinate that. If you
 
-969
+970
 00:37:58,880 --> 00:38:01,280
 wanted more isolation, I guess you could
 
-970
+971
 00:38:01,280 --> 00:38:02,720
 separate the volumes, but I think that
 
-971
+972
 00:38:02,720 --> 00:38:05,040
 would be
 
-972
+973
 00:38:05,040 --> 00:38:11,190
 a little bit complex, not necessary.
 
-973
+974
 00:38:12,550 --> 00:38:14,160
 yeah, you'd be moving data across
 volumes. I don't like that for now. At
 
-974
+975
 00:38:14,160 --> 00:38:16,560
 least I don't think it's necessary.
 
-975
+976
 00:38:16,560 --> 00:38:20,320
 Unless there's a
 
-976
+977
 00:38:20,320 --> 00:38:22,720
 legal constraint on data or something. I
 
-977
+978
 00:38:22,720 --> 00:38:24,000
 don't know.
 
-978
+979
 00:38:24,000 --> 00:38:26,000
 And yeah, the agency can become the
 
-979
+980
 00:38:26,000 --> 00:38:28,320
 load balancer like it kind of currently
 
-980
+981
 00:38:28,320 --> 00:38:29,920
 is basically for the message router in
 
-981
+982
 00:38:29,920 --> 00:38:31,760
 KERI. But instead it would
 
-982
+983
 00:38:31,760 --> 00:38:33,760
 actually be outside
 
-983
+984
 00:38:33,760 --> 00:38:38,400
 KERI and root into kind of a more
 
-984
+985
 00:38:38,400 --> 00:38:40,160
 lightweight KERI. So you kind of
 
-985
+986
 00:38:40,160 --> 00:38:45,109
 decouple it a bit be different services
 
-986
+987
 00:38:45,109 --> 00:38:45,119
 
 
-987
+988
 00:38:45,119 --> 00:38:48,320
 but yeah I think that's more down the
 line. So that's why developer experience
 
-988
+989
 00:38:48,320 --> 00:38:50,240
 and operational resilience are highest
 
-989
+990
 00:38:50,240 --> 00:38:58,710
 priority I think. Yeah. Done.
 
-990
+991
 00:38:59,589 --> 00:39:01,920
 What's this up?
 That's the file system. So,
 
-991
+992
 00:39:01,920 --> 00:39:03,760
 yeah.
 
-992
+993
 00:39:03,760 --> 00:39:05,920
 Okay. So, the agency database is an LMDB
 
-993
+994
 00:39:05,920 --> 00:39:08,960
 database. You can see that there was two
 
-994
+995
 00:39:08,960 --> 00:39:10,640
 new
 
-995
+996
 00:39:10,640 --> 00:39:12,880
 Agents booted. There are the config
 
-996
+997
 00:39:12,880 --> 00:39:15,760
 files that get copied in the JSON config
 
-997
+998
 00:39:15,760 --> 00:39:17,920
 files with the OOBIs.
 
-998
+999
 00:39:17,920 --> 00:39:20,720
 And for each
 
-999
+1000
 00:39:20,720 --> 00:39:23,680
 Agent they have a subdirectory in all
 
-1000
+1001
 00:39:23,680 --> 00:39:25,280
 of these directories. Like there's the
 
-1001
+1002
 00:39:25,280 --> 00:39:29,510
 key store for example.
 
-1002
+1003
 00:39:29,510 --> 00:39:29,520
 
 
-1003
+1004
 00:39:29,520 --> 00:39:34,240
 probably it would be better if you
 restructure it so that the agent is at
 
-1004
+1005
 00:39:34,240 --> 00:39:36,800
 the top level and it has its databases
 
-1005
+1006
 00:39:36,800 --> 00:39:38,240
 internally so you can more easily take
 
-1006
+1007
 00:39:38,240 --> 00:39:40,880
 it. But if it was a shared volume
 
-1007
+1008
 00:39:40,880 --> 00:39:43,680
 across many instances it wouldn't
 
-1008
+1009
 00:39:43,680 --> 00:39:46,680
 matter.
 

@@ -1,56 +1,53 @@
 1
-00:00:06,230 --> 00:00:08,160
+00:00:02,758 --> 00:00:05,992
 Hi everybody. This is KRAM It! with Ari.
-Important exclamation mark
 
 2
-00:00:08,160 --> 00:00:11,200
-placement there.
+00:00:06,017 --> 00:00:08,160
+Important exclamation mark
 
 3
-00:00:11,200 --> 00:00:12,719
-So
+00:00:08,160 --> 00:00:09,085
+placement there.
 
 4
-00:00:12,719 --> 00:00:15,679
-so
-KRAM is KERI request
+00:00:10,924 --> 00:00:12,719
+So
 
 5
-00:00:15,679 --> 00:00:17,920
-authentication mechanism
+00:00:12,743 --> 00:00:15,679
+KRAM is KERI Request
 
 6
+00:00:15,679 --> 00:00:17,920
+Authentication Mechanism
+
+7
 00:00:17,920 --> 00:00:22,720
 and this is for all non KEL
 
-7
+8
 00:00:22,720 --> 00:00:25,760
 events or non-key event messages
 
-8
+9
 00:00:25,760 --> 00:00:27,840
 that occur in the KERI protocol and
 
-9
+10
 00:00:27,840 --> 00:00:30,160
 some examples include encrypt sender
 
-10
+11
 00:00:30,160 --> 00:00:31,840
 sign receiver which if you were at
 
-11
+12
 00:00:31,840 --> 00:00:34,549
 Phil's [talk] you'd know is a good way of doing
 
-12
-00:00:34,549 --> 00:00:34,559
-Phil's you'd know is a good way of doing
-
 13
-00:00:34,559 --> 00:00:38,000
-Phil's [talk] you'd know is a good way of doing
+00:00:34,574 --> 00:00:38,000
 Secure APIs to a given identifier
 
 14
@@ -956,7 +953,8 @@ I don't know. I've only studied
 
 237
 00:10:09,600 --> 00:10:12,480
-KERI so I couldn't tell you how OAuth 2.0 
+KERI so I couldn't tell you how OAuth 2.0
+
 238
 00:10:12,480 --> 00:10:13,120
 does it
