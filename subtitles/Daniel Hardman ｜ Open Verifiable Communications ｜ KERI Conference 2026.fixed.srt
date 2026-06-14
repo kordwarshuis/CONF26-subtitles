@@ -2769,7 +2769,7 @@ this technique be used without
 
 687
 00:29:39,840 --> 00:29:45,519
-ACDC's without KERI no it can't you
+ACDCs without KERI no it can't you
 
 688
 00:29:45,520 --> 00:29:47,519
@@ -2953,11 +2953,11 @@ verify
 
 733
 00:31:38,399 --> 00:31:40,959
-verify ACDC's.
+verify ACDCs.
 
 734
 00:31:40,960 --> 00:31:44,719
-ACDC's.
+ACDCs.
 But you have a revocation issue. Does
 
 735

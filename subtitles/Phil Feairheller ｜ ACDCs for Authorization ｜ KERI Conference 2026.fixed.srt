@@ -28,7 +28,7 @@ approved. And so I submitted a talk on
 
 8
 00:00:20,720 --> 00:00:23,680
-ACDC's for authentication. But I'm
+ACDCs for authentication. But I'm
 
 9
 00:00:23,680 --> 00:00:25,039
@@ -752,7 +752,7 @@ implement.
 
 189
 00:07:07,360 --> 00:07:09,680
-So OAuth 2, I don't really need to go
+So OAuth 2.0, I don't really need to go
 
 190
 00:07:09,680 --> 00:07:11,520
@@ -2072,7 +2072,7 @@ an ACDC authorization server. It acts
 
 519
 00:19:30,320 --> 00:19:32,960
-as both an OAuth2 authorization service as
+as both an OAuth 2.0 authorization service as
 
 520
 00:19:32,960 --> 00:19:35,520

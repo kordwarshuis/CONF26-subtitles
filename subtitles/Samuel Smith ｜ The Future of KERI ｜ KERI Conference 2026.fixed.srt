@@ -129,7 +129,7 @@ things. But the most important thing
 
 33
 00:01:25,600 --> 00:01:27,920
-that ACDC's provide is perpetually
+that ACDCs provide is perpetually
 
 34
 00:01:27,920 --> 00:01:30,000
@@ -181,7 +181,7 @@ the whole data structure source from the
 
 46
 00:01:52,640 --> 00:01:55,840
-same source. Where with ACDC's, every
+same source. Where with ACDCs, every
 
 47
 00:01:55,840 --> 00:01:57,680
@@ -245,7 +245,7 @@ basic issuances now we can start to do
 
 62
 00:02:31,280 --> 00:02:33,519
-more complicated things with ACDC's and
+more complicated things with ACDCs and
 
 63
 00:02:33,519 --> 00:02:35,760
@@ -257,7 +257,7 @@ find more and more things to use ACDCs
 
 65
 00:02:38,560 --> 00:02:43,760
-for. So the idea is we with ACDC's we
+for. So the idea is we with ACDCs we
 
 66
 00:02:43,760 --> 00:02:46,080
@@ -293,11 +293,11 @@ of one of the things that we can do with
 
 74
 00:03:03,680 --> 00:03:07,760
-ACDC's is we can bridge AC KERI and
+ACDCs is we can bridge AC KERI and
 
 75
 00:03:07,760 --> 00:03:10,879
-ACDC's solve the cross trust domain
+ACDCs solve the cross trust domain
 
 76
 00:03:10,879 --> 00:03:13,760
@@ -385,7 +385,7 @@ that we have two trust domains and we
 
 97
 00:04:02,560 --> 00:04:04,319
-use ACDC's
+use ACDCs
 
 98
 00:04:04,319 --> 00:04:07,439
@@ -421,7 +421,7 @@ We don't lose trust when we use carrying
 
 106
 00:04:24,800 --> 00:04:26,880
-ACDC's to move trust across trust
+ACDCs to move trust across trust
 
 107
 00:04:26,880 --> 00:04:29,280
@@ -533,7 +533,7 @@ understand that we don't corrupt the
 
 134
 00:05:38,160 --> 00:05:41,840
-ACDC's with lossy stuff, right? And so
+ACDCs with lossy stuff, right? And so
 
 135
 00:05:41,840 --> 00:05:43,680
@@ -642,7 +642,7 @@ bridge them with more lossy stuff.
 
 161
 00:06:49,360 --> 00:06:53,440
-Bridge them with KERI and ACDC's.
+Bridge them with KERI and ACDCs.
 
 162
 00:06:53,440 --> 00:06:57,600
@@ -943,7 +943,7 @@ it but I haven't finished published it
 
 236
 00:10:12,240 --> 00:10:15,440
-yet of how we can just repurpose ACDC's
+yet of how we can just repurpose ACDCs
 
 237
 00:10:15,440 --> 00:10:18,240
@@ -1035,7 +1035,7 @@ standard access control. All we do is we
 
 259
 00:11:19,200 --> 00:11:22,480
-just augment ACDC's to have a resource
+just augment ACDCs to have a resource
 
 260
 00:11:22,480 --> 00:11:26,000
@@ -1059,7 +1059,7 @@ difficult to get in other ways without
 
 265
 00:11:34,160 --> 00:11:36,160
-ACDC's.
+ACDCs.
 
 266
 00:11:36,160 --> 00:11:39,200
@@ -1708,7 +1708,7 @@ the issuer of another ACDC. So we have
 
 425
 00:19:30,400 --> 00:19:32,720
-a chained set of ACDC's. There's an
+a chained set of ACDCs. There's an
 
 426
 00:19:32,720 --> 00:19:36,080
@@ -3834,7 +3834,7 @@ authority and what they do with it, it
 
 953
 00:42:31,200 --> 00:42:33,359
-ACDC's accommodated without any
+ACDCs accommodated without any
 
 954
 00:42:33,359 --> 00:42:35,359
@@ -3894,7 +3894,7 @@ Oh yeah. So in KERI
 
 968
 00:43:01,599 --> 00:43:04,880
-When you have ACDC's
+When you have ACDCs
 
 969
 00:43:04,880 --> 00:43:07,680
@@ -3950,7 +3950,7 @@ as you want or as simple as you want,
 
 982
 00:43:36,480 --> 00:43:39,280
-right? But ACDC's don't care,
+right? But ACDCs don't care,
 
 983
 00:43:39,280 --> 00:43:41,599
@@ -4030,7 +4030,7 @@ so there's two governance mechanisms
 
 1002
 00:44:25,680 --> 00:44:28,960
-that we use in ACDC's for that one is
+that we use in ACDCs for that one is
 
 1003
 00:44:28,960 --> 00:44:32,240
@@ -4046,7 +4046,7 @@ okay so for the LEI the vLEI there are
 
 1006
 00:44:39,200 --> 00:44:41,920
-what you can do with these ACDC's they
+what you can do with these ACDCs they
 
 1007
 00:44:41,920 --> 00:44:44,079
@@ -4062,7 +4062,7 @@ many layers of delegation what the
 
 1010
 00:44:47,920 --> 00:44:50,720
-ACDC's are who does that right that
+ACDCs are who does that right that
 
 1011
 00:44:50,720 --> 00:44:54,400
@@ -4070,7 +4070,7 @@ doesn't have to be encoded into the
 
 1012
 00:44:54,400 --> 00:44:57,280
-ACDC's themselves because the schema
+ACDCs themselves because the schema
 
 1013
 00:44:57,280 --> 00:45:00,319
@@ -4315,7 +4315,7 @@ problem because you don't have you're
 
 1073
 00:48:34,720 --> 00:48:36,720
-not you if you're not using ACDC's to
+not you if you're not using ACDCs to
 
 1074
 00:48:36,720 --> 00:48:38,480
@@ -4510,7 +4510,7 @@ Well, well, I just I just explained how
 
 1121
 00:50:29,920 --> 00:50:32,000
-we could use ACDC's to do delegate
+we could use ACDCs to do delegate
 
 1122
 00:50:32,000 --> 00:50:35,440
@@ -4578,7 +4578,7 @@ instead of relying on a broad set of
 
 1138
 00:51:13,920 --> 00:51:17,520
-policies. in delegation as data ACDC's
+policies. in delegation as data ACDCs
 
 1139
 00:51:17,520 --> 00:51:19,040

@@ -79,7 +79,7 @@ I remember when I first heard Sam talk
 
 20
 00:01:02,160 --> 00:01:07,600
-about ACDC's circa 2019.
+about ACDCs circa 2019.
 
 21
 00:01:07,600 --> 00:01:11,680
@@ -95,7 +95,7 @@ about ACDC theory and Sam mentioned
 
 24
 00:01:18,240 --> 00:01:21,840
-This phrase that ACDC's are a
+This phrase that ACDCs are a
 
 25
 00:01:21,840 --> 00:01:24,880
@@ -2652,7 +2652,7 @@ the dossier. It does that because that's
 
 659
 00:28:37,279 --> 00:28:39,840
-a native feature of ACDC's. When you
+a native feature of ACDCs. When you
 
 660
 00:28:39,840 --> 00:28:42,880
@@ -2760,7 +2760,7 @@ that in edges either in the dossier or
 
 686
 00:29:45,120 --> 00:29:46,720
-in the ACDC's?
+in the ACDCs?
 
 687
 00:29:46,720 --> 00:29:49,360
@@ -2971,7 +2971,7 @@ any other automated reasoning. So we
 
 738
 00:31:56,159 --> 00:31:59,440
-should be able to map ACDC's directly to
+should be able to map ACDCs directly to
 
 739
 00:31:59,440 --> 00:32:02,240
@@ -3423,7 +3423,7 @@ This is another way that some of the
 
 851
 00:36:41,359 --> 00:36:44,960
-superpowers of ACDC's come into play
+superpowers of ACDCs come into play
 
 852
 00:36:44,960 --> 00:36:47,200

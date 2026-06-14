@@ -956,8 +956,7 @@ I don't know. I've only studied
 
 237
 00:10:09,600 --> 00:10:12,480
-KERI so I couldn't tell you how OAuth 2
-
+KERI so I couldn't tell you how OAuth 2.0 
 238
 00:10:12,480 --> 00:10:13,120
 does it

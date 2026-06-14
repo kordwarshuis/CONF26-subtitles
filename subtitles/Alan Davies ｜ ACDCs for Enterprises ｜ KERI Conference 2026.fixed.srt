@@ -21,7 +21,7 @@ things and the world out there needs to
 
 6
 00:00:26,320 --> 00:00:30,640
-understand what KERI and ACDC's can
+understand what KERI and ACDCs can
 
 7
 00:00:30,640 --> 00:00:33,920
@@ -640,7 +640,7 @@ In my view with implementations of
 
 158
 00:08:04,160 --> 00:08:06,240
-KERI and ACDC's
+KERI and ACDCs
 
 159
 00:08:06,240 --> 00:08:07,759
@@ -993,7 +993,7 @@ And what we need of course is KERI and
 
 245
 00:12:36,639 --> 00:12:40,240
-ACDC's and we need I hate to say a
+ACDCs and we need I hate to say a
 
 246
 00:12:40,240 --> 00:12:42,160
@@ -1228,11 +1228,11 @@ academic and professional credentials
 
 303
 00:15:33,040 --> 00:15:37,030
-but ACDC's are really rearchucapable of
+but ACDCs are really rearchucapable of
 
 304
 00:15:37,030 --> 00:15:39,600
-but ACDC's are really capable of
+but ACDCs are really capable of
 handling any kind of data content that
 
 305
@@ -1357,7 +1357,7 @@ done there is applied a little bit of
 
 335
 00:17:04,079 --> 00:17:07,439
-KERI and ACDC's to a particular high
+KERI and ACDCs to a particular high
 
 336
 00:17:07,439 --> 00:17:12,480
@@ -1485,7 +1485,7 @@ which is a little bit of KERI and
 
 366
 00:18:46,160 --> 00:18:49,280
-ACDC's injected into existing business
+ACDCs injected into existing business
 
 367
 00:18:49,280 --> 00:18:50,799
@@ -1640,7 +1640,7 @@ So I like to talk about this as
 
 404
 00:20:44,480 --> 00:20:47,760
-getting used to KERI and ACDC's one
+getting used to KERI and ACDCs one
 
 405
 00:20:47,760 --> 00:20:50,720
@@ -1688,7 +1688,7 @@ situations. And this is how we get the
 
 416
 00:21:18,799 --> 00:21:21,919
-world starting to use KERI and ACDC's
+world starting to use KERI and ACDCs
 
 417
 00:21:21,919 --> 00:21:27,440
@@ -1721,7 +1721,7 @@ multi-tenant platform that fully
 
 424
 00:21:49,760 --> 00:21:53,760
-implements KERI and ACDC's with our
+implements KERI and ACDCs with our
 
 425
 00:21:53,760 --> 00:21:58,480
@@ -1801,7 +1801,7 @@ so that they can start using the
 
 444
 00:22:52,720 --> 00:22:55,520
-power of KERI and ACDC's now in a
+power of KERI and ACDCs now in a
 
 445
 00:22:55,520 --> 00:22:59,679
@@ -1866,7 +1866,7 @@ businesses who are implementing the
 
 460
 00:23:49,039 --> 00:23:52,720
-power of ACDC's and KERI without
+power of ACDCs and KERI without
 
 461
 00:23:52,720 --> 00:23:53,919
@@ -2254,7 +2254,7 @@ Provenant who is solving that problem for
 
 555
 00:28:34,559 --> 00:28:37,520
-us using KERI and ACDC's but for now
+us using KERI and ACDCs but for now
 
 556
 00:28:37,520 --> 00:28:40,159

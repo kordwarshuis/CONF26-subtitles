@@ -520,7 +520,7 @@ stores the verifiable credentials in
 
 130
 00:05:44,479 --> 00:05:46,800
-KERI. These are known as ACDC's. We'll
+KERI. These are known as ACDCs. We'll
 
 131
 00:05:46,800 --> 00:05:49,039
@@ -1024,7 +1024,7 @@ delegation, multi- signature control,
 
 255
 00:11:23,120 --> 00:11:25,440
-and ACDC's.
+and ACDCs.
 
 256
 00:11:25,440 --> 00:11:27,680
@@ -1349,7 +1349,7 @@ And Veridian wallet allows you to store
 
 336
 00:14:44,160 --> 00:14:47,279
-and present ACDC's natively. It's also
+and present ACDCs natively. It's also
 
 337
 00:14:47,279 --> 00:14:48,720
@@ -1361,7 +1361,7 @@ wallet is storing a copy of your ACDC,
 
 339
 00:14:52,240 --> 00:14:54,320
-the way that ACDC's work, the way that
+the way that ACDCs work, the way that
 
 340
 00:14:54,320 --> 00:14:56,639
@@ -1426,7 +1426,7 @@ organizational identity. An AID can
 
 355
 00:15:30,720 --> 00:15:33,040
-delegate authority through ACDC's down
+delegate authority through ACDCs down
 
 356
 00:15:33,040 --> 00:15:37,120

@@ -242,7 +242,7 @@ KERI. It doesn't talk about higher
 
 61
 00:02:26,800 --> 00:02:29,680
-level protocols such as ACDC's or UBS or
+level protocols such as ACDCs or UBS or
 
 62
 00:02:29,680 --> 00:02:32,319
@@ -347,7 +347,7 @@ adding in other protocols such as
 
 87
 00:03:25,920 --> 00:03:28,319
-ACDC's and so forth, you're pushing all
+ACDCs and so forth, you're pushing all
 
 88
 00:03:28,319 --> 00:03:31,040

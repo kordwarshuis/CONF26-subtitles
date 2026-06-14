@@ -344,11 +344,11 @@ So, you know, we called it Rhapsody. So,
 
 87
 00:03:23,036 --> 00:03:27,080
-let's see how we use ACDC's for this.
+let's see how we use ACDCs for this.
 
 88
 00:03:27,080 --> 00:03:30,160
-ACDC's… And I think most of you are
+ACDCs… And I think most of you are
 
 89
 00:03:30,160 --> 00:03:32,200
@@ -600,7 +600,7 @@ Absolutely. You don't have to anchor
 
 151
 00:05:59,320 --> 00:06:02,160
-your ACDC's in a transaction
+your ACDCs in a transaction
 
 152
 00:06:02,160 --> 00:06:03,440
