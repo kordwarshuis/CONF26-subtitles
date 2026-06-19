@@ -1,1728 +1,1732 @@
 1
+00:00:00,000 --> 00:00:02,000
+Keanu Pahio ｜ KERI Developement & Deployment ｜ KERI Conference 2026
+
+2
 00:00:03,348 --> 00:00:04,479
 So…
 
-2
+3
 00:00:04,503 --> 00:00:07,919
 I'm gonna start
 
-3
+4
 00:00:07,919 --> 00:00:10,400
 and just talk about KERI development
 
-4
+5
 00:00:10,400 --> 00:00:12,400
 and deployment
 
-5
+6
 00:00:12,400 --> 00:00:15,519
 and can you hear me good? Does it
 
-6
+7
 00:00:15,519 --> 00:00:17,199
 work?
 
-7
+8
 00:00:17,199 --> 00:00:18,080
 Is it good?
 
-8
+9
 00:00:18,080 --> 00:00:20,080
 Okay, sweet.
 
-9
+10
 00:00:20,249 --> 00:00:58,983
 [inaudible]
 
-10
+11
 00:00:59,126 --> 00:01:02,749
 can start for development on your own
 
-11
+12
 00:01:02,774 --> 00:01:06,400
 and that includes maybe doing your
 
-12
+13
 00:01:06,400 --> 00:01:10,720
 own plugin for Locksmith and developing
 
-13
+14
 00:01:10,720 --> 00:01:13,280
 your own API for witnesses and
 
-14
+15
 00:01:13,280 --> 00:01:15,840
 watchers.
 
-15
+16
 00:01:15,840 --> 00:01:18,000
 So I want to talk first about the KERI
 
-16
+17
 00:01:18,000 --> 00:01:20,034
 infrastructure that we have.
 
-17
+18
 00:01:20,106 --> 00:01:24,381
 [inaudible]
 
-18
+19
 00:01:24,406 --> 00:01:26,137
 and the watchers which is pretty much
 
-19
+20
 00:01:26,162 --> 00:01:30,320
 you've seen this the diagram a lot
 
-20
+21
 00:01:30,320 --> 00:01:33,360
 in the past few days but for the
 
-21
+22
 00:01:33,360 --> 00:01:36,799
 requirements the
 
-22
+23
 00:01:36,799 --> 00:01:39,759
 only thing that we really need is Python.
 
-23
+24
 00:01:39,759 --> 00:01:44,479
 We recommend the version 3.13
 
-24
+25
 00:01:44,479 --> 00:01:49,119
 3.14 had some issues with some repo.
 
-25
+26
 00:01:49,119 --> 00:01:53,280
 So 3.13 should be fine and then
 
-26
+27
 00:01:53,280 --> 00:01:56,320
 Libsodium because this is what
 
-27
+28
 00:01:56,320 --> 00:01:58,399
 KERI uses for its cryptographic
 
-28
+29
 00:01:58,399 --> 00:02:00,079
 library.
 
-29
+30
 00:02:00,079 --> 00:02:03,520
 So first we'll go with the wallet first.
 
-30
+31
 00:02:03,520 --> 00:02:05,759
 It's a Locksmith. The role of
 
-31
+32
 00:02:05,759 --> 00:02:07,759
 Locksmith on this wallet is to generate
 
-32
+33
 00:02:07,759 --> 00:02:11,360
 the AIDs to sign it, to have the key
 
-33
+34
 00:02:11,360 --> 00:02:14,160
 pairs secure and to store and verify
 
-34
+35
 00:02:14,160 --> 00:02:16,800
 through your KELs and finally the
 
-35
+36
 00:02:16,800 --> 00:02:18,480
 OOBIs.
 
-36
+37
 00:02:18,480 --> 00:02:23,360
 Nothing more, I think, to expand on it.
 
-37
+38
 00:02:23,360 --> 00:02:25,200
 It's just basically the basic function
 
-38
+39
 00:02:25,200 --> 00:02:27,440
 of a wallet.
 
-39
+40
 00:02:27,440 --> 00:02:28,879
 And then we're going to go through
 
-40
+41
 00:02:28,879 --> 00:02:31,120
 deploying it. So we have just three
 
-41
+42
 00:02:31,120 --> 00:02:32,640
 parts that we're going to go through
 
-42
+43
 00:02:32,640 --> 00:02:35,200
 individually and basically first I'm
 
-43
+44
 00:02:35,200 --> 00:02:37,120
 going to show you the repo and how you
 
-44
+45
 00:02:37,120 --> 00:02:39,280
 can set up the environment with its
 
-45
+46
 00:02:39,280 --> 00:02:43,200
 dependencies and how to run it and
 
-46
+47
 00:02:43,200 --> 00:02:44,879
 everything, every deployment that we're
 
-47
+48
 00:02:44,879 --> 00:02:46,400
 going to go through are going to be
 
-48
+49
 00:02:46,400 --> 00:02:47,920
 local
 
-49
+50
 00:02:47,920 --> 00:02:49,760
 and I can explain that for a while
 
-50
+51
 00:02:49,760 --> 00:02:54,480
 later. So first you have the public
 
-51
+52
 00:02:54,480 --> 00:02:57,280
 repo for the Locksmith which is on
 
-52
+53
 00:02:57,280 --> 00:03:01,680
 the KERI Foundation. Note that what
 
-53
+54
 00:03:01,680 --> 00:03:03,519
 I'm going to use in this presentation
 
-54
+55
 00:03:03,519 --> 00:03:09,280
 for the demo is from a branch of this
 
-55
+56
 00:03:09,280 --> 00:03:11,200
 repo which is the KERI Foundation
 
-56
+57
 00:03:11,200 --> 00:03:13,200
 branch. It's not the main branch that
 
-57
+58
 00:03:13,200 --> 00:03:15,040
 I'm going to use because the KERI
 
-58
+59
 00:03:15,040 --> 00:03:17,200
 Foundation branch has the KERI
 
-59
+60
 00:03:17,200 --> 00:03:18,879
 Foundation plugin that we're going to
 
-60
+61
 00:03:18,879 --> 00:03:23,920
 talk about later. I'm also going to
 
-61
+62
 00:03:23,920 --> 00:03:26,239
 try to show your attention on the
 
-62
+63
 00:03:26,239 --> 00:03:29,280
 docs that are provided by the repo and
 
-63
+64
 00:03:29,280 --> 00:03:30,959
 I'm just going to show you a bit through
 
-64
+65
 00:03:30,959 --> 00:03:34,159
 those docs. So the developer guide in
 
-65
+66
 00:03:34,159 --> 00:03:37,120
 those docs kind of explain what I
 
-66
+67
 00:03:37,120 --> 00:03:39,680
 explained before. So if you need a
 
-67
+68
 00:03:39,680 --> 00:03:41,280
 reminder, you can just go to the repo
 
-68
+69
 00:03:41,280 --> 00:03:44,000
 and then read it. But first it's
 
-69
+70
 00:03:44,000 --> 00:03:46,640
 going to be Python 3.13. And then to set
 
-70
+71
 00:03:46,640 --> 00:03:48,480
 up your environment, you just have to
 
-71
+72
 00:03:48,480 --> 00:03:51,920
 follow the commands that are on the
 
-72
+73
 00:03:51,920 --> 00:03:55,440
 developer guide. Pretty easy.
 
-73
+74
 00:03:55,440 --> 00:03:58,080
 And then finally to run it, you have the
 
-74
+75
 00:03:58,080 --> 00:04:01,360
 Qt resource regeneration. And once you
 
-75
+76
 00:04:01,360 --> 00:04:03,680
 just copy paste and run those commands,
 
-76
+77
 00:04:03,680 --> 00:04:07,519
 you can just run this one. And then
 
-77
+78
 00:04:07,519 --> 00:04:11,280
 hopefully a lot of initialization logs
 
-78
+79
 00:04:11,280 --> 00:04:13,840
 will pop up and then hopefully you will
 
-79
+80
 00:04:13,840 --> 00:04:16,239
 have your Locksmith.
 
-80
+81
 00:04:16,239 --> 00:04:21,519
 I'm just going to run it myself if
 
-81
+82
 00:04:21,519 --> 00:04:24,960
 I can show you.
 
-82
+83
 00:04:24,960 --> 00:04:28,160
 So, I'm just gonna
 
-83
+84
 00:04:28,160 --> 00:04:32,479
 activate the virtual environment and
 
-84
+85
 00:04:32,479 --> 00:04:37,199
 then I'm just gonna… maybe I can just…
 
-85
+86
 00:05:10,917 --> 00:05:12,637
 So here we have our Locksmith.
 
-86
+87
 00:05:13,083 --> 00:05:16,720
 I just created a vault, but we can…
 
-87
+88
 00:05:16,720 --> 00:05:20,400
 I make a new one…
 
-88
+89
 00:05:20,400 --> 00:05:23,440
 call it presentation.
 
-89
+90
 00:05:23,440 --> 00:05:27,440
 No passcode and then, here you go.
 
-90
+91
 00:05:27,440 --> 00:05:29,199
 So here…
 
-91
+92
 00:05:29,199 --> 00:05:32,320
 – A vault is just a logical grouping of
 
-92
+93
 00:05:32,320 --> 00:05:35,440
 a of AIDs or?
 
-93
-00:05:35,440 --> 00:05:37,360
-– Yes if you're familiar with the 
-
 94
+00:05:35,440 --> 00:05:37,360
+– Yes if you're familiar with the
+
+95
 00:05:37,360 --> 00:05:40,400
 KERIpy code, it's the same as a Habery
 
-95
+96
 00:05:40,400 --> 00:05:42,960
 which is where you host your AIDs and
 
-96
+97
 00:05:42,960 --> 00:05:44,320
 which is where you have your key pairs
 
-97
+98
 00:05:44,320 --> 00:05:45,440
 and all that stuff.
 
-98
+99
 00:05:45,440 --> 00:05:47,280
 – Okay.
 
-99
+100
 00:05:47,280 --> 00:05:50,160
 – So here you have the KERI Foundation
 
-100
+101
 00:05:50,160 --> 00:05:52,560
 plugin which we're going to talk about
 
-101
+102
 00:05:52,560 --> 00:05:57,680
 now. So the reason
 
-102
+103
 00:05:57,680 --> 00:06:00,479
 why we have a KERI Foundation plugin is
 
-103
+104
 00:06:00,503 --> 00:06:02,800
 actually because of a boot server that
 
-104
+105
 00:06:02,800 --> 00:06:04,560
 we have.
 
-105
+106
 00:06:04,560 --> 00:06:06,240
 So the boot server, what is the boot
 
-106
+107
 00:06:06,240 --> 00:06:09,039
 server? Well the boot server is kind of
 
-107
+108
 00:06:09,039 --> 00:06:12,000
 the in between
 
-108
+109
 00:06:12,000 --> 00:06:14,080
 between Locksmith and the
 
-109
+110
 00:06:14,080 --> 00:06:16,800
 witnesses and watchers. And the role of
 
-110
+111
 00:06:16,800 --> 00:06:18,720
 the boot server is to provision the
 
-111
+112
 00:06:18,720 --> 00:06:22,479
 witnesses to your wallet. And now,
 
-112
+113
 00:06:22,479 --> 00:06:24,400
 maybe a question that you might
 
-113
+114
 00:06:24,400 --> 00:06:27,280
 have is why can I not just talk from
 
-114
+115
 00:06:27,280 --> 00:06:29,280
 Locksmith directly to the witnesses and
 
-115
+116
 00:06:29,280 --> 00:06:32,400
 watchers? Well, the reason for that is
 
-116
+117
 00:06:32,400 --> 00:06:36,000
 the witnesses and watchers API.
 
-117
+118
 00:06:36,000 --> 00:06:39,919
 So when you look here for example
 
-118
+119
 00:06:39,919 --> 00:06:43,440
 for the witnesses API you have actually
 
-119
+120
 00:06:43,440 --> 00:06:45,680
 two servers. You have the boot server
 
-120
+121
 00:06:45,680 --> 00:06:47,919
 and then you have the witness server.
 
-121
+122
 00:06:47,919 --> 00:06:50,400
 The boot server, if you pay attention to
 
-122
+123
 00:06:50,400 --> 00:06:53,360
 the API,
 
-123
+124
 00:06:53,360 --> 00:06:56,080
 this is the one that actually creates
 
-124
+125
 00:06:56,080 --> 00:06:59,759
 the witnesses and deletes them. And the
 
-125
+126
 00:06:59,759 --> 00:07:02,000
 problem is that the boot server is
 
-126
+127
 00:07:02,000 --> 00:07:03,599
 private. So it's not publicly
 
-127
+128
 00:07:03,599 --> 00:07:05,840
 accessible. So even if you try to send a
 
-128
+129
 00:07:05,840 --> 00:07:09,039
 request to it, it will not respond.
 
-129
+130
 00:07:09,039 --> 00:07:11,680
 But the witness server and the
 
-130
+131
 00:07:11,680 --> 00:07:14,400
 watcher server, those two are public. So
 
-131
+132
 00:07:14,400 --> 00:07:16,479
 once you have your witnesses and your
 
-132
+133
 00:07:16,479 --> 00:07:19,039
 watcher you can publicly access those
 
-133
+134
 00:07:19,039 --> 00:07:21,759
 however you want. And same for the
 
-134
+135
 00:07:21,759 --> 00:07:24,639
 watcher API this is also private. So the
 
-135
+136
 00:07:24,639 --> 00:07:28,639
 reason is that we have our boot
 
-136
+137
 00:07:28,639 --> 00:07:33,039
 server which serve as the one who
 
-137
+138
 00:07:33,039 --> 00:07:36,479
 will call the private APIs to get the
 
-138
+139
 00:07:36,479 --> 00:07:39,280
 witnesses and watchers and the
 
-139
+140
 00:07:39,280 --> 00:07:41,440
 KERI Foundation plug-in acts as a
 
-140
+141
 00:07:41,440 --> 00:07:44,479
 bridge between the Locksmith wallet and
 
-141
+142
 00:07:44,479 --> 00:07:49,520
 the boot server. Currently the
 
-142
+143
 00:07:49,520 --> 00:07:52,560
 KERI Foundation plugin is in charge of
 
-143
+144
 00:07:52,560 --> 00:07:55,360
 onboarding, witness registration, watcher
 
-144
+145
 00:07:55,360 --> 00:07:57,199
 resolution and auth management. And when
 
-145
+146
 00:07:57,199 --> 00:07:59,759
 we're talking about on boarding we're
 
-146
+147
 00:07:59,759 --> 00:08:02,960
 talking about kind of setting you up
 
-147
+148
 00:08:02,960 --> 00:08:05,840
 so you can have your own witnesses
 
-148
+149
 00:08:05,840 --> 00:08:07,840
 and watcher.
 
-149
+150
 00:08:07,840 --> 00:08:10,720
 Now an important thing to note is that
 
-150
+151
 00:08:10,720 --> 00:08:13,599
 for, at least locally, the
 
-151
+152
 00:08:13,599 --> 00:08:16,319
 boot server has
 
-152
+153
 00:08:16,319 --> 00:08:21,120
 to be on the same machine or server as
 
-153
+154
 00:08:21,120 --> 00:08:23,440
 the witnesses and watchers so it can
 
-154
+155
 00:08:23,440 --> 00:08:26,160
 talk locally. As I mentioned before
 
-155
+156
 00:08:26,160 --> 00:08:29,680
 because the APIs are private.
 
-156
+157
 00:08:36,586 --> 00:08:38,841
 So now let's go through the
 
-157
+158
 00:08:38,866 --> 00:08:40,800
 plugin before we go through the boot
 
-158
+159
 00:08:40,800 --> 00:08:42,399
 server. So I want to go to the plugin
 
-159
+160
 00:08:42,399 --> 00:08:45,200
 and how you could if you wanted make
 
-160
+161
 00:08:45,200 --> 00:08:47,360
 your own plugin.
 
-161
+162
 00:08:47,360 --> 00:08:50,880
 So if you go to the Locksmith
 
-162
+163
 00:08:50,880 --> 00:08:53,457
 repository and if you go to
 
-163
+164
 00:08:53,482 --> 00:08:56,800
 “Locksmith/plugins/base.py” it has a bunch of
 
-164
+165
 00:08:56,800 --> 00:08:59,279
 classes that allows you to create your
 
-165
+166
 00:08:59,279 --> 00:09:03,760
 own plugin. If you look at the
 
-166
+167
 00:09:03,760 --> 00:09:06,080
 “PluginBase” it has a bunch of methods
 
-167
+168
 00:09:06,080 --> 00:09:09,200
 that you can override to create your
 
-168
+169
 00:09:09,200 --> 00:09:11,200
 own plugin.
 
-169
+170
 00:09:11,200 --> 00:09:13,680
 For example, here is the KERI
 
-170
+171
 00:09:13,680 --> 00:09:16,720
 Foundation plugin that is in the plugin
 
-171
+172
 00:09:16,720 --> 00:09:18,399
 folder. You can also look it up on the
 
-172
+173
 00:09:18,399 --> 00:09:21,600
 KERI Foundation branch. It is using
 
-173
+174
 00:09:21,600 --> 00:09:23,680
 the plugin base, the witness provider
 
-174
+175
 00:09:23,680 --> 00:09:26,240
 plugin and the account provider plugin.
 
-175
+176
 00:09:26,240 --> 00:09:28,399
 Then it has
 
-176
+177
 00:09:28,399 --> 00:09:30,000
 u for example here you can see that it's
 
-177
+178
 00:09:30,000 --> 00:09:32,880
 overriding the plugin_id function
 
-178
+179
 00:09:32,880 --> 00:09:35,680
 and the initialize function. I'm not
 
-179
+180
 00:09:35,680 --> 00:09:37,680
 going to go into too much detail as to
 
-180
+181
 00:09:37,680 --> 00:09:40,160
 how you can or what you should put into
 
-181
+182
 00:09:40,160 --> 00:09:42,160
 into those methods, but at least know
 
-182
+183
 00:09:42,160 --> 00:09:44,000
 that it's there. And if you need the
 
-183
+184
 00:09:44,000 --> 00:09:46,399
 references you can just look at the
 
-184
+185
 00:09:46,399 --> 00:09:48,720
 KERI Foundation plugin in the
 
-185
+186
 00:09:48,720 --> 00:09:51,600
 repository to maybe get some
 
-186
+187
 00:09:51,600 --> 00:09:54,320
 inspiration.
 
-187
+188
 00:09:54,320 --> 00:09:57,920
 Okay. So now I want to go through
 
-188
+189
 00:09:57,920 --> 00:10:00,160
 the witnesses. Oh, no, sorry. I want to
 
-189
+190
 00:10:00,160 --> 00:10:01,519
 go to the boot server. And just to
 
-190
+191
 00:10:01,519 --> 00:10:03,519
 remind you, the boot server serve as a
 
-191
+192
 00:10:03,519 --> 00:10:06,720
 public API to provision your
 
-192
+193
 00:10:06,720 --> 00:10:09,519
 witnesses and watcher. The kf-boot is
 
-193
+194
 00:10:09,519 --> 00:10:11,680
 also available publicly. So if you want
 
-194
+195
 00:10:11,680 --> 00:10:13,360
 to look at it, you can. It's on the
 
-195
+196
 00:10:13,360 --> 00:10:16,000
 KERI Foundation repository. You can
 
-196
+197
 00:10:16,000 --> 00:10:20,000
 look at it. See how the code works.
 
-197
+198
 00:10:20,000 --> 00:10:23,040
 And to run it, very simple, create your
 
-198
+199
 00:10:23,040 --> 00:10:26,079
 virtual environment. And then here are
 
-199
+200
 00:10:26,079 --> 00:10:30,560
 the variable that your KERI
 
-200
+201
 00:10:30,560 --> 00:10:33,920
 Foundation boot needs to talk to
 
-201
+202
 00:10:33,920 --> 00:10:36,560
 the witnesses and watcher. I'm going
 
-202
+203
 00:10:36,560 --> 00:10:40,399
 to just show you also to do a demo.
 
-203
+204
 00:10:43,775 --> 00:10:47,644
 So here I have my KERI Foundation
 
-204
+205
 00:10:47,669 --> 00:10:52,240
 boot server. I'm going to
 
-205
+206
 00:10:52,240 --> 00:10:55,360
 activate it. And then
 
-206
+207
 00:10:55,360 --> 00:10:59,600
 just like in the
 
-207
+208
 00:10:59,600 --> 00:11:00,959
 slide that I showed, I'm just going to
 
-208
+209
 00:11:00,959 --> 00:11:03,760
 copy. I'm not going to install the
 
-209
+210
 00:11:03,760 --> 00:11:06,160
 dependencies since I have already done it.
 
-210
+211
 00:11:06,160 --> 00:11:09,279
 So I'm going to go here, paste these,
 
-211
+212
 00:11:09,279 --> 00:11:12,320
 and then run it. So now you can see that
 
-212
+213
 00:11:12,320 --> 00:11:17,372
 it's running here. And if I go
 
-213
+214
 00:11:17,456 --> 00:11:21,013
 to my Locksmith
 
-214
+215
 00:11:47,274 --> 00:11:51,680
 I also need to give Locksmith…
 
-215
+216
 00:11:51,680 --> 00:11:54,560
 the…
 
-216
+217
 00:11:54,560 --> 00:11:58,000
 the address for the…
 
-217
+218
 00:12:00,160 --> 00:12:03,920
 boot server. So here and then if I run
 
-218
+219
 00:12:03,920 --> 00:12:06,156
 it back…
 
-219
+220
 00:12:09,220 --> 00:12:12,629
 And my Locksmith
 
-220
+221
 00:12:12,654 --> 00:12:15,760
 can get in.
 
-221
+222
 00:12:53,680 --> 00:12:59,279
 So, I actually can't see it, but
 
-222
+223
 00:12:59,279 --> 00:13:03,360
 usually if you look it up on the KERI
 
-223
+224
 00:13:03,360 --> 00:13:05,760
 Foundation plugin, it should show that
 
-224
+225
 00:13:05,760 --> 00:13:10,000
 you can service an AID and connect
 
-225
+226
 00:13:10,000 --> 00:13:12,399
 witnesses and watchers to it.
 
-226
+227
 00:13:12,399 --> 00:13:16,720
 – You could try deleting your local KERI
 
-227
+228
 00:13:16,720 --> 00:13:19,519
 “home/.keri”
 
-228
+229
 00:13:19,519 --> 00:13:21,279
 and then start fresh and then should
 
-229
+230
 00:13:21,279 --> 00:13:22,240
 recreate on that.
 
-230
+231
 00:13:22,240 --> 00:13:25,120
 Oh, I make a whole another repo.
 
-231
+232
 00:13:25,120 --> 00:13:26,000
 I could…
 
-232
+233
 00:13:26,000 --> 00:13:27,120
 – Yeah, go ahead.
 
-233
+234
 00:13:27,120 --> 00:13:28,720
 I could do it at the end
 
-234
+235
 00:13:28,720 --> 00:13:31,680
 probably. I just want to go through
 
-235
+236
 00:13:31,680 --> 00:13:33,200
 the whole slide and maybe I'll do
 
-236
+237
 00:13:33,200 --> 00:13:36,639
 another demo. But so let me finish the
 
-237
+238
 00:13:36,639 --> 00:13:40,959
 slides first. Go to the witnesses of
 
-238
+239
 00:13:40,959 --> 00:13:42,399
 course you have the role of the witnesses
 
-239
+240
 00:13:42,399 --> 00:13:44,800
 and what they do to the anchor the events
 
-240
+241
 00:13:44,800 --> 00:13:49,120
 and trying to keep the authenticity
 
-241
+242
 00:13:49,120 --> 00:13:50,959
 and make sure that everything is correct
 
-242
+243
 00:13:50,959 --> 00:13:54,000
 of course, because they're the witnesses.
 
-243
+244
 00:13:54,000 --> 00:13:55,360
 So same thing, we're going to go through
 
-244
+245
 00:13:55,360 --> 00:13:58,240
 the repo, the environment and
 
-245
+246
 00:13:58,240 --> 00:14:01,360
 how to run it locally.
 
-246
+247
 00:14:01,360 --> 00:14:03,600
 So first you can get the code on the
 
-247
+248
 00:14:03,600 --> 00:14:06,480
 witness repository in the KERI
 
-248
+249
 00:14:06,480 --> 00:14:08,320
 Foundation.
 
-249
+250
 00:14:08,320 --> 00:14:12,959
 It also has docs. So I have the
 
-250
+251
 00:14:12,959 --> 00:14:15,760
 developer guide. Same thing just make
 
-251
+252
 00:14:15,760 --> 00:14:18,079
 sure that you have Libsodium.
 
-252
+253
 00:14:18,079 --> 00:14:21,680
 How to set up your environment.
 
-253
+254
 00:14:21,680 --> 00:14:24,720
 And then one thing about the
 
-254
+255
 00:14:24,720 --> 00:14:26,320
 configuration:
 
-255
+256
 00:14:26,320 --> 00:14:29,839
 If you were here last time Ryan,
 
-256
+257
 00:14:29,839 --> 00:14:32,399
 you talked about it and how it works. So
 
-257
+258
 00:14:32,399 --> 00:14:34,720
 I'm not going to repeat it again but
 
-258
+259
 00:14:34,720 --> 00:14:38,720
 just suggest surely that the curls here
 
-259
+260
 00:14:38,720 --> 00:14:42,720
 will be the address that the witness
 
-260
+261
 00:14:42,720 --> 00:14:46,560
 server is going to use.
 
-261
+262
 00:14:46,560 --> 00:14:49,199
 And then to run the witnesses, you can
 
-262
+263
 00:14:49,199 --> 00:14:52,639
 use the first one or I usually use the
 
-263
+264
 00:14:52,639 --> 00:14:56,320
 other one. Let me
 
-264
+265
 00:14:56,320 --> 00:14:57,890
 show it here.
 
-265
+266
 00:15:02,072 --> 00:15:07,440
 So I have it here. Let me activate the…
 
-266
+267
 00:15:27,990 --> 00:15:28,881
 So you have my
 
-267
+268
 00:15:28,906 --> 00:15:31,600
 witnesses running
 
-268
+269
 00:15:31,600 --> 00:15:33,839
 and if you look at here you can
 
-269
+270
 00:15:33,839 --> 00:15:35,839
 see the public server address, I mean the
 
-270
+271
 00:15:35,839 --> 00:15:38,480
 port which is 5631
 
-271
+272
 00:15:38,480 --> 00:15:40,480
 Sorry, the private one which is
 
-272
+273
 00:15:40,480 --> 00:15:42,880
 internal and then external which is the
 
-273
+274
 00:15:42,880 --> 00:15:46,959
 public one at the 5632 port which is
 
-274
+275
 00:15:46,959 --> 00:15:49,120
 the default one unless you change it in
 
-275
+276
 00:15:49,120 --> 00:15:52,160
 the configuration and then you can see
 
-276
+277
 00:15:52,160 --> 00:15:57,204
 your witnesses and their own AID.
 
-277
+278
 00:15:57,229 --> 00:16:00,240
 Now to develop with witnesses
 
-278
+279
 00:16:00,240 --> 00:16:03,759
 you have the API which is given and
 
-279
+280
 00:16:03,759 --> 00:16:05,839
 shown in the readme file of the
 
-280
+281
 00:16:05,839 --> 00:16:08,560
 repository for the witnesses, you have
 
-281
+282
 00:16:08,560 --> 00:16:11,279
 different, of course, action post
 
-282
+283
 00:16:11,279 --> 00:16:15,759
 delete but I'm going to go into the post
 
-283
+284
 00:16:15,759 --> 00:16:19,759
 and here basically have the
 
-284
+285
 00:16:19,759 --> 00:16:22,800
 the whole post function it's a Falcon
 
-285
+286
 00:16:22,800 --> 00:16:25,199
 app so it's in under the witness
 
-286
+287
 00:16:25,199 --> 00:16:28,079
 collection class. And if you look at it
 
-287
+288
 00:16:28,079 --> 00:16:29,680
 closely,
 
-288
+289
 00:16:29,680 --> 00:16:33,040
 you can see that when it receive a post
 
-289
+290
 00:16:33,040 --> 00:16:36,160
 method, it will first check for the AID,
 
-290
+291
 00:16:36,160 --> 00:16:38,639
 check that it's a valid AID, and then it
 
-291
+292
 00:16:38,639 --> 00:16:41,199
 just creates a witness,
 
-292
+293
 00:16:41,199 --> 00:16:43,680
 gets the OOBIs and sends the data
 
-293
+294
 00:16:43,680 --> 00:16:46,000
 back. That's all it does. So, if you
 
-294
+295
 00:16:46,000 --> 00:16:49,440
 wanted, you could check for, I don't
 
-295
+296
 00:16:49,440 --> 00:16:52,160
 know, check for more things. But if you
 
-296
+297
 00:16:52,160 --> 00:16:54,399
 want to start developing witnesses and
 
-297
+298
 00:16:54,399 --> 00:16:56,800
 changing maybe how they behave, this is
 
-298
+299
 00:16:56,800 --> 00:16:58,639
 where you would go. This is just an
 
-299
+300
 00:16:58,639 --> 00:17:01,279
 example of the onpost, but there's also
 
-300
+301
 00:17:01,279 --> 00:17:04,959
 the ondelete. There's also all the all
 
-301
+302
 00:17:04,959 --> 00:17:08,079
 the public
 
-302
+303
 00:17:08,079 --> 00:17:11,360
 actions and API that you can change
 
-303
+304
 00:17:11,360 --> 00:17:14,559
 which would also be under
 
-304
+305
 00:17:14,559 --> 00:17:17,280
 under this. So it's in
 
-305
+306
 00:17:17,280 --> 00:17:19,600
 ”src/witopnet/witnessing.py”. So if you want to
 
-306
+307
 00:17:19,600 --> 00:17:22,207
 change anything go here.
 
-307
+308
 00:17:25,925 --> 00:17:28,011
 Now the watchers,
 
-308
+309
 00:17:28,036 --> 00:17:30,160
 same thing that we're going to go
 
-309
+310
 00:17:30,160 --> 00:17:33,760
 through: public repo of the watchers in
 
-310
+311
 00:17:33,760 --> 00:17:35,760
 the KERI Foundation.
 
-311
+312
 00:17:35,760 --> 00:17:38,400
 This one doesn't have docs yet. I
 
-312
+313
 00:17:38,400 --> 00:17:42,799
 suppose we might either add it later.
 
-313
+314
 00:17:42,799 --> 00:17:46,640
 But that's from the readme. You can…
 
-314
+315
 00:17:46,665 --> 00:17:48,720
 I don't think we can install from pi
 
-315
+316
 00:17:48,720 --> 00:17:50,960
 yet. Correct me if I'm wrong. Yeah, we
 
-316
+317
 00:17:50,960 --> 00:17:53,200
 can't install it from PyPy yet. So, just
 
-317
+318
 00:17:53,200 --> 00:17:56,640
 clone the repo and then install the
 
-318
+319
 00:17:56,640 --> 00:17:59,679
 environment or hopefully with the from a
 
-319
+320
 00:17:59,679 --> 00:18:01,520
 virtual environment.
 
-320
+321
 00:18:01,520 --> 00:18:03,039
 Same thing same thing for the
 
-321
+322
 00:18:03,039 --> 00:18:06,000
 configuration. The curls is also the
 
-322
+323
 00:18:06,000 --> 00:18:09,600
 address from which the watcher server is
 
-323
+324
 00:18:09,600 --> 00:18:11,679
 going to respond to.
 
-324
+325
 00:18:54,240 --> 00:18:55,919
 But here you can see the same thing as
 
-325
+326
 00:18:55,919 --> 00:18:58,799
 the witnesses. It shows your address,
 
-326
+327
 00:18:58,799 --> 00:19:01,520
 public address for the watcher
 
-327
+328
 00:19:01,520 --> 00:19:04,080
 server, private and also the watchers
 
-328
+329
 00:19:04,080 --> 00:19:06,880
 running. I can probably show it
 
-329
+330
 00:19:06,880 --> 00:19:11,906
 better on here.
 
-330
+331
 00:19:11,931 --> 00:19:14,473
 You can see they have the watchers here
 
-331
+332
 00:19:14,497 --> 00:19:17,039
 as well as their IDs. And then you can
 
-332
+333
 00:19:17,039 --> 00:19:19,840
 see that it's going up because the
 
-333
+334
 00:19:19,840 --> 00:19:21,760
 witnesses are running. So, they're all
 
-334
+335
 00:19:21,760 --> 00:19:26,310
 checking the witnesses.
 
-335
+336
 00:19:28,070 --> 00:19:31,280
 A quick note that is important
 
-336
+337
 00:19:31,280 --> 00:19:34,160
 is that the witnesses and watcher are
 
-337
+338
 00:19:34,160 --> 00:19:36,000
 supposed to run together. They're not
 
-338
+339
 00:19:36,000 --> 00:19:39,039
 supposed to be individually
 
-339
+340
 00:19:39,039 --> 00:19:41,679
 running. They have to be together.
 
-340
+341
 00:19:41,679 --> 00:19:43,520
 So, first would be the witnesses and
 
-341
+342
 00:19:43,520 --> 00:19:45,440
 then the watchers have to be
 
-342
+343
 00:19:45,440 --> 00:19:48,720
 deployed together.
 
-343
+344
 00:19:48,720 --> 00:19:50,960
 Same thing for the watchers. You
 
-344
+345
 00:19:50,960 --> 00:19:54,720
 have the same API and you can find the
 
-345
+346
 00:19:54,720 --> 00:19:58,160
 functions for them in this file here.
 
-346
+347
 00:19:58,160 --> 00:20:01,039
 I took the post for the watchers that
 
-347
+348
 00:20:01,039 --> 00:20:03,600
 provision the watcher.
 
-348
+349
 00:20:03,600 --> 00:20:08,320
 So to finish: what we have is this
 
-349
+350
 00:20:08,320 --> 00:20:10,000
 architecture technically that we have
 
-350
+351
 00:20:10,000 --> 00:20:12,799
 the wallet that can make public API
 
-351
+352
 00:20:12,799 --> 00:20:15,760
 requests but mostly if you want to just
 
-352
+353
 00:20:15,760 --> 00:20:18,400
 have witnesses and watchers provisioning
 
-353
+354
 00:20:18,400 --> 00:20:20,400
 it would be through a boot server that
 
-354
+355
 00:20:20,400 --> 00:20:24,160
 then talks privately to witnesses and
 
-355
+356
 00:20:24,160 --> 00:20:28,400
 watcher server in their own environment.
 
-356
+357
 00:20:28,400 --> 00:20:33,120
 I think that's all I have. Unless
 
-357
+358
 00:20:33,120 --> 00:20:36,559
 do you guys have any questions?
 
-358
+359
 00:20:36,559 --> 00:20:37,200
 Yes.
 
-359
+360
 00:20:37,200 --> 00:20:39,360
 – Thank you.
 
-360
+361
 00:20:39,360 --> 00:20:41,840
 Given that KERI is a protocol and again
 
-361
+362
 00:20:42,953 --> 00:20:43,840
 protocols not companies. So why
 
-362
+363
 00:20:43,840 --> 00:20:45,280
 would you want to make changes to
 
-363
+364
 00:20:45,280 --> 00:20:47,840
 witnesses or watchers? I thought that
 
-364
+365
 00:20:47,840 --> 00:20:50,799
 was like common infrastructure or am I
 
-365
+366
 00:20:50,799 --> 00:20:52,159
 wrong?
 
-366
+367
 00:20:52,159 --> 00:20:56,240
 – Like for example in this?
 
-367
+368
 00:20:56,240 --> 00:20:58,480
 – Yeah. – For example, you can add
 
-368
+369
 00:20:58,480 --> 00:21:01,280
 some more checks or you can have… we
 
-369
+370
 00:21:01,280 --> 00:21:04,080
 were talking about weight limiting
 
-370
+371
 00:21:04,080 --> 00:21:08,640
 for example on how much a person
 
-371
+372
 00:21:08,640 --> 00:21:10,960
 could provision witnesses. You could
 
-372
+373
 00:21:10,960 --> 00:21:13,039
 limit it or you could expand it.
 
-373
+374
 00:21:13,039 --> 00:21:16,400
 Also another thing that you
 
-374
+375
 00:21:16,400 --> 00:21:18,320
 could note
 
-375
+376
 00:21:18,320 --> 00:21:21,120
 for example for the plugin if I can
 
-376
+377
 00:21:21,120 --> 00:21:24,640
 find it. I think it was here. Oh yeah.
 
-377
+378
 00:21:24,640 --> 00:21:25,760
 So, for example, for the KERI
 
-378
+379
 00:21:25,760 --> 00:21:27,600
 Foundation plugin, all it does right now
 
-379
+380
 00:21:27,600 --> 00:21:29,280
 is just onboarding. So, it's pretty
 
-380
+381
 00:21:29,280 --> 00:21:31,840
 simple. But if you really wanted to, you
 
-381
+382
 00:21:31,840 --> 00:21:33,280
 can make your own plugin where you
 
-382
+383
 00:21:33,280 --> 00:21:35,520
 include payment. So, people go through
 
-383
+384
 00:21:35,520 --> 00:21:37,360
 the payment first and then it would
 
-384
+385
 00:21:37,360 --> 00:21:39,679
 provision your witnesses and watchers.
 
-385
+386
 00:21:39,679 --> 00:21:41,840
 – And your watchers can make sure the
 
-386
+387
 00:21:41,840 --> 00:21:43,039
 money was transferred.
 
-387
+388
 00:21:43,039 --> 00:21:44,559
 – Yeah. So, it could it could go through
 
-388
+389
 00:21:44,559 --> 00:21:47,039
 the auth authorization for some account
 
-389
+390
 00:21:47,039 --> 00:21:50,480
 account management and
 
-390
+391
 00:21:50,480 --> 00:21:51,760
 approvement.
 
-391
+392
 00:21:51,760 --> 00:21:52,320
 – Approval.
 
-392
+393
 00:21:52,320 --> 00:21:54,559
 – Approval. There you go. That's the word.
 
-393
+394
 00:21:54,559 --> 00:21:57,440
 So, yeah. So, if you want, I think what
 
-394
+395
 00:21:57,440 --> 00:21:59,039
 would be more interesting is probably
 
-395
+396
 00:21:59,039 --> 00:22:01,440
 doing your own plug-in first because
 
-396
+397
 00:22:01,440 --> 00:22:04,000
 that's when you could decouple that
 
-397
+398
 00:22:04,000 --> 00:22:05,600
 from the witnesses and just handle
 
-398
+399
 00:22:05,600 --> 00:22:08,320
 everything in your own plugin.
 
-399
+400
 00:22:08,320 --> 00:22:10,799
 – One thing to note also that this
 
-400
+401
 00:22:10,799 --> 00:22:12,720
 witness service that we're talking about
 
-401
+402
 00:22:12,720 --> 00:22:15,600
 here doesn't necessarily, if you're
 
-402
+403
 00:22:15,600 --> 00:22:18,000
 manipulating in that onpost handler,
 
-403
+404
 00:22:18,000 --> 00:22:20,320
 you're not necessarily manipulating how
 
-404
+405
 00:22:20,320 --> 00:22:24,240
 the witness code itself works [inaudible]
 
-405
+406
 00:22:24,240 --> 00:22:27,360
 you're just manipulating the
 
-406
+407
 00:22:27,360 --> 00:22:29,360
 layer, basically the API layer of
 
-407
+408
 00:22:29,360 --> 00:22:30,720
 [inaudible]
 
-408
+409
 00:22:30,720 --> 00:22:31,760
 so you can expand…
 
-409
+410
 00:22:31,760 --> 00:22:34,320
 – So you're really not modifying any other…
 
-410
+411
 00:22:34,320 --> 00:22:35,919
 – Just adding extra functionality,
 
-411
+412
 00:22:35,919 --> 00:22:37,120
 auxiliary functionality.
 
-412
+413
 00:22:39,840 --> 00:22:41,760
 – Of course being open source if you
 
-413
+414
 00:22:41,760 --> 00:22:43,120
 wanted to go in and manipulate the
 
-414
+415
 00:22:43,120 --> 00:22:45,120
 witness protocol some way for your own
 
-415
+416
 00:22:45,120 --> 00:22:48,559
 version, that's on your own.
 
-416
+417
 00:22:51,520 --> 00:22:55,280
 I think if you look here for example…
 
-417
+418
 00:22:55,280 --> 00:22:58,640
 This is all it does, just calls create
 
-418
+419
 00:22:58,640 --> 00:23:00,799
 witness but then everything after, you
 
-419
+420
 00:23:00,799 --> 00:23:03,280
 can probably
 
-420
+421
 00:23:03,280 --> 00:23:05,679
 add more functionalities for yourself
 
-421
+422
 00:23:05,679 --> 00:23:08,559
 for example for tracking or for like
 
-422
+423
 00:23:08,559 --> 00:23:11,200
 stats if you wanted to but that's up to
 
-423
+424
 00:23:11,200 --> 00:23:13,280
 you. So I'm just trying to give you an
 
-424
+425
 00:23:13,280 --> 00:23:16,240
 example of where you would start and how
 
-425
+426
 00:23:16,240 --> 00:23:17,440
 you could start.
 
-426
+427
 00:23:17,440 --> 00:23:20,320
 – That “createWitness” method weaves down
 
-427
+428
 00:23:20,320 --> 00:23:22,159
 into the KERIpy.
 
-428
+429
 00:23:22,159 --> 00:23:24,480
 – Yeah.
 
-429
+430
 00:23:27,360 --> 00:23:29,120
 – Great. Thank you.
 
-430
+431
 00:23:29,120 --> 00:23:31,600
 – Yeah, no problem. So, if you don't have
 
-431
+432
 00:23:31,600 --> 00:23:33,600
 any questions, then I think I'll give
 
-432
+433
 00:23:33,600 --> 00:23:37,559
 you back 20 minutes.
 

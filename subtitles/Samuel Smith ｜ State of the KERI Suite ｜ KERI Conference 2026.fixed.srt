@@ -1,5976 +1,5980 @@
 1
+00:00:00,000 --> 00:00:02,000
+Samuel Smith ｜ State of the KERI Suite ｜ KERI Conference 2026
+
+2
 00:00:02,898 --> 00:00:07,210
 All right. So, I want to introduce Henk
 
-2
+3
 00:00:07,235 --> 00:00:09,840
 van Cann. Right, the KERI
 
-3
+4
 00:00:09,840 --> 00:00:12,240
 Foundation would not exist without him.
 
-4
+5
 00:00:12,240 --> 00:00:15,000
 He came out of retirement. He likes to
 
-5
+6
 00:00:15,000 --> 00:00:18,680
 play guitar and sing on the streets in
 
-6
+7
 00:00:18,680 --> 00:00:21,320
 the Algarve in Portugal, and he could be
 
-7
+8
 00:00:21,320 --> 00:00:23,000
 doing that instead of being here with
 
-8
+9
 00:00:23,000 --> 00:00:24,880
 you guys. So,
 
-9
+10
 00:00:24,880 --> 00:00:28,200
 so give him a big round of applause.
 
-10
+11
 00:00:28,200 --> 00:00:31,040
 And he's also a financial sponsor of
 
-11
+12
 00:00:31,040 --> 00:00:33,160
 the KERI Foundation. So, there's no
 
-12
+13
 00:00:33,160 --> 00:00:34,520
 amount of
 
-13
+14
 00:00:34,520 --> 00:00:36,240
 thanks that I that
 
-14
+15
 00:00:36,240 --> 00:00:37,920
 is too much for him.
 
-15
+16
 00:00:37,920 --> 00:00:38,840
 So,
 
-16
+17
 00:00:39,560 --> 00:00:43,830
 I want to thank everyone for coming.
 
-17
+18
 00:00:43,840 --> 00:00:47,752
 This is KERI Conference 2026.
 
-18
+19
 00:00:47,777 --> 00:00:50,000
 Get a t-shirt cuz there'll
 
-19
+20
 00:00:50,000 --> 00:00:51,880
 never be another first ever KERI
 
-20
+21
 00:00:51,880 --> 00:00:54,160
 Conference. So, you know.
 
-21
+22
 00:00:54,160 --> 00:00:55,920
 And I think they're downstairs, right?
 
-22
+23
 00:00:55,920 --> 00:00:57,720
 Yeah. All right.
 
-23
+24
 00:00:57,720 --> 00:00:59,240
 And then…
 
-24
+25
 00:00:59,240 --> 00:01:02,040
 one more shot for the
 
-25
+26
 00:01:02,040 --> 00:01:03,640
 for the sponsors.
 
-26
+27
 00:01:03,640 --> 00:01:05,519
 So, I'm going to talk about the state of
 
-27
+28
 00:01:05,519 --> 00:01:07,120
 the KERI Suite,
 
-28
+29
 00:01:07,120 --> 00:01:10,190
 the journey to adoption.
 
-29
+30
 00:01:10,200 --> 00:01:13,430
 and
 
-30
+31
 00:01:13,440 --> 00:01:16,568
 I look at 2026. We've been doing KERI
 
-31
+32
 00:01:16,593 --> 00:01:19,040
 for a lot of years now,
 
-32
+33
 00:01:19,040 --> 00:01:22,000
 and it feels like this is going to be
 
-33
+34
 00:01:22,000 --> 00:01:24,360
 the year of KERI. So, you know, mark
 
-34
+35
 00:01:24,360 --> 00:01:26,400
 your calendars. This is where the world
 
-35
+36
 00:01:26,400 --> 00:01:28,440
 starts to understand and
 
-36
+37
 00:01:28,440 --> 00:01:32,430
 and know that KERI exists.
 
-37
+38
 00:01:32,430 --> 00:01:32,440
 
 
-38
+39
 00:01:32,440 --> 00:01:37,000
 some early feats
 That have already happened in 2026.
 
-39
+40
 00:01:37,000 --> 00:01:39,960
 The KERI Suite of protocols released
 
-40
+41
 00:01:39,960 --> 00:01:42,960
 as Linux Foundation open standards. That
 
-41
+42
 00:01:42,960 --> 00:01:45,760
 was a five four-year process starting in
 
-42
+43
 00:01:45,760 --> 00:01:47,040
 2020.
 
-43
+44
 00:01:47,040 --> 00:01:49,840
 And we've got Trust over IP. Drummond
 
-44
+45
 00:01:49,840 --> 00:01:52,040
 is the chairman is here today.
 
-45
+46
 00:01:52,040 --> 00:01:53,960
 And then we have a couple of members
 
-46
+47
 00:01:53,960 --> 00:01:55,720
 of the steering you know, several member
 
-47
+48
 00:01:55,720 --> 00:01:57,120
 at least three members of the steering
 
-48
+49
 00:01:57,120 --> 00:01:59,520
 committee here today. So, so they've
 
-49
+50
 00:01:59,520 --> 00:02:01,880
 been helpful. Karla and Nico and
 
-50
+51
 00:02:01,880 --> 00:02:04,510
 Drummond.
 
-51
+52
 00:02:04,510 --> 00:02:04,520
 
 
-52
+53
 00:02:04,520 --> 00:02:08,039
 the
 we started a funded project to build
 
-53
+54
 00:02:08,039 --> 00:02:10,240
 open infrastructure for KERI.
 
-54
+55
 00:02:10,240 --> 00:02:13,200
 We received a grant from the Utah
 
-55
+56
 00:02:13,200 --> 00:02:15,160
 Governor's Office of Economic
 
-56
+57
 00:02:15,160 --> 00:02:17,840
 Opportunity to build a did digital
 
-57
+58
 00:02:17,840 --> 00:02:20,200
 identity utility for SEDI
 
-58
+59
 00:02:20,200 --> 00:02:23,110
 based on KERI.
 
-59
+60
 00:02:23,110 --> 00:02:23,120
 
 
-60
+61
 00:02:23,120 --> 00:02:28,790
 the Telecom Industry's OBCE Alliance
 is
 
-61
+62
 00:02:28,790 --> 00:02:28,800
 
 
-62
+63
 00:02:28,800 --> 00:02:33,400
 doing proof of concepts to vet you use
 of the KERI suite of protocols and the
 
-63
+64
 00:02:33,400 --> 00:02:35,360
 verifiable voice protocol. And later
 
-64
+65
 00:02:35,360 --> 00:02:37,840
 today you'll have a Daniel Hardman
 
-65
+66
 00:02:37,840 --> 00:02:39,440
 is here. He'll talk about talk about
 
-66
+67
 00:02:39,440 --> 00:02:40,480
 that.
 
-67
+68
 00:02:40,480 --> 00:02:44,120
 We have Utah state passed the SEDI
 
-68
+69
 00:02:44,120 --> 00:02:46,360
 implementation law
 
-69
+70
 00:02:46,360 --> 00:02:50,710
 funded law to build to build SEDI.
 
-70
+71
 00:02:50,710 --> 00:02:50,720
 
 
-71
+72
 00:02:50,720 --> 00:02:57,320
 there is
 Production implementation of
 
-72
+73
 00:02:57,320 --> 00:03:00,680
 using those for stopping call spam.
 
-73
+74
 00:03:00,680 --> 00:03:02,280
 Healthcare is vital
 
-74
+75
 00:03:02,280 --> 00:03:04,280
 Initiative. We'll have a talk later
 
-75
+76
 00:03:04,280 --> 00:03:07,840
 today about that with the vLEIKERI
 
-76
+77
 00:03:07,840 --> 00:03:09,280
 and
 
-77
+78
 00:03:09,280 --> 00:03:12,920
 and using the KERI for healthcare
 
-78
+79
 00:03:12,920 --> 00:03:14,840
 data provenance.
 
-79
+80
 00:03:14,840 --> 00:03:18,600
 We just completed the SEDI
 
-80
+81
 00:03:18,600 --> 00:03:22,000
 Policy summit the last 2 days. How
 
-81
+82
 00:03:22,000 --> 00:03:23,680
 many people are here that were here the
 
-82
+83
 00:03:23,680 --> 00:03:25,400
 last 2 days?
 
-83
+84
 00:03:25,400 --> 00:03:27,720
 All right, almost everybody. Fantastic.
 
-84
+85
 00:03:27,720 --> 00:03:29,680
 So, you so I don't need to tell you any
 
-85
+86
 00:03:29,680 --> 00:03:32,480
 more about what happened there.
 
-86
+87
 00:03:32,480 --> 00:03:35,080
 And first ever annual KERI conference
 
-87
+88
 00:03:35,080 --> 00:03:38,680
 and first ever annual KERI conference
 today. So, that's just that's just this
 
-88
+89
 00:03:38,680 --> 00:03:40,800
 first 4 months of 2026. We're just
 
-89
+90
 00:03:40,800 --> 00:03:43,000
 getting started.
 
-90
+91
 00:03:43,000 --> 00:03:45,720
 So, one of the things I want to
 
-91
+92
 00:03:45,720 --> 00:03:48,160
 look at is
 
-92
+93
 00:03:48,160 --> 00:03:49,959
 you know, what is
 
-93
+94
 00:03:49,959 --> 00:03:52,840
 what is what are the chances of broader
 
-94
+95
 00:03:52,840 --> 00:03:54,600
 adoption? What are the sort of
 
-95
+96
 00:03:54,600 --> 00:03:57,080
 rules? And so, I went back to
 
-96
+97
 00:03:57,080 --> 00:04:00,000
 Malcolm Gladwell wrote a book
 
-97
+98
 00:04:00,000 --> 00:04:01,720
 called The Tipping Point.
 
-98
+99
 00:04:01,720 --> 00:04:05,560
 And he had rules for
 
-99
+100
 00:04:05,560 --> 00:04:07,720
 when adoption reaches a tipping point.
 
-100
+101
 00:04:07,720 --> 00:04:11,240
 And the and this is a you know, a curve.
 
-101
+102
 00:04:11,240 --> 00:04:12,880
 And the tipping point is this inflection
 
-102
+103
 00:04:12,880 --> 00:04:16,630
 point down he- down here where
 
-103
+104
 00:04:16,630 --> 00:04:16,640
 
 
-104
+105
 00:04:16,640 --> 00:04:22,160
 you sort of go from
 flat adoption to where you start to
 
-105
+106
 00:04:22,160 --> 00:04:25,560
 get a significant grow- you know,
 
-106
+107
 00:04:25,560 --> 00:04:28,600
 growth a steeper curve. And the
 
-107
+108
 00:04:28,600 --> 00:04:31,280
 the reality is down here, it's not a
 
-108
+109
 00:04:31,280 --> 00:04:33,680
 smooth curve. It's really noisy down
 
-109
+110
 00:04:33,680 --> 00:04:35,720
 here. And so, really the tipping point
 
-110
+111
 00:04:35,720 --> 00:04:38,080
 is when the noise starts to dissipate
 
-111
+112
 00:04:38,080 --> 00:04:41,800
 and you start to see, you know,
 
-112
+113
 00:04:41,800 --> 00:04:43,400
 year you know, month over month, week
 
-113
+114
 00:04:43,400 --> 00:04:46,000
 over week, year over year growth. And
 
-114
+115
 00:04:46,000 --> 00:04:47,200
 so,
 
-115
+116
 00:04:47,200 --> 00:04:47,870
 so
 
-116
+117
 00:04:47,870 --> 00:04:47,880
 
 
-117
+118
 00:04:47,880 --> 00:04:51,680
 so where
 we are we where does that tipping point
 
-118
+119
 00:04:51,680 --> 00:04:53,760
 happen? How do we get to that
 
-119
+120
 00:04:53,760 --> 00:04:57,480
 tipping point? So his three rules
 
-120
+121
 00:04:57,480 --> 00:04:59,960
 are the law of the few, the stickiness
 
-121
+122
 00:04:59,960 --> 00:05:02,840
 factor, and the power of context.
 
-122
+123
 00:05:02,840 --> 00:05:04,720
 So, the law of the few. What does that
 
-123
+124
 00:05:04,720 --> 00:05:05,880
 mean?
 
-124
+125
 00:05:05,880 --> 00:05:07,880
 Well, if you have a sufficiently
 
-125
+126
 00:05:07,880 --> 00:05:10,760
 influential set of early adopters, those
 
-126
+127
 00:05:10,760 --> 00:05:12,520
 are the few.
 
-127
+128
 00:05:12,520 --> 00:05:14,640
 That means you have to have people
 
-128
+129
 00:05:14,640 --> 00:05:16,800
 that recognize the technical
 
-129
+130
 00:05:16,800 --> 00:05:19,840
 suitability. And then they have to try
 
-130
+131
 00:05:19,840 --> 00:05:22,400
 to get other people to adopt it.
 
-131
+132
 00:05:22,400 --> 00:05:24,080
 And so, you guys
 
-132
+133
 00:05:24,080 --> 00:05:28,430
 are the few. You're the ones.
 
-133
+134
 00:05:30,870 --> 00:05:33,400
 So, let's see what's happened.
 You have to first overcome the seven
 
-134
+135
 00:05:33,400 --> 00:05:36,240
 stages of adoption resistance.
 
-135
+136
 00:05:36,240 --> 00:05:38,080
 You know I know there's some people
 
-136
+137
 00:05:38,080 --> 00:05:40,200
 in this room that, you know, shock,
 
-137
+138
 00:05:40,200 --> 00:05:42,960
 denial, anger, bargaining, testing, and
 
-138
+139
 00:05:42,960 --> 00:05:46,400
 acceptance, right? Most of you are
 
-139
+140
 00:05:46,400 --> 00:05:48,080
 well along. There's still a couple that
 
-140
+141
 00:05:48,080 --> 00:05:50,480
 maybe they're in the bargaining
 
-141
+142
 00:05:50,480 --> 00:05:52,280
 stage yet. They're still trying to well,
 
-142
+143
 00:05:52,280 --> 00:05:54,000
 do we really need KERI or you know,
 
-143
+144
 00:05:54,000 --> 00:05:55,960
 does it really solve what we want? We'll
 
-144
+145
 00:05:55,960 --> 00:05:58,390
 see.
 
-145
+146
 00:05:58,390 --> 00:05:58,400
 
 
-146
+147
 00:05:58,400 --> 00:06:03,040
 So,
 what are what are some adoption vectors
 
-147
+148
 00:06:03,040 --> 00:06:05,480
 that the few start sort of like an
 
-148
+149
 00:06:05,480 --> 00:06:07,600
 epidemic, right? What are some
 
-149
+150
 00:06:07,600 --> 00:06:09,240
 of those? Well, I sort of hinted at
 
-150
+151
 00:06:09,240 --> 00:06:11,760
 those. We have the telecom sector.
 
-151
+152
 00:06:11,760 --> 00:06:14,440
 That could be a massive adoption
 
-152
+153
 00:06:14,440 --> 00:06:15,960
 vector.
 
-153
+154
 00:06:15,960 --> 00:06:18,080
 We have the healthKERI sector. That
 
-154
+155
 00:06:18,080 --> 00:06:20,360
 could be a massive adoption vector.
 
-155
+156
 00:06:20,360 --> 00:06:23,120
 And we have state entitlements,
 
-156
+157
 00:06:23,120 --> 00:06:23,880
 which
 
-157
+158
 00:06:23,880 --> 00:06:25,880
 Could be a massive adoption vector.
 
-158
+159
 00:06:25,880 --> 00:06:28,040
 Any one of those
 
-159
+160
 00:06:28,040 --> 00:06:29,240
 could
 
-160
+161
 00:06:29,240 --> 00:06:31,240
 create, you know, cross the tipping
 
-161
+162
 00:06:31,240 --> 00:06:34,800
 point. And since I'm I'm a fault
 
-162
+163
 00:06:34,800 --> 00:06:37,760
 tolerant person, I believe in fault
 
-163
+164
 00:06:37,760 --> 00:06:39,520
 tolerant systems. I got to have three,
 
-164
+165
 00:06:39,520 --> 00:06:40,640
 right?
 
-165
+166
 00:06:40,640 --> 00:06:42,280
 You got to have three massive adoption
 
-166
+167
 00:06:42,280 --> 00:06:44,880
 vectors to make sure one works, right?
 
-167
+168
 00:06:44,880 --> 00:06:46,919
 So, that's what that's where we're at.
 
-168
+169
 00:06:46,919 --> 00:06:49,919
 Widespread bootstrap vectors. So, the
 
-169
+170
 00:06:49,919 --> 00:06:52,240
 difference here is
 
-170
+171
 00:06:52,240 --> 00:06:55,400
 in order to have adoption that is
 
-171
+172
 00:06:55,400 --> 00:06:56,480
 we had a
 
-172
+173
 00:06:56,480 --> 00:06:58,600
 saying in Florida, you know, what
 
-173
+174
 00:06:58,600 --> 00:07:00,520
 what comes in over the transom goes out
 
-174
+175
 00:07:00,520 --> 00:07:01,919
 over the transom.
 
-175
+176
 00:07:01,919 --> 00:07:04,280
 You know, as a wave washes fish in, it's
 
-176
+177
 00:07:04,280 --> 00:07:06,680
 junk fish, you don't want it, right? But
 
-177
+178
 00:07:06,680 --> 00:07:09,919
 what we want are to have adoptions
 
-178
+179
 00:07:09,919 --> 00:07:12,000
 that we didn't plan on. We didn't know
 
-179
+180
 00:07:12,000 --> 00:07:13,840
 that they were going to happen. And they
 
-180
+181
 00:07:13,840 --> 00:07:16,200
 they just they just they just spin up
 
-181
+182
 00:07:16,200 --> 00:07:18,560
 spontaneously. And so, we need something
 
-182
+183
 00:07:18,560 --> 00:07:20,520
 that will bootstrap those without us
 
-183
+184
 00:07:20,520 --> 00:07:22,720
 forcing them. These are These up here
 
-184
+185
 00:07:22,720 --> 00:07:25,080
 are the result of years of work.
 
-185
+186
 00:07:25,080 --> 00:07:27,040
 I mean, you know, I we started working
 
-186
+187
 00:07:27,040 --> 00:07:29,120
 with SEDI, you know, three years
 
-187
+188
 00:07:29,120 --> 00:07:32,280
 ago. I know how long Provenant and
 
-188
+189
 00:07:32,280 --> 00:07:33,560
 healthKERI have been working in their
 
-189
+190
 00:07:33,560 --> 00:07:36,320
 sectors. It didn't happen overnight.
 
-190
+191
 00:07:36,320 --> 00:07:39,360
 It took lots of time, right? But we want
 
-191
+192
 00:07:39,360 --> 00:07:41,520
 to also have vectors that happen
 
-192
+193
 00:07:41,520 --> 00:07:43,640
 quickly. So,
 
-193
+194
 00:07:43,640 --> 00:07:45,840
 we have two bootstrap vectors,
 
-194
+195
 00:07:45,840 --> 00:07:47,360
 organizational Root of Trust, that's
 
-195
+196
 00:07:47,360 --> 00:07:48,480
 GLEIF.
 
-196
+197
 00:07:48,480 --> 00:07:50,120
 And that's been the thing that has
 
-197
+198
 00:07:50,120 --> 00:07:52,840
 been enabling these other ones, right?
 
-198
+199
 00:07:52,840 --> 00:07:54,960
 It started They went to production with
 
-199
+200
 00:07:54,960 --> 00:07:57,920
 the vLEI in 2022. That's That's now
 
-200
+201
 00:07:57,920 --> 00:08:00,080
 been 4 years. Seems like it was
 
-201
+202
 00:08:00,080 --> 00:08:03,670
 yesterday, but it's been 4 years.
 
-202
+203
 00:08:03,670 --> 00:08:03,680
 
 
-203
+204
 00:08:03,680 --> 00:08:06,640
 So, we want to we
 you know, and we're starting to see the
 
-204
+205
 00:08:06,640 --> 00:08:08,640
 fruits of that.
 
-205
+206
 00:08:08,640 --> 00:08:11,000
 But one of the things that is new this
 
-206
+207
 00:08:11,000 --> 00:08:13,840
 year and in the next year is a personal
 
-207
+208
 00:08:13,840 --> 00:08:15,320
 Root of Trust. That's never happened
 
-208
+209
 00:08:15,320 --> 00:08:16,880
 before, not an organizational root of
 
-209
+210
 00:08:16,880 --> 00:08:18,680
 trust, a personal Root of Trust. That
 
-210
+211
 00:08:18,680 --> 00:08:22,160
 means lots of businesses
 
-211
+212
 00:08:22,160 --> 00:08:25,760
 that wouldn't normally consider using
 
-212
+213
 00:08:25,760 --> 00:08:27,720
 digital identity, centralized digital
 
-213
+214
 00:08:27,720 --> 00:08:29,320
 identity,
 
-214
+215
 00:08:29,320 --> 00:08:33,400
 are going to get for free bootstrapped
 
-215
+216
 00:08:33,400 --> 00:08:36,120
 identity assurance that is highly
 
-216
+217
 00:08:36,120 --> 00:08:37,440
 trustworthy.
 
-217
+218
 00:08:37,440 --> 00:08:40,000
 That means every industry
 
-218
+219
 00:08:40,000 --> 00:08:43,960
 has the potential to leverage
 
-219
+220
 00:08:43,960 --> 00:08:46,960
 that Root of Trust, which is Utah state.
 
-220
+221
 00:08:46,960 --> 00:08:50,640
 And then all scale enablement vector,
 
-221
+222
 00:08:50,640 --> 00:08:52,960
 that's open standards,
 
-222
+223
 00:08:52,960 --> 00:08:55,240
 open source, and open infrastructure.
 
-223
+224
 00:08:55,240 --> 00:08:56,440
 I'm going to talk about what I mean by
 
-224
+225
 00:08:56,440 --> 00:08:57,760
 open infrastructure a little bit later
 
-225
+226
 00:08:57,760 --> 00:08:58,920
 in this talk.
 
-226
+227
 00:08:58,920 --> 00:09:00,880
 So, there's the law of the few. So, I
 
-227
+228
 00:09:00,880 --> 00:09:02,400
 feel like
 
-228
+229
 00:09:02,400 --> 00:09:05,080
 we've got that.
 
-229
+230
 00:09:05,080 --> 00:09:06,800
 The next one is the stickiness factor.
 
-230
+231
 00:09:06,800 --> 00:09:08,760
 What makes it stick?
 
-231
+232
 00:09:08,760 --> 00:09:10,360
 Well, it needs to be compelling and
 
-232
+233
 00:09:10,360 --> 00:09:12,160
 contagious.
 
-233
+234
 00:09:12,160 --> 00:09:13,680
 So, we have to think about things that
 
-234
+235
 00:09:13,680 --> 00:09:16,600
 make it, right? So, we need to have some
 
-235
+236
 00:09:16,600 --> 00:09:20,160
 sort of pathology that's endemic
 
-236
+237
 00:09:20,160 --> 00:09:22,360
 that isn't going to go away and it's
 
-237
+238
 00:09:22,360 --> 00:09:23,839
 going to stick
 
-238
+239
 00:09:23,839 --> 00:09:26,280
 and it's going to keep driving adoption,
 
-239
+240
 00:09:26,280 --> 00:09:28,440
 and that is fraud.
 
-240
+241
 00:09:28,440 --> 00:09:30,200
 The world is filled with fraud. Every
 
-241
+242
 00:09:30,200 --> 00:09:33,040
 business is suffering the cost of fraud.
 
-242
+243
 00:09:33,040 --> 00:09:36,000
 And fraud includes identity theft. It
 
-243
+244
 00:09:36,000 --> 00:09:37,400
 includes,
 
-244
+245
 00:09:37,400 --> 00:09:39,360
 you know, all of the security,
 
-245
+246
 00:09:39,360 --> 00:09:41,360
 you know, exploits,
 
-246
+247
 00:09:41,360 --> 00:09:42,070
 you know, exploits
 
-247
+248
 00:09:42,070 --> 00:09:43,320
 
 
-248
+249
 00:09:43,320 --> 00:09:47,000
 you know, ransomware.
 But, it includes just normal day-to-day
 
-249
+250
 00:09:47,000 --> 00:09:49,880
 business, you know, factoring fraud, PO
 
-250
+251
 00:09:49,880 --> 00:09:52,720
 fraud (Purchase Order), those sorts of things.
 
-251
+252
 00:09:52,720 --> 00:09:54,720
 And they're getting worse. And one of
 
-252
+253
 00:09:54,720 --> 00:09:56,800
 the things that are making them worse is
 
-253
+254
 00:09:56,800 --> 00:09:59,480
 the fact that the tooling that enable
 
-254
+255
 00:09:59,480 --> 00:10:02,040
 fraud has now reached the point where it
 
-255
+256
 00:10:02,040 --> 00:10:03,960
 is better
 
-256
+257
 00:10:03,960 --> 00:10:05,720
 than the mechanisms that protect against
 
-257
+258
 00:10:05,720 --> 00:10:06,880
 fraud.
 
-258
+259
 00:10:06,880 --> 00:10:08,880
 And so,
 
-259
+260
 00:10:08,880 --> 00:10:11,040
 that's going to continually push people
 
-260
+261
 00:10:11,040 --> 00:10:12,600
 over the edge, right? They're going to
 
-261
+262
 00:10:12,600 --> 00:10:14,880
 say, "Do I really need KERI?" And you
 
-262
+263
 00:10:14,880 --> 00:10:17,160
 go, "Well, can you fix fraud without
 
-263
+264
 00:10:17,160 --> 00:10:18,480
 KERI?"
 
-264
+265
 00:10:18,480 --> 00:10:19,880
 And they go, "Well, no, not really."
 
-265
+266
 00:10:19,880 --> 00:10:22,440
 Okay, then you really need KERI.
 
-266
+267
 00:10:22,440 --> 00:10:25,600
 Regular regulator imperatives to
 
-267
+268
 00:10:25,600 --> 00:10:28,400
 repress fraud and abuse, right? Those
 
-268
+269
 00:10:28,400 --> 00:10:30,200
 are happening in several industries. For
 
-269
+270
 00:10:30,200 --> 00:10:33,280
 example, in the telecom industry, FCC.
 
-270
+271
 00:10:33,280 --> 00:10:34,600
 In the healthcare industry, you know,
 
-271
+272
 00:10:34,600 --> 00:10:35,880
 you see Scott schooling on his
 
-272
+273
 00:10:35,880 --> 00:10:39,080
 head, right? In
 
-273
+274
 00:10:39,080 --> 00:10:40,880
 in state
 
-274
+275
 00:10:40,880 --> 00:10:43,720
 endorsed digital identity, right?
 
-275
+276
 00:10:43,720 --> 00:10:46,480
 You're you now have regulators that are
 
-276
+277
 00:10:46,480 --> 00:10:49,480
 you're you now have regulators that are
 saying, "Hey, we need to we need to
 
-277
+278
 00:10:49,480 --> 00:10:51,920
 we need to we have an imperative that
 
-278
+279
 00:10:51,920 --> 00:10:53,160
 says we've got to get rid of fraud and
 
-279
+280
 00:10:53,160 --> 00:10:55,240
 abuse." And by abuse, I mean
 
-280
+281
 00:10:55,240 --> 00:10:57,400
 exploitation of citizens in the case of
 
-281
+282
 00:10:57,400 --> 00:10:59,000
 personal identity.
 
-282
+283
 00:10:59,000 --> 00:11:02,000
 The malaise of digital exploitation.
 
-283
+284
 00:11:02,000 --> 00:11:06,600
 Do any of you feel like you're sick
 
-284
+285
 00:11:06,600 --> 00:11:10,520
 of being exploited online?
 
-285
+286
 00:11:10,520 --> 00:11:12,880
 Only a few of you. Okay.
 
-286
+287
 00:11:12,880 --> 00:11:14,920
 Do any of you know of anybody that
 
-287
+288
 00:11:14,920 --> 00:11:16,080
 feels like they're sick of being
 
-288
+289
 00:11:16,080 --> 00:11:18,040
 exploited online? Okay. [laughter]
 
-289
+290
 00:11:18,040 --> 00:11:21,600
 All right. Okay? Do you have a desire to
 
-290
+291
 00:11:21,600 --> 00:11:24,120
 control your digital presence? Yes.
 
-291
+292
 00:11:24,120 --> 00:11:26,480
 Absolutely, right? The
 
-292
+293
 00:11:26,480 --> 00:11:28,760
 So, so that's a stickiness factor. Is
 
-293
+294
 00:11:28,760 --> 00:11:31,160
 that desire going to go away?
 
-294
+295
 00:11:31,160 --> 00:11:32,680
 Do you know anybody
 
-295
+296
 00:11:32,680 --> 00:11:37,070
 wants to have less control?
 
-296
+297
 00:11:39,310 --> 00:11:40,320
 I know I know some, but
 Yeah,
 
-297
+298
 00:11:40,320 --> 00:11:42,320
 there are few. But, most of the
 
-298
+299
 00:11:42,320 --> 00:11:43,480
 everybody in this room I'm pretty sure
 
-299
+300
 00:11:43,480 --> 00:11:45,000
 wants more control over the digital
 
-300
+301
 00:11:45,000 --> 00:11:46,280
 presidents.
 
-301
+302
 00:11:46,280 --> 00:11:49,000
 The other thing that's happening
 
-302
+303
 00:11:49,000 --> 00:11:51,880
 is that the technology
 
-303
+304
 00:11:51,880 --> 00:11:54,640
 that enables KERI
 
-304
+305
 00:11:54,640 --> 00:11:56,440
 is key management.
 
-305
+306
 00:11:56,440 --> 00:11:58,280
 And that means the devices, the
 
-306
+307
 00:11:58,280 --> 00:12:01,600
 software, the systems operating systems
 
-307
+308
 00:12:01,600 --> 00:12:04,400
 have to start moving in the direction of
 
-308
+309
 00:12:04,400 --> 00:12:06,160
 educating people
 
-309
+310
 00:12:06,160 --> 00:12:08,520
 to manage their own keys. And that is
 
-310
+311
 00:12:08,520 --> 00:12:10,080
 happening.
 
-311
+312
 00:12:10,080 --> 00:12:12,800
 You know, when we started KERI and
 
-312
+313
 00:12:12,800 --> 00:12:14,240
 I mean, when I started doing digital
 
-313
+314
 00:12:14,240 --> 00:12:17,960
 identity in 2015, 2016,
 
-314
+315
 00:12:17,960 --> 00:12:20,160
 the people were
 
-315
+316
 00:12:20,160 --> 00:12:22,160
 really like saying, "There's no way
 
-316
+317
 00:12:22,160 --> 00:12:24,520
 you're going to get
 
-317
+318
 00:12:24,520 --> 00:12:27,440
 people to manage the private keys."
 
-318
+319
 00:12:27,440 --> 00:12:28,920
 Right? The blockchain community had
 
-319
+320
 00:12:28,920 --> 00:12:30,400
 already gone there, right? They had to
 
-320
+321
 00:12:30,400 --> 00:12:31,880
 manage private keys to be on the
 
-321
+322
 00:12:31,880 --> 00:12:34,480
 blockchain, right? So, the technology
 
-322
+323
 00:12:34,480 --> 00:12:36,640
 got a got a big boost. But, now you're
 
-323
+324
 00:12:36,640 --> 00:12:39,320
 seeing it in every system. Everybody's
 
-324
+325
 00:12:39,320 --> 00:12:42,720
 this endemic pathology is pushing
 
-325
+326
 00:12:42,720 --> 00:12:45,800
 people to better key management.
 
-326
+327
 00:12:45,800 --> 00:12:48,720
 And so, as people become familiar, the
 
-327
+328
 00:12:48,720 --> 00:12:52,080
 friction to adoption reduces.
 
-328
+329
 00:12:52,080 --> 00:12:55,720
 So, I think we have stickiness.
 
-329
+330
 00:12:55,720 --> 00:12:58,040
 The power of context.
 
-330
+331
 00:12:58,040 --> 00:12:59,920
 What that means is timing and
 
-331
+332
 00:12:59,920 --> 00:13:04,870
 externalities. Is the timing right?
 
-332
+333
 00:13:06,030 --> 00:13:09,520
 Well,
 I think the specter of AI is making
 
-333
+334
 00:13:09,520 --> 00:13:12,160
 an unprecedented,
 
-334
+335
 00:13:12,160 --> 00:13:14,320
 you know, context that says the timing
 
-335
+336
 00:13:14,320 --> 00:13:15,640
 is right.
 
-336
+337
 00:13:15,640 --> 00:13:19,680
 We have we are faced with
 
-337
+338
 00:13:19,680 --> 00:13:21,920
 the potential for the annihilation of
 
-338
+339
 00:13:21,920 --> 00:13:23,520
 trust. There's an impending doom. I
 
-339
+340
 00:13:23,520 --> 00:13:26,200
 don't If you guys don't see it, if you
 
-340
+341
 00:13:26,200 --> 00:13:30,840
 aren't, go read OWASP 100-page
 
-341
+342
 00:13:30,840 --> 00:13:31,554
 report they just
 
-342
+343
 00:13:31,554 --> 00:13:33,160
 published
 
-343
+344
 00:13:33,160 --> 00:13:36,920
 on how to deal with AI threats to
 
-344
+345
 00:13:36,920 --> 00:13:38,320
 security.
 
-345
+346
 00:13:38,320 --> 00:13:41,800
 And it is chilling cuz they say
 
-346
+347
 00:13:41,800 --> 00:13:44,240
 it has never existed before, it is a
 
-347
+348
 00:13:44,240 --> 00:13:46,560
 different type of threat, and we don't
 
-348
+349
 00:13:46,560 --> 00:13:49,280
 have a cure. All we can do is mitigate
 
-349
+350
 00:13:49,280 --> 00:13:51,000
 some of the symptoms.
 
-350
+351
 00:13:51,000 --> 00:13:52,120
 And they're only going to get worse. And
 
-351
+352
 00:13:52,120 --> 00:13:54,280
 it's 100 pages long.
 
-352
+353
 00:13:54,280 --> 00:13:56,520
 Right. And it's And it's just starting.
 
-353
+354
 00:13:56,520 --> 00:13:59,480
 And it's They're going to add 100 pages
 
-354
+355
 00:13:59,480 --> 00:14:01,800
 on a regular basis because the threats
 
-355
+356
 00:14:01,800 --> 00:14:05,520
 are increasing at an exponential rate.
 
-356
+357
 00:14:05,520 --> 00:14:07,400
 So, impersonation,
 
-357
+358
 00:14:07,400 --> 00:14:08,920
 been around for a while. AI
 
-358
+359
 00:14:08,920 --> 00:14:11,920
 impersonation, deep fakes,
 
-359
+360
 00:14:11,920 --> 00:14:13,800
 those They're just They just barely
 
-360
+361
 00:14:13,800 --> 00:14:14,960
 happened.
 
-361
+362
 00:14:14,960 --> 00:14:19,560
 When was the ChatGPT moment?
 
-362
+363
 00:14:19,560 --> 00:14:22,160
 Yeah, 2023. It's only 3 years around,
 
-363
+364
 00:14:22,160 --> 00:14:23,680
 and we're already
 
-364
+365
 00:14:23,680 --> 00:14:26,720
 We're already see- seeing those effects.
 
-365
+366
 00:14:26,720 --> 00:14:29,920
 Exploitation, you thought somebody
 
-366
+367
 00:14:29,920 --> 00:14:31,560
 could exploit you? Wait till an AI
 
-367
+368
 00:14:31,560 --> 00:14:34,280
 exploits you.
 
-368
+369
 00:14:34,280 --> 00:14:36,400
 Surveillance, you thought you were being
 
-369
+370
 00:14:36,400 --> 00:14:39,040
 surveilled online?
 
-370
+371
 00:14:39,040 --> 00:14:42,280
 Wait till Just ask an AI to surveil you.
 
-371
+372
 00:14:42,280 --> 00:14:44,880
 You know, I've done this test for
 
-372
+373
 00:14:44,880 --> 00:14:47,720
 people where I went out and said, "Hey,
 
-373
+374
 00:14:47,720 --> 00:14:50,400
 I'm working with X,
 
-374
+375
 00:14:50,400 --> 00:14:52,520
 and he needs somebody to manage his
 
-375
+376
 00:14:52,520 --> 00:14:55,120
 online presence and reputation, and I'm
 
-376
+377
 00:14:55,120 --> 00:14:57,800
 and I'm and I'm doing that for him."
 
-377
+378
 00:14:57,800 --> 00:14:59,880
 And it says, "Okay."
 
-378
+379
 00:14:59,880 --> 00:15:02,040
 And after about three prompts, it says,
 
-379
+380
 00:15:02,040 --> 00:15:04,160
 "So, would you like me to create an
 
-380
+381
 00:15:04,160 --> 00:15:06,920
 interactive dashboard that tracks all of
 
-381
+382
 00:15:06,920 --> 00:15:09,839
 the things they say and do online?"
 
-382
+383
 00:15:09,839 --> 00:15:11,770
 And I always say, "No."
 
-383
+384
 00:15:11,770 --> 00:15:12,600
 [laughter]
 
-384
+385
 00:15:12,600 --> 00:15:14,480
 But that's that's how it takes
 
-385
+386
 00:15:14,480 --> 00:15:17,200
 literally 10 minutes to for anybody in
 
-386
+387
 00:15:17,200 --> 00:15:18,839
 the world to say, "I want to know
 
-387
+388
 00:15:18,839 --> 00:15:20,839
 everything about everything that anybody
 
-388
+389
 00:15:20,839 --> 00:15:22,440
 that they know of that they have a name
 
-389
+390
 00:15:22,440 --> 00:15:24,160
 for has done.
 
-390
+391
 00:15:24,160 --> 00:15:25,840
 And that's just and that's just
 
-391
+392
 00:15:25,840 --> 00:15:27,000
 starting.
 
-392
+393
 00:15:27,000 --> 00:15:28,520
 We're not even close to the
 
-393
+394
 00:15:28,520 --> 00:15:31,320
 capability yet.
 
-394
+395
 00:15:31,320 --> 00:15:33,160
 Sufficient political will to legislate
 
-395
+396
 00:15:33,160 --> 00:15:35,360
 new civil rights. I think you saw that
 
-396
+397
 00:15:35,360 --> 00:15:38,160
 the last 2 days.
 
-397
+398
 00:15:38,160 --> 00:15:40,360
 Individual control over digital ID data
 
-398
+399
 00:15:40,360 --> 00:15:42,800
 and context. That is
 
-399
+400
 00:15:42,800 --> 00:15:45,280
 what we need is legislation that gives
 
-400
+401
 00:15:45,280 --> 00:15:47,280
 us back control over our internet
 
-401
+402
 00:15:47,280 --> 00:15:48,880
 presence.
 
-402
+403
 00:15:48,880 --> 00:15:50,680
 Duty of data loyalty is probably the
 
-403
+404
 00:15:50,680 --> 00:15:54,560
 most significant legislative initiative
 
-404
+405
 00:15:54,560 --> 00:15:57,680
 that we can put in place to enable
 
-405
+406
 00:15:57,680 --> 00:15:59,560
 control over
 
-406
+407
 00:15:59,560 --> 00:16:02,720
 over our digital ID presence online.
 
-407
+408
 00:16:02,720 --> 00:16:05,000
 We can't do it with anything less. It
 
-408
+409
 00:16:05,000 --> 00:16:07,840
 inverts the liability equation. And for
 
-409
+410
 00:16:07,840 --> 00:16:09,920
 those of you who don't understand the
 
-410
+411
 00:16:09,920 --> 00:16:12,190
 difference between
 
-411
+412
 00:16:12,190 --> 00:16:12,200
 
 
-412
+413
 00:16:12,200 --> 00:16:16,960
 consumer harm legislation and fiduciary
 law,
 
-413
+414
 00:16:16,960 --> 00:16:19,120
 the standard of proof is different. If
 
-414
+415
 00:16:19,120 --> 00:16:22,200
 if I have consumer protection,
 
-415
+416
 00:16:22,200 --> 00:16:24,080
 I can't
 
-416
+417
 00:16:24,080 --> 00:16:26,560
 punish the person abusing me unless I
 
-417
+418
 00:16:26,560 --> 00:16:28,640
 can show harm. The standard of harm is
 
-418
+419
 00:16:28,640 --> 00:16:31,600
 pretty hard high. And it's pretty hard
 
-419
+420
 00:16:31,600 --> 00:16:34,280
 to show harm in a diffuse
 
-420
+421
 00:16:34,280 --> 00:16:36,240
 internet online where your data gets
 
-421
+422
 00:16:36,240 --> 00:16:37,720
 spread out all over the place and you
 
-422
+423
 00:16:37,720 --> 00:16:39,360
 can't point to somebody and say, "You
 
-423
+424
 00:16:39,360 --> 00:16:41,040
 harmed me." They go, "No, no, no, I gave
 
-424
+425
 00:16:41,040 --> 00:16:42,520
 the data to this person. They gave it to
 
-425
+426
 00:16:42,520 --> 00:16:44,520
 that person." And then you can't show
 
-426
+427
 00:16:44,520 --> 00:16:45,680
 harm.
 
-427
+428
 00:16:45,680 --> 00:16:49,120
 But fiduciary duty of loyalty says,
 
-428
+429
 00:16:49,120 --> 00:16:51,120
 "If the fiduciary
 
-429
+430
 00:16:51,120 --> 00:16:53,080
 is self-dealing,
 
-430
+431
 00:16:53,080 --> 00:16:55,720
 then you can punish them because your
 
-431
+432
 00:16:55,720 --> 00:16:58,360
 interests have to come before the
 
-432
+433
 00:16:58,360 --> 00:17:00,880
 fiduciary's interests." That means
 
-433
+434
 00:17:00,880 --> 00:17:03,240
 everybody that collects any data about
 
-434
+435
 00:17:03,240 --> 00:17:07,839
 you online in Utah now has to
 
-435
+436
 00:17:07,839 --> 00:17:11,480
 understand that if they self-deal,
 
-436
+437
 00:17:11,480 --> 00:17:14,319
 if they benefit from your data and you
 
-437
+438
 00:17:14,319 --> 00:17:15,520
 don't,
 
-438
+439
 00:17:15,520 --> 00:17:17,560
 you can go after them.
 
-439
+440
 00:17:17,560 --> 00:17:19,680
 That has never happened before. That is
 
-440
+441
 00:17:19,680 --> 00:17:22,520
 the way place where it has to be.
 
-441
+442
 00:17:22,520 --> 00:17:24,040
 So, that's the stickiness factor cuz
 
-442
+443
 00:17:24,040 --> 00:17:26,040
 that's now in law.
 
-443
+444
 00:17:26,040 --> 00:17:28,360
 And that stickiness, that's the context.
 
-444
+445
 00:17:28,360 --> 00:17:30,640
 And then the last one, the inevitability
 
-445
+446
 00:17:30,640 --> 00:17:32,160
 of KERI. You have to have true
 
-446
+447
 00:17:32,160 --> 00:17:34,440
 believers who are going to fight through
 
-447
+448
 00:17:34,440 --> 00:17:37,160
 the fights, who are going to go to the
 
-448
+449
 00:17:37,160 --> 00:17:39,920
 go to the meetings and put up the put up
 
-449
+450
 00:17:39,920 --> 00:17:41,840
 with the arguments and make the
 
-450
+451
 00:17:41,840 --> 00:17:45,200
 case. And I think we have cadre of
 
-451
+452
 00:17:45,200 --> 00:17:48,560
 people that are willing to do that. So,
 
-452
+453
 00:17:48,560 --> 00:17:49,230
 people that are willing to do that. So
 
-453
+454
 00:17:49,230 --> 00:17:49,240
 
 
-454
+455
 00:17:49,240 --> 00:17:54,760
 And the thing is, we have a severely
 constrained solution trade space.
 
-455
+456
 00:17:54,760 --> 00:17:56,880
 And what I mean by that is, I spent
 
-456
+457
 00:17:56,880 --> 00:17:58,200
 years
 
-457
+458
 00:17:58,200 --> 00:18:00,960
 doing the trades. What can we do to
 
-458
+459
 00:18:00,960 --> 00:18:03,480
 solve these problems? What tools do we
 
-459
+460
 00:18:03,480 --> 00:18:05,960
 have available? And everything every
 
-460
+461
 00:18:05,960 --> 00:18:07,800
 time I go, "Well, I could do this, but
 
-461
+462
 00:18:07,800 --> 00:18:10,440
 wait, if I do that, then
 
-462
+463
 00:18:10,440 --> 00:18:12,280
 here's the tradeoffs, and I don't
 
-463
+464
 00:18:12,280 --> 00:18:13,680
 like those tradeoffs. And I do that,
 
-464
+465
 00:18:13,680 --> 00:18:15,040
 here's the tradeoffs. I don't like that
 
-465
+466
 00:18:15,040 --> 00:18:17,080
 those tradeoffs." And once you do the
 
-466
+467
 00:18:17,080 --> 00:18:20,360
 tradeoffs, you realize that there's only
 
-467
+468
 00:18:20,360 --> 00:18:22,560
 a very small
 
-468
+469
 00:18:22,560 --> 00:18:25,320
 space for a solution, which means, as
 
-469
+470
 00:18:25,320 --> 00:18:28,400
 far in my opinion, if it's not KERI,
 
-470
+471
 00:18:28,400 --> 00:18:30,400
 it's going to be something that looks,
 
-471
+472
 00:18:30,400 --> 00:18:32,960
 smells, walks, and quacks like KERI.
 
-472
+473
 00:18:32,960 --> 00:18:34,680
 They just changed the name.
 
-473
+474
 00:18:34,680 --> 00:18:36,880
 Because the under the hood, there just
 
-474
+475
 00:18:36,880 --> 00:18:39,720
 isn't any other solutions. We have to
 
-475
+476
 00:18:39,720 --> 00:18:41,320
 you know, we cryptography only gives us
 
-476
+477
 00:18:41,320 --> 00:18:43,600
 a handful of things that we can use.
 
-477
+478
 00:18:43,600 --> 00:18:46,440
 And so and so that means that
 
-478
+479
 00:18:46,440 --> 00:18:51,000
 the timing is right. So, anyway
 
-479
+480
 00:18:51,000 --> 00:18:52,560
 Persistent problem cascade that
 
-480
+481
 00:18:52,560 --> 00:18:53,920
 continually exhaust anything less
 
-481
+482
 00:18:53,920 --> 00:18:55,600
 capable.
 
-482
+483
 00:18:55,600 --> 00:18:57,880
 It's just every time you look at some
 
-483
+484
 00:18:57,880 --> 00:19:00,400
 other system, you look at DNSSEC, you
 
-484
+485
 00:19:00,400 --> 00:19:02,840
 look at OAuth, OIDC, you look at these
 
-485
+486
 00:19:02,840 --> 00:19:04,240
 systems,
 
-486
+487
 00:19:04,240 --> 00:19:06,040
 and they keep failing for the same
 
-487
+488
 00:19:06,040 --> 00:19:07,880
 reasons.
 
-488
+489
 00:19:07,880 --> 00:19:09,640
 And so,
 
-489
+490
 00:19:09,640 --> 00:19:11,640
 people are starting to recognize that.
 
-490
+491
 00:19:11,640 --> 00:19:14,280
 So, what does that mean?
 
-491
+492
 00:19:14,280 --> 00:19:16,880
 That it's a matter of when, not if. If
 
-492
+493
 00:19:16,880 --> 00:19:19,400
 it's not this year, it's next year. If
 
-493
+494
 00:19:19,400 --> 00:19:20,840
 it's not next year, it's the following
 
-494
+495
 00:19:20,840 --> 00:19:21,800
 year.
 
-495
+496
 00:19:21,800 --> 00:19:25,550
 Because none of this is going away.
 
-496
+497
 00:19:37,750 --> 00:19:40,800
 I'm going to predict that before the end
 of 2027,
 
-497
+498
 00:19:40,800 --> 00:19:42,360
 KERI adoption will reach its tipping
 
-498
+499
 00:19:42,360 --> 00:19:45,553
 point.
 
-499
+500
 00:19:46,030 --> 00:19:52,550
 [applause]
 All right.
 
-500
+501
 00:19:53,550 --> 00:19:55,480
 So,
 the journey begins. So, what I wanted to
 
-501
+502
 00:19:55,480 --> 00:19:58,400
 do on this first ever conference
 
-502
+503
 00:19:58,400 --> 00:20:01,680
 is give a brief history of how we got
 
-503
+504
 00:20:01,680 --> 00:20:02,760
 here.
 
-504
+505
 00:20:02,760 --> 00:20:05,480
 You know, sort of like the foundations.
 
-505
+506
 00:20:05,480 --> 00:20:07,560
 I think most of you have been there
 
-506
+507
 00:20:07,560 --> 00:20:09,560
 through most of the journey.
 
-507
+508
 00:20:09,560 --> 00:20:10,640
 But, I know there's some people that
 
-508
+509
 00:20:10,640 --> 00:20:13,080
 haven't been, and this talk, you
 
-509
+510
 00:20:13,080 --> 00:20:15,480
 know, will be made available online for
 
-510
+511
 00:20:15,480 --> 00:20:16,880
 other people. So, I thought this would
 
-511
+512
 00:20:16,880 --> 00:20:19,120
 be a good opportunity to sort of
 
-512
+513
 00:20:19,120 --> 00:20:21,240
 talk about, you know, where it came
 
-513
+514
 00:20:21,240 --> 00:20:22,360
 from.
 
-514
+515
 00:20:22,360 --> 00:20:25,720
 So, I started down this path
 
-515
+516
 00:20:25,720 --> 00:20:28,360
 back in 2013, 2014. I wrote a protocol
 
-516
+517
 00:20:28,360 --> 00:20:29,920
 called RAET.
 
-517
+518
 00:20:29,920 --> 00:20:31,800
 It's reliable asynchronous event
 
-518
+519
 00:20:31,800 --> 00:20:33,720
 transport. It is a
 
-519
+520
 00:20:33,720 --> 00:20:35,920
 end-to-end, peer-to-peer,
 
-520
+521
 00:20:35,920 --> 00:20:39,360
 encrypted, signed, and it was used in
 
-521
+522
 00:20:39,360 --> 00:20:41,120
 production at scale, and it was open
 
-522
+523
 00:20:41,120 --> 00:20:42,400
 source.
 
-523
+524
 00:20:42,400 --> 00:20:45,400
 So, this was years before most of you
 
-524
+525
 00:20:45,400 --> 00:20:48,080
 have even heard of Signal. Back when
 
-525
+526
 00:20:48,080 --> 00:20:49,280
 Signal wasn't called Signal, it was
 
-526
+527
 00:20:49,280 --> 00:20:50,600
 called Whisper.
 
-527
+528
 00:20:50,600 --> 00:20:52,840
 But, it was the start of that. So, what
 
-528
+529
 00:20:52,840 --> 00:20:55,240
 was the lesson learned?
 
-529
+530
 00:20:55,240 --> 00:20:56,840
 Well, I could solve all the problems but
 
-530
+531
 00:20:56,840 --> 00:20:58,924
 key management with RAET.
 
-531
+532
 00:20:58,924 --> 00:20:59,640
 [laughter]
 
-532
+533
 00:20:59,640 --> 00:21:01,480
 So, so I said, "Okay, that's not a
 
-533
+534
 00:21:01,480 --> 00:21:03,400
 solvable that's not a solved problem."
 
-534
+535
 00:21:03,400 --> 00:21:07,040
 So, so, I already knew that
 
-535
+536
 00:21:07,040 --> 00:21:08,600
 there was a big problem that had to be
 
-536
+537
 00:21:08,600 --> 00:21:10,920
 solved sometime.
 
-537
+538
 00:21:10,920 --> 00:21:12,760
 OpenReputation,
 
-538
+539
 00:21:12,760 --> 00:21:15,040
 I wrote a white paper.
 
-539
+540
 00:21:15,040 --> 00:21:17,640
 It started using self-certifying
 
-540
+541
 00:21:17,640 --> 00:21:20,310
 identifiers.
 
-541
+542
 00:21:20,310 --> 00:21:20,320
 
 
-542
+543
 00:21:20,320 --> 00:21:25,510
 it had the concept of identity ledger
 and identity graph.
 
-543
+544
 00:21:25,510 --> 00:21:25,520
 
 
-544
+545
 00:21:25,520 --> 00:21:31,560
 it defined reputation as a modulator for
 trust for online interactions.
 
-545
+546
 00:21:31,560 --> 00:21:34,080
 And it
 
-546
+547
 00:21:34,080 --> 00:21:35,840
 brought up the idea that we wanted to
 
-547
+548
 00:21:35,840 --> 00:21:38,080
 have individual control over the context
 
-548
+549
 00:21:38,080 --> 00:21:40,280
 in which we interact online.
 
-549
+550
 00:21:40,280 --> 00:21:42,520
 Our internet presence.
 
-550
+551
 00:21:42,520 --> 00:21:44,720
 And lesson learned from that is that I
 
-551
+552
 00:21:44,720 --> 00:21:48,040
 needed persistent identity. I can't have
 
-552
+553
 00:21:48,040 --> 00:21:49,960
 a good reputation without a persistent
 
-553
+554
 00:21:49,960 --> 00:21:51,800
 identity, and that's the hard problem of
 
-554
+555
 00:21:51,800 --> 00:21:53,400
 identity because nobody had a solution
 
-555
+556
 00:21:53,400 --> 00:21:56,040
 for it back then.
 
-556
+557
 00:21:56,040 --> 00:21:58,240
 Identity System Essentials, this
 
-557
+558
 00:21:58,240 --> 00:22:01,320
 white paper. This is the first draft.
 
-558
+559
 00:22:01,320 --> 00:22:03,960
 Introduced cryptonyms, built on the
 
-559
+560
 00:22:03,960 --> 00:22:08,120
 skid model. It provided a formal
 
-560
+561
 00:22:08,120 --> 00:22:11,240
 identity model, primary secondary IDs.
 
-561
+562
 00:22:11,240 --> 00:22:13,520
 Talked about identifier management
 
-562
+563
 00:22:13,520 --> 00:22:15,240
 with HD key chains, three degrees of
 
-563
+564
 00:22:15,240 --> 00:22:18,240
 privacy, and it introduced the concept
 
-564
+565
 00:22:18,240 --> 00:22:20,520
 of self-sovereignty for identity. And
 
-565
+566
 00:22:20,520 --> 00:22:23,320
 lots of people This The draft paper was
 
-566
+567
 00:22:23,320 --> 00:22:24,760
 shared in the community, and lots of
 
-567
+568
 00:22:24,760 --> 00:22:27,000
 people amplified and built on the
 
-568
+569
 00:22:27,000 --> 00:22:29,440
 concept of SSI, but as far as I know,
 
-569
+570
 00:22:29,440 --> 00:22:31,960
 that was the first And I And I stole it
 
-570
+571
 00:22:31,960 --> 00:22:34,680
 from Phil cuz Phil Windley had
 
-571
+572
 00:22:34,680 --> 00:22:36,600
 written some blog posts on
 
-572
+573
 00:22:36,600 --> 00:22:38,600
 self-sovereign data, and I said, "Well,
 
-573
+574
 00:22:38,600 --> 00:22:40,080
 we don't just want data to be
 
-574
+575
 00:22:40,080 --> 00:22:41,440
 self-sovereign. We want our identity to
 
-575
+576
 00:22:41,440 --> 00:22:43,800
 be self-sovereign." So, So, that was
 
-576
+577
 00:22:43,800 --> 00:22:47,910
 back in 2016.
 
-577
+578
 00:22:47,910 --> 00:22:47,920
 
 
-578
+579
 00:22:47,920 --> 00:22:51,800
 The lesson I learned there, there's a
 hard trade space. If you want to trade
 
-579
+580
 00:22:51,800 --> 00:22:53,880
 off security and privacy and
 
-580
+581
 00:22:53,880 --> 00:22:55,840
 self-sovereignty and control,
 
-581
+582
 00:22:55,840 --> 00:23:00,430
 you're making some pretty hard trades.
 
-582
+583
 00:23:00,430 --> 00:23:00,440
 
 
-583
+584
 00:23:00,440 --> 00:23:06,080
 Sovrin Foundation
 that really changed the environment
 
-584
+585
 00:23:06,080 --> 00:23:08,480
 for decentralized identity.
 
-585
+586
 00:23:08,480 --> 00:23:11,120
 The idea was there's going to be one
 
-586
+587
 00:23:11,120 --> 00:23:14,000
 ledger for digital identity.
 
-587
+588
 00:23:14,000 --> 00:23:16,160
 One ledger to rule them all.
 
-588
+589
 00:23:16,160 --> 00:23:19,760
 And it had persistent identifiers.
 
-589
+590
 00:23:19,760 --> 00:23:22,080
 It had prophylactic key rotation, not
 
-590
+591
 00:23:22,080 --> 00:23:24,440
 recoverable key rotation. That
 
-591
+592
 00:23:24,440 --> 00:23:26,080
 would wait that was going to
 
-592
+593
 00:23:26,080 --> 00:23:28,600
 come a while later, but it built on
 
-593
+594
 00:23:28,600 --> 00:23:30,280
 but it established the foundation of
 
-594
+595
 00:23:30,280 --> 00:23:32,280
 managing your key state
 
-595
+596
 00:23:32,280 --> 00:23:33,840
 so that you'd have persistent ident-
 
-596
+597
 00:23:33,840 --> 00:23:35,560
 identity.
 
-597
+598
 00:23:35,560 --> 00:23:38,400
 Hard problem, shared governance.
 
-598
+599
 00:23:38,400 --> 00:23:40,670
 That was a hard problem.
 
-599
+600
 00:23:40,670 --> 00:23:40,680
 
 
-600
+601
 00:23:40,680 --> 00:23:44,400
 Spent a lot of time trying to solve that
 problem.
 
-601
+602
 00:23:44,400 --> 00:23:50,310
 2017, the ledger wars.
 
-602
+603
 00:23:52,510 --> 00:23:55,200
 Okay, a lot of you fought in those wars,
 right? What happened is
 
-603
+604
 00:23:55,200 --> 00:23:58,200
 SSI was such a great concept
 
-604
+605
 00:23:58,200 --> 00:24:00,560
 that everybody wanted it. Every ledger
 
-605
+606
 00:24:00,560 --> 00:24:03,600
 wanted to have their own SSI
 
-606
+607
 00:24:03,600 --> 00:24:05,840
 Identity.
 
-607
+608
 00:24:05,840 --> 00:24:07,840
 So there was every time somebody would
 
-608
+609
 00:24:07,840 --> 00:24:10,480
 have an application
 
-609
+610
 00:24:10,480 --> 00:24:12,040
 that they wanted
 
-610
+611
 00:24:12,040 --> 00:24:14,440
 decentralized identifier,
 
-611
+612
 00:24:14,440 --> 00:24:16,640
 the very next thing was, "Okay, which
 
-612
+613
 00:24:16,640 --> 00:24:19,040
 ledger are we going to put it on?"
 
-613
+614
 00:24:19,040 --> 00:24:21,600
 And so all the all the people for all
 
-614
+615
 00:24:21,600 --> 00:24:23,080
 the ledgers would come to the table and
 
-615
+616
 00:24:23,080 --> 00:24:25,480
 say, "No, my ledger. No, my ledger."
 
-616
+617
 00:24:25,480 --> 00:24:27,080
 Right? And that's what it looked like
 
-617
+618
 00:24:27,080 --> 00:24:28,840
 for several years.
 
-618
+619
 00:24:28,840 --> 00:24:30,440
 And then
 
-619
+620
 00:24:30,440 --> 00:24:33,720
 GDPR came out in 2018 and that made it
 
-620
+621
 00:24:33,720 --> 00:24:37,440
 difficult to have identity on a ledger.
 
-621
+622
 00:24:37,440 --> 00:24:40,240
 So the whole idea of persistent identity
 
-622
+623
 00:24:40,240 --> 00:24:44,960
 using a ledger is a problem for GDPR.
 
-623
+624
 00:24:44,960 --> 00:24:46,320
 And so
 
-624
+625
 00:24:46,320 --> 00:24:49,120
 the ledger wars, so
 
-625
+626
 00:24:49,120 --> 00:24:52,440
 the insight was that blockchain is too
 
-626
+627
 00:24:52,440 --> 00:24:54,080
 centralized
 
-627
+628
 00:24:54,080 --> 00:24:58,120
 for truly portable identity.
 
-628
+629
 00:24:58,120 --> 00:25:00,360
 That was a really hard lesson to learn.
 
-629
+630
 00:25:00,360 --> 00:25:01,880
 It took several years of fighting the
 
-630
+631
 00:25:01,880 --> 00:25:04,360
 ledger wars to realize that.
 
-631
+632
 00:25:04,360 --> 00:25:05,600
 So,
 
-632
+633
 00:25:05,600 --> 00:25:08,830
 you know, the way of KERI
 
-633
+634
 00:25:08,830 --> 00:25:08,840
 
 
-634
+635
 00:25:08,840 --> 00:25:16,480
 really the first paper that sort of
 opened the path was this one in 2018.
 
-635
+636
 00:25:16,480 --> 00:25:18,360
 The three R's of key management and one
 
-636
+637
 00:25:18,360 --> 00:25:19,800
 of those R's
 
-637
+638
 00:25:19,800 --> 00:25:22,480
 is rotation and this is where I
 
-638
+639
 00:25:22,480 --> 00:25:24,720
 defined the concept of pre-rotation. So,
 
-639
+640
 00:25:24,720 --> 00:25:26,120
 it's in that paper.
 
-640
+641
 00:25:26,120 --> 00:25:27,640
 It says, "How are we going to do key
 
-641
+642
 00:25:27,640 --> 00:25:28,920
 rotation?
 
-642
+643
 00:25:28,920 --> 00:25:31,560
 If we do it the normal way,
 
-643
+644
 00:25:31,560 --> 00:25:33,470
 If we do it the normal way
 
-644
+645
 00:25:33,470 --> 00:25:33,480
 
 
-645
+646
 00:25:33,480 --> 00:25:38,320
 where we use our signing key to rotate
 to a new signing key, if our signing key
 
-646
+647
 00:25:38,320 --> 00:25:39,920
 is compromised,
 
-647
+648
 00:25:39,920 --> 00:25:41,880
 then we lose control of our identity and
 
-648
+649
 00:25:41,880 --> 00:25:44,240
 that's all of blockchain, by the way.
 
-649
+650
 00:25:44,240 --> 00:25:45,920
 Right? And that's all of blockchain
 
-650
+651
 00:25:45,920 --> 00:25:47,680
 identity. If you lose control of your
 
-651
+652
 00:25:47,680 --> 00:25:49,680
 signing key, you lose control of your
 
-652
+653
 00:25:49,680 --> 00:25:51,480
 identity. So, that's
 
-653
+654
 00:25:51,480 --> 00:25:53,200
 that's kind of a problem.
 
-654
+655
 00:25:53,200 --> 00:25:55,600
 The other approach is
 
-655
+656
 00:25:55,600 --> 00:25:58,880
 have a rotation key that you use to
 
-656
+657
 00:25:58,880 --> 00:26:00,800
 rotate your signing key.
 
-657
+658
 00:26:00,800 --> 00:26:02,520
 But then what happens if your rotation
 
-658
+659
 00:26:02,520 --> 00:26:04,160
 key gets compromised?
 
-659
+660
 00:26:04,160 --> 00:26:05,760
 Well, then you have another rotation key
 
-660
+661
 00:26:05,760 --> 00:26:07,280
 to rotate the rotation key that rotates
 
-661
+662
 00:26:07,280 --> 00:26:09,080
 the signing key. And I had several
 
-662
+663
 00:26:09,080 --> 00:26:10,840
 cryptographers says that's best
 
-663
+664
 00:26:10,840 --> 00:26:12,920
 practices. Well, what happens when that
 
-664
+665
 00:26:12,920 --> 00:26:14,760
 one says two is usually enough. You only
 
-665
+666
 00:26:14,760 --> 00:26:16,560
 need two rotation keys. They'll never
 
-666
+667
 00:26:16,560 --> 00:26:19,080
 they'll never get there.
 
-667
+668
 00:26:19,080 --> 00:26:20,920
 Good idea, but
 
-668
+669
 00:26:20,920 --> 00:26:22,600
 that may maybe we could do better. So,
 
-669
+670
 00:26:22,600 --> 00:26:24,520
 pre-rotation is one-time use only
 
-670
+671
 00:26:24,520 --> 00:26:26,000
 rotation keys.
 
-671
+672
 00:26:26,000 --> 00:26:28,160
 You rotate your rotation key every time
 
-672
+673
 00:26:28,160 --> 00:26:31,120
 you rotate your signing keys.
 
-673
+674
 00:26:31,120 --> 00:26:33,760
 So, pre-rotation
 
-674
+675
 00:26:33,760 --> 00:26:36,120
 and then that also introduced the idea
 
-675
+676
 00:26:36,120 --> 00:26:40,240
 of having a key a log of your key
 
-676
+677
 00:26:40,240 --> 00:26:41,480
 state.
 
-677
+678
 00:26:41,480 --> 00:26:42,760
 Didn't call it a KERI event because
 
-678
+679
 00:26:42,760 --> 00:26:44,320
 they hadn't coined the term KERI, so it
 
-679
+680
 00:26:44,320 --> 00:26:45,760
 couldn't be a KERI event log, but it
 
-680
+681
 00:26:45,760 --> 00:26:47,360
 would or you know,
 
-681
+682
 00:26:47,360 --> 00:26:49,880
 KERI Key Event Log, but it was a log.
 
-682
+683
 00:26:49,880 --> 00:26:52,680
 Had multisig individual source and
 
-683
+684
 00:26:52,680 --> 00:26:55,350
 provenance data.
 
-684
+685
 00:26:55,350 --> 00:26:55,360
 
 
-685
+686
 00:26:55,360 --> 00:27:00,200
 so, the idea is make key management
 fault tolerant. So, I started down that
 
-686
+687
 00:27:00,200 --> 00:27:01,400
 path.
 
-687
+688
 00:27:01,400 --> 00:27:03,840
 In 2018, a little bit later,
 
-688
+689
 00:27:03,840 --> 00:27:06,240
 paper called A DID for everything.
 
-689
+690
 00:27:06,240 --> 00:27:08,120
 It introduced the idea of verifiable
 
-690
+691
 00:27:08,120 --> 00:27:10,040
 provenanced graphs of cryptographically
 
-691
+692
 00:27:10,040 --> 00:27:11,480
 chained data.
 
-692
+693
 00:27:11,480 --> 00:27:13,760
 So, that's the core idea that is now in
 
-693
+694
 00:27:13,760 --> 00:27:17,910
 the ACDC standard.
 
-694
+695
 00:27:19,030 --> 00:27:19,040
 
 
-695
+696
 00:27:19,040 --> 00:27:21,390
 yeah.
 
-696
+697
 00:27:21,390 --> 00:27:21,400
 
 
-697
+698
 00:27:21,400 --> 00:27:26,680
 in 2019, KERI version one white paper.
 So, based on those, I said, "Okay, let's
 
-698
+699
 00:27:26,680 --> 00:27:27,920
 see if we can figure out a way to do it
 
-699
+700
 00:27:27,920 --> 00:27:29,520
 without a blockchain."
 
-700
+701
 00:27:29,520 --> 00:27:31,600
 And the idea is that you have a
 
-701
+702
 00:27:31,600 --> 00:27:33,920
 cryptographically verifiable append-only
 
-702
+703
 00:27:33,920 --> 00:27:36,520
 event log for each identifier. So,
 
-703
+704
 00:27:36,520 --> 00:27:39,200
 there's no shared governance.
 
-704
+705
 00:27:39,200 --> 00:27:40,680
 You get rid of shared governance, you
 
-705
+706
 00:27:40,680 --> 00:27:42,960
 get rid of the ledger wars.
 
-706
+707
 00:27:42,960 --> 00:27:45,680
 Introduced CESR,
 
-707
+708
 00:27:45,680 --> 00:27:48,320
 key rotation, witnesses, deconstructed
 
-708
+709
 00:27:48,320 --> 00:27:50,040
 blockchain.
 
-709
+710
 00:27:50,040 --> 00:27:51,960
 It solves the hard problem of cross
 
-710
+711
 00:27:51,960 --> 00:27:54,880
 trust domain transfer.
 
-711
+712
 00:27:54,880 --> 00:27:56,680
 Lesson learned,
 
-712
+713
 00:27:56,680 --> 00:27:58,480
 we don't need a blockchain.
 
-713
+714
 00:27:58,480 --> 00:28:01,360
 And I spent a couple of years arguing
 
-714
+715
 00:28:01,360 --> 00:28:02,880
 with people that said, "No, no, you have
 
-715
+716
 00:28:02,880 --> 00:28:04,360
 to have a blockchain. You can't do it
 
-716
+717
 00:28:04,360 --> 00:28:06,880
 with a Key Event Log (KEL)."
 
-717
+718
 00:28:06,880 --> 00:28:10,000
 But now I hardly ever have anybody
 
-718
+719
 00:28:10,000 --> 00:28:11,440
 tell me that you need a blockchain for
 
-719
+720
 00:28:11,440 --> 00:28:13,960
 identity. Does anybody Is anybody
 
-720
+721
 00:28:13,960 --> 00:28:16,600
 arguing that still in the room?
 
-721
+722
 00:28:16,600 --> 00:28:19,089
 You don't have to raise your hand.
 
-722
+723
 00:28:19,089 --> 00:28:20,920
 [laughter]
 
-723
+724
 00:28:20,920 --> 00:28:24,000
 So, after So, I took that paper on
 
-724
+725
 00:28:24,000 --> 00:28:26,000
 the road. I went to IIIW several
 
-725
+726
 00:28:26,000 --> 00:28:27,440
 conferences, shared with everybody that
 
-726
+727
 00:28:27,440 --> 00:28:29,920
 I knew. Tell me what I'm doing wrong.
 
-727
+728
 00:28:29,920 --> 00:28:31,560
 Got lots of really good valuable
 
-728
+729
 00:28:31,560 --> 00:28:36,800
 feedback. There's a list of
 
-729
+730
 00:28:36,800 --> 00:28:38,880
 of acknowledgements in the back of
 
-730
+731
 00:28:38,880 --> 00:28:40,800
 the KERI V2 white paper because there
 
-731
+732
 00:28:40,800 --> 00:28:42,800
 were some really significant
 
-732
+733
 00:28:42,800 --> 00:28:44,440
 meaningful enhancements that came from
 
-733
+734
 00:28:44,440 --> 00:28:47,440
 that. One of those is the watcher
 
-734
+735
 00:28:47,440 --> 00:28:48,800
 network,
 
-735
+736
 00:28:48,800 --> 00:28:50,270
 CESR streaming, hierarchical
 
-736
+737
 00:28:50,280 --> 00:28:52,400
 CESR streaming hierarchical
 delegation, layer threshold
 
-737
+738
 00:28:52,400 --> 00:28:54,200
 structures
 
-738
+739
 00:28:54,200 --> 00:28:56,440
 in more detail.
 
-739
+740
 00:28:56,440 --> 00:28:59,040
 But, basically it solved all the hard
 
-740
+741
 00:28:59,040 --> 00:29:01,920
 problems of key management and so it
 
-741
+742
 00:29:01,920 --> 00:29:05,480
 was ready to go and that was 2020.
 
-742
+743
 00:29:05,480 --> 00:29:09,000
 And then the same year like
 
-743
+744
 00:29:09,000 --> 00:29:11,880
 While we were still refining
 
-744
+745
 00:29:11,880 --> 00:29:14,200
 the version two white paper came
 
-745
+746
 00:29:14,200 --> 00:29:16,560
 across the idea of quantum secure DIDs.
 
-746
+747
 00:29:16,560 --> 00:29:18,640
 I co-wrote a white paper white paper on
 
-747
+748
 00:29:18,640 --> 00:29:19,600
 this.
 
-748
+749
 00:29:19,600 --> 00:29:22,040
 Using hashes to protect the
 
-749
+750
 00:29:22,040 --> 00:29:23,680
 pre-rotated keys means that we've
 
-750
+751
 00:29:23,680 --> 00:29:25,880
 pre-migrated along with the cryptography
 
-751
+752
 00:29:25,880 --> 00:29:28,360
 agility. So, so we're already
 
-752
+753
 00:29:28,360 --> 00:29:31,120
 have a story for post quantum secure
 
-753
+754
 00:29:31,120 --> 00:29:33,520
 and Daniel and I and Daniel did most
 
-754
+755
 00:29:33,520 --> 00:29:35,080
 of the work co-wrote a recent paper
 
-755
+756
 00:29:35,080 --> 00:29:38,080
 about the post quantum
 
-756
+757
 00:29:38,080 --> 00:29:39,520
 position for KERI. So, if you're not
 
-757
+758
 00:29:39,520 --> 00:29:41,520
 familiar with that, go read that
 
-758
+759
 00:29:41,520 --> 00:29:43,480
 white paper. And
 
-759
+760
 00:29:43,480 --> 00:29:45,080
 Dan, you can maybe do a reference for
 
-760
+761
 00:29:45,080 --> 00:29:45,880
 it.
 
-761
+762
 00:29:45,880 --> 00:29:48,400
 2020,
 
-762
+763
 00:29:48,400 --> 00:29:49,920
 GLEIF
 
-763
+764
 00:29:49,920 --> 00:29:52,440
 got religion. They said, this
 
-764
+765
 00:29:52,440 --> 00:29:54,120
 works. We don't like the ledger wars. I
 
-765
+766
 00:29:54,120 --> 00:29:55,480
 think that was your main motivation,
 
-766
+767
 00:29:55,480 --> 00:29:58,000
 right, Karla? Yes. The ledger wars. They
 
-767
+768
 00:29:58,000 --> 00:30:01,110
 didn't want to fight those anymore.
 
-768
+769
 00:30:01,110 --> 00:30:01,120
 
 
-769
+770
 00:30:01,120 --> 00:30:05,470
 so lasting peace from the ledger wars.
 
-770
+771
 00:30:05,470 --> 00:30:05,480
 
 
-771
+772
 00:30:05,480 --> 00:30:09,120
 important insight. It solves
 organizational ID. Organizational
 
-772
+773
 00:30:09,120 --> 00:30:11,560
 identity is a new concept. Came from
 
-773
+774
 00:30:11,560 --> 00:30:12,880
 that because now you have a
 
-774
+775
 00:30:12,880 --> 00:30:14,800
 organizational Root of Trust. It's a
 
-775
+776
 00:30:14,800 --> 00:30:16,720
 bootstrap for any organizational ID
 
-776
+777
 00:30:16,720 --> 00:30:17,800
 problem.
 
-777
+778
 00:30:17,800 --> 00:30:19,560
 And now people in this room are starting
 
-778
+779
 00:30:19,560 --> 00:30:22,600
 to get that. I wrote a white paper
 
-779
+780
 00:30:22,600 --> 00:30:24,640
 universal identifier theory just to
 
-780
+781
 00:30:24,640 --> 00:30:27,560
 extend the identity model, unified model
 
-781
+782
 00:30:27,560 --> 00:30:30,280
 for identifiers, bootstrap trust, be a
 
-782
+783
 00:30:30,280 --> 00:30:32,240
 reputation by reference, multi-valued
 
-783
+784
 00:30:32,240 --> 00:30:34,160
 key management, starting to talk about
 
-784
+785
 00:30:34,160 --> 00:30:37,670
 how we build infrastructure at scale.
 
-785
+786
 00:30:37,670 --> 00:30:37,680
 
 
-786
+787
 00:30:37,680 --> 00:30:43,360
 so that went into more detail.
 And then in 2020 we formed a
 
-787
+788
 00:30:43,360 --> 00:30:46,000
 task force at Trust over IP to start
 
-788
+789
 00:30:46,000 --> 00:30:48,040
 standardizing this stuff and the and
 
-789
+790
 00:30:48,040 --> 00:30:50,000
 ACDC
 
-790
+791
 00:30:50,000 --> 00:30:51,920
 became a thing,
 
-791
+792
 00:30:51,920 --> 00:30:54,070
 At that point.
 
-792
+793
 00:30:54,070 --> 00:30:54,080
 
 
-793
+794
 00:30:54,080 --> 00:30:57,520
 so, authentic chain data containers, and
 I think,
 
-794
+795
 00:30:57,520 --> 00:30:59,760
 We'll talk a lot about those in the
 
-795
+796
 00:30:59,760 --> 00:31:03,550
 next 2 days.
 
-796
+797
 00:31:03,550 --> 00:31:03,560
 
 
-797
+798
 00:31:03,560 --> 00:31:10,360
 and then 2022, GLEIF vLEI in production.
 I won't go into
 
-798
+799
 00:31:10,360 --> 00:31:12,920
 most of you are familiar with that.
 
-799
+800
 00:31:12,920 --> 00:31:15,360
 So, now where we're at? Well,
 
-800
+801
 00:31:15,360 --> 00:31:16,230
 So, now where we're at? Well
 
-801
+802
 00:31:16,230 --> 00:31:16,240
 
 
-802
+803
 00:31:16,240 --> 00:31:23,120
 We needed there was a story
 missing in KERI. KERI is about
 
-803
+804
 00:31:23,120 --> 00:31:25,920
 authentication, proving that you control
 
-804
+805
 00:31:25,920 --> 00:31:27,520
 an identifier.
 
-805
+806
 00:31:27,520 --> 00:31:30,200
 But, there's more to the story
 
-806
+807
 00:31:30,200 --> 00:31:33,280
 and had lots of conversations about how
 
-807
+808
 00:31:33,280 --> 00:31:36,680
 do you deal with privacy and
 
-808
+809
 00:31:36,680 --> 00:31:38,280
 confidentiality,
 
-809
+810
 00:31:38,280 --> 00:31:40,240
 and
 
-810
+811
 00:31:40,240 --> 00:31:42,080
 wrote the white paper, the spec white
 
-811
+812
 00:31:42,080 --> 00:31:45,040
 paper, which is now a task force
 
-812
+813
 00:31:45,040 --> 00:31:47,440
 within Trust over IP working group
 
-813
+814
 00:31:47,440 --> 00:31:50,560
 at ToIP, and it's like draft version
 
-814
+815
 00:31:50,560 --> 00:31:52,000
 three or something,
 
-815
+816
 00:31:52,000 --> 00:31:54,440
 To solve,
 
-816
+817
 00:31:54,440 --> 00:31:57,000
 you know protected communications
 
-817
+818
 00:31:57,000 --> 00:31:59,390
 online.
 
-818
+819
 00:31:59,390 --> 00:31:59,400
 
 
-819
+820
 00:31:59,400 --> 00:32:03,800
 so, it uses a,
 It uses a three-layer tunnel,
 
-820
+821
 00:32:03,800 --> 00:32:05,110
 It uses a three-layer tunnel
 
-821
+822
 00:32:05,110 --> 00:32:05,120
 
 
-822
+823
 00:32:05,120 --> 00:32:12,400
 and the idea is that if I have
 layered confidential contexts,
 
-823
+824
 00:32:12,400 --> 00:32:15,400
 then I can solve
 
-824
+825
 00:32:15,400 --> 00:32:18,480
 surveillance and privacy using layered
 
-825
+826
 00:32:18,480 --> 00:32:21,040
 confidential contexts. And so, that's
 
-826
+827
 00:32:21,040 --> 00:32:24,160
 the that's the basic idea. And what
 
-827
+828
 00:32:24,160 --> 00:32:26,520
 I mean by it's exploitation, stupid,
 
-828
+829
 00:32:26,520 --> 00:32:28,520
 what I'm saying is that the real
 
-829
+830
 00:32:28,520 --> 00:32:31,400
 question is, how do we protect people
 
-830
+831
 00:32:31,400 --> 00:32:34,000
 from being exploited, not how do we help
 
-831
+832
 00:32:34,000 --> 00:32:37,080
 people hide better. Hiding is not a very
 
-832
+833
 00:32:37,080 --> 00:32:39,480
 fun place to be. If you've ever tried to
 
-833
+834
 00:32:39,480 --> 00:32:41,240
 really hide,
 
-834
+835
 00:32:41,240 --> 00:32:43,000
 you don't have a life.
 
-835
+836
 00:32:43,000 --> 00:32:44,640
 I know people that live off grid. They
 
-836
+837
 00:32:44,640 --> 00:32:47,640
 don't have a life.
 
-837
+838
 00:32:47,640 --> 00:32:50,840
 You want to be able to live with a life
 
-838
+839
 00:32:50,840 --> 00:32:53,200
 and not be exploited, and that means
 
-839
+840
 00:32:53,200 --> 00:32:55,080
 having control over the context of your
 
-840
+841
 00:32:55,080 --> 00:32:59,200
 data, not_not having a context, right?
 
-841
+842
 00:32:59,200 --> 00:33:01,120
 That's the main difference.
 
-842
+843
 00:33:01,120 --> 00:33:04,080
 Do you have a context that you control,
 
-843
+844
 00:33:04,080 --> 00:33:06,120
 that you share data with then, or do you
 
-844
+845
 00:33:06,120 --> 00:33:08,200
 not have any context?
 
-845
+846
 00:33:08,200 --> 00:33:10,440
 Right? And most of the community
 
-846
+847
 00:33:10,440 --> 00:33:13,320
 says, "Don't have any context." And
 
-847
+848
 00:33:13,320 --> 00:33:15,400
 that doesn't work very long
 
-848
+849
 00:33:15,400 --> 00:33:16,800
 because
 
-849
+850
 00:33:16,800 --> 00:33:19,640
 you live longer than a week, and you can
 
-850
+851
 00:33:19,640 --> 00:33:21,840
 maybe have no context for a week or a
 
-851
+852
 00:33:21,840 --> 00:33:24,120
 month or 3 months, but you're going
 
-852
+853
 00:33:24,120 --> 00:33:26,400
 to run out of out of places to hide
 
-853
+854
 00:33:26,400 --> 00:33:27,640
 after a while.
 
-854
+855
 00:33:27,640 --> 00:33:29,960
 And so, you need
 
-855
+856
 00:33:29,960 --> 00:33:31,520
 need a fortress that you can hide in.
 
-856
+857
 00:33:31,520 --> 00:33:32,920
 You need multiple fortresses you can
 
-857
+858
 00:33:32,920 --> 00:33:35,080
 hide in and have context.
 
-858
+859
 00:33:35,080 --> 00:33:38,480
 So, 2023, Utah State Senate work begins.
 
-859
+860
 00:33:38,480 --> 00:33:39,800
 Wrote a white paper called Sustainable
 
-860
+861
 00:33:39,800 --> 00:33:41,880
 Privacy, talks more at length about the
 
-861
+862
 00:33:41,880 --> 00:33:43,800
 regulatory things.
 
-862
+863
 00:33:43,800 --> 00:33:45,160
 Due to
 
-863
+864
 00:33:45,160 --> 00:33:47,640
 Due to data Due to loyalty
 
-864
+865
 00:33:47,640 --> 00:33:48,960
 is in there.
 
-865
+866
 00:33:48,960 --> 00:33:51,000
 The idea is you need a comprehensive
 
-866
+867
 00:33:51,000 --> 00:33:53,120
 approach. Technology by itself won't
 
-867
+868
 00:33:53,120 --> 00:33:54,720
 solve the problem. You've got to do it
 
-868
+869
 00:33:54,720 --> 00:33:56,800
 the And so, that meant as a
 
-869
+870
 00:33:56,800 --> 00:33:59,160
 technologist, spending a lot of time in
 
-870
+871
 00:33:59,160 --> 00:34:01,240
 the room with
 
-871
+872
 00:34:01,240 --> 00:34:05,120
 regulators and politicians,
 
-872
+873
 00:34:05,120 --> 00:34:07,320
 which, you know, were not my favorite
 
-873
+874
 00:34:07,320 --> 00:34:08,919
 people, but now they become my favorite
 
-874
+875
 00:34:08,919 --> 00:34:10,520
 people. I'm looking for Chris Bramwell,
 
-875
+876
 00:34:10,520 --> 00:34:11,879
 but I don't see him.
 
-876
+877
 00:34:11,879 --> 00:34:16,389
 He's late today.
 
-877
+878
 00:34:20,149 --> 00:34:22,720
 ToIP, we got our own working group,
 which helped speed along the things. We
 
-878
+879
 00:34:22,720 --> 00:34:24,520
 had some
 
-879
+880
 00:34:24,520 --> 00:34:26,879
 Cardano Foundation made a big investment
 
-880
+881
 00:34:26,879 --> 00:34:29,040
 in open-source software.
 
-881
+882
 00:34:29,040 --> 00:34:32,159
 Utah State started passing legislation.
 
-882
+883
 00:34:32,159 --> 00:34:35,000
 KERI Foundation we established last
 
-883
+884
 00:34:35,000 --> 00:34:35,919
 year.
 
-884
+885
 00:34:35,919 --> 00:34:36,919
 And the
 
-885
+886
 00:34:36,919 --> 00:34:40,110
 Well, I Yeah.
 
-886
+887
 00:34:40,110 --> 00:34:40,120
 
 
-887
+888
 00:34:40,120 --> 00:34:45,760
 No, that was that's wrong. That's
 2024 12 02. So, it's in just the end of
 
-888
+889
 00:34:45,760 --> 00:34:48,440
 2024, but it's really last year. To
 
-889
+890
 00:34:48,440 --> 00:34:50,760
 try to foster
 
-890
+891
 00:34:50,760 --> 00:34:53,560
 KERI throughout the world get adoption.
 
-891
+892
 00:34:53,560 --> 00:34:56,280
 And then we're back We're now at
 
-892
+893
 00:34:56,280 --> 00:34:57,800
 2026.
 
-893
+894
 00:34:57,800 --> 00:34:59,240
 And we already did what happened in
 
-894
+895
 00:34:59,240 --> 00:35:03,560
 2026. So, that's the history in terms of
 
-895
+896
 00:35:03,560 --> 00:35:05,480
 And you know what? I left a whole
 
-896
+897
 00:35:05,480 --> 00:35:07,440
 lot of stuff off. There's been a huge
 
-897
+898
 00:35:07,440 --> 00:35:08,560
 amount of work by people in this
 
-898
+899
 00:35:08,560 --> 00:35:11,160
 community pushing KERI along. But the
 
-899
+900
 00:35:11,160 --> 00:35:13,680
 core ideas, where they came from, and
 
-900
+901
 00:35:13,680 --> 00:35:14,640
 then
 
-901
+902
 00:35:14,640 --> 00:35:16,360
 you know, the milestones that got us to
 
-902
+903
 00:35:16,360 --> 00:35:19,920
 where we are, I put on there.
 
-903
+904
 00:35:19,920 --> 00:35:21,120
 So, what's the mission of the KERI
 
-904
+905
 00:35:21,120 --> 00:35:23,440
 Foundation? Our mission is to foster
 
-905
+906
 00:35:23,440 --> 00:35:25,120
 open infrastructure.
 
-906
+907
 00:35:25,120 --> 00:35:27,680
 What does that mean?
 
-907
+908
 00:35:27,680 --> 00:35:30,080
 It's the I in KERI. I had somebody ask
 
-908
+909
 00:35:30,080 --> 00:35:32,240
 me, "Why Is that a typo? You made
 
-909
+910
 00:35:32,240 --> 00:35:34,000
 the I in KERI red." I said, "No, I'm
 
-910
+911
 00:35:34,000 --> 00:35:35,920
 trying to emphasize that I stands for
 
-911
+912
 00:35:35,920 --> 00:35:37,400
 infrastructure."
 
-912
+913
 00:35:37,400 --> 00:35:38,680
 KERI doesn't exist without
 
-913
+914
 00:35:38,680 --> 00:35:40,640
 infrastructure. It's not a system that
 
-914
+915
 00:35:40,640 --> 00:35:42,720
 works without infrastructure. And if you
 
-915
+916
 00:35:42,720 --> 00:35:44,440
 don't have infrastructure, people can't
 
-916
+917
 00:35:44,440 --> 00:35:47,400
 adopt it. They can't practically use it
 
-917
+918
 00:35:47,400 --> 00:35:48,560
 because nobody wants to build their own
 
-918
+919
 00:35:48,560 --> 00:35:50,920
 infrastructure.
 
-919
+920
 00:35:50,920 --> 00:35:52,200
 So,
 
-920
+921
 00:35:52,200 --> 00:35:55,040
 KERI is a decentralized key management
 
-921
+922
 00:35:55,040 --> 00:35:56,640
 infrastructure.
 
-922
+923
 00:35:56,640 --> 00:35:59,000
 Right? It's It was designed to be web
 
-923
+924
 00:35:59,000 --> 00:36:00,200
 scalable
 
-924
+925
 00:36:00,200 --> 00:36:03,280
 so that we get an ultra low cost floor.
 
-925
+926
 00:36:03,280 --> 00:36:05,720
 Right? That's why blockchain ledgers
 
-926
+927
 00:36:05,720 --> 00:36:07,120
 weren't weren't
 
-927
+928
 00:36:07,120 --> 00:36:10,480
 you know, were a problem.
 
-928
+929
 00:36:10,480 --> 00:36:12,440
 The idea is
 
-929
+930
 00:36:12,440 --> 00:36:14,880
 and I spent time working for I spent
 
-930
+931
 00:36:14,880 --> 00:36:16,800
 time working in the
 
-931
+932
 00:36:16,800 --> 00:36:18,560
 blockchain world. I think there was
 
-932
+933
 00:36:18,560 --> 00:36:20,360
 somebody here from the Wyoming
 
-933
+934
 00:36:20,360 --> 00:36:21,960
 delegation yesterday that used to work
 
-934
+935
 00:36:21,960 --> 00:36:24,000
 for Consensus Networks when I worked for him.
 
-935
+936
 00:36:24,000 --> 00:36:25,920
 But he had a beard and you know, had a
 
-936
+937
 00:36:25,920 --> 00:36:27,320
 different lifestyle. He was all
 
-937
+938
 00:36:27,320 --> 00:36:29,080
 clean-shaven and had a suit on and I
 
-938
+939
 00:36:29,080 --> 00:36:30,440
 didn't recognize him and he said, "No,
 
-939
+940
 00:36:30,440 --> 00:36:32,600
 it's me, really. We work together." And
 
-940
+941
 00:36:32,600 --> 00:36:33,960
 I go, "Oh."
 
-941
+942
 00:36:33,960 --> 00:36:36,440
 You know, it took me a minute. But,
 
-942
+943
 00:36:36,440 --> 00:36:38,200
 and
 
-943
+944
 00:36:38,200 --> 00:36:41,320
 But, the idea is tokenomics. You build
 
-944
+945
 00:36:41,320 --> 00:36:43,560
 incentives into the governance structure
 
-945
+946
 00:36:43,560 --> 00:36:46,560
 so that people work together to build to
 
-946
+947
 00:36:46,560 --> 00:36:48,560
 to make your infrastructure alive.
 
-947
+948
 00:36:48,560 --> 00:36:50,200
 Another word term for that is a
 
-948
+949
 00:36:50,200 --> 00:36:52,200
 cooperative model. You can be in
 
-949
+950
 00:36:52,200 --> 00:36:54,000
 competition. You can make money.
 
-950
+951
 00:36:54,000 --> 00:36:56,000
 Everybody's making money.
 
-951
+952
 00:36:56,000 --> 00:36:59,040
 But, they're helping everybody else out
 
-952
+953
 00:36:59,040 --> 00:37:00,560
 to build the infrastructure that makes
 
-953
+954
 00:37:00,560 --> 00:37:02,520
 it all possible for everybody. And
 
-954
+955
 00:37:02,520 --> 00:37:04,800
 that's the idea.
 
-955
+956
 00:37:04,800 --> 00:37:07,640
 So, we want to incentivize multiple
 
-956
+957
 00:37:07,640 --> 00:37:08,840
 vendors.
 
-957
+958
 00:37:08,840 --> 00:37:10,960
 No single vendor lock-in. We don't want
 
-958
+959
 00:37:10,960 --> 00:37:15,030
 that. That's bad for KERI.
 
-959
+960
 00:37:16,510 --> 00:37:16,520
 
 
-960
+961
 00:37:16,520 --> 00:37:19,950
 If you think about it,
 
-961
+962
 00:37:24,990 --> 00:37:28,080
 if you have pre-rotated private keys,
 you can and we have this in the code
 
-962
+963
 00:37:28,080 --> 00:37:29,960
 in the in the Keeper, you can
 
-963
+964
 00:37:29,960 --> 00:37:32,200
 reconstruct
 
-964
+965
 00:37:32,200 --> 00:37:34,080
 all of your keys if you're using HD
 
-965
+966
 00:37:34,080 --> 00:37:37,720
 keychain from any copy of your KEL
 
-966
+967
 00:37:37,720 --> 00:37:40,400
 because the HD path is in the KEL. It's
 
-967
+968
 00:37:40,400 --> 00:37:42,560
 the sequence number and the offset into
 
-968
+969
 00:37:42,560 --> 00:37:44,640
 the into the key list. You don't need
 
-969
+970
 00:37:44,640 --> 00:37:46,560
 any other information. You actually
 
-970
+971
 00:37:46,560 --> 00:37:50,040
 don't have to worry about losing
 
-971
+972
 00:37:50,040 --> 00:37:52,440
 all of your information
 
-972
+973
 00:37:52,440 --> 00:37:55,680
 as long as one copy of one legitimate
 
-973
+974
 00:37:55,680 --> 00:37:57,640
 valid copy of a KEL exists somewhere in
 
-974
+975
 00:37:57,640 --> 00:37:59,400
 the world, you could reconstitute
 
-975
+976
 00:37:59,400 --> 00:38:00,360
 it.
 
-976
+977
 00:38:00,360 --> 00:38:02,800
 We don't want wallet vendor lock-in.
 
-977
+978
 00:38:02,800 --> 00:38:04,600
 We want multiple wallets. So, we now
 
-978
+979
 00:38:04,600 --> 00:38:06,920
 have several wallets that are now open
 
-979
+980
 00:38:06,920 --> 00:38:09,720
 source and we're going to demo
 
-980
+981
 00:38:09,720 --> 00:38:11,160
 open source stuff. So, the KERI
 
-981
+982
 00:38:11,160 --> 00:38:14,000
 Foundation team, like they've they've
 
-982
+983
 00:38:14,000 --> 00:38:16,560
 only been doing this since January, but
 
-983
+984
 00:38:16,560 --> 00:38:18,400
 so you know, you can ask them whether
 
-984
+985
 00:38:18,400 --> 00:38:20,800
 whether it was hurting their brain to
 
-985
+986
 00:38:20,800 --> 00:38:23,160
 try to learn KERI in 3 months, but you
 
-986
+987
 00:38:23,160 --> 00:38:23,840
 know
 
-987
+988
 00:38:23,840 --> 00:38:26,870
 Some of them had a had a head start.
 
-988
+989
 00:38:26,870 --> 00:38:26,880
 
 
-989
+990
 00:38:26,880 --> 00:38:29,960
 but
 so we've added another wallet. We've
 
-990
+991
 00:38:29,960 --> 00:38:32,520
 got a mobile wallet.
 
-991
+992
 00:38:32,520 --> 00:38:35,000
 You'll see some talks today about
 
-992
+993
 00:38:35,000 --> 00:38:37,280
 you'll see some talks today about
 People that are building wallets and
 
-993
+994
 00:38:37,280 --> 00:38:39,800
 and infrastructure for KERI so that
 
-994
+995
 00:38:39,800 --> 00:38:42,080
 we have multiple vendors because
 
-995
+996
 00:38:42,080 --> 00:38:44,240
 adoption requires multiple vendors. No
 
-996
+997
 00:38:44,240 --> 00:38:47,480
 no big adoption wants to have a
 
-997
+998
 00:38:47,480 --> 00:38:49,880
 single source of the technology. They
 
-998
+999
 00:38:49,880 --> 00:38:51,200
 want to see they want to see multiple
 
-999
+1000
 00:38:51,200 --> 00:38:54,470
 vendors.
 
-1000
+1001
 00:38:54,470 --> 00:38:54,480
 
 
-1001
+1002
 00:38:54,480 --> 00:39:00,000
 we have in KERI the concept of non-
 non-cooperative key custodianship.
 
-1002
+1003
 00:39:00,000 --> 00:39:03,240
 You can have key custodians that
 
-1003
+1004
 00:39:03,240 --> 00:39:05,480
 are custodians of your signing keys.
 
-1004
+1005
 00:39:05,480 --> 00:39:09,360
 They can have the keys.
 
-1005
+1006
 00:39:09,360 --> 00:39:12,720
 And they can go away. They can hate you.
 
-1006
+1007
 00:39:12,720 --> 00:39:15,480
 They can lose them. And you can still
 
-1007
+1008
 00:39:15,480 --> 00:39:16,840
 reconstitute control over your
 
-1008
+1009
 00:39:16,840 --> 00:39:18,040
 identifier
 
-1009
+1010
 00:39:18,040 --> 00:39:20,360
 because you just have to retain your
 
-1010
+1011
 00:39:20,360 --> 00:39:23,240
 pre-rotated private keys.
 
-1011
+1012
 00:39:23,240 --> 00:39:26,040
 And so the major friction
 
-1012
+1013
 00:39:26,040 --> 00:39:28,520
 of people managing their keys and
 
-1013
+1014
 00:39:28,520 --> 00:39:30,840
 managing their signing infrastructure,
 
-1014
+1015
 00:39:30,840 --> 00:39:32,160
 you can
 
-1015
+1016
 00:39:32,160 --> 00:39:33,880
 rent out.
 
-1016
+1017
 00:39:33,880 --> 00:39:36,680
 But you're not locked in because at any
 
-1017
+1018
 00:39:36,680 --> 00:39:38,600
 moment in time you can pull your
 
-1018
+1019
 00:39:38,600 --> 00:39:40,640
 pre-rotated keys out of
 
-1019
+1020
 00:39:40,640 --> 00:39:42,960
 air gap cold storage, publish your
 
-1020
+1021
 00:39:42,960 --> 00:39:44,560
 rotation,
 
-1021
+1022
 00:39:44,560 --> 00:39:47,920
 sign IR to your custodian.
 
-1022
+1023
 00:39:47,920 --> 00:39:50,480
 And I think there have been
 
-1023
+1024
 00:39:50,480 --> 00:39:53,120
 lots of money lost in the blockchain
 
-1024
+1025
 00:39:53,120 --> 00:39:55,040
 world from
 
-1025
+1026
 00:39:55,040 --> 00:39:57,080
 key custodians who have What do they
 
-1026
+1027
 00:39:57,080 --> 00:39:59,640
 say? Not your keys,
 
-1027
+1028
 00:39:59,640 --> 00:40:02,200
 not your coin. Not true in KERI. Not
 
-1028
+1029
 00:40:02,200 --> 00:40:04,880
 your keys, still your identity.
 
-1029
+1030
 00:40:04,880 --> 00:40:08,462
 Not steal, still.
 
-1030
+1031
 00:40:08,462 --> 00:40:11,190
 [laughter]
 
-1031
+1032
 00:40:14,590 --> 00:40:17,120
 Users benefit from witness pools that
 have no common mode failure sources. So
 
-1032
+1033
 00:40:17,120 --> 00:40:18,720
 if your witnesses all come from the same
 
-1033
+1034
 00:40:18,720 --> 00:40:20,720
 vendor, the vendor is a common mode
 
-1034
+1035
 00:40:20,720 --> 00:40:23,120
 failure source. So, you really want to
 
-1035
+1036
 00:40:23,120 --> 00:40:25,640
 tell your customers,
 
-1036
+1037
 00:40:25,640 --> 00:40:28,400
 you know, have it have witnesses
 
-1037
+1038
 00:40:28,400 --> 00:40:31,120
 supported by multiple vendors.
 
-1038
+1039
 00:40:31,120 --> 00:40:35,080
 The watcher network, every watcher
 
-1039
+1040
 00:40:35,080 --> 00:40:36,960
 that wants that is an honest watcher
 
-1040
+1041
 00:40:36,960 --> 00:40:40,120
 benefits from other watchers sharing
 
-1041
+1042
 00:40:40,120 --> 00:40:42,280
 what they see in duplicity. So, so
 
-1042
+1043
 00:40:42,280 --> 00:40:44,320
 there's a huge incentive for watchers to
 
-1043
+1044
 00:40:44,320 --> 00:40:46,960
 cooperate.
 
-1044
+1045
 00:40:46,960 --> 00:40:49,680
 So, so what we're doing for what we're
 
-1045
+1046
 00:40:49,680 --> 00:40:52,360
 calling open infrastructure
 
-1046
+1047
 00:40:52,360 --> 00:40:54,440
 is the five Ws
 
-1047
+1048
 00:40:54,440 --> 00:40:56,880
 or one click KERI. The idea is people
 
-1048
+1049
 00:40:56,880 --> 00:40:58,720
 would come and say, "Okay, I want to use
 
-1049
+1050
 00:40:58,720 --> 00:41:01,680
 KERI. How do I do that?" Well,
 
-1050
+1051
 00:41:01,680 --> 00:41:03,310
 KERI. How do I do that?" Well
 
-1051
+1052
 00:41:03,310 --> 00:41:03,320
 
 
-1052
+1053
 00:41:03,320 --> 00:41:08,160
 come to some meetings,
 go read these repos, go do this, build a
 
-1053
+1054
 00:41:08,160 --> 00:41:09,600
 bunch of infrastructure, then you can
 
-1054
+1055
 00:41:09,600 --> 00:41:12,560
 use KERI. Right? I'm sure I see
 
-1055
+1056
 00:41:12,560 --> 00:41:14,320
 some people in here that have
 
-1056
+1057
 00:41:14,320 --> 00:41:16,680
 walked that path, right? That's not a
 
-1057
+1058
 00:41:16,680 --> 00:41:18,880
 really good story for adoption. So, the
 
-1058
+1059
 00:41:18,880 --> 00:41:20,360
 idea is
 
-1059
+1060
 00:41:20,360 --> 00:41:22,800
 we want to be able to tell somebody one
 
-1060
+1061
 00:41:22,800 --> 00:41:24,400
 click,
 
-1061
+1062
 00:41:24,400 --> 00:41:26,440
 it'll install KERI infrastructure for
 
-1062
+1063
 00:41:26,440 --> 00:41:27,680
 you. You got a wallet, you got
 
-1063
+1064
 00:41:27,680 --> 00:41:29,760
 witnesses, watchers, and now you can
 
-1064
+1065
 00:41:29,760 --> 00:41:31,360
 start to build stuff with it. So, that's
 
-1065
+1066
 00:41:31,360 --> 00:41:34,120
 the goal. So, the five Ws,
 
-1066
+1067
 00:41:34,120 --> 00:41:35,520
 wallet,
 
-1067
+1068
 00:41:35,520 --> 00:41:36,920
 witness,
 
-1068
+1069
 00:41:36,920 --> 00:41:38,280
 watcher,
 
-1069
+1070
 00:41:38,280 --> 00:41:39,600
 web,
 
-1070
+1071
 00:41:39,600 --> 00:41:41,480
 so it's all on the web,
 
-1071
+1072
 00:41:41,480 --> 00:41:43,560
 and wizard. And what wizard is the
 
-1072
+1073
 00:41:43,560 --> 00:41:46,840
 catch-all term. We want user interfaces
 
-1073
+1074
 00:41:46,840 --> 00:41:48,560
 that hide the complexity of key
 
-1074
+1075
 00:41:48,560 --> 00:41:50,520
 management from the users.
 
-1075
+1076
 00:41:50,520 --> 00:41:52,440
 And KERI gives you the ability to do
 
-1076
+1077
 00:41:52,440 --> 00:41:54,000
 that. I mentioned some things that KERI
 
-1077
+1078
 00:41:54,000 --> 00:41:56,200
 has built in that allow you to do that.
 
-1078
+1079
 00:41:56,200 --> 00:41:58,520
 People building user interfaces need to
 
-1079
+1080
 00:41:58,520 --> 00:42:01,320
 understand those so they can build user
 
-1080
+1081
 00:42:01,320 --> 00:42:03,320
 interfaces to take advantage that. The
 
-1081
+1082
 00:42:03,320 --> 00:42:07,000
 other wizard is agents.
 
-1082
+1083
 00:42:07,000 --> 00:42:10,040
 You want You want interfaces to a agentic
 
-1083
+1084
 00:42:10,040 --> 00:42:12,120
 AI, and you want to control those
 
-1084
+1085
 00:42:12,120 --> 00:42:13,680
 interfaces, you want to use KERI to do
 
-1085
+1086
 00:42:13,680 --> 00:42:15,280
 it.
 
-1086
+1087
 00:42:15,280 --> 00:42:16,880
 So, this is what KERI infrastructure
 
-1087
+1088
 00:42:16,880 --> 00:42:18,280
 looks like.
 
-1088
+1089
 00:42:18,280 --> 00:42:21,400
 We've got a wallet on one side. Whoops,
 
-1089
+1090
 00:42:21,400 --> 00:42:24,950
 go back.
 
-1090
+1091
 00:42:26,750 --> 00:42:30,990
 And now I got to go Yeah, got to go
 through those. Sorry.
 
-1091
+1092
 00:42:44,830 --> 00:42:47,080
 So, we have entity A has a wallet.
 Entity B has a wallet.
 
-1092
+1093
 00:42:47,080 --> 00:42:48,920
 Entity A has their witnesses they
 
-1093
+1094
 00:42:48,920 --> 00:42:50,760
 control. They have watchers they
 
-1094
+1095
 00:42:50,760 --> 00:42:53,440
 control. Entity B has witnesses they
 
-1095
+1096
 00:42:53,440 --> 00:42:55,800
 control, watchers they control. There's
 
-1096
+1097
 00:42:55,800 --> 00:42:58,400
 a shared watcher network. And now entity
 
-1097
+1098
 00:42:58,400 --> 00:43:00,520
 A and entity B
 
-1098
+1099
 00:43:00,520 --> 00:43:02,920
 can communicate
 
-1099
+1100
 00:43:02,920 --> 00:43:05,400
 authentically.
 
-1100
+1101
 00:43:05,400 --> 00:43:07,560
 But, they can't do it without
 
-1101
+1102
 00:43:07,560 --> 00:43:12,350
 the watcher network and the witnesses.
 
-1102
+1103
 00:43:15,390 --> 00:43:17,120
 Now I can move on.
 This is
 
-1103
+1104
 00:43:17,120 --> 00:43:19,680
 early screenshots from
 
-1104
+1105
 00:43:19,680 --> 00:43:22,640
 Mobile wallet that
 
-1105
+1106
 00:43:22,640 --> 00:43:24,480
 that we've that we've that you'll see
 
-1106
+1107
 00:43:24,480 --> 00:43:26,720
 demos today. So, you'll If you look at
 
-1107
+1108
 00:43:26,720 --> 00:43:28,840
 the sessions, KERI Foundation team is
 
-1108
+1109
 00:43:28,840 --> 00:43:33,160
 doing demos of the KERI stuff.
 
-1109
+1110
 00:43:33,160 --> 00:43:36,400
 healthKERI had developed
 
-1110
+1111
 00:43:36,400 --> 00:43:39,590
 HealthKERI had developed
 Locksmith wallet
 
-1111
+1112
 00:43:39,590 --> 00:43:39,600
 
 
-1112
+1113
 00:43:39,600 --> 00:43:46,400
 watcher watchers and witnesses
 for their proprietary products. And
 
-1113
+1114
 00:43:46,400 --> 00:43:48,600
 earlier this year, they donated those to
 
-1114
+1115
 00:43:48,600 --> 00:43:50,360
 the KERI Foundation and allowed us to
 
-1115
+1116
 00:43:50,360 --> 00:43:53,200
 debrand them and rebrand them so that
 
-1116
+1117
 00:43:53,200 --> 00:43:56,200
 everybody that wants to build can build
 
-1117
+1118
 00:43:56,200 --> 00:43:58,840
 on proven production quality
 
-1118
+1119
 00:43:58,840 --> 00:44:00,920
 infrastructure. And we're hosting those
 
-1119
+1120
 00:44:00,920 --> 00:44:04,080
 repos and we have spun up we're we'll
 
-1120
+1121
 00:44:04,080 --> 00:44:06,640
 we'll be providing some
 
-1121
+1122
 00:44:06,640 --> 00:44:08,200
 some
 
-1122
+1123
 00:44:08,200 --> 00:44:10,440
 witness and watcher networks on our own
 
-1123
+1124
 00:44:10,440 --> 00:44:12,800
 servers so that people that want to test
 
-1124
+1125
 00:44:12,800 --> 00:44:14,760
 it out can test it out running in the
 
-1125
+1126
 00:44:14,760 --> 00:44:17,760
 cloud. So, that's that's one of the big
 
-1126
+1127
 00:44:17,760 --> 00:44:20,160
 things that we're doing for the
 
-1127
+1128
 00:44:20,160 --> 00:44:22,640
 community and
 
-1128
+1129
 00:44:22,640 --> 00:44:26,535
 and I hope that makes a difference.
 
-1129
+1130
 00:44:26,535 --> 00:44:31,990
 [applause]
 
-1130
+1131
 00:44:33,590 --> 00:44:35,080
 There's two other pieces of
 infrastructure
 
-1131
+1132
 00:44:35,080 --> 00:44:36,880
 that are new
 
-1132
+1133
 00:44:36,880 --> 00:44:39,480
 That we're building this year.
 
-1133
+1134
 00:44:39,480 --> 00:44:42,160
 Registrar and Observer. And the reason
 
-1134
+1135
 00:44:42,160 --> 00:44:45,520
 these are important is that
 
-1135
+1136
 00:44:45,520 --> 00:44:49,720
 they are how we do this concept what I
 
-1136
+1137
 00:44:49,720 --> 00:44:51,640
 call
 
-1137
+1138
 00:44:51,640 --> 00:44:54,240
 control over context.
 
-1138
+1139
 00:44:54,240 --> 00:44:58,040
 So, I have issuances like SEDI
 
-1139
+1140
 00:44:58,040 --> 00:44:59,480
 issuances.
 
-1140
+1141
 00:44:59,480 --> 00:45:01,200
 They're ACDCs
 
-1141
+1142
 00:45:01,200 --> 00:45:03,720
 and you have a registrar
 
-1142
+1143
 00:45:03,720 --> 00:45:06,920
 and registries for like revocation.
 
-1143
+1144
 00:45:06,920 --> 00:45:09,280
 And you have observers they get bulk
 
-1144
+1145
 00:45:09,280 --> 00:45:11,040
 updates. The key here is the bulk
 
-1145
+1146
 00:45:11,040 --> 00:45:14,200
 update. Bulk update means that the
 
-1146
+1147
 00:45:14,200 --> 00:45:16,710
 observer
 
-1147
+1148
 00:45:19,950 --> 00:45:23,120
 and the issuer
 can't correlate back to the point of
 
-1148
+1149
 00:45:23,120 --> 00:45:24,680
 validation
 
-1149
+1150
 00:45:24,680 --> 00:45:26,960
 because that's the point of use the
 
-1150
+1151
 00:45:26,960 --> 00:45:29,040
 observer sees it
 
-1151
+1152
 00:45:29,040 --> 00:45:32,640
 but a change in state by the issuer
 
-1152
+1153
 00:45:32,640 --> 00:45:35,280
 can't be correlated forward because of
 
-1153
+1154
 00:45:35,280 --> 00:45:38,120
 the bulk update and the observer's
 
-1154
+1155
 00:45:38,120 --> 00:45:42,360
 not allowed and doesn't need
 
-1155
+1156
 00:45:42,360 --> 00:45:44,480
 to communicate to the issuer because
 
-1156
+1157
 00:45:44,480 --> 00:45:46,240
 they get a an update of all the
 
-1157
+1158
 00:45:46,240 --> 00:45:48,120
 information that they need to do
 
-1158
+1159
 00:45:48,120 --> 00:45:50,480
 verification. So, so the verification
 
-1159
+1160
 00:45:50,480 --> 00:45:54,800
 happens at the observer and the
 
-1160
+1161
 00:45:54,800 --> 00:45:56,280
 and the observer
 
-1161
+1162
 00:45:56,280 --> 00:45:59,720
 And observers can't collude
 
-1162
+1163
 00:45:59,720 --> 00:46:02,000
 between each others if you're using
 
-1163
+1164
 00:46:02,000 --> 00:46:03,920
 bulk issued credentials. So, we'll talk
 
-1164
+1165
 00:46:03,920 --> 00:46:07,280
 more detail about that.
 
-1165
+1166
 00:46:07,280 --> 00:46:10,480
 So, this enables bulk issuance. It takes
 
-1166
+1167
 00:46:10,480 --> 00:46:13,000
 advantage of sparse Merkle trees.
 
-1167
+1168
 00:46:13,000 --> 00:46:14,720
 And so, that's some new
 
-1168
+1169
 00:46:14,720 --> 00:46:17,680
 infrastructure. Another new
 
-1169
+1170
 00:46:17,680 --> 00:46:20,000
 Use case, and these are in the spec.
 
-1170
+1171
 00:46:20,000 --> 00:46:22,480
 These are in the ACDC spec, are things
 
-1171
+1172
 00:46:22,480 --> 00:46:25,200
 called a user presentation registry.
 
-1172
+1173
 00:46:25,200 --> 00:46:27,400
 So, one of the challenges
 
-1173
+1174
 00:46:27,400 --> 00:46:30,240
 in verifiable credential world is that
 
-1174
+1175
 00:46:30,240 --> 00:46:32,200
 if I have a proof
 
-1175
+1176
 00:46:32,200 --> 00:46:34,720
 that a holder has that they that they're
 
-1176
+1177
 00:46:34,720 --> 00:46:36,800
 the subject or the holder of a
 
-1177
+1178
 00:46:36,800 --> 00:46:38,280
 credential,
 
-1178
+1179
 00:46:38,280 --> 00:46:40,080
 and that proof gets stolen, and they
 
-1179
+1180
 00:46:40,080 --> 00:46:43,080
 steal the user's keys, then that user
 
-1180
+1181
 00:46:43,080 --> 00:46:44,240
 can be impersonated, and they can
 
-1181
+1182
 00:46:44,240 --> 00:46:45,720
 present that credential, and the user
 
-1182
+1183
 00:46:45,720 --> 00:46:47,680
 can't know that's happening or
 
-1183
+1184
 00:46:47,680 --> 00:46:49,880
 doesn't have any way to know it. But, we
 
-1184
+1185
 00:46:49,880 --> 00:46:52,760
 can use the same Whoops.
 
-1185
+1186
 00:46:52,760 --> 00:46:57,990
 Go back.
 
-1186
+1187
 00:47:00,870 --> 00:47:03,800
 We can use the same
 registrar mechanism
 
-1187
+1188
 00:47:03,800 --> 00:47:07,040
 so that a user in the ACDC, when they
 
-1188
+1189
 00:47:07,040 --> 00:47:09,160
 get it issued, can
 
-1189
+1190
 00:47:09,160 --> 00:47:10,920
 designate
 
-1190
+1191
 00:47:10,920 --> 00:47:14,600
 that they their own registry
 
-1191
+1192
 00:47:14,600 --> 00:47:17,120
 Is going to is going to keep track of
 
-1192
+1193
 00:47:17,120 --> 00:47:19,960
 blinded presentations.
 
-1193
+1194
 00:47:19,960 --> 00:47:22,400
 And that means that a verifier won't be
 
-1194
+1195
 00:47:22,400 --> 00:47:25,880
 able to verify the presentation unless
 
-1195
+1196
 00:47:25,880 --> 00:47:28,600
 the presentation itself is anchored
 
-1196
+1197
 00:47:28,600 --> 00:47:30,480
 in the in the registry. And this is all
 
-1197
+1198
 00:47:30,480 --> 00:47:32,560
 blinded so that it's not correlatable
 
-1198
+1199
 00:47:32,560 --> 00:47:34,760
 presentation to presentation. But, that
 
-1199
+1200
 00:47:34,760 --> 00:47:35,960
 means that
 
-1200
+1201
 00:47:35,960 --> 00:47:38,800
 that issuees or users
 
-1201
+1202
 00:47:38,800 --> 00:47:42,080
 that want to be ultra secure
 
-1202
+1203
 00:47:42,080 --> 00:47:44,880
 can have fault-tolerant detection of
 
-1203
+1204
 00:47:44,880 --> 00:47:47,720
 compromise of their keys with regard to
 
-1204
+1205
 00:47:47,720 --> 00:47:50,640
 their own credentials. And they'll
 
-1205
+1206
 00:47:50,640 --> 00:47:52,520
 know, just like
 
-1206
+1207
 00:47:52,520 --> 00:47:55,040
 you know that your keys for your KEL
 
-1207
+1208
 00:47:55,040 --> 00:47:56,720
 been compromised because you can watch
 
-1208
+1209
 00:47:56,720 --> 00:47:58,960
 your own witnesses. You can watch your
 
-1209
+1210
 00:47:58,960 --> 00:48:01,000
 own registry to see that somebody else
 
-1210
+1211
 00:48:01,000 --> 00:48:03,440
 is presenting your credentials
 
-1211
+1212
 00:48:03,440 --> 00:48:06,040
 and you didn't do it. And so now
 
-1212
+1213
 00:48:06,040 --> 00:48:08,800
 now you can take
 
-1213
+1214
 00:48:08,800 --> 00:48:11,160
 recovery action.
 
-1214
+1215
 00:48:11,160 --> 00:48:13,960
 So, what is KERI really? Right?
 
-1215
+1216
 00:48:13,960 --> 00:48:16,080
 Well, you've heard the phrase Keys at
 
-1216
+1217
 00:48:16,080 --> 00:48:19,270
 the Edge.
 
-1217
+1218
 00:48:21,310 --> 00:48:24,360
 Security First, Always.
 Anybody who's come to the user the
 
-1218
+1219
 00:48:24,360 --> 00:48:26,480
 Minimally Sufficient Means. These are
 
-1219
+1220
 00:48:26,480 --> 00:48:30,040
 mottos, phrases, Signed Everything. Sort
 
-1220
+1221
 00:48:30,040 --> 00:48:33,240
 of ways to look at the elephant from the
 
-1221
+1222
 00:48:33,240 --> 00:48:36,200
 multiple blind men.
 
-1222
+1223
 00:48:36,200 --> 00:48:38,040
 Right? So, all of these are features of
 
-1223
+1224
 00:48:38,040 --> 00:48:41,880
 KERI, but if you only
 
-1224
+1225
 00:48:41,880 --> 00:48:44,400
 thought of it as any one of these,
 
-1225
+1226
 00:48:44,400 --> 00:48:46,600
 it wouldn't be KERI.
 
-1226
+1227
 00:48:46,600 --> 00:48:48,760
 And lots of people have copied parts of
 
-1227
+1228
 00:48:48,760 --> 00:48:50,720
 KERI,
 
-1228
+1229
 00:48:50,720 --> 00:48:52,960
 but they've but not all of KERI. And if
 
-1229
+1230
 00:48:52,960 --> 00:48:54,720
 you don't have all of KERI,
 
-1230
+1231
 00:48:54,720 --> 00:48:56,040
 I guarantee you there are
 
-1231
+1232
 00:48:56,040 --> 00:48:57,840
 vulnerabilities that you'll be
 
-1232
+1233
 00:48:57,840 --> 00:48:59,880
 exposed to.
 
-1233
+1234
 00:48:59,880 --> 00:49:02,550
 So,
 
-1234
+1235
 00:49:05,110 --> 00:49:08,400
 heard a lot about that yesterday.
 So, no more half measures, guys. It's
 
-1235
+1236
 00:49:08,400 --> 00:49:10,808
 It's all KERI or no KERI.
 
-1236
+1237
 00:49:10,808 --> 00:49:12,240
 [laughter]
 
-1237
+1238
 00:49:12,240 --> 00:49:15,680
 All right? So, what So, KERI is
 
-1238
+1239
 00:49:15,680 --> 00:49:17,640
 truly an identity revolution. There are
 
-1239
+1240
 00:49:17,640 --> 00:49:19,440
 concepts in KERI that don't exist
 
-1240
+1241
 00:49:19,440 --> 00:49:22,280
 anywhere else in the world in identity.
 
-1241
+1242
 00:49:22,280 --> 00:49:24,960
 And I'm going to give you a short I
 
-1242
+1243
 00:49:24,960 --> 00:49:27,720
 love creating acronyms because
 
-1243
+1244
 00:49:27,720 --> 00:49:30,240
 I'm old and if I don't have a mnemonic,
 
-1244
+1245
 00:49:30,240 --> 00:49:31,880
 I won't remember what I thought of
 
-1245
+1246
 00:49:31,880 --> 00:49:33,960
 yesterday. So, this is how I remember
 
-1246
+1247
 00:49:33,960 --> 00:49:35,840
 what I think from day to day.
 
-1247
+1248
 00:49:35,840 --> 00:49:38,840
 Reputable Autonomic Pseudonymity. That
 
-1248
+1249
 00:49:38,840 --> 00:49:41,840
 That encapsulates KERI in the smallest
 
-1249
+1250
 00:49:41,840 --> 00:49:45,200
 set of words. Right? An identifier's
 
-1250
+1251
 00:49:45,200 --> 00:49:46,480
 a pseudonym.
 
-1251
+1252
 00:49:46,480 --> 00:49:48,320
 Is an autonomic pseudonym. What does
 
-1252
+1253
 00:49:48,320 --> 00:49:50,280
 autonomic mean? Well, all of the
 
-1253
+1254
 00:49:50,280 --> 00:49:53,600
 features of true individual control
 
-1254
+1255
 00:49:53,600 --> 00:49:55,360
 over you know autonomic means self
 
-1255
+1256
 00:49:55,360 --> 00:49:57,480
 governing individual control over your
 
-1256
+1257
 00:49:57,480 --> 00:49:59,160
 identifier that's secure that's
 
-1257
+1258
 00:49:59,160 --> 00:50:01,240
 persistent that's perpetual all of those
 
-1258
+1259
 00:50:01,240 --> 00:50:04,120
 things right and reputable
 
-1259
+1260
 00:50:04,120 --> 00:50:06,520
 means it doesn't go away.
 
-1260
+1261
 00:50:06,520 --> 00:50:08,080
 There's something to stick to a
 
-1261
+1262
 00:50:08,080 --> 00:50:10,000
 reputation isn't good unless it sticks
 
-1262
+1263
 00:50:10,000 --> 00:50:11,800
 to something it has to stick to an
 
-1263
+1264
 00:50:11,800 --> 00:50:15,440
 identity right? And then the other
 
-1264
+1265
 00:50:15,440 --> 00:50:18,360
 mnemonic Control over Confidential
 
-1265
+1266
 00:50:18,360 --> 00:50:20,600
 Context in which you use your identity.
 
-1266
+1267
 00:50:20,600 --> 00:50:22,920
 You want to control the context that you
 
-1267
+1268
 00:50:22,920 --> 00:50:24,880
 use the identity and that means that you
 
-1268
+1269
 00:50:24,880 --> 00:50:27,520
 want the context to be confidential. Now
 
-1269
+1270
 00:50:27,520 --> 00:50:29,200
 in the dictionary there are 20
 
-1270
+1271
 00:50:29,200 --> 00:50:31,640
 definitions of the word privacy
 
-1271
+1272
 00:50:31,640 --> 00:50:34,080
 or private.
 
-1272
+1273
 00:50:34,080 --> 00:50:36,800
 About a third of them are synonymous
 
-1273
+1274
 00:50:36,800 --> 00:50:38,480
 with confidential.
 
-1274
+1275
 00:50:38,480 --> 00:50:40,480
 So when I say I'm sharing a secret with
 
-1275
+1276
 00:50:40,480 --> 00:50:42,080
 you and I say it's just private between
 
-1276
+1277
 00:50:42,080 --> 00:50:43,760
 us right?
 
-1277
+1278
 00:50:43,760 --> 00:50:45,720
 That's not private that's confidential
 
-1278
+1279
 00:50:45,720 --> 00:50:46,720
 right?
 
-1279
+1280
 00:50:46,720 --> 00:50:48,280
 Because there's other meanings of the
 
-1280
+1281
 00:50:48,280 --> 00:50:50,320
 word private that don't mean that.
 
-1281
+1282
 00:50:50,320 --> 00:50:53,680
 The core private word means
 
-1282
+1283
 00:50:53,680 --> 00:50:57,560
 intimate means only you know it.
 
-1283
+1284
 00:50:57,560 --> 00:51:01,480
 Right? So a private key is never shared.
 
-1284
+1285
 00:51:01,480 --> 00:51:04,000
 A shared secret isn't private.
 
-1285
+1286
 00:51:04,000 --> 00:51:06,440
 Shared data over the internet is never
 
-1286
+1287
 00:51:06,440 --> 00:51:08,360
 private in that meaning of the word
 
-1287
+1288
 00:51:08,360 --> 00:51:10,440
 private but it could be confidential.
 
-1288
+1289
 00:51:10,440 --> 00:51:11,960
 You could make the information
 
-1289
+1290
 00:51:11,960 --> 00:51:13,200
 confidential.
 
-1290
+1291
 00:51:13,200 --> 00:51:14,920
 So if you're going to interact with
 
-1291
+1292
 00:51:14,920 --> 00:51:16,400
 people you want to interact in
 
-1292
+1293
 00:51:16,400 --> 00:51:18,320
 confidential context and so you want to
 
-1293
+1294
 00:51:18,320 --> 00:51:20,680
 make those contacts you want to have
 
-1294
+1295
 00:51:20,680 --> 00:51:22,720
 control over that confidentiality. That
 
-1295
+1296
 00:51:22,720 --> 00:51:25,000
 means control over what you disclose
 
-1296
+1297
 00:51:25,000 --> 00:51:26,600
 control over what they do with it once
 
-1297
+1298
 00:51:26,600 --> 00:51:29,000
 you disclose it to them.
 
-1298
+1299
 00:51:29,000 --> 00:51:30,040
 So
 
-1299
+1300
 00:51:30,040 --> 00:51:33,120
 So here's the thing RAP-C3
 
-1300
+1301
 00:51:33,120 --> 00:51:35,280
 and if you say it really fast
 
-1301
+1302
 00:51:35,280 --> 00:51:39,485
 it's a rhapsody and that's KERI.
 
-1302
+1303
 00:51:46,035 --> 00:51:46,045
 That's it.
 
-1303
+1304
 00:51:55,350 --> 00:51:57,400
 And we have a minute for questions.
 Yes. I think it'd be useful to explain
 
-1304
+1305
 00:51:57,400 --> 00:51:58,840
 the difference between watchers and
 
-1305
+1306
 00:51:58,840 --> 00:52:00,520
 observers.
 
-1306
+1307
 00:52:00,520 --> 00:52:03,320
 So, watchers watch
 
-1307
+1308
 00:52:03,320 --> 00:52:05,920
 the KEL. That's all they watch. They're
 
-1308
+1309
 00:52:05,920 --> 00:52:08,280
 looking for duplicity in your KEL.
 
-1309
+1310
 00:52:08,280 --> 00:52:11,360
 Observers are watching the state of
 
-1310
+1311
 00:52:11,360 --> 00:52:14,360
 issuances that are anchored to the KEL.
 
-1311
+1312
 00:52:14,360 --> 00:52:15,480
 So, KEL?
 
-1312
+1313
 00:52:15,480 --> 00:52:17,600
 Via the TEL. Yeah.
 
-1313
+1314
 00:52:17,600 --> 00:52:19,600
 So, it's a TEL observer. Yeah.
 
-1314
+1315
 00:52:19,600 --> 00:52:20,680
 Yeah.
 
-1315
+1316
 00:52:20,680 --> 00:52:23,440
 Why do they need to be separated?
 
-1316
+1317
 00:52:23,440 --> 00:52:25,600
 Well
 
-1317
+1318
 00:52:25,600 --> 00:52:28,120
 they're they have different purposes.
 
-1318
+1319
 00:52:28,120 --> 00:52:29,960
 So, separation of concerns means you
 
-1319
+1320
 00:52:29,960 --> 00:52:32,920
 design protocols so that everything has
 
-1320
+1321
 00:52:32,920 --> 00:52:35,560
 Yes, it's layered. So, it's a layer,
 
-1321
+1322
 00:52:35,560 --> 00:52:36,560
 right?
 
-1322
+1323
 00:52:36,560 --> 00:52:39,240
 They depend on watchers,
 
-1323
+1324
 00:52:39,240 --> 00:52:41,400
 but they aren't watchers.
 
-1324
+1325
 00:52:41,400 --> 00:52:42,640
 Any more que-
 
-1325
+1326
 00:52:42,640 --> 00:52:44,840
 I guess I guess we're out of time.
 
-1326
+1327
 00:52:44,840 --> 00:52:47,240
 No, one more?
 
-1327
+1328
 00:52:47,240 --> 00:52:49,320
 Four more minutes. Okay, I guess we
 
-1328
+1329
 00:52:49,320 --> 00:52:51,560
 we started a little bit late. More
 
-1329
+1330
 00:52:51,560 --> 00:52:55,470
 questions?
 
-1330
+1331
 00:52:58,190 --> 00:53:01,040
 Please be gentle. I'm Moises.
 Be gentle. I'm a newbie at KERI. So,
 
-1331
+1332
 00:53:01,040 --> 00:53:03,720
 be gentle. I'm a newbie at KERI. So,
 watchers witnesses. You are You
 
-1332
+1333
 00:53:03,720 --> 00:53:05,480
 mentioned the term
 
-1333
+1334
 00:53:05,480 --> 00:53:08,440
 KEL or TEL. Key event log.
 
-1334
+1335
 00:53:08,440 --> 00:53:11,960
 No, TEL. But TEL is transaction event
 
-1335
+1336
 00:53:11,960 --> 00:53:13,640
 log. So, but
 
-1336
+1337
 00:53:13,640 --> 00:53:15,960
 since there's an exchange of two parties
 
-1337
+1338
 00:53:15,960 --> 00:53:17,840
 of information and keys,
 
-1338
+1339
 00:53:17,840 --> 00:53:20,400
 how do the watchers attach to
 
-1339
+1340
 00:53:20,400 --> 00:53:23,640
 confidential a confidential transaction?
 
-1340
+1341
 00:53:23,640 --> 00:53:25,640
 Well, watchers aren't part of a
 
-1341
+1342
 00:53:25,640 --> 00:53:27,920
 confidential transaction. Your key event
 
-1342
+1343
 00:53:27,920 --> 00:53:29,600
 log is public.
 
-1343
+1344
 00:53:29,600 --> 00:53:31,120
 You're publishing your key state so
 
-1344
+1345
 00:53:31,120 --> 00:53:33,160
 everybody can verify
 
-1345
+1346
 00:53:33,160 --> 00:53:36,520
 Any attestation or assertion you make
 
-1346
+1347
 00:53:36,520 --> 00:53:39,080
 Relative to an identifier. And to do
 
-1347
+1348
 00:53:39,080 --> 00:53:42,320
 that, you sign the
 
-1348
+1349
 00:53:42,320 --> 00:53:44,400
 You sign things, and you have to verify
 
-1349
+1350
 00:53:44,400 --> 00:53:47,080
 the signatures, so you need to know the
 
-1350
+1351
 00:53:47,080 --> 00:53:48,880
 public key to verify the signature. So,
 
-1351
+1352
 00:53:48,880 --> 00:53:50,200
 the Key Event Log publishes your
 
-1352
+1353
 00:53:50,200 --> 00:53:52,920
 public key and then the witnesses and
 
-1353
+1354
 00:53:52,920 --> 00:53:54,600
 the watchers, the witnesses make the
 
-1354
+1355
 00:53:54,600 --> 00:53:57,520
 public key state highly available and
 
-1355
+1356
 00:53:57,520 --> 00:54:00,400
 also give you a detection mechanism.
 
-1356
+1357
 00:54:00,400 --> 00:54:02,480
 And if you were you at the SEDI
 
-1357
+1358
 00:54:02,480 --> 00:54:03,120
 summit?
 
-1358
+1359
 00:54:03,120 --> 00:54:05,400
 No. Oh, okay. So, one of the things that
 
-1359
+1360
 00:54:05,400 --> 00:54:06,960
 happens is that you want to be able
 
-1360
+1361
 00:54:06,960 --> 00:54:08,120
 to detect that your keys have been
 
-1361
+1362
 00:54:08,120 --> 00:54:10,040
 compromised. So, the witnesses are a
 
-1362
+1363
 00:54:10,040 --> 00:54:12,400
 detection mechanism. Because if somebody
 
-1363
+1364
 00:54:12,400 --> 00:54:16,440
 wants to publish something on your KEL,
 
-1364
+1365
 00:54:16,440 --> 00:54:17,960
 they have to get your witnesses to
 
-1365
+1366
 00:54:17,960 --> 00:54:20,560
 witness it, which means you get to see
 
-1366
+1367
 00:54:20,560 --> 00:54:22,760
 it because what the witnesses witness is
 
-1367
+1368
 00:54:22,760 --> 00:54:24,600
 public. And so, you can see that
 
-1368
+1369
 00:54:24,600 --> 00:54:26,800
 somebody's compromised your keys in
 
-1369
+1370
 00:54:26,800 --> 00:54:28,440
 order to publish to the witnesses. And
 
-1370
+1371
 00:54:28,440 --> 00:54:30,320
 then the watchers are watching the
 
-1371
+1372
 00:54:30,320 --> 00:54:31,720
 witnesses to make sure that the
 
-1372
+1373
 00:54:31,720 --> 00:54:33,960
 witnesses don't cheat.
 
-1373
+1374
 00:54:33,960 --> 00:54:35,920
 So, where is it published if not
 
-1374
+1375
 00:54:35,920 --> 00:54:37,600
 in ledger?
 
-1375
+1376
 00:54:37,600 --> 00:54:41,160
 W- Well, a KEL is a ledger. It is a
 
-1376
+1377
 00:54:41,160 --> 00:54:44,120
 micro ledger controlled by one
 
-1377
+1378
 00:54:44,120 --> 00:54:46,400
 identifier. So, it's not a shared ledger.
 
-1378
+1379
 00:54:46,400 --> 00:54:48,760
 It's not a shared ledger. It's a
 
-1379
+1380
 00:54:48,760 --> 00:54:50,920
 non-shared ledger. But, technically
 
-1380
+1381
 00:54:50,920 --> 00:54:52,320
 under the hood, it is a
 
-1381
+1382
 00:54:52,320 --> 00:54:54,480
 blockchain. Yeah.
 
-1382
+1383
 00:54:54,480 --> 00:54:56,200
 But, how is it made public? I guess
 
-1383
+1384
 00:54:56,200 --> 00:54:58,270
 that's my point.
 
-1384
+1385
 00:54:58,270 --> 00:54:58,280
 
 
-1385
+1386
 00:54:58,280 --> 00:55:00,880
 I probably can't answer that in this
 room. Okay.
 
-1386
+1387
 00:55:00,880 --> 00:55:02,680
 But, if you're here for the conference,
 
-1387
+1388
 00:55:02,680 --> 00:55:04,560
 you got 2 days of people who'll answer
 
-1388
+1389
 00:55:04,560 --> 00:55:05,880
 that for you.
 
-1389
+1390
 00:55:05,880 --> 00:55:07,680
 With that open-source infrastructure
 
-1390
+1391
 00:55:07,680 --> 00:55:08,640
 Okay.
 
-1391
+1392
 00:55:08,640 --> 00:55:11,000
 Yes, that's right.
 
-1392
+1393
 00:55:11,000 --> 00:55:13,720
 Okay, thank you. One more Yes. Yes.
 
-1393
+1394
 00:55:13,720 --> 00:55:16,800
 Maybe you'll answer this later, but
 
-1394
+1395
 00:55:16,800 --> 00:55:19,440
 witnesses are selected by the
 
-1395
+1396
 00:55:19,440 --> 00:55:19,960
 controller.
 
-1396
+1397
 00:55:19,960 --> 00:55:21,480
 controller, and then the watchers are
 
-1397
+1398
 00:55:21,480 --> 00:55:24,440
 selected by the verifiers. So, what's
 
-1398
+1399
 00:55:24,440 --> 00:55:28,000
 your vision of how a controller actually
 
-1399
+1400
 00:55:28,000 --> 00:55:30,080
 selects a witness?
 
-1400
+1401
 00:55:30,080 --> 00:55:32,880
 Usually they will hire They'll either
 
-1401
+1402
 00:55:32,880 --> 00:55:34,440
 If they're technically savvy, they'll
 
-1402
+1403
 00:55:34,440 --> 00:55:35,560
 spin up their own witness, but most
 
-1403
+1404
 00:55:35,560 --> 00:55:37,200
 people won't do that. They will just
 
-1404
+1405
 00:55:37,200 --> 00:55:39,120
 rent witnesses from witness services,
 
-1405
+1406
 00:55:39,120 --> 00:55:41,360
 just like you would rent
 
-1406
+1407
 00:55:41,360 --> 00:55:43,880
 a cloud host for your website.
 
-1407
+1408
 00:55:43,880 --> 00:55:46,960
 Okay, well, do you ever see individuals
 
-1408
+1409
 00:55:46,960 --> 00:55:48,080
 being
 
-1409
+1410
 00:55:48,080 --> 00:55:51,080
 Or employees being controllers, and
 
-1410
+1411
 00:55:51,080 --> 00:55:53,040
 would they have to go hire someone?
 
-1411
+1412
 00:55:53,040 --> 00:55:55,440
 the vLEI, if your work for company
 
-1412
+1413
 00:55:55,440 --> 00:55:58,480
 has a vLEI and you get issued, you know,
 
-1413
+1414
 00:55:58,480 --> 00:56:01,120
 an ECR and OR credential, you'll have a
 
-1414
+1415
 00:56:01,120 --> 00:56:03,600
 wallet and you'll you'll select
 
-1415
+1416
 00:56:03,600 --> 00:56:05,480
 you'll select witnesses that you
 
-1416
+1417
 00:56:05,480 --> 00:56:07,560
 probably your company spins up for their
 
-1417
+1418
 00:56:07,560 --> 00:56:09,040
 employees to use.
 
-1418
+1419
 00:56:09,040 --> 00:56:10,880
 Okay, and then at the individual level,
 
-1419
+1420
 00:56:10,880 --> 00:56:12,320
 do you ever see grandma having to go
 
-1420
+1421
 00:56:12,320 --> 00:56:13,920
 select a witness?
 
-1421
+1422
 00:56:13,920 --> 00:56:15,240
 And so, one of the things would one of
 
-1422
+1423
 00:56:15,240 --> 00:56:16,840
 the things the discussion that we've had
 
-1423
+1424
 00:56:16,840 --> 00:56:18,760
 with the state of Utah is how do you pay
 
-1424
+1425
 00:56:18,760 --> 00:56:20,720
 for disadvantaged populations to have
 
-1425
+1426
 00:56:20,720 --> 00:56:22,360
 infrastructure?
 
-1426
+1427
 00:56:22,360 --> 00:56:24,320
 And so, so there would be that would be
 
-1427
+1428
 00:56:24,320 --> 00:56:26,840
 an entitlement that somebody would
 
-1428
+1429
 00:56:26,840 --> 00:56:28,760
 pay for your infrastructure. But, it's
 
-1429
+1430
 00:56:28,760 --> 00:56:30,040
 going to be the cheapest form of
 
-1430
+1431
 00:56:30,040 --> 00:56:31,160
 infrastructure, which is web
 
-1431
+1432
 00:56:31,160 --> 00:56:33,240
 infrastructure, not really expensive
 
-1432
+1433
 00:56:33,240 --> 00:56:35,320
 blockchain infrastructure.
 
-1433
+1434
 00:56:35,320 --> 00:56:37,200
 Okay, yeah, I'm curious to know more
 
-1434
+1435
 00:56:37,200 --> 00:56:40,160
 about the transactional friction
 
-1435
+1436
 00:56:40,160 --> 00:56:42,400
 there or the just the friction
 
-1436
+1437
 00:56:42,400 --> 00:56:42,760
 there.
 
-1437
+1438
 00:56:42,760 --> 00:56:44,120
 a really good conversation to have
 
-1438
+1439
 00:56:44,120 --> 00:56:44,720
 because
 
-1439
+1440
 00:56:44,720 --> 00:56:45,600
 another conversation.
 
-1440
+1441
 00:56:45,600 --> 00:56:47,400
 Yeah.
 
-1441
+1442
 00:56:47,400 --> 00:56:49,640
 So, a real quick one on the registrar
 
-1442
+1443
 00:56:49,640 --> 00:56:52,360
 observer network, do you see benefit for
 
-1443
+1444
 00:56:52,360 --> 00:56:55,040
 the registrar putting or putting random
 
-1444
+1445
 00:56:55,040 --> 00:56:57,600
 noise into the stream so that they can't
 
-1445
+1446
 00:56:57,600 --> 00:56:59,760
 tell it's a correlatable event on a
 
-1446
+1447
 00:56:59,760 --> 00:57:03,920
 revocation? Absolutely. The blinded
 
-1447
+1448
 00:57:03,920 --> 00:57:07,040
 state TEL, which is the thing
 
-1448
+1449
 00:57:07,040 --> 00:57:09,400
 that we use, not the current
 
-1449
+1450
 00:57:09,400 --> 00:57:12,000
 version one is does not have that,
 
-1450
+1451
 00:57:12,000 --> 00:57:14,680
 allows you to do updates because they're
 
-1451
+1452
 00:57:14,680 --> 00:57:17,600
 blinded that don't change the state,
 
-1452
+1453
 00:57:17,600 --> 00:57:20,360
 they're just there to introduce
 
-1453
+1454
 00:57:20,360 --> 00:57:22,680
 to whiten the signal. So, you can as a
 
-1454
+1455
 00:57:22,680 --> 00:57:24,440
 registrar, you can whiten your signal.
 
-1455
+1456
 00:57:24,440 --> 00:57:27,920
 You can you can issue random updates to
 
-1456
+1457
 00:57:27,920 --> 00:57:30,080
 to registries that don't change the
 
-1457
+1458
 00:57:30,080 --> 00:57:32,720
 state. And so, that means that a state
 
-1458
+1459
 00:57:32,720 --> 00:57:34,200
 update doesn't necessarily mean the
 
-1459
+1460
 00:57:34,200 --> 00:57:35,920
 state changed. It just means you did a
 
-1460
+1461
 00:57:35,920 --> 00:57:38,240
 state update and most of them are and so
 
-1461
+1462
 00:57:38,240 --> 00:57:40,440
 you could create
 
-1462
+1463
 00:57:40,440 --> 00:57:43,040
 you could roll out 4 million
 
-1463
+1464
 00:57:43,040 --> 00:57:45,920
 registries for birth certificates
 
-1464
+1465
 00:57:45,920 --> 00:57:47,920
 and update them. And then when
 
-1465
+1466
 00:57:47,920 --> 00:57:50,240
 somebody's born, the fact that there's
 
-1466
+1467
 00:57:50,240 --> 00:57:52,120
 an update to a registry doesn't
 
-1467
+1468
 00:57:52,120 --> 00:57:53,600
 correlate to the fact that they were
 
-1468
+1469
 00:57:53,600 --> 00:57:56,440
 born and you then started using that
 
-1469
+1470
 00:57:56,440 --> 00:57:58,120
 registry for their for their birth
 
-1470
+1471
 00:57:58,120 --> 00:58:00,040
 certificate.
 
-1471
+1472
 00:58:00,040 --> 00:58:01,880
 Thank you very much, Sam.
 
-1472
+1473
 00:58:01,880 --> 00:58:05,400
 Time's out. Running out.
 
-1473
+1474
 00:58:05,400 --> 00:58:06,320
 Do you want to introduce the next
 
-1474
+1475
 00:58:06,320 --> 00:58:07,440
 speaker?
 
-1475
+1476
 00:58:07,440 --> 00:58:08,520
 Yes,
 
-1476
+1477
 00:58:08,520 --> 00:58:11,160
 that's Daniel.
 
-1477
+1478
 00:58:11,160 --> 00:58:12,600
 Do I need to I need to get to move my
 
-1478
+1479
 00:58:12,600 --> 00:58:15,775
 Please a big hand for Sam.
 
-1479
+1480
 00:58:15,775 --> 00:58:17,795
 [applause]
 
