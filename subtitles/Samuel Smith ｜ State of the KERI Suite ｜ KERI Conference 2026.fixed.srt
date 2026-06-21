@@ -12,7 +12,7 @@ van Cann. Right, the KERI
 
 4
 00:00:09,840 --> 00:00:12,240
-Foundation would not exist without him.
+Foundation (https://keri.foundation) would not exist without him.
 
 5
 00:00:12,240 --> 00:00:15,000
@@ -76,7 +76,7 @@ Get a t-shirt cuz there'll
 
 20
 00:00:50,000 --> 00:00:51,880
-never be another first ever KERI
+never be another first-ever KERI
 
 21
 00:00:51,880 --> 00:00:54,160
@@ -197,7 +197,7 @@ committee here today. So, so they've
 
 50
 00:01:59,520 --> 00:02:01,880
-been helpful. Karla and Nico and
+been helpful. Karla and Niko and
 
 51
 00:02:01,880 --> 00:02:04,510
@@ -260,7 +260,7 @@ verifiable voice protocol. And later
 
 65
 00:02:35,360 --> 00:02:37,840
-today you'll have a Daniel Hardman
+today you'll have Daniel Hardman
 
 66
 00:02:37,840 --> 00:02:39,440
@@ -349,12 +349,11 @@ more about what happened there.
 
 87
 00:03:32,480 --> 00:03:35,080
-And first ever annual KERI conference
+And first-ever annual KERI conference
 
 88
 00:03:35,080 --> 00:03:38,680
-and first ever annual KERI conference
-today. So, that's just that's just this
+So, that's just that's just this
 
 89
 00:03:38,680 --> 00:03:40,800
@@ -374,11 +373,11 @@ look at is
 
 93
 00:03:48,160 --> 00:03:49,959
-you know, what is
+you know
 
 94
 00:03:49,959 --> 00:03:52,840
-what is what are the chances of broader
+what are the chances of broader
 
 95
 00:03:52,840 --> 00:03:54,600
@@ -1210,11 +1209,11 @@ everybody in this room I'm pretty sure
 
 300
 00:11:43,480 --> 00:11:45,000
-wants more control over the digital
+wants more control over their digital
 
 301
 00:11:45,000 --> 00:11:46,280
-presidents.
+presence
 
 302
 00:11:46,280 --> 00:11:49,000
@@ -1375,15 +1374,15 @@ don't If you guys don't see it, if you
 
 341
 00:13:26,200 --> 00:13:30,840
-aren't, go read OWASP 100-page
+aren't, go read OWASP 100-page (https://genai.owasp.org/resource/owasp-genai-data-security-risks-mitigations-2026/)
 
 342
 00:13:30,840 --> 00:13:31,554
-report they just
+report they just (https://genai.owasp.org/resource/owasp-genai-data-security-risks-mitigations-2026/)
 
 343
 00:13:31,554 --> 00:13:33,160
-published
+published (https://genai.owasp.org/resource/owasp-genai-data-security-risks-mitigations-2026/)
 
 344
 00:13:33,160 --> 00:13:36,920
@@ -1427,7 +1426,7 @@ Right. And it's And it's just starting.
 
 354
 00:13:56,520 --> 00:13:59,480
-And it's They're going to add 100 pages
+They're going to add 100 pages
 
 355
 00:13:59,480 --> 00:14:01,800
@@ -1495,7 +1494,7 @@ surveilled online?
 
 371
 00:14:39,040 --> 00:14:42,280
-Wait till Just ask an AI to surveil you.
+Just ask an AI to surveil you.
 
 372
 00:14:42,280 --> 00:14:44,880
@@ -1551,7 +1550,7 @@ And I always say, "No."
 
 385
 00:15:12,600 --> 00:15:14,480
-But that's that's how it takes
+It takes
 
 386
 00:15:14,480 --> 00:15:17,200
@@ -1575,7 +1574,7 @@ for has done.
 
 391
 00:15:24,160 --> 00:15:25,840
-And that's just and that's just
+And that's just
 
 392
 00:15:25,840 --> 00:15:27,000
@@ -1623,7 +1622,7 @@ presence.
 
 403
 00:15:48,880 --> 00:15:50,680
-Duty of data loyalty is probably the
+<i>Duty of data loyalty</i> is probably the
 
 404
 00:15:50,680 --> 00:15:54,560
@@ -1688,7 +1687,7 @@ can show harm. The standard of harm is
 
 419
 00:16:28,640 --> 00:16:31,600
-pretty hard high. And it's pretty hard
+pretty high. And it's pretty hard
 
 420
 00:16:31,600 --> 00:16:34,280
@@ -1808,7 +1807,7 @@ the fights, who are going to go to the
 
 449
 00:17:37,160 --> 00:17:39,920
-go to the meetings and put up the put up
+go to the meetings and put up
 
 450
 00:17:39,920 --> 00:17:41,840
@@ -1937,7 +1936,7 @@ Persistent problem cascade that
 
 481
 00:18:52,560 --> 00:18:53,920
-continually exhaust anything less
+continually exhausts anything less
 
 482
 00:18:53,920 --> 00:18:55,600
@@ -1949,11 +1948,11 @@ It's just every time you look at some
 
 484
 00:18:57,880 --> 00:19:00,400
-other system, you look at DNSSEC, you
+other system, you look at <i>DNS/CA</i>, you
 
 485
 00:19:00,400 --> 00:19:02,840
-look at OAuth, OIDC, you look at these
+look at <i>OAuth, OIDC</i>, you look at these
 
 486
 00:19:02,840 --> 00:19:04,240
@@ -2076,7 +2075,7 @@ from.
 
 515
 00:20:22,360 --> 00:20:25,720
-So, I started down this path
+I started down this path
 
 516
 00:20:25,720 --> 00:20:28,360
@@ -2168,11 +2167,13 @@ solved sometime.
 
 538
 00:21:10,920 --> 00:21:12,760
-OpenReputation,
+<i>OpenReputation</i>, 
+(https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/open-reputation-high-level-whitepaper.pdf)
 
 539
 00:21:12,760 --> 00:21:15,040
-I wrote a white paper.
+I wrote a white paper. 
+(https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/open-reputation-high-level-whitepaper.pdf)
 
 540
 00:21:15,040 --> 00:21:17,640
@@ -2246,7 +2247,7 @@ for it back then.
 
 557
 00:21:56,040 --> 00:21:58,240
-Identity System Essentials, this
+<i>Identity System Essentials</i>, this
 
 558
 00:21:58,240 --> 00:22:01,320
@@ -2258,7 +2259,7 @@ Introduced cryptonyms, built on the
 
 560
 00:22:03,960 --> 00:22:08,120
-skid model. It provided a formal
+SCID model. It provided a formal
 
 561
 00:22:08,120 --> 00:22:11,240
@@ -2270,7 +2271,9 @@ Talked about identifier management
 
 563
 00:22:13,520 --> 00:22:15,240
-with HD key chains, three degrees of
+with <i>HD* key chains</i>, three degrees of
+
+<i>*Hierachical Deterministic</i>
 
 564
 00:22:15,240 --> 00:22:18,240
@@ -2282,7 +2285,7 @@ of self-sovereignty for identity. And
 
 566
 00:22:20,520 --> 00:22:23,320
-lots of people This The draft paper was
+the draft paper was
 
 567
 00:22:23,320 --> 00:22:24,760
@@ -2298,7 +2301,7 @@ concept of SSI, but as far as I know,
 
 570
 00:22:29,440 --> 00:22:31,960
-that was the first And I And I stole it
+that was the first. And I stole it
 
 571
 00:22:31,960 --> 00:22:34,680
@@ -2380,15 +2383,17 @@ And it had persistent identifiers.
 
 590
 00:23:19,760 --> 00:23:22,080
-It had prophylactic key rotation, not
+It had <i>prophylactic*</i> key rotation, not
+
+*<i>preventive</i>
 
 591
 00:23:22,080 --> 00:23:24,440
-recoverable key rotation. That
+<i>recoverable</i> key rotation. That
 
 592
 00:23:24,440 --> 00:23:26,080
-would wait that was going to
+ was going to
 
 593
 00:23:26,080 --> 00:23:28,600
@@ -2466,7 +2471,7 @@ that they wanted
 
 611
 00:24:12,040 --> 00:24:14,440
-decentralized identifier,
+decentralized identity for,
 
 612
 00:24:14,440 --> 00:24:16,640
@@ -2478,7 +2483,7 @@ ledger are we going to put it on?"
 
 614
 00:24:19,040 --> 00:24:21,600
-And so all the all the people for all
+And so all the people for all
 
 615
 00:24:21,600 --> 00:24:23,080
@@ -2688,11 +2693,11 @@ one says two is usually enough. You only
 
 666
 00:26:14,760 --> 00:26:16,560
-need two rotation keys. They'll never
+need two rotation keys. They'll
 
 667
 00:26:16,560 --> 00:26:19,080
-they'll never get there.
+never get there.
 
 668
 00:26:19,080 --> 00:26:20,920
@@ -2781,19 +2786,19 @@ In 2018, a little bit later,
 
 689
 00:27:03,840 --> 00:27:06,240
-paper called A DID for everything.
+paper called <i>A DID for everything</i>.
 
 690
 00:27:06,240 --> 00:27:08,120
-It introduced the idea of verifiable
+It introduced the idea of <i>Verifiable</i>
 
 691
 00:27:08,120 --> 00:27:10,040
-provenanced graphs of cryptographically
+<i>Provenanced Graphs of Cryptographically</i>
 
 692
 00:27:10,040 --> 00:27:11,480
-chained data.
+<i>Chained Data</i>.
 
 693
 00:27:11,480 --> 00:27:13,760
@@ -2854,7 +2859,9 @@ get rid of the ledger wars.
 
 707
 00:27:42,960 --> 00:27:45,680
-Introduced CESR,
+Introduced CESR*,
+
+*Composable Event Streaming Representation
 
 708
 00:27:45,680 --> 00:27:48,320
@@ -2926,7 +2933,9 @@ So, after So, I took that paper on
 
 725
 00:28:24,000 --> 00:28:26,000
-the road. I went to IIIW several
+the road. I went to IIW* several
+
+*Internet Identity Workshop
 
 726
 00:28:26,000 --> 00:28:27,440
@@ -2975,7 +2984,7 @@ CESR streaming, hierarchical
 737
 00:28:50,280 --> 00:28:52,400
 CESR streaming hierarchical
-delegation, layer threshold
+delegation, layered threshold
 
 738
 00:28:52,400 --> 00:28:54,200
@@ -3011,11 +3020,11 @@ the version two white paper came
 
 746
 00:29:14,200 --> 00:29:16,560
-across the idea of quantum secure DIDs.
+across the idea of quantum-secure DIDs.
 
 747
 00:29:16,560 --> 00:29:18,640
-I co-wrote a white paper white paper on
+I co-wrote a white paper on
 
 748
 00:29:18,640 --> 00:29:19,600
@@ -3148,7 +3157,7 @@ to get that. I wrote a white paper
 
 780
 00:30:22,600 --> 00:30:24,640
-universal identifier theory just to
+<i>Universal Identifier Theory</i> just to
 
 781
 00:30:24,640 --> 00:30:27,560
@@ -3160,7 +3169,7 @@ for identifiers, bootstrap trust, be a
 
 783
 00:30:30,280 --> 00:30:32,240
-reputation by reference, multi-valued
+reputation by reference, multi-valent
 
 784
 00:30:32,240 --> 00:30:34,160
@@ -3185,7 +3194,7 @@ task force at Trust over IP to start
 
 789
 00:30:46,000 --> 00:30:48,040
-standardizing this stuff and the and
+standardizing this stuff and
 
 790
 00:30:48,040 --> 00:30:50,000
@@ -3197,7 +3206,7 @@ became a thing,
 
 792
 00:30:51,920 --> 00:30:54,070
-At that point.
+at that point.
 
 793
 00:30:54,070 --> 00:30:54,080
@@ -3235,7 +3244,7 @@ So, now where we're at? Well,
 
 801
 00:31:15,360 --> 00:31:16,230
-So, now where we're at? Well
+
 
 802
 00:31:16,230 --> 00:31:16,240
@@ -3243,7 +3252,7 @@ So, now where we're at? Well
 
 803
 00:31:16,240 --> 00:31:23,120
-We needed there was a story
+There was a story
 missing in KERI. KERI is about
 
 804
@@ -3276,11 +3285,13 @@ and
 
 811
 00:31:40,240 --> 00:31:42,080
-wrote the white paper, the spec white
+wrote the white paper, the SPAC* white paper
+
+*Secure Privacy, Authenticity and Confidentiality
 
 812
 00:31:42,080 --> 00:31:45,040
-paper, which is now a task force
+which is now a task force
 
 813
 00:31:45,040 --> 00:31:47,440
@@ -3288,11 +3299,11 @@ within Trust over IP working group
 
 814
 00:31:47,440 --> 00:31:50,560
-at ToIP, and it's like draft version
+at ToIP, and it's like draft version 3
 
 815
 00:31:50,560 --> 00:31:52,000
-three or something,
+or something,
 
 816
 00:31:52,000 --> 00:31:54,440
@@ -3300,7 +3311,7 @@ To solve,
 
 817
 00:31:54,440 --> 00:31:57,000
-you know protected communications
+protected communications
 
 818
 00:31:57,000 --> 00:31:59,390
@@ -3312,12 +3323,11 @@ online.
 
 820
 00:31:59,400 --> 00:32:03,800
-so, it uses a,
 It uses a three-layer tunnel,
 
 821
 00:32:03,800 --> 00:32:05,110
-It uses a three-layer tunnel
+
 
 822
 00:32:05,110 --> 00:32:05,120
@@ -3346,7 +3356,7 @@ the that's the basic idea. And what
 
 828
 00:32:24,160 --> 00:32:26,520
-I mean by it's exploitation, stupid,
+I mean by "<i>it's exploitation, stupid</i>,"
 
 829
 00:32:26,520 --> 00:32:28,520
@@ -3446,7 +3456,7 @@ month or 3 months, but you're going
 
 853
 00:33:24,120 --> 00:33:26,400
-to run out of out of places to hide
+to run out of places to hide
 
 854
 00:33:26,400 --> 00:33:27,640
@@ -3474,11 +3484,11 @@ So, 2023, Utah State Senate work begins.
 
 860
 00:33:38,480 --> 00:33:39,800
-Wrote a white paper called Sustainable
+Wrote a white paper called <i>Sustainable</i>
 
 861
 00:33:39,800 --> 00:33:41,880
-Privacy, talks more at length about the
+<i>Privacy</i>, talks more at length about the
 
 862
 00:33:41,880 --> 00:33:43,800
@@ -3486,11 +3496,11 @@ regulatory things.
 
 863
 00:33:43,800 --> 00:33:45,160
-Due to
+
 
 864
 00:33:45,160 --> 00:33:47,640
-Due to data Due to loyalty
+Fiduciary data loyalty
 
 865
 00:33:47,640 --> 00:33:48,960
@@ -3600,7 +3610,7 @@ try to foster
 
 891
 00:34:50,760 --> 00:34:53,560
-KERI throughout the world get adoption.
+KERI throughout the world and get adoption.
 
 892
 00:34:53,560 --> 00:34:56,280
@@ -3616,7 +3626,7 @@ And we already did what happened in
 
 895
 00:34:59,240 --> 00:35:03,560
-2026. So, that's the history in terms of
+2026. So, that's the history.
 
 896
 00:35:03,560 --> 00:35:05,480
@@ -3744,11 +3754,11 @@ Right? That's why blockchain ledgers
 
 927
 00:36:05,720 --> 00:36:07,120
-weren't weren't
+
 
 928
 00:36:07,120 --> 00:36:10,480
-you know, were a problem.
+were a problem.
 
 929
 00:36:10,480 --> 00:36:12,440
@@ -3776,7 +3786,8 @@ delegation yesterday that used to work
 
 935
 00:36:21,960 --> 00:36:24,000
-for Consensus Networks when I worked for him.
+for Consensus when I worked for him.
+
 
 936
 00:36:24,000 --> 00:36:25,920
@@ -3796,7 +3807,7 @@ didn't recognize him and he said, "No,
 
 940
 00:36:30,440 --> 00:36:32,600
-it's me, really. We work together." And
+it's me, really. We worked together." And
 
 941
 00:36:32,600 --> 00:36:33,960
@@ -3812,7 +3823,7 @@ and
 
 944
 00:36:38,200 --> 00:36:41,320
-But, the idea is tokenomics. You build
+But, the idea is <i>Tokenomics</i>. You build
 
 945
 00:36:41,320 --> 00:36:43,560
@@ -3832,7 +3843,7 @@ Another word term for that is a
 
 949
 00:36:50,200 --> 00:36:52,200
-cooperative model. You can be in
+<i>cooperative model</i>. You can be in
 
 950
 00:36:52,200 --> 00:36:54,000
@@ -3889,7 +3900,7 @@ you can and we have this in the code
 
 963
 00:37:28,080 --> 00:37:29,960
-in the in the Keeper, you can
+in the Keeper, you can
 
 964
 00:37:29,960 --> 00:37:32,200
@@ -3897,7 +3908,9 @@ reconstruct
 
 965
 00:37:32,200 --> 00:37:34,080
-all of your keys if you're using HD
+all of your keys if you're using HD*
+
+*Hierachical Deterministic
 
 966
 00:37:34,080 --> 00:37:37,720
@@ -3953,19 +3966,19 @@ We want multiple wallets. So, we now
 
 979
 00:38:04,600 --> 00:38:06,920
-have several wallets that are now open
+have several wallets that are open-source
 
 980
 00:38:06,920 --> 00:38:09,720
-source and we're going to demo
+and we're going to demo
 
 981
 00:38:09,720 --> 00:38:11,160
-open source stuff. So, the KERI
+open-source stuff. So, the KERI
 
 982
 00:38:11,160 --> 00:38:14,000
-Foundation team, like they've they've
+Foundation team, like they've
 
 983
 00:38:14,000 --> 00:38:16,560
@@ -3989,7 +4002,7 @@ know
 
 988
 00:38:23,840 --> 00:38:26,870
-Some of them had a had a head start.
+Some of them had a head start.
 
 989
 00:38:26,870 --> 00:38:26,880
@@ -4006,12 +4019,11 @@ got a mobile wallet.
 
 992
 00:38:32,520 --> 00:38:35,000
-You'll see some talks today about
+You'll see some talks today of
 
 993
 00:38:35,000 --> 00:38:37,280
-you'll see some talks today about
-People that are building wallets and
+people that are building wallets and
 
 994
 00:38:37,280 --> 00:38:39,800
@@ -4047,8 +4059,8 @@ vendors.
 
 1002
 00:38:54,480 --> 00:39:00,000
-we have in KERI the concept of non-
-non-cooperative key custodianship.
+we have in KERI the concept of 
+<i>Non-Cooperative Key Custodianship</i>.
 
 1003
 00:39:00,000 --> 00:39:03,240
@@ -4128,7 +4140,7 @@ rotation,
 
 1022
 00:39:44,560 --> 00:39:47,920
-sign IR to your custodian.
+signing 'See-ya' to your custodian.
 
 1023
 00:39:47,920 --> 00:39:50,480
@@ -4148,15 +4160,15 @@ key custodians who have What do they
 
 1027
 00:39:57,080 --> 00:39:59,640
-say? Not your keys,
+say? "Not your keys,
 
 1028
 00:39:59,640 --> 00:40:02,200
-not your coin. Not true in KERI. Not
+not your coins." Not true in KERI.
 
 1029
 00:40:02,200 --> 00:40:04,880
-your keys, still your identity.
+Not your keys, <i>still</i> your identity!
 
 1030
 00:40:04,880 --> 00:40:08,462
@@ -4189,7 +4201,7 @@ tell your customers,
 
 1037
 00:40:25,640 --> 00:40:28,400
-you know, have it have witnesses
+you know, have witnesses
 
 1038
 00:40:28,400 --> 00:40:31,120
@@ -4201,7 +4213,7 @@ The watcher network, every watcher
 
 1040
 00:40:35,080 --> 00:40:36,960
-that wants that is an honest watcher
+that is an honest watcher
 
 1041
 00:40:36,960 --> 00:40:40,120
@@ -4209,7 +4221,7 @@ benefits from other watchers sharing
 
 1042
 00:40:40,120 --> 00:40:42,280
-what they see in duplicity. So, so
+what they see in <i>duplicity</i>. So,
 
 1043
 00:40:42,280 --> 00:40:44,320
@@ -4221,19 +4233,19 @@ cooperate.
 
 1045
 00:40:46,960 --> 00:40:49,680
-So, so what we're doing for what we're
+So, what we're doing for, what we're
 
 1046
 00:40:49,680 --> 00:40:52,360
-calling open infrastructure
+calling <i>open infrastructure</i>
 
 1047
 00:40:52,360 --> 00:40:54,440
-is the five Ws
+is "The Five Ws"
 
 1048
 00:40:54,440 --> 00:40:56,880
-or one click KERI. The idea is people
+or <i>One-click KERI</i>. The idea is people
 
 1049
 00:40:56,880 --> 00:40:58,720
@@ -4241,7 +4253,7 @@ would come and say, "Okay, I want to use
 
 1050
 00:40:58,720 --> 00:41:01,680
-KERI. How do I do that?" Well,
+
 
 1051
 00:41:01,680 --> 00:41:03,310
@@ -4282,11 +4294,11 @@ idea is
 
 1060
 00:41:20,360 --> 00:41:22,800
-we want to be able to tell somebody one
+we want to be able to tell somebody 
 
 1061
 00:41:22,800 --> 00:41:24,400
-click,
+One click,
 
 1062
 00:41:24,400 --> 00:41:26,440
@@ -4334,7 +4346,7 @@ and wizard. And what wizard is the
 
 1073
 00:41:43,560 --> 00:41:46,840
-catch-all term. We want user interfaces
+catch-all term. We want <i>user interfaces</i>
 
 1074
 00:41:46,840 --> 00:41:48,560
@@ -4370,11 +4382,11 @@ interfaces to take advantage that. The
 
 1082
 00:42:03,320 --> 00:42:07,000
-other wizard is agents.
+other wizard is <i>agents</i>.
 
 1083
 00:42:07,000 --> 00:42:10,040
-You want You want interfaces to a agentic
+You want interfaces to agentic
 
 1084
 00:42:10,040 --> 00:42:12,120
@@ -4382,11 +4394,11 @@ AI, and you want to control those
 
 1085
 00:42:12,120 --> 00:42:13,680
-interfaces, you want to use KERI to do
+interfaces, you want to use KERI to do it.
 
 1086
 00:42:13,680 --> 00:42:15,280
-it.
+
 
 1087
 00:42:15,280 --> 00:42:16,880
@@ -4469,11 +4481,11 @@ Mobile wallet that
 
 1106
 00:43:22,640 --> 00:43:24,480
-that we've that we've that you'll see
+that you'll see
 
 1107
 00:43:24,480 --> 00:43:26,720
-demos today. So, you'll If you look at
+demo-ed today. So, you'll If you look at
 
 1108
 00:43:26,720 --> 00:43:28,840
@@ -4489,7 +4501,6 @@ healthKERI had developed
 
 1111
 00:43:36,400 --> 00:43:39,590
-HealthKERI had developed
 Locksmith wallet
 
 1112
@@ -4498,7 +4509,7 @@ Locksmith wallet
 
 1113
 00:43:39,600 --> 00:43:46,400
-watcher watchers and witnesses
+watchers and witnesses
 for their proprietary products. And
 
 1114
@@ -4515,7 +4526,7 @@ debrand them and rebrand them so that
 
 1117
 00:43:53,200 --> 00:43:56,200
-everybody that wants to build can build
+everybody that wants to build, can build
 
 1118
 00:43:56,200 --> 00:43:58,840
@@ -4527,7 +4538,7 @@ infrastructure. And we're hosting those
 
 1120
 00:44:00,920 --> 00:44:04,080
-repos and we have spun up we're we'll
+repos and we have spun up -
 
 1121
 00:44:04,080 --> 00:44:06,640
@@ -4551,7 +4562,7 @@ it out can test it out running in the
 
 1126
 00:44:14,760 --> 00:44:17,760
-cloud. So, that's that's one of the big
+cloud. So, that's one of the big
 
 1127
 00:44:17,760 --> 00:44:20,160
@@ -4717,7 +4728,7 @@ So, this enables bulk issuance. It takes
 
 1167
 00:46:10,480 --> 00:46:13,000
-advantage of sparse Merkle trees.
+advantage of Sparse Merkle trees.
 
 1168
 00:46:13,000 --> 00:46:14,720
@@ -4737,7 +4748,7 @@ These are in the ACDC spec, are things
 
 1172
 00:46:22,480 --> 00:46:25,200
-called a user presentation registry.
+called a <i>user presentation registry</i>.
 
 1173
 00:46:25,200 --> 00:46:27,400
@@ -4753,7 +4764,7 @@ if I have a proof
 
 1176
 00:46:32,200 --> 00:46:34,720
-that a holder has that they that they're
+that a holder has that they're
 
 1177
 00:46:34,720 --> 00:46:36,800
@@ -4789,7 +4800,7 @@ doesn't have any way to know it. But, we
 
 1185
 00:46:49,880 --> 00:46:52,760
-can use the same Whoops.
+can use the same ...
 
 1186
 00:46:52,760 --> 00:46:57,990
@@ -4814,11 +4825,11 @@ designate
 
 1191
 00:47:10,920 --> 00:47:14,600
-that they their own registry
+that their own registry
 
 1192
 00:47:14,600 --> 00:47:17,120
-Is going to is going to keep track of
+Is going to keep track of
 
 1193
 00:47:17,120 --> 00:47:19,960
@@ -4914,32 +4925,34 @@ So, what is KERI really? Right?
 
 1216
 00:48:13,960 --> 00:48:16,080
-Well, you've heard the phrase Keys at
+Well, you've heard the phrase <i>Keys at</i>
 
 1217
 00:48:16,080 --> 00:48:19,270
-the Edge.
+<i>the Edge</i>.
 
 1218
 00:48:21,310 --> 00:48:24,360
-Security First, Always.
-Anybody who's come to the user the
+<i>Security First, Always.</i>
+
 
 1219
 00:48:24,360 --> 00:48:26,480
-Minimally Sufficient Means. These are
+<i>Minimally Sufficient Means. </i>These are
 
 1220
 00:48:26,480 --> 00:48:30,040
-mottos, phrases, Signed Everything. Sort
+mottos, phrases; (another:) <i>Signed Everything</i>. 
 
 1221
 00:48:30,040 --> 00:48:33,240
-of ways to look at the elephant from the
+Sort of ways to look at the elephant from the
 
 1222
 00:48:33,240 --> 00:48:36,200
 multiple blind men.
+
+(Don't assume one viewpoint captures the entire situation, red)
 
 1223
 00:48:36,200 --> 00:48:38,040
@@ -5260,7 +5273,9 @@ and if you say it really fast
 
 1302
 00:51:35,280 --> 00:51:39,485
-it's a rhapsody and that's KERI.
+it's a rhapsody* and that's KERI.
+
+*an enthusiastic, emotionally expressive outpouring, red
 
 1303
 00:51:46,035 --> 00:51:46,045
@@ -5325,7 +5340,7 @@ Well
 
 1318
 00:52:25,600 --> 00:52:28,120
-they're they have different purposes.
+they have different purposes.
 
 1319
 00:52:28,120 --> 00:52:29,960
@@ -5716,7 +5731,7 @@ an ECR and OR credential, you'll have a
 
 1415
 00:56:01,120 --> 00:56:03,600
-wallet and you'll you'll select
+wallet and you'll select
 
 1416
 00:56:03,600 --> 00:56:05,480
@@ -5856,7 +5871,7 @@ that we use, not the current
 
 1450
 00:57:09,400 --> 00:57:12,000
-version one is does not have that,
+version 1 does not have that,
 
 1451
 00:57:12,000 --> 00:57:14,680
@@ -5900,7 +5915,7 @@ state changed. It just means you did a
 
 1461
 00:57:35,920 --> 00:57:38,240
-state update and most of them are and so
+state update and most of them are ... and so
 
 1462
 00:57:38,240 --> 00:57:40,440
