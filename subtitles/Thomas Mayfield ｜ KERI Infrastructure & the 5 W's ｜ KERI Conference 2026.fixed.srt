@@ -1041,7 +1041,7 @@ So we'll start with pre-rotation. And
 
 260
 00:11:27,680 --> 00:11:29,920
-this is one of K's most elegant
+this is one of KERI's most elegant
 
 261
 00:11:29,920 --> 00:11:32,959
