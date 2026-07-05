@@ -3860,11 +3860,11 @@ wouldn't be great.
 
 957
 00:37:20,880 --> 00:37:23,520
-To do true horizontal scale, I think K's
+To do true horizontal scale, I think KERI's
 
 958
 00:37:23,520 --> 00:37:26,160
-to do true horizontal scale, I think K's
+to do true horizontal scale, I think KERI's
 actually already quite suited to it.
 
 959

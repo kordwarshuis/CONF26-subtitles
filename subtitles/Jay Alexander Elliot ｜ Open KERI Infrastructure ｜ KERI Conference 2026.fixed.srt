@@ -1070,7 +1070,7 @@ I think a good way is the KEL is the
 
 267
 00:13:30,240 --> 00:13:33,839
-state of your keys and the tell is the
+state of your keys and the TEL is the
 
 268
 00:13:33,839 --> 00:13:36,000
