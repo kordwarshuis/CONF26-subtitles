@@ -3065,15 +3065,15 @@ sequence of what I mentioned end to end
 essentially. But yeah, that's
 
 767
-00:31:46,559 --> 00:31:51,180
+00:31:46,559 --> 00:31:52,050
 all I had. I think I have seven more minutes
 
 768
-00:31:51,204 --> 00:31:53,204
+00:31:52,074 --> 00:31:55,987
 So I will very quickly go back to this.
 
 769
-00:32:06,784 --> 00:32:08,399
+00:32:06,342 --> 00:32:08,399
 When we created the client AID, it had
 
 770
