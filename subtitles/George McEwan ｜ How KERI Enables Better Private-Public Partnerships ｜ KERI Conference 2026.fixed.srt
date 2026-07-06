@@ -2162,7 +2162,7 @@ happening there is CMS is watching. In
 
 541
 00:20:58,480 --> 00:21:00,240
-fact, CMS is
+fact, CMS
 
 542
 00:21:00,240 --> 00:21:02,480
@@ -2249,955 +2249,952 @@ next because you see where the pressure
 is on to get something published.
 
 563
-00:21:55,950 --> 00:21:59,240
-So, I just wanted to add that GLEIF is an
-ongoing part public-private partnership.
+00:21:53,014 --> 00:21:56,227
+– So, I just wanted to add that GLEIF is an
 
 564
+00:21:56,251 --> 00:21:59,240
+ongoing part public-private partnership.
+
+565
 00:21:59,240 --> 00:22:01,880
 We are under regulatory oversight and
 
-565
+566
 00:22:01,880 --> 00:22:05,080
 continue to be throughout our entire
 
-566
+567
 00:22:05,080 --> 00:22:06,560
 existence.
 
-567
+568
 00:22:06,560 --> 00:22:08,000
 And
 
-568
+569
 00:22:08,000 --> 00:22:10,040
 the engagement with the public sector
 
-569
+570
 00:22:10,040 --> 00:22:11,720
 being a private sector individual and
 
-570
+571
 00:22:11,720 --> 00:22:13,480
 myself
 
-571
-00:22:13,480 --> 00:22:16,160
-started long before that actually in my
-
 572
+00:22:13,480 --> 00:22:16,160
+started long before that, actually in my
+
+573
 00:22:16,160 --> 00:22:17,960
 my standards role
 
-573
+574
 00:22:17,960 --> 00:22:19,880
 at the international level.
 
-574
+575
 00:22:19,880 --> 00:22:22,880
 And I think that being involved in
 
-575
+576
 00:22:22,880 --> 00:22:24,640
 public-private partnerships and making
 
-576
+577
 00:22:24,640 --> 00:22:26,120
 them work
 
-577
+578
 00:22:26,120 --> 00:22:28,440
 that it's important in order to be able
 
-578
+579
 00:22:28,440 --> 00:22:30,640
 to realize that bringing
 
-579
+580
 00:22:30,640 --> 00:22:33,760
 viewpoints and sensitivities
 
-580
+581
 00:22:33,760 --> 00:22:37,120
 and important points together
 
-581
+582
 00:22:37,120 --> 00:22:38,760
 from the private sector and the public
 
-582
+583
 00:22:38,760 --> 00:22:40,120
 sector
 
-583
+584
 00:22:40,120 --> 00:22:43,200
 actually produces better conversation,
 
-584
+585
 00:22:43,200 --> 00:22:45,600
 better discussion, better debate, and
 
-585
+586
 00:22:45,600 --> 00:22:48,680
 hopefully in the end better solutions
 
-586
+587
 00:22:48,680 --> 00:22:51,360
 than if it was a completely, you know,
 
-587
+588
 00:22:51,360 --> 00:22:53,360
 one-sided discussion.
 
-588
+589
 00:22:53,360 --> 00:22:57,040
 Also, it's sensitized me over the years
 
-589
+590
 00:22:57,040 --> 00:22:59,760
 that I need to believe in, you know,
 
-590
+591
 00:22:59,760 --> 00:23:01,840
 exactly what I'm putting forward and I
 
-591
+592
 00:23:01,840 --> 00:23:03,800
 need to speak facts and I need to
 
-592
+593
 00:23:03,800 --> 00:23:05,480
 understand
 
-593
-00:23:05,480 --> 00:23:07,680
-what I'm what I'm talking about and it
-
 594
-00:23:07,680 --> 00:23:10,000
-really sold us at life
+00:23:05,480 --> 00:23:07,680
+what I'm talking about and it
 
 595
+00:23:07,680 --> 00:23:10,000
+really sold us at GLEIF
+
+596
 00:23:10,000 --> 00:23:13,040
 in order to be able to decide to develop
 
-596
+597
 00:23:13,040 --> 00:23:14,600
 the vLEI
 
-597
+598
 00:23:14,600 --> 00:23:17,240
 when the people who
 
-598
+599
 00:23:17,240 --> 00:23:18,920
 approached us and said that there's a
 
-599
+600
 00:23:18,920 --> 00:23:20,840
 better way than the traditional way of
 
-600
+601
 00:23:20,840 --> 00:23:22,640
 being able to do this were actually the
 
-601
+602
 00:23:22,640 --> 00:23:24,560
 people who had built the previous
 
-602
-00:23:24,560 --> 00:23:29,150
+603
+00:23:24,560 --> 00:23:28,443
 solution and were ready to move on.
 
-603
-00:23:31,030 --> 00:23:33,160
-I would maybe just add a quick
+604
+00:23:29,184 --> 00:23:31,978
+– I would maybe just add a quick
+
+605
+00:23:32,002 --> 00:23:33,160
 thought here which is that with regards
 
-604
+606
 00:23:33,160 --> 00:23:34,480
 to public private partnership and I
 
-605
+607
 00:23:34,480 --> 00:23:36,440
 think we'll get into this
 
-606
+608
 00:23:36,440 --> 00:23:38,000
-from a healthKERI perspective. I've
+from a healthcare perspective. I've
 
-607
+609
 00:23:38,000 --> 00:23:40,720
 seen what happens when the public part
 
-608
+610
 00:23:40,720 --> 00:23:43,120
 of that partnership goes awry and they
 
-609
+611
 00:23:43,120 --> 00:23:45,400
 just run at something on their own and
 
-610
+612
 00:23:45,400 --> 00:23:48,240
-they don't you know enact
+they don't enact
 
-611
+613
 00:23:48,240 --> 00:23:50,240
 a partnership with the private market. I
 
-612
+614
 00:23:50,240 --> 00:23:51,520
 think we've also seen the
 
-613
+615
 00:23:51,520 --> 00:23:53,160
 alternative to that where the private
 
-614
+616
 00:23:53,160 --> 00:23:55,760
 market starts to dictate terms
 
-615
+617
 00:23:55,760 --> 00:23:58,750
 and I think in both cases
 
-616
-00:23:58,750 --> 00:23:58,760
-
-
-617
-00:23:58,760 --> 00:24:01,960
+618
+00:23:58,760 --> 00:24:00,348
 it is better if you get all of those
+
+619
+00:24:00,372 --> 00:24:01,960
 parties aligned. I think that's one of
 
-618
+620
 00:24:01,960 --> 00:24:04,240
 the powerful things around
 
-619
-00:24:04,240 --> 00:24:06,280
-doing things like Care you that is so
-
-620
-00:24:06,280 --> 00:24:08,280
-you know open source open standard. It
-
 621
+00:24:04,240 --> 00:24:06,280
+doing things like KERI that is so
+
+622
+00:24:06,280 --> 00:24:08,280
+open source, open standard. It
+
+623
 00:24:08,280 --> 00:24:10,400
 invites the collaboration and invites
 
-622
+624
 00:24:10,400 --> 00:24:13,280
 the participation and it actually
 
-623
+625
 00:24:13,280 --> 00:24:16,120
 defends both sides from being able to
 
-624
+626
 00:24:16,120 --> 00:24:18,720
 just run amok.
 
-625
+627
 00:24:18,720 --> 00:24:20,200
-Thank you for all those answers. One of
+– Thank you for all those answers. One of
 
-626
+628
 00:24:20,200 --> 00:24:22,320
 the things that I've noticed with this
 
-627
+629
 00:24:22,320 --> 00:24:23,840
 public private partnership approach that
 
-628
+630
 00:24:23,840 --> 00:24:26,120
 we're taking is there's not a person we
 
-629
+631
 00:24:26,120 --> 00:24:27,760
 don't talk to who realizes they're
 
-630
+632
 00:24:27,760 --> 00:24:29,320
 ultimately going to be the beneficiary
 
-631
+633
 00:24:29,320 --> 00:24:31,720
 of some of this technology. So we really
 
-632
+634
 00:24:31,720 --> 00:24:33,000
 appreciate the fact that everyone's
 
-633
+635
 00:24:33,000 --> 00:24:34,240
 putting forward the effort to say well
 
-634
+636
 00:24:34,240 --> 00:24:35,440
 wait a minute.
 
-635
+637
 00:24:35,440 --> 00:24:37,440
 Ultimately this is going to impact me.
 
-636
+638
 00:24:37,440 --> 00:24:39,400
 How do we do it the best way and
 
-637
+639
 00:24:39,400 --> 00:24:41,680
 that open discussion and that dialogue
 
-638
+640
 00:24:41,680 --> 00:24:43,600
 has been super helpful for us. Well we
 
-639
-00:24:43,600 --> 00:24:45,400
-are at Care you con so let's take this
-
-640
-00:24:45,400 --> 00:24:47,840
-directly to a Care you question and this
-
 641
+00:24:43,600 --> 00:24:45,400
+are at KERI council, let's take this
+
+642
+00:24:45,400 --> 00:24:47,840
+directly to a KERI question and this
+
+643
 00:24:47,840 --> 00:24:49,320
 one I'm really interested to see where
 
-642
+644
 00:24:49,320 --> 00:24:51,200
 everyone goes on it. Regarding the
 
-643
-00:24:51,200 --> 00:24:52,800
-healthKERI industry
-
-644
-00:24:52,800 --> 00:24:55,360
-what is the biggest problem you see Care
-
 645
-00:24:55,360 --> 00:24:57,640
-you solving in the time horizon of the
+00:24:51,200 --> 00:24:52,800
+healthcare industry
 
 646
+00:24:52,800 --> 00:24:55,360
+what is the biggest problem you see KERI
+
+647
+00:24:55,360 --> 00:24:57,640
+solving in the time horizon of the
+
+648
 00:24:57,640 --> 00:25:00,000
 next 5 years.
 
-647
+649
 00:25:00,000 --> 00:25:02,760
 Anyone jump in.
 
-648
-00:25:02,760 --> 00:25:05,920
-Yeah, wouldn't I go first? I
-
-649
-00:25:05,920 --> 00:25:08,920
-we have to solve organizational identity
-
 650
-00:25:08,920 --> 00:25:11,680
-and the key the thing I see around
+00:25:02,760 --> 00:25:05,920
+– Yeah, why don't I go first?
 
 651
+00:25:05,920 --> 00:25:08,920
+We have to solve organizational identity
+
+652
+00:25:08,920 --> 00:25:11,680
+and the thing I see around
+
+653
 00:25:11,680 --> 00:25:13,120
 digital identity particularly for
 
-652
+654
 00:25:13,120 --> 00:25:16,320
 individuals is it's all about context.
 
-653
+655
 00:25:16,320 --> 00:25:17,880
 Right? So, you've got to be able to tie
 
-654
+656
 00:25:17,880 --> 00:25:19,720
 those threads together.
 
-655
+657
 00:25:19,720 --> 00:25:21,680
 And that's where I see how we can
 
-656
+658
 00:25:21,680 --> 00:25:25,800
-implement the VLBI, the ACDCs, these
+implement the vLEI, the ACDCs, these
 
-657
+659
 00:25:25,800 --> 00:25:27,920
 here. All of the this technology to
 
-658
+660
 00:25:27,920 --> 00:25:29,880
 basically say
 
-659
+661
 00:25:29,880 --> 00:25:32,840
 I'm part of this organization. I'm
 
-660
+662
 00:25:32,840 --> 00:25:35,240
 allowed to do these things. This is the
 
-661
+663
 00:25:35,240 --> 00:25:37,640
-type of transaction I want to be able to
+type of transaction I want to be able
 
-662
+664
 00:25:37,640 --> 00:25:39,600
 to take on. You know,
 
-663
+665
 00:25:39,600 --> 00:25:41,680
 I think some people already said that.
 
-664
+666
 00:25:41,680 --> 00:25:44,680
 We exist in many different facets.
 
-665
+667
 00:25:44,680 --> 00:25:46,800
-You know, after say I'm in
+I'm in
 
-666
+668
 00:25:46,800 --> 00:25:48,640
 Utah in the winter, I'm a ski
 
-667
-00:25:48,640 --> 00:25:50,600
-instructor. So, I have a you know, I
-
-668
-00:25:50,600 --> 00:25:53,600
-have a an employee badge for that
-
 669
+00:25:48,640 --> 00:25:50,600
+instructor. So, I have a
+
+670
+00:25:50,600 --> 00:25:53,600
+an employee badge for that
+
+671
 00:25:53,600 --> 00:25:56,080
 and I also have one for my day job.
 
-670
+672
 00:25:56,080 --> 00:25:58,560
 They're totally different, right? And
 
-671
+673
 00:25:58,560 --> 00:26:00,920
 give me different permissions
 
-672
+674
 00:26:00,920 --> 00:26:03,400
 based on the context of am I working
 
-673
+675
 00:26:03,400 --> 00:26:05,880
 there or not. So, we have to get this
 
-674
+676
 00:26:05,880 --> 00:26:08,400
 problem of being able to clearly
 
-675
+677
 00:26:08,400 --> 00:26:10,960
 identify and prove and be able to root
 
-676
+678
 00:26:10,960 --> 00:26:13,280
 out bad actors at the organizational
 
-677
+679
 00:26:13,280 --> 00:26:14,240
 level
 
-678
+680
 00:26:14,240 --> 00:26:17,080
 and relate it to individual identity as
 
-679
+681
 00:26:17,080 --> 00:26:18,280
 well.
 
-680
+682
 00:26:18,280 --> 00:26:20,040
-Can I Can I interject just really
+Can I interject just really
 
-681
+683
 00:26:20,040 --> 00:26:23,240
 quickly? 73% of all cyber attacks
 
-682
+684
 00:26:23,240 --> 00:26:24,680
 that happen in the US healthcare
 
-683
+685
 00:26:24,680 --> 00:26:27,480
 ecosystem come from third parties first.
 
-684
+686
 00:26:27,480 --> 00:26:29,560
-The bad actors one, we're the most
+The bad actors, one, we're the most
 
-685
+687
 00:26:29,560 --> 00:26:31,520
 targeted industry. Two, they know
 
-686
+688
 00:26:31,520 --> 00:26:33,480
 exactly how to get in and that's through
 
-687
+689
 00:26:33,480 --> 00:26:36,640
 the insecurity of the identities
 
-688
+690
 00:26:36,640 --> 00:26:39,000
 established between parties in those
 
-689
+691
 00:26:39,000 --> 00:26:40,880
 connections. I think if there is
 
-690
+692
 00:26:40,880 --> 00:26:42,280
-anything that carries going to do in the
+anything that KERI is going to do in the
 
-691
+693
 00:26:42,280 --> 00:26:43,920
 next 5 years, it's going to take that
 
-692
+694
 00:26:43,920 --> 00:26:45,560
 73%
 
-693
+695
 00:26:45,560 --> 00:26:47,280
 and plummet it to the ground. I think
 
-694
+696
 00:26:47,280 --> 00:26:49,480
 we'll be able to solve the largest
 
-695
+697
 00:26:49,480 --> 00:26:51,760
-problems in that connectivity. And
+problems in that connectivity. – And
 
-696
+698
 00:26:51,760 --> 00:26:54,520
 something like 60% of providers that are
 
-697
+699
 00:26:54,520 --> 00:26:56,520
 hit by a ransomware attack go out of
 
-698
-00:26:56,520 --> 00:26:59,520
-business. Yeah, so I can tell you also
-
-699
-00:26:59,520 --> 00:27:01,160
-just from So, we also accredit
-
 700
+00:26:56,520 --> 00:26:59,520
+business. – So I can tell you also
+
+701
+00:26:59,520 --> 00:27:01,160
+just from… So, we also accredit
+
+702
 00:27:01,160 --> 00:27:02,360
 healthcare organizations for their
 
-701
+703
 00:27:02,360 --> 00:27:05,440
 cybersecurity capabilities. And
 
-702
+704
 00:27:05,440 --> 00:27:08,560
 as we review the activities of
 
-703
+705
 00:27:08,560 --> 00:27:11,960
 folks in post-breach world, what happens
 
-704
+706
 00:27:11,960 --> 00:27:14,440
 what you find out is most of the
 
-705
-00:27:14,440 --> 00:27:17,400
-breaches are caused by the use of an
-
-706
-00:27:17,400 --> 00:27:19,160
-actual a credential that is actually a
-
 707
+00:27:14,440 --> 00:27:17,400
+breaches are caused by the use of
+
+708
+00:27:17,400 --> 00:27:19,160
+a credential that is actually a
+
+709
 00:27:19,160 --> 00:27:20,560
 valid credential. So, you're talking
 
-708
+710
 00:27:20,560 --> 00:27:22,320
 about people who are using someone
 
-709
+711
 00:27:22,320 --> 00:27:23,880
 else's credential
 
-710
+712
 00:27:23,880 --> 00:27:26,400
 for nefarious purposes. And once they
 
-711
+713
 00:27:26,400 --> 00:27:28,280
 get in that initial door, they're able
 
-712
+714
 00:27:28,280 --> 00:27:29,800
 to then use
 
-713
+715
 00:27:29,800 --> 00:27:32,280
 AI, for example, to get
 
-714
+716
 00:27:32,280 --> 00:27:34,560
 to traverse the entire network
 
-715
+717
 00:27:34,560 --> 00:27:36,400
 once they're inside. So, from my
 
-716
+718
 00:27:36,400 --> 00:27:38,720
 perspective, being able to move the
 
-717
+719
 00:27:38,720 --> 00:27:42,040
 entire healthcare ecosystem from weak
 
-718
+720
 00:27:42,040 --> 00:27:43,640
 credentials
 
-719
+721
 00:27:43,640 --> 00:27:44,840
 to a model that is actually
 
-720
+722
 00:27:44,840 --> 00:27:47,400
 password-free would be the biggest thing
 
-721
+723
 00:27:47,400 --> 00:27:49,160
 we could do for the workforce in
 
-722
+724
 00:27:49,160 --> 00:27:51,120
-healthcare. I think that's up That would
+healthcare. I think that would
 
-723
+725
 00:27:51,120 --> 00:27:53,320
 be the best outcome.
 
-724
+726
 00:27:53,320 --> 00:27:55,960
 I also think that in general that
 
-725
+727
 00:27:55,960 --> 00:27:59,400
 the world needs a veracity engine
 
-726
+728
 00:27:59,400 --> 00:28:01,404
 and we don't have one.
 
-727
-00:28:01,404 --> 00:28:01,960
-[laughter]
-
-728
+729
 00:28:01,960 --> 00:28:04,400
 So, there needs to be a veracity
 
-729
+730
 00:28:04,400 --> 00:28:06,720
 engine. So, when I appear online, when I
 
-730
+731
 00:28:06,720 --> 00:28:09,560
 appear online in any context, like when
 
-731
+732
 00:28:09,560 --> 00:28:11,920
 I'm talking to you over Zoom, you should
 
-732
+733
 00:28:11,920 --> 00:28:14,120
 be able to see who I am, that I am who I
 
-733
-00:28:14,120 --> 00:28:17,200
-say I am, reliably. And that should be I
-
 734
-00:28:17,200 --> 00:28:19,640
-think and that's if I want my
+00:28:14,120 --> 00:28:17,200
+say I am, reliably. And that should be, I
 
 735
-00:28:19,640 --> 00:28:21,200
-I need to be shared. And like these
+00:28:17,200 --> 00:28:19,640
+think, and that's if I want my
 
 736
+00:28:19,640 --> 00:28:21,200
+identity to be shared. And like these
+
+737
 00:28:21,200 --> 00:28:22,600
 things I think are so important to
 
-737
+738
 00:28:22,600 --> 00:28:26,080
 establish. I think the policy focus is
 
-738
+739
 00:28:26,080 --> 00:28:28,320
 really important though. If the policy
 
-739
+740
 00:28:28,320 --> 00:28:29,720
 doesn't happen right, I think this is
 
-740
+741
 00:28:29,720 --> 00:28:32,720
 what Utah has done so well. You know,
 
-741
+742
 00:28:32,720 --> 00:28:35,320
 first principles, policy first. I think
 
-742
+743
 00:28:35,320 --> 00:28:38,040
 that has a huge impact.
 
-743
-00:28:38,040 --> 00:28:39,520
-I'm going to give a slightly different
-
 744
+00:28:38,040 --> 00:28:39,520
+– I'm going to give a slightly different
+
+745
 00:28:39,520 --> 00:28:40,760
 answer here. It's going to be
 
-745
+746
 00:28:40,760 --> 00:28:42,280
 controversial.
 
-746
+747
 00:28:42,280 --> 00:28:44,800
 This is from the policy perspective
 
-747
+748
 00:28:44,800 --> 00:28:46,760
 of what needs to be done in 5 years to
 
-748
+749
 00:28:46,760 --> 00:28:49,280
 actually get lots of money put into the
 
-749
+750
 00:28:49,280 --> 00:28:51,480
 ecosystem and to align interest with
 
-750
+751
 00:28:51,480 --> 00:28:52,960
 policy makers to get them to run
 
-751
+752
 00:28:52,960 --> 00:28:55,240
 legislation and actually get the market
 
-752
+753
 00:28:55,240 --> 00:28:56,880
 going cuz we've had breaches and
 
-753
+754
 00:28:56,880 --> 00:28:59,640
 security and lack of trusted identity
 
-754
+755
 00:28:59,640 --> 00:29:01,840
 and provenance for decades and it hasn't
 
-755
+756
 00:29:01,840 --> 00:29:04,440
 fixed the issue. What is the one topic
 
-756
+757
 00:29:04,440 --> 00:29:05,640
 everybody's talking about now and
 
-757
+758
 00:29:05,640 --> 00:29:08,920
 pumping money into and it's AI? And so
 
-758
+759
 00:29:08,920 --> 00:29:10,960
 if you want to solve all of these
 
-759
+760
 00:29:10,960 --> 00:29:12,960
 problems, you've got to tie it to some
 
-760
+761
 00:29:12,960 --> 00:29:14,960
 AI use case which is where all the money
 
-761
+762
 00:29:14,960 --> 00:29:17,160
 is going. And so Utah did something
 
-762
+763
 00:29:17,160 --> 00:29:18,520
 really unique and this is just for
 
-763
+764
 00:29:18,520 --> 00:29:19,440
 everyone to think about as you're
 
-764
+765
 00:29:19,440 --> 00:29:21,000
 working on the problems.
 
-765
+766
 00:29:21,000 --> 00:29:22,720
 They have been in national news
 
-766
+767
 00:29:22,720 --> 00:29:25,280
 because they did the first automated
 
-767
-00:29:25,280 --> 00:29:27,720
-prescription issuance from AI
-
 768
-00:29:27,720 --> 00:29:29,880
-Coming out of our regulatory sandbox.
+00:29:25,280 --> 00:29:27,720
+prescription issuance from AI,
 
 769
+00:29:27,720 --> 00:29:29,880
+coming out of our regulatory sandbox.
+
+770
 00:29:29,880 --> 00:29:31,320
 So Utah's created some really unique
 
-770
-00:29:31,320 --> 00:29:34,000
-things to allow new
-
 771
+00:29:31,320 --> 00:29:34,000
+things to allow
+
+772
 00:29:34,000 --> 00:29:38,080
 AI to be used. We know in this room what
 
-772
+773
 00:29:38,080 --> 00:29:41,000
 KERI and ACDC is going to bring to the
 
-773
+774
 00:29:41,000 --> 00:29:44,960
 AI ecosystem in terms of provenance
 
-774
-00:29:44,960 --> 00:29:48,520
-and then associated to data or to AI
-
 775
+00:29:44,960 --> 00:29:48,520
+and then associated the data or to AI
+
+776
 00:29:48,520 --> 00:29:50,840
 agents having being delegated with
 
-776
+777
 00:29:50,840 --> 00:29:53,320
 authority to act on somebody's behalf.
 
-777
+778
 00:29:53,320 --> 00:29:56,680
 And so I think it's critical to tie
 
-778
+779
 00:29:56,680 --> 00:29:59,560
 in some of these unique capabilities to
 
-779
+780
 00:29:59,560 --> 00:30:02,720
 AI and not show that we're reducing
 
-780
+781
 00:30:02,720 --> 00:30:05,280
 fraud or losses but to show some
 
-781
+782
 00:30:05,280 --> 00:30:07,720
 efficiency gains or things that directly
 
-782
+783
 00:30:07,720 --> 00:30:09,520
 impact individuals. So if you can start
 
-783
-00:30:09,520 --> 00:30:13,000
-saying because we have we proven,
-
 784
+00:30:09,520 --> 00:30:13,000
+saying because we have proven,
+
+785
 00:30:13,000 --> 00:30:15,200
 you know, verifiable delegation for this
 
-785
+786
 00:30:15,200 --> 00:30:18,080
 agent acting on another doctor's behalf
 
-786
+787
 00:30:18,080 --> 00:30:20,560
 to start streamlining prescription
 
-787
+788
 00:30:20,560 --> 00:30:23,960
 issuance and lowering cost, that's going
 
-788
+789
 00:30:23,960 --> 00:30:25,360
 to get people excited. And if we can
 
-789
+790
 00:30:25,360 --> 00:30:27,880
 prove the use of this technology over
 
-790
-00:30:27,880 --> 00:30:29,160
-the next I don't think it's 5 years, I
-
 791
+00:30:27,880 --> 00:30:29,160
+the next, I don't think it's 5 years, I
+
+792
 00:30:29,160 --> 00:30:31,560
 think it's the next 3 years,
 
-792
-00:30:31,560 --> 00:30:34,400
-that is going to start turbocharging the
-
 793
+00:30:31,560 --> 00:30:34,400
+that is going to start turbocharging
+
+794
 00:30:34,400 --> 00:30:36,520
 the digital identity and verifiability
 
-794
+795
 00:30:36,520 --> 00:30:37,120
 approach.
 
-795
-00:30:37,120 --> 00:30:38,760
-Okay, who in the room just registered
-
 796
+00:30:37,120 --> 00:30:38,760
+– Okay, who in the room just registered
+
+797
 00:30:38,760 --> 00:30:41,560
 KERI.ai? Did that Did that just happen?
 
-797
+798
 00:30:41,560 --> 00:30:43,846
 Okay. Jared, go ahead.
 
-798
-00:30:43,846 --> 00:30:44,240
-[laughter]
-
 799
 00:30:44,240 --> 00:30:46,920
-I mean, yeah. I agree with what
+– I agree with what
 
 800
 00:30:46,920 --> 00:30:50,080
@@ -3221,7 +3218,7 @@ be thinking about and working on
 
 805
 00:30:57,200 --> 00:30:59,920
-already. And what I guess what I what
+already. And what I guess
 
 806
 00:30:59,920 --> 00:31:01,840
@@ -3233,7 +3230,7 @@ some of the work we're doing at Health
 
 808
 00:31:03,040 --> 00:31:05,480
-Caery around AI into open source, I
+KERI around AI into open source, I
 
 809
 00:31:05,480 --> 00:31:07,400
@@ -3241,7 +3238,7 @@ mean, we probably won't in the near
 
 810
 00:31:07,400 --> 00:31:10,320
-term. We definitely want to entertain
+term, we definitely want to entertain
 
 811
 00:31:10,320 --> 00:31:11,840
@@ -3257,7 +3254,7 @@ way Chris does.
 
 814
 00:31:13,960 --> 00:31:15,960
-And I will say to do what I just said,
+– And I will say to do what I just said,
 
 815
 00:31:15,960 --> 00:31:17,280
@@ -3281,7 +3278,7 @@ people to put more money into it.
 
 820
 00:31:25,320 --> 00:31:26,960
-So Carl, I'm going to lean on your
+– So Karla, I'm going to lean on your
 
 821
 00:31:26,960 --> 00:31:28,800
@@ -3324,13 +3321,12 @@ And then, panel, listen up. My question
 to you would be is how do we help
 
 831
-00:31:45,640 --> 00:31:49,310
+00:31:45,640 --> 00:31:47,521
 mitigate those issues?
 
 832
-00:31:50,630 --> 00:31:52,200
-Well,
-to begin with,
+00:31:50,706 --> 00:31:52,200
+To begin with,
 
 833
 00:31:52,200 --> 00:31:53,960
@@ -3342,11 +3338,11 @@ the first thing is that
 
 835
 00:31:56,600 --> 00:31:59,520
-people are used to doing things or not
+people are used to doing things, or not
 
 836
 00:31:59,520 --> 00:32:01,280
-doing anything at all or doing things a
+doing anything at all, or doing things a
 
 837
 00:32:01,280 --> 00:32:03,760
@@ -3394,11 +3390,11 @@ whether it's patients, whether it's
 
 848
 00:32:27,680 --> 00:32:30,400
-payers and the plans. As we've we've
+payers and the plans. As we've
 
 849
 00:32:30,400 --> 00:32:32,840
-been speaking with Health Caery and
+been speaking with healthKERI and
 
 850
 00:32:32,840 --> 00:32:35,440
