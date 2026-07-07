@@ -135,4799 +135,4795 @@ presentation that we do with we'll
 call them non-nerds, normal people.
 
 35
-00:01:12,240 --> 00:01:13,920
+00:01:12,240 --> 00:01:13,778
 Because we can talk in shorthand in the
 
 36
-00:01:13,920 --> 00:01:14,857
-because we can talk in shorthand in the
-
-37
-00:01:14,881 --> 00:01:15,600
+00:01:13,809 --> 00:01:15,417
 SEDI community and in the KERI
 
-38
-00:01:15,600 --> 00:01:17,840
+37
+00:01:15,442 --> 00:01:17,840
 community and cyber security. We have
 
-39
+38
 00:01:17,840 --> 00:01:19,360
 words they don't understand. So, what
 
-40
+39
 00:01:19,360 --> 00:01:20,799
-we've did is we put together kind of a
+we did is we put together kind of a
 
-41
+40
 00:01:20,799 --> 00:01:23,119
 generic presentation that we add slides
 
-42
+41
 00:01:23,119 --> 00:01:25,119
 to depending on who we're talking to.
 
-43
+42
 00:01:25,119 --> 00:01:28,479
 So, realistically, we hit them on these
 
-44
+43
 00:01:28,479 --> 00:01:30,880
 points. Digital identity is here. It's
 
-45
+44
 00:01:30,880 --> 00:01:33,200
 coming. It's going to be something. Now,
 
-46
+45
 00:01:33,200 --> 00:01:34,799
-one of the I would say the beauties of
+one of the, I would say, the beauties of
 
-47
+46
 00:01:34,799 --> 00:01:37,600
 the SEDI program is Chris Bramwell
 
-48
+47
 00:01:37,600 --> 00:01:39,680
 said, "Well, we could take this and
 
-49
+48
 00:01:39,680 --> 00:01:41,520
 put this against what are the
 
-50
+49
 00:01:41,520 --> 00:01:43,759
 constitutional rights that someone has."
 
-51
+50
 00:01:43,759 --> 00:01:46,479
 And by doing so, you get past all of the
 
-52
+51
 00:01:46,479 --> 00:01:48,960
 vendor needs to make money. You get you
 
-53
+52
 00:01:48,960 --> 00:01:50,159
 get right down to the root of the
 
-54
+53
 00:01:50,159 --> 00:01:51,840
 problem, which is there needs to be
 
-55
+54
 00:01:51,840 --> 00:01:54,000
 accountability and that your rights need
 
-56
+55
 00:01:54,000 --> 00:01:56,479
 to be preserved and that privacy is not
 
-57
+56
 00:01:56,479 --> 00:01:59,439
 impossible when you are talking about
 
-58
+57
 00:01:59,439 --> 00:02:01,680
 digitally issued credentials. And of
 
-59
+58
 00:02:01,680 --> 00:02:04,560
-course then we get into our the stakes.
+course then we get into the stakes.
 
-60
+59
 00:02:04,560 --> 00:02:07,119
 If the government doesn't choose or
 
-61
+60
 00:02:07,119 --> 00:02:09,920
 regulate, the market does it itself. And
 
-62
+61
 00:02:09,920 --> 00:02:13,120
 the goals of a open market are a
 
-63
+62
 00:02:13,120 --> 00:02:14,319
 little bit different than what a
 
-64
+63
 00:02:14,319 --> 00:02:16,640
 government needs to be providing the
 
-65
+64
 00:02:16,640 --> 00:02:18,879
 services that a citizen would want. And
 
-66
+65
 00:02:18,879 --> 00:02:20,800
 of course, we know that besides
 
-67
+66
 00:02:20,800 --> 00:02:22,480
 governments, there's also organizations
 
-68
+67
 00:02:22,480 --> 00:02:24,480
 that put together specifications that
 
-69
+68
 00:02:24,480 --> 00:02:26,319
 may or may not be rooted in the same
 
-70
+69
 00:02:26,319 --> 00:02:27,760
 value system that we're trying to
 
-71
+70
 00:02:27,760 --> 00:02:30,480
 maintain. So we're very adamant that we
 
-72
+71
 00:02:30,480 --> 00:02:33,200
 want to make sure that whatever we do in
 
-73
+72
 00:02:33,200 --> 00:02:35,200
 the SEDI environment, it's reflective of
 
-74
+73
 00:02:35,200 --> 00:02:37,280
 the values, goals, and rights that are
 
-75
+74
 00:02:37,280 --> 00:02:40,879
 held here in America. Now, it is not
 
-76
+75
 00:02:40,879 --> 00:02:43,200
 hard for this statement to be believed
 
-77
+76
 00:02:43,200 --> 00:02:46,480
 by all of you, right? Whoever has the
 
-78
+77
 00:02:46,480 --> 00:02:49,200
 data has the control. And the model
 
-79
+78
 00:02:49,200 --> 00:02:51,680
 right now, everything to the left or
 
-80
+79
 00:02:51,680 --> 00:02:54,959
 sorry, my right everything over there
 
-81
+80
 00:02:54,959 --> 00:02:57,760
 is how we work today. Your identity is
 
-82
+81
 00:02:57,760 --> 00:03:00,400
 owned by other individuals. It's granted
 
-83
+82
 00:03:00,400 --> 00:03:02,159
 back to you with limited rights. And
 
-84
+83
 00:03:02,159 --> 00:03:04,000
 then if you've ever looked through all
 
-85
+84
 00:03:04,000 --> 00:03:08,159
 those long user licenses, in effect,
 
-86
+85
 00:03:08,159 --> 00:03:10,560
 you've given up all control for the
 
-87
+86
 00:03:10,560 --> 00:03:12,720
 services that you that you have. And
 
-88
+87
 00:03:12,720 --> 00:03:14,480
 this isn't limited to just, hey, I got
 
-89
+88
 00:03:14,480 --> 00:03:17,040
 myself an email address for free. Your
 
-90
+89
 00:03:17,040 --> 00:03:19,040
 financial institutions do this. your
 
-91
+90
 00:03:19,040 --> 00:03:22,720
 hospitals and your HMOs, your care
 
-92
+91
 00:03:22,720 --> 00:03:24,720
 organizations, they're holding a lot of
 
-93
+92
 00:03:24,720 --> 00:03:26,879
 the data that belongs to you. And
 
-94
+93
 00:03:26,879 --> 00:03:29,280
 because it's set up that way, you are
 
-95
+94
 00:03:29,280 --> 00:03:31,519
 basically powerless to do anything about
 
-96
+95
 00:03:31,519 --> 00:03:33,280
 it. And in a lot of cases, you'll find
 
-97
+96
 00:03:33,280 --> 00:03:36,080
 that incorrect data may be used in
 
-98
+97
 00:03:36,080 --> 00:03:39,519
 profiling you to create an improper
 
-99
+98
 00:03:39,519 --> 00:03:42,080
 picture of who you are.
 
-100
+99
 00:03:42,080 --> 00:03:44,720
 So really what we want to accomplish
 
-101
+100
 00:03:44,720 --> 00:03:46,799
-inside the study framework is the idea
+inside the SEDI framework is the idea
 
-102
+101
 00:03:46,799 --> 00:03:49,680
 that you are the individual who controls
 
-103
+102
 00:03:49,680 --> 00:03:52,159
-that information because whatever the
+that information because
 
-104
+103
 00:03:52,159 --> 00:03:54,319
 wherever the information sits it is fair
 
-105
+104
 00:03:54,319 --> 00:03:57,200
 to say without contradiction that
 
-106
+105
 00:03:57,200 --> 00:04:00,159
 impacts the financial outcomes. It
 
-107
+106
 00:04:00,159 --> 00:04:02,480
 impacts your opportunities. There are a
 
-108
+107
 00:04:02,480 --> 00:04:04,480
 lot of things that get impacted because
 
-109
+108
 00:04:04,480 --> 00:04:06,560
 you don't control what should
 
-110
+109
 00:04:06,560 --> 00:04:09,680
 rightfully be yours. And this is not to
 
-111
+110
 00:04:09,680 --> 00:04:11,280
 say that everyone did it for a nefarious
 
-112
+111
 00:04:11,280 --> 00:04:13,439
 purpose. I mean, profit-seeking motive.
 
-113
+112
 00:04:13,439 --> 00:04:15,360
 We're a capitalist society. Yeah, that's
 
-114
+113
 00:04:15,360 --> 00:04:17,359
 understood. But the problem is we built
 
-115
+114
 00:04:17,359 --> 00:04:20,160
 everything to be so exploitative of you
 
-116
+115
 00:04:20,160 --> 00:04:22,240
 that we forgot that you are the
 
-117
+116
 00:04:22,240 --> 00:04:24,320
 individual who ultimately gets hurt if
 
-118
+117
 00:04:24,320 --> 00:04:26,240
 something goes wrong. In the state of
 
-119
+118
 00:04:26,240 --> 00:04:28,000
-Utah, inside government, there's a
+Utah, inside government,
 
-120
+119
 00:04:28,000 --> 00:04:29,759
 there's a very good way that we look at
 
-121
+120
 00:04:29,759 --> 00:04:32,240
 data. When we make a data error in
 
-122
+121
 00:04:32,240 --> 00:04:34,800
 government, it's a negative outcome for
 
-123
+122
 00:04:34,800 --> 00:04:38,080
 a real person. Classic example, oh the
 
-124
+123
 00:04:38,080 --> 00:04:40,160
 Medicaid eligibility system, which is a
 
-125
+124
 00:04:40,160 --> 00:04:42,560
 real time system, goes down for a couple
 
-126
+125
 00:04:42,560 --> 00:04:44,160
 hours. Now, if you're standard IT,
 
-127
+126
 00:04:44,160 --> 00:04:45,840
 you're like, big deal. Things happen.
 
-128
+127
 00:04:45,840 --> 00:04:47,919
 We'll get it back up. No big deal. But
 
-129
+128
 00:04:47,919 --> 00:04:49,680
 then when the Medicaid director marches
 
-130
+129
 00:04:49,680 --> 00:04:52,000
 in with their flesh hook and rips a
 
-131
+130
 00:04:52,000 --> 00:04:54,400
 pound off of you and says, "Right now,
 
-132
+131
 00:04:54,400 --> 00:04:56,560
 somewhere in Utah, there is a single
 
-133
+132
 00:04:56,560 --> 00:04:59,600
 mother who took two buses two hours out
 
-134
+133
 00:04:59,600 --> 00:05:02,240
 of their day to go to the pharmacy to
 
-135
+134
 00:05:02,240 --> 00:05:04,880
 get medication for pain management." and
 
-136
+135
 00:05:04,880 --> 00:05:07,039
 the pharmacy directors at that
 
-137
+136
 00:05:07,039 --> 00:05:09,440
 facility said, "We can give you one pill
 
-138
+137
 00:05:09,440 --> 00:05:10,720
 because we can't confirm your
 
-139
+138
 00:05:10,720 --> 00:05:13,120
 eligibility. You'll need to come back."
 
-140
+139
 00:05:13,120 --> 00:05:14,800
 That's the sort of situation we deal
 
-141
+140
 00:05:14,800 --> 00:05:16,960
 with when we talk about our data errors.
 
-142
+141
 00:05:16,960 --> 00:05:18,720
 And of course, we try very hard in
 
-143
+142
 00:05:18,720 --> 00:05:20,400
 government to be good stewards of that
 
-144
+143
 00:05:20,400 --> 00:05:23,199
 data. But realistically, if the
 
-145
+144
 00:05:23,199 --> 00:05:25,199
 individual has a lot more control, who's
 
-146
+145
 00:05:25,199 --> 00:05:27,759
 a better advocate than you? You are
 
-147
+146
 00:05:27,759 --> 00:05:28,880
 definitely going to be your best
 
-148
+147
 00:05:28,880 --> 00:05:30,560
 advocate.
 
-149
+148
 00:05:30,560 --> 00:05:32,720
 Now, when we get into the concepts of
 
-150
+149
 00:05:32,720 --> 00:05:34,479
 state endorsed digital identity, we
 
-151
+150
 00:05:34,479 --> 00:05:36,639
 really try to keep this as simple as
 
-152
+151
 00:05:36,639 --> 00:05:39,039
-possible. And this is this is probably
+possible. And this is probably
 
-153
+152
 00:05:39,039 --> 00:05:40,080
 way too high. And everyone's like,
 
-154
+153
 00:05:40,080 --> 00:05:41,919
 "Yeah, I get this slide immediately."
 
-155
+154
 00:05:41,919 --> 00:05:43,520
 But what we try and explain to them is
 
-156
+155
 00:05:43,520 --> 00:05:45,759
 those core concepts that we put into the
 
-157
+156
 00:05:45,759 --> 00:05:49,360
 bill of rights that identity is yours.
 
-158
+157
 00:05:49,360 --> 00:05:51,280
 It's not issued by the state, but the
 
-159
+158
 00:05:51,280 --> 00:05:52,880
 state has a role to endorse it for
 
-160
+159
 00:05:52,880 --> 00:05:54,720
 certain legal purposes. And of course,
 
-161
+160
 00:05:54,720 --> 00:05:57,280
 we get into the concept of what is a
 
-162
+161
 00:05:57,280 --> 00:05:59,199
-digital identity? how does it get
+digital identity? How does it get
 
-163
+162
 00:05:59,199 --> 00:06:01,120
 created a little bit and then we go into
 
-164
+163
 00:06:01,120 --> 00:06:02,639
 the whole idea of how it becomes your
 
-165
+164
 00:06:02,639 --> 00:06:04,400
 state endorsed digital identity through
 
-166
+165
 00:06:04,400 --> 00:06:07,520
 this process of vetting. Now there are
 
-167
+166
 00:06:07,520 --> 00:06:10,720
 some potentially debatable questions on
 
-168
+167
 00:06:10,720 --> 00:06:12,800
-here. U we don't get into the politics
+here. We don't get into the politics
 
-169
+168
 00:06:12,800 --> 00:06:14,960
 of this but we do know that there are
 
-170
+169
 00:06:14,960 --> 00:06:17,600
 some markers that need to uniquely
 
-171
+170
 00:06:17,600 --> 00:06:19,759
 identify you to be part of that digital
 
-172
+171
 00:06:19,759 --> 00:06:21,520
 identity. And this isn't to say that
 
-173
+172
 00:06:21,520 --> 00:06:23,360
 these are forever attributes. For
 
-174
+173
 00:06:23,360 --> 00:06:27,039
 example, your address, your biometric of
 
-175
+174
 00:06:27,039 --> 00:06:28,960
 your face, those are going to change.
 
-176
+175
 00:06:28,960 --> 00:06:30,720
 And we have existing laws that handle
 
-177
+176
 00:06:30,720 --> 00:06:32,639
 that. So, for example, if you are
 
-178
+177
 00:06:32,639 --> 00:06:35,199
-getting a driver's license 16, that's
+getting a driver's license at 16, that's
 
-179
+178
 00:06:35,199 --> 00:06:37,199
 not valid for more than 5 years because
 
-180
+179
 00:06:37,199 --> 00:06:38,720
-we know you're going to change by the
+we know you're going to […] by the
 
-181
+180
 00:06:38,720 --> 00:06:40,800
 time you get to college. And of course,
 
-182
+181
 00:06:40,800 --> 00:06:43,440
 with the residents here in Utah who have
 
-183
+182
 00:06:43,440 --> 00:06:46,160
 driver's licenses who are over 18, it's
 
-184
+183
 00:06:46,160 --> 00:06:47,840
 a 10-year window. So there are
 
-185
+184
 00:06:47,840 --> 00:06:49,360
 opportunities for those things to be
 
-186
+185
 00:06:49,360 --> 00:06:52,000
-changed as part of the credential or to
+changed as part of the credential or to,
+
+186
+00:06:52,000 --> 00:06:53,600
+for lack of a better term, lose the
 
 187
-00:06:52,000 --> 00:06:53,600
-For lack of a better term lose the
-
-188
 00:06:53,600 --> 00:06:55,199
 endorsement.
 
-189
+188
 00:06:55,199 --> 00:06:58,080
 Now when we talk about healthcare data
 
-190
+189
 00:06:58,080 --> 00:06:59,919
 there are a ton of different places
 
-191
+190
 00:06:59,919 --> 00:07:02,240
 where this applies. Now we had
 
-192
+191
 00:07:02,240 --> 00:07:03,919
 healthKERI talking about the provider
 
-193
+192
 00:07:03,919 --> 00:07:06,720
 payer relationship. That's just one of a
 
-194
+193
 00:07:06,720 --> 00:07:09,599
 myriad of relationships that exist
 
-195
+194
 00:07:09,599 --> 00:07:11,440
 between you and your healthcare
 
-196
+195
 00:07:11,440 --> 00:07:12,720
 interactions. Whether that's the
 
-197
+196
 00:07:12,720 --> 00:07:15,360
 ownership of your individual data, your
 
-198
+197
 00:07:15,360 --> 00:07:17,280
 desire to participate in some sort of
 
-199
+198
 00:07:17,280 --> 00:07:19,199
-demographic mapping. Today, today we
+demographic mapping. Today, we
 
-200
+199
 00:07:19,199 --> 00:07:21,120
 don't do that. Today we have systems
 
-201
+200
 00:07:21,120 --> 00:07:24,479
 that basically at government control
 
-202
+201
 00:07:24,479 --> 00:07:26,800
 take your data and aggregate it for
 
-203
+202
 00:07:26,800 --> 00:07:29,919
 research purposes.
 
-204
+203
 00:07:29,919 --> 00:07:31,120
 And for some people, that's not
 
-205
+204
 00:07:31,120 --> 00:07:33,280
-shocking. But when you when you go to a
+shocking. But when you go to a
 
-206
+205
 00:07:33,280 --> 00:07:34,560
 state and you say, "Hey, do you have an
 
-207
+206
 00:07:34,560 --> 00:07:37,199
 All-Payer Claims Database?" If the
 
-208
+207
 00:07:37,199 --> 00:07:39,520
 person's in the no, that means that
 
-209
+208
 00:07:39,520 --> 00:07:41,360
 every encounter you have that's part of
 
-210
+209
 00:07:41,360 --> 00:07:44,000
 your insurance program in that state
 
-211
+210
 00:07:44,000 --> 00:07:46,400
 with your physician and the notes
 
-212
+211
 00:07:46,400 --> 00:07:48,639
-associated with all your ICD10 codes,
+associated with all your ICD-10 codes,
 
-213
+212
 00:07:48,639 --> 00:07:50,400
 everything that happened during that
 
-214
+213
 00:07:50,400 --> 00:07:52,960
 medical encounter is now in a government
 
-215
+214
 00:07:52,960 --> 00:07:56,800
 database for the purposes of looking at
 
-216
+215
 00:07:56,800 --> 00:07:59,280
 healthcare outcomes. Did patient A and
 
-217
+216
 00:07:59,280 --> 00:08:00,879
 patient B who received different
 
-218
+217
 00:08:00,879 --> 00:08:02,400
 medications, which one had the better
 
-219
+218
 00:08:02,400 --> 00:08:04,960
 outcome? So there's a lot of good
 
-220
+219
 00:08:04,960 --> 00:08:06,879
 intentions in terms of why these data
 
-221
+220
 00:08:06,879 --> 00:08:09,440
 sets exist. But I will also tell you the
 
-222
+221
 00:08:09,440 --> 00:08:11,199
 most dangerous thing in government is a
 
-223
+222
 00:08:11,199 --> 00:08:13,120
 well-meaning bureaucrat. It's not that
 
-224
+223
 00:08:13,120 --> 00:08:14,000
 they're trying to do something
 
-225
+224
 00:08:14,000 --> 00:08:15,840
 nefarious, but sometimes they try and
 
-226
+225
 00:08:15,840 --> 00:08:18,160
 get hold of data and put it together to
 
-227
+226
 00:08:18,160 --> 00:08:20,400
 create a picture. Well, where you don't
 
-228
+227
 00:08:20,400 --> 00:08:22,160
 have any interface to this and you don't
 
-229
+228
 00:08:22,160 --> 00:08:24,240
 have any control over that data, there's
 
-230
+229
 00:08:24,240 --> 00:08:26,240
-the possibility that inference,
+the possibility that that inference,
 
-231
+230
 00:08:26,240 --> 00:08:28,879
 that conclusion may help you, it may
 
-232
+231
 00:08:28,879 --> 00:08:30,560
 harm you. So this is part of the reason
 
-233
+232
 00:08:30,560 --> 00:08:32,399
 we want to start looking at how we
 
-234
+233
 00:08:32,399 --> 00:08:34,560
 switch this model around so that you
 
-235
+234
 00:08:34,560 --> 00:08:37,200
 have more executive control and how your
 
-236
+235
 00:08:37,200 --> 00:08:40,479
 digital twin story gets told.
 
-237
+236
 00:08:40,479 --> 00:08:43,519
 Now when we talk to them about the state
 
-238
+237
 00:08:43,519 --> 00:08:45,120
 endorsed digital identity, we also like
 
-239
+238
 00:08:45,120 --> 00:08:46,800
 to help people understand this
 
-240
+239
 00:08:46,800 --> 00:08:49,519
 concept of perpetual identity. And this
 
-241
+240
 00:08:49,519 --> 00:08:51,440
 is where we differ with the mobile
 
-242
+241
 00:08:51,440 --> 00:08:53,440
 driver's license community and they're
 
-243
+242
 00:08:53,440 --> 00:08:54,720
 saying you can use it for everything.
 
-244
+243
 00:08:54,720 --> 00:08:56,160
 I'm like, you can use it for everything
 
-245
+244
 00:08:56,160 --> 00:08:58,000
 that you don't mind having burned down
 
-246
+245
 00:08:58,000 --> 00:08:59,920
 if you move to a new state. That's
 
-247
+246
 00:08:59,920 --> 00:09:02,800
 totally fine. But in our particular
 
-248
+247
 00:09:02,800 --> 00:09:04,240
 instance, we want to be able to say that
 
-249
+248
 00:09:04,240 --> 00:09:06,720
 there are certain documents that you may
 
-250
+249
 00:09:06,720 --> 00:09:09,680
 associate with your SEDI and they
 
-251
+250
 00:09:09,680 --> 00:09:11,440
 could be your medical records, you know,
 
-252
+251
 00:09:11,440 --> 00:09:13,040
 your digital driver's license. Any of
 
-253
+252
 00:09:13,040 --> 00:09:15,839
 these items that you have associated
 
-254
+253
 00:09:15,839 --> 00:09:18,560
 with your SEDI can be created and you
 
-255
+254
 00:09:18,560 --> 00:09:20,640
 may have information that you are going
 
-256
+255
 00:09:20,640 --> 00:09:22,880
 to selfassociate like, hey, here's my
 
-257
+256
 00:09:22,880 --> 00:09:25,519
 claims history. Here's some of my MRI
 
-258
+257
 00:09:25,519 --> 00:09:27,360
 scans, things that you have in your
 
-259
+258
 00:09:27,360 --> 00:09:28,959
 possession that you want to get into
 
-260
+259
 00:09:28,959 --> 00:09:31,360
 your digital records but currently
 
-261
+260
 00:09:31,360 --> 00:09:32,640
 don't have. And this is where these
 
-262
+261
 00:09:32,640 --> 00:09:34,160
-functionalities like blue button are
+functionalities like Blue Button are
 
-263
+262
 00:09:34,160 --> 00:09:37,519
 fantastic is you have the ability to say
 
-264
+263
 00:09:37,519 --> 00:09:39,760
 this is categorically my MRI. I'm going
 
-265
+264
 00:09:39,760 --> 00:09:41,440
 to send it to you electronically. You
 
-266
+265
 00:09:41,440 --> 00:09:43,200
 can pull it directly into my into my
 
-267
+266
 00:09:43,200 --> 00:09:45,440
 record set. That's the level of control
 
-268
+267
 00:09:45,440 --> 00:09:48,000
 that we want to have. not go to doctor
 
-269
+268
 00:09:48,000 --> 00:09:51,360
 office A, pay $50 for a doc fee to have
 
-270
+269
 00:09:51,360 --> 00:09:54,880
 them really, it still cracks me up, fax
 
-271
+270
 00:09:54,880 --> 00:09:57,120
 information to doctor B, and then
 
-272
+271
 00:09:57,120 --> 00:09:58,720
 hopefully they didn't lose anything in
 
-273
+272
 00:09:58,720 --> 00:10:00,720
 translation and the whole packet's
 
-274
+273
 00:10:00,720 --> 00:10:02,560
 complete, which you generally find out
 
-275
+274
 00:10:02,560 --> 00:10:04,320
 on your next medical appointment that
 
-276
+275
 00:10:04,320 --> 00:10:06,399
 it's not somebody dropped pages 8
 
-277
+276
 00:10:06,399 --> 00:10:07,680
 through 12, and now you got to go
 
-278
+277
 00:10:07,680 --> 00:10:09,279
 through this whole cycle again. So, we
 
-279
+278
 00:10:09,279 --> 00:10:10,800
 have these inefficiencies that are in
 
-280
+279
 00:10:10,800 --> 00:10:12,800
 the system the way we run it today. And
 
-281
+280
 00:10:12,800 --> 00:10:14,399
 we're telling people, no, if once you're
 
-282
+281
 00:10:14,399 --> 00:10:16,560
 in control of this, you can start to
 
-283
+282
 00:10:16,560 --> 00:10:19,040
 aggregate your data as necessary. And of
 
-284
+283
 00:10:19,040 --> 00:10:20,720
 course, we talk about the concept of
 
-285
+284
 00:10:20,720 --> 00:10:23,279
 perpetual ownership. If I move from Utah
 
-286
+285
 00:10:23,279 --> 00:10:25,680
 to Texas, there are certain privileges
 
-287
+286
 00:10:25,680 --> 00:10:28,079
 that go away. I don't keep a Utah
 
-288
+287
 00:10:28,079 --> 00:10:30,000
 driver's endorsement anymore. I have to
 
-289
+288
 00:10:30,000 --> 00:10:32,480
 go get a Texas one. But everything else
 
-290
+289
 00:10:32,480 --> 00:10:35,839
 that I had associated with my SEDI is
 
-291
+290
 00:10:35,839 --> 00:10:38,480
 still valid. And in fact, because I have
 
-292
+291
 00:10:38,480 --> 00:10:40,959
 a SEDI that's authorized by Utah or
 
-293
+292
 00:10:40,959 --> 00:10:44,079
 endorsed by Utah, Texas can say, "We
 
-294
+293
 00:10:44,079 --> 00:10:45,519
 know that's Utah. So, we're going to
 
-295
+294
 00:10:45,519 --> 00:10:47,440
 accept these baseline facts that you've
 
-296
+295
 00:10:47,440 --> 00:10:49,360
 asserted. We can bring you right into
 
-297
+296
 00:10:49,360 --> 00:10:51,680
 the system and we can move on." And hey,
 
-298
+297
 00:10:51,680 --> 00:10:54,000
 guess what? You can go get your Texas
 
-299
+298
 00:10:54,000 --> 00:10:56,399
 driver's license endorsement without all
 
-300
+299
 00:10:56,399 --> 00:10:58,079
 the reproofs that we have to do along
 
-301
+300
 00:10:58,079 --> 00:11:00,160
 the way.
 
-302
+301
 00:11:00,160 --> 00:11:03,680
 So when we looked at SEDI as a
 
-303
+302
 00:11:03,680 --> 00:11:05,760
 functional item, we wanted to build into
 
-304
+303
 00:11:05,760 --> 00:11:07,360
 the framework some very important
 
-305
+304
 00:11:07,360 --> 00:11:09,040
 principles. And of course you can see
 
-306
+305
 00:11:09,040 --> 00:11:10,560
 them up here. We break them into some
 
-307
+306
 00:11:10,560 --> 00:11:12,640
 general categories. Now this is where I
 
-308
+307
 00:11:12,640 --> 00:11:15,600
 want you as KERI experts to start
 
-309
+308
 00:11:15,600 --> 00:11:17,760
 ticking off in your mind which one of
 
-310
+309
 00:11:17,760 --> 00:11:20,000
 these items are solved by KERI, which
 
-311
+310
 00:11:20,000 --> 00:11:22,240
 one of these ones are actually enhanced
 
-312
+311
 00:11:22,240 --> 00:11:24,640
 by KERI, and also when we get to the
 
-313
+312
 00:11:24,640 --> 00:11:26,160
 end, I'm going to give you a little
 
-314
+313
 00:11:26,160 --> 00:11:27,600
 here's what we're not going to do at the
 
-315
+314
 00:11:27,600 --> 00:11:29,600
 state level. Okay? So privacy and
 
-316
+315
 00:11:29,600 --> 00:11:32,000
 autonomy this is pretty straightforward.
 
-317
+316
 00:11:32,000 --> 00:11:34,399
 We want you to have interactions with
 
-318
+317
 00:11:34,399 --> 00:11:36,320
 your digital identity that the
 
-319
+318
 00:11:36,320 --> 00:11:38,399
 government does not monitor has no
 
-320
+319
 00:11:38,399 --> 00:11:41,760
 capability to and also third parties.
 
-321
+320
 00:11:41,760 --> 00:11:44,320
 We do not want crossontext correlation.
 
-322
+321
 00:11:44,320 --> 00:11:45,839
 We want you to have individual
 
-323
+322
 00:11:45,839 --> 00:11:48,399
 relationships and as such there are
 
-324
+323
 00:11:48,399 --> 00:11:50,399
 technologies that will do that. Funny I
 
-325
+324
 00:11:50,399 --> 00:11:51,519
 think there's one in the room here
 
-326
+325
 00:11:51,519 --> 00:11:53,600
 that might do that. We do want you to
 
-327
+326
 00:11:53,600 --> 00:11:54,959
 have this capability of selective
 
-328
+327
 00:11:54,959 --> 00:11:57,519
 disclosure. I was telling Mike a
 
-329
+328
 00:11:57,519 --> 00:12:00,720
 story where I went to my grandkids,
 
-330
+329
 00:12:00,720 --> 00:12:03,120
 picked them up for a fun day out and we
 
-331
+330
 00:12:03,120 --> 00:12:05,200
 went to a trampoline place and the first
 
-332
+331
 00:12:05,200 --> 00:12:07,839
 thing they did was get grandpa to sign a
 
-333
+332
 00:12:07,839 --> 00:12:10,160
 liability waiver. And as I was looking
 
-334
+333
 00:12:10,160 --> 00:12:12,800
 at it, I first thing I thought is, you
 
-335
+334
 00:12:12,800 --> 00:12:15,279
 do not need my birthday. You just need
 
-336
+335
 00:12:15,279 --> 00:12:16,959
 to know that I'm old enough to enter
 
-337
+336
 00:12:16,959 --> 00:12:18,959
 into a release of liability. And I kind
 
-338
+337
 00:12:18,959 --> 00:12:21,279
 of sparked because not only would that
 
-339
+338
 00:12:21,279 --> 00:12:23,120
 be a problem, I don't actually have
 
-340
+339
 00:12:23,120 --> 00:12:25,200
 permission for my daughter to release
 
-341
+340
 00:12:25,200 --> 00:12:26,800
 liability for her children. So there's
 
-342
+341
 00:12:26,800 --> 00:12:28,160
 some other things that could get cleaned
 
-343
+342
 00:12:28,160 --> 00:12:30,560
 up in that situation, but this is part
 
-344
+343
 00:12:30,560 --> 00:12:32,800
 of the community education. This is the
 
-345
+344
 00:12:32,800 --> 00:12:35,040
 open sourcing of privacy we hope to have
 
-346
+345
 00:12:35,040 --> 00:12:37,279
 happen is I'm not going to have every
 
-347
+346
 00:12:37,279 --> 00:12:38,639
 single interaction where I'm going to be
 
-348
+347
 00:12:38,639 --> 00:12:40,959
 able to ask why, but we do want to get
 
-349
+348
 00:12:40,959 --> 00:12:43,760
 people and just across the world saying,
 
-350
+349
 00:12:43,760 --> 00:12:45,519
 "Do you really need that for this
 
-351
+350
 00:12:45,519 --> 00:12:47,920
 transaction?" And that's part of where I
 
-352
+351
 00:12:47,920 --> 00:12:50,240
 say in keeping with what Chris has
 
-353
+352
 00:12:50,240 --> 00:12:52,480
 said, a 10-year journey. Now, if you
 
-354
+353
 00:12:52,480 --> 00:12:55,920
 think back in cyber security, how long
 
-355
+354
 00:12:55,920 --> 00:12:57,440
 did it get people to understand the
 
-356
+355
 00:12:57,440 --> 00:12:59,920
 Nigerian prince scam before we could go
 
-357
+356
 00:12:59,920 --> 00:13:02,320
 on to that's a fishing email and then
 
-358
+357
 00:13:02,320 --> 00:13:04,639
 that became part of the lexicon that
 
-359
+358
 00:13:04,639 --> 00:13:07,839
 people use? It took a long time. I
 
-360
+359
 00:13:07,839 --> 00:13:09,680
 call it about a 15-year window just
 
-361
+360
 00:13:09,680 --> 00:13:11,040
 going back over my history and saying,
 
-362
+361
 00:13:11,040 --> 00:13:12,480
 "Yeah, it's about when we got people to
 
-363
+362
 00:13:12,480 --> 00:13:14,880
 understand it." And still we fall for
 
-364
+363
 00:13:14,880 --> 00:13:16,800
 these things. But this is the same
 
-365
+364
 00:13:16,800 --> 00:13:18,079
 journey we're going to be on with
 
-366
+365
 00:13:18,079 --> 00:13:20,240
 selective disclosure. We have to get
 
-367
+366
 00:13:20,240 --> 00:13:21,680
 people understanding. No, no, no. You're
 
-368
+367
 00:13:21,680 --> 00:13:24,000
 in the driver's seat. You don't have to
 
-369
+368
 00:13:24,000 --> 00:13:26,000
 give up this information to be able to
 
-370
+369
 00:13:26,000 --> 00:13:28,959
 receive services. Now, there's a major
 
-371
+370
 00:13:28,959 --> 00:13:30,800
 medical provider that I'm not going to
 
-372
+371
 00:13:30,800 --> 00:13:32,639
 mention them by name, but when you go in
 
-373
+372
 00:13:32,639 --> 00:13:34,959
 to receive services, they give you this
 
-374
+373
 00:13:34,959 --> 00:13:36,720
 great set of disclosures. And one of
 
-375
+374
 00:13:36,720 --> 00:13:39,360
 them is basically a blanket that says
 
-376
+375
 00:13:39,360 --> 00:13:41,360
 you're seating all your rights for all
 
-377
+376
 00:13:41,360 --> 00:13:43,040
 your data that we may use in research
 
-378
+377
 00:13:43,040 --> 00:13:45,360
 purposes including biological samples.
 
-379
+378
 00:13:45,360 --> 00:13:47,519
 We don't have to notify you. And by the
 
-380
+379
 00:13:47,519 --> 00:13:49,200
 way, if you don't agree to this, we're
 
-381
+380
 00:13:49,200 --> 00:13:51,920
 not treating you. That is scary that
 
-382
+381
 00:13:51,920 --> 00:13:54,079
 they have that capability. But as we get
 
-383
+382
 00:13:54,079 --> 00:13:56,160
 a community that's becoming more savvy
 
-384
+383
 00:13:56,160 --> 00:13:57,680
 about these things, not just small
 
-385
+384
 00:13:57,680 --> 00:13:59,199
 groups like us, but the larger
 
-386
+385
 00:13:59,199 --> 00:14:01,600
 community, we can affect change and make
 
-387
+386
 00:14:01,600 --> 00:14:04,880
 those policies flat out illegal. Okay?
 
-388
+387
 00:14:04,880 --> 00:14:06,560
 And of course, one of the things that I
 
-389
+388
 00:14:06,560 --> 00:14:09,279
 do want to mention is personas in the
 
-390
+389
 00:14:09,279 --> 00:14:11,279
 term that we're using it in is basically
 
-391
+390
 00:14:11,279 --> 00:14:13,519
 helping people understand. You don't
 
-392
+391
 00:14:13,519 --> 00:14:14,959
 have to stand there at the counter and
 
-393
+392
 00:14:14,959 --> 00:14:17,440
 pick element A, element B, element.
 
-394
+393
 00:14:17,440 --> 00:14:19,279
 There are certain transactions you're
 
-395
+394
 00:14:19,279 --> 00:14:20,959
 going to have that are going to be
 
-396
+395
 00:14:20,959 --> 00:14:23,279
 standard. You know, if you if you go to
 
-397
+396
 00:14:23,279 --> 00:14:25,920
 a bar or you might have a pub crawling a
 
-398
+397
 00:14:25,920 --> 00:14:27,839
 persona that says, "Here's my name,
 
-399
+398
 00:14:27,839 --> 00:14:30,320
 here's my face, and here's when I want
 
-400
+399
 00:14:30,320 --> 00:14:32,560
 you to cut me off and call the Uber for
 
-401
+400
 00:14:32,560 --> 00:14:34,800
 me." That's going to be something that
 
-402
+401
 00:14:34,800 --> 00:14:36,880
 we would expect the wallets to start
 
-403
+402
 00:14:36,880 --> 00:14:39,279
 supporting is how do I map these things
 
-404
+403
 00:14:39,279 --> 00:14:41,920
 very quickly so I can get to through
 
-405
+404
 00:14:41,920 --> 00:14:43,680
 the interaction as frictionally
 
-406
+405
 00:14:43,680 --> 00:14:46,560
 frictionless as possible.
 
-407
+406
 00:14:46,560 --> 00:14:48,720
 So we get the next one going. Okay, I
 
-408
+407
 00:14:48,720 --> 00:14:50,959
 talked a little bit very fast about
 
-409
+408
 00:14:50,959 --> 00:14:53,279
 delegation and guardianship the other
 
-410
+409
 00:14:53,279 --> 00:14:55,440
 day. Probably faster than I should have,
 
-411
+410
 00:14:55,440 --> 00:15:00,150
 but we'll talk about it some more.
 
-412
+411
 00:15:02,629 --> 00:15:04,720
 Delegation and guardianship is one of
 the most critical relationships that we
 
-413
+412
 00:15:04,720 --> 00:15:06,800
 see both from a government and a
 
-414
+413
 00:15:06,800 --> 00:15:09,440
 societal capability. From a government
 
-415
+414
 00:15:09,440 --> 00:15:12,079
 standpoint, there are multiple programs
 
-416
+415
 00:15:12,079 --> 00:15:14,480
 that operate based on the relationship
 
-417
+416
 00:15:14,480 --> 00:15:17,440
 that a parent has to a child a
 
-418
+417
 00:15:17,440 --> 00:15:20,320
 caregiver to a foster child. You can you
 
-419
+418
 00:15:20,320 --> 00:15:21,920
 can go down the litany of them and
 
-420
+419
 00:15:21,920 --> 00:15:23,600
 you'll find there's a lot. In the story
 
-421
+420
 00:15:23,600 --> 00:15:26,320
 I told yesterday about getting a durable
 
-422
+421
 00:15:26,320 --> 00:15:28,639
 medical power of attorney for my
 
-423
+422
 00:15:28,639 --> 00:15:30,320
 father while he was basically passed out
 
-424
+423
 00:15:30,320 --> 00:15:32,959
 on the bed. He doesn't really remember
 
-425
+424
 00:15:32,959 --> 00:15:35,920
 that. And there are situations where he
 
-426
+425
 00:15:35,920 --> 00:15:38,399
 may want to rescind that. How does he do
 
-427
+426
 00:15:38,399 --> 00:15:40,639
 that? All we've got is a scroll on a
 
-428
+427
 00:15:40,639 --> 00:15:42,160
 piece of paper that I can guarantee you
 
-429
+428
 00:15:42,160 --> 00:15:44,240
 is not his signature, but it will hold
 
-430
+429
 00:15:44,240 --> 00:15:46,399
 up in court because a notary came, took
 
-431
+430
 00:15:46,399 --> 00:15:47,920
 400 bucks in hash from me and said,
 
-432
+431
 00:15:47,920 --> 00:15:50,320
 "Yep, he had a positive
 
-433
+432
 00:15:50,320 --> 00:15:52,800
 acknowledgement of what happened." So,
 
-434
+433
 00:15:52,800 --> 00:15:54,639
 when we have these situations of where
 
-435
+434
 00:15:54,639 --> 00:15:56,880
 we have vulnerable individuals who need
 
-436
+435
 00:15:56,880 --> 00:15:59,680
 assistance or you have an aging adult
 
-437
+436
 00:15:59,680 --> 00:16:01,839
 who quite frankly need you to help them
 
-438
+437
 00:16:01,839 --> 00:16:03,839
 with their finances and other
 
-439
+438
 00:16:03,839 --> 00:16:07,040
 items, it's really cumbersome today.
 
-440
+439
 00:16:07,040 --> 00:16:09,040
 And I've had to do this for one relative
 
-441
+440
 00:16:09,040 --> 00:16:09,942
 and I've had to do this for one relative
 
-442
+441
 00:16:09,966 --> 00:16:10,800
 where we had to bring the court order
 
-443
+442
 00:16:10,800 --> 00:16:12,959
 down to the bank and then they went
 
-444
+443
 00:16:12,959 --> 00:16:14,000
 through this whole trust and
 
-445
+444
 00:16:14,000 --> 00:16:16,560
 verification proc process. They called
 
-446
+445
 00:16:16,560 --> 00:16:18,560
 the courts. They wanted the make
 
-447
+446
 00:16:18,560 --> 00:16:21,120
 sure that the all the numbers matched
 
-448
+447
 00:16:21,120 --> 00:16:23,279
 up on the case and everything. It was
 
-449
+448
 00:16:23,279 --> 00:16:26,240
 ridiculous. And it and fortunately, they
 
-450
+449
 00:16:26,240 --> 00:16:28,000
 only had one bank. I was thinking, what
 
-451
+450
 00:16:28,000 --> 00:16:30,079
 if they had like an investment portfolio
 
-452
+451
 00:16:30,079 --> 00:16:32,160
 completely separate and that investment
 
-453
+452
 00:16:32,160 --> 00:16:35,600
 company isn't even in my state? I
 
-454
+453
 00:16:35,600 --> 00:16:37,360
 got chills on how long that would take
 
-455
+454
 00:16:37,360 --> 00:16:40,240
 me to help them out. And with the
 
-456
+455
 00:16:40,240 --> 00:16:42,399
 technologies that KERI is providing,
 
-457
+456
 00:16:42,399 --> 00:16:44,399
 there's the ability to really do that
 
-458
+457
 00:16:44,399 --> 00:16:46,639
 quickly through these the these designed
 
-459
+458
 00:16:46,639 --> 00:16:48,959
 and delegated guardian relationships.
 
-460
+459
 00:16:48,959 --> 00:16:50,959
 And as I mentioned in that little
 
-461
+460
 00:16:50,959 --> 00:16:52,720
 vignette yesterday that all my brothers
 
-462
+461
 00:16:52,720 --> 00:16:54,079
 and sisters were sitting around the
 
-463
+462
 00:16:54,079 --> 00:16:56,000
 table arguing,
 
-464
+463
 00:16:56,000 --> 00:16:59,279
 I realized there's six adults here that
 
-465
+464
 00:16:59,279 --> 00:17:02,000
 could come to some consensus on what is
 
-466
+465
 00:17:02,000 --> 00:17:04,640
 best for the situation. And it would be
 
-467
+466
 00:17:04,640 --> 00:17:06,480
 in the interest of my father or my
 
-468
+467
 00:17:06,480 --> 00:17:08,079
 mother to have us have that sort of
 
-469
+468
 00:17:08,079 --> 00:17:10,720
 capability. So multi- signature to be
 
-470
+469
 00:17:10,720 --> 00:17:13,439
 able to authorize these activities.
 
-471
+470
 00:17:13,439 --> 00:17:15,919
 Totally important. Now we talked a
 
-472
+471
 00:17:15,919 --> 00:17:18,160
 little bit about agentic AI. It's
 
-473
+472
 00:17:18,160 --> 00:17:19,839
 coming. I'm playing with a lot of
 
-474
+473
 00:17:19,839 --> 00:17:21,280
 them. They're still in my little
 
-475
+474
 00:17:21,280 --> 00:17:22,880
 sandbox, but some of them are getting
 
-476
+475
 00:17:22,880 --> 00:17:25,280
 more useful. And one of the things that
 
-477
+476
 00:17:25,280 --> 00:17:28,400
 I would find extremely useful is I was
 
-478
+477
 00:17:28,400 --> 00:17:30,240
 playing around with Open Claw and I
 
-479
+478
 00:17:30,240 --> 00:17:31,840
 decided I wanted to
 
-480
+479
 00:17:31,840 --> 00:17:34,640
 implement Geminis's or Google CLI
 
-481
+480
 00:17:34,640 --> 00:17:37,600
 and it's like well I usually ask Grock
 
-482
+481
 00:17:37,600 --> 00:17:39,120
 how to do that but I thought I would ask
 
-483
+482
 00:17:39,120 --> 00:17:41,679
 Gemini directly and it came up with this
 
-484
+483
 00:17:41,679 --> 00:17:43,520
 big fat don't do that is a
 
-485
+484
 00:17:43,520 --> 00:17:45,760
 violation of our policies and terms and
 
-486
+485
 00:17:45,760 --> 00:17:47,520
 conditions and we will shut you down no
 
-487
+486
 00:17:47,520 --> 00:17:51,280
 ifs ands or buts you know bad you.
 
-488
+487
 00:17:51,280 --> 00:17:54,640
 And I realized as I thought through what
 
-489
+488
 00:17:54,640 --> 00:17:55,919
 would have been the implications of
 
-490
+489
 00:17:55,919 --> 00:17:59,440
 losing my I call it my burner account,
 
-491
+490
 00:17:59,440 --> 00:18:02,720
 but I have not dozens, I have hundreds
 
-492
+491
 00:18:02,720 --> 00:18:04,799
 of logins that are tied to that.
 
-493
+492
 00:18:04,799 --> 00:18:07,039
 Hundreds of logins. So if that company
 
-494
+493
 00:18:07,039 --> 00:18:09,520
 decided to take it away from me, I would
 
-495
+494
 00:18:09,520 --> 00:18:11,600
 break my digital life in more ways than
 
-496
+495
 00:18:11,600 --> 00:18:14,080
 one. So
 
-497
+496
 00:18:14,080 --> 00:18:15,760
 here's your product placement idea. If
 
-498
+497
 00:18:15,760 --> 00:18:18,640
 anyone wants to add this, I would love
 
-499
+498
 00:18:18,640 --> 00:18:21,280
 that once my SEDI goes live that I have
 
-500
+499
 00:18:21,280 --> 00:18:23,200
 the capability to go and break all those
 
-501
+500
 00:18:23,200 --> 00:18:24,799
 relationships automatically and
 
-502
+501
 00:18:24,799 --> 00:18:27,520
 reassociate them with an identity that I
 
-503
+502
 00:18:27,520 --> 00:18:29,760
 physically control. That's where I want
 
-504
+503
 00:18:29,760 --> 00:18:32,240
 to end up because at the end of the day,
 
-505
+504
 00:18:32,240 --> 00:18:35,520
 if we leave all those accounts and logins
 
-506
+505
 00:18:35,520 --> 00:18:37,520
 out there, we're seeding our power to
 
-507
+506
 00:18:37,520 --> 00:18:39,919
 control our own destiny. And of course,
 
-508
+507
 00:18:39,919 --> 00:18:41,520
 we've talked about the permission and
 
-509
+508
 00:18:41,520 --> 00:18:44,640
 consent the demo for KERI blocks.
 
-510
+509
 00:18:44,640 --> 00:18:47,120
 some of you might have seen at IIIW was
 
-511
+510
 00:18:47,120 --> 00:18:48,480
 fantastic. For those who didn't, and
 
-512
+511
 00:18:48,480 --> 00:18:49,760
 I'll just give you the two-minute
 
-513
+512
 00:18:49,760 --> 00:18:52,240
 overview, the goals are the same.
 
-514
+513
 00:18:52,240 --> 00:18:54,320
 Parents do not want their children in
 
-515
+514
 00:18:54,320 --> 00:18:56,559
 environments where there are predators.
 
-516
+515
 00:18:56,559 --> 00:18:57,919
 And we know that there are online
 
-517
+516
 00:18:57,919 --> 00:19:00,080
 communities that despite their best
 
-518
+517
 00:19:00,080 --> 00:19:02,640
 efforts, wink the profit
 
-519
+518
 00:19:02,640 --> 00:19:04,400
 motive is still there. So, they're not
 
-520
+519
 00:19:04,400 --> 00:19:06,320
 investing in the technologies that will
 
-521
+520
 00:19:06,320 --> 00:19:08,720
 protect children. And in this particular
 
-522
+521
 00:19:08,720 --> 00:19:11,840
 example, we had a parent credential,
 
-523
+522
 00:19:11,840 --> 00:19:14,960
 a SEDI based credential that did a
 
-524
+523
 00:19:14,960 --> 00:19:17,280
 derivative credential for their child
 
-525
+524
 00:19:17,280 --> 00:19:19,679
 and said, "This is my child. This they
 
-526
+525
 00:19:19,679 --> 00:19:22,320
 are 13 and they can be on this system
 
-527
+526
 00:19:22,320 --> 00:19:25,120
 from 5 to 7:00 p.m. two nights a week
 
-528
+527
 00:19:25,120 --> 00:19:27,600
 and they can only talk to other children
 
-529
+528
 00:19:27,600 --> 00:19:30,000
 who have a validated study credential."
 
-530
+529
 00:19:30,000 --> 00:19:31,760
 And it's fun to watch the chat window
 
-531
+530
 00:19:31,760 --> 00:19:34,160
 and all the people disappear who are not
 
-532
+531
 00:19:34,160 --> 00:19:36,160
 able to talk to your child. Now, some
 
-533
+532
 00:19:36,160 --> 00:19:37,360
 people think that's that's overly
 
-534
+533
 00:19:37,360 --> 00:19:38,720
 restrictive. You're going to have your
 
-535
+534
 00:19:38,720 --> 00:19:41,440
 genius child get around it anyway. That
 
-536
+535
 00:19:41,440 --> 00:19:43,440
 is where we do have that interface
 
-537
+536
 00:19:43,440 --> 00:19:46,080
 between technology and law. Especially
 
-538
+537
 00:19:46,080 --> 00:19:47,919
 in Utah, we've talked a lot about the
 
-539
+538
 00:19:47,919 --> 00:19:49,760
 harms to children through social media
 
-540
+539
 00:19:49,760 --> 00:19:52,080
 and other ways. I don't think it's it's
 
-541
+540
 00:19:52,080 --> 00:19:53,760
 going to be too much of a stretch once
 
-542
+541
 00:19:53,760 --> 00:19:56,720
 the technology is ubiquitous to have
 
-543
+542
 00:19:56,720 --> 00:19:59,520
 the law catch up to help parents
 
-544
+543
 00:19:59,520 --> 00:20:01,520
 manage their children's online
 
-545
+544
 00:20:01,520 --> 00:20:03,919
 environments. Okay. Security and
 
-546
+545
 00:20:03,919 --> 00:20:06,400
 recovery. One of the things that when I
 
-547
+546
 00:20:06,400 --> 00:20:08,480
 read Sam's paper for the very first
 
-548
+547
 00:20:08,480 --> 00:20:11,760
 time, I was like, "Okay, why is it that
 
-549
+548
 00:20:11,760 --> 00:20:13,760
 we've been doing PKI this way for like
 
-550
+549
 00:20:13,760 --> 00:20:16,559
 25 years at this point and nobody
 
-551
+550
 00:20:16,559 --> 00:20:18,080
 figured out this really obvious thing,
 
-552
+551
 00:20:18,080 --> 00:20:19,760
 which is if you can't tell what the key
 
-553
+552
 00:20:19,760 --> 00:20:21,840
 state is and where you're going next,
 
-554
+553
 00:20:21,840 --> 00:20:23,520
 you're back to that whole trust model
 
-555
+554
 00:20:23,520 --> 00:20:25,520
 and all the things we did to make CA's
 
-556
+555
 00:20:25,520 --> 00:20:27,440
 work and the intermediate certificate
 
-557
+556
 00:20:27,440 --> 00:20:28,640
 and by the way, get rid of this one."
 
-558
+557
 00:20:28,640 --> 00:20:31,520
 And I was like, Sam, it was genius how
 
-559
+558
 00:20:31,520 --> 00:20:33,440
 simple it was when you looked at it, but
 
-560
+559
 00:20:33,440 --> 00:20:35,280
 it was like it was one of those things
 
-561
+560
 00:20:35,280 --> 00:20:37,280
 that until somebody came up with that
 
-562
+561
 00:20:37,280 --> 00:20:38,640
 answer, we were going to still suffer
 
-563
+562
 00:20:38,640 --> 00:20:40,960
 from the same problem. So where KERI
 
-564
+563
 00:20:40,960 --> 00:20:42,720
 has done a lot of things to help us out
 
-565
+564
 00:20:42,720 --> 00:20:44,559
 and of course like Sam and I have talked
 
-566
+565
 00:20:44,559 --> 00:20:45,919
 about this over the last three years
 
-567
+566
 00:20:45,919 --> 00:20:48,480
 about detection of compromise, the KERI
 
-568
+567
 00:20:48,480 --> 00:20:52,480
 specification continues to get
 
-569
+568
 00:20:52,480 --> 00:20:54,159
 updated to meet the real world
 
-570
+569
 00:20:54,159 --> 00:20:56,880
 demands that we have. And one of those
 
-571
+570
 00:20:56,880 --> 00:20:58,799
 is this whole idea of the mutual
 
-572
+571
 00:20:58,799 --> 00:21:00,400
 authentication. We've just talked about
 
-573
+572
 00:21:00,400 --> 00:21:02,400
 that with the phones. We've talked about
 
-574
+573
 00:21:02,400 --> 00:21:05,120
 that with healthcare providers. And I
 
-575
+574
 00:21:05,120 --> 00:21:07,039
 will predict something that is going to
 
-576
+575
 00:21:07,039 --> 00:21:08,559
 be in the future. So we have health
 
-577
+576
 00:21:08,559 --> 00:21:10,240
 information networks all across the
 
-578
+577
 00:21:10,240 --> 00:21:12,320
 United States. And they make a lot of
 
-579
+578
 00:21:12,320 --> 00:21:14,240
 money brokering the transaction or
 
-580
+579
 00:21:14,240 --> 00:21:16,320
 uplifting it from one EDI format to
 
-581
+580
 00:21:16,320 --> 00:21:18,960
 another. What a world it would be is if
 
-582
+581
 00:21:18,960 --> 00:21:21,039
 I'm the provider and I can reach out
 
-583
+582
 00:21:21,039 --> 00:21:22,640
 directly to a discovered payer
 
-584
+583
 00:21:22,640 --> 00:21:24,640
 interface. we have this mutual
 
-585
+584
 00:21:24,640 --> 00:21:28,000
 authentication and I can just move that
 
-586
+585
 00:21:28,000 --> 00:21:31,120
 significantly changes the overhead that
 
-587
+586
 00:21:31,120 --> 00:21:33,760
 a provider office has to have. I mean I
 
-588
+587
 00:21:33,760 --> 00:21:36,320
 I know that my dentist for example he
 
-589
+588
 00:21:36,320 --> 00:21:38,240
 has
 
-590
+589
 00:21:38,240 --> 00:21:40,400
 about nine administrative personnel.
 
-591
+590
 00:21:40,400 --> 00:21:42,559
 He's one dentist with two hygienists but
 
-592
+591
 00:21:42,559 --> 00:21:44,240
 he does a lot of work in social
 
-593
+592
 00:21:44,240 --> 00:21:46,320
 services programs and he has to have
 
-594
+593
 00:21:46,320 --> 00:21:48,640
 that level of people to continue to keep
 
-595
+594
 00:21:48,640 --> 00:21:50,799
 up with the paperwork. And of course
 
-596
+595
 00:21:50,799 --> 00:21:52,559
 that's kind of reflected in his pricing.
 
-597
+596
 00:21:52,559 --> 00:21:54,640
 So every couple years he goes off plan
 
-598
+597
 00:21:54,640 --> 00:21:56,400
 and I have to pay more to use his
 
-599
+598
 00:21:56,400 --> 00:21:58,320
 services. But if we could get those
 
-600
+599
 00:21:58,320 --> 00:22:00,159
 administrative burdens lowered, think of
 
-601
+600
 00:22:00,159 --> 00:22:03,440
 where we could go.
 
-602
+601
 00:22:03,440 --> 00:22:05,120
 No credential works unless there's
 
-603
+602
 00:22:05,120 --> 00:22:07,120
 comprehensive utility. One of the
 
-604
+603
 00:22:07,120 --> 00:22:09,360
 long-standing jokes about the mobile
 
-605
+604
 00:22:09,360 --> 00:22:12,240
 driver's license is that it works at the
 
-606
+605
 00:22:12,240 --> 00:22:15,679
 TSA. Well, it doesn't. Their terminals
 
-607
+606
 00:22:15,679 --> 00:22:17,120
 are down. They're like, "Well, hey, do
 
-608
+607
 00:22:17,120 --> 00:22:18,720
 you have your physical license?" And
 
-609
+608
 00:22:18,720 --> 00:22:20,640
 I've heard this one myself because that
 
-610
+609
 00:22:20,640 --> 00:22:22,320
 interaction will go a lot faster than
 
-611
+610
 00:22:22,320 --> 00:22:23,919
 trying to play around with the terminal.
 
-612
+611
 00:22:23,919 --> 00:22:26,960
 So it doesn't have a lot of usability
 
-613
+612
 00:22:26,960 --> 00:22:30,640
 and the models were wrong.
 
-614
+613
 00:22:30,640 --> 00:22:32,240
 One of those models was is we tried to
 
-615
+614
 00:22:32,240 --> 00:22:33,760
 monetize in the wrong way or at least
 
-616
+615
 00:22:33,760 --> 00:22:36,880
 vendors did. In our case the
 
-617
+616
 00:22:36,880 --> 00:22:39,440
 our we're an alcohol control state. So
 
-618
+617
 00:22:39,440 --> 00:22:41,600
 you have to go to a state liquor store.
 
-619
+618
 00:22:41,600 --> 00:22:43,120
 But when you are the director of the
 
-620
+619
 00:22:43,120 --> 00:22:44,480
 state liquor store and a vendor comes to
 
-621
+620
 00:22:44,480 --> 00:22:45,919
 you and says, "Hey, by the way, I need
 
-622
+621
 00:22:45,919 --> 00:22:48,559
 you to pay X number of dollars per month
 
-623
+622
 00:22:48,559 --> 00:22:50,559
 per store to be able to accept this
 
-624
+623
 00:22:50,559 --> 00:22:51,679
 digital credential." And they're like,
 
-625
+624
 00:22:51,679 --> 00:22:53,760
 "Wait a minute. Isn't that issued by
 
-626
+625
 00:22:53,760 --> 00:22:55,600
 public safety?
 
-627
+626
 00:22:55,600 --> 00:22:58,640
 Why do I pay money to public
 
-628
+627
 00:22:58,640 --> 00:23:00,880
 safety or to a vendor to accept a
 
-629
+628
 00:23:00,880 --> 00:23:02,559
 credential that the state issued?" And
 
-630
+629
 00:23:02,559 --> 00:23:04,880
 of course, their answer was so logical.
 
-631
+630
 00:23:04,880 --> 00:23:06,640
 Well, I can look at the I can look at
 
-632
+631
 00:23:06,640 --> 00:23:08,480
 the state ID or I can look at the
 
-633
+632
 00:23:08,480 --> 00:23:11,280
 driver's license for free. So adoption
 
-634
+633
 00:23:11,280 --> 00:23:13,679
 is a problem. There are a numbers of
 
-635
+634
 00:23:13,679 --> 00:23:16,400
 areas where we hope to see functionality
 
-636
+635
 00:23:16,400 --> 00:23:18,159
 come along like I talked about replacing
 
-637
+636
 00:23:18,159 --> 00:23:20,000
 username and passwords or taking over
 
-638
+637
 00:23:20,000 --> 00:23:22,400
 accounts. We want to make sure that this
 
-639
+638
 00:23:22,400 --> 00:23:24,559
 area which is where the ACDC comes in
 
-640
+639
 00:23:24,559 --> 00:23:27,679
 great is offline verification. I can't
 
-641
+640
 00:23:27,679 --> 00:23:29,760
 have my environment completely breaking
 
-642
+641
 00:23:29,760 --> 00:23:31,840
 because I don't have online access at
 
-643
+642
 00:23:31,840 --> 00:23:34,400
 all times. Now, Joe Jackson during our
 
-644
+643
 00:23:34,400 --> 00:23:37,280
 our study panel, he talked about our
 
-645
+644
 00:23:37,280 --> 00:23:40,559
 offhighway vehicle OV certificate
 
-646
+645
 00:23:40,559 --> 00:23:42,880
 that we did. And when Joe and I talked
 
-647
+646
 00:23:42,880 --> 00:23:44,720
 about it, I said, "Joe, this is fine for
 
-648
+647
 00:23:44,720 --> 00:23:47,360
 X509 technology. Completely fine. It's a
 
-649
+648
 00:23:47,360 --> 00:23:49,520
 lifetime endorsement. It's never
 
-650
+649
 00:23:49,520 --> 00:23:52,240
 revocable and you have to supply a
 
-651
+650
 00:23:52,240 --> 00:23:54,159
 primary credential with it. So, just
 
-652
+651
 00:23:54,159 --> 00:23:56,240
 because you show the QR code and it has
 
-653
+652
 00:23:56,240 --> 00:23:58,240
 your information embedded in it, you
 
-654
+653
 00:23:58,240 --> 00:24:00,159
 have to show a driver's license." So we
 
-655
+654
 00:24:00,159 --> 00:24:02,480
 said, let's go down the road with this
 
-656
+655
 00:24:02,480 --> 00:24:05,200
 one because we want to make sure that
 
-657
+656
 00:24:05,200 --> 00:24:06,400
 there's an appetite for these
 
-658
+657
 00:24:06,400 --> 00:24:08,799
 credentials and that it would be
 
-659
+658
 00:24:08,799 --> 00:24:10,960
 extremely low risk. So Joe told you a
 
-660
+659
 00:24:10,960 --> 00:24:12,720
 little bit about and things we've
 
-661
+660
 00:24:12,720 --> 00:24:15,039
 learned along the way there. But I'll
 
-662
+661
 00:24:15,039 --> 00:24:16,640
 tell you what, the funniest thing that
 
-663
+662
 00:24:16,640 --> 00:24:19,279
 happened is once we release those, the
 
-664
+663
 00:24:19,279 --> 00:24:21,200
 boating community, everyone who's owns a
 
-665
+664
 00:24:21,200 --> 00:24:22,799
 boat, I've heard this story like 40
 
-666
+665
 00:24:22,799 --> 00:24:25,279
 times now. They're like, I own a boat
 
-667
+666
 00:24:25,279 --> 00:24:27,279
 and you guys have this OHV thing that I
 
-668
+667
 00:24:27,279 --> 00:24:29,360
 could have on my phone. Why do I have to
 
-669
+668
 00:24:29,360 --> 00:24:31,360
 have a printed PDF? And they always say
 
-670
+669
 00:24:31,360 --> 00:24:34,240
 paper on my boat. We're in the water.
 
-671
+670
 00:24:34,240 --> 00:24:36,559
 Why do I have to have paper? So, we kind
 
-672
+671
 00:24:36,559 --> 00:24:38,400
 of smile and say things are coming. The
 
-673
+672
 00:24:38,400 --> 00:24:40,480
 the appetite is there for these
 
-674
+673
 00:24:40,480 --> 00:24:43,440
 credentials. We have no loss of ideas
 
-675
+674
 00:24:43,440 --> 00:24:45,120
 and use cases of where we want them to
 
-676
+675
 00:24:45,120 --> 00:24:49,919
 go. Key to the whole success is the open
 
-677
+676
 00:24:49,919 --> 00:24:52,640
 standards, no vendor lockin.
 
-678
+677
 00:24:52,640 --> 00:24:55,440
 We have been very clear to the community
 
-679
+678
 00:24:55,440 --> 00:24:58,480
 that security by obscurity is never
 
-680
+679
 00:24:58,480 --> 00:24:59,919
 going to be a solution we're ever going
 
-681
+680
 00:24:59,919 --> 00:25:01,440
 to be interested. Somebody brings me a
 
-682
+681
 00:25:01,440 --> 00:25:02,960
 closed source package and says it's
 
-683
+682
 00:25:02,960 --> 00:25:05,600
 magic, I don't believe them. I want to
 
-684
+683
 00:25:05,600 --> 00:25:08,480
 see under the hood and in some cases I
 
-685
+684
 00:25:08,480 --> 00:25:10,640
 lack the time these days, but if I can
 
-686
+685
 00:25:10,640 --> 00:25:12,799
 get down into the code and look at A
 
-687
+686
 00:25:12,799 --> 00:25:15,520
 plus B does equal C, I get a lot more
 
-688
+687
 00:25:15,520 --> 00:25:17,760
 comfortable. And I try to point out to
 
-689
+688
 00:25:17,760 --> 00:25:20,400
 non-technical people, the reason Apache
 
-690
+689
 00:25:20,400 --> 00:25:23,919
 is such a successful project and how has
 
-691
+690
 00:25:23,919 --> 00:25:26,240
 the high level of security it does is
 
-692
+691
 00:25:26,240 --> 00:25:28,559
 there's lots of people looking at it and
 
-693
+692
 00:25:28,559 --> 00:25:30,720
 that's where we need to be in identity
 
-694
+693
 00:25:30,720 --> 00:25:33,279
 systems and identity credentials because
 
-695
+694
 00:25:33,279 --> 00:25:35,360
 I can tell you across this room and I
 
-696
+695
 00:25:35,360 --> 00:25:36,960
 know some of you by face, some of you by
 
-697
+696
 00:25:36,960 --> 00:25:39,120
 name, there is a lot of expertise that
 
-698
+697
 00:25:39,120 --> 00:25:42,080
 can get into a room and say A and B are
 
-699
+698
 00:25:42,080 --> 00:25:44,640
 not equaling C and here's why. And as a
 
-700
+699
 00:25:44,640 --> 00:25:47,200
 state, I don't want to have to broker
 
-701
+700
 00:25:47,200 --> 00:25:49,840
 broker that and be able to say, "Yeah,
 
-702
+701
 00:25:49,840 --> 00:25:51,760
 we made that decision on our own. We
 
-703
+702
 00:25:51,760 --> 00:25:53,440
 want the community to support us because
 
-704
+703
 00:25:53,440 --> 00:25:56,400
 ultimately the beauty of this is it's
 
-705
+704
 00:25:56,400 --> 00:25:58,799
 your data." And by golly, you're going
 
-706
+705
 00:25:58,799 --> 00:26:00,400
 to care about your data. So, I'm going
 
-707
+706
 00:26:00,400 --> 00:26:02,240
 to get some really good feedback as we
 
-708
+707
 00:26:02,240 --> 00:26:04,799
 go along in this program, which we have.
 
-709
+708
 00:26:04,799 --> 00:26:06,720
 And we enjoy the fact that you can do
 
-710
+709
 00:26:06,720 --> 00:26:08,799
 that. And as Chris has said, if a
 
-711
+710
 00:26:08,799 --> 00:26:10,880
 standard requires you to pay to be able
 
-712
+711
 00:26:10,880 --> 00:26:12,559
 to understand your interface between you
 
-713
+712
 00:26:12,559 --> 00:26:14,159
 and your government or how your identity
 
-714
+713
 00:26:14,159 --> 00:26:16,000
 works, that's a non-starter for us. We
 
-715
+714
 00:26:16,000 --> 00:26:18,480
 just we just won't go there.
 
-716
+715
 00:26:18,480 --> 00:26:20,720
 Now, this part about any app becoming a
 
-717
+716
 00:26:20,720 --> 00:26:23,200
 wallet, what we mean by that is we do
 
-718
+717
 00:26:23,200 --> 00:26:24,640
 have some digital credentials in the
 
-719
+718
 00:26:24,640 --> 00:26:26,400
 state already. For example, if you
 
-720
+719
 00:26:26,400 --> 00:26:28,000
 download the Department of Natural
 
-721
+720
 00:26:28,000 --> 00:26:30,720
 Resources app, you can get a QR code for
 
-722
+721
 00:26:30,720 --> 00:26:32,159
 your fishing license and your hunting
 
-723
+722
 00:26:32,159 --> 00:26:34,320
 license. That's great. But that's only
 
-724
+723
 00:26:34,320 --> 00:26:36,480
 inside their little tiny ecosystem. We
 
-725
+724
 00:26:36,480 --> 00:26:37,840
 want to be able to broaden that out. But
 
-726
+725
 00:26:37,840 --> 00:26:38,799
 that doesn't mean they have to throw
 
-727
+726
 00:26:38,799 --> 00:26:40,400
 away their app because they've they've
 
-728
+727
 00:26:40,400 --> 00:26:41,919
 invested some good money in it. They
 
-729
+728
 00:26:41,919 --> 00:26:44,159
 also have some poaching features.
 
-730
+729
 00:26:44,159 --> 00:26:45,760
 So you can take a picture of a carcass
 
-731
+730
 00:26:45,760 --> 00:26:48,320
 and a GPS and it will send it to you DNR
 
-732
+731
 00:26:48,320 --> 00:26:50,159
 enforcement officers. So we don't want
 
-733
+732
 00:26:50,159 --> 00:26:51,760
 to say no you got to you got to go
 
-734
+733
 00:26:51,760 --> 00:26:54,320
 through the wallet only there but there
 
-735
+734
 00:26:54,320 --> 00:26:56,720
 are going to be instances where we will
 
-736
+735
 00:26:56,720 --> 00:26:58,480
 see extension of study credentials
 
-737
+736
 00:26:58,480 --> 00:27:00,320
 inside existing applications in the
 
-738
+737
 00:27:00,320 --> 00:27:02,799
 state. The other thing that we are
 
-739
+738
 00:27:02,799 --> 00:27:05,279
 very aware of is the first mover
 
-740
+739
 00:27:05,279 --> 00:27:07,039
 advantage for a lot of people is not
 
-741
+740
 00:27:07,039 --> 00:27:09,120
 going to be going through the platforms.
 
-742
+741
 00:27:09,120 --> 00:27:10,400
 They're going to be doing their own
 
-743
+742
 00:27:10,400 --> 00:27:13,039
 trusted apps. To me, there are many
 
-744
+743
 00:27:13,039 --> 00:27:15,120
 Roots of Trust that can come into your
 
-745
+744
 00:27:15,120 --> 00:27:17,760
 relationships. For example, I may trust
 
-746
+745
 00:27:17,760 --> 00:27:20,320
 my bank and you say, "Hey, we're going
 
-747
+746
 00:27:20,320 --> 00:27:22,159
 to help you out with your Wells Fargo
 
-748
+747
 00:27:22,159 --> 00:27:24,000
 wallet and we know about these
 
-749
+748
 00:27:24,000 --> 00:27:26,080
 pre-key rotations and we provide a
 
-750
+749
 00:27:26,080 --> 00:27:28,000
 service where you can escrow those keys
 
-751
+750
 00:27:28,000 --> 00:27:30,720
 with us and using your multisig
 
-752
+751
 00:27:30,720 --> 00:27:33,679
 capability. Us plus you plus whatever
 
-753
+752
 00:27:33,679 --> 00:27:36,159
 you know key material you have, we can
 
-754
+753
 00:27:36,159 --> 00:27:38,080
 unlock your next key for you. That's
 
-755
+754
 00:27:38,080 --> 00:27:40,240
 fine and that's perfect. And I want to
 
-756
+755
 00:27:40,240 --> 00:27:42,240
 harp on this just a little bit. The
 
-757
+756
 00:27:42,240 --> 00:27:45,120
 state's credential is the SEDI. We are
 
-758
+757
 00:27:45,120 --> 00:27:47,039
 not the wallet. We're not your key
 
-759
+758
 00:27:47,039 --> 00:27:49,679
 escrow. We're not your key recovery. I
 
-760
+759
 00:27:49,679 --> 00:27:51,600
 kind of smile and my wife says
 
-761
+760
 00:27:51,600 --> 00:27:52,880
 this a lot. She's a children's
 
-762
+761
 00:27:52,880 --> 00:27:54,399
 librarian. She works in a public
 
-763
+762
 00:27:54,399 --> 00:27:57,440
 library. She has a little counter. It's
 
-764
+763
 00:27:57,440 --> 00:27:59,279
 almost her personal drinking game where
 
-765
+764
 00:27:59,279 --> 00:28:02,399
 she says, and I quote, "I'm sorry, I do
 
-766
+765
 00:28:02,399 --> 00:28:04,480
 not know your Gmail password. I can't
 
-767
+766
 00:28:04,480 --> 00:28:06,240
 help you with that. Do you have somebody
 
-768
+767
 00:28:06,240 --> 00:28:08,720
 you can call to help you with that?" And
 
-769
+768
 00:28:08,720 --> 00:28:10,480
 she has people who argue with her. No,
 
-770
+769
 00:28:10,480 --> 00:28:12,559
 no, I used this computer yesterday. You
 
-771
+770
 00:28:12,559 --> 00:28:15,679
 should know my password. And so from the
 
-772
+771
 00:28:15,679 --> 00:28:17,440
 state, I suspect we're going to get
 
-773
+772
 00:28:17,440 --> 00:28:18,640
 something like that where people are
 
-774
+773
 00:28:18,640 --> 00:28:20,080
 going to be like, well, you issued it.
 
-775
+774
 00:28:20,080 --> 00:28:22,240
 You should know how to recover my keys.
 
-776
+775
 00:28:22,240 --> 00:28:24,320
 Nope. That and that's part of this whole
 
-777
+776
 00:28:24,320 --> 00:28:26,399
 idea of, hey, I'm turning it over to
 
-778
+777
 00:28:26,399 --> 00:28:28,960
 you. Now, with the wallets, one of the
 
-779
+778
 00:28:28,960 --> 00:28:30,880
 things I do also want to say is that the
 
-780
+779
 00:28:30,880 --> 00:28:32,399
 state definitely is going to be looking
 
-781
+780
 00:28:32,399 --> 00:28:34,880
 for third parties who will go and audit
 
-782
+781
 00:28:34,880 --> 00:28:37,120
 wallets and provide some we'll call
 
-783
+782
 00:28:37,120 --> 00:28:39,039
 them seals of approval. What I
 
-784
+783
 00:28:39,039 --> 00:28:41,039
 anticipate happening is when you go to
 
-785
+784
 00:28:41,039 --> 00:28:42,960
 the state to get your
 
-786
+785
 00:28:42,960 --> 00:28:45,200
 endorsement for your study is we're
 
-787
+786
 00:28:45,200 --> 00:28:46,960
 expecting a cryptographic hash and a
 
-788
+787
 00:28:46,960 --> 00:28:48,559
 signature of the application you're
 
-789
+788
 00:28:48,559 --> 00:28:51,039
 using. And I can say okay yeah that's
 
-790
+789
 00:28:51,039 --> 00:28:53,039
 one of the ones we recognize as meeting
 
-791
+790
 00:28:53,039 --> 00:28:54,799
 the standards of the state. We will go
 
-792
+791
 00:28:54,799 --> 00:28:57,120
 ahead and finish up this issuance
 
-793
+792
 00:28:57,120 --> 00:28:59,279
 process and give it to you. But or
 
-794
+793
 00:28:59,279 --> 00:29:00,960
 Steve McCown Steve McCown's going to
 
-795
+794
 00:29:00,960 --> 00:29:02,960
 take the source code directly and he's
 
-796
+795
 00:29:02,960 --> 00:29:04,480
 going to compile his own wallet and make
 
-797
+796
 00:29:04,480 --> 00:29:06,720
 sure it meets his requirements. So when
 
-798
+797
 00:29:06,720 --> 00:29:09,360
 Steve comes to the state and says here's
 
-799
+798
 00:29:09,360 --> 00:29:11,520
 my wallet and in the presentation he
 
-800
+799
 00:29:11,520 --> 00:29:13,279
 provides us a hash and a signature we
 
-801
+800
 00:29:13,279 --> 00:29:16,559
 don't know we'll say okay Steve we're
 
-802
+801
 00:29:16,559 --> 00:29:18,480
 happy to issue to this to you but we
 
-803
+802
 00:29:18,480 --> 00:29:20,799
 also want you to affirmatively consent
 
-804
+803
 00:29:20,799 --> 00:29:22,480
 that the state doesn't know anything
 
-805
+804
 00:29:22,480 --> 00:29:24,799
 about the security of what you're doing.
 
-806
+805
 00:29:24,799 --> 00:29:27,200
 Yes, you want it. Here you go. Because
 
-807
+806
 00:29:27,200 --> 00:29:28,720
 we do want that freedom of choice and
 
-808
+807
 00:29:28,720 --> 00:29:30,559
 the ability for people to operate, but
 
-809
+808
 00:29:30,559 --> 00:29:32,720
 we also want to have that
 
-810
+809
 00:29:32,720 --> 00:29:34,480
 guardianship that the state has, which
 
-811
+810
 00:29:34,480 --> 00:29:36,720
 is the public interest to say, we know
 
-812
+811
 00:29:36,720 --> 00:29:38,799
 you're not all techies and if you bring
 
-813
+812
 00:29:38,799 --> 00:29:41,360
 us something that you got your .ru wallet
 
-814
+813
 00:29:41,360 --> 00:29:43,200
 and it seems like it was the right idea.
 
-815
+814
 00:29:43,200 --> 00:29:44,799
 We want to make you aware of what that
 
-816
+815
 00:29:44,799 --> 00:29:46,640
 potential security risk would be. So,
 
-817
+816
 00:29:46,640 --> 00:29:48,080
 that's something I expect to see coming
 
-818
+817
 00:29:48,080 --> 00:29:50,320
 in the ecosystem.
 
-819
+818
 00:29:50,320 --> 00:29:53,679
 Now we at the end of our slide deck
 
-820
+819
 00:29:53,679 --> 00:29:56,720
 always go back to what is the
 
-821
+820
 00:29:56,720 --> 00:29:59,919
 key points we want and we want you to be
 
-822
+821
 00:29:59,919 --> 00:30:02,480
 in charge. We want you to determine who
 
-823
+822
 00:30:02,480 --> 00:30:04,880
 you share data with, when you share it
 
-824
+823
 00:30:04,880 --> 00:30:07,600
 with them, and why that matters in the
 
-825
+824
 00:30:07,600 --> 00:30:10,880
 healthcare environment is we know that
 
-826
+825
 00:30:10,880 --> 00:30:12,799
 data can be weaponized against you in
 
-827
+826
 00:30:12,799 --> 00:30:15,919
 the health space. And if you
 
-828
+827
 00:30:15,919 --> 00:30:18,399
 have no visibility to that and AI models
 
-829
+828
 00:30:18,399 --> 00:30:21,039
 are starting to be used and I'll say
 
-830
+829
 00:30:21,039 --> 00:30:22,880
 quite frankly in inappropriate ways to
 
-831
+830
 00:30:22,880 --> 00:30:25,279
 come to like billing and costing
 
-832
+831
 00:30:25,279 --> 00:30:27,520
 decisions, you have to be made aware of
 
-833
+832
 00:30:27,520 --> 00:30:29,679
 that. So you have to have control over
 
-834
+833
 00:30:29,679 --> 00:30:32,230
 that.
 
-835
+834
 00:30:34,149 --> 00:30:34,684
 Interoperability. You've heard this if
 
-836
+835
 00:30:34,708 --> 00:30:35,200
 you've been here the last two days.
 
-837
+836
 00:30:35,200 --> 00:30:38,240
 What's the interoperability? Well, we
 
-838
+837
 00:30:38,240 --> 00:30:40,080
 are going to have to be interoperable.
 
-839
+838
 00:30:40,080 --> 00:30:42,799
 We can't expect that every state is
 
-840
+839
 00:30:42,799 --> 00:30:44,799
 going to say, you know, we believe
 
-841
+840
 00:30:44,799 --> 00:30:46,720
 exactly how Utah believes and we think
 
-842
+841
 00:30:46,720 --> 00:30:49,279
 their technology choices are great and
 
-843
+842
 00:30:49,279 --> 00:30:52,480
 we are going to go that way.
 
-844
+843
 00:30:52,480 --> 00:30:53,840
 I don't know if you noticed during the
 
-845
+844
 00:30:53,840 --> 00:30:56,159
 panel with Joe and our representative
 
-846
+845
 00:30:56,159 --> 00:30:59,120
 from California, Joe had said we have to
 
-847
+846
 00:30:59,120 --> 00:31:00,559
 agree that we're solving the same
 
-848
+847
 00:31:00,559 --> 00:31:02,159
 problem. If we're not, then
 
-849
+848
 00:31:02,159 --> 00:31:05,039
 interoperability isn't a question. And I
 
-850
+849
 00:31:05,039 --> 00:31:06,880
 completely agree with where Joe was at
 
-851
+850
 00:31:06,880 --> 00:31:08,559
 on that. We definitely want to make sure
 
-852
+851
 00:31:08,559 --> 00:31:10,720
 that we're solving the same issue and
 
-853
+852
 00:31:10,720 --> 00:31:12,399
 that we're moving forward in something
 
-854
+853
 00:31:12,399 --> 00:31:14,159
 that is rational for all of us. So
 
-855
+854
 00:31:14,159 --> 00:31:16,640
 digital reciprocity between states is
 
-856
+855
 00:31:16,640 --> 00:31:17,760
 something we're going to have to deal
 
-857
+856
 00:31:17,760 --> 00:31:19,360
 with. We definitely want to make sure
 
-858
+857
 00:31:19,360 --> 00:31:21,520
 that, hey, if you've ditched all your
 
-859
+858
 00:31:21,520 --> 00:31:23,840
 your plastic, you jumped on a plane and
 
-860
+859
 00:31:23,840 --> 00:31:25,120
 you're suddenly in Oregon and you get
 
-861
+860
 00:31:25,120 --> 00:31:27,600
 pulled over in your rental car, your
 
-862
+861
 00:31:27,600 --> 00:31:29,919
 digital driver's license has to be
 
-863
+862
 00:31:29,919 --> 00:31:31,760
 something that can be considered valid
 
-864
+863
 00:31:31,760 --> 00:31:34,159
 in all jurisdictions. And that's
 
-865
+864
 00:31:34,159 --> 00:31:36,559
 quite frankly a format war that it's not
 
-866
+865
 00:31:36,559 --> 00:31:38,159
 my problem right now that I'm trying to
 
-867
+866
 00:31:38,159 --> 00:31:40,159
 solve. I'm trying to solve the core
 
-868
+867
 00:31:40,159 --> 00:31:42,720
 identity issues for Utah residents. Now,
 
-869
+868
 00:31:42,720 --> 00:31:45,360
 of course, we have the
 
-870
+869
 00:31:45,360 --> 00:31:48,720
 Olympics coming up 2034.
 
-871
+870
 00:31:48,720 --> 00:31:49,919
 There's probably going to be digital
 
-872
+871
 00:31:49,919 --> 00:31:51,919
 credentials that come to us from other
 
-873
+872
 00:31:51,919 --> 00:31:53,760
 jurisdictions even outside the United
 
-874
+873
 00:31:53,760 --> 00:31:56,240
 States. Well, we are building this
 
-875
+874
 00:31:56,240 --> 00:31:58,000
 system around the concept of American
 
-876
+875
 00:31:58,000 --> 00:31:59,919
 values. And what it is no tracking,
 
-877
+876
 00:31:59,919 --> 00:32:01,519
 no surveillance, no, you know, no
 
-878
+877
 00:32:01,519 --> 00:32:03,760
 monitoring. So, in those cases, we may
 
-879
+878
 00:32:03,760 --> 00:32:05,200
 say, "Yeah, that's a valid credential
 
-880
+879
 00:32:05,200 --> 00:32:06,960
 from where you came from." We might
 
-881
+880
 00:32:06,960 --> 00:32:08,720
 issue a temporary one while you're here
 
-882
+881
 00:32:08,720 --> 00:32:10,240
 for the Olympics to allow you to
 
-883
+882
 00:32:10,240 --> 00:32:11,679
 interface and do the things that you
 
-884
+883
 00:32:11,679 --> 00:32:13,600
 need to do, but we're certainly not
 
-885
+884
 00:32:13,600 --> 00:32:15,360
 going to phone home to a foreign server
 
-886
+885
 00:32:15,360 --> 00:32:17,600
 and participate in state surveillance on
 
-887
+886
 00:32:17,600 --> 00:32:19,440
 behalf of a of a foreign government. We
 
-888
+887
 00:32:19,440 --> 00:32:21,679
 just won't do that. So, when it comes to
 
-889
+888
 00:32:21,679 --> 00:32:24,399
 the healthcare interoperability issues,
 
-890
+889
 00:32:24,399 --> 00:32:26,080
 we want to make sure that the blast
 
-891
+890
 00:32:26,080 --> 00:32:28,480
 radius is always one. And this is the
 
-892
+891
 00:32:28,480 --> 00:32:30,880
 thing that I hate to say it, but we're
 
-893
+892
 00:32:30,880 --> 00:32:32,399
 finally getting to the point where data
 
-894
+893
 00:32:32,399 --> 00:32:34,559
 breaches, people are understanding that
 
-895
+894
 00:32:34,559 --> 00:32:36,559
 your data continues to get lost because
 
-896
+895
 00:32:36,559 --> 00:32:38,399
 they're in central systems, these huge
 
-897
+896
 00:32:38,399 --> 00:32:41,840
 honeypots. If we do this right, people
 
-898
+897
 00:32:41,840 --> 00:32:42,799
 are still going to get social
 
-899
+898
 00:32:42,799 --> 00:32:44,320
 engineered. But if the blast radius is
 
-900
+899
 00:32:44,320 --> 00:32:46,159
 one, that's a much better situation for
 
-901
+900
 00:32:46,159 --> 00:32:47,600
 us to be able to handle than having a
 
-902
+901
 00:32:47,600 --> 00:32:49,360
 blast radius of, oh, 100 million records
 
-903
+902
 00:32:49,360 --> 00:32:50,960
 were lost. Would you like some free
 
-904
+903
 00:32:50,960 --> 00:32:53,039
 credit monitoring and hope things work
 
-905
+904
 00:32:53,039 --> 00:32:56,559
 out for you? And when we look at the
 
-906
+905
 00:32:56,559 --> 00:32:59,120
 overall cyber security risk, there's
 
-907
+906
 00:32:59,120 --> 00:33:00,559
 definitely going to be some things that
 
-908
+907
 00:33:00,559 --> 00:33:01,919
 we are going to look at from the from
 
-909
+908
 00:33:01,919 --> 00:33:03,840
 the wallet provider community, key
 
-910
+909
 00:33:03,840 --> 00:33:05,600
 escrow and how that's done is going to
 
-911
+910
 00:33:05,600 --> 00:33:07,440
 be super important to us because it's
 
-912
+911
 00:33:07,440 --> 00:33:09,360
 not your identity if somebody else has
 
-913
+912
 00:33:09,360 --> 00:33:11,200
 full access to your keys and can perform
 
-914
+913
 00:33:11,200 --> 00:33:13,279
 rotations without your permission. You
 
-915
+914
 00:33:13,279 --> 00:33:14,720
 know, I got asked the other day, well,
 
-916
+915
 00:33:14,720 --> 00:33:17,519
 what happens if I'm
 
-917
+916
 00:33:17,519 --> 00:33:20,799
 at the border and the law enforcement
 
-918
+917
 00:33:20,799 --> 00:33:24,320
 agency requires my phone from me and
 
-919
+918
 00:33:24,320 --> 00:33:26,399
 they copy my whole phone and then
 
-920
+919
 00:33:26,399 --> 00:33:28,000
 they wander away and now I know they've
 
-921
+920
 00:33:28,000 --> 00:33:31,120
 got my current keys. Well, Sam, you can
 
-922
+921
 00:33:31,120 --> 00:33:32,880
 put this on a t-shirt if you want, but I
 
-923
+922
 00:33:32,880 --> 00:33:34,799
 just said when in doubt, rotate out. You
 
-924
+923
 00:33:34,799 --> 00:33:36,320
 don't have to stay with that key pair.
 
-925
+924
 00:33:36,320 --> 00:33:38,000
 When you get your phone back, move on to
 
-926
+925
 00:33:38,000 --> 00:33:40,240
 your next set. So, I'm going to give you
 
-927
+926
 00:33:40,240 --> 00:33:42,000
 a situation that happens in rural
 
-928
+927
 00:33:42,000 --> 00:33:43,760
 healthcare because we talked all about
 
-929
+928
 00:33:43,760 --> 00:33:45,840
 these things in kind of this really
 
-930
+929
 00:33:45,840 --> 00:33:48,240
 large buckets, but when I was down
 
-931
+930
 00:33:48,240 --> 00:33:49,600
 talking to rural healthcare, we had to
 
-932
+931
 00:33:49,600 --> 00:33:52,240
 have some specific examples of how rural
 
-933
+932
 00:33:52,240 --> 00:33:54,880
 healthcare is hurt by not having a good
 
-934
+933
 00:33:54,880 --> 00:33:57,200
 identity system that can provide instant
 
-935
+934
 00:33:57,200 --> 00:33:58,960
 validation and of assertions of
 
-936
+935
 00:33:58,960 --> 00:34:01,440
 credentials. So, if you look up there,
 
-937
+936
 00:34:01,440 --> 00:34:04,320
 50,000 to 100,000 is the and this is
 
-938
+937
 00:34:04,320 --> 00:34:06,720
 across the nation, not just Utah. this
 
-939
+938
 00:34:06,720 --> 00:34:08,560
 peer-reviewed studies that they can
 
-940
+939
 00:34:08,560 --> 00:34:10,480
 bring in a doctor or say a critical care
 
-941
+940
 00:34:10,480 --> 00:34:12,480
 nurse and getting to the point of having
 
-942
+941
 00:34:12,480 --> 00:34:14,879
 the original documentation validated.
 
-943
+942
 00:34:14,879 --> 00:34:16,800
 They're basically sweeping floors or
 
-944
+943
 00:34:16,800 --> 00:34:18,240
 doing something else or working in a
 
-945
+944
 00:34:18,240 --> 00:34:20,079
 non-risk position while those
 
-946
+945
 00:34:20,079 --> 00:34:23,280
 credentials get validated. 50 to 100,000
 
-947
+946
 00:34:23,280 --> 00:34:25,599
 per provider they bring into the system.
 
-948
+947
 00:34:25,599 --> 00:34:27,040
 And the tragedy is when you look at
 
-949
+948
 00:34:27,040 --> 00:34:28,720
 these small healthcare systems in these
 
-950
+949
 00:34:28,720 --> 00:34:30,720
 rural settings, you may get hospital
 
-951
+950
 00:34:30,720 --> 00:34:33,839
 privileges for this rural hospital 50
 
-952
+951
 00:34:33,839 --> 00:34:35,520
 miles down the road where you might want
 
-953
+952
 00:34:35,520 --> 00:34:37,200
 to work on a weekend or provide
 
-954
+953
 00:34:37,200 --> 00:34:39,359
 services. You're not accredited. So you
 
-955
+954
 00:34:39,359 --> 00:34:40,159
 have to go through this whole
 
-956
+955
 00:34:40,159 --> 00:34:42,320
 credentiing process again. So it's
 
-957
+956
 00:34:42,320 --> 00:34:44,720
 really hard for people who have made the
 
-958
+957
 00:34:44,720 --> 00:34:46,560
 commitment as a healthcare provider to
 
-959
+958
 00:34:46,560 --> 00:34:48,960
 be in a rural community to be able to
 
-960
+959
 00:34:48,960 --> 00:34:51,679
 service more than one. It becomes a
 
-961
+960
 00:34:51,679 --> 00:34:53,839
 nightmare and a paper castle. So, we're
 
-962
+961
 00:34:53,839 --> 00:34:56,560
 looking at SEDI and the subsequent
 
-963
+962
 00:34:56,560 --> 00:34:59,119
 credentials that get that get in
 
-964
+963
 00:34:59,119 --> 00:35:01,280
 endorsed by the, you know, medical
 
-965
+964
 00:35:01,280 --> 00:35:03,280
 organizations and others. We want them
 
-966
+965
 00:35:03,280 --> 00:35:05,119
 to be able to show up with an ACDC in
 
-967
+966
 00:35:05,119 --> 00:35:06,240
 the middle of the night and say, "Here
 
-968
+967
 00:35:06,240 --> 00:35:07,520
 you go. Here's my whole chain of
 
-969
+968
 00:35:07,520 --> 00:35:09,760
 credentials." And all those boxes get
 
-970
+969
 00:35:09,760 --> 00:35:11,440
 ticked and that person goes to work
 
-971
+970
 00:35:11,440 --> 00:35:13,359
 doing the job that they want to do in
 
-972
+971
 00:35:13,359 --> 00:35:15,680
 that rural community. And of course, one
 
-973
+972
 00:35:15,680 --> 00:35:18,960
 of the things that we don't want to
 
-974
+973
 00:35:18,960 --> 00:35:20,560
 Underplay is the fact that these
 
-975
+974
 00:35:20,560 --> 00:35:23,119
 rural healthcare systems compliance is
 
-976
+975
 00:35:23,119 --> 00:35:25,359
 a huge issue. You blow up one thing and
 
-977
+976
 00:35:25,359 --> 00:35:26,640
 you suddenly get all your payments
 
-978
+977
 00:35:26,640 --> 00:35:29,040
 stopped. In a lot of cases, that can
 
-979
+978
 00:35:29,040 --> 00:35:31,040
 be detrimental to the organization. I
 
-980
+979
 00:35:31,040 --> 00:35:32,960
 know for a fact that in the state of
 
-981
+980
 00:35:32,960 --> 00:35:36,240
 Utah skilled nursing facilities for
 
-982
+981
 00:35:36,240 --> 00:35:39,040
 long-term hospice care patients, their
 
-983
+982
 00:35:39,040 --> 00:35:40,800
 hash flow is about 2 and a half to 3
 
-984
+983
 00:35:40,800 --> 00:35:42,960
 weeks. So, if you get an interruption in
 
-985
+984
 00:35:42,960 --> 00:35:44,720
 payments, you're calling relatives and
 
-986
+985
 00:35:44,720 --> 00:35:46,000
 saying, "You need to find somewhere else
 
-987
+986
 00:35:46,000 --> 00:35:47,680
 because I can't afford to keep my
 
-988
+987
 00:35:47,680 --> 00:35:50,320
 facility open." So, it's a real risk.
 
-989
+988
 00:35:50,320 --> 00:35:53,280
 All right, let's talk about us. I
 
-990
+989
 00:35:53,280 --> 00:35:54,320
 don't know if I'm going to try and get
 
-991
+990
 00:35:54,320 --> 00:35:56,640
 this as good as phonehome, but I want to
 
-992
+991
 00:35:56,640 --> 00:36:00,240
 kill the clipboard. I am so sick and
 
-993
+992
 00:36:00,240 --> 00:36:02,800
 tired of going to an organization that
 
-994
+993
 00:36:02,800 --> 00:36:04,880
 has my medical records, and every time I
 
-995
+994
 00:36:04,880 --> 00:36:07,040
 come in, they want all this demographic
 
-996
+995
 00:36:07,040 --> 00:36:10,320
 data they already have.
 
-997
+996
 00:36:10,320 --> 00:36:12,160
 It drives me insane and I hope it drives
 
-998
+997
 00:36:12,160 --> 00:36:13,520
 you insane, too, because it's like,
 
-999
+998
 00:36:13,520 --> 00:36:16,320
 look, you know who I am. Think if I
 
-1000
+999
 00:36:16,320 --> 00:36:18,000
 attest to things haven't changed since
 
-1001
+1000
 00:36:18,000 --> 00:36:19,599
 the last time I saw you, but I'm here
 
-1002
+1001
 00:36:19,599 --> 00:36:21,680
 for a sniffle or a broken arm, I don't
 
-1003
+1002
 00:36:21,680 --> 00:36:23,440
 need miles of paperwork to tell you the
 
-1004
+1003
 00:36:23,440 --> 00:36:25,599
 things that I you already know about me.
 
-1005
+1004
 00:36:25,599 --> 00:36:27,599
 And I will say I've been rendered
 
-1006
+1005
 00:36:27,599 --> 00:36:29,440
 functionally illiterate by computers. My
 
-1007
+1006
 00:36:29,440 --> 00:36:31,839
 handwriting is awful. So half the time
 
-1008
+1007
 00:36:31,839 --> 00:36:33,599
 when I'm in these places, they're like,
 
-1009
+1008
 00:36:33,599 --> 00:36:35,440
 "Is that an E or is that an A?" I'm
 
-1010
+1009
 00:36:35,440 --> 00:36:37,280
 like, " I don't know. I'm in
 
-1011
+1010
 00:36:37,280 --> 00:36:38,880
 pain. I'm in a doctor's office. I'm not
 
-1012
+1011
 00:36:38,880 --> 00:36:40,400
 really interested in a critique about my
 
-1013
+1012
 00:36:40,400 --> 00:36:43,200
 my handwriting. And so what we really
 
-1014
+1013
 00:36:43,200 --> 00:36:45,040
 want to do with this kill the clipboard
 
-1015
+1014
 00:36:45,040 --> 00:36:47,119
 is reduce these inaccuracies that come
 
-1016
+1015
 00:36:47,119 --> 00:36:49,760
 in. And for the love of everything, why
 
-1017
+1016
 00:36:49,760 --> 00:36:51,760
 do you have to get a copy a physical
 
-1018
+1017
 00:36:51,760 --> 00:36:54,160
 copy of my medical card when I provided
 
-1019
+1018
 00:36:54,160 --> 00:36:56,800
 it to you a month ago? And part of this
 
-1020
+1019
 00:36:56,800 --> 00:36:58,480
 is not the it's not the fault of the
 
-1021
+1020
 00:36:58,480 --> 00:37:00,880
 front-end worker. They have a set of
 
-1022
+1021
 00:37:00,880 --> 00:37:02,400
 procedures that are trying to do risk
 
-1023
+1022
 00:37:02,400 --> 00:37:04,960
 reduction. And so this is the way that
 
-1024
+1023
 00:37:04,960 --> 00:37:07,520
 we operate our systems. And from my
 
-1025
+1024
 00:37:07,520 --> 00:37:09,760
 perspective, if I could just go in and
 
-1026
+1025
 00:37:09,760 --> 00:37:12,079
 do a tap and say, "Yeah, let me just
 
-1027
+1026
 00:37:12,079 --> 00:37:14,160
 punch the items on the iPad of where I
 
-1028
+1027
 00:37:14,160 --> 00:37:16,720
 hurt and how bad, that's a much better
 
-1029
+1028
 00:37:16,720 --> 00:37:18,320
 experience for me as an individual." And
 
-1030
+1029
 00:37:18,320 --> 00:37:20,480
 I also know that the data errors aren't
 
-1031
+1030
 00:37:20,480 --> 00:37:21,839
 going to be because you couldn't read my
 
-1032
+1031
 00:37:21,839 --> 00:37:24,079
 spelling or you transposed a number on
 
-1033
+1032
 00:37:24,079 --> 00:37:26,720
 my medical card. It all came across in a
 
-1034
+1033
 00:37:26,720 --> 00:37:28,960
 trustable transaction or series of chain
 
-1035
+1034
 00:37:28,960 --> 00:37:30,960
 credentials that we can now move forward
 
-1036
+1035
 00:37:30,960 --> 00:37:33,680
 on the situation. So that's the utopia I
 
-1037
+1036
 00:37:33,680 --> 00:37:36,720
 look for. Now as I said at the SEDI
 
-1038
+1037
 00:37:36,720 --> 00:37:39,119
 summit we look at this in government in
 
-1039
+1038
 00:37:39,119 --> 00:37:41,280
 in a lot of different ways but if you
 
-1040
+1039
 00:37:41,280 --> 00:37:43,280
 take any process whether it's government
 
-1041
+1040
 00:37:43,280 --> 00:37:46,160
 or whether it's business look at the pie
 
-1042
+1041
 00:37:46,160 --> 00:37:48,240
 chart of how much of that transaction is
 
-1043
+1042
 00:37:48,240 --> 00:37:51,280
 trust verification risk management and
 
-1044
+1043
 00:37:51,280 --> 00:37:52,960
 all the other things you actually do
 
-1045
+1044
 00:37:52,960 --> 00:37:55,359
 before you get to service delivery. It's
 
-1046
+1045
 00:37:55,359 --> 00:37:57,520
 inordinate the amount of time we spend
 
-1047
+1046
 00:37:57,520 --> 00:37:59,520
 in making these things work because
 
-1048
+1047
 00:37:59,520 --> 00:38:01,520
 we're we're resetting the trust model
 
-1049
+1048
 00:38:01,520 --> 00:38:04,000
 every single time. In government, where
 
-1050
+1049
 00:38:04,000 --> 00:38:06,640
 this hurts us so much is that we
 
-1051
+1050
 00:38:06,640 --> 00:38:08,480
 actually have to staff people who are
 
-1052
+1051
 00:38:08,480 --> 00:38:11,839
 part of that front office to injust
 
-1053
+1052
 00:38:11,839 --> 00:38:13,520
 this paperwork, make some value
 
-1054
+1053
 00:38:13,520 --> 00:38:15,520
 judgments, move things forward, and it's
 
-1055
+1054
 00:38:15,520 --> 00:38:17,440
 not something that is sustainable. So
 
-1056
+1055
 00:38:17,440 --> 00:38:20,240
 Utah has experienced record growth over
 
-1057
+1056
 00:38:20,240 --> 00:38:21,839
 the last decade. We're just growing,
 
-1058
+1057
 00:38:21,839 --> 00:38:24,240
 growing. Well, we don't want to grow
 
-1059
+1058
 00:38:24,240 --> 00:38:26,320
 government at the same
 
-1060
+1059
 00:38:26,320 --> 00:38:29,280
 rate. I can't keep hiring people to
 
-1061
+1060
 00:38:29,280 --> 00:38:31,119
 ingest this physical paperwork. I have
 
-1062
+1061
 00:38:31,119 --> 00:38:32,800
 to remain in the digital realm, but I
 
-1063
+1062
 00:38:32,800 --> 00:38:36,000
 have to be accurate.
 
-1064
+1063
 00:38:36,000 --> 00:38:39,280
 So, we are facing this dilemma
 
-1065
+1064
 00:38:39,280 --> 00:38:41,599
 everywhere in the United States. As
 
-1066
+1065
 00:38:41,599 --> 00:38:44,000
 populations grow, as you know, civil
 
-1067
+1066
 00:38:44,000 --> 00:38:46,560
 servants retire, next generation may not
 
-1068
+1067
 00:38:46,560 --> 00:38:48,320
 be looking for that sort of work because
 
-1069
+1068
 00:38:48,320 --> 00:38:50,160
 generally it doesn't pay really well. In
 
-1070
+1069
 00:38:50,160 --> 00:38:51,839
 fact, it doesn't ever pay really well.
 
-1071
+1070
 00:38:51,839 --> 00:38:54,000
 But you those are the individuals we
 
-1072
+1071
 00:38:54,000 --> 00:38:55,200
 want to be able to have a good
 
-1073
+1072
 00:38:55,200 --> 00:38:57,280
 experience with us. But we're not just
 
-1074
+1073
 00:38:57,280 --> 00:38:58,560
 going to keep adding and adding and
 
-1075
+1074
 00:38:58,560 --> 00:39:00,400
 adding. So we have to get the digital
 
-1076
+1075
 00:39:00,400 --> 00:39:05,119
 systems working to our best effect.
 
-1077
+1076
 00:39:05,119 --> 00:39:08,800
 So when we look at overall the situation
 
-1078
+1077
 00:39:08,800 --> 00:39:11,280
 that SEDI can solve, it's not a situation
 
-1079
+1078
 00:39:11,280 --> 00:39:13,920
 of where it solves only one problem. It
 
-1080
+1079
 00:39:13,920 --> 00:39:15,920
 solves a number of problems. So when
 
-1081
+1080
 00:39:15,920 --> 00:39:18,160
 you're thinking about your specific
 
-1082
+1081
 00:39:18,160 --> 00:39:20,560
 marketplace that you work in and how
 
-1083
+1082
 00:39:20,560 --> 00:39:22,640
 KERI is going to make things a lot
 
-1084
+1083
 00:39:22,640 --> 00:39:24,720
 better, We see it as an underpinning
 
-1085
+1084
 00:39:24,720 --> 00:39:26,400
 that breaks a lot of the
 
-1086
+1085
 00:39:26,400 --> 00:39:28,560
 traditional models and lets us move on.
 
-1087
+1086
 00:39:28,560 --> 00:39:30,560
 I look forward to a world, you know,
 
-1088
+1087
 00:39:30,560 --> 00:39:32,960
 endpoints where I can identify and
 
-1089
+1088
 00:39:32,960 --> 00:39:34,800
 move things around without an
 
-1090
+1089
 00:39:34,800 --> 00:39:36,640
 intermediary. I know Chris and I have
 
-1091
+1090
 00:39:36,640 --> 00:39:38,880
 talked about this a lot is that when
 
-1092
+1091
 00:39:38,880 --> 00:39:41,280
 this is live and you have these items
 
-1093
+1092
 00:39:41,280 --> 00:39:43,920
 available to you in a functional format
 
-1094
+1093
 00:39:43,920 --> 00:39:45,760
 with utility, we're going to have a lot
 
-1095
+1094
 00:39:45,760 --> 00:39:47,440
 of people who are going, "What's my
 
-1096
+1095
 00:39:47,440 --> 00:39:49,359
 purpose in life now?" Because I've had
 
-1097
+1096
 00:39:49,359 --> 00:39:51,200
 my job as an intermediary for a long
 
-1098
+1097
 00:39:51,200 --> 00:39:53,440
 time. But I'll tell you what, there's
 
-1099
+1098
 00:39:53,440 --> 00:39:54,560
 always going to be something new for
 
-1100
+1099
 00:39:54,560 --> 00:39:57,359
 people to do. I love history and one
 
-1101
+1100
 00:39:57,359 --> 00:39:58,960
 of the things I find funny is when the
 
-1102
+1101
 00:39:58,960 --> 00:40:00,560
 automobiles were first allowed in
 
-1103
+1102
 00:40:00,560 --> 00:40:03,280
 London, it was a requirement that you
 
-1104
+1103
 00:40:03,280 --> 00:40:05,200
 had a signalman walk in front of your
 
-1105
+1104
 00:40:05,200 --> 00:40:06,960
 vehicle with a bell and he'd ring the
 
-1106
+1105
 00:40:06,960 --> 00:40:09,119
 bell to make sure as you put it away
 
-1107
+1106
 00:40:09,119 --> 00:40:11,200
 that the horses were not startled and
 
-1108
+1107
 00:40:11,200 --> 00:40:12,960
 they even extended that into the evening
 
-1109
+1108
 00:40:12,960 --> 00:40:15,440
 where he would carry a lantern. We don't
 
-1110
+1109
 00:40:15,440 --> 00:40:17,760
 have signalmen in front of cars today.
 
-1111
+1110
 00:40:17,760 --> 00:40:20,800
 They do something else. And as we
 
-1112
+1111
 00:40:20,800 --> 00:40:23,119
 move forward with our new user
 
-1113
+1112
 00:40:23,119 --> 00:40:25,119
 centric, you know, sovereign
 
-1114
+1113
 00:40:25,119 --> 00:40:26,640
 environment, I think we're going to see
 
-1115
+1114
 00:40:26,640 --> 00:40:28,320
 some significant changes in
 
-1116
+1115
 00:40:28,320 --> 00:40:30,000
 marketplaces. But it's not just going to
 
-1117
+1116
 00:40:30,000 --> 00:40:31,599
 be driven by the state. We can set
 
-1118
+1117
 00:40:31,599 --> 00:40:34,480
 governance. We can set law. But as a
 
-1119
+1118
 00:40:34,480 --> 00:40:36,079
 larger community, we need to ask those
 
-1120
+1119
 00:40:36,079 --> 00:40:37,920
 questions why we do the things the way
 
-1121
+1120
 00:40:37,920 --> 00:40:40,000
 we do. And if we are not afraid of those
 
-1122
+1121
 00:40:40,000 --> 00:40:42,079
 questions, not only in business, but in
 
-1123
+1122
 00:40:42,079 --> 00:40:43,680
 government, we're going to see these
 
-1124
+1123
 00:40:43,680 --> 00:40:45,920
 massive improvements along the way.
 
-1125
+1124
 00:40:45,920 --> 00:40:47,599
 Okay, we have like three minutes. It's
 
-1126
+1125
 00:40:47,599 --> 00:40:48,800
 always hard to be the one who's like
 
-1127
+1126
 00:40:48,800 --> 00:40:50,560
 backed up against lunch because the
 
-1128
+1127
 00:40:50,560 --> 00:40:52,720
 questions drop off. So, if you don't ask
 
-1129
+1128
 00:40:52,720 --> 00:40:54,720
 your question now, that's okay. Find me
 
-1130
+1129
 00:40:54,720 --> 00:40:56,880
 at lunch or over the next day
 
-1131
+1130
 00:40:56,880 --> 00:40:58,960
 or so. Do we have any questions I can
 
-1132
+1131
 00:40:58,960 --> 00:41:01,280
 answer in the next couple of seconds,
 
-1133
+1132
 00:41:01,280 --> 00:41:08,870
 minutes, whatever.
 
-1134
+1133
 00:41:09,109 --> 00:41:11,835
 Can we get a copy of that?
 
-1135
+1134
 00:41:11,859 --> 00:41:13,052
 Absolutely.
 
-1136
+1135
 00:41:13,076 --> 00:41:14,270
 Absolutely.
 
-1137
+1136
 00:41:14,710 --> 00:41:17,525
 That was a simple one. Give me a harder
 
-1138
+1137
 00:41:17,549 --> 00:41:18,480
 one.
 
-1139
+1138
 00:41:18,480 --> 00:41:21,119
 All right. My question is about on
 
-1140
+1139
 00:41:21,119 --> 00:41:23,200
 the delegation slide. You mentioned
 
-1141
+1140
 00:41:23,200 --> 00:41:25,280
 several populations where it's super
 
-1142
+1141
 00:41:25,280 --> 00:41:27,119
 relevant and one of them is like
 
-1143
+1142
 00:41:27,119 --> 00:41:30,400
 unhoused population and migrants and
 
-1144
+1143
 00:41:30,400 --> 00:41:33,359
 what how does delegation look in that
 
-1145
+1144
 00:41:33,359 --> 00:41:37,119
 case? Who's the delegator?
 
-1146
+1145
 00:41:37,119 --> 00:41:39,839
 So in that specific case I'll tell
 
-1147
+1146
 00:41:39,839 --> 00:41:41,440
 you what we find with homeless
 
-1148
+1147
 00:41:41,440 --> 00:41:42,960
 population specifically in the
 
-1149
+1148
 00:41:42,960 --> 00:41:44,880
 healthcare environment. So when we have
 
-1150
+1149
 00:41:44,880 --> 00:41:46,079
 an encounter with somebody who's
 
-1151
+1150
 00:41:46,079 --> 00:41:48,000
 homeless, the best we can do is put them
 
-1152
+1151
 00:41:48,000 --> 00:41:49,520
 on something like emergency Medicaid,
 
-1153
+1152
 00:41:49,520 --> 00:41:51,359
 which is super expensive for the state,
 
-1154
+1153
 00:41:51,359 --> 00:41:52,880
 and we can provide those critical
 
-1155
+1154
 00:41:52,880 --> 00:41:54,960
 services that keep them from
 
-1156
+1155
 00:41:54,960 --> 00:41:57,119
 dying, but that's not long-term
 
-1157
+1156
 00:41:57,119 --> 00:41:58,480
 maintenance. It's not
 
-1158
+1157
 00:41:58,480 --> 00:42:00,560
 prophylactic medications or anything of
 
-1159
+1158
 00:42:00,560 --> 00:42:02,720
 that nature. Those don't come until we
 
-1160
+1159
 00:42:02,720 --> 00:42:04,960
 have identified that individual. And
 
-1161
+1160
 00:42:04,960 --> 00:42:06,640
 given that we might have to query them
 
-1162
+1161
 00:42:06,640 --> 00:42:08,079
 like where were you born approximately
 
-1163
+1162
 00:42:08,079 --> 00:42:09,839
 when were you born all these items that
 
-1164
+1163
 00:42:09,839 --> 00:42:12,560
 we case work it's assigned to them. It
 
-1165
+1164
 00:42:12,560 --> 00:42:15,280
 is generally 6 to 8 weeks before we have
 
-1166
+1165
 00:42:15,280 --> 00:42:17,760
 documentation in hand that we can now
 
-1167
+1166
 00:42:17,760 --> 00:42:20,079
 say we have identified you and we can
 
-1168
+1167
 00:42:20,079 --> 00:42:21,599
 now move you off of the emergency
 
-1169
+1168
 00:42:21,599 --> 00:42:23,440
 Medicaid and put you on to a different
 
-1170
+1169
 00:42:23,440 --> 00:42:26,319
 service. The tragedy is once they
 
-1171
+1170
 00:42:26,319 --> 00:42:27,920
 hand them that packet of information
 
-1172
+1171
 00:42:27,920 --> 00:42:30,319
 within 30 days the majority of them have
 
-1173
+1172
 00:42:30,319 --> 00:42:32,079
 lost their documentation. And it's like
 
-1174
+1173
 00:42:32,079 --> 00:42:34,240
 well of course they're unhoused. they're
 
-1175
+1174
 00:42:34,240 --> 00:42:35,680
 not going to walk around with
 
-1176
+1175
 00:42:35,680 --> 00:42:38,000
 a manilla folder under their arm. So,
 
-1177
+1176
 00:42:38,000 --> 00:42:39,760
 how do you solve that problem? Well,
 
-1178
+1177
 00:42:39,760 --> 00:42:41,839
 there's a couple ways you can do it. One
 
-1179
+1178
 00:42:41,839 --> 00:42:43,920
 of the I was at a conference and I
 
-1180
+1179
 00:42:43,920 --> 00:42:45,680
 was just being flip and I said, "Well,
 
-1181
+1180
 00:42:45,680 --> 00:42:47,920
 why don't we do a system called Nomad?"
 
-1182
+1181
 00:42:47,920 --> 00:42:49,040
 And they were like, "What do you mean by
 
-1183
+1182
 00:42:49,040 --> 00:42:52,319
 that?" I said, " National Online
 
-1184
+1183
 00:42:52,319 --> 00:42:54,319
 Assisted Documentation, you know, or
 
-1185
+1184
 00:42:54,319 --> 00:42:56,000
 management of assist of documentation."
 
-1186
+1185
 00:42:56,000 --> 00:42:58,800
 So we are looking at opportunities in it
 
-1187
+1186
 00:42:58,800 --> 00:43:00,480
 that could do something like that which
 
-1188
+1187
 00:43:00,480 --> 00:43:01,920
 is basically there are some things
 
-1189
+1188
 00:43:01,920 --> 00:43:03,119
 you're always going to have with you and
 
-1190
+1189
 00:43:03,119 --> 00:43:03,839
 those are going to be some of your
 
-1191
+1190
 00:43:03,839 --> 00:43:05,760
 biometrics and if you are willing to
 
-1192
+1191
 00:43:05,760 --> 00:43:07,520
 work with the state to get you
 
-1193
+1192
 00:43:07,520 --> 00:43:10,480
 identified and put you into a national
 
-1194
+1193
 00:43:10,480 --> 00:43:12,000
 data store that's encrypted to your
 
-1195
+1194
 00:43:12,000 --> 00:43:14,400
 biometrics then we have means for how we
 
-1196
+1195
 00:43:14,400 --> 00:43:16,079
 can get those people on the system.
 
-1197
+1196
 00:43:16,079 --> 00:43:18,079
 There are care relationships that exist
 
-1198
+1197
 00:43:18,079 --> 00:43:20,800
 inside the state like foster care or we
 
-1199
+1198
 00:43:20,800 --> 00:43:23,680
 have battered women who are put in like
 
-1200
+1199
 00:43:23,680 --> 00:43:26,319
 safe harbor shelters. So there are some
 
-1201
+1200
 00:43:26,319 --> 00:43:28,400
 there are some relationships that we
 
-1202
+1201
 00:43:28,400 --> 00:43:31,040
 need to clarify in not only in law but
 
-1203
+1202
 00:43:31,040 --> 00:43:32,560
 how that works digitally because there
 
-1204
+1203
 00:43:32,560 --> 00:43:34,079
 are certain rights that get communicated
 
-1205
+1204
 00:43:34,079 --> 00:43:36,800
 to each group. So as we move along there
 
-1206
+1205
 00:43:36,800 --> 00:43:38,880
 will be both a policy side and a
 
-1207
+1206
 00:43:38,880 --> 00:43:40,960
 software technology side to work on it.
 
-1208
+1207
 00:43:40,960 --> 00:43:43,839
 But the interesting thing is we do
 
-1209
+1208
 00:43:43,839 --> 00:43:45,440
 think that the easiest relationship for
 
-1210
+1209
 00:43:45,440 --> 00:43:47,040
 us to solve right off the bat is the
 
-1211
+1210
 00:43:47,040 --> 00:43:49,040
 parent child relationship. That's pretty
 
-1212
+1211
 00:43:49,040 --> 00:43:51,040
 easy to prove. But when we get into some
 
-1213
+1212
 00:43:51,040 --> 00:43:52,880
 of these more complicated
 
-1214
+1213
 00:43:52,880 --> 00:43:55,200
 situations, so say for example, a
 
-1215
+1214
 00:43:55,200 --> 00:43:57,520
 Medicaid household is defined by the
 
-1216
+1215
 00:43:57,520 --> 00:43:58,960
 number of people living under the same
 
-1217
+1216
 00:43:58,960 --> 00:44:01,119
 roof and what happens if you have an
 
-1218
+1217
 00:44:01,119 --> 00:44:04,319
 acrimonious divorce. Party A has a lot
 
-1219
+1218
 00:44:04,319 --> 00:44:07,040
 of KYC data to try and infiltrate what
 
-1220
+1219
 00:44:07,040 --> 00:44:08,640
 party B is doing. So the state's going
 
-1221
+1220
 00:44:08,640 --> 00:44:10,000
 to have to be very careful as we roll
 
-1222
+1221
 00:44:10,000 --> 00:44:11,920
 these out to make sure that when we do
 
-1223
+1222
 00:44:11,920 --> 00:44:13,760
 endorse something like a parent child
 
-1224
+1223
 00:44:13,760 --> 00:44:15,839
 relationship that we do have a glass
 
-1225
+1224
 00:44:15,839 --> 00:44:17,520
 break where we can go and turn that off
 
-1226
+1225
 00:44:17,520 --> 00:44:20,079
 so that we keep everyone safe.
 
-1227
+1226
 00:44:20,079 --> 00:44:22,400
 Okay, I think you is we're at lunch.
 
-1228
+1227
 00:44:22,400 --> 00:44:23,839
 So, thank you again. I look forward to
 
-1229
+1228
 00:44:23,839 --> 00:44:25,760
 talking to you individually. Reach me
 
-1230
+1229
 00:44:25,760 --> 00:44:27,520
 out to me at any time. I'm always
 
-1231
+1230
 00:44:27,520 --> 00:44:29,280
 willing to talk about both the tech and
 
-1232
+1231
 00:44:29,280 --> 00:44:32,000
 the policy. Thank you very much.
 
-1233
+1232
 00:44:32,000 --> 00:44:35,000
 Thanks.
 
