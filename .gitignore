@@ -1,2 +1,7 @@
 *.mp4
-.DS_Store*.zip
+.DS_Store
+*.zip
+node_modules/
+.transcripts-build.html
+.chrome-profile/
+.preview/

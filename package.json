@@ -1,0 +1,13 @@
+{
+  "name": "conf26-transcripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build a beautiful PDF of all KERI Conference 2026 transcripts from edited SRT files.",
+  "type": "module",
+  "scripts": {
+    "build:pdf": "node scripts/build-transcript-pdf.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.11.1"
+  }
+}
