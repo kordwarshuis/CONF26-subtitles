@@ -328,7 +328,7 @@ I've already done it. So, but we are
 
 83
 00:03:02,640 --> 00:03:04,720
-going to go through it kind of at high
+going to go through it at high
 
 84
 00:03:04,720 --> 00:03:06,560
@@ -556,7 +556,7 @@ Sam's white papers. And if you go to
 
 140
 00:05:13,039 --> 00:05:15,360
-keri.one, he's got links to the white
+(https://) keri.one, he's got links to the white
 
 141
 00:05:15,360 --> 00:05:16,960
@@ -580,7 +580,7 @@ too.
 
 146
 00:05:26,160 --> 00:05:28,080
-But there's so there's the three core
+There's the three core
 
 147
 00:05:28,080 --> 00:05:29,840
@@ -664,7 +664,7 @@ HealthKERI has so generously donated
 
 167
 00:06:13,440 --> 00:06:17,759
-into the open source world. Just in time.
+into the open-source world. Just in time.
 
 168
 00:06:17,759 --> 00:06:21,590
@@ -672,11 +672,11 @@ Come on in.
 
 169
 00:06:21,642 --> 00:06:23,236
-You're going to want to probably if
+You're going to want to .., probably if
 
 170
 00:06:23,260 --> 00:06:25,039
-you're you can kick that bag out of the
+you can kick that bag out of the
 
 171
 00:06:25,039 --> 00:06:26,400
@@ -728,7 +728,7 @@ the KF boot
 
 183
 00:06:52,560 --> 00:06:54,560
-repo because we're going to I'm going
+repo because I'm going
 
 184
 00:06:54,560 --> 00:06:56,160
@@ -736,11 +736,11 @@ to do a high-level walkthrough of that.
 
 185
 00:06:56,160 --> 00:06:58,319
-That's very detailed with commands and
+That's very detailed, with commands and
 
 186
 00:06:58,319 --> 00:07:00,639
-everything that you can use after this,
+everything, that you can use after this,
 
 187
 00:07:00,639 --> 00:07:01,919
@@ -844,7 +844,7 @@ services that they run are Falcon apps,
 
 212
 00:07:55,199 --> 00:07:59,440
-which is just Python – HTTP in the end. So
+which is just Python – HTTP; in the end. So
 
 213
 00:07:59,440 --> 00:08:01,919
@@ -920,7 +920,7 @@ it is right now. It'll keep growing. And
 
 231
 00:08:45,040 --> 00:08:48,880
-finally, this is a demo only version of
+finally, this is a demo-only version of
 
 232
 00:08:48,880 --> 00:08:50,320
@@ -932,7 +932,7 @@ all going to be on one host.
 
 234
 00:08:53,360 --> 00:08:55,680
-We're going to do a multiple witness
+We're going to do a multiple-witness
 
 235
 00:08:55,680 --> 00:08:58,959
@@ -984,7 +984,7 @@ providers that provide witness watcher
 
 247
 00:09:27,040 --> 00:09:30,800
-service deployed on cloud
+service, deployed on cloud
 
 248
 00:09:30,800 --> 00:09:32,880
@@ -996,7 +996,7 @@ here or separations or maybe zones and
 
 250
 00:09:36,720 --> 00:09:39,440
-and, or sorry regions, and then
+and, or sorry: regions, and then
 
 251
 00:09:39,440 --> 00:09:41,839
@@ -1120,7 +1120,7 @@ is step one of this setup guide. Our
 
 281
 00:10:45,920 --> 00:10:48,240
-opinion of this in this guide is we're
+opinion of this, in this guide, is we're
 
 282
 00:10:48,240 --> 00:10:50,640
@@ -1140,11 +1140,11 @@ one of the libraries that's underlying
 
 286
 00:11:00,880 --> 00:11:03,600
-KERIpy and KERI you know the KERI
+KERIPy and KERI you know the KERI
 
 287
 00:11:03,600 --> 00:11:07,519
-code in general. nginx for, in this
+code in general. Nginx for, in this
 
 288
 00:11:07,519 --> 00:11:11,279
@@ -1156,7 +1156,7 @@ proxying
 
 290
 00:11:12,959 --> 00:11:17,040
-and certbot, just to you know set up
+and certbot, just to set up
 
 291
 00:11:17,040 --> 00:11:18,800
@@ -1173,11 +1173,11 @@ mention it. Never mind. Sorry.
 
 294
 00:11:33,920 --> 00:11:37,120
-So, no, no real magic there. If
+So, no real magic there. If
 
 295
 00:11:37,120 --> 00:11:38,640
-you're looking at the guide it's
+you're looking at the guide, it's
 
 296
 00:11:38,640 --> 00:11:40,000
@@ -1213,7 +1213,7 @@ Do you throw that in a Docker container or?
 
 304
 00:11:54,619 --> 00:11:57,519
-No, I mean, you could you could. Don't
+No, I mean, you could. Don't
 
 305
 00:11:57,519 --> 00:12:00,079
@@ -1277,7 +1277,7 @@ So, no production.
 
 320
 00:12:29,200 --> 00:12:31,440
-Yeah. Yeah. He according to Sam, he
+Yeah. According to Sam, he
 
 321
 00:12:31,440 --> 00:12:34,240
@@ -1625,11 +1625,11 @@ itself. In this particular instance, the
 
 407
 00:16:09,120 --> 00:16:11,360
-wallet will allow for a onewitness
+wallet will allow for a one-witness
 
 408
 00:16:11,360 --> 00:16:13,120
-configuration where you're, with your
+configuration where, with your
 
 409
 00:16:13,120 --> 00:16:15,199
@@ -1713,15 +1713,15 @@ the witness communicates back to the
 
 429
 00:17:04,319 --> 00:17:07,600
-wallet for OOBIs and things like that
+wallet for OOBIs and things like that,
 
 430
 00:17:07,600 --> 00:17:10,079
-come as we get into that point. So, so
+as we get into that point. So,
 
 431
 00:17:10,079 --> 00:17:14,000
-those as the as the guide
+Those, as the guide
 
 432
 00:17:14,000 --> 00:17:16,640
@@ -1769,7 +1769,7 @@ naming and the different port. And in
 
 443
 00:17:44,400 --> 00:17:46,799
-theory you can I have not done this yet
+theory you can .., I have not done this yet,
 
 444
 00:17:46,799 --> 00:17:48,799
@@ -1861,7 +1861,7 @@ The 5631 in this case is the
 
 466
 00:18:40,559 --> 00:18:43,039
-internal local loop back communication
+internal local loop-back communication
 
 467
 00:18:43,039 --> 00:18:48,070
@@ -1941,7 +1941,7 @@ port and external IP and port. As you
 
 486
 00:19:37,600 --> 00:19:39,280
-can see at the end of this string here
+can see at the end of this string here,
 
 487
 00:19:39,280 --> 00:19:41,200
@@ -2037,7 +2037,7 @@ Circus configuration is at step eight or
 
 510
 00:20:42,400 --> 00:20:45,919
-nine. For this presentation I kind of
+nine. For this presentation, I kind of
 
 511
 00:20:45,919 --> 00:20:47,760
@@ -2085,7 +2085,7 @@ put together a config file as it shows
 
 522
 00:21:13,039 --> 00:21:15,600
-in the guide there. An any
+in the guide there. And any
 
 523
 00:21:15,600 --> 00:21:17,840
@@ -2121,7 +2121,7 @@ And then along with Circus we're going
 
 531
 00:21:31,840 --> 00:21:34,159
-to set up systemd unit
+to set up 'systemd' unit
 
 532
 00:21:34,159 --> 00:21:36,480
@@ -2225,11 +2225,11 @@ have my own that I set it up on as
 
 557
 00:22:39,360 --> 00:22:42,240
-well that is fully TLS like all the
+well that is fully TLS, all the
 
 558
 00:22:42,240 --> 00:22:44,720
-endpoints are encrypted with you know
+endpoints are encrypted,
 
 559
 00:22:44,720 --> 00:22:47,632
@@ -2329,11 +2329,11 @@ it's going to… it will create the [inaudible]
 
 583
 00:24:22,880 --> 00:24:26,080
-plane for the witness and watcher
+plan for the witness and watcher
 
 584
 00:24:26,080 --> 00:24:28,799
-network themselves. So when we
+in the network themselves. So when we
 
 585
 00:24:28,799 --> 00:24:31,039
@@ -2377,7 +2377,7 @@ going to initialize a new vault. We'll
 
 595
 00:25:21,039 --> 00:25:24,159
-just call it test.
+just call it 'test'.
 
 596
 00:25:24,159 --> 00:25:24,806
@@ -2425,7 +2425,7 @@ at this point. And then from here I can
 
 607
 00:25:59,520 --> 00:26:01,440
-go into the KERI Foundation's
+go into this KERI-Foundation
 
 608
 00:26:01,440 --> 00:26:04,240
@@ -2445,11 +2445,11 @@ this into something more useful for us.
 
 612
 00:26:13,200 --> 00:26:16,080
-Good job,
+Good job!
 
 613
 00:26:16,080 --> 00:26:18,480
-and for all you to use. So you can see
+And for all you to use. So you can see
 
 614
 00:26:18,480 --> 00:26:20,320
@@ -2477,7 +2477,7 @@ which in this case is “three of four”. And
 
 620
 00:26:35,200 --> 00:26:37,120
-then when I click this begin onboarding
+then when I click this "begin onboarding"
 
 621
 00:26:37,120 --> 00:26:39,039
@@ -2821,11 +2821,11 @@ guys to all of us to start to build
 
 706
 00:32:42,000 --> 00:32:44,880
-on deploy on test with all that kind of
+on, deploy on, test with, all that kind of
 
 707
 00:32:44,880 --> 00:32:46,320
-stuff. We're we're fairly new to it
+stuff. We're we're fairly new to it,
 
 708
 00:32:46,320 --> 00:32:48,159
@@ -2849,7 +2849,7 @@ any…
 
 713
 00:32:58,399 --> 00:32:59,840
-anything else you want to know about
+Anything else you want to know about
 
 714
 00:32:59,840 --> 00:33:02,880
@@ -2921,11 +2921,11 @@ doing. So,
 
 731
 00:33:30,218 --> 00:33:33,200
-is from KERIpy.
+is from KERIPy.
 
 732
 00:33:33,200 --> 00:33:36,159
-There's a witness inside KERIpy
+There's a witness inside KERIPy
 
 733
 00:33:36,159 --> 00:33:38,640
@@ -2941,7 +2941,7 @@ said, production grade. So a separate
 
 736
 00:33:44,399 --> 00:33:46,000
-service because you know KERIpy is
+service because you know KERIPy is
 
 737
 00:33:46,000 --> 00:33:47,840
@@ -2981,11 +2981,11 @@ environment that variable that I was
 
 746
 00:34:08,510 --> 00:34:10,399
-showing you that had all the different
+showing you, that had all the different
 
 747
 00:34:10,399 --> 00:34:12,560
-configuration in it that wouldn't be all
+configuration in it, that wouldn't be all
 
 748
 00:34:12,560 --> 00:34:14,320
@@ -2993,7 +2993,7 @@ on the same host those would be pointing
 
 749
 00:34:14,320 --> 00:34:16,800
-to you know the boot service itself
+to ..., the boot service itself
 
 750
 00:34:16,800 --> 00:34:18,960
@@ -3285,7 +3285,7 @@ to try to use this. That's the host you
 
 822
 00:37:25,119 --> 00:37:27,760
-would want to use to use our
+would want to use, to use our
 
 823
 00:37:27,760 --> 00:37:29,119
@@ -3353,11 +3353,11 @@ It will use the account URL for
 
 839
 00:38:05,119 --> 00:38:06,640
-subsequent
+subsequent ...,
 
 840
 00:38:06,640 --> 00:38:08,480
-Some of the subsequent calls, some of
+some of the subsequent calls, some of
 
 841
 00:38:08,480 --> 00:38:10,320
@@ -3405,7 +3405,7 @@ later. And probably
 
 852
 00:38:33,280 --> 00:38:35,680
-if I were to guess eventually KERIpy
+if I were to guess eventually KERIPy
 
 853
 00:38:35,680 --> 00:38:38,320
