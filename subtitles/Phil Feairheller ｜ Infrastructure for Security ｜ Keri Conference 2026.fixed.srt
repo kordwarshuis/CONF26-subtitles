@@ -1170,7 +1170,6 @@ Same with creating a vault here. And so
 
 292
 00:09:28,960 --> 00:09:30,800
-same with creating a vault here. And so
 we tried to make it so that in the very
 
 293
@@ -1436,7 +1435,6 @@ Underneath that, we have our signing
 
 358
 00:11:34,600 --> 00:11:36,680
-underneath that, we have our signing
 thresholds. So, you have the number of
 
 359
@@ -1660,11 +1658,10 @@ ones you OOBI's with. So, in KERIpy, I
 
 413
 00:13:30,600 --> 00:13:32,070
-think they're called contacts in KERI
+think they're called contacts in KERIpy
 
 414
 00:13:32,070 --> 00:13:34,160
-think they're called contacts in KERIpy
 That's what the remote identifiers
 
 415
@@ -1684,2043 +1681,2035 @@ credential to receiving a
 credential from, anything at all.
 
 419
-00:13:44,950 --> 00:13:46,160
+00:13:42,775 --> 00:13:45,501
 Okay. So, real quick, I realized I
-forgot to do something, so you're going
 
 420
+00:13:45,525 --> 00:13:46,160
+forgot to do something, so you're going
+
+421
 00:13:46,160 --> 00:13:47,680
 to see a little bit of behind the scenes
 
-421
+422
 00:13:47,680 --> 00:13:49,080
 here.
 
-422
-00:13:49,080 --> 00:13:51,080
-So, I cuz that I realized I don't have a
-
 423
-00:13:51,080 --> 00:13:52,514
-can.
+00:13:49,080 --> 00:13:51,080
+So, I cuz that I realized I don't have…
 
 424
 00:13:52,514 --> 00:13:53,880
 [laughter]
 
 425
-00:13:53,880 --> 00:14:00,190
+00:13:53,880 --> 00:13:55,414
 What do you mean?
 
 426
-00:14:01,670 --> 00:14:05,270
+00:14:00,253 --> 00:14:01,756
 All right. And then we're going to
-restart my two Locksmiths.
 
 427
-00:14:06,230 --> 00:14:11,070
-And I knew I was going to make that
-mistake.
+00:14:01,780 --> 00:14:05,270
+restart my two Locksmiths.
 
 428
-00:14:12,030 --> 00:14:13,480
-Oops.
-All right. Cool. We should be good to go
+00:14:05,295 --> 00:14:11,070
+And I knew I was going to make that mistake.
 
 429
+00:14:12,030 --> 00:14:13,480
+All right. Cool. We should be good to go
+
+430
 00:14:13,480 --> 00:14:15,440
 now.
 
-430
+431
 00:14:15,440 --> 00:14:17,240
 I'll re-center and size them a little
 
-431
+432
 00:14:17,240 --> 00:14:20,014
 more.
 
-432
+433
 00:14:29,510 --> 00:14:30,800
-And I'll get rid of this.
 Okay. So, we were in the middle of
 
-433
+434
 00:14:30,800 --> 00:14:33,360
 creating Alice, so we will open up her
 
-434
+435
 00:14:33,360 --> 00:14:35,680
 vault again, and we'll go over to remote
 
-435
+436
 00:14:35,680 --> 00:14:37,640
 identifiers. Good, there they are. Those
 
-436
+437
 00:14:37,640 --> 00:14:39,480
 are the two identifiers for our SaaS
 
-437
+438
 00:14:39,480 --> 00:14:42,280
 platform. And so, they are configured to
 
-438
+439
 00:14:42,280 --> 00:14:44,320
 load when I And these are configured op-
 
-439
+440
 00:14:44,320 --> 00:14:46,120
 configuration options you can add when
 
-440
+441
 00:14:46,120 --> 00:14:48,920
 you package and ship your version of
 
-441
+442
 00:14:48,920 --> 00:14:50,880
 Locksmith. Those are OOBIs that he will
 
-442
+443
 00:14:50,880 --> 00:14:52,920
 automatically resolve when he starts up,
 
-443
+444
 00:14:52,920 --> 00:14:54,680
 so that he has access to them here. For
 
-444
+445
 00:14:54,680 --> 00:14:56,440
 in our particular case, verifying the
 
-445
+446
 00:14:56,440 --> 00:15:00,360
 signatures against our SaaS platform
 
-446
+447
 00:15:00,360 --> 00:15:03,720
 for gaining access.
 
-447
+448
 00:15:03,720 --> 00:15:05,839
 So, let's go over to the healthKERI,
 
-448
+449
 00:15:05,839 --> 00:15:09,150
 SaaS platform. So, this is
 
-449
-00:15:10,750 --> 00:15:13,160
-our getting started screen, creating an
-account within healthKERI. And the
-
 450
-00:15:13,160 --> 00:15:14,720
-reason why I'm doing this, it won't be
+00:15:09,216 --> 00:15:10,820
+our getting started screen, creating an
 
 451
+00:15:10,844 --> 00:15:13,160
+account within healthKERI. And the
+
+452
+00:15:13,160 --> 00:15:14,720
+reason why I'm doing this,
+
+453
 00:15:14,720 --> 00:15:16,120
 it won't take very long, but this gives
 
-452
+454
 00:15:16,120 --> 00:15:17,839
 me the ability to provision witnesses,
 
-453
+455
 00:15:17,839 --> 00:15:19,440
 so we can talk about the witnesses that
 
-454
+456
 00:15:19,440 --> 00:15:21,320
 we have, and then also to start watching
 
-455
+457
 00:15:21,320 --> 00:15:22,960
 identifiers inside of the healthKERI
 
-456
+458
 00:15:22,960 --> 00:15:24,920
 watcher network so we can see the
 
-457
+459
 00:15:24,920 --> 00:15:26,840
 interplay there. And then I can talk
 
-458
+460
 00:15:26,840 --> 00:15:28,120
 more about what we, you know, what's
 
-459
+461
 00:15:28,120 --> 00:15:29,240
 going to be available for all of you
 
-460
+462
 00:15:29,240 --> 00:15:31,560
 folks to start working with. So I am
 
-461
+463
 00:15:31,560 --> 00:15:33,320
 in Alice, so I will very quickly create
 
-462
+464
 00:15:33,320 --> 00:15:34,480
 Alice and this is one of the key
 
-463
+465
 00:15:34,480 --> 00:15:37,760
 differentiators of what we do with
 
-464
+466
 00:15:37,760 --> 00:15:39,680
 our SaaS platform. There are no usernames
 
-465
+467
 00:15:39,680 --> 00:15:42,800
 and passwords. There are only usernames
 
-466
+468
 00:15:42,800 --> 00:15:45,280
 and KERI identifiers. So you aren't
 
-467
+469
 00:15:45,280 --> 00:15:46,560
 uploading a password here, you're
 
-468
+470
 00:15:46,560 --> 00:15:48,680
 selecting a local KERI identifier and
 
-469
+471
 00:15:48,680 --> 00:15:49,840
 actually I actually I don't want to do
 
-470
+472
 00:15:49,840 --> 00:15:52,560
 that one. Hold on. Identifiers, skip
 
-471
+473
 00:15:52,560 --> 00:15:56,630
 this step.
 
-472
+474
 00:15:59,575 --> 00:16:00,470
 There we go. Create a new one.
 
-473
+475
 00:16:02,830 --> 00:16:03,750
 And I'm going to select my healthKERI
 
-474
+476
 00:16:03,750 --> 00:16:03,760
 
 
-475
+477
 00:16:03,760 --> 00:16:08,760
 identifier to use and that will be the
 identifier that the public key and
 
-476
+478
 00:16:08,760 --> 00:16:10,440
 Key Event Log of that identifier will
 
-477
+479
 00:16:10,440 --> 00:16:12,520
 be stored on our services and anything
 
-478
+480
 00:16:12,520 --> 00:16:15,360
 that I send to the SaaS platform API will
 
-479
+481
 00:16:15,360 --> 00:16:17,360
 be signed and encrypted and anything
 
-480
+482
 00:16:17,360 --> 00:16:19,360
 that it responds with will also be
 
-481
+483
 00:16:19,360 --> 00:16:21,560
 signed and encrypted from their AID. So
 
-482
+484
 00:16:21,560 --> 00:16:23,320
 we have all of our communications
 
-483
+485
 00:16:23,320 --> 00:16:25,720
 between our local Locksmith plugin and
 
-484
+486
 00:16:25,720 --> 00:16:27,520
 our SaaS platform secured with what we
 
-485
+487
 00:16:27,520 --> 00:16:29,440
 call ESSR which is encrypt send sign
 
-486
+488
 00:16:29,440 --> 00:16:32,000
 receiver which is also a protocol
 
-487
+489
 00:16:32,000 --> 00:16:34,120
 that's built into KERIpy.
 
-488
+490
 00:16:34,120 --> 00:16:35,080
 So I'm going to continue into
 
-489
+491
 00:16:35,080 --> 00:16:38,120
 the account creation. This is Alice.
 
-490
+492
 00:16:38,120 --> 00:16:41,150
 She's on the internet.
 
-491
+493
 00:16:41,150 --> 00:16:41,160
 
 
-492
+494
 00:16:41,160 --> 00:16:42,950
 Alice
 
-493
+495
 00:16:43,960 --> 00:16:48,430
 at
 healthkeri.com.
 
-494
+496
 00:16:51,270 --> 00:16:54,000
 There we go. Create an account. Now when
 we first created our SaaS platform, we
 
-495
+497
 00:16:54,000 --> 00:16:55,520
 based everything off of an individual
 
-496
+498
 00:16:55,520 --> 00:16:57,320
 user and you would provision your own
 
-497
+499
 00:16:57,320 --> 00:16:58,600
 businesses and watchers and that
 
-498
+500
 00:16:58,600 --> 00:17:01,080
 immediately was revealed to be
 
-499
+501
 00:17:01,080 --> 00:17:03,600
 very much too limiting because
 
-500
+502
 00:17:03,600 --> 00:17:04,760
 people would want to share accounts. So
 
-501
+503
 00:17:04,760 --> 00:17:06,120
 we switched over to a model where we
 
-502
+504
 00:17:06,120 --> 00:17:07,760
 have teams and if any of you are
 
-503
+505
 00:17:07,760 --> 00:17:09,240
 familiar with using Digital Ocean, it's
 
-504
+506
 00:17:09,240 --> 00:17:11,480
 very much modeled off of their
 
-505
+507
 00:17:11,480 --> 00:17:13,520
 approach for how you share resources
 
-506
+508
 00:17:13,520 --> 00:17:16,079
 across teams. And this came in
 
-507
+509
 00:17:16,079 --> 00:17:18,480
 handy later when we started working with
 
-508
+510
 00:17:18,480 --> 00:17:20,360
 provisioning services inside of
 
-509
+511
 00:17:20,360 --> 00:17:22,600
 enterprises where you have maybe a cloud
 
-510
+512
 00:17:22,600 --> 00:17:24,880
 service that needs an identifier and it
 
-511
+513
 00:17:24,880 --> 00:17:26,720
 also needs things like witnesses and
 
-512
+514
 00:17:26,720 --> 00:17:29,160
 watchers, how you bring that server into
 
-513
+515
 00:17:29,160 --> 00:17:30,760
 your platform so he can start doing
 
-514
+516
 00:17:30,760 --> 00:17:32,760
 KERI things and reserving resources
 
-515
+517
 00:17:32,760 --> 00:17:36,440
 from your KERI account. So this is team
 
-516
+518
 00:17:36,440 --> 00:17:43,390
 Alice
 
-517
+519
 00:17:45,630 --> 00:17:47,960
 healthcarry.com and we'll continue to
 access code and as of right now we don't
 
-518
+520
 00:17:47,960 --> 00:17:49,640
 have billing built into our system so we
 
-519
+521
 00:17:49,640 --> 00:17:51,200
 just base it off access codes. I hand
 
-520
+522
 00:17:51,200 --> 00:17:52,960
 out access codes when people want to get
 
-521
+523
 00:17:52,960 --> 00:17:55,150
 an account on our system.
 
-522
+524
 00:17:56,750 --> 00:18:01,230
 And so I've created a couple for this
 demo.
 
-523
+525
 00:18:02,830 --> 00:18:05,080
 Let's take it there's no vLEI
 integration where you're collecting
 
-524
+526
 00:18:05,080 --> 00:18:07,520
 their role. No, not in this. No, we
 
-525
+527
 00:18:07,520 --> 00:18:09,280
 don't require a vLEI to gain access to
 
-526
+528
 00:18:09,280 --> 00:18:11,080
 our to our platform. Okay, so I've gone
 
-527
+529
 00:18:11,080 --> 00:18:13,320
 ahead gone ahead and created an account
 
-528
+530
 00:18:13,320 --> 00:18:15,080
 Inside of healthKERI. I've added a
 
-529
+531
 00:18:15,080 --> 00:18:17,160
 team to that account.
 
-530
+532
 00:18:17,160 --> 00:18:18,680
 And now I'm going to add an identifier.
 
-531
+533
 00:18:18,680 --> 00:18:20,360
 And this is a little bit of an awkward
 
-532
+534
 00:18:20,360 --> 00:18:22,600
 step but one that we were required to do
 
-533
+535
 00:18:22,600 --> 00:18:24,400
 for all of the other things you would
 
-534
+536
 00:18:24,400 --> 00:18:25,920
 want to do on our SaaS platform. And what
 
-535
+537
 00:18:25,920 --> 00:18:27,880
 I mean by that is when we provision
 
-536
+538
 00:18:27,880 --> 00:18:29,840
 witnesses, slightly different from what
 
-537
+539
 00:18:29,840 --> 00:18:31,400
 many other many of the other witness
 
-538
+540
 00:18:31,400 --> 00:18:33,120
 deployments are right now, when we
 
-539
+541
 00:18:33,120 --> 00:18:34,840
 provision witnesses, we provision them
 
-540
+542
 00:18:34,840 --> 00:18:37,600
 only for a single AID. So every witness
 
-541
+543
 00:18:37,600 --> 00:18:39,360
 that you get on our service will only
 
-542
+544
 00:18:39,360 --> 00:18:42,640
 ever witness for the AID you gave it.
 
-543
+545
 00:18:42,640 --> 00:18:45,400
 And that's a security measure and also
 
-544
+546
 00:18:45,400 --> 00:18:46,920
 it helps us keep the scale of all the
 
-545
+547
 00:18:46,920 --> 00:18:48,800
 witnesses very low so that we can
 
-546
+548
 00:18:48,800 --> 00:18:50,440
 have a lot of witnesses because we know
 
-547
+549
 00:18:50,440 --> 00:18:52,520
 each one will only ever witness for one
 
-548
+550
 00:18:52,520 --> 00:18:55,200
 AID. And so in order to do that, we have
 
-549
+551
 00:18:55,200 --> 00:18:57,760
 to give it the AID to witness for.
 
-550
+552
 00:18:57,760 --> 00:18:59,360
 So that's an example of why we had to
 
-551
+553
 00:18:59,360 --> 00:19:02,040
 create a first step that when you want
 
-552
+554
 00:19:02,040 --> 00:19:03,520
 to start using our system, you have to
 
-553
+555
 00:19:03,520 --> 00:19:05,640
 give us an identifier to start working
 
-554
+556
 00:19:05,640 --> 00:19:08,120
 with. Are there any special caveat for
 
-555
+557
 00:19:08,120 --> 00:19:10,720
 group identifiers? No.
 
-556
+558
 00:19:10,720 --> 00:19:12,280
 No.
 
-557
+559
 00:19:12,280 --> 00:19:14,760
 Correct. Absolutely, yep.
 
-558
+560
 00:19:14,760 --> 00:19:17,800
 Okay. So in addition to that, I can
 
-559
+561
 00:19:17,800 --> 00:19:19,520
 if I have, for example, maybe an
 
-560
+562
 00:19:19,520 --> 00:19:21,080
 identifier on a phone and I want
 
-561
+563
 00:19:21,080 --> 00:19:22,840
 witnesses for it, I can actually do that
 
-562
+564
 00:19:22,840 --> 00:19:24,360
 as well from here and I'll show you how
 
-563
+565
 00:19:24,360 --> 00:19:26,200
 you integrate with that later. But
 
-564
+566
 00:19:26,200 --> 00:19:27,880
 so, when you first upload an account
 
-565
+567
 00:19:27,880 --> 00:19:29,720
 identifier, it can be a remote
 
-566
+568
 00:19:29,720 --> 00:19:31,120
 identifier that you OOBI'd with so you
 
-567
+569
 00:19:31,120 --> 00:19:32,360
 can get resources for some other
 
-568
+570
 00:19:32,360 --> 00:19:34,400
 identifier or a local one from this
 
-569
+571
 00:19:34,400 --> 00:19:36,560
 wallet. In addition, we added a
 
-570
+572
 00:19:36,560 --> 00:19:38,080
 feature of making this identifier
 
-571
+573
 00:19:38,080 --> 00:19:40,800
 publicly available and that's just the
 
-572
+574
 00:19:40,800 --> 00:19:43,640
 healthcare platform global OOBI system so
 
-573
+575
 00:19:43,640 --> 00:19:45,320
 that whenever you upload an identifier,
 
-574
+576
 00:19:45,320 --> 00:19:46,760
 we immediately create a new OOBI for you
 
-575
+577
 00:19:46,760 --> 00:19:48,440
 that you can hand out to anyone and
 
-576
+578
 00:19:48,440 --> 00:19:50,800
 it'll work for all roles within your
 
-577
+579
 00:19:50,800 --> 00:19:52,080
 system. And for those of you who know
 
-578
+580
 00:19:52,080 --> 00:19:54,200
 the details of KERI,
 
-579
+581
 00:19:54,200 --> 00:19:56,640
 if you OOBI against a specific role, you
 
-580
+582
 00:19:56,640 --> 00:19:58,760
 only get back the responses
 
-581
+583
 00:19:58,760 --> 00:20:01,120
 for that role like for a witness. So,
 
-582
+584
 00:20:01,120 --> 00:20:02,800
 this just gives you everything back with
 
-583
+585
 00:20:02,800 --> 00:20:05,080
 one single OOBI. So, I'm going to upload
 
-584
+586
 00:20:05,080 --> 00:20:06,840
 Yep, got to select it first. I'm going
 
-585
+587
 00:20:06,840 --> 00:20:09,520
 to upload the Alice identifier.
 
-586
+588
 00:20:09,520 --> 00:20:11,160
 And you can see that now our SaaS
 
-587
+589
 00:20:11,160 --> 00:20:13,240
 platform knows about this identifier.
 
-588
+590
 00:20:13,240 --> 00:20:15,680
 It's associated with our account. It has
 
-589
+591
 00:20:15,680 --> 00:20:17,600
 our sequence number.
 
-590
+592
 00:20:17,600 --> 00:20:19,760
 And broken out on this grid is both the
 
-591
+593
 00:20:19,760 --> 00:20:21,560
 local sequence number that I have on my
 
-592
+594
 00:20:21,560 --> 00:20:23,280
 machine and the sequence number that the
 
-593
+595
 00:20:23,280 --> 00:20:26,040
 remote system has for me. And those
 
-594
+596
 00:20:26,040 --> 00:20:27,480
 can get out of sync if I do a bunch of
 
-595
+597
 00:20:27,480 --> 00:20:28,920
 rotations and don't come back and update
 
-596
+598
 00:20:28,920 --> 00:20:31,160
 healthKERI except for when watchers are
 
-597
+599
 00:20:31,160 --> 00:20:32,150
 involved.
 
-598
+600
 00:20:35,830 --> 00:20:37,600
 And so now it's also public.
 So, from here I'm going to just jump
 
-599
+601
 00:20:37,600 --> 00:20:40,950
 back real quick to
 
-600
+602
 00:20:40,950 --> 00:20:40,960
 
 
-601
+603
 00:20:40,960 --> 00:20:45,880
 the wallet side of this
 application, not the healthcare platform
 
-602
+604
 00:20:45,880 --> 00:20:47,320
 side, and talk about our creden-
 
-603
+605
 00:20:47,320 --> 00:20:49,240
 credential management system. So, inside
 
-604
+606
 00:20:49,240 --> 00:20:50,600
 of here, we have the ability to issue
 
-605
+607
 00:20:50,600 --> 00:20:52,960
 credentials. We broke credentials out
 
-606
+608
 00:20:52,960 --> 00:20:54,760
 into those that you have issued, those
 
-607
+609
 00:20:54,760 --> 00:20:56,640
 that you have received, and then
 
-608
+610
 00:20:56,640 --> 00:20:58,080
 accepted offers is something very
 
-609
+611
 00:20:58,080 --> 00:20:59,880
 particular to the demo I will be doing
 
-610
+612
 00:20:59,880 --> 00:21:01,640
 tomorrow.
 
-611
+613
 00:21:01,640 --> 00:21:03,000
 And for those of you who were here at
 
-612
+614
 00:21:03,000 --> 00:21:05,000
-and for those of you who were here at
 SEDI and saw me do it yesterday, it's
 
-613
+615
 00:21:05,000 --> 00:21:07,800
 where we have integrated IPEX
 
-614
+616
 00:21:07,800 --> 00:21:10,000
 protocol into our OAuth servers so that
 
-615
+617
 00:21:10,000 --> 00:21:11,760
 you can do a credential presentation of
 
-616
+618
 00:21:11,760 --> 00:21:13,840
 an offer without the actual credential
 
-617
+619
 00:21:13,840 --> 00:21:16,520
 itself and require the site to sign your
 
-618
+620
 00:21:16,520 --> 00:21:18,080
 terms and conditions before you give
 
-619
+621
 00:21:18,080 --> 00:21:20,360
 them the full credential. Those signed
 
-620
+622
 00:21:20,360 --> 00:21:23,560
 receipts, signed offers show up here.
 
-621
+623
 00:21:23,560 --> 00:21:24,800
 And then finally we have the ability to
 
-622
+624
 00:21:24,800 --> 00:21:26,640
 do schema.
 
-623
+625
 00:21:26,640 --> 00:21:29,040
 We can upload schema from any source.
 
-624
+626
 00:21:29,040 --> 00:21:31,160
 I'm going to go ahead and grab the QVI
 
-625
+627
 00:21:31,160 --> 00:21:32,520
 schema just cuz I know it doesn't have
 
-626
+628
 00:21:32,520 --> 00:21:35,990
 any
 
-627
+629
 00:21:37,190 --> 00:21:40,040
 There we go.
 Doesn't have any chains on it. So we put
 
-628
+630
 00:21:40,040 --> 00:21:41,560
 the OOBI in there and it automatically
 
-629
+631
 00:21:41,560 --> 00:21:43,680
 pulls out the SAID for you just so you
 
-630
+632
 00:21:43,680 --> 00:21:46,080
 see you have that tuple of the
 
-631
+633
 00:21:46,080 --> 00:21:48,200
 identifier as well as the OOBI. And then
 
-632
+634
 00:21:48,200 --> 00:21:49,920
 this is another use case where we looked
 
-633
+635
 00:21:49,920 --> 00:21:52,080
 at it and said, "Okay,
 
-634
+636
 00:21:52,080 --> 00:21:55,000
 credential registry makes sense to me,
 
-635
+637
 00:21:55,000 --> 00:21:56,480
 but that's cuz Sam has explained them to
 
-636
+638
 00:21:56,480 --> 00:21:58,000
 me about five times, maybe probably more
 
-637
+639
 00:21:58,000 --> 00:21:59,040
 than that.
 
-638
+640
 00:21:59,040 --> 00:22:00,880
 It was really hard for us to explain to
 
-639
+641
 00:22:00,880 --> 00:22:03,280
 people what they're doing in that first
 
-640
+642
 00:22:03,280 --> 00:22:04,400
 step before you're allowed to issue
 
-641
+643
 00:22:04,400 --> 00:22:05,600
 credentials. You have to create a
 
-642
+644
 00:22:05,600 --> 00:22:06,840
 registry. Well, what's that? What name
 
-643
+645
 00:22:06,840 --> 00:22:08,600
 do I give it? "Where does it live?" And
 
-644
+646
 00:22:08,600 --> 00:22:10,480
 so instead of doing that we tried to
 
-645
+647
 00:22:10,480 --> 00:22:12,320
 hide all that and this is open for
 
-646
+648
 00:22:12,320 --> 00:22:13,680
 debate. This will now be an open source.
 
-647
+649
 00:22:13,680 --> 00:22:15,320
 So if folks don't like this it can be
 
-648
+650
 00:22:15,320 --> 00:22:18,480
 undone, but we've decided that instead
 
-649
+651
 00:22:18,480 --> 00:22:20,600
 we've added a step to uploading a schema
 
-650
+652
 00:22:20,600 --> 00:22:22,440
 that says, "I want to use this for
 
-651
+653
 00:22:22,440 --> 00:22:24,200
 credential issuance." So when you select
 
-652
+654
 00:22:24,200 --> 00:22:26,200
 that, you select an identifier who's
 
-653
+655
 00:22:26,200 --> 00:22:27,280
 going to be the issuer for that
 
-654
+656
 00:22:27,280 --> 00:22:29,880
 particular type of credential. And when
 
-655
+657
 00:22:29,880 --> 00:22:32,000
 you load the schema, not only does it
 
-656
+658
 00:22:32,000 --> 00:22:33,480
 load the schema, but it has now created
 
-657
+659
 00:22:33,480 --> 00:22:35,440
 a credential registry behind the scenes.
 
-658
+660
 00:22:35,440 --> 00:22:36,880
 So that is completely hidden from the
 
-659
+661
 00:22:36,880 --> 00:22:38,920
 user and we think that's probably a good
 
-660
+662
 00:22:38,920 --> 00:22:40,040
 thing,
 
-661
+663
 00:22:40,040 --> 00:22:41,560
 but again open for debate and we're
 
-662
+664
 00:22:41,560 --> 00:22:43,360
 willing to accept feedback on that. Did
 
-663
-00:22:43,360 --> 00:22:45,270
-you have a question? Yeah, so
-
-664
-00:22:46,270 --> 00:22:47,400
-every It's specific
-registry per schema type?
-
 665
-00:22:47,400 --> 00:22:48,240
-Yep.
+00:22:43,360 --> 00:22:45,270
+you have a question? – Yeah, so
 
 666
-00:22:48,240 --> 00:22:50,280
-Yep. It was just a an allowance that we
+00:22:45,314 --> 00:22:47,400
+[inaudible] registry per schema type?
 
 667
+00:22:47,432 --> 00:22:50,280
+– Yep. It was just a an allowance that we
+
+668
 00:22:50,280 --> 00:22:51,400
 made to try and make it a little bit
 
-668
+669
 00:22:51,400 --> 00:22:53,600
 easier for the user.
 
-669
+670
 00:22:53,600 --> 00:22:55,320
 So and then when you come into our issue
 
-670
+671
 00:22:55,320 --> 00:22:56,360
 credential screen, I'm not going to
 
-671
+672
 00:22:56,360 --> 00:22:57,400
 issue any credentials but I just want to
 
-672
+673
 00:22:57,400 --> 00:23:00,320
 show you really quickly. You select the
 
-673
+674
 00:23:00,320 --> 00:23:02,120
 type that you want. We dig into the
 
-674
+675
 00:23:02,120 --> 00:23:05,160
 schema and present fields for you. These
 
-675
+676
 00:23:05,160 --> 00:23:06,920
 are as typed as we can make them based
 
-676
+677
 00:23:06,920 --> 00:23:08,320
 on the JSON schema in each of the
 
-677
+678
 00:23:08,320 --> 00:23:10,200
 credentials cuz you cannot specify
 
-678
+679
 00:23:10,200 --> 00:23:12,200
 formats and stuff in schema
 
-679
+680
 00:23:12,200 --> 00:23:14,200
 if you don't want to.
 
-680
+681
 00:23:14,200 --> 00:23:15,760
 Calling out required fields and stuff
 
-681
+682
 00:23:15,760 --> 00:23:16,960
 like that just to make credential
 
-682
+683
 00:23:16,960 --> 00:23:19,040
 issuance a little bit little bit easier
 
-683
+684
 00:23:19,040 --> 00:23:21,240
 for the user without hardcoding into
 
-684
+685
 00:23:21,240 --> 00:23:23,320
 this app knowledge of any specific
 
-685
+686
 00:23:23,320 --> 00:23:26,150
 schema type.
 
-686
+687
 00:23:28,070 --> 00:23:30,720
 Okay, so now we're going to go back to
 the healthKERI plugin.
 
-687
+688
 00:23:30,720 --> 00:23:32,320
 And
 
-688
+689
 00:23:32,320 --> 00:23:34,000
 there we go. Perfect example. So this
 
-689
+690
 00:23:34,000 --> 00:23:36,040
 this identifier is now out of sync and
 
-690
+691
 00:23:36,040 --> 00:23:37,840
 that is because I created a credential
 
-691
+692
 00:23:37,840 --> 00:23:39,280
 registry with it which had which had to
 
-692
+693
 00:23:39,280 --> 00:23:41,160
 create an anchor into my Key Event Log
 
-693
+694
 00:23:41,160 --> 00:23:42,720
 and now he's out of sync so you can see
 
-694
+695
 00:23:42,720 --> 00:23:44,960
 that he's not
 
-695
+696
 00:23:44,960 --> 00:23:47,080
 the remote server doesn't have my most
 
-696
+697
 00:23:47,080 --> 00:23:49,480
 up-to-date key state.
 
-697
+698
 00:23:49,480 --> 00:23:51,520
 So I'm just going to go ahead and update
 
-698
+699
 00:23:51,520 --> 00:23:53,240
 that. And so this tells me that I'm
 
-699
+700
 00:23:53,240 --> 00:23:54,680
 going to be taking the local key state
 
-700
+701
 00:23:54,680 --> 00:23:56,200
 where I'm at one
 
-701
+702
 00:23:56,200 --> 00:23:57,880
 and pushing it up to the remote server
 
-702
+703
 00:23:57,880 --> 00:24:00,160
 who is at key state zero for this and
 
-703
+704
 00:24:00,160 --> 00:24:01,680
 updating now we're in sync. So he now
 
-704
+705
 00:24:01,680 --> 00:24:04,080
 knows about my most recent key events.
 
-705
+706
 00:24:04,080 --> 00:24:04,840
 So now we're going to move on to
 
-706
+707
 00:24:04,840 --> 00:24:07,440
 witnesses and this is Does it make sense
 
-707
+708
 00:24:07,440 --> 00:24:09,080
 to go back to the
 
-708
+709
 00:24:09,080 --> 00:24:11,040
 slideshow?
 
-709
+710
 00:24:11,040 --> 00:24:12,520
 So yeah, so I'll just go over this slide
 
-710
+711
 00:24:12,520 --> 00:24:14,000
 very quickly.
 
-711
+712
 00:24:14,000 --> 00:24:17,520
 So this is witness as a service and as I
 
-712
+713
 00:24:17,520 --> 00:24:18,960
 mentioned earlier this gives you the
 
-713
+714
 00:24:18,960 --> 00:24:21,080
 ability to reserve individual witnesses
 
-714
+715
 00:24:21,080 --> 00:24:23,240
 for your AID. Any number of witnesses
 
-715
+716
 00:24:23,240 --> 00:24:25,000
 you want. We have geographically
 
-716
+717
 00:24:25,000 --> 00:24:27,280
 disperse witness infrastructure so you
 
-717
+718
 00:24:27,280 --> 00:24:28,280
 get to pick where you want your
 
-718
+719
 00:24:28,280 --> 00:24:30,080
 witnesses deployed, how many you want
 
-719
+720
 00:24:30,080 --> 00:24:31,760
 deployed and then you get to pick your
 
-720
+721
 00:24:31,760 --> 00:24:33,000
 threshold that you want of those
 
-721
+722
 00:24:33,000 --> 00:24:35,600
 witnesses and our user interface will
 
-722
+723
 00:24:35,600 --> 00:24:38,800
 default to the most logical threshold
 
-723
+724
 00:24:38,800 --> 00:24:40,040
 based on the What's the name of that
 
-724
+725
 00:24:40,040 --> 00:24:41,880
 algorithm?
 
-725
+726
 00:24:41,880 --> 00:24:43,520
 The Kawa algorithm. So the
 
-726
+727
 00:24:43,520 --> 00:24:45,280
 number of witnesses that you should have
 
-727
+728
 00:24:45,280 --> 00:24:46,600
 in your threshold versus the number of
 
-728
+729
 00:24:46,600 --> 00:24:48,790
 witnesses that you have.
 
-729
+730
 00:24:48,800 --> 00:24:53,200
 So as I said reserve a witness as easily
 as any cloud resource. The core of this
 
-730
+731
 00:24:53,200 --> 00:24:54,640
 is open source. I know we're going to
 
-731
+732
 00:24:54,640 --> 00:24:56,720
 see demos of the KERI Foundation folks
 
-732
+733
 00:24:56,720 --> 00:24:58,040
 who have already put it into production
 
-733
+734
 00:24:58,040 --> 00:25:00,950
 in their systems.
 
-734
+735
 00:25:03,070 --> 00:25:04,560
 it is a multi-tenant system, so you can
 put it on one
 
-735
+736
 00:25:04,560 --> 00:25:06,960
 VM and reserve as many witnesses as you
 
-736
+737
 00:25:06,960 --> 00:25:09,320
 think that VM can support. And then what
 
-737
+738
 00:25:09,320 --> 00:25:10,840
 we've done behind the scenes for us is
 
-738
+739
 00:25:10,840 --> 00:25:12,400
 that we spread that out across multiple
 
-739
+740
 00:25:12,400 --> 00:25:14,720
 hosts and we have a round robin and I'll
 
-740
+741
 00:25:14,720 --> 00:25:16,640
 talk about how we deploy all this later
 
-741
+742
 00:25:16,640 --> 00:25:18,560
 That we can then pick from for any
 
-742
+743
 00:25:18,560 --> 00:25:20,790
 particular region.
 
-743
+744
 00:25:20,790 --> 00:25:25,280
 We have added actually I added to
 KERI Core at the very beginning of my
 
-744
+745
 00:25:25,280 --> 00:25:27,600
 work at healthKeri, the ability for a
 
-745
+746
 00:25:27,600 --> 00:25:29,680
 two-factor off for witnesses. So we have
 
-746
+747
 00:25:29,680 --> 00:25:33,160
 a one-time passcode that you select
 
-747
+748
 00:25:33,160 --> 00:25:34,920
 that you authenticate with the witness.
 
-748
+749
 00:25:34,920 --> 00:25:36,240
 He gives you back the one-time passcode,
 
-749
+750
 00:25:36,240 --> 00:25:37,440
 then you have to enter that anytime you
 
-750
+751
 00:25:37,440 --> 00:25:39,320
 do a key rotation. And that's to make
 
-751
+752
 00:25:39,320 --> 00:25:40,760
 sure that your witnesses won't just
 
-752
+753
 00:25:40,760 --> 00:25:42,560
 accept the Key Event Log for you from
 
-753
+754
 00:25:42,560 --> 00:25:43,760
 anyone. You have to provide that
 
-754
+755
 00:25:43,760 --> 00:25:45,440
 one-time password with it. There are
 
-755
+756
 00:25:45,440 --> 00:25:48,000
 other ways to do this. We could use our
 
-756
+757
 00:25:48,000 --> 00:25:50,880
 our proprietary API with the ESSR to
 
-757
+758
 00:25:50,880 --> 00:25:54,440
 accept events for your witnesses, but we
 
-758
+759
 00:25:54,440 --> 00:25:56,560
 thought that was more vendor lock-in
 
-759
+760
 00:25:56,560 --> 00:25:57,960
 than we really were comfortable with, so
 
-760
+761
 00:25:57,960 --> 00:25:59,200
 we went with this one-time password
 
-761
+762
 00:25:59,200 --> 00:26:00,560
 solution. They are
 
-762
+763
 00:26:00,560 --> 00:26:02,120
 non-promiscuous. They will only witness
 
-763
+764
 00:26:02,120 --> 00:26:04,080
 for the people for the one AID that you
 
-764
+765
 00:26:04,080 --> 00:26:06,280
 reserve them for. Each witness has its
 
-765
+766
 00:26:06,280 --> 00:26:08,400
 own dedicated key store, so there's no
 
-766
+767
 00:26:08,400 --> 00:26:10,160
 mixing of keys in like a MongoDB
 
-767
+768
 00:26:10,160 --> 00:26:11,960
 or anything. They each have their own
 
-768
+769
 00:26:11,960 --> 00:26:14,520
 private LMDB and we manage that across
 
-769
+770
 00:26:14,520 --> 00:26:16,280
 multiple servers. This makes it fairly
 
-770
+771
 00:26:16,280 --> 00:26:18,640
 scalable, pretty easy to deploy, and
 
-771
+772
 00:26:18,640 --> 00:26:20,440
 designed for and in our case implemented
 
-772
+773
 00:26:20,440 --> 00:26:23,990
 with geographic distribution.
 
-773
+774
 00:26:23,990 --> 00:26:27,400
 Let's just see the screen. I don't
 need to talk through this.
 
-774
+775
 00:26:27,400 --> 00:26:29,440
 So here we are. So let's add a witness.
 
-775
+776
 00:26:29,440 --> 00:26:30,760
 So when you open up the create a witness
 
-776
+777
 00:26:30,760 --> 00:26:32,120
 screen, it will of course make you
 
-777
+778
 00:26:32,120 --> 00:26:33,440
 select an identifier, so I'm going to
 
-778
+779
 00:26:33,440 --> 00:26:36,120
 select Alice. In our system right now
 
-779
+780
 00:26:36,120 --> 00:26:37,640
 we have four regions deployed. We have
 
-780
+781
 00:26:37,640 --> 00:26:39,800
 New York, Frankfurt, Singapore, and
 
-781
+782
 00:26:39,800 --> 00:26:42,120
 Sydney. And you get to choose where you
 
-782
+783
 00:26:42,120 --> 00:26:43,800
 want your witnesses deployed. So I've
 
-783
+784
 00:26:43,800 --> 00:26:45,920
 already chose I've already selected
 
-784
+785
 00:26:45,920 --> 00:26:47,360
 Alice as the identifier that I want
 
-785
+786
 00:26:47,360 --> 00:26:49,440
 witnesses for. I can add as many as I
 
-786
+787
 00:26:49,440 --> 00:26:52,040
 want in each region. It gives you a
 
-787
+788
 00:26:52,040 --> 00:26:54,160
 suggestion of a name for that witness in
 
-788
+789
 00:26:54,160 --> 00:26:55,600
 that region. You can name them anything
 
-789
+790
 00:26:55,600 --> 00:26:57,320
 you want.
 
-790
+791
 00:26:57,320 --> 00:26:58,640
 If you want to, I'm just going to go
 
-791
+792
 00:26:58,640 --> 00:27:01,200
 ahead and reserve a witness in each of
 
-792
+793
 00:27:01,200 --> 00:27:03,200
 the regions.
 
-793
+794
 00:27:03,200 --> 00:27:03,880
 And then I'm going to choose an
 
-794
+795
 00:27:03,880 --> 00:27:05,840
 authentication method.
 
-795
+796
 00:27:05,840 --> 00:27:07,920
 Trade-off here between security and
 
-796
+797
 00:27:07,920 --> 00:27:10,240
 friction, ease of use.
 
-797
+798
 00:27:10,240 --> 00:27:12,080
 We've given you the ability to have
 
-798
+799
 00:27:12,080 --> 00:27:13,960
 an individual one-time passcode for each
 
-799
+800
 00:27:13,960 --> 00:27:16,360
 witness that you reserve. At four,
 
-800
+801
 00:27:16,360 --> 00:27:18,040
 that's really onerous, so I wouldn't
 
-801
+802
 00:27:18,040 --> 00:27:19,520
 even do it at four. At 12, I couldn't
 
-802
+803
 00:27:19,520 --> 00:27:21,280
 even imagine it. So, we also give you
 
-803
+804
 00:27:21,280 --> 00:27:23,440
 the opportunity to do a batch one-time
 
-804
+805
 00:27:23,440 --> 00:27:25,680
 passcode. One-time passcode for all of
 
-805
+806
 00:27:25,680 --> 00:27:28,200
 your witnesses for this AID, and that
 
-806
+807
 00:27:28,200 --> 00:27:30,640
 way you can only enter it once, only
 
-807
+808
 00:27:30,640 --> 00:27:32,360
 enter one code once when you do a full
 
-808
+809
 00:27:32,360 --> 00:27:34,040
 rotation.
 
-809
+810
 00:27:34,040 --> 00:27:35,840
 So, we're going to select batch,
 
-810
+811
 00:27:35,840 --> 00:27:37,320
 create our witnesses, and you can see
 
-811
+812
 00:27:37,320 --> 00:27:39,560
 here I've now spun up four witnesses.
 
-812
+813
 00:27:39,560 --> 00:27:41,240
 Pretty fast. This is actually witnesses
 
-813
+814
 00:27:41,240 --> 00:27:43,040
 spinning up in our SaaS platform. It's
 
-814
+815
 00:27:43,040 --> 00:27:44,440
 very light touch for getting a single
 
-815
+816
 00:27:44,440 --> 00:27:46,120
 witness to spin up.
 
-816
+817
 00:27:46,120 --> 00:27:47,960
 Each one has its own identifier. You can
 
-817
+818
 00:27:47,960 --> 00:27:49,800
 see them here. They're non-transferable
 
-818
+819
 00:27:49,800 --> 00:27:51,840
 identifiers, as you would imagine. Here
 
-819
+820
 00:27:51,840 --> 00:27:53,320
 are the OOBIs right here that you can
 
-820
+821
 00:27:53,320 --> 00:27:55,360
 copy and paste if you wanted to.
 
-821
+822
 00:27:55,360 --> 00:27:57,760
 You can also toggle on QR codes for
 
-822
+823
 00:27:57,760 --> 00:27:59,560
 those OOBIs. So, if you're doing this
 
-823
+824
 00:27:59,560 --> 00:28:01,680
 for a device that's on a mobile phone,
 
-824
+825
 00:28:01,680 --> 00:28:03,240
 and you need to scan in these so that
 
-825
+826
 00:28:03,240 --> 00:28:04,640
 you can now gain access to them for that
 
-826
+827
 00:28:04,640 --> 00:28:07,000
 device, you can do that here with these,
 
-827
+828
 00:28:07,000 --> 00:28:10,230
 QR codes. And then finally, we provide
 
-828
+829
 00:28:10,240 --> 00:28:11,720
 the opportunity for you to right here
 
-829
+830
 00:28:11,720 --> 00:28:13,600
 grab those OOBIs out of this screen and
 
-830
+831
 00:28:13,600 --> 00:28:15,080
 just introduce to all of them. So, I'm
 
-831
+832
 00:28:15,080 --> 00:28:16,680
 going to go ahead and do this. I'm now
 
-832
+833
 00:28:16,680 --> 00:28:18,880
 OOBI'ing with each witness individually
 
-833
+834
 00:28:18,880 --> 00:28:21,040
 and saving him into my database. And
 
-834
+835
 00:28:21,040 --> 00:28:23,280
 then we did the authentication step,
 
-835
+836
 00:28:23,280 --> 00:28:24,200
 where I called into the
 
-836
+837
 00:28:24,200 --> 00:28:26,680
 witness, and this was really tricky to
 
-837
+838
 00:28:26,680 --> 00:28:29,120
 get right because this like sort of a
 
-838
+839
 00:28:29,120 --> 00:28:31,640
 trust a TOFU (trust on first use) case,
 
-839
+840
 00:28:31,640 --> 00:28:33,880
 where that witness wasn't authenticated
 
-840
+841
 00:28:33,880 --> 00:28:35,360
 anybody, but he would only accept things
 
-841
+842
 00:28:35,360 --> 00:28:37,920
 from me. So, I was able to sign one
 
-842
+843
 00:28:37,920 --> 00:28:39,440
 request to him to get the one-time
 
-843
+844
 00:28:39,440 --> 00:28:40,840
 passcode back from him, and it was
 
-844
+845
 00:28:40,840 --> 00:28:42,640
 encrypted between the two of us. So, now
 
-845
+846
 00:28:42,640 --> 00:28:44,880
 I have the one-time passcode here. I
 
-846
+847
 00:28:44,880 --> 00:28:46,400
 can, again, I could scan that into the
 
-847
+848
 00:28:46,400 --> 00:28:49,440
 one-time passcode feature on my phone or
 
-848
+849
 00:28:49,440 --> 00:28:51,200
 in this case I'm going to copy it and
 
-849
+850
 00:28:51,200 --> 00:28:52,880
 put it in
 
-850
+851
 00:28:52,880 --> 00:28:54,160
 one password so I can actually
 
-851
+852
 00:28:54,160 --> 00:28:55,840
 do things with these witnesses
 
-852
+853
 00:28:55,840 --> 00:28:57,400
 afterwards.
 
-853
+854
 00:28:57,400 --> 00:28:58,360
 So, I don't know if any of you knew
 
-854
+855
 00:28:58,360 --> 00:28:59,800
 this, but
 
-855
+856
 00:28:59,800 --> 00:29:01,160
 What's that?
 
-856
+857
 00:29:01,160 --> 00:29:03,960
 We need your one password. No, no, I use
 
-857
+858
 00:29:03,960 --> 00:29:05,560
 my fingerprint. You don't have that
 
-858
+859
 00:29:05,560 --> 00:29:07,800
 again.
 
-859
+860
 00:29:07,800 --> 00:29:09,200
 I just wanted you to type it out for us
 
-860
+861
 00:29:09,200 --> 00:29:11,040
 on the Nope.
 
-861
+862
 00:29:11,040 --> 00:29:11,920
 So, I don't know if you knew this, but
 
-862
+863
 00:29:11,920 --> 00:29:13,120
 when I discovered this like wow, that's
 
-863
+864
 00:29:13,120 --> 00:29:14,280
 cool. They have they have a one-time
 
-864
+865
 00:29:14,280 --> 00:29:17,430
 password support.
 
-865
+866
 00:29:18,470 --> 00:29:20,120
 Yeah.
 Yep, absolutely. Yeah.
 
-866
+867
 00:29:20,120 --> 00:29:21,800
 Yeah, they have a they have OP command
 
-867
+868
 00:29:21,800 --> 00:29:23,280
 line, very cool. Two words or two
 
-868
+869
 00:29:23,280 --> 00:29:25,080
 letters, I love that. But anyway, and
 
-869
+870
 00:29:25,080 --> 00:29:26,680
 then finally, the last step would have
 
-870
+871
 00:29:26,680 --> 00:29:28,320
 be of course rotation this in. I could
 
-871
+872
 00:29:28,320 --> 00:29:29,720
 just go do this manually, but we've
 
-872
+873
 00:29:29,720 --> 00:29:31,240
 added the ability to do a rotation right
 
-873
+874
 00:29:31,240 --> 00:29:33,560
 here on the screen. It brings up common
 
-874
+875
 00:29:33,560 --> 00:29:34,800
 defaults that you'd use. You want your
 
-875
+876
 00:29:34,800 --> 00:29:36,080
 new your next keys or signing
 
-876
+877
 00:29:36,080 --> 00:29:38,470
 thresholds. We select the TOAD, the
 
-877
+878
 00:29:38,470 --> 00:29:46,680
 TOAD = threshold-of-accountable-duplicity
 
-878
+879
 00:29:46,680 --> 00:29:48,320
 accountable duplicity of three, which
 makes sense for four witnesses. And
 
-879
+880
 00:29:48,320 --> 00:29:49,440
 these are the four witnesses we just
 
-880
+881
 00:29:49,440 --> 00:29:51,440
 created. You can add more or remove here
 
-881
+882
 00:29:51,440 --> 00:29:52,600
 if you wanted to, but we'll just go
 
-882
+883
 00:29:52,600 --> 00:29:54,360
 ahead and rotate them in. And of course
 
-883
+884
 00:29:54,360 --> 00:29:56,120
 now it's asking for my one-time passcode
 
-884
+885
 00:29:56,120 --> 00:29:58,670
 so I'm going to go over here.
 
-885
+886
 00:29:59,950 --> 00:30:01,320
 I'm going to I'm very paranoid cuz I'm
 going to wait till it goes it rolls over
 
-886
+887
 00:30:01,320 --> 00:30:03,920
 to the next 30 seconds.
 
-887
+888
 00:30:03,920 --> 00:30:07,590
 1:30
 
-888
+889
 00:30:08,790 --> 00:30:10,640
 There we go.
 All right, now I'm going to grab that.
 
-889
+890
 00:30:10,640 --> 00:30:15,430
 Paste that in here and do a rotation.
 
-890
+891
 00:30:17,790 --> 00:30:19,160
 And we've rotated. So, now I have all
 four witnesses rotated into my
 
-891
+892
 00:30:19,160 --> 00:30:21,600
 identifier. I have a You can see over
 
-892
+893
 00:30:21,600 --> 00:30:22,960
 here on this side. I'm now at sequence
 
-893
+894
 00:30:22,960 --> 00:30:24,080
 number two. I was at sequence number
 
-894
+895
 00:30:24,080 --> 00:30:26,040
 one. All four witnesses gave me
 
-895
+896
 00:30:26,040 --> 00:30:27,480
 receipts. There's my threshold. There's
 
-896
+897
 00:30:27,480 --> 00:30:29,760
 my new public key. And because this is a
 
-897
+898
 00:30:29,760 --> 00:30:31,800
 remote identifier and we know that we're
 
-898
+899
 00:30:31,800 --> 00:30:32,880
 given the opportunity to just go ahead
 
-899
+900
 00:30:32,880 --> 00:30:34,120
 and upload the new event that you just
 
-900
+901
 00:30:34,120 --> 00:30:36,160
 used to rotate in those witnesses into
 
-901
+902
 00:30:36,160 --> 00:30:37,800
 your upstream server. So, we'll update
 
-902
+903
 00:30:37,800 --> 00:30:40,120
 that. I'm now done with this. You
 
-903
+904
 00:30:40,120 --> 00:30:41,840
 see here I've created these four
 
-904
+905
 00:30:41,840 --> 00:30:43,400
 witnesses. These are my account
 
-905
+906
 00:30:43,400 --> 00:30:45,920
 witnesses. You're now paying for them.
 
-906
+907
 00:30:45,920 --> 00:30:47,280
 They're a monthly service, but very
 
-907
+908
 00:30:47,280 --> 00:30:49,440
 very cheap. The controller is Alice.
 
-908
+909
 00:30:49,440 --> 00:30:51,000
 This is each of the AIDs for those
 
-909
+910
 00:30:51,000 --> 00:30:52,760
 witnesses, and these are the regions
 
-910
+911
 00:30:52,760 --> 00:30:54,280
 that they're on. So, I now have
 
-911
+912
 00:30:54,280 --> 00:30:55,640
 witnesses spread out around the world
 
-912
+913
 00:30:55,640 --> 00:30:57,400
 for this identifier. So, someone would
 
-913
+914
 00:30:57,400 --> 00:30:58,680
 immediately now have to attack four
 
-914
+915
 00:30:58,680 --> 00:31:00,240
 different places around the world to
 
-915
+916
 00:31:00,240 --> 00:31:02,040
 eclipse my witnesses. And that was
 
-916
+917
 00:31:02,040 --> 00:31:03,520
 pretty easy, right? I think it was
 
-917
+918
 00:31:03,520 --> 00:31:04,680
 pretty easy.
 
-918
+919
 00:31:04,680 --> 00:31:05,480
 So.
 
-919
+920
 00:31:05,480 --> 00:31:06,116
 Thank you.
 
-920
+921
 00:31:06,116 --> 00:31:07,680
 [applause]
-
-921
-00:31:07,680 --> 00:31:08,880
-And then
 
 922
 00:31:08,880 --> 00:31:10,120
@@ -3843,533 +3832,517 @@ Bob, wonderful.
 
 951
 00:32:23,120 --> 00:32:24,960
-Bob, that. Want to use the healthKERI
+– Want to use the healthKERI
 
 952
 00:32:24,960 --> 00:32:26,920
 identifier for that?
 
 953
-00:32:26,920 --> 00:32:30,430
-Did I not Did I just Thank you. KERI
-OOBI.
+00:32:48,005 --> 00:32:49,080
+These are one-time access codes,
 
 954
-00:32:30,430 --> 00:32:35,310
-Did I not Did I just Thank you. KERI
-OOBI.
-
-955
-00:32:39,030 --> 00:32:41,510
-Create account, good. get started. Team
-Bob.
-
-956
-00:32:47,590 --> 00:32:49,080
-Continue access code. Let me grab Bob's
-access. These are one-time access codes,
-
-957
 00:32:49,080 --> 00:32:50,080
 by the way, if I didn't mention that
 
-958
+955
 00:32:50,080 --> 00:32:51,480
 before.
 
-959
+956
 00:32:51,480 --> 00:32:55,280
 We're going to grab Bob, paste.
 
-960
+957
 00:32:55,280 --> 00:32:58,800
 Paste, continue to invites, no invites.
 
-961
+958
 00:32:58,800 --> 00:33:01,240
 Go to identifiers. Let's add Bob an
 
-962
+959
 00:33:01,240 --> 00:33:02,360
 identifier. Although, I don't think I
 
-963
+960
 00:33:02,360 --> 00:33:03,800
 need to do this, but anyway, you can
 
-964
+961
 00:33:03,800 --> 00:33:05,640
 just see how quick this is. And now,
 
-965
+962
 00:33:05,640 --> 00:33:06,800
 let's go to the last step, watcher
 
-966
+963
 00:33:06,800 --> 00:33:07,920
 network. So, very quickly, I want to
 
-967
+964
 00:33:07,920 --> 00:33:09,440
 mention that we initially implemented
 
-968
+965
 00:33:09,440 --> 00:33:11,480
 our watcher network the same way we did
 
-969
+966
 00:33:11,480 --> 00:33:14,320
 witnesses. You have to rent individual
 
-970
+967
 00:33:14,320 --> 00:33:16,160
 watchers and assign them to watch
 
-971
+968
 00:33:16,160 --> 00:33:17,520
 people. So, if I wanted to have like
 
-972
+969
 00:33:17,520 --> 00:33:19,480
 five watchers watching Sam's ID, I'd
 
-973
+970
 00:33:19,480 --> 00:33:20,720
 have to go and get five watchers and
 
-974
+971
 00:33:20,720 --> 00:33:22,560
 I'll say watch Sam's ID. That way, it
 
-975
+972
 00:33:22,560 --> 00:33:24,400
 was it didn't work well. I talked with
 
-976
+973
 00:33:24,400 --> 00:33:25,640
 Sam about it. He said it's no more
 
-977
+974
 00:33:25,640 --> 00:33:29,440
 secure giving them VMs inside of our
 
-978
+975
 00:33:29,440 --> 00:33:30,760
 infrastructure than if I just created a
 
-979
+976
 00:33:30,760 --> 00:33:32,640
 global watcher network. And so, that's
 
-980
+977
 00:33:32,640 --> 00:33:34,120
 what we did. We created a global watcher
 
-981
+978
 00:33:34,120 --> 00:33:36,000
 network. So, instead of having to worry
 
-982
+979
 00:33:36,000 --> 00:33:37,360
 about renting your own watchers and
 
-983
+980
 00:33:37,360 --> 00:33:39,280
 assigning them and managing them, we
 
-984
+981
 00:33:39,280 --> 00:33:40,680
 just tell you
 
-985
+982
 00:33:40,680 --> 00:33:42,520
 tell us an identifier you want to watch.
 
-986
+983
 00:33:42,520 --> 00:33:44,040
 We'll distribute it across our global
 
-987
+984
 00:33:44,040 --> 00:33:45,880
 watcher network for you at random in
 
-988
+985
 00:33:45,880 --> 00:33:48,120
 different locations, and we'll keep an
 
-989
+986
 00:33:48,120 --> 00:33:49,200
 eye on it for you. So, that's what we've
 
-990
+987
 00:33:49,200 --> 00:33:51,480
 done. So, getting a watched identifier
 
-991
+988
 00:33:51,480 --> 00:33:53,000
 is as simple as selecting one of your
 
-992
+989
 00:33:53,000 --> 00:33:55,760
 remote identifiers and say watch. He
 
-993
+990
 00:33:55,760 --> 00:33:56,960
 immediately pulled the key state for
 
-994
+991
 00:33:56,960 --> 00:33:59,120
 that watcher down, and now telling our
 
-995
+992
 00:33:59,120 --> 00:34:01,000
 system to go watch that identifier. The
 
-996
+993
 00:34:01,000 --> 00:34:04,120
 value of that, of course, is that now I
 
-997
+994
 00:34:04,120 --> 00:34:06,600
 can come over here to Alice, and in the
 
-998
+995
 00:34:06,600 --> 00:34:10,040
 regular KERI side of the plugin, lock
 
-999
+996
 00:34:10,040 --> 00:34:11,669
 that.
 
-1000
+997
 00:34:13,869 --> 00:34:15,000
 Hm? 2 minutes. Well, I did that pretty
 quick then.
 
-1001
+998
 00:34:15,000 --> 00:34:16,560
 I'm going to rotate Alice's
 
-1002
+999
 00:34:16,560 --> 00:34:19,159
 identifier, do a key rotation. I got to
 
-1003
+1000
 00:34:19,159 --> 00:34:21,399
 get my one-time passcode.
 
-1004
+1001
 00:34:21,399 --> 00:34:24,960
 Grab that. 15 seconds should be plenty.
 
-1005
+1002
 00:34:24,960 --> 00:34:27,480
 Rotate. There, I've now rotated. I have
 
-1006
+1003
 00:34:27,480 --> 00:34:29,120
 all four witnesses
 
-1007
+1004
 00:34:29,120 --> 00:34:30,800
 Pulled down for him. And if
 
-1008
+1005
 00:34:30,800 --> 00:34:33,120
 everything works correctly, Bob will now
 
-1009
+1006
 00:34:33,120 --> 00:34:35,399
 get a notice that Alice
 
-1010
+1007
 00:34:35,399 --> 00:34:37,080
 has done an update. This takes a lot
 
-1011
+1008
 00:34:37,080 --> 00:34:38,440
 longer than I wanted it to doing a demo,
 
-1012
+1009
 00:34:38,440 --> 00:34:39,600
 but that's because I have all my numbers
 
-1013
+1010
 00:34:39,600 --> 00:34:41,040
 kind of spun down. There it is, it just
 
-1014
+1011
 00:34:41,040 --> 00:34:43,280
 showed up. Just so I don't burn my CPU
 
-1015
+1012
 00:34:43,280 --> 00:34:45,800
 out. So, I just received a notification.
 
-1016
+1013
 00:34:45,800 --> 00:34:47,159
 This is again the integration of
 
-1017
+1014
 00:34:47,159 --> 00:34:48,879
 notification notifications into our
 
-1018
+1015
 00:34:48,879 --> 00:34:50,080
 system.
 
-1019
+1016
 00:34:50,080 --> 00:34:51,360
 The notification is available in the
 
-1020
+1017
 00:34:51,360 --> 00:34:52,399
 open source plug-in, and you can
 
-1021
+1018
 00:34:52,399 --> 00:34:53,919
 integrate it anything you want. So,
 
-1022
+1019
 00:34:53,919 --> 00:34:55,720
 whatever you add to the to the health
 
-1023
+1020
 00:34:55,720 --> 00:34:57,960
 KERI if as a plug-in, you can integrate
 
-1024
+1021
 00:34:57,960 --> 00:34:59,640
 into the notification systems to drive
 
-1025
+1022
 00:34:59,640 --> 00:35:01,720
 that as well. Now that I see that I have
 
-1026
+1023
 00:35:01,720 --> 00:35:03,720
 new key state for Alice, we made the
 
-1027
+1024
 00:35:03,720 --> 00:35:05,280
 decision not to automatically pull that
 
-1028
+1025
 00:35:05,280 --> 00:35:06,840
 key state down for you. So, I would just
 
-1029
+1026
 00:35:06,840 --> 00:35:09,120
 go into my watched identifiers. You can
 
-1030
+1027
 00:35:09,120 --> 00:35:11,160
 see that he is now Alice is now out of
 
-1031
+1028
 00:35:11,160 --> 00:35:13,200
 date, and I want to do a sync, and now
 
-1032
+1029
 00:35:13,200 --> 00:35:15,240
 I'm up to date with Alice.
 
-1033
+1030
 00:35:15,240 --> 00:35:17,120
 So, one last thing I'll point out is
 
-1034
+1031
 00:35:17,120 --> 00:35:19,960
 that's all well and good, but I'm
 
-1035
+1032
 00:35:19,960 --> 00:35:21,960
 doing it manually. Where this really
 
-1036
+1033
 00:35:21,960 --> 00:35:23,680
 comes into play is when you're deploying
 
-1037
+1034
 00:35:23,680 --> 00:35:26,120
 servers into enterprise infrastructure,
 
-1038
+1035
 00:35:26,120 --> 00:35:28,120
 and you have a server that has an
 
-1039
+1036
 00:35:28,120 --> 00:35:30,360
 identifier and that is let's say for
 
-1040
+1037
 00:35:30,360 --> 00:35:32,120
 example an OAuth server that's
 
-1041
+1038
 00:35:32,120 --> 00:35:34,520
 validating vLEIs coming in, but needs to
 
-1042
+1039
 00:35:34,520 --> 00:35:36,160
 keep up to date with the key state of
 
-1043
+1040
 00:35:36,160 --> 00:35:38,000
 any of the identifiers that it is now
 
-1044
+1041
 00:35:38,000 --> 00:35:40,720
 interacted with. You can provision it so
 
-1045
+1042
 00:35:40,720 --> 00:35:41,840
 that it can connect through this
 
-1046
+1043
 00:35:41,840 --> 00:35:43,760
 authorization server feature inside of
 
-1047
+1044
 00:35:43,760 --> 00:35:46,520
 our SaaS platform, so that it now has the
 
-1048
+1045
 00:35:46,520 --> 00:35:48,680
 authority to ask our platform to watch
 
-1049
+1046
 00:35:48,680 --> 00:35:50,880
 identifiers on its behalf, and it will
 
-1050
+1047
 00:35:50,880 --> 00:35:52,040
 and I'll talk a lot more about this
 
-1051
+1048
 00:35:52,040 --> 00:35:54,320
 tomorrow. It will then have a SAID car
 
-1052
+1049
 00:35:54,320 --> 00:35:56,480
 running that is its local watcher that
 
-1053
+1050
 00:35:56,480 --> 00:35:57,600
 integrates with the healthKERI we
 
-1054
+1051
 00:35:57,600 --> 00:35:59,680
 watcher platform to keep up to date on
 
-1055
+1052
 00:35:59,680 --> 00:36:01,520
 key state changes so that anyone that
 
-1056
+1053
 00:36:01,520 --> 00:36:03,280
 you're using to anyone that is using you
 
-1057
+1054
 00:36:03,280 --> 00:36:05,000
 to authenticate into a system can do a
 
-1058
+1055
 00:36:05,000 --> 00:36:06,280
 key rotation anytime they want and
 
-1059
+1056
 00:36:06,280 --> 00:36:08,000
 automatically get updates.
 
-1060
+1057
 00:36:08,000 --> 00:36:08,880
 So,
 
-1061
+1058
 00:36:08,880 --> 00:36:10,240
 I just real quick I'll go to questions I
 
-1062
+1059
 00:36:10,240 --> 00:36:13,960
 guess.
 
-1063
+1060
 00:36:15,670 --> 00:36:19,200
 [applause]
 Thanks everyone.
 
-1064
+1061
 00:36:22,550 --> 00:36:24,200
 How diversified is the watcher set
 that you're running? So, right now we're
 
-1065
+1062
 00:36:24,200 --> 00:36:27,080
 in four regions, and the same regions
 
-1066
+1063
 00:36:27,080 --> 00:36:28,200
 that we are in the witness in the
 
-1067
+1064
 00:36:28,200 --> 00:36:29,240
 witness network that are on different
 
-1068
+1065
 00:36:29,240 --> 00:36:30,600
 data centers than the walk than the
 
-1069
+1066
 00:36:30,600 --> 00:36:31,920
 witnesses are.
 
-1070
+1067
 00:36:31,920 --> 00:36:34,320
 So, yeah. And so, then we have
 
-1071
+1068
 00:36:34,320 --> 00:36:35,920
 I think I three servers in each of the
 
-1072
+1069
 00:36:35,920 --> 00:36:38,240
 regions. And we just pick them at random
 
-1073
+1070
 00:36:38,240 --> 00:36:40,200
 when you ask us to watch. We do four
 
-1074
+1071
 00:36:40,200 --> 00:36:42,280
 watchers. So, pick them at random, one
 
-1075
+1072
 00:36:42,280 --> 00:36:44,870
 in each region.
 
-1076
+1073
 00:36:46,230 --> 00:36:47,800
 And that's easy to extend. I didn't even
 get to how we're deploying the services.
 
-1077
+1074
 00:36:47,800 --> 00:36:49,880
 Oh, well. No, it was only 40 minutes.
 
-1078
+1075
 00:36:49,880 --> 00:36:51,560
 I know. I realized that when you told me
 
-1079
+1076
 00:36:51,560 --> 00:36:52,615
 I had 5 minutes left.
 
-1080
+1077
 00:36:52,615 --> 00:36:55,470
 [laughter]
 
-1081
+1078
 00:36:57,430 --> 00:36:59,875
 All right, great. Thanks, everyone.
 Dismissed. [applause]
