@@ -1587,7 +1587,7 @@ second half of this year and into the
 
 396
 00:17:13,600 --> 00:17:15,841
-years to come. 
+years to come.
 
 397
 00:17:15,865 --> 00:17:18,926
@@ -1616,7 +1616,6 @@ Veridian has built the answer to both
 00:17:38,075 --> 00:17:43,390
 an indentifier you can verify
 a trusted .. to every transaction
-
 
 403
 00:17:43,414 --> 00:17:49,558
@@ -1728,7 +1727,7 @@ real world needs for the digital age. And
 
 428
 00:19:12,640 --> 00:19:15,679
-4. Veridian ships all of this open source. 
+4. Veridian ships all of this open source.
 
 429
 00:19:15,688 --> 00:19:19,279
@@ -1840,7 +1839,6 @@ But we do have a vision for what is
 
 456
 00:20:33,360 --> 00:20:36,080
-but we do have a vision for what is
 the right thing to do for technology and
 
 457
@@ -2093,7 +2091,7 @@ actually have had the auditor get
 
 519
 00:23:15,200 --> 00:23:17,280
-their vLEI and they are also signing 
+their vLEI and they are also signing
 
 520
 00:23:17,280 --> 00:23:19,520
@@ -2166,7 +2164,6 @@ This is a US-based entity out of
 
 537
 00:24:14,559 --> 00:24:16,880
-this is a US-based entity out of
 Wyoming. Initially was founded in
 
 538
@@ -2461,7 +2458,7 @@ compliance and verification but bring
 
 610
 00:27:22,720 --> 00:27:26,000
-the power of KERI and vLEI into the 
+the power of KERI and vLEI into the
 
 611
 00:27:26,000 --> 00:27:28,320
@@ -2484,552 +2481,547 @@ financial products you have this very
 robust compliant Root of Trust.
 
 616
-00:27:40,880 --> 00:27:46,960
-It has never been more
-
-617
-00:27:46,960 --> 00:27:48,799
+00:27:42,222 --> 00:27:48,799
 It has never been more.., I have people
 
-618
+617
 00:27:48,799 --> 00:27:52,240
 reaching out now for vLEI and KERI before
 
-619
+618
 00:27:52,240 --> 00:27:54,559
 we were constantly pushing so it's never
 
-620
+619
 00:27:54,559 --> 00:27:57,200
 been more clear that there is a snowball
 
-621
+620
 00:27:57,200 --> 00:28:00,080
 that is building and building I think
 
-622
+621
 00:28:00,080 --> 00:28:01,919
 the successes around SEDI are only going
 
-623
+622
 00:28:01,919 --> 00:28:04,559
 to add to that momentum within
 
-624
+623
 00:28:04,559 --> 00:28:06,960
 Switzerland alone we are using a KERI-like
 
-625
+624
 00:28:06,960 --> 00:28:08,480
 method for the digital identity
 
-626
+625
 00:28:08,480 --> 00:28:12,159
 program verifiable history and my
 
-627
+626
 00:28:12,159 --> 00:28:14,559
 intentions are to start really driving
 
-628
+627
 00:28:14,559 --> 00:28:16,240
 that conversation to full KERI and
 
-629
+628
 00:28:16,240 --> 00:28:18,080
 using SEDI as the example of what's
 
-630
+629
 00:28:18,080 --> 00:28:19,679
 happening on this side of the
 
-631
+630
 00:28:19,679 --> 00:28:25,029
 world.
 
-632
+631
 00:28:28,549 --> 00:28:29,679
 Did I hear KERI light correctly?
 Yes, that's right.
 
-633
+632
 00:28:29,679 --> 00:28:31,919
 Okay. Could you explain what KERI light
 
-634
+633
 00:28:31,919 --> 00:28:33,039
 is?
 
-635
+634
 00:28:33,039 --> 00:28:35,679
 So I mean effectively what you have with
 
-636
+635
 00:28:35,679 --> 00:28:37,520
 a 'KERI Light' method is some of the
 
-637
+636
 00:28:37,520 --> 00:28:41,919
 elements of KERI which are easier to
 
-638
+637
 00:28:41,919 --> 00:28:45,840
 implement but not the full five W's
 
-639
+638
 00:28:45,840 --> 00:28:49,919
 effectively they are using what's
 
-640
+639
 00:28:49,919 --> 00:28:52,799
 known as DID Verifiable History (didvh)
 
-641
+640
 00:28:52,799 --> 00:28:56,320
 which is considered a KERI Light method
 
-642
+641
 00:28:56,320 --> 00:28:58,559
 that's sort of the best there's another
 
-643
+642
 00:28:58,559 --> 00:28:59,520
 way to explain that
 
-644
+643
 00:28:59,520 --> 00:29:01,039
 maybe that's a discussion that we could
 
-645
+644
 00:29:01,039 --> 00:29:02,799
 have offline
 
-646
+645
 00:29:02,799 --> 00:29:04,720
 because we don't believe that KERI
 
-647
+646
 00:29:04,720 --> 00:29:08,640
 Light exists in general because you will
 
-648
+647
 00:29:08,640 --> 00:29:11,679
 have to trade off security.
 
-649
+648
 00:29:11,679 --> 00:29:12,480
 Neither do I.
 
-650
+649
 00:29:12,480 --> 00:29:15,039
 I got another question about this.
 
-651
+650
 00:29:15,039 --> 00:29:19,039
 You said that Veridian is the
 
-652
+651
 00:29:19,039 --> 00:29:21,440
 implementation of 5Ws
 
-653
+652
 00:29:21,440 --> 00:29:24,880
 and as you know we have collected
 
-654
+653
 00:29:24,880 --> 00:29:29,440
 quite a few sponsors to finance
 
-655
+654
 00:29:29,440 --> 00:29:32,480
 the development of 5WS in the foundation
 
-656
+655
 00:29:32,480 --> 00:29:35,919
 as well. So I wonder how is that
 
-657
+656
 00:29:35,919 --> 00:29:39,750
 synchronized
 
-658
+657
 00:29:42,630 --> 00:29:45,279
 In what regard? Well, we are building
 code and you have been building code for
 
-659
+658
 00:29:45,279 --> 00:29:48,799
 the five W's and I wonder how that
 
-660
+659
 00:29:48,799 --> 00:29:50,159
 is synchronized.
 
-661
+660
 00:29:50,159 --> 00:29:52,799
 We contribute to WebOfTrust. Fergal
 
-662
+661
 00:29:52,799 --> 00:29:54,559
 is a maintainer of KERIA.
 
-663
+662
 00:29:54,559 --> 00:29:54,960
 All right.
 
-664
+663
 00:29:54,960 --> 00:29:57,039
 We're also a sponsor of the KERI
 
-665
+664
 00:29:57,039 --> 00:29:57,520
 Conference.
 
-666
+665
 00:29:57,520 --> 00:29:59,600
 Yeah. Yeah. Of course. That's the
 
-667
+666
 00:29:59,600 --> 00:30:00,240
 conference
 
-668
+667
 00:30:00,240 --> 00:30:03,200
 and we definitely we believe in
 
-669
+668
 00:30:03,200 --> 00:30:05,520
-contributing as much as possible to 
+contributing as much as possible to
 
-670
+669
 00:30:05,520 --> 00:30:07,919
 WebofTrust,  KERI Foundation.
 
-671
+670
 00:30:07,919 --> 00:30:10,799
 So, so there's a way that we could
 
-672
+671
 00:30:10,799 --> 00:30:14,640
 maybe formal do some more stuff like one
 
-673
+672
 00:30:14,640 --> 00:30:17,520
 of the things that benefits wallets is
 
-674
+673
 00:30:17,520 --> 00:30:19,760
 to have multi-vendor suppliers of
 
-675
+674
 00:30:19,760 --> 00:30:22,159
 witnesses and watcher services. So
 
-676
+675
 00:30:22,159 --> 00:30:24,559
 standardizing on plugins that various
 
-677
+676
 00:30:24,559 --> 00:30:27,440
 vendors can contribute to wallets. So
 
-678
+677
 00:30:27,440 --> 00:30:30,320
 all wallets support multiple vendors of
 
-679
+678
 00:30:30,320 --> 00:30:32,159
 the infrastructure and then they can
 
-680
+679
 00:30:32,159 --> 00:30:34,159
 differentiate on other things as well.
 
-681
+680
 00:30:34,159 --> 00:30:36,880
 that I think that's attractive
 
-682
+681
 00:30:36,880 --> 00:30:39,679
 to enterprises that want to adopt to see
 
-683
+682
 00:30:39,679 --> 00:30:43,840
 that a given vendor isn't just supplying
 
-684
+683
 00:30:43,840 --> 00:30:45,360
 one set of stuff.
 
-685
+684
 00:30:45,360 --> 00:30:47,840
 Absolutely.
 
-686
+685
 00:30:47,840 --> 00:30:48,720
 Go ahead, Phil.
 
-687
+686
 00:30:48,720 --> 00:30:51,279
-go ahead, Phil.
 Can I can I add to that? I think
 
-688
+687
 00:30:51,279 --> 00:30:52,960
 We've heard several times over this
 
-689
+688
 00:30:52,960 --> 00:30:55,279
 course this week from the state of Utah
 
-690
+689
 00:30:55,279 --> 00:30:57,760
 signaling that they can't do this with
 
-691
+690
 00:30:57,760 --> 00:30:59,679
 just one vendor. They need multiple
 
-692
+691
 00:30:59,679 --> 00:31:02,080
 vendors and the way we synchronize with
 
-693
+692
 00:31:02,080 --> 00:31:04,640
 each other is the KERI protocol. And so
 
-694
+693
 00:31:04,640 --> 00:31:06,080
 I think it's awesome that these guys are
 
-695
+694
 00:31:06,080 --> 00:31:07,919
 building this great platform that's
 
-696
+695
 00:31:07,919 --> 00:31:09,200
 going to help move KERI forward. That's
 
-697
+696
 00:31:09,200 --> 00:31:12,320
 what we all need. We need more of it.
 
-698
+697
 00:31:12,320 --> 00:31:14,320
 Yeah. The question is more that we that
 
-699
+698
 00:31:14,320 --> 00:31:16,559
 we don't do double work so we create the
 
-700
+699
 00:31:16,559 --> 00:31:19,120
 same code at several.
 
-701
+700
 00:31:19,120 --> 00:31:21,039
 You almost have to because you need
 
-702
+701
 00:31:21,039 --> 00:31:23,600
 multiple vendors running the code so
 
-703
+702
 00:31:23,600 --> 00:31:25,440
 that people can. So, for example, we
 
-704
+703
 00:31:25,440 --> 00:31:27,520
 tell our customers, you can't just get
 
-705
+704
 00:31:27,520 --> 00:31:28,960
 your witnesses from us. We need other
 
-706
+705
 00:31:28,960 --> 00:31:30,880
 people with witnesses so that they can
 
-707
+706
 00:31:30,880 --> 00:31:32,559
 they have the security needed from the
 
-708
+707
 00:31:32,559 --> 00:31:34,559
 protocol. So, I yeah, there's some
 
-709
+708
 00:31:34,559 --> 00:31:35,679
 double work, but these guys have
 
-710
+709
 00:31:35,679 --> 00:31:38,399
 contributed a ton to open source. So
 
-711
+710
 00:31:38,399 --> 00:31:40,080
 I think it's I think it's working well
 
-712
+711
 00:31:40,080 --> 00:31:41,120
 actually.
 
-713
+712
 00:31:41,120 --> 00:31:42,240
 Thank you.
 
-714
+713
 00:31:43,279 --> 00:31:44,640
 Also, I'd like to give a shout out to
 
-715
+714
 00:31:44,640 --> 00:31:51,350
 Fergal.
 
-716
+715
 00:31:52,710 --> 00:31:53,200
 I have time, don't I?
 Yep.
 
-717
+716
 00:31:53,200 --> 00:31:55,840
 Excellent.
 
-718
+717
 00:31:55,840 --> 00:31:57,840
 Fergal has been instrumental in the
 
-719
+718
 00:31:57,840 --> 00:32:00,640
 success of Veridian and he's someone who
 
-720
+719
 00:32:00,640 --> 00:32:02,399
 maybe isn't at the front of the room all
 
-721
+720
 00:32:02,399 --> 00:32:04,720
 of the time, but because of what Fergal
 
-722
+721
 00:32:04,720 --> 00:32:06,799
 does dayto-day, I'm able to stand here
 
-723
+722
 00:32:06,799 --> 00:32:08,159
 and talk about the things that are being
 
-724
+723
 00:32:08,159 --> 00:32:11,360
 built and shipped and delivered. But
 
-725
+724
 00:32:11,360 --> 00:32:14,710
 Fergal is
 
-726
+725
 00:32:14,734 --> 00:32:21,519
 Fergal and I went to IIW about four years
 ago now and we attended a few
 
-727
+726
 00:32:21,519 --> 00:32:22,960
 sessions of Samuel Smith, we attended a
 
-728
+727
 00:32:22,960 --> 00:32:25,760
 bunch of sessions as well. And
 
-729
+728
 00:32:25,760 --> 00:32:27,519
 internally within the Cardano Foundation,
 
-730
+729
 00:32:27,519 --> 00:32:29,840
 you might find this funny, Sam, we
 
-731
+730
 00:32:29,840 --> 00:32:32,399
 refer to Fergal as our Samuel Smith within
 
-732
+731
 00:32:32,399 --> 00:32:35,919
 the foundation. But without his
 
-733
+732
 00:32:35,919 --> 00:32:40,000
 dedication and his willingness to
 
-734
+733
 00:32:40,000 --> 00:32:41,760
 always speak up and ensure that what we
 
-735
+734
 00:32:41,760 --> 00:32:43,519
 are doing from a development
 
-736
+735
 00:32:43,519 --> 00:32:45,760
 perspective is aligned with open source
 
-737
+736
 00:32:45,760 --> 00:32:49,279
 and with the ESOS of caring ACDC,
 
-738
+737
 00:32:49,279 --> 00:32:50,799
 We wouldn't be here today. So, I
 
-739
+738
 00:32:50,799 --> 00:32:52,640
 just also want to say thank you Fergal
 
-740
+739
 00:32:52,640 --> 00:32:58,950
 for all of your hard work, truly.
 
-741
+740
 00:33:00,549 --> 00:33:02,399
 if I could just pile on to make him even
 more embarrassed. Also, his
 
-742
+741
 00:33:02,399 --> 00:33:04,640
 contributions to the KERI ecosystem in
 
-743
+742
 00:33:04,640 --> 00:33:05,919
 general as well as the open source
 
-744
+743
 00:33:05,919 --> 00:33:07,919
 community. He's one of the top guys that
 
-745
+744
 00:33:07,919 --> 00:33:09,840
 we have doing this stuff, moving us
 
-746
+745
 00:33:09,840 --> 00:33:11,039
 forward.
 
-747
+746
 00:33:11,039 --> 00:33:13,600
 Thank you.
 
-748
+747
 00:33:13,600 --> 00:33:16,880
 Speech, speech, speech.
 
-749
+748
 00:33:16,880 --> 00:33:19,679
 All right, if no other questions,
 
-750
+749
 00:33:19,679 --> 00:33:21,279
 I will end it here. Thank you.
 
-751
+750
 00:33:21,279 --> 00:33:24,919
 Thank you very much.
 
