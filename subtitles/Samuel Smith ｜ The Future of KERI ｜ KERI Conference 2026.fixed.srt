@@ -2279,11 +2279,10 @@ where did I put it? Yeah, here we go.
 
 568
 00:26:40,240 --> 00:26:44,640
-There we go. Where is it? Incept
+There we go. Where is it? Incept…
 
 569
 00:26:44,640 --> 00:26:46,400
-there we go. Where is it? Incept
 Oh, I forgot where I saw it. There it
 
 570
@@ -2316,7 +2315,7 @@ event log, we now have meta control
 
 577
 00:27:04,159 --> 00:27:06,480
-events. We always had we had the
+events. We had the
 
 578
 00:27:06,480 --> 00:27:09,039
@@ -3009,7 +3008,6 @@ So it's the event type is the only thing
 
 750
 00:33:55,919 --> 00:33:58,720
-so it's the event type is the only thing
 that changes. Any
 
 751
