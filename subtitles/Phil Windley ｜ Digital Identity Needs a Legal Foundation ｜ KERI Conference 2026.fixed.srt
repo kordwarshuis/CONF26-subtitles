@@ -1169,11 +1169,11 @@ is a credential which links those
 
 293
 00:13:17,422 --> 00:13:20,480
-attributes that the state has proofed
+attributes (that the state has proofed
 
 294
 00:13:20,480 --> 00:13:25,509
-and endorsed to that identifier.
+and endorsed) to that identifier.
 
 295
 00:13:25,519 --> 00:13:27,747
@@ -1225,7 +1225,7 @@ certificates and school records, and the
 
 307
 00:13:55,279 --> 00:13:58,000
-statute includes that idea, right?
+statute includes that idea.
 
 308
 00:13:58,000 --> 00:14:00,399
@@ -1245,7 +1245,7 @@ of them that states have. Most of us
 
 312
 00:14:07,120 --> 00:14:09,839
-don't care about most of them, right?
+don't care about most of them.
 
 313
 00:14:09,839 --> 00:14:12,720
@@ -1265,7 +1265,7 @@ the bank to get a credential from your
 
 317
 00:14:21,040 --> 00:14:23,279
-bank. or you could use your SEDI to
+bank. Or you could use your SEDI to
 
 318
 00:14:23,279 --> 00:14:25,040
@@ -1285,11 +1285,11 @@ credentials are essentially resting on
 
 322
 00:14:31,519 --> 00:14:34,560
-this foundation that SEDI has provided
+this foundation that SEDI has provided.
 
 323
 00:14:34,560 --> 00:14:36,560
-and you can even issue your own
+And you can even issue your own
 
 324
 00:14:36,560 --> 00:14:40,079
@@ -1301,294 +1301,291 @@ that would be interesting now but I mean
 
 326
 00:14:42,880 --> 00:14:45,920
-with personal agents AI agents
+with personal agents, AI agents
 
 327
 00:14:45,920 --> 00:14:47,600
 coming along this could be a lot more
 
 328
-00:14:47,600 --> 00:14:51,990
+00:14:47,600 --> 00:14:48,989
 interesting.
 
 329
-00:14:54,949 --> 00:14:57,519
-but it's not just people.
-So there's also organizations. Now this
+00:14:51,961 --> 00:14:54,969
+But it's not just people.
 
 330
+00:14:54,993 --> 00:14:57,519
+So there's also organizations. Now this
+
+331
 00:14:57,519 --> 00:15:00,720
 is not SEDI. This is different than SEDI
 
-331
+332
 00:15:00,720 --> 00:15:02,800
 but it's related to SEDI and important
 
-332
-00:15:02,800 --> 00:15:05,279
-for what we're talking about. Right? So,
-
 333
+00:15:02,800 --> 00:15:05,279
+for what we're talking about. So,
+
+334
 00:15:05,279 --> 00:15:07,760
 organizations already have firm legal
 
-334
+335
 00:15:07,760 --> 00:15:10,480
 foundations in the sense that
 
-335
-00:15:10,480 --> 00:15:13,440
-you g register a business and the
-
 336
+00:15:10,480 --> 00:15:13,440
+you can register a business and the
+
+337
 00:15:13,440 --> 00:15:15,519
 commerce department gives you a
 
-337
+338
 00:15:15,519 --> 00:15:18,320
 registration number and the IRS gives
 
-338
+339
 00:15:18,320 --> 00:15:20,720
 you an EIN and all of these things that
 
-339
+340
 00:15:20,720 --> 00:15:22,959
 come along with being an organization.
 
-340
+341
 00:15:22,959 --> 00:15:24,720
 We don't care as much about the
 
-341
+342
 00:15:24,720 --> 00:15:26,880
 organizations creating and controlling
 
-342
-00:15:26,880 --> 00:15:29,600
-their own organiz identifiers, but they
-
 343
+00:15:26,880 --> 00:15:29,600
+their own identifiers, but they
+
+344
 00:15:29,600 --> 00:15:33,110
 will, right?
 
-344
-00:15:35,590 --> 00:15:37,920
-State Department of Commerce generally
-in the United States at least is who is
-
 345
-00:15:37,920 --> 00:15:41,920
-responsible for I for endorsing that
+00:15:33,165 --> 00:15:35,499
+State Department of Commerce generally
 
 346
-00:15:41,920 --> 00:15:44,959
-right so you could imagine a SEDI like
+00:15:35,523 --> 00:15:37,920
+in the United States at least is who is
 
 347
+00:15:37,920 --> 00:15:41,920
+responsible for endorsing that
+
+348
+00:15:41,920 --> 00:15:44,959
+so you could imagine a SEDI-like
+
+349
 00:15:44,959 --> 00:15:46,800
 credential or it might just be their
 
-348
-00:15:46,800 --> 00:15:50,399
-business registration but anyway it's
-
-349
-00:15:50,399 --> 00:15:53,600
-it's analogous to the SEDI
-
 350
-00:15:53,600 --> 00:15:56,480
-organizations like GLEIF
+00:15:46,800 --> 00:15:50,399
+business registration but anyway
 
 351
+00:15:50,399 --> 00:15:53,600
+it's analogous to the SEDI.
+
+352
+00:15:53,600 --> 00:15:56,480
+Organizations like GLEIF
+
+353
 00:15:56,480 --> 00:16:00,639
 are indispensable for businesses and
 
-352
+354
 00:16:00,639 --> 00:16:03,360
 other organizations who need some sort
 
-353
-00:16:03,360 --> 00:16:05,440
-of global
-
-354
-00:16:05,440 --> 00:16:08,240
-reach, right?
-
 355
+00:16:03,360 --> 00:16:06,632
+of global reach.
+
+356
 00:16:08,240 --> 00:16:11,199
 I got an LEI just because I wanted to
 
-356
+357
 00:16:11,199 --> 00:16:13,040
 see how it worked. I've never ever used
 
-357
-00:16:13,040 --> 00:16:16,480
-it for anything for my business. But
-
 358
-00:16:16,480 --> 00:16:18,880
-that but that's important, right?
+00:16:13,040 --> 00:16:16,480
+it for anything, for my business.
 
 359
+00:16:16,480 --> 00:16:18,880
+But that's important.
+
+360
 00:16:18,880 --> 00:16:20,240
 Because there are some things like
 
-360
+361
 00:16:20,240 --> 00:16:21,759
 government credentials and banking
 
-361
+362
 00:16:21,759 --> 00:16:24,000
 credentials, business licenses that
 
-362
+363
 00:16:24,000 --> 00:16:25,519
 would just depend on whatever
 
-363
+364
 00:16:25,519 --> 00:16:27,920
 organizational identity you have,
 
-364
+365
 00:16:27,920 --> 00:16:30,560
 whatever identity or credential
 
-365
+366
 00:16:30,560 --> 00:16:32,560
 the organization has from the
 
-366
+367
 00:16:32,560 --> 00:16:35,040
 Department of Commerce, but many might
 
-367
-00:16:35,040 --> 00:16:38,800
-require this global interaction. Okay?
-
 368
+00:16:35,040 --> 00:16:38,800
+require this global interaction.
+
+369
 00:16:38,800 --> 00:16:41,680
 Local restaurant might not ever need an
 
-369
+370
 00:16:41,680 --> 00:16:43,440
 LEI and all of the things that go with
 
-370
+371
 00:16:43,440 --> 00:16:47,839
 that, but a bank might.
 
-371
-00:16:47,839 --> 00:16:49,680
-Now
-
 372
+00:16:47,839 --> 00:16:49,680
+Now,
+
+373
 00:16:49,680 --> 00:16:53,279
 let's talk for a second about the legal
 
-373
+374
 00:16:53,279 --> 00:16:55,199
 underpinnings of SEDI because this is
 
-374
+375
 00:16:55,199 --> 00:16:57,519
 important. I mean first of all SEDI
 
-375
+376
 00:16:57,519 --> 00:16:59,680
 includes a bill of rights. I read you
 
-376
+377
 00:16:59,680 --> 00:17:01,440
 the statement that it says about your
 
-377
+378
 00:17:01,440 --> 00:17:03,040
 identity belonging to you and being
 
-378
+379
 00:17:03,040 --> 00:17:06,949
 inalienable.
 
-379
-00:17:06,949 --> 00:17:06,959
-
-
 380
-00:17:06,959 --> 00:17:10,880
-these are legal rights not terms of
-service. This is not a
+00:17:06,959 --> 00:17:09,354
+These are legal rights, not terms of
 
 381
+00:17:09,378 --> 00:17:10,880
+service. This is not a
+
+382
 00:17:10,880 --> 00:17:12,640
 click-through contract that you don't
 
-382
+383
 00:17:12,640 --> 00:17:15,839
 read. And, if you want to
 
-383
+384
 00:17:15,839 --> 00:17:18,480
 enforce whatever small rights they might
 
-384
+385
 00:17:18,480 --> 00:17:20,880
 have left you in this 60page document,
 
-385
+386
 00:17:20,880 --> 00:17:22,480
 you have to go to court. These are
 
-386
-00:17:22,480 --> 00:17:24,079
-things that you know, they're they're in
-
 387
+00:17:22,480 --> 00:17:24,079
+things that are in
+
+388
 00:17:24,079 --> 00:17:27,199
 statute. They're in law. It also
 
-388
+389
 00:17:27,199 --> 00:17:29,600
 includes selective disclosure. So the
 
-389
+390
 00:17:29,600 --> 00:17:33,039
 idea that you don't have to disclose
 
-390
-00:17:33,039 --> 00:17:35,840
-everything on a cred in a credential
-
 391
+00:17:33,039 --> 00:17:35,840
+everything in a credential
+
+392
 00:17:35,840 --> 00:17:38,880
 or in your SEDI credential in order to
 
-392
-00:17:38,880 --> 00:17:41,039
-use it you can just disclose the parts
-
 393
-00:17:41,039 --> 00:17:43,840
-that is necessary requires that the
+00:17:38,880 --> 00:17:41,039
+use it. You can just disclose the parts
 
 394
-00:17:43,840 --> 00:17:46,240
-system be built on open standards right
+00:17:41,039 --> 00:17:43,840
+that is necessary. Requires that the
 
 395
-00:17:46,240 --> 00:17:49,760
-that it's not a proprietary system MDL
+00:17:43,840 --> 00:17:46,240
+system be built on open standards.
 
 396
-00:17:49,760 --> 00:17:53,120
-Even
+00:17:46,240 --> 00:17:49,760
+That it's not a proprietary system MDL.
 
 397
 00:17:53,120 --> 00:17:57,919
-So no vendor lockin anyone can
+So, no vendor lock-in. Anyone can
 
 398
 00:17:57,919 --> 00:17:59,360
@@ -1640,7 +1637,7 @@ fiduciary requirement for identity
 
 410
 00:18:29,280 --> 00:18:32,640
-data which is a first right this is
+data which is a first. This is
 
 411
 00:18:32,640 --> 00:18:34,799
@@ -1656,7 +1653,7 @@ And finally, like I mentioned earlier,
 
 414
 00:18:39,360 --> 00:18:42,880
-it supports the idea recognizes that
+it supports the idea, recognizes that
 
 415
 00:18:42,880 --> 00:18:46,880
@@ -1664,7 +1661,7 @@ many people are
 
 416
 00:18:46,880 --> 00:18:50,080
-wards of a guardian and therefore the
+wards of a guardian, and therefore the
 
 417
 00:18:50,080 --> 00:18:52,799
@@ -1672,7 +1669,7 @@ guardian has to have the rights and the
 
 418
 00:18:52,799 --> 00:18:58,960
-abilities to KERI out
+abilities to carry out
 
 419
 00:18:58,960 --> 00:19:00,799
@@ -1684,11 +1681,11 @@ operations on their behalf. I don't know
 
 421
 00:19:02,559 --> 00:19:04,559
-what the right word is. KERI out what
+what the right word is. Carry out what?
 
 422
 00:19:04,559 --> 00:19:06,720
-what are they doing? acting on their
+What are they doing? Acting on their
 
 423
 00:19:06,720 --> 00:19:08,480
@@ -1700,7 +1697,7 @@ word I was looking for. Nice simple
 
 425
 00:19:09,919 --> 00:19:13,360
-word, not KERI out duties. Okay. So, so
+word, not carry out duties. Okay. So,
 
 426
 00:19:13,360 --> 00:19:15,760
@@ -1740,7 +1737,7 @@ correction process all on your own. Now,
 
 435
 00:19:40,160 --> 00:19:43,600
-SEDI doesn't mandate that everybody that
+SEDI doesn't mandate that
 
 436
 00:19:43,600 --> 00:19:46,640
@@ -1772,7 +1769,7 @@ have the right to have its attributes
 
 443
 00:20:04,559 --> 00:20:08,400
-amended as they change or need
+amended as they change, or need
 
 444
 00:20:08,400 --> 00:20:11,200
@@ -1792,7 +1789,7 @@ revoked.
 
 448
 00:20:18,400 --> 00:20:20,559
-There's a complaint an
+There's a complaint, an
 
 449
 00:20:20,583 --> 00:20:23,360
@@ -1804,7 +1801,7 @@ deal with problems that come up and
 
 451
 00:20:26,559 --> 00:20:29,679
-that includes both the digital
+that includes both the digital…
 
 452
 00:20:29,679 --> 00:20:31,600
@@ -1824,11 +1821,11 @@ give you the ability to seek redress if
 
 456
 00:20:40,240 --> 00:20:42,960
-something happens. So yeah,
+something happens. So yeah…
 
 457
 00:20:42,960 --> 00:20:44,880
-just real quick, but it does not
+– Just real quick, but it does not
 
 458
 00:20:44,880 --> 00:20:47,520
@@ -1844,1755 +1841,1721 @@ behalf.
 
 461
 00:20:50,720 --> 00:20:52,320
-Yeah, we tried to get that in there, but
+– Yeah, we tried to get that in there, but
 
 462
 00:20:52,320 --> 00:20:54,240
 they decided that was reach too far.
 
 463
-00:20:54,240 --> 00:20:54,640
-Yeah.
+00:20:54,640 --> 00:21:00,159
+Reach too far. Yeah. So
 
 464
-00:20:54,640 --> 00:21:00,159
-reach too far. Yeah. Yeah. Okay. So
-
-465
 00:21:00,159 --> 00:21:03,120
 these aren't just like consent
 
-466
+465
 00:21:03,120 --> 00:21:05,360
 form clickth-through consent forms and
 
-467
+466
 00:21:05,360 --> 00:21:08,240
-support calls that you make,
+support calls that you make.
+
+467
+00:21:08,240 --> 00:21:10,480
+These are legal remedies that
 
 468
-00:21:08,240 --> 00:21:10,480
-right? Th these are legal remedies that
+00:21:10,480 --> 00:21:13,598
+you have the right to …
 
 469
-00:21:10,480 --> 00:21:14,159
-you have the right to there are
+00:21:13,598 --> 00:21:15,600
+They are legal remedies you have the right to
 
 470
-00:21:14,159 --> 00:21:15,600
-legal remedies you have the right to
+00:21:15,600 --> 00:21:18,799
+access if these things will happen.
 
 471
-00:21:15,600 --> 00:21:18,799
-access if these things don't happen.
+00:21:18,799 --> 00:21:20,720
+Now…
 
 472
-00:21:18,799 --> 00:21:20,720
-Now
-
-473
 00:21:20,720 --> 00:21:22,480
 like I said earlier this doesn't mean
 
-474
+473
 00:21:22,480 --> 00:21:24,480
 SEDI doesn't
 
-475
+474
 00:21:24,480 --> 00:21:27,120
 replace all of these trust frameworks
 
-476
+475
 00:21:27,120 --> 00:21:31,039
 that exist. So I spent my career largely
 
-477
+476
 00:21:31,039 --> 00:21:34,159
 in academia, right?
 
-478
+477
 00:21:34,159 --> 00:21:36,320
 Academics is going to have trust
 
-479
+478
 00:21:36,320 --> 00:21:38,480
 frameworks about what an accredited
 
-480
+479
 00:21:38,480 --> 00:21:42,080
 institution is for example, right?
 
-481
+480
 00:21:42,080 --> 00:21:44,080
 Visa is still going to exist as a trust
 
-482
+481
 00:21:44,080 --> 00:21:46,400
 framework for how
 
-483
+482
 00:21:46,400 --> 00:21:48,480
 money gets transferred inside their
 
-484
+483
 00:21:48,480 --> 00:21:50,240
 network. Those are all still going to
 
-485
+484
 00:21:50,240 --> 00:21:55,120
 exist. But what does change is the idea
 
-486
+485
 00:21:55,120 --> 00:21:59,679
 that they are or can sit on top of this
 
-487
+486
 00:21:59,679 --> 00:22:04,320
 legal foundation, right? They can have
 
-488
+487
 00:22:04,320 --> 00:22:07,919
 attributes that they know someone they
 
-489
+488
 00:22:07,919 --> 00:22:11,200
 trust proofed.
 
-490
+489
 00:22:11,200 --> 00:22:14,720
 Now along those lines, I want to talk
 
-491
+490
 00:22:14,720 --> 00:22:17,600
 about two different ways of establishing
 
-492
+491
 00:22:17,600 --> 00:22:19,600
 trust. This is a conversation I had with
 
-493
+492
 00:22:19,600 --> 00:22:24,000
-Sam. At Smoking Apple six weeks ago
+Sam, at Smoking Apple six weeks ago,
 
-494
+493
 00:22:24,000 --> 00:22:26,799
 or so, right? Because I had just
 
-495
+494
 00:22:26,799 --> 00:22:29,600
 written a blog post about reputation for
 
-496
+495
 00:22:29,600 --> 00:22:32,159
-agents, right? And how and how all that
+agents. And how all that
 
-497
+496
 00:22:32,159 --> 00:22:34,080
 can work. But it's equally important
 
-498
+497
 00:22:34,080 --> 00:22:35,840
-here, right? So there are two different
+here. So there are two different
 
-499
+498
 00:22:35,840 --> 00:22:40,000
 ways of establishing trust.
 
-500
+499
 00:22:40,000 --> 00:22:44,799
-One is by obser observation,
+One is by observation.
+
+500
+00:22:44,799 --> 00:22:46,400
+You look at someone's behavior
 
 501
-00:22:44,799 --> 00:22:46,400
-right? You look at someone's behavior
-
-502
 00:22:46,400 --> 00:22:49,280
 and you say, "Sam seems like a nice guy.
 
-503
+502
 00:22:49,280 --> 00:22:51,760
-I guess you know I'll get to know him a
+I guess I'll get to know him a
+
+503
+00:22:51,760 --> 00:22:53,679
+little better”, and then you have
 
 504
-00:22:51,760 --> 00:22:53,679
-little better and then you have
+00:22:53,679 --> 00:22:56,240
+more interactions and you build
 
 505
-00:22:53,679 --> 00:22:56,240
-more interactions and you get you build
+00:22:56,240 --> 00:22:58,799
+up that trust. The second one, which I'm
 
 506
-00:22:56,240 --> 00:22:58,799
-up that trust. The second one which I'm
+00:22:58,799 --> 00:23:02,134
+going to talk about first, is
 
 507
-00:22:58,799 --> 00:22:59,919
-going to talk about first I'm going to
-
-508
-00:22:59,919 --> 00:23:02,159
-talk about the second one first is
-
-509
 00:23:02,159 --> 00:23:04,080
 reputation by reference and the reason
 
-510
+508
 00:23:04,080 --> 00:23:05,280
 I'm going to talk about it first is
 
-511
+509
 00:23:05,280 --> 00:23:06,559
 because it's essentially how we
 
-512
+510
 00:23:06,559 --> 00:23:09,679
-bootstrap things right so at the top of
+bootstrap things. So the top of
 
-513
+511
 00:23:09,679 --> 00:23:12,640
-this I have a diploma so if you
+this have a diploma, so if you
 
-514
+512
 00:23:12,640 --> 00:23:15,679
 want to know things about me related to
 
-515
+513
 00:23:15,679 --> 00:23:18,320
-my education I can give you a diploma
+my education I can give you a diploma.
+
+514
+00:23:18,320 --> 00:23:21,039
+That is essentially reputation by
+
+515
+00:23:21,039 --> 00:23:25,600
+reference. Some institution is saying
 
 516
-00:23:18,320 --> 00:23:21,039
-that is essentially reputation by
-
-517
-00:23:21,039 --> 00:23:25,600
-reference some institution is saying
-
-518
 00:23:25,600 --> 00:23:29,440
 that they did specific things and are
 
-519
+517
 00:23:29,440 --> 00:23:32,480
 vouching for the fact that I met their
 
-520
+518
 00:23:32,480 --> 00:23:35,200
 standards with respect to this course of
 
-521
+519
 00:23:35,200 --> 00:23:39,679
-study, right? But who are they
+study. But who are they?
 
-522
+520
 00:23:39,679 --> 00:23:43,280
-and does this really belong to me and
+And does this really belong to me? And
 
-523
+521
 00:23:43,280 --> 00:23:46,799
 what standards are they actually holding
 
-524
+522
 00:23:46,799 --> 00:23:50,159
 me to? Now, if I tell you I have a PhD
 
-525
+523
 00:23:50,159 --> 00:23:51,679
 from the University of California at
 
-526
+524
 00:23:51,679 --> 00:23:53,760
 Davis, most people would say, "Oh,
 
-527
+525
 00:23:53,760 --> 00:23:56,400
 University of California. I know that
 
-528
+526
 00:23:56,400 --> 00:23:58,960
-school. I guess that's okay, right?" But
+school. I guess that's okay." But
 
-529
+527
 00:23:58,960 --> 00:24:01,600
 if I tell you I have a bachelor's degree
 
-530
+528
 00:24:01,600 --> 00:24:03,600
 from Norda,
 
-531
+529
 00:24:03,600 --> 00:24:05,440
 whatever, what is that thing called?
 
-532
+530
 00:24:05,440 --> 00:24:06,960
 Norda
 
-533
+531
 00:24:06,960 --> 00:24:09,440
-Medical Thing, you guys know down in
+Medical Thing. You guys know? Down in
 
-534
+532
 00:24:09,440 --> 00:24:12,400
 Provo. Anyway,
 
-535
+533
 00:24:12,400 --> 00:24:14,799
 are they good? Are they acceptable? Or
 
-536
+534
 00:24:14,799 --> 00:24:18,240
 is that a good institution? I honestly
 
-537
+535
 00:24:18,240 --> 00:24:22,640
 don't know. But who does? Well, the way
 
-538
+536
 00:24:22,640 --> 00:24:26,080
-you do it is this diploma can be a
+you do it, is this diploma can be a
 
-539
+537
 00:24:26,080 --> 00:24:27,600
 credential
 
-540
+538
 00:24:27,600 --> 00:24:31,039
 and it can be chained to my SEDI
 
-541
+539
 00:24:31,039 --> 00:24:34,640
 credential which now means that I can
 
-542
+540
 00:24:34,640 --> 00:24:37,360
 prove that this diploma was actually
 
-543
+541
 00:24:37,360 --> 00:24:40,559
-linked to me or given to me. Right? But
+linked to me or given to me. But
 
-544
+542
 00:24:40,559 --> 00:24:43,279
 it also can be chained to the
 
-545
+543
 00:24:43,279 --> 00:24:45,760
 university's credentials and
 
-546
+544
 00:24:45,760 --> 00:24:49,440
 identifiers. So they probably have an
 
-547
+545
 00:24:49,440 --> 00:24:51,679
 accreditation credential or should have
 
-548
+546
 00:24:51,679 --> 00:24:53,919
 one that came from their accrediting
 
-549
+547
 00:24:53,919 --> 00:24:55,840
 body. And there's not just one, right?
 
-550
+548
 00:24:55,840 --> 00:24:57,760
 So there would be an accrediting body
 
-551
+549
 00:24:57,760 --> 00:24:59,360
 for the university. There would be an
 
-552
+550
 00:24:59,360 --> 00:25:01,360
 accrediting body for the specific degree
 
-553
+551
 00:25:01,360 --> 00:25:03,840
-program I'm in. All of those I mean
+program I'm in. All of those… I mean
 
-554
+552
 00:25:03,840 --> 00:25:05,919
 there might be dozens of these out here
 
-555
+553
 00:25:05,919 --> 00:25:08,880
-that the that the university has. Okay.
+that the university has.
 
-556
+554
 00:25:08,880 --> 00:25:11,840
 They can you can also check to see is
 
-557
+555
 00:25:11,840 --> 00:25:13,840
 this a legal business? Is it even
 
-558
+556
 00:25:13,840 --> 00:25:17,760
 recognized as a business? So
 
-559
+557
 00:25:17,760 --> 00:25:19,600
 that would be your commerce department
 
-560
+558
 00:25:19,600 --> 00:25:22,320
 or GLEIF vLEI
 
-561
+559
 00:25:22,320 --> 00:25:23,840
 credential.
 
-562
+560
 00:25:23,840 --> 00:25:26,720
 And importantly when I present this
 
-563
+561
 00:25:26,720 --> 00:25:29,679
 diploma as a credential
 
-564
+562
 00:25:29,679 --> 00:25:32,240
 all of this can be checked automatically,
 
-565
+563
 00:25:32,240 --> 00:25:34,480
-hese chains can be followed. We
+these chains can be followed. We
+
+564
+00:25:34,480 --> 00:25:37,039
+can check all of the credentials and
+
+565
+00:25:37,039 --> 00:25:38,720
+you can get a green light on your
 
 566
-00:25:34,480 --> 00:25:37,039
-can check all of the credentials and you
+00:25:38,720 --> 00:25:42,240
+system that tells you: yes
 
 567
-00:25:37,039 --> 00:25:38,720
-know you can get a green light on your
+00:25:42,240 --> 00:25:45,679
+this credential is issued to
 
 568
-00:25:38,720 --> 00:25:42,240
-system that tells you yes
+00:25:45,679 --> 00:25:48,080
+this person, it came from this
 
 569
-00:25:42,240 --> 00:25:45,679
-this credential tell came is issued to
+00:25:48,080 --> 00:25:50,400
+institution, that institution is
 
 570
-00:25:45,679 --> 00:25:48,080
-this person it was came from this
-
-571
-00:25:48,080 --> 00:25:50,400
-institution that institution is
-
-572
 00:25:50,400 --> 00:25:53,120
 accredited by this body and this body
 
-573
+571
 00:25:53,120 --> 00:25:55,919
 and this body and it's organized in the
 
-574
+572
 00:25:55,919 --> 00:25:58,240
 state of Utah and all of the things that
 
-575
+573
 00:25:58,240 --> 00:26:01,679
 you might want to know about it.
 
-576
+574
 00:26:01,679 --> 00:26:04,559
 So that's reputation by reference
 
-577
+575
 00:26:04,559 --> 00:26:06,240
 and
 
-578
+576
 00:26:06,240 --> 00:26:08,000
-steady provides a nice foundation for
+SEDI provides a nice foundation for
+
+577
+00:26:08,000 --> 00:26:10,799
+that, as do the organizational
+
+578
+00:26:10,799 --> 00:26:13,600
+credentials that we talked about.
 
 579
-00:26:08,000 --> 00:26:10,799
-that as do the organizational
+00:26:13,600 --> 00:26:16,400
+There's another kind of reputation
 
 580
-00:26:10,799 --> 00:26:13,600
-Credentials that we talked about.
-
-581
-00:26:13,600 --> 00:26:16,400
-Okay. There's another kind of reputation
-
-582
 00:26:16,400 --> 00:26:18,000
 that I mentioned and that's reputation
 
-583
+581
 00:26:18,000 --> 00:26:20,640
 by behavior. Now, in the physical world,
 
-584
+582
 00:26:20,640 --> 00:26:22,400
 we just interact with each other,
 
-585
+583
 00:26:22,400 --> 00:26:24,400
 and that's kind of how we figure out
 
-586
+584
 00:26:24,400 --> 00:26:27,520
 whether or not
 
-587
+585
 00:26:27,520 --> 00:26:30,240
 we like this person. We trust them,
 
-588
+586
 00:26:30,240 --> 00:26:32,159
 right? The fact that I'm going to let
 
-589
+587
 00:26:32,159 --> 00:26:34,240
 you fix my plumbing doesn't mean I'm
 
-590
+588
 00:26:34,240 --> 00:26:36,080
 going to let you babysit my kids, right?
 
-591
+589
 00:26:36,080 --> 00:26:37,760
 So, there's different domains of
 
-592
+590
 00:26:37,760 --> 00:26:40,400
-behavior that we that we look for,
+behavior that we that we look for.
 
-593
+591
 00:26:40,400 --> 00:26:43,679
-right? We use reputation by reference to
+We use reputation by reference to
 
-594
+592
 00:26:43,679 --> 00:26:45,760
 essentially bootstrap this. I needed
 
-595
+593
 00:26:45,760 --> 00:26:48,000
 someone to come in and fix an oven at a
 
-596
+594
 00:26:48,000 --> 00:26:51,600
 at a rental property I have.
 
-597
+595
 00:26:51,600 --> 00:26:54,080
 I didn't know anyone, so I just used
 
-598
+596
 00:26:54,080 --> 00:26:56,159
 reputation by reference, right? I looked
 
-599
+597
 00:26:56,159 --> 00:26:59,760
 at reviews online to see, okay, they've
 
-600
+598
 00:26:59,760 --> 00:27:02,880
-got a pretty good thing. Yeah, Timothy,
+got a pretty good thing. Yeah, Timothy…
 
-601
+599
 00:27:02,880 --> 00:27:05,200
-isn't reputation by reference also an
+– Isn't reputation by reference also an
 
-602
+600
 00:27:05,200 --> 00:27:09,510
 accumulation of behaviors?
 
+601
+00:27:09,520 --> 00:27:13,671
+– It is, but it's at a distance.
+
+602
+00:27:13,695 --> 00:27:16,159
+So, we go back to this.
+
 603
-00:27:09,510 --> 00:27:09,520
-
-
-604
-00:27:09,520 --> 00:27:16,159
-it is, but it's at a distance, right?
-So, we go back to this
-
-605
 00:27:16,159 --> 00:27:19,120
 All of these could be many layers
 
-606
+604
 00:27:19,120 --> 00:27:21,360
 away from the actual thing that I give
 
-607
+605
 00:27:21,360 --> 00:27:24,320
 you. So there are accumulated
 
-608
+606
 00:27:24,320 --> 00:27:27,440
 behaviors that lead to that diploma. But
 
-609
+607
 00:27:27,440 --> 00:27:30,720
-why do I but it's not me who watched you
+it's not me who watched you
 
-610
+608
 00:27:30,720 --> 00:27:33,600
 complete the degree. It's indirect. It's
 
-611
+609
 00:27:33,600 --> 00:27:36,159
 the university who watched you complete
 
-612
+610
 00:27:36,159 --> 00:27:38,559
 the degree and you're believing the
 
-613
+611
 00:27:38,559 --> 00:27:41,120
 university. So there's an indirectness,
 
-614
+612
 00:27:41,120 --> 00:27:44,000
-not a direct link. But either way, the
+not a direct link. – But either way, the
 
-615
+613
 00:27:44,000 --> 00:27:46,080
 quality of reputation
 
-616
+614
 00:27:46,080 --> 00:27:48,240
-can't be separ separated from an
+can't be separated from an
 
-617
+615
 00:27:48,240 --> 00:27:50,640
 accumulation of behaviors over time.
 
-618
+616
 00:27:50,640 --> 00:27:51,279
 Correct.
 
-619
+617
 00:27:51,279 --> 00:27:52,159
-That's true.
+– That's true.
+
+618
+00:27:52,159 --> 00:27:54,640
+– And so if it's a good restaurant, it's
+
+619
+00:27:54,640 --> 00:27:57,039
+done well. It's had good behaviors
 
 620
-00:27:52,159 --> 00:27:54,640
-And so if it's a good restaurant, it's
-
-621
-00:27:54,640 --> 00:27:57,039
-done well. It's it's had good behaviors
-
-622
 00:27:57,039 --> 00:27:59,120
 which got that reputation. And what
 
-623
+621
 00:27:59,120 --> 00:28:00,399
 you're doing is you're collapsing the
 
-624
+622
 00:28:00,399 --> 00:28:02,720
 history because it's so well known. I'm
 
-625
+623
 00:28:02,720 --> 00:28:04,480
 going to collapse the history and just
 
-626
+624
 00:28:04,480 --> 00:28:06,159
 say I just need to tell you the name
 
-627
+625
 00:28:06,159 --> 00:28:07,760
-of the organization. changing
+of the organization.
+
+626
+00:28:09,679 --> 00:28:11,840
+– In reputation you explicitly
+
+627
+00:28:11,840 --> 00:28:15,279
+trust the reputer. If you're observing
 
 628
-00:28:07,760 --> 00:28:09,679
-the trust.
-
-629
-00:28:09,679 --> 00:28:11,840
-In reputation for you, you explicitly
-
-630
-00:28:11,840 --> 00:28:15,279
-trust the recruiter. If you're observing
-
-631
 00:28:15,279 --> 00:28:17,600
 the direct behavior, the only person
 
-632
+629
 00:28:17,600 --> 00:28:19,600
 you're trusting is yourself. So, the
 
-633
+630
 00:28:19,600 --> 00:28:22,080
 verifier doesn't have to trust anybody.
 
-634
+631
 00:28:22,080 --> 00:28:24,640
 If they truly do reputation by behavior,
 
-635
+632
 00:28:24,640 --> 00:28:27,840
-they can verify all of
+they can verify all of…
+
+633
+00:28:27,840 --> 00:28:29,279
+– So, here's a here's a different way of
+
+634
+00:28:29,279 --> 00:28:30,480
+thinking about it.
+
+635
+00:28:32,480 --> 00:28:35,440
+Trust always,
 
 636
-00:28:27,840 --> 00:28:29,279
-So, here's a here's a different way of
-
-637
-00:28:29,279 --> 00:28:30,480
-thinking about it. Here's a different
-
-638
-00:28:30,480 --> 00:28:32,480
-way of thinking about it.
-
-639
-00:28:32,480 --> 00:28:35,440
-Trust always
-
-640
 00:28:35,440 --> 00:28:40,640
 always requires vulnerability.
 
-641
+637
 00:28:40,640 --> 00:28:44,080
-Your trust requires vulnerability.
+Trust requires vulnerability.
 
-642
+638
 00:28:44,080 --> 00:28:48,240
 So if you aren't vulnerable,
 
-643
+639
 00:28:48,240 --> 00:28:50,799
 you don't have to trust.
 
-644
+640
 00:28:50,799 --> 00:28:55,039
 So the question here is, am I trusting
 
-645
+641
 00:28:55,039 --> 00:28:57,360
-me? Right? I've eaten at that restaurant
+me? I've eaten at that restaurant
+
+642
+00:28:57,360 --> 00:28:59,840
+before and it was pretty good. Or
+
+643
+00:28:59,840 --> 00:29:02,320
+am I trusting the reviewers, which is an
+
+644
+00:29:02,320 --> 00:29:04,399
+accumulation of behavior, but I'm
+
+645
+00:29:04,399 --> 00:29:07,120
+trusting someone else, in one case I'm
 
 646
-00:28:57,360 --> 00:28:59,840
-before and it was pretty good, right? or
-
-647
-00:28:59,840 --> 00:29:02,320
-am I trusting the reviewers which is an
-
-648
-00:29:02,320 --> 00:29:04,399
-accumulation of behavior but I'm
-
-649
-00:29:04,399 --> 00:29:07,120
-trusting someone else in one case I'm
-
-650
 00:29:07,120 --> 00:29:09,600
 more vulnerable to mistakes than I
 
-651
+647
 00:29:09,600 --> 00:29:12,240
 am any other right because it's indirect
 
-652
+648
 00:29:12,240 --> 00:29:13,760
-rather than direct that's the difference
+rather than direct. That's the difference.
+
+649
+00:29:13,760 --> 00:29:15,520
+– You're trusting a third party's opinion
+
+650
+00:29:15,520 --> 00:29:17,760
+of the reputation versus your own.
+
+651
+00:29:17,760 --> 00:29:19,440
+– That's right. It's not whether
+
+652
+00:29:19,440 --> 00:29:21,919
+it's based on behavior, it's
 
 653
-00:29:13,760 --> 00:29:15,520
-you're trusting a third party's opinion
+00:29:21,919 --> 00:29:23,840
+whether it's indirect or direct,
 
 654
-00:29:15,520 --> 00:29:17,760
-of the reputation versus your own
+00:29:24,480 --> 00:29:33,029
+so a different dimension but yeah. So…
 
 655
-00:29:17,760 --> 00:29:19,440
-that's right it's not it's not whether
+00:29:33,054 --> 00:29:36,985
+right now the way reputation by behavior
 
 656
-00:29:19,440 --> 00:29:21,919
-it's based on behavior it's based it's
-
-657
-00:29:21,919 --> 00:29:23,840
-whether it's indirect or direct
-
-658
-00:29:23,840 --> 00:29:24,480
-right
-
-659
-00:29:24,480 --> 00:29:33,029
-so a different dimension but yeah So
-
-660
-00:29:37,190 --> 00:29:38,799
-right now the way reputation by behavior
+00:29:37,009 --> 00:29:38,799
 works, one example of that is credit
 
-661
+657
 00:29:38,799 --> 00:29:41,760
-bureaus, right? So credit bureaus
+bureaus. So credit bureaus
 
-662
+658
 00:29:41,760 --> 00:29:44,000
 accumulate
 
-663
+659
 00:29:44,000 --> 00:29:46,320
 all of your transactions and whether you
 
-664
+660
 00:29:46,320 --> 00:29:48,159
 pay your bills on time and whether you
 
-665
+661
 00:29:48,159 --> 00:29:50,080
 were late and all of those things,
 
-666
+662
 00:29:50,080 --> 00:29:51,679
 right?
 
-667
+663
 00:29:51,679 --> 00:29:56,799
 And they use some algorithm to determine
 
-668
+664
 00:29:56,799 --> 00:29:59,919
 a credit score which is then paid for. I
 
-669
+665
 00:29:59,919 --> 00:30:02,720
-mean other places other banks or credit
+mean other places other banks or
 
-670
+666
 00:30:02,720 --> 00:30:05,039
-issuers, credit card issuers or
+credit card issuers or
 
-671
+667
 00:30:05,039 --> 00:30:07,919
 employers and others can then pay for
 
-672
+668
 00:30:07,919 --> 00:30:10,480
 that credit score and get that for you.
 
-673
+669
 00:30:10,480 --> 00:30:14,159
-Right? So that's one way that we do
+So that's one way that we do
 
-674
+670
 00:30:14,159 --> 00:30:19,200
-behavior. Different way is say every
+behavior. Different way is, say every
 
-675
+671
 00:30:19,200 --> 00:30:21,360
 time I have a transaction with company X
 
-676
+672
 00:30:21,360 --> 00:30:23,520
 or company Y,
 
-677
+673
 00:30:23,520 --> 00:30:28,080
 I get a receipt that I paid on time, all
 
-678
+674
 00:30:28,080 --> 00:30:30,080
 of these things. Now, this may not
 
-679
+675
 00:30:30,080 --> 00:30:31,840
 matter as much for individuals as it
 
-680
+676
 00:30:31,840 --> 00:30:33,919
 does for organizations. I mean you can
 
-681
+677
 00:30:33,919 --> 00:30:35,520
 see the organizations could really
 
-682
+678
 00:30:35,520 --> 00:30:37,039
 benefit from something like this because
 
-683
+679
 00:30:37,039 --> 00:30:39,279
-it's big lots of money but anyway you
+it's big, lots of money but anyway you
 
-684
+680
 00:30:39,279 --> 00:30:41,200
 get these as credentials and now you can
 
-685
+681
 00:30:41,200 --> 00:30:44,399
 prove to other people in combination or
 
-686
+682
 00:30:44,399 --> 00:30:48,159
 apart whether or not you have behaved
 
-687
+683
 00:30:48,159 --> 00:30:50,720
 properly. Now I have to say there's one
 
-688
+684
 00:30:50,720 --> 00:30:54,320
 big problem here.
 
-689
+685
 00:30:54,320 --> 00:30:58,320
-I can admit bad behavior. So doesn't
+I can admit bad behavior. So, doesn't
 
-690
+686
 00:30:58,320 --> 00:31:00,080
-mean that these things are ever are ever
+mean that these things are ever
 
-691
+687
 00:31:00,080 --> 00:31:01,360
 going to go away. I mean, I think
 
-692
-00:31:01,360 --> 00:31:04,320
-there's always room for things
+688
+00:31:01,384 --> 00:31:05,962
+there's always room for things that
 
-693
-00:31:04,320 --> 00:31:06,960
-that u
-
-694
-00:31:06,960 --> 00:31:09,840
+689
+00:31:05,987 --> 00:31:09,840
 are looking for bad behavior. Yeah.
 
-695
+690
 00:31:09,840 --> 00:31:11,840
-One thing though that the
+– One thing though that the
 
-696
+691
 00:31:11,840 --> 00:31:15,200
 decentralized model allows is that the
 
-697
+692
 00:31:15,200 --> 00:31:18,000
 verifier can pick their own algorithm.
 
-698
+693
 00:31:18,000 --> 00:31:20,559
 If I go to get a credit score, there's
 
-699
+694
 00:31:20,559 --> 00:31:22,320
 like five algorithms.
 
-700
+695
 00:31:22,320 --> 00:31:24,000
-Yeah. And that's and Yeah. And I was
+– And I was
 
-701
+696
 00:31:24,000 --> 00:31:27,039
 going to mention that this model allows
 
-702
+697
 00:31:27,039 --> 00:31:29,760
-for a marketplace of algorithms, right?
+for a marketplace of algorithms.
 
-703
+698
 00:31:29,760 --> 00:31:32,159
-and for transparency in algorithms,
+And for transparency in algorithms.
 
-704
+699
 00:31:32,159 --> 00:31:33,440
-right? Somebody might say, "Oh, yeah.
+Somebody might say, "Oh, yeah.
 
-705
+700
 00:31:33,440 --> 00:31:35,520
 Well, we use this algorithm for how we
 
-706
+701
 00:31:35,520 --> 00:31:37,840
 do how you do scoring." Yeah.
 
-707
+702
 00:31:37,840 --> 00:31:39,120
-I don't know if you were talking about
+– I don't know if you were talking about
 
-708
+703
 00:31:39,120 --> 00:31:41,600
 it, but you said at the bottom in
 
-709
+704
 00:31:41,600 --> 00:31:43,600
 one case, you don't own your data. You
 
-710
+705
 00:31:43,600 --> 00:31:44,640
 do own your data.
 
-711
+706
 00:31:44,640 --> 00:31:48,399
-Yeah. And I'm gonna say that this is
+And I'm gonna say that this is
 
-712
+707
 00:31:48,399 --> 00:31:52,399
-the sort of issue legally that is going
+the sort of issue, legally, that is going
 
-713
+708
 00:31:52,399 --> 00:31:54,799
 to slow us down dramatically because if
 
-714
+709
 00:31:54,799 --> 00:31:57,360
 you look at what the Supreme Court has
 
-715
+710
 00:31:57,360 --> 00:32:00,240
 always said, it's that no one owns
 
-716
+711
 00:32:00,240 --> 00:32:03,200
 facts. Okay, data is facts. You might
 
-717
+712
 00:32:03,200 --> 00:32:05,120
 own the database that the facts reside
 
-718
+713
 00:32:05,120 --> 00:32:07,279
 in, but no one owns the underlying
 
-719
+714
 00:32:07,279 --> 00:32:11,519
 facts. So the solution to that is to
 
-720
+715
 00:32:11,519 --> 00:32:14,320
 treat those facts as an unownable
 
-721
+716
 00:32:14,320 --> 00:32:18,720
 commons. Okay? And like all commons,
 
-722
+717
 00:32:18,720 --> 00:32:21,360
 navigable waters or the air we breathe,
 
-723
+718
 00:32:21,360 --> 00:32:23,679
 someone has to be responsible. So going
 
-724
+719
 00:32:23,679 --> 00:32:25,440
 back to the fiduciary duty of loyalty
 
-725
+720
 00:32:25,440 --> 00:32:28,960
 and other fiduciary duties, you are the
 
-726
+721
 00:32:28,960 --> 00:32:31,600
 best candidate to be the trustee over
 
-727
+722
 00:32:31,600 --> 00:32:33,919
 your facts because you're more
 
-728
+723
 00:32:33,919 --> 00:32:35,200
 interested in their accuracy.
 
-729
+724
 00:32:35,200 --> 00:32:36,159
-I care about them.
+– I care about them.
 
-730
+725
 00:32:36,159 --> 00:32:38,960
-Right. Okay. and the government has
+– Right. And the government has
 
-731
+726
 00:32:38,960 --> 00:32:41,600
 a secondary fiduciary duty to make
 
-732
+727
 00:32:41,600 --> 00:32:45,440
 certain that your rights in those facts
 
-733
+728
 00:32:45,440 --> 00:32:46,320
 aren't abused.
 
-734
-00:32:46,320 --> 00:32:47,120
-Yeah, that's
-
-735
+729
 00:32:47,120 --> 00:32:49,360
-but the point there is I think that's
+But the point there is I think that's
 
-736
+730
 00:32:49,360 --> 00:32:50,640
 what's going to slow us down because if
 
-737
+731
 00:32:50,640 --> 00:32:52,880
 you look at these 80page agreements
 
-738
+732
 00:32:52,880 --> 00:32:55,200
-where you just click I agree, none of
+where you just click “I agree”, none of
 
-739
+733
 00:32:55,200 --> 00:32:57,760
-them say you own the data and you're
+them say “you own the data and you're
 
-740
+734
 00:32:57,760 --> 00:33:00,000
-giving us ownership. They all say you
+giving us ownership”. They all say “you
 
-741
+735
 00:33:00,000 --> 00:33:02,399
 transfer whatever rights you have and we
 
-742
+736
 00:33:02,399 --> 00:33:04,480
-accept whatever rights you have and then
+accept whatever rights you have” and then
 
-743
+737
 00:33:04,480 --> 00:33:05,919
-the company goes out and says well we
+the company goes out and says “we
 
-744
+738
 00:33:05,919 --> 00:33:07,840
-own this. So it's a legal fiction.
+own this”. So it's a legal fiction.
 
-745
+739
 00:33:07,840 --> 00:33:10,480
-Yeah, we I probably shouldn't say
+– Yeah, I probably shouldn't say
 
-746
+740
 00:33:10,480 --> 00:33:12,799
-own there. I mean control is a better
+“own” there. I mean control is a better
 
-747
+741
 00:33:12,799 --> 00:33:13,919
 word.
 
-748
+742
 00:33:13,919 --> 00:33:16,240
 Own is a problematic word in this word
 
-749
+743
 00:33:16,240 --> 00:33:18,000
 for the reasons that you have
 
-750
+744
 00:33:18,000 --> 00:33:23,440
-pointed out. And in fact, if
+pointed out. And in fact,
 
-751
+745
 00:33:23,440 --> 00:33:26,799
 if I'm in a transaction with someone, we
 
-752
+746
 00:33:26,799 --> 00:33:30,240
 both are parties to that transaction
 
-753
+747
 00:33:30,240 --> 00:33:33,760
-and we both could have a credential re
+and we both could have a credential [inaudible]
 
-754
+748
 00:33:33,760 --> 00:33:37,200
 to that transaction and we both control
 
-755
+749
 00:33:37,200 --> 00:33:39,120
-that, right? And of course, that's just
+that. And of course, that's just
 
-756
+750
 00:33:39,120 --> 00:33:41,360
 two-party. It could be multi-party. So,
 
-757
+751
 00:33:41,360 --> 00:33:44,320
-so yeah, it's it's about you have access
+so yeah, it's about you have access
 
-758
+752
 00:33:44,320 --> 00:33:47,120
 to and can control who you share it
 
-759
+753
 00:33:47,120 --> 00:33:47,519
 with,
 
-760
+754
 00:33:47,519 --> 00:33:49,440
-right? And just to your point very
+right? – And just to your point very
 
-761
+755
 00:33:49,440 --> 00:33:51,600
 quickly about transactions we
 
-762
+756
 00:33:51,600 --> 00:33:54,159
 always sort of say, well, the newspaper
 
-763
+757
 00:33:54,159 --> 00:33:57,519
 costs a dollar. Well, if I'm buying the
 
-764
+758
 00:33:57,519 --> 00:34:00,399
 newspaper, I value the newspaper more
 
-765
+759
 00:34:00,399 --> 00:34:04,399
 than the dollar and the publisher values
 
-766
+760
 00:34:04,399 --> 00:34:06,559
 the dollar more than the newspaper. So
 
-767
+761
 00:34:06,559 --> 00:34:08,000
 otherwise, the transaction wouldn't
 
-768
+762
 00:34:08,000 --> 00:34:09,040
 occur.
 
-769
+763
 00:34:09,040 --> 00:34:11,599
-Yeah. Yeah. There has Yeah. It's not
+– Yeah.
 
-770
+764
 00:34:11,599 --> 00:34:13,679
-there's cost, price, and value. Right.
+There's cost, price, and value.
 
-771
+765
 00:34:13,679 --> 00:34:16,000
-Right. And they're not the same. Yeah.
+And they're not the same. Yeah.
 
-772
+766
 00:34:16,000 --> 00:34:21,270
-Even the word your implies ownership
+– Even the word “your” implies ownership.
 
-773
-00:34:25,430 --> 00:34:26,399
-data about you. Yeah.
-Yeah.
+767
+00:34:21,295 --> 00:34:26,399
+– “data about you”. Yeah.
 
-774
+768
 00:34:26,399 --> 00:34:30,320
 Okay. So this whole idea of
 
-775
+769
 00:34:30,320 --> 00:34:36,639
 reputation has lots of implications or
 
-776
+770
 00:34:36,639 --> 00:34:39,599
-Ramifications for how we might
+ramifications for how we might
 
-777
+771
 00:34:39,599 --> 00:34:44,079
-approach agent AI and how agentic AI
+approach agentic AI and how agentic AI
 
-778
+772
 00:34:44,079 --> 00:34:46,720
 works with us. I mean this talk is not
 
-779
+773
 00:34:46,720 --> 00:34:49,760
-about agent AI but I just wanted to
+about agentic AI but I just wanted to
 
-780
+774
 00:34:49,760 --> 00:34:54,320
 point out that this same foundation and
 
-781
+775
 00:34:54,320 --> 00:34:58,079
 this idea of building reputation around
 
-782
+776
 00:34:58,079 --> 00:35:00,800
 solid identifiers for organizations and
 
-783
+777
 00:35:00,800 --> 00:35:02,320
 individuals
 
-784
+778
 00:35:02,320 --> 00:35:05,520
-helps us in this space if you want to
+helps us in this space. If you want to
 
-785
+779
 00:35:05,520 --> 00:35:08,240
 know details how I think about it like I
 
-786
+780
 00:35:08,240 --> 00:35:14,400
-said there's a blog post okay
+said there's a blog post.
 
-787
-00:35:14,400 --> 00:35:15,200
-or
-
-788
+781
 00:35:15,200 --> 00:35:16,640
 One thing I thought of when I was doing
 
-789
+782
 00:35:16,640 --> 00:35:18,480
 this actually is this idea of an
 
-790
+783
 00:35:18,480 --> 00:35:20,720
 evaluator. You could imagine agents that
 
-791
+784
 00:35:20,720 --> 00:35:22,720
 you employ that are evaluators. You
 
-792
+785
 00:35:22,720 --> 00:35:24,320
 know, we talked about having a
 
-793
+786
 00:35:24,320 --> 00:35:27,440
 marketplace of reputation evaluation
 
-794
+787
 00:35:27,440 --> 00:35:29,200
 algorithms. You could imagine a
 
-795
+788
 00:35:29,200 --> 00:35:31,440
 marketplace of reputation evaluation
 
-796
+789
 00:35:31,440 --> 00:35:34,240
 agents who are working on your behalf
 
-797
+790
 00:35:34,240 --> 00:35:36,160
-for various things, right? Things that
+for various things. Things that
 
-798
+791
 00:35:36,160 --> 00:35:37,760
-you care about and ones that you trust
+you care about and ones that you trust,
 
-799
+792
 00:35:37,760 --> 00:35:39,520
-and you Yeah, I'm going to use that
+and “I'm going to use that
 
-800
+793
 00:35:39,520 --> 00:35:41,280
 agent because I like the
 
-801
+794
 00:35:41,280 --> 00:35:43,839
-restaurants it recommends.
+restaurants it recommends”.
 
-802
+795
 00:35:43,839 --> 00:35:46,880
 So what's the technology opportunity
 
-803
+796
 00:35:46,880 --> 00:35:50,000
 here? If you're building
 
-804
+797
 00:35:50,000 --> 00:35:52,320
 decentralized identity infrastructure,
 
-805
-00:35:52,320 --> 00:35:55,119
+798
+00:35:52,320 --> 00:35:54,751
 SEDI is an opportunity, but it's not a
 
-806
-00:35:55,119 --> 00:35:59,839
-guarantee, right? There's a
+799
+00:35:54,751 --> 00:35:56,670
+guarantee.
 
-807
+800
 00:35:59,839 --> 00:36:03,680
-SEDI sets out these requirements,
+SEDI sets out these requirements:
 
-808
+801
 00:36:03,680 --> 00:36:05,839
 Open standards, decentralized
 
-809
+802
 00:36:05,839 --> 00:36:07,359
 control,
 
-810
+803
 00:36:07,359 --> 00:36:10,400
 that represent a high bar for how
 
-811
+804
 00:36:10,400 --> 00:36:15,440
 this all has to work. And like I
 
-812
+805
 00:36:15,440 --> 00:36:18,320
 said at the start of the talk,
 
-813
+806
 00:36:18,320 --> 00:36:20,640
-there's the technical side of it, right?
+there's the technical side of it,
 
-814
+807
 00:36:20,640 --> 00:36:24,720
-Which is the which is not in any way a
+which is not in any way a
 
-815
+808
 00:36:24,720 --> 00:36:29,280
 small thing, but doing that at scale,
 
-816
+809
 00:36:29,280 --> 00:36:32,000
 meeting the user experience requirements
 
-817
+810
 00:36:32,000 --> 00:36:34,480
 that we might have, finding the right
 
-818
+811
 00:36:34,480 --> 00:36:37,119
 economic models for the various parts
 
-819
+812
 00:36:37,119 --> 00:36:39,280
 and pieces that have to work. Those are
 
-820
+813
 00:36:39,280 --> 00:36:41,760
 all extremely difficult problems to
 
-821
+814
 00:36:41,760 --> 00:36:45,760
-solve. So it's it's not a no-brainer
+solve. So it's not a no-brainer
+
+815
+00:36:45,760 --> 00:36:48,480
+that “oh SEDI came along good, it's all
+
+816
+00:36:48,480 --> 00:36:50,320
+solved” and we still have lots of work to
+
+817
+00:36:50,320 --> 00:36:52,800
+do. Timothy.
+
+818
+00:36:52,800 --> 00:36:54,720
+You've got whole talks about this.
+
+819
+00:36:54,720 --> 00:36:56,400
+– If you
+
+820
+00:36:56,400 --> 00:37:01,670
+in [inaudible]
+
+821
+00:37:01,695 --> 00:37:03,934
+have a legal basis in their giant
 
 822
-00:36:45,760 --> 00:36:48,480
-that oh SEDI came along good it's all
+00:37:03,958 --> 00:37:06,880
+centralized digital system,
 
 823
-00:36:48,480 --> 00:36:50,320
-solved and we still have lots of work to
-
-824
-00:36:50,320 --> 00:36:52,800
-do. Timothy
-
-825
-00:36:52,800 --> 00:36:54,720
-you've got whole talks about this. If
-
-826
-00:36:54,720 --> 00:36:56,400
-you
-
-827
-00:36:56,400 --> 00:37:01,670
-in
-
-828
-00:37:03,990 --> 00:37:06,880
-have a legal basis in their giant
-centralized digital system
-
-829
 00:37:06,880 --> 00:37:10,320
 use a lot of cryptography as well
 
-830
+824
 00:37:10,320 --> 00:37:12,320
 component missing
 
-831
+825
 00:37:12,320 --> 00:37:14,400
 and that's the decentralized nature of
 
-832
+826
 00:37:14,400 --> 00:37:18,240
-setting. It's trying to have
+SEDI. It's trying to have [inaudible]
 
-833
+827
 00:37:18,240 --> 00:37:22,880
 a legal verifiable basis but also
 
-834
+828
 00:37:22,880 --> 00:37:24,880
 decentralization meaning that you can
 
-835
+829
 00:37:24,880 --> 00:37:26,880
 have different vendors in different
 
-836
+830
 00:37:26,880 --> 00:37:29,760
 states and different systems and they
 
-837
+831
 00:37:29,760 --> 00:37:32,160
 can issue in one place and verify in
 
-838
+832
 00:37:32,160 --> 00:37:33,680
 another because they're speaking a
 
-839
+833
 00:37:33,680 --> 00:37:34,800
-common
+common [inaudible]
+
+834
+00:37:34,800 --> 00:37:35,520
+– We hope…
+
+835
+00:37:35,520 --> 00:37:38,079
+– Those systems that's
+
+836
+00:37:38,079 --> 00:37:39,359
+obviously the…
+
+837
+00:37:40,880 --> 00:37:42,000
+– But that makes it
+
+838
+00:37:42,000 --> 00:37:42,640
+hard right?
+
+839
+00:37:42,640 --> 00:37:45,200
+– In contrast with Aadhaar in India and in
 
 840
-00:37:34,800 --> 00:37:35,520
-we hope
+00:37:45,200 --> 00:37:46,560
+contrast with what they're doing in
 
 841
-00:37:35,520 --> 00:37:38,079
-those systems that's that's
-
-842
-00:37:38,079 --> 00:37:39,359
-obviously the
-
-843
-00:37:39,359 --> 00:37:40,880
-but I mean but I mean I think this is
-
-844
-00:37:40,880 --> 00:37:42,000
-where you're going but that makes it
-
-845
-00:37:42,000 --> 00:37:42,640
-hard right
-
-846
-00:37:42,640 --> 00:37:45,200
-in contrast with ADAR in India and in
-
-847
-00:37:45,200 --> 00:37:46,560
-contra contst with what they're doing in
-
-848
 00:37:46,560 --> 00:37:48,800
 Estonia because they do not have that
 
-849
+842
 00:37:48,800 --> 00:37:50,320
 property and they're not even trying.
 
-850
+843
 00:37:50,320 --> 00:37:52,160
 It's a giant centralized system and
 
-851
+844
 00:37:52,160 --> 00:37:53,680
 everybody phones home to the mother
 
-852
+845
 00:37:53,680 --> 00:37:54,240
 ship.
 
-853
+846
 00:37:54,240 --> 00:37:55,119
-Yeah, absolutely.
+– Yeah, absolutely.
 
-854
+847
 00:37:55,119 --> 00:37:57,040
-My point is just having those two
+– My point is just having those two
 
-855
+848
 00:37:57,040 --> 00:38:01,119
 components up there describes ad hoc.
 
-856
+849
 00:38:01,119 --> 00:38:04,240
 That's my point.
 
-857
+850
 00:38:04,240 --> 00:38:06,640
-Okay.
+– Okay.
 
-858
+851
 00:38:06,640 --> 00:38:08,880
-And it does
+– And it does…
 
-859
+852
 00:38:08,880 --> 00:38:11,040
-go back to your point about control
+going back to your point about control
 
-860
+853
 00:38:11,040 --> 00:38:14,800
 because decentralization is about
 
-861
+854
 00:38:14,800 --> 00:38:17,680
 autonomy and control ultimately.
 
-862
-00:38:17,680 --> 00:38:19,359
-Yeah.
+855
+00:38:23,751 --> 00:38:27,562
+– (Lawrence) Lessig famously said that “code is law”
 
-863
-00:38:19,359 --> 00:38:22,630
-So
-
-864
-00:38:27,670 --> 00:38:30,000
-Lesig famously said that code is law
+856
+00:38:27,586 --> 00:38:30,000
 and there's a lot of people who take
 
-865
+857
 00:38:30,000 --> 00:38:32,880
 that to heart and it is true to the
 
-866
+858
 00:38:32,880 --> 00:38:35,440
 extent that code controls what you can
 
-867
+859
 00:38:35,440 --> 00:38:38,160
 do and what you can't do but I don't
 
-868
+860
 00:38:38,160 --> 00:38:40,720
 think for identity that idea is quite
 
-869
+861
 00:38:40,720 --> 00:38:44,400
-sufficient right that we need more than
+sufficient. That we need more than
 
-870
+862
 00:38:44,400 --> 00:38:48,480
-code we need this underlying legal
+code, we need this underlying legal
 
-871
+863
 00:38:48,480 --> 00:38:50,640
 foundation that SEDI provides for
 
-872
-00:38:50,640 --> 00:38:57,829
+864
+00:38:50,640 --> 00:38:52,099
 individuals.
 
-873
-00:39:00,310 --> 00:39:02,640
+865
+00:38:57,718 --> 00:39:00,108
 SEDI answers questions about who has
+
+866
+00:39:00,132 --> 00:39:02,640
 authority to revoke, when can they
 
-874
+867
 00:39:02,640 --> 00:39:05,920
-revoke? That's just one example, right?
+revoke? That's just one example.
 
-875
+868
 00:39:05,920 --> 00:39:09,599
 Who has the right to get one of these?
 
-876
+869
 00:39:09,599 --> 00:39:11,680
 Code doesn't solve those problems. Those
 
-877
+870
 00:39:11,680 --> 00:39:13,760
 are all things that we need legal
 
-878
+871
 00:39:13,760 --> 00:39:17,760
-infrastructure which steady is at least
+infrastructure which is steady, at least
 
-879
+872
 00:39:17,760 --> 00:39:20,000
-on the road to providing right. I don't
+on the road to providing. I don't
 
-880
+873
 00:39:20,000 --> 00:39:21,680
 think this will be the last SEDI
 
-881
+874
 00:39:21,680 --> 00:39:23,680
 statute. I think there will be more but
 
-882
+875
 00:39:23,680 --> 00:39:25,599
-but nevertheless we're on we're on the
+but nevertheless we're on the
 
-883
+876
 00:39:25,599 --> 00:39:29,760
 road to getting there. So
 
-884
+877
 00:39:29,760 --> 00:39:31,760
-that provides this legal foundation like
+SEDI provides this legal foundation like
 
-885
+878
 00:39:31,760 --> 00:39:33,599
-I've said
+I've said.
 
-886
+879
 00:39:33,599 --> 00:39:36,480
 We've got
 
-887
+880
 00:39:36,480 --> 00:39:40,320
-code, we've got stacks that are maturing
+code, we've got stacks that are maturing.
 
-888
+881
 00:39:40,320 --> 00:39:45,760
 And what we have now starting in May
 
-889
+882
 00:39:45,760 --> 00:39:49,599
 is a legal foundation for all of that.
 
-890
+883
 00:39:49,599 --> 00:39:52,079
-So
+So,
 
-891
+884
 00:39:52,079 --> 00:39:53,680
 we've had some discussion going back.
 
-892
+885
 00:39:53,680 --> 00:39:55,440
 I've got like two or three minutes I
 
-893
+886
 00:39:55,440 --> 00:39:56,880
-think if there are questions. two
+think if there are questions. Two
 
-894
+887
 00:39:56,880 --> 00:39:59,839
 minutes I'm told. So, is there
 
-895
+888
 00:39:59,839 --> 00:40:01,040
 questions? Happy to answer them.
 
-896
+889
 00:40:01,040 --> 00:40:03,839
 Otherwise, I will turn you over to the
 
-897
+890
 00:40:03,839 --> 00:40:07,079
-next one.
+next one. [Applause]
 
