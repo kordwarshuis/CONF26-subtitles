@@ -20,11 +20,11 @@ Title of my talk, as you can see, is
 
 6
 00:00:17,840 --> 00:00:19,680
-digital identity needs a legal
+“Digital Identity Needs a Legal
 
 7
 00:00:19,680 --> 00:00:22,640
-foundation. So if you were at SEDI
+Foundation”. So if you were at SEDI
 
 8
 00:00:22,640 --> 00:00:24,400
@@ -52,11 +52,11 @@ foundation actually helps us out. So we
 
 14
 00:00:37,520 --> 00:00:39,840
-spent a lot of time talking about, you
+spent a lot of time talking about
 
 15
 00:00:39,840 --> 00:00:41,200
-know, the cryptography and key
+the cryptography and key
 
 16
 00:00:41,200 --> 00:00:44,079
@@ -80,15 +80,15 @@ not the technical things but legal and
 
 21
 00:00:56,719 --> 00:00:59,680
-institutional right so spent a lot of
+institutional, right, so spent a lot of
 
 22
 00:00:59,680 --> 00:01:04,000
-time talking about governance and you
+time talking about governance and
 
 23
 00:01:04,000 --> 00:01:06,080
-know sometimes it's can be kind of
+sometimes it's can be kind of
 
 24
 00:01:06,080 --> 00:01:08,479
@@ -111,758 +111,757 @@ we're at. We've got decentralized key
 management, authentic chain credentials,
 
 29
-00:01:19,439 --> 00:01:22,320
+00:01:19,439 --> 00:01:23,895
 Serialization formats,
 
 30
-00:01:22,320 --> 00:01:23,910
-Serialization formats
+00:01:23,920 --> 00:01:27,390
+some implementations, open- source code.
 
 31
-00:01:23,910 --> 00:01:23,920
-
-
-32
-00:01:23,920 --> 00:01:30,880
-some implementations, open- source code.
+00:01:27,414 --> 00:01:30,880
 So, the technical foundations
 
-33
+32
 00:01:30,880 --> 00:01:32,560
 are largely there. That doesn't mean
 
-34
+33
 00:01:32,560 --> 00:01:34,000
 they're done. Doesn't mean they can't be
 
-35
+34
 00:01:34,000 --> 00:01:37,759
 improved, but we've made real progress.
 
-36
+35
 00:01:37,759 --> 00:01:40,560
 We also have things that we're still
 
-37
+36
 00:01:40,560 --> 00:01:42,960
 working on like tooling and ecosystem
 
-38
+37
 00:01:42,960 --> 00:01:45,600
 and developer experience and all of
 
-39
+38
 00:01:45,600 --> 00:01:48,479
 those things that make it work.
 
-40
+39
 00:01:48,479 --> 00:01:50,399
 But we need to get adoption. And in
 
-41
+40
 00:01:50,399 --> 00:01:52,640
 order to get adoption,
 
-42
+41
 00:01:52,640 --> 00:01:56,000
 we have to
 
-43
+42
 00:01:56,000 --> 00:01:57,360
 get rid of some of the fundamental
 
-44
+43
 00:01:57,360 --> 00:01:59,600
 blockers. Now, I'm going to talk about a
 
-45
+44
 00:01:59,600 --> 00:02:02,000
 couple of them today. Not necessarily
 
-46
+45
 00:02:02,000 --> 00:02:04,640
-all of them. I mean because you know
+all of them. I mean because
 
-47
+46
 00:02:04,640 --> 00:02:06,719
 there's no end to blockers when you're
 
-48
+47
 00:02:06,719 --> 00:02:08,879
 trying to do something this big. But
 
-49
+48
 00:02:08,879 --> 00:02:10,879
 there's a couple of them that I think we
 
-50
+49
 00:02:10,879 --> 00:02:16,959
-can we can help solve. So Sarashin
+can help solve. So Sankarshan
+
+50
+00:02:16,959 --> 00:02:20,239
+How to say his name Mukhopadhyay I think
 
 51
-00:02:16,959 --> 00:02:20,239
-How to say his name Mukapage I think
-
-52
 00:02:20,239 --> 00:02:22,400
 is how you say his last name. I haven't
 
-53
+52
 00:02:22,400 --> 00:02:24,560
 heard it said so I'll say it that way.
 
-54
+53
 00:02:24,560 --> 00:02:26,160
 Recently wrote a book about what he
 
-55
+54
 00:02:26,160 --> 00:02:28,959
 called the a book a paper what he called
 
-56
+55
 00:02:28,959 --> 00:02:31,680
 the proof gap. And for him, the proof
+https://thetrustgraph.substack.com/p/the-proof-gap
 
-57
+56
 00:02:31,680 --> 00:02:35,599
 gap was the idea that we still rely
 
-58
+57
 00:02:35,599 --> 00:02:39,200
 largely on centralized institutions to
 
-59
+58
 00:02:39,200 --> 00:02:42,000
 be able to prove things about ourselves.
 
-60
+59
 00:02:42,000 --> 00:02:45,040
 So, our education, employment, whatever
 
-61
+60
 00:02:45,040 --> 00:02:47,840
-licenses we have, you know, benefits
+licenses we have benefits
 
-62
+61
 00:02:47,840 --> 00:02:50,560
 we're entitled to, all of those things.
 
-63
+62
 00:02:50,560 --> 00:02:53,519
 When proof is needed, we can't generally
 
-64
+63
 00:02:53,519 --> 00:02:55,760
 present it directly, especially
 
-65
+64
 00:02:55,760 --> 00:02:58,480
 digitally in a way that somebody else
 
-66
+65
 00:02:58,480 --> 00:03:03,200
 can easily verify. So even worse, I
 
-67
+66
 00:03:03,200 --> 00:03:05,680
 mean, if we lose that proof, we have to
 
-68
+67
 00:03:05,680 --> 00:03:07,200
 essentially go back to those
 
-69
+68
 00:03:07,200 --> 00:03:10,239
 institutions one at a time and confirm
 
-70
+69
 00:03:10,239 --> 00:03:12,239
-something about ourselves, right? So, so
+something about ourselves, right? So
 
-71
+70
 00:03:12,239 --> 00:03:16,800
 that could be a real problem.
 
-72
+71
 00:03:16,800 --> 00:03:18,560
-Back, you know, 50 years ago when
+Back 50 years ago when
 
-73
+72
 00:03:18,560 --> 00:03:20,319
 everything was based on paper and kept
 
-74
+73
 00:03:20,319 --> 00:03:22,239
 in filing cabinets, that might have made
 
-75
+74
 00:03:22,239 --> 00:03:23,760
 sense because it was really all you
 
-76
+75
 00:03:23,760 --> 00:03:25,920
 could do. But I think everybody in this
 
-77
+76
 00:03:25,920 --> 00:03:28,319
 room acknowledges that we can do better
 
-78
+77
 00:03:28,319 --> 00:03:30,480
 than that in a digital world and we
 
-79
+78
 00:03:30,480 --> 00:03:32,159
 should do better than that, not just
 
-80
+79
 00:03:32,159 --> 00:03:34,319
 take that old paper filing cabinet model
 
-81
+80
 00:03:34,319 --> 00:03:36,720
 and move it forward.
 
-82
+81
 00:03:36,745 --> 00:03:40,799
 So sometimes people think of the proof gap
 
-83
+82
 00:03:40,799 --> 00:03:43,440
 as a technical problem and it certainly
 
-84
+83
 00:03:43,440 --> 00:03:45,920
 is that. There are technical problems
 
-85
+84
 00:03:45,920 --> 00:03:48,159
 with moving this centralized filing
 
-86
+85
 00:03:48,159 --> 00:03:51,280
 cabinet model into the digital world and
 
-87
+86
 00:03:51,280 --> 00:03:53,040
 trying to decentralize it and create
 
-88
+87
 00:03:53,040 --> 00:03:57,519
 something that's better.
 
-89
+88
 00:03:57,519 --> 00:04:01,599
 But I think we can ask
 
-90
+89
 00:04:01,599 --> 00:04:03,280
 ourselves about the problem of
 
-91
+90
 00:04:03,280 --> 00:04:07,990
 governance.
 
-92
+91
 00:04:08,054 --> 00:04:09,904
 There are lots of ways that we have
 
-93
+92
 00:04:09,928 --> 00:04:13,680
 worked out how to
 
-94
+93
 00:04:13,680 --> 00:04:16,880
 transfer trust
 
-95
+94
 00:04:16,880 --> 00:04:21,359
 in the physical world, right?
 
-96
+95
 00:04:21,359 --> 00:04:23,822
 One of those is very familiar to
 
-97
+96
 00:04:23,847 --> 00:04:27,386
 everybody and that is credit cards.
 
-98
+97
 00:04:30,891 --> 00:04:33,904
 60 years ago,
 
-99
+98
 00:04:33,928 --> 00:04:35,680
 we didn't have this problem because we
 
-100
+99
 00:04:35,680 --> 00:04:37,840
 didn't have credit cards really at all,
 
-101
+100
 00:04:37,840 --> 00:04:41,360
 right? There were bank cards and
 
-102
+101
 00:04:41,360 --> 00:04:43,120
 maybe had a card from your department
 
-103
+102
 00:04:43,120 --> 00:04:44,639
 store, right? I remember people had
 
-104
+103
 00:04:44,639 --> 00:04:47,120
 Sears cards that you could use at Sears
 
-105
+104
 00:04:47,120 --> 00:04:49,360
 and nowhere else, right? So they were
 
-106
+105
 00:04:49,360 --> 00:04:53,680
 all centralized, single domain and Visa
 
-107
+106
 00:04:53,680 --> 00:04:56,560
 first and then others followed came up
 
-108
+107
 00:04:56,560 --> 00:05:00,080
 with this idea that we could have a
 
-109
+108
 00:05:00,080 --> 00:05:03,759
 coalition of banks put together ways
 
-110
+109
 00:05:03,759 --> 00:05:05,600
 that they can work together. So this
 
-111
+110
 00:05:05,600 --> 00:05:08,000
 involved technology, how are we going to
 
-112
+111
 00:05:08,000 --> 00:05:10,639
 technically transfer information? It
 
-113
+112
 00:05:10,639 --> 00:05:13,919
 involved rules and processes. It
 
-114
+113
 00:05:13,919 --> 00:05:16,639
 involved legal agreements. Involved all
 
-115
+114
 00:05:16,639 --> 00:05:18,880
 of this. And collectively we call that
 
-116
+115
 00:05:18,880 --> 00:05:21,039
 thing a trust framework, right? All of
 
-117
+116
 00:05:21,039 --> 00:05:24,560
 those technical and legal and regulatory
 
-118
+117
 00:05:24,560 --> 00:05:27,919
 rules that make all of that work. But
 
-119
+118
 00:05:27,919 --> 00:05:31,199
-even today, right, if you're a merchant,
+even today if you're a merchant,
 
-120
+119
 00:05:31,199 --> 00:05:33,680
 you've got multiple ones of these that
 
-121
+120
 00:05:33,680 --> 00:05:35,600
 you have to interact with. Now, it turns
 
-122
+121
 00:05:35,600 --> 00:05:37,680
 out somebody saw that problem and there
 
-123
+122
 00:05:37,680 --> 00:05:39,199
 are all kinds of companies. There's
 
-124
+123
 00:05:39,199 --> 00:05:41,520
 actually between this guy and those
 
-125
+124
 00:05:41,520 --> 00:05:43,919
 guys, there's like four layers of
 
-126
+125
 00:05:43,919 --> 00:05:46,800
-companies that make this all work. in
+companies that make this all work. In
 
-127
+126
 00:05:46,800 --> 00:05:50,560
 order to make it easy for him and for
 
-128
+127
 00:05:50,560 --> 00:05:52,880
 you when you go in, right? He doesn't
 
-129
+128
 00:05:52,880 --> 00:05:54,880
 have to have six different terminals and
 
-130
+129
 00:05:54,880 --> 00:05:56,720
 all of that because somebody's solved
 
-131
+130
 00:05:56,720 --> 00:05:59,759
 that problem. But still, it's a problem.
 
-132
+131
 00:05:59,759 --> 00:06:01,840
 Now, imagine what happens when we've got
 
-133
+132
 00:06:01,840 --> 00:06:05,840
 not five different banking system or
 
-134
+133
 00:06:05,840 --> 00:06:08,160
 credit card systems. We have thousands
 
-135
+134
 00:06:08,160 --> 00:06:10,560
 of different credentials. Now we're
 
-136
+135
 00:06:10,560 --> 00:06:14,000
-trying to navigate this island, the sea
+trying to navigate the sea
 
-137
+136
 00:06:14,000 --> 00:06:16,639
 of islands where each of these is a
 
-138
+137
 00:06:16,639 --> 00:06:18,960
 separate trust framework with their own
 
-139
+138
 00:06:18,960 --> 00:06:21,680
 rules, their own governance. Maybe they
 
-140
+139
 00:06:21,680 --> 00:06:23,919
-share some technical underpinnings, you
+share some technical underpinnings
+
+140
+00:06:23,919 --> 00:06:25,440
+at least we could hope
 
 141
-00:06:23,919 --> 00:06:25,440
-know, at least at least we could hope
+00:06:25,440 --> 00:06:28,160
+for that. But it's still a problem. If
 
 142
-00:06:25,440 --> 00:06:28,160
-for that. But it's still a problem if
-
-143
 00:06:28,160 --> 00:06:30,479
 every category of credentials requires
 
-144
+143
 00:06:30,479 --> 00:06:33,360
 its own private trust framework and
 
-145
+144
 00:06:33,360 --> 00:06:37,120
 every verifier has to somehow be inside
 
-146
+145
 00:06:37,120 --> 00:06:39,680
-each of those trust frameworks. It's a
+each of those trust frameworks, it's a
 
-147
+146
 00:06:39,680 --> 00:06:42,160
 nightmare, right? Instead of four layers
 
-148
+147
 00:06:42,160 --> 00:06:43,680
 between the merchant and the credit card
 
-149
+148
 00:06:43,680 --> 00:06:45,440
 companies, we'll have a hundred layers
 
-150
+149
 00:06:45,440 --> 00:06:48,639
-between, you know, you and all of the
+between you and all of the
 
-151
+150
 00:06:48,639 --> 00:06:50,160
 different things that you might need to
 
-152
+151
 00:06:50,160 --> 00:06:53,600
 verify in your life. Now, private
 
-153
+152
 00:06:53,600 --> 00:06:56,000
 governance can solve some of these
 
-154
+153
 00:06:56,000 --> 00:06:58,639
 problems, right? And we've seen lots of
 
-155
+154
 00:06:58,639 --> 00:07:01,680
 efforts over the years. IRA is one of
 
-156
+155
 00:07:01,680 --> 00:07:04,160
-the most recent, right? that tries to
+the most recent that tries to
 
-157
+156
 00:07:04,160 --> 00:07:08,240
 create a coalition of
 
-158
+157
 00:07:08,240 --> 00:07:10,880
 related or like-minded maybe
 
-159
+158
 00:07:10,880 --> 00:07:13,199
 organizations who can come together and
 
-160
+159
 00:07:13,199 --> 00:07:15,039
 create a trust framework that is
 
-161
+160
 00:07:15,039 --> 00:07:18,639
-interoperable right and you know I think
+interoperable and I think
 
-162
+161
 00:07:18,639 --> 00:07:20,560
 they all kind of have this vision of
 
-163
+162
 00:07:20,560 --> 00:07:22,319
-well we'll just get big enough that
+we'll just get big enough that
+
+163
+00:07:22,319 --> 00:07:24,160
+we'll solve this problem. It won't be a
 
 164
-00:07:22,319 --> 00:07:24,160
-we'll solve this problem it won't be a
-
-165
-00:07:24,160 --> 00:07:25,360
+00:07:24,160 --> 00:07:25,072
 problem because we'll just get big
 
-166
-00:07:25,360 --> 00:07:27,680
+165
+00:07:25,072 --> 00:07:27,680
 enough that everybody will be part of us
 
-167
+166
 00:07:27,680 --> 00:07:30,240
-but you know Visa is not part of
+but Visa is not part of
+
+167
+00:07:30,240 --> 00:07:32,560
+Mastercard and they never will be.
 
 168
-00:07:30,240 --> 00:07:32,560
-Mastercard and they never will
-
-169
 00:07:32,560 --> 00:07:35,840
 And that's always going to be a problem.
 
-170
+169
 00:07:35,840 --> 00:07:39,440
 So a different way to solve this problem
 
-171
+170
 00:07:39,440 --> 00:07:43,520
 is to have something underneath all and
 
-172
+171
 00:07:43,520 --> 00:07:46,000
 connect them. Okay, but that's just one
 
-173
+172
 00:07:46,000 --> 00:07:47,520
 problem. There's another problem. I
 
-174
+173
 00:07:47,520 --> 00:07:50,160
 talked about this in my talk on
 
-175
+174
 00:07:50,160 --> 00:07:53,840
 Monday and that is an economic problem.
 
-176
+175
 00:07:53,840 --> 00:07:56,479
 So in the mid 1990s,
 
-177
+176
 00:07:56,479 --> 00:07:59,039
 Netscape had essentially solved the
 
-178
+177
 00:07:59,039 --> 00:08:01,759
 digital identity problem for at least
 
-179
+178
 00:08:01,759 --> 00:08:04,960
-the web. I mean, they had a pretty good
+the web. I mean, they had
 
-180
+179
 00:08:04,960 --> 00:08:08,240
 pretty good idea, right? We'll have
 
-181
+180
 00:08:08,240 --> 00:08:12,000
 servers that will have certificates and
 
-182
+181
 00:08:12,000 --> 00:08:15,680
 we'll put certificates in browsers
 
-183
+182
 00:08:15,680 --> 00:08:18,479
 and your browser certificate will
 
-184
+183
 00:08:18,479 --> 00:08:21,199
 identify you. We'll proof your identity
 
-185
+184
 00:08:21,199 --> 00:08:23,919
 with these certificates. I mean, in
 
-186
+185
 00:08:23,919 --> 00:08:26,560
 this day and age where you can
 
-187
+186
 00:08:26,560 --> 00:08:28,639
 essentially get server certificates for
 
-188
+187
 00:08:28,639 --> 00:08:32,320
 free, you may not remember, but back in
 
-189
+188
 00:08:32,320 --> 00:08:34,719
 the day, certificates were really
 
-190
+189
 00:08:34,719 --> 00:08:37,279
 expensive because they were all proofed.
 
-191
+190
 00:08:37,279 --> 00:08:40,000
 Right now, they basically just link a
 
-192
+191
 00:08:40,000 --> 00:08:42,959
 domain name to a key. That's all they
 
-193
+192
 00:08:42,959 --> 00:08:45,200
 do. But if you want a real proofed
 
-194
+193
 00:08:45,200 --> 00:08:47,360
 certificate, they cost money. Not only
 
-195
+194
 00:08:47,360 --> 00:08:49,360
 because it costs money to proof you, but
 
-196
+195
 00:08:49,360 --> 00:08:50,880
 because the company is putting
 
-197
+196
 00:08:50,880 --> 00:08:53,680
-themselves out there and saying this
+themselves out there and saying “this
+
+197
+00:08:53,680 --> 00:08:55,200
+information is correct”. So, they're
 
 198
-00:08:53,680 --> 00:08:55,200
-information is correct. So, they're
+00:08:55,200 --> 00:08:58,480
+liable. So, they cost money.
 
 199
-00:08:55,200 --> 00:08:58,480
-liable, right? So, they cost money.
+00:08:58,480 --> 00:09:00,480
+Turns out people were not
 
 200
-00:08:58,480 --> 00:09:00,480
-People, turns out people were not
-
-201
 00:09:00,480 --> 00:09:02,800
 willing to pay money to shop and to bank
 
-202
+201
 00:09:02,800 --> 00:09:04,560
 and all of those things. They wanted it
 
-203
+202
 00:09:04,560 --> 00:09:08,480
 all to be free. So
 
-204
+203
 00:09:08,480 --> 00:09:11,519
 we standardized on servers will have
 
-205
+204
 00:09:11,519 --> 00:09:13,360
 certificates and people will have
 
-206
+205
 00:09:13,360 --> 00:09:16,399
 passwords and just kind of waved our
 
-207
+206
 00:09:16,399 --> 00:09:17,920
 hands and hoped the problem would go
 
-208
+207
 00:09:17,920 --> 00:09:21,360
 away because there was money to be made.
 
-209
+208
 00:09:21,360 --> 00:09:23,279
-So here's the two problems, right? How
+So here's the two problems. How
+
+209
+00:09:23,279 --> 00:09:25,600
+we scale trust. How do we create
 
 210
-00:09:23,279 --> 00:09:25,600
-we scale trust, right? How do we create
-
-211
 00:09:25,600 --> 00:09:28,080
 trust frameworks that are more
 
-212
+211
 00:09:28,080 --> 00:09:31,519
 universal? And second, who's going to
 
-213
+212
 00:09:31,519 --> 00:09:33,760
-pay for this, right? who's proofing the
+pay for this. Who's proofing the
 
-214
+213
 00:09:33,760 --> 00:09:36,720
 person using what authority, what's the
 
-215
+214
 00:09:36,720 --> 00:09:43,190
 legal standing, all of those questions.
 
+215
+00:09:43,215 --> 00:09:45,955
+This is where I think SEDI can help us
+
 216
-00:09:46,150 --> 00:09:48,720
-this is where I think SEDI can help us
-with both of these problems and I'll and
+00:09:45,979 --> 00:09:48,720
+with both of these problems and
 
 217
 00:09:48,720 --> 00:09:51,440
@@ -878,11 +877,11 @@ doesn't provide any kind of universal
 
 220
 00:09:59,279 --> 00:10:01,279
-trust framework. That's not the answer,
+trust framework. That's not the answer.
 
 221
 00:10:01,279 --> 00:10:04,240
-right? What SEDI provides instead is a
+What SEDI provides instead is a
 
 222
 00:10:04,240 --> 00:10:07,200
@@ -890,11 +889,11 @@ foundation that trust frameworks can sit
 
 223
 00:10:07,200 --> 00:10:10,160
-on. Right? So we have something that is
+on. So we have something that is
 
 224
 00:10:10,160 --> 00:10:13,279
-firm underneath a firm legal foundation
+firm underneath, a firm legal foundation
 
 225
 00:10:13,279 --> 00:10:14,880
@@ -918,15 +917,15 @@ already has lots of infrastructure
 
 230
 00:10:30,560 --> 00:10:32,560
-for doing this, right? They already
+for doing this. They already
 
 231
 00:10:32,560 --> 00:10:34,640
-proof you, right? part of you know if
+proof you, part of if
 
 232
 00:10:34,640 --> 00:10:36,640
-you look at your driver's license we
+you look at your driver's license, we
 
 233
 00:10:36,640 --> 00:10:38,160
@@ -946,43 +945,43 @@ driver's license which is the only thing
 
 237
 00:10:43,040 --> 00:10:45,279
-we have to prove who we are there's a
+we have to prove who we are, there's a
 
 238
 00:10:45,279 --> 00:10:46,800
-little star on it you know what that
+little star on it. You know what that
 
 239
 00:10:46,800 --> 00:10:49,040
-star means
+star means?
 
 240
 00:10:49,040 --> 00:10:50,640
-real ID
+“REAL ID”.
 
 241
 00:10:50,640 --> 00:10:54,160
-it means the state proofed your identity
+It means the state proofed your identity.
 
 242
 00:10:54,160 --> 00:10:59,920
-so this was started in 2005
+So this was started in 2005
 
 243
 00:10:59,920 --> 00:11:03,279
-when earlier than that maybe 2002
+when… earlier than that, maybe 2002…
 
 244
 00:11:03,279 --> 00:11:06,880
-two. It was right after 911.
+It was right after 911.
 
 245
 00:11:06,880 --> 00:11:08,399
-It happened. It happened. It happened
+It happened
 
 246
 00:11:08,399 --> 00:11:10,880
-before 911 because I remember I was CIO
+before 911, because I remember I was CIO
 
 247
 00:11:10,880 --> 00:11:12,160
@@ -1046,11 +1045,11 @@ make sure that we're all on the same
 
 262
 00:11:41,519 --> 00:11:44,640
-page, right? So, SEDI doesn't give you
+page. So, SEDI doesn't give you
 
 263
 00:11:44,640 --> 00:11:47,839
-an identity, right? In fact, the SEDI
+an identity. In fact, the SEDI
 
 264
 00:11:47,839 --> 00:11:50,800
@@ -1066,7 +1065,7 @@ to the individual's existence and
 
 267
 00:11:56,720 --> 00:11:59,440
-independent of the state. which identity
+independent of the state. Which identity
 
 268
 00:11:59,440 --> 00:12:02,720
@@ -1090,27 +1089,27 @@ create your identifier or identifiers.
 
 273
 00:12:16,480 --> 00:12:19,600
-the state proofs specific attributes
+The state proofs specific attributes
 
 274
 00:12:19,600 --> 00:12:21,519
-about you
+about you,
 
 275
 00:12:21,519 --> 00:12:25,519
-and then links those attributes to you
+then links those attributes to you
 
 276
 00:12:25,519 --> 00:12:28,160
-In a cryptographic way, not to you to
+in a cryptographic way, not to you,
 
 277
 00:12:28,160 --> 00:12:30,079
-to this identifier, right, that you
+to this identifier (that you
 
 278
 00:12:30,079 --> 00:12:32,800
-control, right? In a cryptographic way.
+control). In a cryptographic way.
 
 279
 00:12:32,800 --> 00:12:34,959
@@ -1146,31 +1145,30 @@ and whatever other attributes might be
 
 287
 00:12:54,320 --> 00:12:56,560
-part of your setting."
+part of your SEDI."
 
 288
 00:12:56,560 --> 00:13:02,710
-So set is not just one credential.
+So SEDI not just one credential.
 
 289
-00:13:06,470 --> 00:13:08,800
-Like I said, you create an identifier or
-identifiers
+00:13:02,735 --> 00:13:05,769
+Like I said, you create an identifier
 
 290
+00:13:05,793 --> 00:13:08,800
+(or identifiers),
+
+291
 00:13:08,800 --> 00:13:11,519
 and then SEDI
 
-291
-00:13:11,519 --> 00:13:16,240
+292
+00:13:11,519 --> 00:13:17,397
 is a credential which links those
 
-292
-00:13:16,240 --> 00:13:18,560
-identifiers to I'm sorry those
-
 293
-00:13:18,560 --> 00:13:20,480
+00:13:17,422 --> 00:13:20,480
 attributes that the state has proofed
 
 294
@@ -1178,17 +1176,16 @@ attributes that the state has proofed
 and endorsed to that identifier.
 
 295
-00:13:25,509 --> 00:13:25,519
-
+00:13:25,519 --> 00:13:27,747
+Now there could be other government
 
 296
-00:13:25,519 --> 00:13:30,000
-now there could be other government
+00:13:27,771 --> 00:13:30,000
 credentials that sit on top of that.
 
 297
 00:13:30,000 --> 00:13:32,399
-things like driver's licenses. We heard
+Things like driver's licenses. We heard
 
 298
 00:13:32,399 --> 00:13:35,920
@@ -1200,7 +1197,7 @@ operator licenses, fishing licenses.
 
 300
 00:13:39,519 --> 00:13:41,839
-States are veritable credential
+States are verifiable credential
 
 301
 00:13:41,839 --> 00:13:44,480
@@ -1236,7 +1233,7 @@ Others will be just things that you get.
 
 309
 00:14:00,399 --> 00:14:02,959
-And you know, like I said, I've got six
+And, like I said, I've got six
 
 310
 00:14:02,959 --> 00:14:04,639
@@ -1304,7 +1301,7 @@ that would be interesting now but I mean
 
 326
 00:14:42,880 --> 00:14:45,920
-you know with personal agents AI agents
+with personal agents AI agents
 
 327
 00:14:45,920 --> 00:14:47,600
@@ -1523,7 +1520,7 @@ inalienable.
 380
 00:17:06,959 --> 00:17:10,880
 these are legal rights not terms of
-service. Right? This is not a
+service. This is not a
 
 381
 00:17:10,880 --> 00:17:12,640
@@ -1531,7 +1528,7 @@ click-through contract that you don't
 
 382
 00:17:12,640 --> 00:17:15,839
-read. And you know, if you want to
+read. And, if you want to
 
 383
 00:17:15,839 --> 00:17:18,480
@@ -1631,7 +1628,7 @@ in any of those, move it between them,
 
 407
 00:18:18,960 --> 00:18:22,000
-you know, whatever. It includes a
+whatever. It includes a
 
 408
 00:18:22,000 --> 00:18:24,320
@@ -1815,7 +1812,7 @@ what's it called? A digital privacy on
 
 453
 00:20:31,600 --> 00:20:34,320
-budsman and the attorney general. Yeah.
+ombudsman and the attorney general. Yeah.
 
 454
 00:20:34,320 --> 00:20:37,120
@@ -1859,19 +1856,19 @@ Yeah.
 
 464
 00:20:54,640 --> 00:21:00,159
-Rich too far. Yeah. Yeah. Okay. So
+reach too far. Yeah. Yeah. Okay. So
 
 465
 00:21:00,159 --> 00:21:03,120
-these aren't just like you know consent
+these aren't just like consent
 
 466
 00:21:03,120 --> 00:21:05,360
-form clickth through consent forms and
+form clickth-through consent forms and
 
 467
 00:21:05,360 --> 00:21:08,240
-you know support calls that you make,
+support calls that you make,
 
 468
 00:21:08,240 --> 00:21:10,480
@@ -2019,7 +2016,7 @@ I guess you know I'll get to know him a
 
 504
 00:22:51,760 --> 00:22:53,679
-little better and then you know you have
+little better and then you have
 
 505
 00:22:53,679 --> 00:22:56,240
@@ -2055,7 +2052,7 @@ bootstrap things right so at the top of
 
 513
 00:23:09,679 --> 00:23:12,640
-this I have a diploma right so if you
+this I have a diploma so if you
 
 514
 00:23:12,640 --> 00:23:15,679
@@ -2067,7 +2064,7 @@ my education I can give you a diploma
 
 516
 00:23:18,320 --> 00:23:21,039
-right that is essentially reputation by
+that is essentially reputation by
 
 517
 00:23:21,039 --> 00:23:25,600
@@ -2235,7 +2232,7 @@ this a legal business? Is it even
 
 558
 00:25:13,840 --> 00:25:17,760
-recognized as a business? So you know
+recognized as a business? So
 
 559
 00:25:17,760 --> 00:25:19,600
@@ -2259,11 +2256,11 @@ diploma as a credential
 
 564
 00:25:29,679 --> 00:25:32,240
-all of this can be checked automatically
+all of this can be checked automatically,
 
 565
 00:25:32,240 --> 00:25:34,480
-right these chains can be followed. We
+hese chains can be followed. We
 
 566
 00:25:34,480 --> 00:25:37,039
@@ -2339,7 +2336,7 @@ by behavior. Now, in the physical world,
 
 584
 00:26:20,640 --> 00:26:22,400
-right, we just interact with each other,
+we just interact with each other,
 
 585
 00:26:22,400 --> 00:26:24,400
@@ -2432,7 +2429,7 @@ away from the actual thing that I give
 
 607
 00:27:21,360 --> 00:27:24,320
-you. Right? So there are accumulated
+you. So there are accumulated
 
 608
 00:27:24,320 --> 00:27:27,440
@@ -3049,7 +3046,7 @@ right? And just to your point very
 
 761
 00:33:49,440 --> 00:33:51,600
-quickly about transactions, you know, we
+quickly about transactions we
 
 762
 00:33:51,600 --> 00:33:54,159
@@ -3206,7 +3203,7 @@ and you Yeah, I'm going to use that
 
 800
 00:35:39,520 --> 00:35:41,280
-agent because I, you know, like the
+agent because I like the
 
 801
 00:35:41,280 --> 00:35:43,839
